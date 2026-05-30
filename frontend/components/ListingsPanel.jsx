@@ -2,6 +2,9 @@
 // Filters: Site + Cause are multi-select (pick several at once) + sort.
 // Results paginate via infinite scroll (mobile-style "load more on scroll").
 // City is shown as a hover-only map pin (parsing is unreliable for filtering).
+//
+// Org names are clickable (open the org summary) and each card has a
+// "Read more" that opens the full description in a modal — no leaving the site.
 
 import { useEffect, useMemo, useRef, useState } from 'react'
 import CityBadge from './CityBadge'
@@ -10,6 +13,7 @@ import SectionShell from './SectionShell'
 import TagChip from './TagChip'
 import { getTags } from './sanitizeTag'
 import { cleanOrgName } from './cleanText'
+import { orgKey } from './orgs'
 
 const SORT_OPTIONS = [
   { id: 'recent', label: 'Recently added' },
@@ -31,7 +35,7 @@ function parseDate(str) {
 // How many rows to reveal per "page" as the user scrolls (non-compact only).
 const PAGE_SIZE = 12
 
-export default function ListingsPanel({ listings, compact = false, onExpand }) {
+export default function ListingsPanel({ listings, compact = false, onExpand, onSelectOrg, onSelectListing }) {
   // Multi-select: empty array = "All". Otherwise the listing must match ANY
   // selected site and ANY selected cause (OR within a group, AND across groups).
   const [sources, setSources] = useState([])
@@ -187,7 +191,15 @@ export default function ListingsPanel({ listings, compact = false, onExpand }) {
       ) : (
         <>
           <div className="bg-white border border-line rounded-2xl shadow-card divide-y divide-lineSoft overflow-hidden">
-            {visible.map(row => <Row key={row.id} data={row} compact={compact} />)}
+            {visible.map(row => (
+              <Row
+                key={row.id}
+                data={row}
+                compact={compact}
+                onSelectOrg={onSelectOrg}
+                onSelectListing={onSelectListing}
+              />
+            ))}
           </div>
 
           {/* Infinite-scroll sentinel + loading hint (non-compact only) */}
@@ -278,27 +290,17 @@ function SitePill({ children, count, active, onClick }) {
   )
 }
 
-function Row({ data, compact }) {
+function Row({ data, compact, onSelectOrg, onSelectListing }) {
   const {
-    opportunity_title, org_name, description_short,
+    opportunity_title, org_name, description_short, description_long,
     schedule, address, volunteers_needed, source_url, is_virtual, source,
     published,
   } = data
 
   const showPin   = source !== 'volunteermckinney'
   const cleanTags = getTags(data)
+  const orgLabel  = cleanOrgName(org_name)
+  const orgK      = orgKey(org_name)
 
-  // Pretty "Posted Mar 14" style for the published date
-  const postedLabel = published
-    ? new Date(published).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
-    : null
-
-  return (
-    <div className="group relative p-4 lg:p-5 hover:bg-canvas transition-colors">
-      <div className="flex items-start gap-4">
-        <SourceBox source={source} />
-
-        <div className="flex-1 min-w-0">
-          <div className="flex items-center gap-2 flex-wrap">
-            <span className="text-xs font-semibold text-muted uppercase tracking-wider truncate">
-              {clea
+  // The 2-line teaser; "Read more" opens the full text in a modal.
+  const d
