@@ -266,15 +266,7 @@ file has a header comment explaining what it does and where to edit.
 
 ## Known issues / TODO
 
-- **McKinney address parsing** is unreliable; the city pin is hidden for that
-  source until the scraper extracts addresses cleanly.
-- **Garland scraper** uses older loose regex selectors (the same ones the
-  McKinney scraper used to). Likely has similar dirt in `cause_tags`. The
-  frontend `sanitizeTags` + `unified_tags` pipeline papers over this, but
-  cleaning the source is worth a pass eventually — mirror the precise selectors
-  from `fetch_mckinney.py` (`section.description div.section-content`,
-  `div.agency .title`, `ul.interests-list li.interest`).
-- **fetch_idealist.py** is a stub — needs an API key from support@idealist.org.
-- **Voly cities** are accurate when present, but the Voly scraper sometimes
-  returns no city (e.g. virtual opportunities) — handled gracefully by hiding
-  the pin.
+* Keep READMES up to date
+* Pagination of listings
+* Filter on muiltiple causes? listings?
+* Volunteer Mckinney needs a more refined description parsing
