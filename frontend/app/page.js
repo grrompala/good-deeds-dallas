@@ -1,0 +1,268 @@
+// page.js — Y'all Volunteer landing page.
+//
+// Default state: hero with search + empty content area. When the user
+// searches, all three sections (Listings, Organizations, Chatter) appear
+// stacked. Clicking a tab focuses just that section. Home button in the
+// tab bar (or clicking the wordmark) returns to the empty state.
+//
+// 'use client' is required because we use React hooks.
+'use client'
+
+import { useEffect, useMemo, useRef, useState } from 'react'
+import Hero                from '../components/Hero'
+import TabBar              from '../components/TabBar'
+import ListingsPanel       from '../components/ListingsPanel'
+import OrganizationsPanel  from '../components/OrganizationsPanel'
+import CommunityPanel      from '../components/CommunityPanel'
+import TagChip             from '../components/TagChip'
+
+export default function Home() {
+  const [opportunities, setOpportunities] = useState([])
+  const [news,          setNews]          = useState([])
+  const [loading,       setLoading]       = useState(true)
+  const [search,        setSearch]        = useState('')
+  const [focusedTab,    setFocusedTab]    = useState(null)
+
+  const listingsRef = useRef(null)
+  const orgsRef     = useRef(null)
+  const chatterRef  = useRef(null)
+
+  // ── Load all data sources in parallel ────────────────────────────────────
+  useEffect(() => {
+    async function loadData() {
+      try {
+        const [garlandRes, mckinneyRes, volyRes, idealistRes, curatedRes, newsRes] = await Promise.all([
+          fetch('/data/volops_garland.json'),
+          fetch('/data/volops_mckinney.json'),
+          fetch('/data/volops_voly.json'),
+          fetch('/data/volops_idealist.json'),
+          fetch('/data/volops_curated.json'),
+          fetch('/data/reddit_raw.json'),
+        ])
+        const garland  = garlandRes.ok  ? await garlandRes.json()  : []
+        const mckinney = mckinneyRes.ok ? await mckinneyRes.json() : []
+        const voly     = volyRes.ok     ? await volyRes.json()     : []
+        const idealist = idealistRes.ok ? await idealistRes.json() : []
+        const curated  = curatedRes.ok  ? await curatedRes.json()  : []
+        const newsData = newsRes.ok     ? await newsRes.json()     : []
+
+        setOpportunities(
+          [...garland, ...mckinney, ...voly, ...idealist, ...curated].filter(r => r.status !== 'inactive')
+        )
+        setNews(
+          newsData
+            .filter(r => (r.relevance?.total || 0) >= 2)
+            .sort((a, b) => new Date(b.created_utc) - new Date(a.created_utc))
+        )
+      } catch (err) {
+        console.error('Failed to load data:', err)
+      } finally {
+        setLoading(false)
+      }
+    }
+    loadData()
+  }, [])
+
+  // ── Search filter ────────────────────────────────────────────────────────
+  const q = search.trim().toLowerCase()
+  const filteredOpps = useMemo(() => {
+    if (!q) return opportunities
+    return opportunities.filter(o => {
+      const hay = [
+        o.opportunity_title, o.org_name, o.description_short, o.description_long,
+        ...(o.cause_tags || []), ...(o.unified_tags || []), o.address?.city,
+      ].filter(Boolean).join(' ').toLowerCase()
+      return hay.includes(q)
+    })
+  }, [opportunities, q])
+
+  const filteredNews = useMemo(() => {
+    if (!q) return news
+    return news.filter(p =>
+      `${p.title} ${p.body || ''} ${p.subreddit}`.toLowerCase().includes(q)
+    )
+  }, [news, q])
+
+  // Real listings (Garland + McKinney + Voly). Curated entries live in
+  // Organizations only — and Organizations contains nothing else.
+  const realListings = useMemo(
+    () => filteredOpps.filter(o => o.source !== 'curated'),
+    [filteredOpps]
+  )
+  const curatedOpps = useMemo(
+    () => filteredOpps.filter(o => o.source === 'curated'),
+    [filteredOpps]
+  )
+
+  // Hero stats
+  const totalListings = opportunities.filter(o => o.source !== 'curated').length
+  const curatedOrgCount = useMemo(() => {
+    const orgs = new Set(
+      opportunities.filter(o => o.source === 'curated').map(o => o.org_name).filter(Boolean)
+    )
+    return orgs.size
+  }, [opportunities])
+
+  // Tab counts (filtered)
+  const tabCounts = {
+    listings:      realListings.length,
+    organizations: new Set(curatedOpps.map(o => o.org_name).filter(Boolean)).size,
+    chatter:       filteredNews.length,
+  }
+
+  // Home button: clear search + tab, scroll to top
+  function goHome() {
+    setSearch('')
+    setFocusedTab(null)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+
+  // Tab click: if search is active (stacked mode), smooth-scroll to anchor.
+  // Otherwise focus that single section.
+  function handleTabChange(tabId) {
+    if (q) {
+      const map = { listings: listingsRef, organizations: orgsRef, chatter: chatterRef }
+      map[tabId]?.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+    } else {
+      setFocusedTab(tabId)
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+    }
+  }
+
+  const isStacked = !!q
+  const isEmpty   = !q && !focusedTab
+
+  return (
+    <>
+      <Hero
+        search={search}
+        setSearch={setSearch}
+        onWordmarkClick={goHome}
+        totalOpps={totalListings}
+        totalOrgs={curatedOrgCount}
+        totalNews={news.length}
+      />
+
+      <TabBar
+        active={isStacked ? null : focusedTab}
+        onChange={handleTabChange}
+        onHome={goHome}
+        counts={tabCounts}
+      />
+
+      <main className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10 py-8 lg:py-12">
+        {loading ? (
+          <div className="flex justify-center items-center py-32 text-muted">
+            <div className="animate-pulse">Loading…</div>
+          </div>
+        ) : isEmpty ? (
+          <EmptyHomeState onSuggest={setSearch} />
+        ) : (
+          <>
+            {q && (
+              <div className="mb-8 flex items-baseline justify-between">
+                <p className="text-base text-ink">
+                  Showing matches for <span className="font-semibold">"{search}"</span>
+                </p>
+                <button onClick={() => setSearch('')} className="text-sm text-muted hover:text-ink">
+                  Clear ×
+                </button>
+              </div>
+            )}
+
+            {/* Stacked when searching */}
+            {isStacked && (
+              <div className="space-y-12">
+                <div ref={listingsRef} className="scroll-mt-20">
+                  <ListingsPanel listings={realListings} />
+                </div>
+                <div ref={orgsRef} className="scroll-mt-20">
+                  <OrganizationsPanel curated={curatedOpps} searchActive={!!q} />
+                </div>
+                <div ref={chatterRef} className="scroll-mt-20">
+                  <CommunityPanel posts={filteredNews} />
+                </div>
+              </div>
+            )}
+
+            {/* Focused single section */}
+            {!isStacked && focusedTab === 'listings' && (
+              <ListingsPanel listings={realListings} />
+            )}
+            {!isStacked && focusedTab === 'organizations' && (
+              <OrganizationsPanel curated={curatedOpps} searchActive={!!q} />
+            )}
+            {!isStacked && focusedTab === 'chatter' && (
+              <CommunityPanel posts={filteredNews} />
+            )}
+          </>
+        )}
+      </main>
+
+      <footer className="border-t border-line bg-white mt-8">
+        <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10 py-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+          <button onClick={goHome} className="flex flex-wrap items-center gap-3 hover:opacity-80 transition-opacity">
+            <span className="font-display font-extrabold text-ink text-lg">
+              Y'all <span className="text-brand">Volunteer</span>
+            </span>
+            <span className="text-xs font-mono text-muted uppercase tracking-wider">
+              Greater Dallas
+            </span>
+          </button>
+          <div className="text-sm text-muted">
+            Aggregated from{' '}
+            <span className="font-mono text-xs">volunteergarland.org</span>,{' '}
+            <span className="font-mono text-xs">volunteermckinney.galaxydigital.com</span>,{' '}
+            <span className="font-mono text-xs">dallas.voly.org</span>,
+            curated nonprofits, and local subreddits.
+          </div>
+        </div>
+      </footer>
+    </>
+  )
+}
+
+// ── Empty default state ──────────────────────────────────────────────────────
+// Suggestion chips pull from the unified TAXONOMY (see classify_listings.py
+// and components/tagMeta.js). Clicking a chip sets the search query to the
+// tag id, which matches against unified_tags in the haystack.
+const SUGGESTED_TAGS = [
+  'food_security',
+  'children',
+  'seniors',
+  'animals',
+  'environment',
+  'education',
+  'health',
+  'community',
+]
+
+function EmptyHomeState({ onSuggest }) {
+  return (
+    <div className="py-16 lg:py-24 text-center max-w-2xl mx-auto">
+      <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-brandSoft text-brand mb-5">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-7 h-7">
+          <circle cx="11" cy="11" r="7" />
+          <path d="m20 20-3.5-3.5" strokeLinecap="round" />
+        </svg>
+      </div>
+      <h2 className="font-display font-bold text-2xl sm:text-3xl text-ink">
+        What kind of giving back are you up for?
+      </h2>
+      <p className="mt-3 text-base sm:text-lg text-muted leading-relaxed">
+        Type a cause, neighborhood, or nonprofit in the search above — or pick
+        a category to start exploring.
+      </p>
+      <div className="mt-7 flex flex-wrap items-center justify-center gap-2">
+        {SUGGESTED_TAGS.map(tagId => (
+          <TagChip
+            key={tagId}
+            id={tagId}
+            variant="filter"
+            onClick={() => onSuggest(tagId)}
+          />
+        ))}
+      </div>
+    </div>
+  )
+}

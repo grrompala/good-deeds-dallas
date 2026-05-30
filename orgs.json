@@ -1,0 +1,233 @@
+[
+  {
+    "id": "senior_source_dallas",
+    "name": "The Senior Source",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["seniors"],
+    "volunteer_url": "https://theseniorsource.org/volunteer/",
+    "fallback_urls": [],
+    "notes": "Elder financial safety, nursing home advocacy, fraud prevention. HQ in Dallas, serves Richardson/Garland area.",
+    "active": true
+  },
+  {
+    "id": "network_of_community_ministries",
+    "name": "Network of Community Ministries",
+    "city": "Richardson",
+    "state": "TX",
+    "cause": ["food_security", "community"],
+    "volunteer_url": "https://thenetwork.org/get-involved/volunteer/",
+    "fallback_urls": ["https://thenetwork.org/"],
+    "notes": "Richardson-based food pantry and social services. Serves all 14 RISD zip codes. ~9,000 individuals annually.",
+    "active": true
+  },
+  {
+    "id": "warren_center",
+    "name": "The Warren Center",
+    "city": "Richardson",
+    "state": "TX",
+    "cause": ["children", "health"],
+    "volunteer_url": "https://thewarrencenter.org/ways-to-give/volunteer/",
+    "fallback_urls": ["https://thewarrencenter.org/ways-to-give/community-volunteering-opportunities/"],
+    "notes": "Serves children with developmental delays and disabilities. Event-based and ongoing volunteer roles.",
+    "active": true
+  },
+  {
+    "id": "texas_ramp_project",
+    "name": "The Texas Ramp Project",
+    "city": "Richardson",
+    "state": "TX",
+    "cause": ["housing", "seniors", "health"],
+    "volunteer_url": "https://texasramps.org/dallas-region/",
+    "fallback_urls": ["https://texasramps.org/volunteer/"],
+    "notes": "Builds free wheelchair ramps for low-income residents. Saturday morning builds, ages 16+. HQ in Richardson.",
+    "active": true
+  },
+  {
+    "id": "fmsc_richardson",
+    "name": "Feed My Starving Children",
+    "city": "Richardson",
+    "state": "TX",
+    "cause": ["food_security"],
+    "volunteer_url": "https://www.fmsc.org/locations/richardson-tx",
+    "fallback_urls": ["https://www.fmsc.org/volunteer"],
+    "notes": "Permanent meal-packing site in Richardson. Family-friendly, all ages. Very high volunteer throughput.",
+    "active": true
+  },
+  {
+    "id": "richardson_animal_shelter",
+    "name": "Richardson Animal Shelter",
+    "city": "Richardson",
+    "state": "TX",
+    "cause": ["animals"],
+    "volunteer_url": "https://www.cor.net/i-want-to/volunteer/animal-shelter",
+    "fallback_urls": ["https://www.cor.net/i-want-to/volunteer"],
+    "notes": "City-run shelter. Orientation 1st and 3rd Wednesday monthly. Doggy Day Out, kennel care, fostering.",
+    "active": true
+  },
+  {
+    "id": "richardson_humane_society",
+    "name": "Richardson Humane Society",
+    "city": "Richardson",
+    "state": "TX",
+    "cause": ["animals"],
+    "volunteer_url": "https://www.richardsonhumanesociety.org/volunteer/",
+    "fallback_urls": [],
+    "notes": "Companion animal welfare. Foster program, adoption events, shelter support.",
+    "active": true
+  },
+  {
+    "id": "dallas_casa",
+    "name": "Dallas CASA",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["children", "foster_care", "legal"],
+    "volunteer_url": "https://www.dallascasa.org/how-to-volunteer/what-is-a-volunteer-advocate/",
+    "fallback_urls": ["https://www.dallascasa.org/"],
+    "notes": "Court-appointed advocates for abused/neglected children in foster care. Significant training commitment required.",
+    "active": true
+  },
+  {
+    "id": "good_samaritans_garland",
+    "name": "Good Samaritans of Garland",
+    "city": "Garland",
+    "state": "TX",
+    "cause": ["food_security", "community"],
+    "volunteer_url": "https://www.goodsamofgarland.org/volunteer/",
+    "fallback_urls": [],
+    "notes": "Food pantry open 5 days/week. Mon–Fri 8am–2pm shifts. Ages 16+. No zip code restrictions for recipients.",
+    "active": true
+  },
+  {
+    "id": "habitat_garland",
+    "name": "Habitat for Humanity of Greater Garland",
+    "city": "Garland",
+    "state": "TX",
+    "cause": ["housing", "community"],
+    "volunteer_url": "https://www.garlandhabitat.org/volunteer",
+    "fallback_urls": ["https://www.garlandhabitat.org/"],
+    "notes": "Builds affordable homes in Garland, Rowlett, and Sachse. Saturday build days, no experience needed.",
+    "active": true
+  },
+  {
+    "id": "salvation_army_garland",
+    "name": "The Salvation Army Garland Corps",
+    "city": "Garland",
+    "state": "TX",
+    "cause": ["food_security", "community", "crisis_support"],
+    "volunteer_url": "https://salvationarmyntx.org/north-texas/garland/",
+    "fallback_urls": ["https://www.salvationarmyusa.org/tx/garland/"],
+    "notes": "Food distribution, warming shelter, Angel Tree holiday program. Red Kettle volunteers especially needed Nov–Dec.",
+    "active": true
+  },
+  {
+    "id": "friends_rescue_animals_garland",
+    "name": "Friends of Rescue Animals (Garland Animal Services)",
+    "city": "Garland",
+    "state": "TX",
+    "cause": ["animals"],
+    "volunteer_url": "https://frastx.org/about/",
+    "fallback_urls": ["https://frastx.org/"],
+    "notes": "Manages volunteer program for Garland Animal Services. Dog walks, laundry, enrichment, offsite adoption events.",
+    "active": true
+  },
+  {
+    "id": "north_texas_food_bank",
+    "name": "North Texas Food Bank",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["food_security"],
+    "volunteer_url": "https://ntfb.org/get-involved/volunteer/",
+    "fallback_urls": ["https://volunteer.ntfb.org/need/"],
+    "notes": "Regional food bank. Pack and Box shifts Tue–Thu and Sat. Ages 12+. Individual and group slots available.",
+    "active": true
+  },
+  {
+    "id": "feed_the_city_richardson",
+    "name": "Feed The City — Richardson",
+    "city": "Richardson",
+    "state": "TX",
+    "cause": ["food_security", "community"],
+    "volunteer_url": "https://www.tangocharities.org/feed-the-city-richardson",
+    "fallback_urls": [],
+    "notes": "Packs and distributes donated food to people in need. Family and group friendly.",
+    "active": true
+  },
+  {
+    "id": "feed_the_city_garland",
+    "name": "Feed The City — Garland",
+    "city": "Garland",
+    "state": "TX",
+    "cause": ["food_security", "community"],
+    "volunteer_url": "https://www.tangocharities.org/feed-the-city-garland",
+    "fallback_urls": [],
+    "notes": "Meal packing and distribution. All ages welcome.",
+    "active": true
+  },
+  {
+    "id": "local_good_pantry",
+    "name": "Local Good Pantry",
+    "city": "Richardson",
+    "state": "TX",
+    "cause": ["food_security"],
+    "volunteer_url": "https://localgoodpantry.org/volunteer",
+    "fallback_urls": ["https://localgoodpantry.org/"],
+    "notes": "Hyperlocal food pantry serving Richardson area food-insecure families.",
+    "active": true
+  },
+  {
+    "id": "care_corps_richardson",
+    "name": "CARE Corps Food Pantry",
+    "city": "Richardson",
+    "state": "TX",
+    "cause": ["food_security"],
+    "volunteer_url": "https://www.carechurch.org/carecorps",
+    "fallback_urls": [],
+    "notes": "Serving RISD-area low-income residents since 1986. Contact-based volunteer intake at 972-234-2273.",
+    "active": true
+  },
+  {
+    "id": "city_of_richardson_volunteer",
+    "name": "City of Richardson Volunteer Programs",
+    "city": "Richardson",
+    "state": "TX",
+    "cause": ["community"],
+    "volunteer_url": "https://www.cor.net/i-want-to/volunteer",
+    "fallback_urls": [],
+    "notes": "Umbrella page for city programs: library, parks events, Eisemann Center, Volunteers in Police Services (VIPS), Trash Bash, Wildflower! Festival (1,500+ volunteers annually).",
+    "active": true
+  },
+  {
+    "id": "heritage_farmstead_museum",
+    "name": "Heritage Farmstead Museum",
+    "city": "Richardson",
+    "state": "TX",
+    "cause": ["education", "community", "environment"],
+    "volunteer_url": "https://www.heritagefarmstead.org/volunteer",
+    "fallback_urls": ["https://www.heritagefarmstead.org/support/volunteer"],
+    "notes": "Historic working farm at 1900 W. 15th St, Richardson. Saturday Clean Up Days, Lights on the Farm, kitchen garden, special events. Family friendly.",
+    "active": true
+  },
+  {
+    "id": "baylor_scott_white_richardson",
+    "name": "Baylor Scott & White Medical Center — Richardson",
+    "city": "Richardson",
+    "state": "TX",
+    "cause": ["health", "community"],
+    "volunteer_url": "https://www.bswhealth.com/volunteer",
+    "fallback_urls": [],
+    "notes": "Hospital volunteer program at Richardson campus. Patient support, wayfinding, auxiliary roles.",
+    "active": true
+  },
+  {
+    "id": "joseph_catholic_mobile_pantry",
+    "name": "St. Joseph Catholic Church — Mobile Food Pantry",
+    "city": "Richardson",
+    "state": "TX",
+    "cause": ["food_security"],
+    "volunteer_url": "https://josephcatholic.org/catholic-charities",
+    "fallback_urls": [],
+    "notes": "Mobile food pantry serving Richardson and Garland. Faith-based but open to all volunteers.",
+    "active": true
+  }
+]

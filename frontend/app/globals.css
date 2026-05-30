@@ -1,0 +1,27 @@
+/*
+  globals.css — base styles.
+  Tailwind utilities are injected by the three @tailwind directives below.
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8fafc;   /* canvas */
+  color: #0B1220;              /* ink */
+  font-feature-settings: "ss01", "cv11";
+}
+
+::selection {
+  background-color: #eef2ff;
+  color: #0B1220;
+}
+
+/* Hide horizontal scrollbars on pill rows */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }

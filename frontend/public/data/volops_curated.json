@@ -1,0 +1,1243 @@
+[
+  {
+    "id": "baylor_scott_white_richardson_0",
+    "source": "curated",
+    "org_id": "baylor_scott_white_richardson",
+    "org_name": "Baylor Scott & White Medical Center — Richardson",
+    "source_url": "https://www.bswhealth.com/volunteer",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:31:57.627355+00:00",
+    "opportunity_title": "Animal Assisted Therapy",
+    "description_short": "Bring your trained dog to visit and work with patients.",
+    "description_long": "At Baylor Scott & White, we look to put smiles on our patients faces any way we can. And sometimes, bringing our furry friends to visit (and work with) our patients does just the trick. The Animal Assisted Therapy program began in 1985 with one sheltie, Dusty, visiting patients once a week. Since then, the number of therapy dogs has continued to grow to keep up with the increasing demand for this type of therapy.",
+    "schedule": {
+      "raw": "At least once every 90 days",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "At least once every 90 days",
+    "location": {
+      "address": null,
+      "city": "Dallas-Fort Worth Metroplex",
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Owner must be at least 18, non-nicotine user, and complete various health screenings and orientation.",
+    "cause_tags": [
+      "health",
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete the online volunteer form.",
+    "unified_tags": [
+      "animals",
+      "health"
+    ]
+  },
+  {
+    "id": "dallas_casa_0",
+    "source": "curated",
+    "org_id": "dallas_casa",
+    "org_name": "Dallas CASA",
+    "source_url": "https://www.dallascasa.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:29:34.980243+00:00",
+    "opportunity_title": "Volunteer Information Session",
+    "description_short": "Join an information session to learn about volunteering with Dallas CASA.",
+    "description_long": "Volunteer Information Sessions are designed to educate potential volunteers about the work of Dallas CASA.",
+    "schedule": {
+      "raw": "May 21 @ 6:00 pm - 7:00 pm, May 29 @ 12:00 pm - 1:00 pm, June 11 @ 6:00 pm - 7:00 pm",
+      "recurring": null,
+      "times_of_day": "evening, afternoon"
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "children",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Attend one of the scheduled information sessions.",
+    "unified_tags": []
+  },
+  {
+    "id": "fmsc_richardson_0",
+    "source": "curated",
+    "org_id": "fmsc_richardson",
+    "org_name": "Feed My Starving Children",
+    "source_url": "https://www.fmsc.org/locations/richardson-tx",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:29:07.741043+00:00",
+    "opportunity_title": "Meal Packing Volunteer",
+    "description_short": "Pack meals for hungry children worldwide at our Richardson location.",
+    "description_long": "Volunteers get ready to grab a hairnet and pack meals for hungry children all over the globe! Serve locally while making an impact globally for hungry kids. Volunteers pack the nutritious MannaPack® meals of vitamins, vegetables, soy and rice into bags and boxes that are then shipped all over the globe.",
+    "schedule": {
+      "raw": "Monday: 8:45 a.m.–9 p.m., Tuesday: 8:45 a.m.–1:15 p.m. and 4:45–9 p.m., Wednesday–Saturday: 8:45 a.m.–9 p.m., Sunday: Closed",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "One-time or recurring",
+    "location": {
+      "address": "1680 N Glenville Dr, Ste 300",
+      "city": "Richardson",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "children",
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up as an individual or as a group by contacting Larissa Reeh at 214-453-5480 or Richardsoninfo@fmsc.org.",
+    "unified_tags": [
+      "children",
+      "food_security",
+      "community"
+    ]
+  },
+  {
+    "id": "habitat_garland_0",
+    "source": "curated",
+    "org_id": "habitat_garland",
+    "org_name": "Habitat for Humanity of Greater Garland",
+    "source_url": "https://www.garlandhabitat.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:29:55.224486+00:00",
+    "opportunity_title": "Construction Volunteer",
+    "description_short": "Help build homes in Garland, Rowlett, and Sachse.",
+    "description_long": "Construction Opportunities are both for individuals and groups. If you would like to volunteer as an individual, available dates will be listed below. If you would like to bring a group out to volunteer, please fill out a Group Request and we can work together to scheduled your volunteer day! You must be 18 years or older to volunteer on an active Habitat job site.",
+    "schedule": {
+      "raw": "Varies",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "one-time or recurring",
+    "location": {
+      "address": null,
+      "city": "Garland",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 years or older to volunteer.",
+    "cause_tags": [
+      "housing",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up for available opportunities through Civic Champs.",
+    "unified_tags": []
+  },
+  {
+    "id": "habitat_garland_1",
+    "source": "curated",
+    "org_id": "habitat_garland",
+    "org_name": "Habitat for Humanity of Greater Garland",
+    "source_url": "https://www.garlandhabitat.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:29:55.224486+00:00",
+    "opportunity_title": "ReStore Volunteer",
+    "description_short": "Assist in the ReStore helping with various tasks.",
+    "description_long": "When you volunteer at a Habitat ReStore, you are helping families build a brighter future! Volunteers work alongside staff, core volunteers, and Habitat homeowners in a variety of ways: greeting and assisting customers, accepting donations, sorting, preparing, and moving items on the sales floor, maintaining a clean and safe work environment, and much more! You must be 18 years or older to volunteer in the store, but experience is not required!",
+    "schedule": {
+      "raw": "Monday-Friday 10:00am-6:00pm and Saturday 9:00am-5:00pm",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "one-time or recurring",
+    "location": {
+      "address": null,
+      "city": "Garland",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 years or older to volunteer. Court Service Requirement volunteers accepted if not for theft or physical crime.",
+    "cause_tags": [
+      "housing",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact Volunteer Coordinator for group volunteer inquiries.",
+    "unified_tags": []
+  },
+  {
+    "id": "habitat_garland_2",
+    "source": "curated",
+    "org_id": "habitat_garland",
+    "org_name": "Habitat for Humanity of Greater Garland",
+    "source_url": "https://www.garlandhabitat.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:29:55.224486+00:00",
+    "opportunity_title": "Volunteer Photographer",
+    "description_short": "Capture moments at build sites and events.",
+    "description_long": "Are you a shutter bug? Amateur to professional, we are looking for volunteers to take pictures on our build sites, in our ReStore, and at special events (wall raising, home dedication ceremonies, groundbreakings). Volunteers help us share our Habitat story with our community. Individuals are asked to sign a Photo Contract as well as a liability waiver.",
+    "schedule": {
+      "raw": "Opportunities and dates posted as volunteer groups sign up.",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "one-time or as needed",
+    "location": {
+      "address": null,
+      "city": "Garland",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must sign a Photo Contract and liability waiver.",
+    "cause_tags": [
+      "community",
+      "arts"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Reach out to the Volunteer Coordinator for questions or inspiration.",
+    "unified_tags": []
+  },
+  {
+    "id": "heritage_farmstead_museum_5",
+    "source": "curated",
+    "org_id": "heritage_farmstead_museum",
+    "org_name": "Heritage Farmstead Museum",
+    "source_url": "https://www.heritagefarmstead.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:31:49.844046+00:00",
+    "opportunity_title": "Animal Care Volunteer",
+    "description_short": "Provide care to livestock and ensure their safety.",
+    "description_long": "Animal Care volunteers muck barns/pens, feed animals, ensure animals are safe, and round up chickens/ducks. Volunteers need to be comfortable providing care to livestock (donkey, pigs, sheep, goats, chickens, and ducks). Prior animal experience preferred. Volunteers must be self-sufficient and able to lift 50 lbs. containers of waste or food. This position requires a 6-month commitment. Shift currently available: Every Saturday evening between 6-8pm.",
+    "schedule": {
+      "raw": "Saturdays, 6-8pm",
+      "recurring": true,
+      "times_of_day": "evening"
+    },
+    "commitment": "6 months",
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Must have prior animal care experience and able to lift 50 lbs.",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete the volunteer application and steps.",
+    "unified_tags": [
+      "animals"
+    ]
+  },
+  {
+    "id": "heritage_farmstead_museum_1",
+    "source": "curated",
+    "org_id": "heritage_farmstead_museum",
+    "org_name": "Heritage Farmstead Museum",
+    "source_url": "https://www.heritagefarmstead.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:31:49.844046+00:00",
+    "opportunity_title": "Docent",
+    "description_short": "Guide tours and educate visitors about local history.",
+    "description_long": "Docents are tour guides, helpers, educators, and a vital part of the Museum! Docents undergo training on local Plano history, turn-of-the-century Texas history, farm and family life. Guides must enjoy being around people, teaching history, and enjoy the outdoors. Docents give guided public tours of the Farrell-Wilson house from 10am-12pm on Thursdays, Fridays and Saturdays.",
+    "schedule": {
+      "raw": "Thursdays, Fridays, Saturdays, 10am-12pm",
+      "recurring": true,
+      "times_of_day": "morning"
+    },
+    "commitment": "Ongoing",
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Must enjoy teaching and being around people.",
+    "cause_tags": [
+      "education"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete the volunteer application and steps.",
+    "unified_tags": [
+      "education",
+      "community",
+      "arts"
+    ]
+  },
+  {
+    "id": "heritage_farmstead_museum_4",
+    "source": "curated",
+    "org_id": "heritage_farmstead_museum",
+    "org_name": "Heritage Farmstead Museum",
+    "source_url": "https://www.heritagefarmstead.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:31:49.844046+00:00",
+    "opportunity_title": "Education Docent",
+    "description_short": "Support youth programs and field trips.",
+    "description_long": "Education Docents assist with our youth school programs and field trips. Tours are typically held Tuesday-Friday mornings, 9:30am-11:45am. Tours are held during the school year (September-May). Guides must enjoy being around children, teaching history and enjoy the outdoors.",
+    "schedule": {
+      "raw": "Tuesday-Friday, 9:30am-11:45am",
+      "recurring": true,
+      "times_of_day": "morning"
+    },
+    "commitment": "Ongoing during school year",
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Must enjoy teaching children.",
+    "cause_tags": [
+      "education"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete the volunteer application and steps.",
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
+  },
+  {
+    "id": "heritage_farmstead_museum_2",
+    "source": "curated",
+    "org_id": "heritage_farmstead_museum",
+    "org_name": "Heritage Farmstead Museum",
+    "source_url": "https://www.heritagefarmstead.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:31:49.844046+00:00",
+    "opportunity_title": "Grounds Guide",
+    "description_short": "Engage with guests and provide information as they explore the property.",
+    "description_long": "Grounds Guides answer questions from our guests as they walk around the property. Grounds Guides volunteer for two-hour shifts (10am-12pm and 12pm-2pm) on Thursdays-Saturdays. This is a wonderful opportunity to meet people from all over the world and to assist a vital growing organization.",
+    "schedule": {
+      "raw": "Thursdays-Saturdays, 10am-12pm and 12pm-2pm",
+      "recurring": true,
+      "times_of_day": "morning and afternoon"
+    },
+    "commitment": "Ongoing",
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "None specified.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete the volunteer application and steps.",
+    "unified_tags": []
+  },
+  {
+    "id": "heritage_farmstead_museum_0",
+    "source": "curated",
+    "org_id": "heritage_farmstead_museum",
+    "org_name": "Heritage Farmstead Museum",
+    "source_url": "https://www.heritagefarmstead.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:31:49.844046+00:00",
+    "opportunity_title": "Special Event Volunteer",
+    "description_short": "Help with special events like Lights on the Farm and Spring Festival.",
+    "description_long": "We are always looking for enthusiastic volunteers to help with our special events, such as Lights on the Farm, Spring Festival, Little Farmer Fridays, Homeschool Days and Friends of the Farmstead. Volunteers 12-16 years old must have an adult assist them at the same time and in the same position for our special events. We are unable to accept volunteers who are under 12 years old.",
+    "schedule": {
+      "raw": "Specific events vary",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "Varies by event",
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Volunteers aged 12-16 must have an adult present.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": "mailto:myrle@heritagefarmstead.org",
+    "apply_instructions": "Send your name, email and phone number to Myrle Bongiovanni, Volunteer Coordinator.",
+    "unified_tags": []
+  },
+  {
+    "id": "heritage_farmstead_museum_3",
+    "source": "curated",
+    "org_id": "heritage_farmstead_museum",
+    "org_name": "Heritage Farmstead Museum",
+    "source_url": "https://www.heritagefarmstead.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:31:49.844046+00:00",
+    "opportunity_title": "Visitor Center Host",
+    "description_short": "Welcome visitors and assist with admission and merchandise.",
+    "description_long": "The Host greets guests in the Visitor Center, answers questions about the museum, sells admission tickets and sells merchandise. Hosts are needed Thursday-Saturday from 10am-12pm and/or 12pm-2pm.",
+    "schedule": {
+      "raw": "Thursday-Saturday, 10am-12pm and/or 12pm-2pm",
+      "recurring": true,
+      "times_of_day": "morning and afternoon"
+    },
+    "commitment": "Ongoing",
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "None specified.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete the volunteer application and steps.",
+    "unified_tags": []
+  },
+  {
+    "id": "network_of_community_ministries_2",
+    "source": "curated",
+    "org_id": "network_of_community_ministries",
+    "org_name": "Network of Community Ministries",
+    "source_url": "https://thenetwork.org/get-involved/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:39.070731+00:00",
+    "opportunity_title": "Clothing Closet",
+    "description_short": "Help provide clothing for those in need.",
+    "description_long": "Network’s Clothing Closet provides clothing for our neighbors. Opportunities include: Checkout, Donation Sorting.",
+    "schedule": {
+      "raw": "Varies",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the Volunteer Program Manager at volunteer@thenetwork.org.",
+    "unified_tags": []
+  },
+  {
+    "id": "network_of_community_ministries_0",
+    "source": "curated",
+    "org_id": "network_of_community_ministries",
+    "org_name": "Network of Community Ministries",
+    "source_url": "https://thenetwork.org/get-involved/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:39.070731+00:00",
+    "opportunity_title": "Community Food Market",
+    "description_short": "Assist in providing food and resources to neighbors.",
+    "description_long": "Network’s Community Food Market provides food and other important resources for our neighbors. Opportunities include: Warehouse, Checkout, Greeting.",
+    "schedule": {
+      "raw": "Varies",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the Volunteer Program Manager at volunteer@thenetwork.org.",
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
+  },
+  {
+    "id": "network_of_community_ministries_5",
+    "source": "curated",
+    "org_id": "network_of_community_ministries",
+    "org_name": "Network of Community Ministries",
+    "source_url": "https://thenetwork.org/get-involved/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:39.070731+00:00",
+    "opportunity_title": "Grocery Donation Pick Up",
+    "description_short": "Help stock shelves by picking up groceries weekly.",
+    "description_long": "Help Network keep our shelves stocked by picking up groceries from our store partners. Grocery Donation Pick Ups are weekly shifts.",
+    "schedule": {
+      "raw": "Weekly",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the Volunteer Program Manager at volunteer@thenetwork.org.",
+    "unified_tags": []
+  },
+  {
+    "id": "network_of_community_ministries_3",
+    "source": "curated",
+    "org_id": "network_of_community_ministries",
+    "org_name": "Network of Community Ministries",
+    "source_url": "https://thenetwork.org/get-involved/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:39.070731+00:00",
+    "opportunity_title": "Home Delivery",
+    "description_short": "Deliver groceries to neighbors without transportation.",
+    "description_long": "Network delivers groceries to neighbors who do not have access to transportation. Opportunities include: Delivery Driving.",
+    "schedule": {
+      "raw": "Varies",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the Volunteer Program Manager at volunteer@thenetwork.org.",
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
+  },
+  {
+    "id": "network_of_community_ministries_6",
+    "source": "curated",
+    "org_id": "network_of_community_ministries",
+    "org_name": "Network of Community Ministries",
+    "source_url": "https://thenetwork.org/get-involved/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:39.070731+00:00",
+    "opportunity_title": "Intake",
+    "description_short": "Assist with certifying neighbors for services.",
+    "description_long": "Network’s Intake department helps certify neighbors and get them connected with our services. This is a weekly recurring role that requires more hands-on training and a regular commitment.",
+    "schedule": {
+      "raw": "Weekly",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Requires training and a regular commitment.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the Volunteer Program Manager at volunteer@thenetwork.org.",
+    "unified_tags": []
+  },
+  {
+    "id": "network_of_community_ministries_1",
+    "source": "curated",
+    "org_id": "network_of_community_ministries",
+    "org_name": "Network of Community Ministries",
+    "source_url": "https://thenetwork.org/get-involved/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:39.070731+00:00",
+    "opportunity_title": "Mobile Market",
+    "description_short": "Bring food to neighbors in multiple locations weekly.",
+    "description_long": "Network’s Mobile Market brings the food to our neighbors where they are. Volunteer opportunities include: Bagging, Paperwork assistance.",
+    "schedule": {
+      "raw": "Weekly",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the Volunteer Program Manager at volunteer@thenetwork.org.",
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
+  },
+  {
+    "id": "network_of_community_ministries_4",
+    "source": "curated",
+    "org_id": "network_of_community_ministries",
+    "org_name": "Network of Community Ministries",
+    "source_url": "https://thenetwork.org/get-involved/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:39.070731+00:00",
+    "opportunity_title": "Seniors' Net",
+    "description_short": "Support seniors to live happy and healthy lives.",
+    "description_long": "Network’s Seniors’ Net program ensures that seniors in our service area are able to live happy and healthy lives. Volunteer opportunities include: Seniors’ Day, Companion Calls, Handymen.",
+    "schedule": {
+      "raw": "Varies",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the Volunteer Program Manager at volunteer@thenetwork.org.",
+    "unified_tags": [
+      "seniors",
+      "health",
+      "community"
+    ]
+  },
+  {
+    "id": "richardson_humane_society_4",
+    "source": "curated",
+    "org_id": "richardson_humane_society",
+    "org_name": "Richardson Humane Society",
+    "source_url": "https://www.richardsonhumanesociety.org/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:29:25.388449+00:00",
+    "opportunity_title": "Community Service Volunteer",
+    "description_short": "Complete community service hours with RHS.",
+    "description_long": "RHS may be able to provide limited hours (max 4 hours per week) to fulfill community service requirements. Attending an orientation session is required prior to volunteering and those sessions are held once per month.",
+    "schedule": {
+      "raw": "Max 4 hours per week",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "Max 4 hours per week",
+    "location": {
+      "address": null,
+      "city": "Richardson",
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Orientation session required before volunteering.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up to attend an orientation session.",
+    "unified_tags": []
+  },
+  {
+    "id": "richardson_humane_society_3",
+    "source": "curated",
+    "org_id": "richardson_humane_society",
+    "org_name": "Richardson Humane Society",
+    "source_url": "https://www.richardsonhumanesociety.org/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:29:25.388449+00:00",
+    "opportunity_title": "Education Volunteer",
+    "description_short": "Help educate the community on pet-related issues.",
+    "description_long": "Help educate the Richardson community about pet-related issues. These events help us generate awareness for animal rights and the work we do to save lives.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "education",
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact us to volunteer for education events.",
+    "unified_tags": [
+      "education",
+      "animals",
+      "community"
+    ]
+  },
+  {
+    "id": "richardson_humane_society_1",
+    "source": "curated",
+    "org_id": "richardson_humane_society",
+    "org_name": "Richardson Humane Society",
+    "source_url": "https://www.richardsonhumanesociety.org/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:29:25.388449+00:00",
+    "opportunity_title": "Golf Tournament Volunteer",
+    "description_short": "Help organize and run RHS's annual Golf Tournament fundraiser.",
+    "description_long": "RHS holds an annual Golf Tournament. This is our biggest fundraiser and we could use your help! Volunteer to help organize, promote, and run the event with us.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community",
+      "fundraising"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact us to volunteer for the event.",
+    "unified_tags": []
+  },
+  {
+    "id": "richardson_humane_society_2",
+    "source": "curated",
+    "org_id": "richardson_humane_society",
+    "org_name": "Richardson Humane Society",
+    "source_url": "https://www.richardsonhumanesociety.org/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:29:25.388449+00:00",
+    "opportunity_title": "Marketing Volunteer",
+    "description_short": "Use your marketing skills to promote Richardson Humane Society.",
+    "description_long": "Help us spread the word about RHS and increase our exposure. If you have marketing expertise, we’d love to work with you.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact us to express interest in marketing volunteer opportunities.",
+    "unified_tags": []
+  },
+  {
+    "id": "richardson_humane_society_0",
+    "source": "curated",
+    "org_id": "richardson_humane_society",
+    "org_name": "Richardson Humane Society",
+    "source_url": "https://www.richardsonhumanesociety.org/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:29:25.388449+00:00",
+    "opportunity_title": "Meet the Pets Events",
+    "description_short": "Volunteer at adoption events to care for pets and assist adopters.",
+    "description_long": "RHS pets are offered for adoption each Saturday at 'Meet the Pets' events. Volunteers staff the event and help with taking care of the pets, set up and tear down, and interacting with prospective adopters. Meet the Pets events usually have 2 shifts of 3 hours each available for beginning volunteers. An Orientation Session is held once a month and is required before working at an adoption event.",
+    "schedule": {
+      "raw": "Saturdays, 2 shifts of 3 hours each",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "2 shifts of 3 hours each on Saturdays",
+    "location": {
+      "address": null,
+      "city": "Richardson",
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Orientation session required before volunteering.",
+    "cause_tags": [
+      "animals",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up to be contacted about upcoming orientation sessions.",
+    "unified_tags": [
+      "animals",
+      "community"
+    ]
+  },
+  {
+    "id": "joseph_catholic_mobile_pantry_0",
+    "source": "curated",
+    "org_id": "joseph_catholic_mobile_pantry",
+    "org_name": "St. Joseph Catholic Church — Mobile Food Pantry",
+    "source_url": "https://josephcatholic.org/catholic-charities",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:32:02.946188+00:00",
+    "opportunity_title": "Mobile Food Pantry Volunteer",
+    "description_short": "Help distribute food at St. Joseph's Mobile Food Pantry.",
+    "description_long": "Want to volunteer to help distribute food at St. Joseph’s Mobile Food Pantry? Are you over 18 years of age? Do you want to help feed your neighbor? Are you friendly? Are you bilingual? (You don’t have to be, but it’s a plus)",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Richardson & Garland",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be over 18 years of age; friendly demeanor; bilingual is a plus.",
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Email us at stjosephccfoodtruck@gmail.com",
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
+  },
+  {
+    "id": "senior_source_dallas_5",
+    "source": "curated",
+    "org_id": "senior_source_dallas",
+    "org_name": "The Senior Source",
+    "source_url": "https://theseniorsource.org/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:05.275151+00:00",
+    "opportunity_title": "Foster Grandparents",
+    "description_short": "Support children with special needs through mentoring.",
+    "description_long": "When an older adult connects with a child, the relationship is mutually beneficial. Foster Grandparents have big hearts and love making a difference in the life of a child. Our volunteers work one-on-one with children with special needs in schools, early childhood education centers, medical settings, and shelters to help jumpstart children on a path of success.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "Texas",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "children",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Learn more and apply for the program.",
+    "unified_tags": [
+      "seniors",
+      "children",
+      "education",
+      "foster_care"
+    ]
+  },
+  {
+    "id": "senior_source_dallas_0",
+    "source": "curated",
+    "org_id": "senior_source_dallas",
+    "org_name": "The Senior Source",
+    "source_url": "https://theseniorsource.org/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:05.275151+00:00",
+    "opportunity_title": "Friendly Visitor Program",
+    "description_short": "Engage in meaningful activities with residents of long-term care facilities.",
+    "description_long": "Friendly Visitors are compassionate individuals and groups who engage in fun and meaningful activities with residents living in long-term care facilities to build social connections and to enrich their lives. Our mission is to help combat the isolation and loneliness that is so prevalent in nursing homes and assisted living facilities in our Dallas County (Texas) service area.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "Texas",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Learn more and apply for the program.",
+    "unified_tags": [
+      "seniors",
+      "community"
+    ]
+  },
+  {
+    "id": "senior_source_dallas_3",
+    "source": "curated",
+    "org_id": "senior_source_dallas",
+    "org_name": "The Senior Source",
+    "source_url": "https://theseniorsource.org/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:05.275151+00:00",
+    "opportunity_title": "Guardianship Program",
+    "description_short": "Assist vulnerable seniors in managing their affairs.",
+    "description_long": "Older adults who are no longer able to make decisions for themselves are at risk for abuse, neglect, or exploitation. In that situation, a court may appoint a guardian to manage a senior’s affairs. The Senior Source’s Guardianship Program assists seniors and their families to preserve the health and well-being of vulnerable seniors who require guardianship.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "Texas",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Learn more and apply for the program.",
+    "unified_tags": [
+      "seniors"
+    ]
+  },
+  {
+    "id": "senior_source_dallas_2",
+    "source": "curated",
+    "org_id": "senior_source_dallas",
+    "org_name": "The Senior Source",
+    "source_url": "https://theseniorsource.org/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:05.275151+00:00",
+    "opportunity_title": "Long-Term Care Ombudsman Program",
+    "description_short": "Advocate for vulnerable seniors in nursing homes.",
+    "description_long": "Vulnerable seniors living in nursing homes and assisted living facilities rely on ombudsmen to listen to their concerns and advocate on their behalf. If you are 21 years or older and have the time and concern, there’s a resident waiting for you. There is always a need for more volunteers to meet the needs of frail elderly in nursing homes.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "Texas",
+      "virtual": false
+    },
+    "requirements": "Must be 21 years or older.",
+    "cause_tags": [
+      "seniors",
+      "crisis_support"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Learn more and apply for the program.",
+    "unified_tags": [
+      "seniors",
+      "community",
+      "health"
+    ]
+  },
+  {
+    "id": "senior_source_dallas_1",
+    "source": "curated",
+    "org_id": "senior_source_dallas",
+    "org_name": "The Senior Source",
+    "source_url": "https://theseniorsource.org/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:05.275151+00:00",
+    "opportunity_title": "Money Management",
+    "description_short": "Help vulnerable older adults manage their finances.",
+    "description_long": "Money Management offers volunteer opportunities for you to use skills you have learned in business or in managing a home to help vulnerable older adults in our community remain independent as long as possible.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "Texas",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Learn more and apply for the program.",
+    "unified_tags": [
+      "seniors"
+    ]
+  },
+  {
+    "id": "senior_source_dallas_4",
+    "source": "curated",
+    "org_id": "senior_source_dallas",
+    "org_name": "The Senior Source",
+    "source_url": "https://theseniorsource.org/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:05.275151+00:00",
+    "opportunity_title": "RSVP (Retired Senior Volunteer Program)",
+    "description_short": "Connect older adults with meaningful volunteer opportunities.",
+    "description_long": "RSVP connects older adults (individually or in groups) with fulfilling ways to give back, in over 50 Dallas-area community organizations.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "Texas",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Learn more and apply for the program.",
+    "unified_tags": [
+      "seniors",
+      "community"
+    ]
+  },
+  {
+    "id": "senior_source_dallas_6",
+    "source": "curated",
+    "org_id": "senior_source_dallas",
+    "org_name": "The Senior Source",
+    "source_url": "https://theseniorsource.org/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:05.275151+00:00",
+    "opportunity_title": "Senior Companions",
+    "description_short": "Provide companionship to seniors who need help at home.",
+    "description_long": "Some seniors wish to remain in their own homes but need help with daily living. Others are more active but desire to connect with and serve others. The Senior Companion Program tackles both needs by matching elderly seniors who need companionship with older adult volunteers who can help.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "Texas",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Learn more and apply for the program.",
+    "unified_tags": [
+      "seniors",
+      "community"
+    ]
+  },
+  {
+    "id": "texas_ramp_project_0",
+    "source": "curated",
+    "org_id": "texas_ramp_project",
+    "org_name": "The Texas Ramp Project",
+    "source_url": "https://texasramps.org/dallas-region/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:29:01.186953+00:00",
+    "opportunity_title": "Ramp Building Volunteer",
+    "description_short": "Help build wheelchair ramps for those in need in Dallas and Collin County.",
+    "description_long": "Join us at Texas Ramp Project to build wheelchair ramps for individuals with mobility challenges. We welcome volunteers ages 16 and older, and we require at least two adults for groups with minors. Please check in at our warehouse, bring useful tools, and communicate any scheduling conflicts to ensure a smooth experience.",
+    "schedule": {
+      "raw": "Regular Hours: 7:30 AM (October - May), 6:30 AM (June - August), September Hours: 7:00 AM",
+      "recurring": true,
+      "times_of_day": "morning"
+    },
+    "commitment": "3 to 6 hours per ramp",
+    "location": {
+      "address": "3341 Towerwood Dr, Suite 204",
+      "city": "Farmers Branch",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Ages 16+, groups with children under 16 need 2 adult supervisors, safe construction practices.",
+    "cause_tags": [
+      "community",
+      "crisis_support"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact Texas Ramp Project via phone or email to reserve a spot.",
+    "unified_tags": [
+      "disabilities",
+      "community",
+      "health"
+    ]
+  },
+  {
+    "id": "warren_center_1",
+    "source": "curated",
+    "org_id": "warren_center",
+    "org_name": "The Warren Center",
+    "source_url": "https://thewarrencenter.org/ways-to-give/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:52.836795+00:00",
+    "opportunity_title": "Corporate & Civic Groups",
+    "description_short": "Organize team volunteer days for community service.",
+    "description_long": "Organize team volunteer days, such as Operation Santa or Spring in the Park.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Richardson",
+      "state": "Texas",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact us to coordinate a team volunteer day.",
+    "unified_tags": [
+      "civic",
+      "community"
+    ]
+  },
+  {
+    "id": "warren_center_2",
+    "source": "curated",
+    "org_id": "warren_center",
+    "org_name": "The Warren Center",
+    "source_url": "https://thewarrencenter.org/ways-to-give/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:52.836795+00:00",
+    "opportunity_title": "Get Involved with a Service Group",
+    "description_short": "Network and contribute through fundraising and service events.",
+    "description_long": "Network and give back through fundraising, service, and events.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Richardson",
+      "state": "Texas",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "children",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Reach out to us for details on joining a service group.",
+    "unified_tags": []
+  },
+  {
+    "id": "warren_center_3",
+    "source": "curated",
+    "org_id": "warren_center",
+    "org_name": "The Warren Center",
+    "source_url": "https://thewarrencenter.org/ways-to-give/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:52.836795+00:00",
+    "opportunity_title": "Host a Fundraiser",
+    "description_short": "Plan a community event to support The Warren Center.",
+    "description_long": "Organize a community event, birthday fundraiser, or social media campaign to benefit The Warren Center.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Richardson",
+      "state": "Texas",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact us to discuss potential fundraising ideas.",
+    "unified_tags": []
+  },
+  {
+    "id": "warren_center_0",
+    "source": "curated",
+    "org_id": "warren_center",
+    "org_name": "The Warren Center",
+    "source_url": "https://thewarrencenter.org/ways-to-give/volunteer/",
+    "status": "active",
+    "last_scraped": "2026-05-17T21:28:52.836795+00:00",
+    "opportunity_title": "Individual Volunteers",
+    "description_short": "Assist at events and support families in need.",
+    "description_long": "Help at events, support families, or lend your professional expertise.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Richardson",
+      "state": "Texas",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "children"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact us to learn more about getting involved as an individual volunteer.",
+    "unified_tags": []
+  }
+]
