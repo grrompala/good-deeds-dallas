@@ -131,6 +131,92 @@ def extract_phones(text: str) -> list[str]:
     return re.findall(r"\(?\d{3}\)?[\s.\-]?\d{3}[\s.\-]?\d{4}", text)
 
 
+# --- Text cleanup ---------------------------------------------------------
+#
+# Galaxy Digital detail pages wrap the real content in a lot of UI chrome:
+# button labels ("Respond", "Share"), the schedule widget ("Calendar Until …
+# Time …"), and section headers. When get_text() runs over a broad container,
+# that chrome leaks into our fields. These helpers keep ONLY the valuable parts
+# — the opportunity description and a real street address — by anchoring on
+# stable text markers instead of fragile CSS classes. (Mirrors fetch_mckinney.)
+
+import unicodedata
+
+# The body of every opportunity is rendered under an "Opportunity Description"
+# heading. Everything before it is page chrome (title, schedule widget,
+# Respond/Share buttons), so we split on it and keep the tail.
+_DESC_MARKER = re.compile(r"Opportunity Description", re.I)
+
+# Chrome that can trail the description body: a "Details"/requirements block or
+# a schedule widget. "Get Connected Icon" is an icon caption that never appears
+# in real copy, so it's a safe cut point; same for the Respond buttons.
+_DESC_TRAILING = re.compile(
+    r"\s*(?:Details\s+|Calendar\s+)?Get Connected Icon.*$"
+    r"|\s*Respond(?: as Team| Share)\b.*$",
+    re.I | re.S,
+)
+
+# Leading label/icon words that prefix a location block.
+_LOC_CHROME_LEAD = re.compile(r"^(?:\s*(?:Location|Dot|Shift)\b)+", re.I)
+
+# If a "location" block actually contains schedule/widget chrome, it isn't an
+# address at all (most Garland opportunities are anywhere-cleanups with no
+# location section, so a broad selector grabs the calendar block by mistake).
+_CALENDAR_CHROME = re.compile(
+    r"Get Connected Icon|Calendar|\bUntil\b|\bongoing\b|Respond", re.I
+)
+
+# A real address has at least one of: a 5-digit ZIP, the state, or a street
+# suffix. Used to reject non-address junk.
+_ADDRESS_SIGNAL = re.compile(
+    r"\b\d{5}\b|\bTX\b|\b(?:St|Street|Ave|Avenue|Rd|Road|Blvd|Dr|Drive|Pkwy|"
+    r"Parkway|Ln|Lane|Way|Suite|Ste|Hwy|Highway|Ct|Court|Cir|Circle)\b",
+    re.I,
+)
+
+
+def normalize_ws(text: str | None) -> str | None:
+    """Collapse NBSP/whitespace runs and normalize unicode."""
+    if not text:
+        return None
+    text = unicodedata.normalize("NFKC", text.replace("\xa0", " "))
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def clean_description(raw: str | None) -> str | None:
+    """Keep only the opportunity description body.
+
+    If the "Opportunity Description" marker is present (broad container was
+    scraped), drop everything before it, then cut any trailing widget chrome.
+    If the marker isn't present (a tight selector already isolated the body),
+    keep the text as-is. Either way, normalize whitespace.
+    """
+    if not raw:
+        return None
+    match = _DESC_MARKER.search(raw)
+    body = normalize_ws(raw[match.end():] if match else raw)
+    if body:
+        body = _DESC_TRAILING.sub("", body).strip()
+    return body or None
+
+
+def clean_location(raw: str | None) -> str | None:
+    """Return a clean street address, or None if the block isn't an address.
+
+    Strips any "Location/Dot/Shift" chrome and rejects schedule/calendar blocks
+    that get grabbed when an opportunity has no physical location.
+    """
+    text = normalize_ws(raw)
+    if not text:
+        return None
+    text = _LOC_CHROME_LEAD.sub("", text).strip()
+    if _CALENDAR_CHROME.search(text):
+        return None
+    if not _ADDRESS_SIGNAL.search(text):
+        return None
+    return text or None
+
+
 def parse_detail(soup: BeautifulSoup, need_id: int) -> dict:
     """
     Parse a detail page into a structured record.
@@ -182,19 +268,24 @@ def parse_detail(soup: BeautifulSoup, need_id: int) -> dict:
         or soup.find("div", class_=re.compile(r"content|body", re.I))
     )
     if desc_el:
-        desc = desc_el.get_text(" ", strip=True)
-        record["description_long"] = desc
-        record["description_short"] = desc[:250].rsplit(" ", 1)[0] + "…" if len(desc) > 250 else desc
+        desc = clean_description(desc_el.get_text(" ", strip=True))
+        if desc:
+            record["description_long"] = desc
+            record["description_short"] = (
+                desc[:250].rsplit(" ", 1)[0] + "…" if len(desc) > 250 else desc
+            )
 
-    # Address — look for address block
+    # Address — look for address block. clean_location() strips chrome and
+    # returns None for schedule/calendar blocks (most Garland opportunities have
+    # no physical address, so we leave address.full unset rather than store junk).
     addr_el = soup.find(class_=re.compile(r"address|location", re.I))
     if addr_el:
-        addr_text = addr_el.get_text(" ", strip=True)
-        record["address"]["full"] = addr_text
-        # Try to extract zip
-        zip_match = re.search(r"TX\s+(\d{5})", addr_text)
-        if zip_match:
-            record["address"]["zip"] = zip_match.group(1)
+        addr_text = clean_location(addr_el.get_text(" ", strip=True))
+        if addr_text:
+            record["address"]["full"] = addr_text
+            zip_match = re.search(r"\b(\d{5})\b", addr_text)
+            if zip_match:
+                record["address"]["zip"] = zip_match.group(1)
 
     # Schedule — dates and times
     date_el = soup.find(class_=re.compile(r"date|schedule|time", re.I))
