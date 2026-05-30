@@ -265,4 +265,27 @@ function EmptyHomeState({ onSuggest }) {
     <div className="py-16 lg:py-24 text-center max-w-2xl mx-auto">
       <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-brandSoft text-brand mb-5">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-7 h-7">
-   
+          <circle cx="11" cy="11" r="7" />
+          <path d="m20 20-3.5-3.5" strokeLinecap="round" />
+        </svg>
+      </div>
+      <h2 className="font-display font-bold text-2xl sm:text-3xl text-ink">
+        What kind of giving back are you up for?
+      </h2>
+      <p className="mt-3 text-base sm:text-lg text-muted leading-relaxed">
+        Type a cause, neighborhood, or nonprofit in the search above — or pick
+        a category to start exploring.
+      </p>
+      <div className="mt-7 flex flex-wrap items-center justify-center gap-2">
+        {SUGGESTED_TAGS.map(tagId => (
+          <TagChip
+            key={tagId}
+            id={tagId}
+            variant="filter"
+            onClick={() => onSuggest(tagId)}
+          />
+        ))}
+      </div>
+    </div>
+  )
+}

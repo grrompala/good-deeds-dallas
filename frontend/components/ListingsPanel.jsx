@@ -303,4 +303,94 @@ function Row({ data, compact, onSelectOrg, onSelectListing }) {
   const orgK      = orgKey(org_name)
 
   // The 2-line teaser; "Read more" opens the full text in a modal.
-  const d
+  const desc    = description_short || description_long || ''
+  const hasMore = !!desc && (
+    (description_long && description_long.length > (description_short || '').length + 10) ||
+    desc.length > 140
+  )
+
+  // Pretty "Posted Mar 14" style for the published date
+  const postedLabel = published
+    ? new Date(published).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
+    : null
+
+  return (
+    <div className="group relative p-4 lg:p-5 hover:bg-canvas transition-colors">
+      <div className="flex items-start gap-4">
+        <SourceBox source={source} />
+
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center gap-2 flex-wrap">
+            {orgLabel && onSelectOrg && orgK ? (
+              <button
+                onClick={() => onSelectOrg(orgK)}
+                className="relative z-10 text-xs font-semibold text-muted hover:text-brand uppercase tracking-wider truncate max-w-full transition-colors"
+                title={`See all listings from ${orgLabel}`}
+              >
+                {orgLabel}
+              </button>
+            ) : (
+              <span className="text-xs font-semibold text-muted uppercase tracking-wider truncate">
+                {orgLabel || 'Independent'}
+              </span>
+            )}
+            {showPin && <CityBadge city={address?.city} />}
+          </div>
+
+          <h3 className="mt-0.5 font-bold text-ink text-base leading-snug">
+            <a
+              href={source_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-brand transition-colors after:absolute after:inset-0"
+            >
+              {opportunity_title}
+            </a>
+          </h3>
+
+          {!compact && desc && (
+            <p className="mt-1.5 text-sm text-inkSoft leading-relaxed line-clamp-2">
+              {desc}
+            </p>
+          )}
+          {!compact && hasMore && onSelectListing && (
+            <button
+              onClick={() => onSelectListing(data)}
+              className="relative z-10 mt-1 text-xs font-semibold text-brand hover:text-brandDark"
+            >
+              Read more
+            </button>
+          )}
+
+          <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1.5 text-xs text-muted">
+            {schedule?.date     && <Meta icon="calendar">{schedule.date}</Meta>}
+            {postedLabel        && <Meta icon="posted">Posted {postedLabel}</Meta>}
+            {schedule?.duration && <Meta icon="clock">{schedule.duration}</Meta>}
+            {volunteers_needed > 0 && <Meta icon="users">{volunteers_needed.toLocaleString()} needed</Meta>}
+            {is_virtual && (
+              <span className="px-2 py-0.5 rounded-md bg-accentSoft text-accent text-xs font-semibold">Virtual</span>
+            )}
+            {!compact && cleanTags.slice(0, 3).map((t, i) => (
+              <TagChip key={i} id={t} />
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+function Meta({ icon, children }) {
+  const icons = {
+    calendar: <><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18" strokeLinecap="round"/></>,
+    clock:    <><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" strokeLinecap="round"/></>,
+    users:    <><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></>,
+    posted:   <><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4" strokeLinecap="round" strokeLinejoin="round"/></>,
+  }
+  return (
+    <span className="inline-flex items-center gap-1 whitespace-nowrap">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-3.5 h-3.5">{icons[icon]}</svg>
+      {children}
+    </span>
+  )
+}
