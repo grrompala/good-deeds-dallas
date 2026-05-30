@@ -16,6 +16,7 @@ import OrganizationsPanel  from '../components/OrganizationsPanel'
 import CommunityPanel      from '../components/CommunityPanel'
 import OrgModal            from '../components/OrgModal'
 import ListingDetailModal  from '../components/ListingDetailModal'
+import AdvancedSearchPanel  from '../components/AdvancedSearchPanel'
 import TagChip             from '../components/TagChip'
 import { buildOrgs }       from '../components/orgs'
 
@@ -111,9 +112,16 @@ export default function Home() {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
-  // Tab click: if search is active (stacked mode), smooth-scroll to anchor.
-  // Otherwise focus that single section.
+  // Tab click: Advanced Search is its own mode (it doesn't depend on the
+  // keyword query), so it always focuses. For the other tabs: if search is
+  // active (stacked mode) smooth-scroll to the anchor, otherwise focus the
+  // single section.
   function handleTabChange(tabId) {
+    if (tabId === 'search') {
+      setFocusedTab('search')
+      window.scrollTo({ top: 0, behavior: 'smooth' })
+      return
+    }
     if (q) {
       const map = { listings: listingsRef, organizations: orgsRef, chatter: chatterRef }
       map[tabId]?.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
@@ -123,8 +131,9 @@ export default function Home() {
     }
   }
 
-  const isStacked = !!q
-  const isEmpty   = !q && !focusedTab
+  const showSearch = focusedTab === 'search'
+  const isStacked  = !!q && !showSearch
+  const isEmpty    = !q && !focusedTab
 
   return (
     <>
@@ -138,7 +147,7 @@ export default function Home() {
       />
 
       <TabBar
-        active={isStacked ? null : focusedTab}
+        active={showSearch ? 'search' : isStacked ? null : focusedTab}
         onChange={handleTabChange}
         onHome={goHome}
         counts={tabCounts}
@@ -150,7 +159,9 @@ export default function Home() {
             <div className="animate-pulse">Loading…</div>
           </div>
         ) : isEmpty ? (
-          <EmptyHomeState onSuggest={setSearch} />
+          <EmptyHomeState onSuggest={setSearch} onOpenSearch={() => handleTabChange('search')} />
+        ) : showSearch ? (
+          <AdvancedSearchPanel />
         ) : (
           <>
             {q && (
@@ -260,7 +271,7 @@ const SUGGESTED_TAGS = [
   'community',
 ]
 
-function EmptyHomeState({ onSuggest }) {
+function EmptyHomeState({ onSuggest, onOpenSearch }) {
   return (
     <div className="py-16 lg:py-24 text-center max-w-2xl mx-auto">
       <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-brandSoft text-brand mb-5">
@@ -286,6 +297,27 @@ function EmptyHomeState({ onSuggest }) {
           />
         ))}
       </div>
+
+      {/* Advanced Search feature callout */}
+      <button
+        onClick={onOpenSearch}
+        className="mt-10 group inline-flex items-center gap-3 rounded-xl border border-line bg-white px-5 py-3.5 text-left hover:border-brand transition-colors"
+      >
+        <span className="inline-flex items-center justify-center w-9 h-9 rounded-lg bg-accentSoft text-accent shrink-0">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-5 h-5">
+            <path d="M12 3v2m0 14v2M5.6 5.6l1.4 1.4m10 10 1.4 1.4M3 12h2m14 0h2M5.6 18.4l1.4-1.4m10-10 1.4-1.4" strokeLinecap="round" />
+          </svg>
+        </span>
+        <span>
+          <span className="block text-sm font-semibold text-ink">
+            New: Advanced Search
+          </span>
+          <span className="block text-sm text-muted">
+            Ask in plain English — answers drawn from listings, orgs &amp; local chatter.
+          </span>
+        </span>
+        <span className="ml-1 text-brand font-semibold group-hover:translate-x-0.5 transition-transform">→</span>
+      </button>
     </div>
   )
 }

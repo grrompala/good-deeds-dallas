@@ -6,6 +6,7 @@ const TABS = [
   { id: 'listings',      label: 'Listings' },
   { id: 'organizations', label: 'Organizations' },
   { id: 'chatter',       label: 'Chatter' },
+  { id: 'search',        label: 'Advanced Search' },
 ]
 
 export default function TabBar({ active, onChange, counts = {}, onHome }) {
