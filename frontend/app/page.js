@@ -161,7 +161,11 @@ export default function Home() {
         ) : isEmpty ? (
           <EmptyHomeState onSuggest={setSearch} onOpenSearch={() => handleTabChange('search')} />
         ) : showSearch ? (
-          <AdvancedSearchPanel />
+          <AdvancedSearchPanel
+            opportunities={opportunities}
+            onSelectOrg={setSelectedOrg}
+            onSelectListing={setSelectedListing}
+          />
         ) : (
           <>
             {q && (
@@ -310,10 +314,10 @@ function EmptyHomeState({ onSuggest, onOpenSearch }) {
         </span>
         <span>
           <span className="block text-sm font-semibold text-ink">
-            New: Advanced Search
+            New: Smart Search
           </span>
           <span className="block text-sm text-muted">
-            Ask in plain English — answers drawn from listings, orgs &amp; local chatter.
+            Ask in plain English — get an answer plus the closest listings, ranked by match.
           </span>
         </span>
         <span className="ml-1 text-brand font-semibold group-hover:translate-x-0.5 transition-transform">→</span>

@@ -21,8 +21,19 @@ export const runtime = 'nodejs'
 
 // ── Guardrail config ─────────────────────────────────────────────────────────
 const MAX_QUERY_CHARS = 300
-const DAILY_LIMIT = 100
-const RETRIEVE_K = Math.max(RAG_CONFIG.topK, 4) // pull a few so domains can mix
+const DAILY_LIMIT = 5
+// Pull enough that each domain (listings / orgs / chatter) can contribute a
+// few cards. With the full corpus this is where you'd cap per-group instead.
+const RETRIEVE_K = Math.max(RAG_CONFIG.topK, 12)
+
+// Smart Search is focused on LISTINGS for now. We keep only listing hits,
+// sorted best-match-first (cosine order). No score is surfaced to the client —
+// the ORDER is the ranking. (Orgs/chatter are still indexed but not returned.)
+function rankedListingHits(hits) {
+  return hits
+    .filter(h => h.type === 'listing')
+    .sort((a, b) => b.score - a.score)
+}
 
 // Per-IP counters: ip -> { day: 'YYYY-MM-DD', count }. Module-level, so it
 // lives only as long as this warm serverless instance.
@@ -50,7 +61,7 @@ function checkAndCount(ip) {
 export async function GET() {
   try {
     const summary = await indexSummary()
-    return Response.json(summary)
+    return Response.json({ ...summary, dailyLimit: DAILY_LIMIT })
   } catch (e) {
     return Response.json({ error: String(e?.message || e) }, { status: 500 })
   }
@@ -84,20 +95,23 @@ export async function POST(request) {
     // 1. Embed the question with the SAME model used for the entries.
     const queryVector = await embed(query)
 
-    // 2. Retrieve the closest entries across all domains.
+    // 2. Retrieve, then keep only listing hits, ranked best-match-first.
     const hits = await retrieve(queryVector, RETRIEVE_K)
-    const context = hits
-      .map((h, i) => `[${i + 1}] (${h.type}) ${h.text}`)
+    const listingHits = rankedListingHits(hits)
+    const listings = listingHits.map(h => ({ item: h.item }))
+    const context = listingHits
+      .map((h, i) => `[${i + 1}] ${h.text}`)
       .join('\n\n')
 
-    // 3. Build a grounded prompt and generate the answer.
+    // 3. Build a grounded prompt and generate the answer. The cards still show
+    // the closest listings even when nothing truly matches, so the answer is
+    // what tells the user whether any are actually a good fit.
     const system = [
       'You are a helpful assistant for a Dallas-area volunteer website.',
-      'Answer the user using ONLY the items provided in CONTEXT, which may be',
-      'volunteer listings, organizations, or community (Reddit) posts.',
-      'If the context has no relevant item, say you could not find a match —',
-      'do not invent anything. Be concise and name the organization, opportunity,',
-      'or post you are drawing from.',
+      'Answer the user using ONLY the volunteer LISTINGS provided in CONTEXT.',
+      'If none of the listings genuinely fit the request, say so plainly — e.g.',
+      '"I could not find a strong match, but here are the closest listings" —',
+      'and do not invent opportunities. Be concise and name the listings you cite.',
     ].join(' ')
 
     const user = `CONTEXT:\n${context}\n\nUSER QUESTION: ${query}`
@@ -107,15 +121,13 @@ export async function POST(request) {
       { role: 'user', content: user },
     ])
 
+    // The prose `answer` and the ranked `listings` are two renderings of one
+    // retrieval. We also echo the remaining quota and the daily limit.
     return Response.json({
       answer,
       remaining,
-      retrieved: hits.map(h => ({
-        type: h.type,
-        score: Number(h.score.toFixed(4)),
-        title: h.ref.title,
-        org: h.ref.org || null,
-      })),
+      limit: DAILY_LIMIT,
+      listings,
     })
   } catch (e) {
     return Response.json({ error: String(e?.message || e) }, { status: 500 })
