@@ -192,7 +192,7 @@ export default function ListingsPanel({ listings, compact = false, onExpand, onS
         <>
           <div className="bg-white border border-line rounded-2xl shadow-card divide-y divide-lineSoft overflow-hidden">
             {visible.map(row => (
-              <Row
+              <ListingRow
                 key={row.id}
                 data={row}
                 compact={compact}
@@ -290,7 +290,7 @@ function SitePill({ children, count, active, onClick }) {
   )
 }
 
-function Row({ data, compact, onSelectOrg, onSelectListing }) {
+export function ListingRow({ data, compact, onSelectOrg, onSelectListing }) {
   const {
     opportunity_title, org_name, description_short, description_long,
     schedule, address, volunteers_needed, source_url, is_virtual, source,

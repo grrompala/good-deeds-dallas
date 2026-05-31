@@ -90,7 +90,7 @@ export default function OrganizationsPanel({ listings = [], compact = false, sea
   )
 }
 
-function OrgRow({ org, compact, onSelectOrg }) {
+export function OrgRow({ org, compact, onSelectOrg }) {
   const count = org.count
 
   return (

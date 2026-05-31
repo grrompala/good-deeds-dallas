@@ -22,7 +22,7 @@ const SEED_PER_DOMAIN = 2
 const LISTINGS_FILE = 'public/data/volops_garland.json'
 const CHATTER_FILE = 'public/data/reddit_raw.json'
 
-let _cache = null // [{ type, ref, text, vector }, ...]
+let _cache = null // [{ type, item, text, vector }, ...]
 
 function readJson(file) {
   const raw = fs.readFileSync(path.join(process.cwd(), file), 'utf8')
@@ -93,37 +93,39 @@ function deriveOrgs(listings) {
 function buildSeedEntries() {
   const entries = []
 
-  // Listings
+  // Listings — keep the FULL listing object so the UI can render a real card
+  // (same shape the Listings page uses) and open the detail modal.
   const listings = readJson(LISTINGS_FILE).filter(r => r.status !== 'inactive')
   for (const o of listings.slice(0, SEED_PER_DOMAIN)) {
-    entries.push({
-      type: 'listing',
-      ref: { title: o.opportunity_title, org: o.org_name, city: o.address?.city || null },
-      text: chunkListing(o),
-    })
+    entries.push({ type: 'listing', item: o, text: chunkListing(o) })
   }
 
   // Chatter (Reddit) — prefer posts with a body so the embedding has substance.
   const chatter = readJson(CHATTER_FILE).filter(p => (p.body || '').trim().length > 40)
   for (const p of chatter.slice(0, SEED_PER_DOMAIN)) {
-    entries.push({
-      type: 'chatter',
-      ref: { title: p.title, subreddit: p.subreddit, url: p.source_url || null },
-      text: chunkChatter(p),
-    })
+    entries.push({ type: 'chatter', item: p, text: chunkChatter(p) })
   }
 
-  // Organizations — derived from the listings file.
+  // Organizations — derived from the listings file. We carry `name` so the
+  // client can resolve the authoritative org record (and its modal key) from
+  // the listings it already has loaded; the summary fields are a fallback.
   const orgs = deriveOrgs(listings)
   for (const org of orgs.slice(0, SEED_PER_DOMAIN)) {
     entries.push({
       type: 'organization',
-      ref: { title: org.name, causes: org.causes.slice(0, 5) },
+      item: { ...org, key: org.name.toLowerCase() },
       text: chunkOrg(org),
     })
   }
 
   return entries
+}
+
+// The display title for an indexed entry, by type.
+function titleOf(entry) {
+  if (entry.type === 'listing') return entry.item.opportunity_title
+  if (entry.type === 'chatter') return entry.item.title
+  return entry.item.name // organization
 }
 
 // Embed every seed entry once, then reuse for the life of the process.
@@ -144,7 +146,7 @@ export async function indexSummary() {
     total: idx.length,
     byType,
     models: RAG_CONFIG,
-    entries: idx.map(e => ({ type: e.type, title: e.ref.title })),
+    entries: idx.map(e => ({ type: e.type, title: titleOf(e) })),
   }
 }
 
@@ -165,7 +167,7 @@ export function cosine(a, b) {
 export async function retrieve(queryVector, k = 1) {
   const idx = await getIndex()
   return idx
-    .map(e => ({ type: e.type, ref: e.ref, text: e.text, score: cosine(queryVector, e.vector) }))
+    .map(e => ({ type: e.type, item: e.item, text: e.text, score: cosine(queryVector, e.vector) }))
     .sort((a, b) => b.score - a.score)
     .slice(0, k)
 }

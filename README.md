@@ -266,7 +266,13 @@ file has a header comment explaining what it does and where to edit.
 
 ## Known issues / TODO
 
-* Keep READMES up to date
-* Pagination of listings
-* Filter on muiltiple causes? listings?
-* Volunteer Mckinney needs a more refined description parsing
+* voly dallas - some pittsburgh ads pop up
+* orgnizations - address is not parsed well - voly
+* fix the case of city names (not all caps, etc.)
+* sort - just abandon - not useful
+* put the listing descriptions in an about page not in the listings section
+* funny GIFs, Memes
+* control output, use tables + text?
+* embedding specs
+* call it AI search
+* rebrand to DFW Volunteer

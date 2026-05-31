@@ -125,6 +125,91 @@ def extract_phones(text: str) -> list[str]:
     return re.findall(r"\(?\d{3}\)?[\s.\-]?\d{3}[\s.\-]?\d{4}", text)
 
 
+# --- Text cleanup ---------------------------------------------------------
+#
+# Galaxy Digital detail pages wrap the real content in a lot of UI chrome:
+# button labels ("Respond as Team", "Share"), icon captions ("Get Connected
+# Icon", "Calendar"), and section headers. When get_text() runs over a broad
+# container, that chrome leaks into our fields. These helpers keep ONLY the
+# valuable parts — the opportunity description and a real street address — by
+# anchoring on stable text markers instead of fragile CSS classes.
+
+import unicodedata
+
+# The body of every opportunity is rendered under an "Opportunity Description"
+# heading. Everything before that heading is page chrome (title, schedule
+# widget, Respond/Share buttons), so we split on it and keep the tail.
+_DESC_MARKER = re.compile(r"Opportunity Description", re.I)
+
+# Chrome that can trail the description body: a "Details"/requirements block or
+# a schedule widget. "Get Connected Icon" is an icon caption that never appears
+# in real copy, so it's a safe cut point; same for the Respond buttons.
+_DESC_TRAILING = re.compile(
+    r"\s*(?:Details\s+|Calendar\s+)?Get Connected Icon.*$"
+    r"|\s*Respond(?: as Team| Share)\b.*$",
+    re.I | re.S,
+)
+
+# Leading label/icon words that prefix a location block, e.g.
+# "Location Location Dot Shift 2000 N McDonald St ...".
+_LOC_CHROME_LEAD = re.compile(r"^(?:\s*(?:Location|Dot|Shift)\b)+", re.I)
+
+# If a "location" block actually contains schedule/widget chrome, it isn't an
+# address at all (virtual opportunities have no location section, so a broad
+# selector can grab the calendar block by mistake).
+_CALENDAR_CHROME = re.compile(r"Get Connected Icon|Calendar|\bongoing\b|Respond", re.I)
+
+# A real address has at least one of: a 5-digit ZIP, the state, or a street
+# suffix. Used to reject non-address junk.
+_ADDRESS_SIGNAL = re.compile(
+    r"\b\d{5}\b|\bTX\b|\b(?:St|Street|Ave|Avenue|Rd|Road|Blvd|Dr|Drive|Pkwy|"
+    r"Parkway|Ln|Lane|Way|Suite|Ste|Hwy|Highway|Ct|Court|Cir|Circle)\b",
+    re.I,
+)
+
+
+def normalize_ws(text: str | None) -> str | None:
+    """Collapse NBSP/whitespace runs and normalize unicode."""
+    if not text:
+        return None
+    text = unicodedata.normalize("NFKC", text.replace("\xa0", " "))
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def clean_description(raw: str | None) -> str | None:
+    """Keep only the opportunity description body.
+
+    If the "Opportunity Description" marker is present (broad container was
+    scraped), drop everything before it. If it isn't (a tight selector already
+    isolated the body), keep the text as-is. Either way, normalize whitespace.
+    """
+    if not raw:
+        return None
+    match = _DESC_MARKER.search(raw)
+    body = normalize_ws(raw[match.end():] if match else raw)
+    if body:
+        body = _DESC_TRAILING.sub("", body).strip()
+    return body or None
+
+
+def clean_location(raw: str | None) -> str | None:
+    """Return a clean street address, or None if the block isn't an address.
+
+    Strips the "Location / Dot / Shift" chrome that prefixes real addresses,
+    and rejects schedule/calendar blocks that get grabbed when an opportunity
+    has no physical location.
+    """
+    text = normalize_ws(raw)
+    if not text:
+        return None
+    text = _LOC_CHROME_LEAD.sub("", text).strip()
+    if _CALENDAR_CHROME.search(text):
+        return None
+    if not _ADDRESS_SIGNAL.search(text):
+        return None
+    return text or None
+
+
 def parse_detail(soup: BeautifulSoup, need_id: int) -> dict:
     """
     Parse a Galaxy Digital detail page into a structured record.
@@ -185,29 +270,38 @@ def parse_detail(soup: BeautifulSoup, need_id: int) -> dict:
             name = noise.sub("", name).strip()
         record["org_name"] = name or None
 
-    # Description — section.description > div.section-content
-    desc_el = soup.select_one("section.description div.section-content")
+    # Description — section.description > div.section-content. We run
+    # clean_description() regardless, so even if the selector grabs a broad
+    # container the "Opportunity Description" anchor trims the page chrome.
+    desc_el = soup.select_one("section.description div.section-content") \
+        or soup.select_one("section.description")
     if desc_el:
-        desc = desc_el.get_text(" ", strip=True)
-        record["description_long"] = desc
-        record["description_short"] = (
-            desc[:250].rsplit(" ", 1)[0] + "…" if len(desc) > 250 else desc
-        )
+        desc = clean_description(desc_el.get_text(" ", strip=True))
+        if desc:
+            record["description_long"] = desc
+            record["description_short"] = (
+                desc[:250].rsplit(" ", 1)[0] + "…" if len(desc) > 250 else desc
+            )
 
-    # Address — section.location holds the full address block
+    # Address — section.location holds the full address block. clean_location()
+    # strips the "Location/Dot/Shift" chrome and returns None for blocks that
+    # are actually schedule widgets (virtual opportunities have no address).
     addr_section = soup.select_one("section.location")
     if addr_section:
-        addr_text = addr_section.get_text(" ", strip=True)
-        # Strip the "Location" heading if present
-        addr_text = re.sub(r"^\s*Location\s*", "", addr_text, flags=re.I).strip()
+        addr_text = clean_location(addr_section.get_text(" ", strip=True))
         if addr_text:
             record["address"]["full"] = addr_text
-            zip_match = re.search(r"TX\s+(\d{5})", addr_text)
+            zip_match = re.search(r"\b(\d{5})\b", addr_text)
             if zip_match:
                 record["address"]["zip"] = zip_match.group(1)
-            city_match = re.search(r",\s*([A-Za-z][A-Za-z\s\.]+?),\s*TX\b", addr_text)
-            if city_match:
-                record["address"]["city"] = city_match.group(1).strip()
+            # City: the word immediately before the state token. Handles
+            # "... McKinney, TX 75069" and "... McKinney Tx, TX 75069".
+            city_match = re.search(
+                r"\b([A-Za-z]+)\s*,?\s*(?:Tx|TX)\b\s*,?\s*(?:TX\b)?\s*\d{5}",
+                addr_text,
+            )
+            if city_match and city_match.group(1).lower() != "tx":
+                record["address"]["city"] = city_match.group(1)
 
     # Cause tags — ul.interests-list > li.interest. Each li's text contains
     # the interest name (e.g. "Event Support"). Reject anything inside that

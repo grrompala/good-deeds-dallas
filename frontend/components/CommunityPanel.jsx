@@ -58,7 +58,7 @@ export default function CommunityPanel({ posts, compact = false, onExpand }) {
   )
 }
 
-function NewsRow({ post, compact }) {
+export function NewsRow({ post, compact }) {
   const date = post.created_utc
     ? new Date(post.created_utc).toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
     : null
