@@ -30,6 +30,9 @@ desktop.ini
 .vscode/
 *.swp
 
+# ── Generated RAG index (large + reproducible via build-rag-index.mjs) ───────
+frontend/public/data/rag_index.json
+
 # ── Local scratch / temp ─────────────────────────────────────────────────────
 *.tmp
 *.bak
