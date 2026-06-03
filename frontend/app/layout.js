@@ -4,7 +4,7 @@
 import './globals.css'
 
 export const metadata = {
-  title: "Y'all Volunteer — Dallas-area volunteer opportunities",
+  title: "Good Deeds Dallas — Dallas-area volunteer opportunities",
   description: "A friendly index of volunteer opportunities across Dallas, Richardson, Garland, and the wider DFW area.",
 }
 

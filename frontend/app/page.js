@@ -1,4 +1,4 @@
-// page.js — Y'all Volunteer landing page.
+// page.js — Good Deeds Dallas landing page.
 //
 // Default state: hero with search + empty content area. When the user
 // searches, all three sections (Listings, Organizations, Chatter) appear
@@ -18,7 +18,21 @@ import OrgModal            from '../components/OrgModal'
 import ListingDetailModal  from '../components/ListingDetailModal'
 import AdvancedSearchPanel  from '../components/AdvancedSearchPanel'
 import TagChip             from '../components/TagChip'
+import SourcesBlurb        from '../components/SourcesBlurb'
 import { buildOrgs }       from '../components/orgs'
+
+// Some national sources (e.g. Idealist, Voly) occasionally surface a listing
+// from outside the metro. We keep a listing if its address shows any Texas /
+// DFW signal, or if it has no parseable location at all (ambiguous remote
+// posts). A listing is dropped only when it names a place with NO Texas signal.
+const TX_SIGNAL = /\bTX\b|\bTexas\b|Dallas|Garland|McKinney|Plano|Irving|Arlington|Fort Worth|Frisco|Richardson|Denton|Carrollton|Mesquite|Allen|Rockwall|Wylie|Addison|Grapevine|Lewisville|Rowlett|Sachse|Murphy|Collin|Tarrant|DFW|Metroplex/i
+
+function isTexasListing(o) {
+  const a = o.address || {}
+  const blob = [a.full, a.city, a.state, o.city, o.state].filter(Boolean).join(' ').trim()
+  if (!blob) return true            // no location info → keep (ambiguous/remote)
+  return TX_SIGNAL.test(blob)       // has a location → require a Texas signal
+}
 
 export default function Home() {
   const [opportunities, setOpportunities] = useState([])
@@ -51,7 +65,8 @@ export default function Home() {
         const newsData = newsRes.ok     ? await newsRes.json()     : []
 
         setOpportunities(
-          [...garland, ...mckinney, ...voly, ...idealist].filter(r => r.status !== 'inactive')
+          [...garland, ...mckinney, ...voly, ...idealist]
+            .filter(r => r.status !== 'inactive' && isTexasListing(r))
         )
         setNews(
           newsData
@@ -228,18 +243,13 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10 py-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
           <button onClick={goHome} className="flex flex-wrap items-center gap-3 hover:opacity-80 transition-opacity">
             <span className="font-display font-extrabold text-ink text-lg">
-              Y'all <span className="text-brand">Volunteer</span>
+              Good Deeds <span className="text-brand">Dallas</span>
             </span>
             <span className="text-xs font-mono text-muted uppercase tracking-wider">
-              Greater Dallas
+            
             </span>
           </button>
           <div className="text-sm text-muted">
-            Aggregated from{' '}
-            <span className="font-mono text-xs">volunteergarland.org</span>,{' '}
-            <span className="font-mono text-xs">volunteermckinney.galaxydigital.com</span>,{' '}
-            <span className="font-mono text-xs">dallas.voly.org</span>,
-            Idealist, and local subreddits.
           </div>
         </div>
       </footer>
@@ -302,7 +312,7 @@ function EmptyHomeState({ onSuggest, onOpenSearch }) {
         ))}
       </div>
 
-      {/* Advanced Search feature callout */}
+      {/* Smart Search feature callout */}
       <button
         onClick={onOpenSearch}
         className="mt-10 group inline-flex items-center gap-3 rounded-xl border border-line bg-white px-5 py-3.5 text-left hover:border-brand transition-colors"
@@ -317,11 +327,16 @@ function EmptyHomeState({ onSuggest, onOpenSearch }) {
             New: Smart Search
           </span>
           <span className="block text-sm text-muted">
-            Ask in plain English — get an answer plus the closest listings, ranked by match.
+            Ask in plain English — get an answer plus the closest opportunities, ranked by match.
           </span>
         </span>
         <span className="ml-1 text-brand font-semibold group-hover:translate-x-0.5 transition-transform">→</span>
       </button>
+
+      {/* Where the listings come from */}
+      <div className="mt-12 max-w-2xl mx-auto rounded-2xl border border-line bg-white p-5 sm:p-6">
+        <SourcesBlurb />
+      </div>
     </div>
   )
 }

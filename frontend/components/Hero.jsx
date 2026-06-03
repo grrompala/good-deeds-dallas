@@ -27,11 +27,11 @@ export default function Hero({ search, setSearch, totalOpps, totalOrgs, totalNew
               aria-label="Return to home"
             >
               <h1 className="font-display font-extrabold text-4xl sm:text-5xl text-ink leading-none">
-                Y'all <span className="text-brand">Volunteer</span>
+                Good Deeds <span className="text-brand">Dallas</span>
               </h1>
             </button>
             <p className="mt-3 text-base sm:text-lg text-inkSoft leading-snug font-medium">
-              The source for giving back across Greater Dallas.
+              Pay it forward in The Big D
             </p>
           </div>
 

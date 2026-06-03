@@ -95,8 +95,8 @@ export async function POST(request) {
     // 1. Embed the question with the SAME model used for the entries.
     const queryVector = await embed(query)
 
-    // 2. Retrieve, then keep only listing hits, ranked best-match-first.
-    const hits = await retrieve(queryVector, RETRIEVE_K)
+    // 2. Retrieve the closest LISTINGS (filtered + ranked in Postgres).
+    const hits = await retrieve(queryVector, RETRIEVE_K, 'listing')
     const listingHits = rankedListingHits(hits)
     const listings = listingHits.map(h => ({ item: h.item }))
     const context = listingHits

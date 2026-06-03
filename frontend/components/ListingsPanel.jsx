@@ -8,29 +8,16 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react'
 import CityBadge from './CityBadge'
-import SourceBox, { sourceLabel, sourceInfo } from './SourceBox'
+import SourceBox, { sourceLabel } from './SourceBox'
 import SectionShell from './SectionShell'
 import TagChip from './TagChip'
 import { getTags } from './sanitizeTag'
 import { cleanOrgName } from './cleanText'
 import { orgKey } from './orgs'
 
-const SORT_OPTIONS = [
-  { id: 'recent', label: 'Recently added' },
-  { id: 'date',   label: 'Date (soonest)' },
-  { id: 'title',  label: 'A → Z' },
-  { id: 'needed', label: 'Most needed' },
-]
-
 // Sources that feed this panel — add new ones here and they'll appear as
 // filter pills automatically.
 const SOURCES = ['volunteergarland', 'volunteermckinney', 'voly_dallas', 'idealist']
-
-function parseDate(str) {
-  if (!str) return null
-  const d = new Date(str)
-  return isNaN(d.getTime()) ? null : d
-}
 
 // How many rows to reveal per "page" as the user scrolls (non-compact only).
 const PAGE_SIZE = 12
@@ -40,7 +27,6 @@ export default function ListingsPanel({ listings, compact = false, onExpand, onS
   // selected site and ANY selected cause (OR within a group, AND across groups).
   const [sources, setSources] = useState([])
   const [causes,  setCauses]  = useState([])
-  const [sort,    setSort]    = useState('recent')
 
   // Toggle a value in/out of a selection array.
   function toggle(setter, value) {
@@ -52,7 +38,7 @@ export default function ListingsPanel({ listings, compact = false, onExpand, onS
     const counts = new Map()
     listings.forEach(o => counts.set(o.source, (counts.get(o.source) || 0) + 1))
     return [
-      { id: 'all', label: 'All sites', count: listings.length },
+      { id: 'all', label: 'All sources', count: listings.length },
       ...SOURCES
         .filter(s => counts.has(s))
         .map(s => ({ id: s, label: sourceLabel(s) || s, count: counts.get(s) })),
@@ -78,25 +64,9 @@ export default function ListingsPanel({ listings, compact = false, onExpand, onS
     let rows = listings
     if (sources.length) rows = rows.filter(o => sources.includes(o.source))
     if (causes.length)  rows = rows.filter(o => getTags(o).some(t => causes.includes(t)))
-
-    if (sort === 'recent') {
-      rows = [...rows].sort((a, b) => (b.last_scraped || '').localeCompare(a.last_scraped || ''))
-    } else if (sort === 'date') {
-      rows = [...rows].sort((a, b) => {
-        const da = parseDate(a.schedule?.date)
-        const db = parseDate(b.schedule?.date)
-        if (!da && !db) return 0
-        if (!da) return 1
-        if (!db) return -1
-        return da - db
-      })
-    } else if (sort === 'title') {
-      rows = [...rows].sort((a, b) => (a.opportunity_title || '').localeCompare(b.opportunity_title || ''))
-    } else if (sort === 'needed') {
-      rows = [...rows].sort((a, b) => (b.volunteers_needed || 0) - (a.volunteers_needed || 0))
-    }
-    return rows
-  }, [listings, sources, causes, sort])
+    // Fixed order: most recently added first.
+    return [...rows].sort((a, b) => (b.last_scraped || '').localeCompare(a.last_scraped || ''))
+  }, [listings, sources, causes])
 
   // ── Infinite scroll (non-compact) ─────────────────────────────────────────
   // Reveal PAGE_SIZE rows at a time; a sentinel near the bottom loads more as
@@ -105,7 +75,7 @@ export default function ListingsPanel({ listings, compact = false, onExpand, onS
   const sentinelRef = useRef(null)
 
   // Reset the window whenever the result set changes (filters/sort).
-  useEffect(() => { setVisibleCount(PAGE_SIZE) }, [sources, causes, sort, listings])
+  useEffect(() => { setVisibleCount(PAGE_SIZE) }, [sources, causes, listings])
 
   useEffect(() => {
     if (compact) return
@@ -128,17 +98,17 @@ export default function ListingsPanel({ listings, compact = false, onExpand, onS
 
   return (
     <SectionShell
-      title="Listings"
-      subtitle={!compact && <SourcesBlurb />}
+      title="Opportunities"
+      subtitle={!compact && 'Concrete volunteer shifts and projects from across the Dallas metro.'}
       count={`${filtered.length} of ${listings.length}`}
       compact={compact}
       onExpand={onExpand}
     >
       {!compact && (
         <div className="bg-white border border-line rounded-2xl shadow-card p-4 sm:p-5 mb-5 space-y-4">
-          <FilterRow label="Site">
+          <FilterRow label="Source">
             <SitePill active={sources.length === 0} count={sourceOptions[0]?.count} onClick={() => setSources([])}>
-              All sites
+              All sources
             </SitePill>
             {sourceOptions.slice(1).map(o => (
               <SitePill key={o.id} active={sources.includes(o.id)} count={o.count} onClick={() => toggle(setSources, o.id)}>
@@ -162,19 +132,6 @@ export default function ListingsPanel({ listings, compact = false, onExpand, onS
               />
             ))}
           </FilterRow>
-
-          <div className="flex items-center justify-end gap-2 text-sm pt-1">
-            <span className="text-muted">Sort</span>
-            <select
-              value={sort}
-              onChange={e => setSort(e.target.value)}
-              className="px-3 py-1.5 rounded-md border border-line bg-white text-inkSoft focus:outline-none focus:ring-2 focus:ring-brand/20"
-            >
-              {SORT_OPTIONS.map(s => (
-                <option key={s.id} value={s.id}>{s.label}</option>
-              ))}
-            </select>
-          </div>
         </div>
       )}
 
@@ -214,44 +171,10 @@ export default function ListingsPanel({ listings, compact = false, onExpand, onS
 
       {compact && filtered.length > 8 && (
         <button onClick={onExpand} className="mt-4 w-full text-center text-sm text-brand font-semibold hover:text-brandDark py-2">
-          See all {filtered.length} listings →
+          See all {filtered.length} opportunities →
         </button>
       )}
     </SectionShell>
-  )
-}
-
-// ── Subtitle block: explains each currently-supported source ────────────────
-function SourcesBlurb() {
-  return (
-    <div className="mt-2">
-      <p className="text-sm sm:text-base text-muted mb-3">
-        Listings are pulled from these volunteer sites:
-      </p>
-      <ul className="space-y-2">
-        {SOURCES.map(s => {
-          const info = sourceInfo(s)
-          if (!info) return null
-          return (
-            <li key={s} className="flex items-start gap-2.5 text-sm leading-relaxed">
-              <span className={`mt-1.5 h-2 w-2 rounded-full shrink-0 ${info.dot}`} aria-hidden />
-              <span>
-                <a
-                  href={info.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-ink hover:text-brand transition-colors"
-                >
-                  {info.fullName}
-                </a>
-                <span className="text-muted font-mono text-xs ml-1.5">({info.domain})</span>
-                <span className="block sm:inline sm:ml-2 text-inkSoft">— {info.summary}</span>
-              </span>
-            </li>
-          )
-        })}
-      </ul>
-    </div>
   )
 }
 

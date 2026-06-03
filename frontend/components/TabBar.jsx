@@ -3,7 +3,7 @@
 // to the empty default state.
 
 const TABS = [
-  { id: 'listings',      label: 'Listings' },
+  { id: 'listings',      label: 'Opportunities' },
   { id: 'organizations', label: 'Organizations' },
   { id: 'chatter',       label: 'Chatter' },
   { id: 'search',        label: 'Smart Search' },
