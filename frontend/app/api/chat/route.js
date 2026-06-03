@@ -111,7 +111,9 @@ export async function POST(request) {
       'Answer the user using ONLY the volunteer LISTINGS provided in CONTEXT.',
       'If none of the listings genuinely fit the request, say so plainly — e.g.',
       '"I could not find a strong match, but here are the closest listings" —',
-      'and do not invent opportunities. Be concise and name the listings you cite.',
+      'and do not invent opportunities. Be concise and refer to opportunities by',
+      'their name and organization. Do NOT use bracketed reference numbers like',
+      '[1] or [5] — the user cannot see those numbers.',
     ].join(' ')
 
     const user = `CONTEXT:\n${context}\n\nUSER QUESTION: ${query}`

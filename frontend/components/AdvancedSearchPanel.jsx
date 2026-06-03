@@ -14,7 +14,7 @@
 
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useState } from 'react'
 import SectionShell from './SectionShell'
 import { ListingRow } from './ListingsPanel'
 
@@ -30,7 +30,6 @@ export default function AdvancedSearchPanel({
   const [result, setResult] = useState(null) // { question, answer, listings }
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
-  const endRef = useRef(null)
 
   useEffect(() => {
     fetch('/api/chat')
@@ -44,10 +43,6 @@ export default function AdvancedSearchPanel({
       })
       .catch(() => {})
   }, [])
-
-  useEffect(() => {
-    endRef.current?.scrollIntoView({ behavior: 'smooth' })
-  }, [result, loading])
 
   async function send(e) {
     e.preventDefault()
@@ -80,19 +75,13 @@ export default function AdvancedSearchPanel({
   return (
     <SectionShell
       title="Smart Search"
-      subtitle="Ask a question in plain English. You'll get a written answer plus the closest listings, ranked by match."
+      subtitle="AI beta feature."
       count={
         limit !== null
           ? `${remaining ?? limit}/${limit} searches left today`
           : undefined
       }
     >
-      {/* Prototype notice */}
-      <div className="mb-5 rounded-lg border border-line bg-brandSoft/40 px-4 py-3 text-sm text-inkSoft">
-        <span className="font-semibold text-ink">Preview.</span>{' '}
-        Wired to a small seed index while we finish cleaning up the data — results
-        will look similar across queries until the full set is indexed.
-      </div>
 
       {/* Input */}
       <form onSubmit={send} className="flex gap-2">
@@ -112,41 +101,47 @@ export default function AdvancedSearchPanel({
           {loading ? 'Searching…' : 'Ask'}
         </button>
       </form>
-      <div className="mt-1.5 flex items-center justify-between text-xs text-subtle tabular-nums">
-        <span>
-          {limit !== null &&
-            (outOfQuota
-              ? 'Daily limit reached — try again tomorrow.'
-              : `${remaining ?? limit} of ${limit} searches left today`)}
-        </span>
-        <span>{query.length}/{MAX_CHARS}</span>
-      </div>
 
       {error && <p className="mt-4 text-sm text-red-600">{error}</p>}
 
-      {result && (
-        <div className="mt-6">
-          {/* Echo the user's question, then the answer */}
-          <div className="rounded-2xl border border-line bg-white p-5">
-            <p className="text-sm font-semibold text-ink">
-              <span className="text-muted font-normal">You asked: </span>
-              {result.question}
-            </p>
-            <div className="mt-3 border-t border-lineSoft pt-3">
-              <div className="text-xs font-mono uppercase tracking-wider text-muted mb-2">
-                Answer
+      {(result || loading) && (
+        <div className="mt-6 space-y-4">
+          {/* User's question — chat bubble */}
+          {result && (
+            <div className="flex justify-end">
+              <div className="max-w-[85%] rounded-2xl rounded-br-md bg-brand text-white px-4 py-2.5 text-sm leading-relaxed">
+                {result.question}
               </div>
-              <p className="whitespace-pre-line text-sm sm:text-base text-ink leading-relaxed">
-                {result.answer}
-              </p>
             </div>
-          </div>
+          )}
 
-          {/* Ranked listings (best match first). Always shown when present. */}
-          {listings.length > 0 && (
-            <div className="mt-8">
+          {/* Assistant answer — chat bubble with rendered formatting */}
+          {result && (
+            <div className="flex gap-3">
+              <Avatar />
+              <div className="flex-1 min-w-0 rounded-2xl rounded-tl-md border border-line bg-white px-4 py-3 shadow-card text-[15px] text-ink leading-relaxed">
+                <FormattedAnswer text={result.answer} />
+              </div>
+            </div>
+          )}
+
+          {/* Thinking indicator */}
+          {loading && (
+            <div className="flex gap-3">
+              <Avatar />
+              <div className="rounded-2xl rounded-tl-md border border-line bg-white px-4 py-3.5 shadow-card">
+                <span className="flex gap-1">
+                  <Dot /> <Dot /> <Dot />
+                </span>
+              </div>
+            </div>
+          )}
+
+          {/* Ranked opportunities (best match first). Always shown when present. */}
+          {result && listings.length > 0 && (
+            <div className="pt-4">
               <div className="flex items-baseline justify-between mb-3">
-                <h3 className="font-bold text-ink text-lg">Best listings</h3>
+                <h3 className="font-bold text-ink text-lg">Best opportunities</h3>
                 <span className="text-xs font-mono text-muted tabular-nums">
                   {listings.length}
                 </span>
@@ -172,8 +167,45 @@ export default function AdvancedSearchPanel({
           <em>"weekend food-pantry volunteering"</em>
         </div>
       )}
-
-      <div ref={endRef} />
     </SectionShell>
+  )
+}
+
+// ── Assistant avatar (sparkle) ───────────────────────────────────────────────
+function Avatar() {
+  return (
+    <div className="shrink-0 w-8 h-8 rounded-full bg-brandSoft text-brand flex items-center justify-center">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden>
+        <path d="M12 2l1.7 5.3L19 9l-5.3 1.7L12 16l-1.7-5.3L5 9l5.3-1.7z" />
+      </svg>
+    </div>
+  )
+}
+
+// Animated typing dot.
+function Dot() {
+  return <span className="w-1.5 h-1.5 rounded-full bg-subtle animate-pulse" />
+}
+
+// ── Minimal markdown: paragraphs + **bold**, with stray [n] citations removed.
+function FormattedAnswer({ text }) {
+  const clean = String(text || '').replace(/\s*\[\d+\]/g, '')
+  const paragraphs = clean.trim().split(/\n{2,}/)
+  return (
+    <div className="space-y-2.5">
+      {paragraphs.map((para, i) => (
+        <p key={i}>{renderInline(para)}</p>
+      ))}
+    </div>
+  )
+}
+
+function renderInline(s) {
+  return s.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
+    /^\*\*[^*]+\*\*$/.test(part) ? (
+      <strong key={i} className="font-semibold text-ink">{part.slice(2, -2)}</strong>
+    ) : (
+      <span key={i}>{part}</span>
+    )
   )
 }
