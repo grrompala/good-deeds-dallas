@@ -82,6 +82,10 @@ export function sourceLabel(source) {
 }
 
 export default function SourceBox({ source }) {
+  // Curated entries are blended in without a source tile — they're hand-picked,
+  // not pulled from one of the aggregator sites, so they get no square icon.
+  if (source === 'curated') return null
+
   const def = SOURCES[source]
   if (!def) {
     return (

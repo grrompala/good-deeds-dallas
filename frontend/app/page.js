@@ -51,22 +51,24 @@ export default function Home() {
   useEffect(() => {
     async function loadData() {
       try {
-        const [garlandRes, mckinneyRes, volyRes, idealistRes, newsRes] = await Promise.all([
+        const [garlandRes, mckinneyRes, volyRes, idealistRes, curatedRes, newsRes] = await Promise.all([
           fetch('/data/volops_garland.json'),
           fetch('/data/volops_mckinney.json'),
           fetch('/data/volops_voly.json'),
           fetch('/data/volops_idealist.json'),
+          fetch('/data/volops_curated.json'),
           fetch('/data/reddit_raw.json'),
         ])
         const garland  = garlandRes.ok  ? await garlandRes.json()  : []
         const mckinney = mckinneyRes.ok ? await mckinneyRes.json() : []
         const voly     = volyRes.ok     ? await volyRes.json()     : []
         const idealist = idealistRes.ok ? await idealistRes.json() : []
+        const curated  = curatedRes.ok  ? await curatedRes.json()  : []
         const newsData = newsRes.ok     ? await newsRes.json()     : []
 
         setOpportunities(
-          [...garland, ...mckinney, ...voly, ...idealist]
-            .filter(r => r.status !== 'inactive' && isTexasListing(r))
+          [...garland, ...mckinney, ...voly, ...idealist, ...curated]
+            .filter(r => r.status !== 'inactive' && r.qc?.status !== 'rejected' && isTexasListing(r))
         )
         setNews(
           newsData

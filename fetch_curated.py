@@ -17,6 +17,7 @@ Usage:
 """
 
 import os
+import re
 import json
 import time
 import argparse
@@ -24,11 +25,12 @@ import requests
 from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urljoin, urlparse
 from dotenv import load_dotenv
 
 load_dotenv()  # loads .env from current directory
 
-ORGS_FILE = Path("orgs.json")
+ORGS_FILE = Path("orgs_ntgd_candidates.json")
 OUTPUT_FILE = Path("frontend/public/data/volops_curated.json")
 DELAY = 1.5
 MAX_PAGE_CHARS = 12_000  # keep LLM input manageable
@@ -67,29 +69,93 @@ Page content:
 """
 
 
-def fetch_page_text(url: str) -> str | None:
-    """Fetch a URL and return cleaned plain text, stripping nav/footer boilerplate."""
+# Links / text that suggest a volunteer page.
+VOLUNTEER_HINTS = re.compile(
+    r"volunteer|get.?involved|ways.?to.?(help|give|serve)|join.?us|"
+    r"serve|opportunit|give.?back|help.?out|lend.?a.?hand",
+    re.I,
+)
+
+
+def fetch_soup(url: str):
+    """Fetch a URL and return a BeautifulSoup (with nav intact), or None."""
     try:
         response = requests.get(url, headers=HEADERS, timeout=20)
         response.raise_for_status()
     except requests.RequestException as e:
         print(f"    Fetch error: {e}")
         return None
+    return BeautifulSoup(response.text, "lxml")
 
-    soup = BeautifulSoup(response.text, "lxml")
 
-    # Remove noise elements
+def soup_to_text(soup) -> str:
+    """Strip nav/footer boilerplate and return cleaned plain text."""
+    # Work on a copy so we don't mutate a soup we still want links from.
     for tag in soup(["script", "style", "nav", "footer", "header",
                      "aside", "form", "noscript", "svg", "img"]):
         tag.decompose()
-
     text = soup.get_text(separator="\n", strip=True)
-
-    # Collapse excessive blank lines
     lines = [l.strip() for l in text.splitlines() if l.strip()]
-    text = "\n".join(lines)
+    return "\n".join(lines)[:MAX_PAGE_CHARS]
 
-    return text[:MAX_PAGE_CHARS]
+
+def fetch_page_text(url: str) -> str | None:
+    """Fetch a URL and return cleaned plain text, or None."""
+    soup = fetch_soup(url)
+    if soup is None:
+        return None
+    return soup_to_text(soup)
+
+
+def is_homepage(url: str) -> bool:
+    """True if the URL points at a site root (no meaningful path)."""
+    if not url:
+        return False
+    path = urlparse(url).path.strip("/")
+    return path == ""
+
+
+def find_volunteer_links(soup, base_url: str, limit: int = 3) -> list[str]:
+    """Find the most volunteer-relevant on-site links from a homepage.
+
+    Scores same-domain anchors by volunteer keywords in the href/text and
+    returns the best few absolute URLs (excluding the page itself)."""
+    base_dom = urlparse(base_url).netloc.replace("www.", "")
+    base_norm = base_url.rstrip("/")
+    scored: dict[str, int] = {}
+
+    for a in soup.find_all("a", href=True):
+        href = a["href"].strip()
+        if href.startswith(("mailto:", "tel:", "#", "javascript:")):
+            continue
+        full = urljoin(base_url, href)
+        parsed = urlparse(full)
+        if parsed.scheme not in ("http", "https"):
+            continue
+        if parsed.netloc.replace("www.", "") != base_dom:
+            continue  # same site only
+        full_norm = full.split("#")[0].rstrip("/")
+        if full_norm == base_norm:
+            continue  # skip self
+        text = a.get_text(" ", strip=True)
+        hay = f"{href} {text}".lower()
+        if not VOLUNTEER_HINTS.search(hay):
+            continue
+
+        path = parsed.path.lower()
+        score = 0
+        if "volunteer" in path:
+            score += 3
+        if re.search(r"get.?involved|ways.?to.?help", path):
+            score += 2
+        if "volunteer" in text.lower():
+            score += 2
+        if "opportunit" in hay:
+            score += 1
+        scored[full_norm] = max(scored.get(full_norm, 0), score)
+
+    ranked = sorted(scored.items(), key=lambda kv: -kv[1])
+    return [url for url, _ in ranked[:limit]]
 
 
 def make_llm_client(provider: str):
@@ -137,8 +203,10 @@ def call_llm(prompt: str, client, provider: str) -> str:
         return response.choices[0].message.content.strip()
 
 
-def extract_opportunities(page_text: str, org: dict, client, provider: str) -> list[dict]:
+def extract_opportunities(page_text: str, org: dict, client, provider: str,
+                          source_url: str | None = None) -> list[dict]:
     """Send page text to the LLM and parse structured opportunities."""
+    source_url = source_url or org["volunteer_url"]
     prompt = EXTRACTION_PROMPT.format(page_text=page_text)
 
     raw = call_llm(prompt, client, provider)
@@ -168,7 +236,7 @@ def extract_opportunities(page_text: str, org: dict, client, provider: str) -> l
             "source": "curated",
             "org_id": org["id"],
             "org_name": org["name"],
-            "source_url": org["volunteer_url"],
+            "source_url": source_url,
             "status": "active",
             "last_scraped": now,
             **opp,
@@ -177,9 +245,32 @@ def extract_opportunities(page_text: str, org: dict, client, provider: str) -> l
     return stamped
 
 
-def scrape_org(org: dict, client, provider: str) -> list[dict]:
-    """Fetch and extract opportunities for one org, trying fallback URLs if needed."""
-    urls_to_try = [org["volunteer_url"]] + org.get("fallback_urls", [])
+def scrape_org(org: dict, client, provider: str, resolve_homepage: bool = False) -> list[dict]:
+    """Fetch and extract opportunities for one org, trying fallback URLs if needed.
+
+    If the org's URL is a bare homepage (or resolve_homepage is forced), first
+    discover the org's volunteer/get-involved page(s) from that homepage and try
+    those before falling back to extracting from the homepage itself."""
+    primary = org["volunteer_url"]
+    urls_to_try = [primary] + org.get("fallback_urls", [])
+
+    # Homepage resolution: expand the homepage into discovered volunteer links.
+    if primary and (resolve_homepage or is_homepage(primary)):
+        print(f"  Resolving volunteer page from homepage {primary}...")
+        home_soup = fetch_soup(primary)
+        if home_soup is not None:
+            discovered = find_volunteer_links(home_soup, primary)
+            if discovered:
+                print(f"  Found candidate volunteer link(s): {', '.join(discovered)}")
+                # Try discovered pages first, then the homepage, then fallbacks.
+                seen, merged = set(), []
+                for u in discovered + urls_to_try:
+                    if u not in seen:
+                        seen.add(u)
+                        merged.append(u)
+                urls_to_try = merged
+            else:
+                print(f"  No volunteer link found on homepage — will read homepage directly.")
 
     for url in urls_to_try:
         print(f"  Fetching {url}...")
@@ -190,15 +281,15 @@ def scrape_org(org: dict, client, provider: str) -> list[dict]:
             continue
 
         print(f"  Extracting with LLM/{provider} ({len(page_text)} chars)...")
-        opportunities = extract_opportunities(page_text, org, client, provider)
+        opportunities = extract_opportunities(page_text, org, client, provider, source_url=url)
         print(f"  Found {len(opportunities)} opportunity/ies")
 
         if opportunities:
             return opportunities
 
-        # Got text but no opportunities — might be the wrong page, try fallback
+        # Got text but no opportunities — might be the wrong page, try next.
         if url != urls_to_try[-1]:
-            print(f"  No opportunities extracted, trying fallback URL...")
+            print(f"  No opportunities extracted, trying next URL...")
 
     return []
 
@@ -209,6 +300,12 @@ def main():
     parser.add_argument("--provider", choices=["anthropic", "openai"],
                         default=os.environ.get("LLM_PROVIDER"),
                         help="LLM provider to use (default: auto-detect from API keys)")
+    parser.add_argument("--resolve-homepage", action="store_true",
+                        help="Force homepage→volunteer-page discovery for every org "
+                             "(otherwise it's automatic only for bare-homepage URLs)")
+    parser.add_argument("--force", action="store_true",
+                        help="Re-extract every org, even ones that already have records "
+                             "(default: skip orgs already in the output to save LLM calls)")
     args = parser.parse_args()
 
     provider = args.provider or detect_provider()
@@ -233,9 +330,23 @@ def main():
         print(f"Loaded {len(existing)} existing records\n")
 
     active_orgs = [o for o in orgs if o.get("active", True)]
-    print(f"Processing {len(active_orgs)} org(s)...\n")
 
-    for org in active_orgs:
+    # Incremental by default: skip orgs that already have extracted records, so
+    # re-running only processes NEW orgs. --force re-does everything; --org always
+    # processes the one you asked for.
+    def already_done(org):
+        return any(k.startswith(f"{org['id']}_") for k in existing)
+
+    if not args.force and not args.org:
+        todo = [o for o in active_orgs if not already_done(o)]
+        skipped = len(active_orgs) - len(todo)
+        print(f"Processing {len(todo)} new org(s); skipping {skipped} already extracted "
+              f"(use --force to re-extract).\n")
+    else:
+        todo = active_orgs
+        print(f"Processing {len(todo)} org(s)...\n")
+
+    for org in todo:
         print(f"--- {org['name']} ---")
 
         # Remove old records for this org before replacing
@@ -243,7 +354,7 @@ def main():
         for k in old_keys:
             del existing[k]
 
-        opportunities = scrape_org(org, client, provider)
+        opportunities = scrape_org(org, client, provider, resolve_homepage=args.resolve_homepage)
 
         for opp in opportunities:
             existing[opp["id"]] = opp

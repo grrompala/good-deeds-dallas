@@ -13,6 +13,7 @@ const LISTING_FILES = [
   'public/data/volops_mckinney.json',
   'public/data/volops_voly.json',
   'public/data/volops_idealist.json',
+  'public/data/volops_curated.json',
 ]
 
 // Mirror of the client-side Texas filter in app/page.js: keep a listing if its
@@ -89,7 +90,7 @@ export function buildCorpusEntries() {
     } catch {
       return [] // a missing source file is fine — just skip it
     }
-  }).filter(o => o.status !== 'inactive' && isTexasListing(o))
+  }).filter(o => o.status !== 'inactive' && o.qc?.status !== 'rejected' && isTexasListing(o))
 
   const entries = []
   for (const o of listings) {

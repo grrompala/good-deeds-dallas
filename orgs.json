@@ -229,5 +229,27 @@
     "fallback_urls": [],
     "notes": "Mobile food pantry serving Richardson and Garland. Faith-based but open to all volunteers.",
     "active": true
+  },
+  {
+    "id": "creative_arts_center",
+    "ntgd_slug": "Bonhamcreativeartscenter",
+    "name": "Creative Arts Center",
+    "city": "th St Bonham",
+    "state": "TX",
+    "postal": "75418",
+    "ein": null,
+    "county": "Fannin",
+    "cause": [
+      "arts"
+    ],
+    "cause_raw": "Arts & Humanities",
+    "volunteer_url": "http://creativeartscenterbonham.org",
+    "fallback_urls": [],
+    "phone": "903-640-2196",
+    "email": "director@creativeartscenterbonham.org",
+    "notes": "The Creative Arts Center in Bonham is a nonprofit organization dedicated to supporting and promoting the arts in Fannin County. Our Center has an art...",
+    "ntgd_url": "https://www.northtexasgivingday.org/organization/Bonhamcreativeartscenter",
+    "active": true,
+    "already_in_orgs_json": false
   }
 ]

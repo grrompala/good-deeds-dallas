@@ -109,7 +109,7 @@ export default function ListingDetailModal({ listing, onClose, onSelectOrg }) {
               rel="noopener noreferrer"
               className="inline-block bg-accent hover:bg-green-700 text-white text-sm font-semibold px-5 py-2.5 rounded-lg transition-colors"
             >
-              View opportunity on {sourceLabel(o.source) || 'site'} →
+              View opportunity{o.source !== 'curated' && sourceLabel(o.source) ? ` on ${sourceLabel(o.source)}` : ''} →
             </a>
           )}
         </div>

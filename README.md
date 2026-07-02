@@ -249,4 +249,108 @@ comfortably; free projects pause after ~1 week idle and wake on the next query.
   "id":                "voly_116506",
   "source":            "voly_dallas",            // volunteergarland / volunteermckinney / idealist / ...
   "source_url":        "https://...",
-  "org_name":          "SoupMobile, In
+  "org_name":          "SoupMobile, Inc.",
+  "org_url":           "https://...",
+  "opportunity_title": "Feed the Homeless",
+  "description_short": "Feeding the homeless in Dallas, Texas.",
+  "description_long":  "...",
+  "cause_tags":        ["Food/Hunger"],          // raw, source-specific
+  "unified_tags":      ["food_security"],        // LLM-assigned (after classify_listings.py)
+  "is_virtual":        false,
+  "schedule":          { "date": "May 24, 2026", "duration": "2.5 Hours", "raw": "..." },
+  "volunteers_needed": 600,
+  "address":           { "full": "...", "city": "Dallas", "state": "TX", "zip": "75201" },
+  "contact":           { "email": "...", "phone": "...", "info": null },
+  "status":            "active",                 // or "inactive" if delisted upstream
+  "last_scraped":      "2026-05-24T13:36:01+00:00"
+}
+```
+
+Reddit posts (`reddit_raw.json`) have a different shape — see `fetch_reddit.py`.
+They're keyword-scored; the frontend keeps posts with `relevance.total >= 2`.
+
+---
+
+## Frontend overview
+
+Single-page Next.js app. Four tabs:
+
+| Tab | Source |
+|-----|--------|
+| **Opportunities** | Garland + McKinney + Voly + Idealist (concrete volunteer slots) |
+| **Organizations** | Derived from the loaded opportunities (`buildOrgs` in `orgs.js`) |
+| **Chatter** | Reddit posts |
+| **Smart Search** | Semantic search (see above) |
+
+### Behavior
+
+- **Default state:** empty home with hero, search bar, suggestion chips, source
+  descriptions, and a Smart Search callout.
+- **Type in the search bar:** Opportunities / Organizations / Chatter appear
+  stacked, filtered by the query; tabs become smooth-scroll anchors.
+- **Click a tab without searching:** focuses that section full-width.
+- **Smart Search** is its own mode (independent of the keyword search).
+- **Home button** or the **Good Deeds Dallas** wordmark returns to the empty state.
+
+The Opportunities panel filters by **Source** and **Cause** (multi-select);
+ordering is fixed to most-recently-added (the old sort dropdown was removed).
+Org names and "Read more" open modals (`OrgModal` / `ListingDetailModal`)
+without leaving the site.
+
+### Styling
+
+Editable in `tailwind.config.js`: `colors.brand` (indigo accent), `colors.accent`
+(orange highlight), `colors.canvas` / `surface`. Source colors live in
+`SourceBox.jsx`. City names parse unreliably, so the city shows only as a
+hover map pin (`CityBadge.jsx`).
+
+---
+
+## Deploying
+
+The app is **not** a pure static export anymore — `output: 'export'` is disabled
+in `next.config.js` because Smart Search needs the `/api/chat` route to run on a
+server. Deploy on Vercel (Next.js runs API routes as serverless functions
+natively). Set the same env vars (`OPENAI_API_KEY`, `SUPABASE_URL`,
+`SUPABASE_SECRET_KEY`, `RAG_*`) in the Vercel project settings. The Smart Search
+index lives in Supabase, so no large file ships with the build.
+
+---
+
+## Common workflows
+
+### "I want fresh data"
+```powershell
+python fetch_garland.py; python fetch_mckinney.py; python fetch_voly.py
+python fetch_idealist.py; python fetch_reddit.py
+python classify_listings.py
+cd frontend; node scripts/build-rag-index.mjs   # refresh Smart Search embeddings
+```
+
+### "I want to add a new scraper source"
+1. Create `fetch_<name>.py`; write to `frontend/public/data/volops_<name>.json`
+   with a unique `source` value.
+2. Add the path to `LISTING_FILES` in `classify_listings.py` **and** in
+   `frontend/lib/rag/corpus.js` (so Smart Search indexes it).
+3. In `frontend/app/page.js`, add a `fetch('/data/volops_<name>.json')` to the
+   `Promise.all` and include it in the `setOpportunities` merge.
+4. Add a source color/label in `frontend/components/SourceBox.jsx`.
+
+### "I want to add a cause-tag category"
+Edit `TAXONOMY` in `classify_listings.py`, then
+`python classify_listings.py --reclassify`. Filter pills update automatically.
+
+### "I want to test a different chat LLM"
+Change `RAG_CHAT_MODEL` in `frontend/.env.local`, restart `npm run dev`. No
+re-index needed.
+
+---
+
+## Known issues / TODO
+
+* Voly org addresses still parse poorly (multi-line / non-address blocks).
+* City-name casing is inconsistent across sources (some all-caps).
+* Per-IP rate limit is in-memory only — needs a shared store to be durable.
+* 27 MB-era concern is gone (Supabase), but free Supabase projects pause when idle.
+* Nice-to-haves: GIFs/memes on the empty state; threshold weak Smart Search
+  matches so a "no match" answer shows fewer cards.
