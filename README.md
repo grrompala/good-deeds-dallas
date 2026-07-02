@@ -50,6 +50,9 @@ npm install                    # first time only
 npm run dev                    # http://localhost:3000
 ```
 
+After the first pass, `.\refresh.ps1` re-runs steps 2–3 (plus QC and the
+Smart Search re-embed) in one command — see [Re-running](#re-running).
+
 That's enough to browse Opportunities / Organizations / Chatter. To also light up
 **Smart Search**, do the [Smart Search setup](#smart-search-rag) below.
 
@@ -122,12 +125,12 @@ populated fields vary by source.
 | volunteermckinney.galaxydigital | `fetch_mckinney.py` | `volops_mckinney.json` | Same platform/cleanup as Garland. |
 | dallas.voly.org | `fetch_voly.py` | `volops_voly.json` | Voly AJAX search + detail pages. |
 | Idealist (Dallas) | `fetch_idealist.py` | `volops_idealist.json` | Dallas-metro slice via Idealist's public Algolia search. |
-| Curated nonprofits | `fetch_curated.py` | `volops_curated.json` | LLM-extracts from org websites in `orgs.json`. *(Not currently loaded by the frontend.)* |
+| Curated nonprofits | `fetch_curated.py` | `volops_curated.json` | LLM-extracts from org websites in `orgs.json`. The only source run through `qc_filter.py` — see [QC filter](#qc-filter) below. |
 | Local subreddits | `fetch_reddit.py` | `reddit_raw.json` | r/Dallas, r/Garland, r/plano, r/Richardson, r/DFW. |
 
-The frontend loads **garland + mckinney + voly + idealist** as Opportunities and
-**reddit** as Chatter. Organizations are *derived* from the loaded opportunities
-(no separate curated source in the UI).
+The frontend loads **garland + mckinney + voly + idealist + curated** as
+Opportunities and **reddit** as Chatter. Organizations are *derived* from the
+loaded opportunities (no separate curated source in the UI).
 
 ### Galaxy Digital description/location cleanup
 
@@ -150,7 +153,9 @@ it's dropped only when it names a place with no Texas signal.
 Scrapers are **incremental** — they load existing records and only re-fetch
 what changed. Delisted listings are marked `status: "inactive"`, not deleted.
 Recommended cadence: weekly. **After re-scraping, rebuild the Smart Search index**
-(see below) so embeddings reflect the new data.
+(see below) so embeddings reflect the new data. `refresh.ps1` (repo root) runs
+the whole scrape → QC → classify → re-embed sequence in one command — see
+[Common workflows](#common-workflows).
 
 ---
 
@@ -173,6 +178,31 @@ TAXONOMY = [
 **Cost:** ~$0.05 for a full first pass on GPT-4o-mini; later runs only hit new
 records. The frontend reads `unified_tags` first via `getTags()`
 (`sanitizeTag.js`), falling back to a heuristic over raw `cause_tags`.
+
+---
+
+## QC filter
+
+Garland/McKinney/Voly/Idealist come from platforms where every listing is
+already a real, staffed volunteer role, so they're **trusted as-is** and
+skip QC. `fetch_curated.py` pulls from arbitrary org websites via an LLM
+extraction step, which occasionally surfaces things that aren't real
+volunteer roles (a 5K someone runs in, a donation drive, a paid internship).
+`qc_filter.py` runs an LLM rubric over `volops_curated.json` only, stamping
+each record with a `qc: { status: "passed" | "rejected", category, reason }`
+block. The frontend and the Smart Search corpus both drop `qc.status ==
+"rejected"` records.
+
+Like the other pipeline steps, it's incremental (only judges records without a
+`qc` stamp; `--recheck` re-judges everything) and correctable: put
+`{"<id>": "keep" | "reject"}` entries in `qc_overrides.json` to override the
+model, then re-run — overrides always win. Rejections are logged to
+`qc_rejected.json` for a quick skim.
+
+```powershell
+python qc_filter.py                 # judge new/unstamped curated records
+python qc_filter.py --recheck       # re-judge everything
+```
 
 ---
 
@@ -277,7 +307,7 @@ Single-page Next.js app. Four tabs:
 
 | Tab | Source |
 |-----|--------|
-| **Opportunities** | Garland + McKinney + Voly + Idealist (concrete volunteer slots) |
+| **Opportunities** | Garland + McKinney + Voly + Idealist + Curated (concrete volunteer slots) |
 | **Organizations** | Derived from the loaded opportunities (`buildOrgs` in `orgs.js`) |
 | **Chatter** | Reddit posts |
 | **Smart Search** | Semantic search (see above) |
@@ -321,8 +351,15 @@ index lives in Supabase, so no large file ships with the build.
 
 ### "I want fresh data"
 ```powershell
+.\refresh.ps1
+```
+Runs scrapers → `qc_filter.py` (curated only) → `classify_listings.py` →
+`build-rag-index.mjs`, in order — each step only touches new/changed records.
+Pass `-SkipEmbed` to skip the Supabase rebuild. Under the hood:
+```powershell
 python fetch_garland.py; python fetch_mckinney.py; python fetch_voly.py
 python fetch_idealist.py; python fetch_reddit.py
+python qc_filter.py
 python classify_listings.py
 cd frontend; node scripts/build-rag-index.mjs   # refresh Smart Search embeddings
 ```
