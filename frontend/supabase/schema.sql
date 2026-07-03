@@ -45,3 +45,66 @@ as $$
   order by o.embedding <=> query_embedding
   limit match_count;
 $$;
+
+-- ── Smart Search rate limiting ───────────────────────────────────────────────
+-- Durable quota store shared across all serverless instances (the in-memory
+-- counter in route.js only limited within one warm instance). One row per
+-- allowed search; limits use a rolling 24-hour window.
+--
+-- ip_hash is a SHA-256 of the client IP (hashed in route.js) — no raw
+-- addresses are stored. Leave RLS on with no policies, same as opportunities:
+-- only the server's secret key can touch it.
+
+create table if not exists search_log (
+  id         bigint generated always as identity primary key,
+  ip_hash    text not null,
+  created_at timestamptz not null default now()
+);
+
+alter table search_log enable row level security;
+
+create index if not exists search_log_ip_time_idx on search_log (ip_hash, created_at);
+create index if not exists search_log_time_idx    on search_log (created_at);
+
+-- Atomically: check the global limit, check the per-IP limit, and (only if
+-- both pass) record the search. The advisory lock serializes concurrent calls
+-- so parallel requests can't double-spend; at this volume that's free.
+create or replace function check_search_quota(
+  client_ip_hash text,
+  ip_limit int default 5,
+  global_limit int default 50
+)
+returns jsonb
+language plpgsql
+as $$
+declare
+  ip_count int;
+  global_count int;
+begin
+  perform pg_advisory_xact_lock(hashtext('search_quota'));
+
+  -- Opportunistic cleanup: drop rows too old to ever matter again.
+  delete from search_log where created_at < now() - interval '48 hours';
+
+  select count(*) into global_count
+  from search_log
+  where created_at > now() - interval '24 hours';
+
+  if global_count >= global_limit then
+    return jsonb_build_object('allowed', false, 'reason', 'global', 'remaining', 0);
+  end if;
+
+  select count(*) into ip_count
+  from search_log
+  where ip_hash = client_ip_hash
+    and created_at > now() - interval '24 hours';
+
+  if ip_count >= ip_limit then
+    return jsonb_build_object('allowed', false, 'reason', 'ip', 'remaining', 0);
+  end if;
+
+  insert into search_log (ip_hash) values (client_ip_hash);
+  return jsonb_build_object('allowed', true, 'reason', null,
+                            'remaining', ip_limit - ip_count - 1);
+end;
+$$;

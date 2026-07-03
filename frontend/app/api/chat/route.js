@@ -6,22 +6,25 @@
 //
 // Runs on the Node runtime because store.js reads data files from disk.
 //
-// Guardrails (best-effort, prototype-grade):
+// Guardrails:
 //   • Query length cap so a user can't paste a novel and run up token cost.
-//   • A soft per-client daily quota keyed by IP. NOTE: serverless instances
-//     don't share memory, so this only limits within a single warm instance —
-//     it is a speed bump, not a real quota. A durable limit needs a shared
-//     store (KV/Redis). Good enough to keep casual abuse down for now.
+//   • Durable rate limiting via Supabase (check_search_quota RPC): a rolling
+//     24-hour window with a per-IP limit and a global limit, shared across
+//     all serverless instances. IPs are SHA-256-hashed before they leave
+//     this process, so no raw addresses are stored.
 
+import { createHash } from 'node:crypto'
 import { embed, chat } from '../../../lib/rag/openai'
 import { retrieve, indexSummary } from '../../../lib/rag/store'
 import { RAG_CONFIG } from '../../../lib/rag/config'
+import { supa } from '../../../lib/rag/supabase'
 
 export const runtime = 'nodejs'
 
 // ── Guardrail config ─────────────────────────────────────────────────────────
 const MAX_QUERY_CHARS = 300
-const DAILY_LIMIT = 5
+const DAILY_LIMIT = Number(process.env.SEARCH_IP_LIMIT || 5)       // per IP / 24h
+const GLOBAL_LIMIT = Number(process.env.SEARCH_GLOBAL_LIMIT || 50) // all users / 24h
 // Pull enough that each domain (listings / orgs / chatter) can contribute a
 // few cards. With the full corpus this is where you'd cap per-group instead.
 const RETRIEVE_K = Math.max(RAG_CONFIG.topK, 12)
@@ -35,27 +38,24 @@ function rankedListingHits(hits) {
     .sort((a, b) => b.score - a.score)
 }
 
-// Per-IP counters: ip -> { day: 'YYYY-MM-DD', count }. Module-level, so it
-// lives only as long as this warm serverless instance.
-const _quota = new Map()
-
 function clientIp(request) {
   const fwd = request.headers.get('x-forwarded-for')
   if (fwd) return fwd.split(',')[0].trim()
   return request.headers.get('x-real-ip') || 'unknown'
 }
 
-// Returns { ok, remaining } and increments on success.
-function checkAndCount(ip) {
-  const today = new Date().toISOString().slice(0, 10)
-  const rec = _quota.get(ip)
-  if (!rec || rec.day !== today) {
-    _quota.set(ip, { day: today, count: 1 })
-    return { ok: true, remaining: DAILY_LIMIT - 1 }
-  }
-  if (rec.count >= DAILY_LIMIT) return { ok: false, remaining: 0 }
-  rec.count += 1
-  return { ok: true, remaining: DAILY_LIMIT - rec.count }
+// Durable check-and-count in Supabase (see check_search_quota in schema.sql).
+// One round-trip: verifies the global limit, then the per-IP limit, and
+// records the search only if both pass.
+async function checkAndCount(ip) {
+  const ipHash = createHash('sha256').update(ip).digest('hex')
+  const { data, error } = await supa().rpc('check_search_quota', {
+    client_ip_hash: ipHash,
+    ip_limit: DAILY_LIMIT,
+    global_limit: GLOBAL_LIMIT,
+  })
+  if (error) throw new Error(`Rate-limit check failed: ${error.message}`)
+  return { ok: data.allowed, reason: data.reason, remaining: data.remaining }
 }
 
 export async function GET() {
@@ -84,12 +84,12 @@ export async function POST(request) {
 
     // ── Rate limit ──────────────────────────────────────────────────────────
     const ip = clientIp(request)
-    const { ok, remaining } = checkAndCount(ip)
+    const { ok, reason, remaining } = await checkAndCount(ip)
     if (!ok) {
-      return Response.json(
-        { error: `Daily limit of ${DAILY_LIMIT} searches reached. Try again tomorrow.` },
-        { status: 429 }
-      )
+      const message = reason === 'global'
+        ? 'Smart Search is taking a breather — the sitewide daily search limit was reached. Try again later.'
+        : `Daily limit of ${DAILY_LIMIT} searches reached. Try again tomorrow.`
+      return Response.json({ error: message }, { status: 429 })
     }
 
     // 1. Embed the question with the SAME model used for the entries.

@@ -272,10 +272,15 @@ npm install @supabase/supabase-js          # one-time
 
 ### Guardrails
 
-`app/api/chat/route.js` enforces a 300-char query cap and a soft per-IP daily
-limit (`DAILY_LIMIT`, currently 5). The per-IP limit is best-effort — serverless
-instances don't share memory, so it's a speed bump, not a hard quota (a durable
-limit needs a shared store like KV/Redis).
+`app/api/chat/route.js` enforces a 300-char query cap plus durable rate
+limiting backed by Supabase (`check_search_quota` in `supabase/schema.sql`):
+a rolling 24-hour window with a per-IP limit (`SEARCH_IP_LIMIT`, default 5)
+and a sitewide limit (`SEARCH_GLOBAL_LIMIT`, default 50) — both env-tunable.
+The check-and-count happens atomically in one Postgres function shared by all
+serverless instances, so it's a real quota, not the old per-instance speed
+bump. IPs are SHA-256-hashed before storage. Note IP-based limiting is still
+inherently fuzzy: users behind one NAT share a bucket, and VPN-hoppers can get
+fresh ones — the global cap is the true cost ceiling.
 
 ### Cost / scale notes
 
@@ -400,7 +405,8 @@ re-index needed.
 
 * Voly org addresses still parse poorly (multi-line / non-address blocks).
 * City-name casing is inconsistent across sources (some all-caps).
-* Per-IP rate limit is in-memory only — needs a shared store to be durable.
+* ~~Per-IP rate limit is in-memory only~~ — fixed: rate limiting now lives in
+  Supabase (`check_search_quota`), durable across serverless instances.
 * 27 MB-era concern is gone (Supabase), but free Supabase projects pause when idle.
 * Nice-to-haves: GIFs/memes on the empty state; threshold weak Smart Search
   matches so a "no match" answer shows fewer cards.
