@@ -20,6 +20,10 @@ import { ListingRow } from './ListingsPanel'
 
 const MAX_CHARS = 300
 
+// The last Q&A survives leaving the tab (component unmount) and page
+// refreshes via sessionStorage; it clears when the browser tab closes.
+const STORAGE_KEY = 'gdd-smart-search-result'
+
 export default function AdvancedSearchPanel({
   onSelectOrg,
   onSelectListing,
@@ -30,6 +34,27 @@ export default function AdvancedSearchPanel({
   const [result, setResult] = useState(null) // { question, answer, listings }
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
+
+  // Restore the previous conversation on mount (sessionStorage is browser-only,
+  // so this runs in an effect rather than as the initial state to keep the
+  // server-rendered markup consistent).
+  useEffect(() => {
+    try {
+      const saved = sessionStorage.getItem(STORAGE_KEY)
+      if (saved) setResult(JSON.parse(saved))
+    } catch {
+      // corrupt/unavailable storage — start fresh
+    }
+  }, [])
+
+  // Persist each new result.
+  useEffect(() => {
+    try {
+      if (result) sessionStorage.setItem(STORAGE_KEY, JSON.stringify(result))
+    } catch {
+      // storage full/unavailable — losing persistence is fine
+    }
+  }, [result])
 
   useEffect(() => {
     fetch('/api/chat')

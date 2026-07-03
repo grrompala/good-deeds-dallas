@@ -59,7 +59,7 @@ const SOURCES = {
     url:         null,
     domain:      null,
     summary:     'Hand-picked DFW nonprofits whose volunteer pages we extract directly with an LLM.',
-    short:       ['Curated'],
+    short:       ['GDD', 'Curated'],
     bg:          'bg-amber-50',
     text:        'text-amber-700',
     border:      'border-amber-200',
@@ -82,10 +82,6 @@ export function sourceLabel(source) {
 }
 
 export default function SourceBox({ source }) {
-  // Curated entries are blended in without a source tile — they're hand-picked,
-  // not pulled from one of the aggregator sites, so they get no square icon.
-  if (source === 'curated') return null
-
   const def = SOURCES[source]
   if (!def) {
     return (
