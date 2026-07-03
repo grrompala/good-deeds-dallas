@@ -39,8 +39,9 @@ Invoke-Step { python fetch_voly.py }
 Invoke-Step { python fetch_idealist.py }
 Invoke-Step { python fetch_reddit.py }
 
-Write-Host "`n=== 2/4 QC filter (curated) ===" -ForegroundColor Cyan
-Invoke-Step { python qc_filter.py }
+Write-Host "`n=== 2/4 QC filter ===" -ForegroundColor Cyan
+Invoke-Step { python qc_filter.py }   # dedup + LLM content judge (curated)
+Invoke-Step { python qc_filter.py --file frontend/public/data/volops_idealist.json --dedupe-only }
 
 Write-Host "`n=== 3/4 Unified tags ===" -ForegroundColor Cyan
 Invoke-Step { python classify_listings.py }
