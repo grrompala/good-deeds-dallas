@@ -31,7 +31,7 @@ a pure static export) plus a Supabase project holding the embeddings.
 ```powershell
 # 1. One-time Python setup (scrapers + classifier)
 cd C:\Users\grrom\volunteer_hub
-pip install requests beautifulsoup4 lxml python-dotenv openai
+pip install -r requirements.txt
 echo "OPEN_AI_KEY=sk-..." > .env       # used by fetch_curated + classify_listings
 
 # 2. Scrape (each is independent; re-run whenever)
@@ -63,16 +63,20 @@ That's enough to browse Opportunities / Organizations / Chatter. To also light u
 ```
 volunteer_hub/
 ├── README.md                        ← this file
+├── requirements.txt                 ← Python deps for the scrapers/classifier/QC
 ├── orgs.json                        ← curated nonprofit list (input to fetch_curated)
 ├── .env                             ← Python API keys (gitignored)
+├── refresh.ps1                      ← one-command scrape → QC → classify → re-embed
+├── .github/workflows/refresh.yml    ← same pipeline, on a weekly GitHub Actions schedule
 │
 ├── fetch_garland.py                 ← Galaxy Digital scraper (volunteergarland.org)
 ├── fetch_mckinney.py                ← Galaxy Digital scraper (volunteermckinney.galaxydigital.com)
 ├── fetch_voly.py                    ← Voly scraper (dallas.voly.org)
 ├── fetch_idealist.py                ← Idealist (Dallas slice via public Algolia search)
 ├── fetch_curated.py                 ← LLM-extracts opportunities from org websites (orgs.json)
-├── fetch_reddit.py                  ← volunteer-related posts from local subreddits
+├── fetch_reddit.py                  ← volunteer-related posts from local subreddits (search.rss)
 ├── classify_listings.py             ← LLM step assigning unified category tags
+├── qc_filter.py                     ← dedup + LLM content QC (see QC filter section)
 │
 └── frontend/                        ← Next.js 15 / React 18 / Tailwind
     ├── app/
@@ -156,6 +160,16 @@ Recommended cadence: weekly. **After re-scraping, rebuild the Smart Search index
 (see below) so embeddings reflect the new data. `refresh.ps1` (repo root) runs
 the whole scrape → QC → classify → re-embed sequence in one command — see
 [Common workflows](#common-workflows).
+
+**Automated weekly runs:** `.github/workflows/refresh.yml` runs `refresh.ps1`
+on GitHub's own schedule (Mondays) and commits whatever changed — no local
+machine needed. It runs on `ubuntu-latest` (which ships PowerShell Core, so
+`refresh.ps1` needs no porting) and requires three repo secrets: `OPENAI_API_KEY`,
+`SUPABASE_URL`, `SUPABASE_SECRET_KEY`. Trigger it manually anytime from the
+Actions tab (`workflow_dispatch`). Since it scrapes from GitHub's own runner
+IPs rather than yours, keep an eye on the first few runs — some sites are
+pickier about datacenter traffic than a home connection (see the Reddit
+`search.rss` note above).
 
 ---
 

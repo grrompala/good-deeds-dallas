@@ -1,0 +1,61 @@
+name: Weekly data refresh
+
+# Scrape -> QC (curated) -> classify -> rebuild Smart Search index, then
+# commit whatever changed. Mirrors refresh.ps1 exactly (it runs as-is here —
+# GitHub's ubuntu-latest runners ship PowerShell Core preinstalled).
+#
+# Required repo secrets (Settings -> Secrets and variables -> Actions):
+#   OPENAI_API_KEY      - scrapers/classifier + embeddings/chat
+#   SUPABASE_URL        - Smart Search index
+#   SUPABASE_SECRET_KEY - Smart Search index (secret key, not publishable)
+
+on:
+  schedule:
+    # 9:23am UTC every Monday - an off-the-hour time so this doesn't queue
+    # behind everyone else's on-the-hour cron jobs.
+    - cron: '23 9 * * 1'
+  workflow_dispatch: {}   # lets you trigger a run manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install frontend dependencies
+        working-directory: frontend
+        run: npm ci
+
+      - name: Run refresh pipeline
+        shell: pwsh
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SECRET_KEY: ${{ secrets.SUPABASE_SECRET_KEY }}
+        run: ./refresh.ps1
+
+      - name: Commit and push if anything changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add frontend/public/data
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+          else
+            git commit -m "Automated weekly data refresh"
+            git push
+          fi
