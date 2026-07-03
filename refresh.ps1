@@ -21,31 +21,35 @@ Set-Location $PSScriptRoot
 # the print() call outright.
 $env:PYTHONIOENCODING = "utf-8"
 
-function Invoke-Step($cmd, $args) {
-    & $cmd @args
+# NOTE: the step runs as a scriptblock, not (command, arg-array) — a parameter
+# named $args silently loses to PowerShell's automatic $args variable, which
+# once made every step here execute bare `python` with no script (instant
+# exit 0, pipeline "succeeded" in 6 seconds having done nothing).
+function Invoke-Step([scriptblock]$Step) {
+    & $Step
     if ($LASTEXITCODE -ne 0) {
-        throw "$cmd $($args -join ' ') failed with exit code $LASTEXITCODE"
+        throw "Step failed with exit code ${LASTEXITCODE}: $Step"
     }
 }
 
 Write-Host "`n=== 1/4 Scraping sources ===" -ForegroundColor Cyan
-Invoke-Step python @("fetch_garland.py")
-Invoke-Step python @("fetch_mckinney.py")
-Invoke-Step python @("fetch_voly.py")
-Invoke-Step python @("fetch_idealist.py")
-Invoke-Step python @("fetch_reddit.py")
+Invoke-Step { python fetch_garland.py }
+Invoke-Step { python fetch_mckinney.py }
+Invoke-Step { python fetch_voly.py }
+Invoke-Step { python fetch_idealist.py }
+Invoke-Step { python fetch_reddit.py }
 
 Write-Host "`n=== 2/4 QC filter (curated) ===" -ForegroundColor Cyan
-Invoke-Step python @("qc_filter.py")
+Invoke-Step { python qc_filter.py }
 
 Write-Host "`n=== 3/4 Unified tags ===" -ForegroundColor Cyan
-Invoke-Step python @("classify_listings.py")
+Invoke-Step { python classify_listings.py }
 
 if (-not $SkipEmbed) {
     Write-Host "`n=== 4/4 Rebuilding Smart Search index ===" -ForegroundColor Cyan
     Push-Location frontend
     try {
-        Invoke-Step node @("scripts/build-rag-index.mjs")
+        Invoke-Step { node scripts/build-rag-index.mjs }
     } finally {
         Pop-Location
     }
