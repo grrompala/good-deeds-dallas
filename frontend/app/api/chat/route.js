@@ -58,10 +58,30 @@ async function checkAndCount(ip) {
   return { ok: data.allowed, reason: data.reason, remaining: data.remaining }
 }
 
-export async function GET() {
+export async function GET(request) {
   try {
     const summary = await indexSummary()
-    return Response.json({ ...summary, dailyLimit: DAILY_LIMIT })
+
+    // Read-only peek at this caller's remaining quota so the UI shows the
+    // real count on mount. A plain count on search_log — no insert, so
+    // checking never consumes a search.
+    let remaining = null
+    try {
+      const ipHash = createHash('sha256').update(clientIp(request)).digest('hex')
+      const since = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString()
+      const { count, error } = await supa()
+        .from('search_log')
+        .select('*', { count: 'exact', head: true })
+        .eq('ip_hash', ipHash)
+        .gt('created_at', since)
+      if (!error && typeof count === 'number') {
+        remaining = Math.max(0, DAILY_LIMIT - count)
+      }
+    } catch {
+      // quota peek is best-effort — the summary is still useful without it
+    }
+
+    return Response.json({ ...summary, dailyLimit: DAILY_LIMIT, remaining })
   } catch (e) {
     return Response.json({ error: String(e?.message || e) }, { status: 500 })
   }

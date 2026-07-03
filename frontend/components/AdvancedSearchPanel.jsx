@@ -38,7 +38,9 @@ export default function AdvancedSearchPanel({
         if (d.error) return
         if (typeof d.dailyLimit === 'number') {
           setLimit(d.dailyLimit)
-          setRemaining(d.dailyLimit)
+          // GET reports this client's actual remaining quota (searches used
+          // earlier today survive leaving and re-entering this tab).
+          setRemaining(typeof d.remaining === 'number' ? d.remaining : d.dailyLimit)
         }
       })
       .catch(() => {})
