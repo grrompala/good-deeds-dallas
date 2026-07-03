@@ -126,7 +126,7 @@ populated fields vary by source.
 | dallas.voly.org | `fetch_voly.py` | `volops_voly.json` | Voly AJAX search + detail pages. |
 | Idealist (Dallas) | `fetch_idealist.py` | `volops_idealist.json` | Dallas-metro slice via Idealist's public Algolia search. |
 | Curated nonprofits | `fetch_curated.py` | `volops_curated.json` | LLM-extracts from org websites in `orgs.json`. The only source run through `qc_filter.py` — see [QC filter](#qc-filter) below. |
-| Local subreddits | `fetch_reddit.py` | `reddit_raw.json` | r/Dallas, r/Garland, r/plano, r/Richardson, r/DFW. |
+| Local subreddits | `fetch_reddit.py` | `reddit_raw.json` | r/Dallas, r/Garland, r/plano, r/Richardson, r/DFW. Uses Reddit's public `search.rss` feed — the old `.json` endpoints are 403'd and self-serve OAuth app creation is gated behind manual approval, but `search.rss` still works for a plain descriptive User-Agent (just rate-limits hard; the script backs off on 429). |
 
 The frontend loads **garland + mckinney + voly + idealist + curated** as
 Opportunities and **reddit** as Chatter. Organizations are *derived* from the

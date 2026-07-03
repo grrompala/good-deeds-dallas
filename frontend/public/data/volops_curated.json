@@ -35,7 +35,11 @@
       "reason": "Asking for donations of items, not time.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "community"
+    ]
   },
   {
     "id": "aauw_tarrant_county_branch_0",
@@ -73,7 +77,8 @@
       "reason": "Volunteers needed for specific tasks at an event.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "allie_s_haven_animal_rescue_2",
@@ -110,7 +115,8 @@
       "reason": "Volunteers needed for website and social media management.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "allie_s_haven_animal_rescue_3",
@@ -147,7 +153,11 @@
       "reason": "Volunteers needed for fundraising and event tasks.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ]
   },
   {
     "id": "allie_s_haven_animal_rescue_0",
@@ -184,7 +194,10 @@
       "reason": "Volunteers needed for photography to aid adoptions.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "allie_s_haven_animal_rescue_1",
@@ -221,7 +234,8 @@
       "reason": "Volunteers needed for transportation tasks.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "allie_s_haven_animal_rescue_4",
@@ -258,7 +272,8 @@
       "reason": "Volunteers needed for writing stories and grant applications.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "arlington_life_shelter_2",
@@ -295,7 +310,8 @@
       "reason": "Providing gift cards, not volunteering time.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "arlington_life_shelter_0",
@@ -332,7 +348,8 @@
       "reason": "Attending Bingo events, not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "arlington_life_shelter_1",
@@ -369,7 +386,11 @@
       "reason": "No specific volunteer role described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "community"
+    ]
   },
   {
     "id": "arlington_life_shelter_3",
@@ -406,7 +427,8 @@
       "reason": "Involves gift-giving, not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "arlington_life_shelter_4",
@@ -443,7 +465,8 @@
       "reason": "Organizing recognition events is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "art_house_dallas_0",
@@ -480,7 +503,8 @@
       "reason": "Volunteering at events is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "art_house_dallas_1",
@@ -517,7 +541,8 @@
       "reason": "Describes an internship program, not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "ashton_johnson_memorial_clouddancer_scholarship_0",
@@ -555,7 +580,12 @@
       "reason": "Organizing events is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "veterans",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "big_brothers_big_sisters_lone_star_0",
@@ -593,7 +623,12 @@
       "reason": "Mentoring a child is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "baylor_scott_white_richardson_0",
@@ -672,7 +707,10 @@
       "reason": "Involves participating in a golf tournament, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children"
+    ]
   },
   {
     "id": "be_an_angel_fund_dallas_fort_worth_5",
@@ -709,7 +747,8 @@
       "reason": "Involves attending a gala, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "be_an_angel_fund_dallas_fort_worth_1",
@@ -746,7 +785,8 @@
       "reason": "Involves participating in a fundraiser, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "be_an_angel_fund_dallas_fort_worth_4",
@@ -783,7 +823,8 @@
       "reason": "Event to attend, no volunteer role described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "be_an_angel_fund_dallas_fort_worth_2",
@@ -820,7 +861,12 @@
       "reason": "Music event to attend, no volunteer role described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "arts",
+      "community"
+    ]
   },
   {
     "id": "be_an_angel_fund_dallas_fort_worth_3",
@@ -857,7 +903,8 @@
       "reason": "Golf event to attend, no volunteer role described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "bedford_public_library_foundation_0",
@@ -894,7 +941,8 @@
       "reason": "Board member role involves donating time and skills.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "big_hearts_day_habilitation_center_4",
@@ -931,7 +979,8 @@
       "reason": "Internship opportunity, not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "big_hearts_day_habilitation_center_2",
@@ -968,7 +1017,8 @@
       "reason": "Concrete volunteer role in landscaping.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "big_hearts_day_habilitation_center_3",
@@ -1005,7 +1055,10 @@
       "reason": "Practicum opportunity, not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education"
+    ]
   },
   {
     "id": "big_hearts_day_habilitation_center_1",
@@ -1042,7 +1095,8 @@
       "reason": "Volunteer role providing administrative and creative support.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "big_hearts_day_habilitation_center_0",
@@ -1079,7 +1133,10 @@
       "reason": "Volunteer role leading enrichment activities.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "disabilities"
+    ]
   },
   {
     "id": "body_soul_homeless_program_0",
@@ -1117,7 +1174,12 @@
       "reason": "Volunteer role cooking meals for unsheltered guests.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community",
+      "housing"
+    ]
   },
   {
     "id": "body_soul_homeless_program_4",
@@ -1154,7 +1216,10 @@
       "reason": "Concrete role as a greeter for meal services.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "body_soul_homeless_program_3",
@@ -1191,7 +1256,8 @@
       "reason": "Concrete role organizing clothing donations.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "body_soul_homeless_program_1",
@@ -1229,7 +1295,11 @@
       "reason": "Concrete role serving food to guests.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "body_soul_homeless_program_5",
@@ -1266,7 +1336,8 @@
       "reason": "Concrete role in administrative tasks.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "body_soul_homeless_program_2",
@@ -1303,7 +1374,8 @@
       "reason": "Concrete role distributing clothing and essentials.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "boomerang_cares_0",
@@ -1341,7 +1413,11 @@
       "reason": "Trivia night is an event to attend, not volunteer.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "boys_girls_clubs_of_collin_county_7",
@@ -1378,7 +1454,8 @@
       "reason": "Concrete role assisting with gala setup and operations.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "boys_girls_clubs_of_collin_county_4",
@@ -1413,7 +1490,8 @@
       "reason": "Concrete role in facility maintenance.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "boys_girls_clubs_of_collin_county_0",
@@ -1448,7 +1526,8 @@
       "reason": "Concrete role helping with daily activities and projects.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "boys_girls_clubs_of_collin_county_1",
@@ -1485,7 +1564,12 @@
       "reason": "Concrete role as a homework tutor/assistant.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "boys_girls_clubs_of_collin_county_2",
@@ -1522,7 +1606,12 @@
       "reason": "Concrete role of mentoring a child.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "boys_girls_clubs_of_collin_county_6",
@@ -1559,7 +1648,8 @@
       "reason": "Volunteers needed to staff the Poker Tournament.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "boys_girls_clubs_of_collin_county_5",
@@ -1596,7 +1686,8 @@
       "reason": "Assist with staffing special events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "boys_girls_clubs_of_collin_county_3",
@@ -1631,7 +1722,8 @@
       "reason": "Assist with computer programs and training.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "camp_summit_inc_0",
@@ -1668,7 +1760,8 @@
       "reason": "Attend a golf tournament, not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "camp_summit_inc_1",
@@ -1705,7 +1798,8 @@
       "reason": "Attend an event, not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "camp_summit_inc_2",
@@ -1742,7 +1836,8 @@
       "reason": "Participate in a pickleball tournament, not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "call_a_ride_of_southlake_cars_0",
@@ -1780,7 +1875,12 @@
       "reason": "Provide rides to seniors and disabled adults.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "seniors",
+      "disabilities",
+      "community"
+    ]
   },
   {
     "id": "cancer_care_services_2",
@@ -1817,7 +1917,8 @@
       "reason": "Represent organization at community events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "cancer_care_services_0",
@@ -1854,7 +1955,8 @@
       "reason": "Facilitate events for cancer patients and families.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "cancer_care_services_1",
@@ -1891,7 +1993,11 @@
       "reason": "Concrete role providing companionship and refreshments to patients.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "health",
+      "community"
+    ]
   },
   {
     "id": "cancer_care_services_3",
@@ -1928,7 +2034,8 @@
       "reason": "Concrete role assisting with general office duties.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "canine_companions_4",
@@ -1966,7 +2073,8 @@
       "reason": "Concrete role transporting service dogs as a volunteer pilot.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "canine_companions_1",
@@ -2004,7 +2112,10 @@
       "reason": "Concrete role caring for puppies as a volunteer caretaker.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "canine_companions_6",
@@ -2042,7 +2153,8 @@
       "reason": "Concrete role transporting dogs across the country.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "canine_companions_5",
@@ -2079,7 +2191,11 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "disabilities",
+      "community"
+    ]
   },
   {
     "id": "canine_companions_2",
@@ -2116,7 +2232,8 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "canine_companions_0",
@@ -2154,7 +2271,8 @@
       "reason": "Concrete role raising puppies to become service dogs.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "canine_companions_3",
@@ -2191,7 +2309,8 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "catch_up_read_2",
@@ -2229,7 +2348,11 @@
       "reason": "Concrete role setting up classrooms for the new school year.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "catch_up_read_1",
@@ -2267,7 +2390,12 @@
       "reason": "No specific volunteer role; it's an event celebration.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "catch_up_read_0",
@@ -2305,7 +2433,11 @@
       "reason": "Internship program, not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "children_s_advocacy_center_for_rockwall_county_0",
@@ -2342,7 +2474,8 @@
       "reason": "Training session with no specific volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "children_s_advocacy_center_for_rockwall_county_1",
@@ -2379,7 +2512,11 @@
       "reason": "Specific volunteer roles available after training.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "community"
+    ]
   },
   {
     "id": "christian_community_action_6",
@@ -2416,7 +2553,8 @@
       "reason": "Concrete volunteer role in administration tasks.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "christian_community_action_5",
@@ -2454,7 +2592,12 @@
       "reason": "Concrete volunteer role in distributing school supplies.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "christian_community_action_3",
@@ -2493,7 +2636,12 @@
       "reason": "Concrete volunteer role in holiday distribution.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "seniors",
+      "children",
+      "community"
+    ]
   },
   {
     "id": "christian_community_action_4",
@@ -2531,7 +2679,11 @@
       "reason": "Concrete volunteer role in educational instruction.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "christian_community_action_0",
@@ -2569,7 +2721,11 @@
       "reason": "Concrete volunteer role in food pantry assistance.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "christian_community_action_2",
@@ -2607,7 +2763,11 @@
       "reason": "Concrete volunteer role in summer meal programs.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "food_security"
+    ]
   },
   {
     "id": "christian_community_action_1",
@@ -2645,7 +2805,8 @@
       "reason": "Provides spiritual guidance and counseling, a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "cindy_ramsey_center_3",
@@ -2684,7 +2845,12 @@
       "reason": "Setting up a food pantry is a concrete volunteer task.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "seniors",
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "cindy_ramsey_center_1",
@@ -2722,7 +2888,8 @@
       "reason": "Assisting during shopping is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "cindy_ramsey_center_2",
@@ -2760,7 +2927,8 @@
       "reason": "Preparing the market is a concrete volunteer task.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "cindy_ramsey_center_0",
@@ -2798,7 +2966,11 @@
       "reason": "Distributing food at the market is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "city_house_0",
@@ -2835,7 +3007,8 @@
       "reason": "Answering phones and office support are concrete volunteer tasks.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "city_house_5",
@@ -2872,7 +3045,8 @@
       "reason": "No specific volunteer task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "city_house_1",
@@ -2910,7 +3084,12 @@
       "reason": "Preparing and serving meals is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "city_house_2",
@@ -2947,7 +3126,8 @@
       "reason": "Housekeeping tasks are concrete volunteer roles.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "city_house_3",
@@ -2984,7 +3164,8 @@
       "reason": "Maintaining outdoor spaces is a concrete volunteer task.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "city_house_7",
@@ -3021,7 +3202,12 @@
       "reason": "Engaging children through activities is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "city_house_4",
@@ -3058,7 +3244,12 @@
       "reason": "Providing tutoring support is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "city_house_6",
@@ -3095,7 +3286,11 @@
       "reason": "Preparing meals for homes is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "city_house_10",
@@ -3132,7 +3327,8 @@
       "reason": "Role focuses on reaching out for donations.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "city_house_9",
@@ -3169,7 +3365,8 @@
       "reason": "Assisting with event setup and logistics is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "city_house_8",
@@ -3206,7 +3403,12 @@
       "reason": "Sponsoring outings involves organizing and funding activities.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "coppell_humane_society_0",
@@ -3243,7 +3445,10 @@
       "reason": "Coordinating adoptions is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "coppell_humane_society_1",
@@ -3280,7 +3485,8 @@
       "reason": "Providing foster homes is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "coppell_humane_society_3",
@@ -3317,7 +3523,8 @@
       "reason": "Volunteering dog training skills is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "coppell_humane_society_2",
@@ -3354,7 +3561,8 @@
       "reason": "Coordinating recruiting efforts is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "coppell_humane_society_4",
@@ -3392,7 +3600,11 @@
       "reason": "Focuses on organizing drives and fundraising, not direct volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ]
   },
   {
     "id": "creative_arts_center_0",
@@ -3430,7 +3642,8 @@
       "reason": "Offers concrete volunteer roles like office duties and event staffing.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "creative_arts_center_1",
@@ -3467,7 +3680,8 @@
       "reason": "Provides specific group volunteer tasks like yard work and cleaning.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "cuisine_for_healing_0",
@@ -3505,7 +3719,13 @@
       "reason": "Involves delivering meals, a concrete volunteer task.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "seniors",
+      "health",
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "cuisine_for_healing_1",
@@ -3543,7 +3763,8 @@
       "reason": "Involves kitchen tasks like prep and cleaning, a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "cynthia_mickens_ministries_inc_1",
@@ -3582,7 +3803,11 @@
       "reason": "Involves constructing garden beds, a specific volunteer task.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community",
+      "environment"
+    ]
   },
   {
     "id": "cynthia_mickens_ministries_inc_2",
@@ -3620,7 +3845,11 @@
       "reason": "Involves staffing a camp, a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education"
+    ]
   },
   {
     "id": "cynthia_mickens_ministries_inc_0",
@@ -3658,7 +3887,11 @@
       "reason": "Involves distributing food, a specific volunteer task.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "dfw_rescue_me_2",
@@ -3696,7 +3929,8 @@
       "reason": "Involves fostering dogs, a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dfw_rescue_me_1",
@@ -3734,7 +3968,8 @@
       "reason": "Involves planning fundraising events, a specific volunteer task.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dfw_rescue_me_0",
@@ -3772,7 +4007,11 @@
       "reason": "Concrete role assisting at adoption events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ]
   },
   {
     "id": "dallas_casa_0",
@@ -3849,7 +4088,8 @@
       "reason": "Part-time paid position, not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_hope_charities_0",
@@ -3886,7 +4126,8 @@
       "reason": "Coordinator role implies employment, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_innovation_alliance_0",
@@ -3924,7 +4165,8 @@
       "reason": "Concrete role assisting community members with digital skills.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_meditation_center_3",
@@ -3959,7 +4201,8 @@
       "reason": "Concrete role hosting online events via Zoom.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_meditation_center_6",
@@ -3994,7 +4237,8 @@
       "reason": "Concrete role recording vocals for the website.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_meditation_center_1",
@@ -4029,7 +4273,8 @@
       "reason": "Concrete role assisting during fundraising events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_meditation_center_4",
@@ -4064,7 +4309,8 @@
       "reason": "Concrete role assisting with event logistics.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_meditation_center_9",
@@ -4099,7 +4345,8 @@
       "reason": "Concrete role assisting in fundraising events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_meditation_center_5",
@@ -4134,7 +4381,8 @@
       "reason": "Concrete role welcoming participants and answering questions.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_meditation_center_0",
@@ -4169,7 +4417,8 @@
       "reason": "Concrete role mailing t-shirts to donors.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_meditation_center_10",
@@ -4204,7 +4453,8 @@
       "reason": "Concrete role in PR and advertising marketing.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_meditation_center_11",
@@ -4239,7 +4489,8 @@
       "reason": "Concrete role leading music sessions.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_meditation_center_8",
@@ -4274,7 +4525,8 @@
       "reason": "Concrete role promoting programs in the community.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_meditation_center_7",
@@ -4309,7 +4561,8 @@
       "reason": "Concrete role capturing images of events and the center.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_meditation_center_2",
@@ -4344,7 +4597,8 @@
       "reason": "Creating a video reel from home is an at-home activity.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_pets_alive_0",
@@ -4381,7 +4635,10 @@
       "reason": "Concrete role supporting animal adoptions virtually.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "dallas_pets_alive_1",
@@ -4418,7 +4675,8 @@
       "reason": "Concrete role maintaining relationships with adoptive families.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_pets_alive_2",
@@ -4456,7 +4714,8 @@
       "reason": "Concrete role helping at adoption and fundraising events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_pets_alive_4",
@@ -4493,7 +4752,11 @@
       "reason": "Concrete roles supporting foster families and maintaining records.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals",
+      "foster_care"
+    ]
   },
   {
     "id": "dallas_pets_alive_3",
@@ -4530,7 +4793,8 @@
       "reason": "Provides temporary care for pets, a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_pets_alive_5",
@@ -4567,7 +4831,8 @@
       "reason": "Involves planning and executing fundraising events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_pets_alive_6",
@@ -4605,7 +4870,8 @@
       "reason": "Promotional and public engagement tasks are concrete roles.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "dallas_pets_alive_7",
@@ -4642,7 +4908,10 @@
       "reason": "Transporting animals is a concrete volunteer task.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "dementia_friendly_fort_worth_0",
@@ -4679,7 +4948,12 @@
       "reason": "Assisting with dementia activities is a concrete role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "seniors",
+      "mental_health",
+      "community"
+    ]
   },
   {
     "id": "dementia_friendly_fort_worth_1",
@@ -4716,7 +4990,11 @@
       "reason": "Running online activities for older adults is a concrete role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "seniors",
+      "mental_health"
+    ]
   },
   {
     "id": "dementia_friendly_fort_worth_2",
@@ -4753,7 +5031,11 @@
       "reason": "Mentoring individuals with dementia is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "seniors",
+      "mental_health"
+    ]
   },
   {
     "id": "denton_animal_support_foundation_inc_0",
@@ -4790,7 +5072,10 @@
       "reason": "Involves concrete tasks at the pet food pantry.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "denton_animal_support_foundation_inc_1",
@@ -4828,7 +5113,8 @@
       "reason": "Supporting vaccination clinics involves concrete tasks.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "design_connect_create_0",
@@ -4867,7 +5153,11 @@
       "reason": "Concrete role as a guest speaker sharing STEM journey.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "design_connect_create_1",
@@ -4906,7 +5196,11 @@
       "reason": "Concrete role as a mentor for high school girls.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "design_connect_create_2",
@@ -4945,7 +5239,12 @@
       "reason": "Described as a 'summer position,' implying employment.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "children",
+      "community"
+    ]
   },
   {
     "id": "dogs_for_better_lives_0",
@@ -4983,7 +5282,8 @@
       "reason": "Concrete role spending time with dogs in training.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "embrace_0",
@@ -5020,7 +5320,8 @@
       "reason": "Golf tournament participation, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "embrace_2",
@@ -5057,7 +5358,11 @@
       "reason": "Focus on donating supplies, not volunteering time.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "foster_care",
+      "community"
+    ]
   },
   {
     "id": "embrace_1",
@@ -5094,7 +5399,8 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "feed_oak_cliff_0",
@@ -5132,7 +5438,12 @@
       "reason": "Health festival participation, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "health",
+      "community",
+      "food_security"
+    ]
   },
   {
     "id": "faith_grief_2",
@@ -5169,7 +5480,8 @@
       "reason": "Retreat participation, not a volunteer opportunity.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "faith_grief_0",
@@ -5206,7 +5518,8 @@
       "reason": "Support group participation, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "faith_grief_1",
@@ -5243,7 +5556,8 @@
       "reason": "Consecutive sessions to learn about grief; no volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "family_compass_1",
@@ -5280,7 +5594,11 @@
       "reason": "Organize drives or events; no direct volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "community"
+    ]
   },
   {
     "id": "family_compass_0",
@@ -5317,7 +5635,11 @@
       "reason": "Junior Board membership; leadership role, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "community"
+    ]
   },
   {
     "id": "fannin_county_family_crisis_center_3",
@@ -5354,7 +5676,11 @@
       "reason": "Donate coats and heaters; no volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community",
+      "crisis_support"
+    ]
   },
   {
     "id": "fannin_county_family_crisis_center_2",
@@ -5391,7 +5717,8 @@
       "reason": "Donate fans; no volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "fannin_county_family_crisis_center_1",
@@ -5424,7 +5751,10 @@
       "reason": "Contribute money; no volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "crisis_support"
+    ]
   },
   {
     "id": "fannin_county_family_crisis_center_4",
@@ -5461,7 +5791,12 @@
       "reason": "Donate hygiene and baby items; no volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community",
+      "food_security",
+      "crisis_support"
+    ]
   },
   {
     "id": "fannin_county_family_crisis_center_0",
@@ -5499,7 +5834,12 @@
       "reason": "Donate food and essentials; no volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "crisis_support",
+      "community"
+    ]
   },
   {
     "id": "farmhouse_fresh_animal_sanctuary_1",
@@ -5536,7 +5876,11 @@
       "reason": "Corporate outing; no specific volunteer role described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ]
   },
   {
     "id": "farmhouse_fresh_animal_sanctuary_0",
@@ -5573,7 +5917,11 @@
       "reason": "Volunteer to help care for animals at the ranch.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ]
   },
   {
     "id": "feed_my_starving_children_0",
@@ -5611,7 +5959,12 @@
       "reason": "Concrete role of packing meals at events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "fmsc_richardson_0",
@@ -5693,7 +6046,11 @@
       "reason": "No specific role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "education"
+    ]
   },
   {
     "id": "feeding_fannin_0",
@@ -5731,7 +6088,11 @@
       "reason": "No specific role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "feeding_fannin_1",
@@ -5769,7 +6130,11 @@
       "reason": "No specific role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "feonix_mobility_rising_0",
@@ -5806,7 +6171,8 @@
       "reason": "Concrete role of providing transportation.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "first_refuge_ministries_1",
@@ -5844,7 +6210,11 @@
       "reason": "Concrete role in food distribution.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "first_refuge_ministries_0",
@@ -5882,7 +6252,11 @@
       "reason": "Concrete role in providing healthcare.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "health",
+      "community"
+    ]
   },
   {
     "id": "first_street_methodist_mission_2",
@@ -5920,7 +6294,11 @@
       "reason": "Concrete role of packing food kits.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "food_security"
+    ]
   },
   {
     "id": "first_street_methodist_mission_0",
@@ -5957,7 +6335,8 @@
       "reason": "No specific volunteer role described, only a tour.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "first_street_methodist_mission_1",
@@ -5995,7 +6374,11 @@
       "reason": "Volunteers deliver groceries and build relationships.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "for_the_nations_refugee_outreach_2",
@@ -6033,7 +6416,12 @@
       "reason": "Assist in ESL classes as teachers’ aids.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "immigration",
+      "community"
+    ]
   },
   {
     "id": "for_the_nations_refugee_outreach_1",
@@ -6071,7 +6459,12 @@
       "reason": "Assist students with homework and activities.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "for_the_nations_refugee_outreach_3",
@@ -6109,7 +6502,12 @@
       "reason": "Help teach preschoolers as teachers’ aids.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "for_the_nations_refugee_outreach_4",
@@ -6147,7 +6545,12 @@
       "reason": "Help in summer programs for refugee children.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "for_the_nations_refugee_outreach_0",
@@ -6182,7 +6585,11 @@
       "reason": "Support classrooms by volunteering weekly.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "fort_worth_abandoned_animal_alliance_0",
@@ -6219,7 +6626,10 @@
       "reason": "Fostering is providing a home, not volunteering time.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "fort_worth_abandoned_animal_alliance_1",
@@ -6257,7 +6667,10 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "fort_worth_community_collaborative_2",
@@ -6294,7 +6707,10 @@
       "reason": "Help with community events like Back to School Bash.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "fort_worth_community_collaborative_3",
@@ -6331,7 +6747,11 @@
       "reason": "Assist in organizing resource drives.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "fort_worth_community_collaborative_1",
@@ -6368,7 +6788,8 @@
       "reason": "Concrete task of preparing emergency bags.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "fort_worth_community_collaborative_0",
@@ -6405,7 +6826,8 @@
       "reason": "Concrete task of sorting and maintaining a thrift store.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "fort_worth_pregnancy_center_0",
@@ -6442,7 +6864,11 @@
       "reason": "Concrete medical volunteer role with specific tasks.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "health",
+      "community"
+    ]
   },
   {
     "id": "foundation_communities_5",
@@ -6480,7 +6906,8 @@
       "reason": "Concrete role assisting English classes.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "foundation_communities_1",
@@ -6518,7 +6945,8 @@
       "reason": "Concrete role in financial coaching with specific tasks.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "foundation_communities_7",
@@ -6556,7 +6984,11 @@
       "reason": "Concrete task of assisting with health insurance enrollment.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "health",
+      "community"
+    ]
   },
   {
     "id": "foundation_communities_6",
@@ -6594,7 +7026,11 @@
       "reason": "Concrete task of distributing food.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "foundation_communities_4",
@@ -6632,7 +7068,12 @@
       "reason": "Concrete role supporting and leading activities for children.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "foundation_communities_3",
@@ -6670,7 +7111,11 @@
       "reason": "Requires covering cost of meal, not just volunteering time.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "foundation_communities_0",
@@ -6708,7 +7153,11 @@
       "reason": "Concrete task of providing tax preparation assistance.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community",
+      "education"
+    ]
   },
   {
     "id": "foundation_communities_2",
@@ -6746,7 +7195,8 @@
       "reason": "Asks for sponsoring or supplying items, not time.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "friends_of_northaven_trail_3",
@@ -6784,7 +7234,12 @@
       "reason": "Involves downloading and using printable activities.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "friends_of_northaven_trail_0",
@@ -6822,7 +7277,8 @@
       "reason": "Involves maintaining gardens, a concrete volunteer task.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "friends_of_northaven_trail_2",
@@ -6859,7 +7315,8 @@
       "reason": "Provides ideas but no specific volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "friends_of_northaven_trail_6",
@@ -6896,7 +7353,8 @@
       "reason": "Involves writing reviews, not a volunteer service.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "friends_of_northaven_trail_5",
@@ -6933,7 +7391,8 @@
       "reason": "Reporting issues is not a structured volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "friends_of_northaven_trail_1",
@@ -6971,7 +7430,8 @@
       "reason": "Trail captain is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "friends_of_northaven_trail_4",
@@ -7008,7 +7468,8 @@
       "reason": "Involves running events and planting, concrete tasks.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "friends_of_rescue_animals_1",
@@ -7045,7 +7506,10 @@
       "reason": "Involves caring for and socializing with cats, a clear role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "friends_of_rescue_animals_6",
@@ -7082,7 +7546,11 @@
       "reason": "Participating in TNR initiatives is a concrete volunteer task.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ]
   },
   {
     "id": "friends_of_rescue_animals_0",
@@ -7119,7 +7587,11 @@
       "reason": "Concrete role of walking and providing enrichment for dogs.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ]
   },
   {
     "id": "friends_of_rescue_animals_2",
@@ -7156,7 +7628,8 @@
       "reason": "Concrete role of promoting pet adoption as an ambassador.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "friends_of_rescue_animals_4",
@@ -7193,7 +7666,8 @@
       "reason": "Concrete role of providing administrative support.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "friends_of_rescue_animals_7",
@@ -7230,7 +7704,10 @@
       "reason": "Concrete role of fostering animals in need.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "friends_of_rescue_animals_9",
@@ -7267,7 +7744,8 @@
       "reason": "Concrete role of assisting with fundraising and donor relations.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "friends_of_rescue_animals_3",
@@ -7304,7 +7782,11 @@
       "reason": "Concrete role of helping with laundry, dishes, and cleaning.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ]
   },
   {
     "id": "friends_of_rescue_animals_5",
@@ -7341,7 +7823,8 @@
       "reason": "Concrete role of caring for cats at PetSmart locations.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "friends_of_rescue_animals_8",
@@ -7379,7 +7862,8 @@
       "reason": "Concrete role of managing social media and photography.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "friends_of_the_dallas_public_library_0",
@@ -7417,7 +7901,8 @@
       "reason": "No specific role or task described, just a generic invitation.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "frisco_family_services_0",
@@ -7455,7 +7940,11 @@
       "reason": "Concrete role of helping with meal distribution.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "food_security"
+    ]
   },
   {
     "id": "frisco_threads_student_clothes_closet_0",
@@ -7495,7 +7984,8 @@
       "reason": "Concrete role sorting donations and assisting families.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "future_city_competition_north_texas_3",
@@ -7532,7 +8022,8 @@
       "reason": "Specific coordinating roles for the competition.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "future_city_competition_north_texas_2",
@@ -7569,7 +8060,8 @@
       "reason": "Volunteers assist with logistical tasks at the event.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "future_city_competition_north_texas_0",
@@ -7606,7 +8098,8 @@
       "reason": "Mentors provide technical guidance to students.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "future_city_competition_north_texas_1",
@@ -7643,7 +8136,8 @@
       "reason": "Judges evaluate submissions and provide feedback.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "grow_north_texas_1",
@@ -7681,7 +8175,8 @@
       "reason": "Group volunteer opportunities at the farm.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "grow_north_texas_0",
@@ -7719,7 +8214,10 @@
       "reason": "Community workday with specific tasks at the farm.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "good_samaritans_garland_3",
@@ -7756,7 +8254,8 @@
       "reason": "Assist guests with carts, a specific volunteer task.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "good_samaritans_of_garland_3",
@@ -7793,7 +8292,11 @@
       "reason": "Assist guests with carts, a specific volunteer task.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "good_samaritans_garland_1",
@@ -7831,7 +8334,11 @@
       "reason": "Prepare food carts and stock donations, specific tasks.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "good_samaritans_of_garland_1",
@@ -7869,7 +8376,11 @@
       "reason": "Concrete role preparing food carts and stocking shelves.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "good_samaritans_garland_2",
@@ -7907,7 +8418,11 @@
       "reason": "Concrete role preparing boxes and stocking deliveries.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "good_samaritans_of_garland_2",
@@ -7945,7 +8460,8 @@
       "reason": "Concrete role preparing boxes and handling deliveries.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "good_samaritans_garland_0",
@@ -7982,7 +8498,8 @@
       "reason": "Concrete role assisting guests with registration and check-in.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "good_samaritans_of_garland_0",
@@ -8019,7 +8536,8 @@
       "reason": "Concrete role assisting guests with check-in and registration.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "grayson_grand_central_station_2",
@@ -8057,7 +8575,12 @@
       "reason": "Concrete role bagging and delivering food donations.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "grayson_grand_central_station_0",
@@ -8094,7 +8617,11 @@
       "reason": "Concrete role preparing and serving food.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "grayson_grand_central_station_1",
@@ -8131,7 +8658,11 @@
       "reason": "Concrete role assisting in the food pantry.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "greater_denton_arts_council_4",
@@ -8169,7 +8700,11 @@
       "reason": "Event participation, no volunteer role described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "arts",
+      "community"
+    ]
   },
   {
     "id": "greater_denton_arts_council_0",
@@ -8207,7 +8742,12 @@
       "reason": "Paid art camp, no volunteer role described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "arts",
+      "community"
+    ]
   },
   {
     "id": "greater_denton_arts_council_2",
@@ -8245,7 +8785,12 @@
       "reason": "The listing is for a paid art camp, not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "arts",
+      "children",
+      "community"
+    ]
   },
   {
     "id": "greater_denton_arts_council_1",
@@ -8283,7 +8828,12 @@
       "reason": "The listing is for a paid art camp, not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "arts",
+      "children",
+      "community"
+    ]
   },
   {
     "id": "greater_denton_arts_council_3",
@@ -8320,7 +8870,11 @@
       "reason": "The listing asks for sponsorship, not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "arts",
+      "community"
+    ]
   },
   {
     "id": "grief_loss_center_of_north_texas_1",
@@ -8358,7 +8912,11 @@
       "reason": "The listing is for program participation, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "mental_health"
+    ]
   },
   {
     "id": "grief_loss_center_of_north_texas_0",
@@ -8395,7 +8953,8 @@
       "reason": "The listing is for program participation, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "habitat_for_humanity_of_grayson_county_4",
@@ -8432,7 +8991,8 @@
       "reason": "Volunteers are needed to inform the community at events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "habitat_for_humanity_of_grayson_county_0",
@@ -8470,7 +9030,11 @@
       "reason": "Volunteers are needed to help build a house.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community",
+      "housing"
+    ]
   },
   {
     "id": "habitat_for_humanity_of_grayson_county_3",
@@ -8507,7 +9071,8 @@
       "reason": "The listing is for providing lunch, not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "habitat_for_humanity_of_grayson_county_1",
@@ -8544,7 +9109,8 @@
       "reason": "Volunteers are needed to assist at the ReStore.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "habitat_for_humanity_of_grayson_county_2",
@@ -8581,7 +9147,8 @@
       "reason": "Volunteers are needed to write posts for the website.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "habitat_garland_0",
@@ -8735,7 +9302,10 @@
       "reason": "Involves donating pet food, not time.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "happy_furever_2",
@@ -8772,7 +9342,8 @@
       "reason": "Concrete role in fostering animals.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "happy_furever_3",
@@ -8809,7 +9380,8 @@
       "reason": "Involves sponsoring newsletter, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "happy_furever_0",
@@ -8846,7 +9418,10 @@
       "reason": "Concrete role in picking up and delivering supplies.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "heart_of_the_city_2",
@@ -8883,7 +9458,8 @@
       "reason": "Concrete role in providing counseling support.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "heart_of_the_city_7",
@@ -8920,7 +9496,8 @@
       "reason": "No specific volunteer task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "heart_of_the_city_0",
@@ -8958,7 +9535,11 @@
       "reason": "Concrete role in assisting at food pantry.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "heart_of_the_city_4",
@@ -8995,7 +9576,8 @@
       "reason": "Concrete role in writing grants for the organization.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "heart_of_the_city_5",
@@ -9032,7 +9614,8 @@
       "reason": "Prayer support is not a concrete, actionable volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "heart_of_the_city_3",
@@ -9069,7 +9652,8 @@
       "reason": "Concrete role managing social media for the organization.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "heart_of_the_city_1",
@@ -9106,7 +9690,8 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "heart_of_the_city_6",
@@ -9143,7 +9728,8 @@
       "reason": "Concrete role in maintaining and improving the website.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "hearts_for_homes_0",
@@ -9181,7 +9767,12 @@
       "reason": "Concrete role assisting with home repairs for seniors.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "seniors",
+      "housing",
+      "community"
+    ]
   },
   {
     "id": "hearts_for_homes_1",
@@ -9218,7 +9809,8 @@
       "reason": "Concrete role helping with office duties.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "hearts_for_homes_2",
@@ -9255,7 +9847,8 @@
       "reason": "Concrete role organizing materials in the warehouse.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "heritage_farmstead_museum_5",
@@ -9531,7 +10124,8 @@
       "reason": "No specific role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "holy_sews_3",
@@ -9569,7 +10163,8 @@
       "reason": "Concrete role cutting and preparing fabric.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "holy_sews_4",
@@ -9607,7 +10202,8 @@
       "reason": "Concrete role assisting in packaging layette sets.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "holy_sews_2",
@@ -9645,7 +10241,8 @@
       "reason": "Concrete role assisting in tying ribbons.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "holy_sews_1",
@@ -9683,7 +10280,8 @@
       "reason": "Concrete role sewing layette sets.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "hope_mommies_dallas_chapter_0",
@@ -9720,7 +10318,8 @@
       "reason": "Involves fundraising and assembling boxes.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "hope_mommies_dallas_chapter_1",
@@ -9757,7 +10356,8 @@
       "reason": "Joining a study group is not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "hope_restored_missions_0",
@@ -9795,7 +10395,11 @@
       "reason": "Concrete role assisting in outreach events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community",
+      "housing"
+    ]
   },
   {
     "id": "hope_restored_missions_1",
@@ -9833,7 +10437,8 @@
       "reason": "No specific volunteer task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "hopekids_north_texas_0",
@@ -9871,7 +10476,8 @@
       "reason": "Specific tasks at events like greeting and serving.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "hopekids_north_texas_2",
@@ -9909,7 +10515,8 @@
       "reason": "Concrete role in fundraising and planning.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "hopekids_north_texas_1",
@@ -9947,7 +10554,8 @@
       "reason": "Specific role hosting virtual events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "icr_discovery_center_0",
@@ -9984,7 +10592,8 @@
       "reason": "Concrete role engaging with guests as a docent.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "icr_discovery_center_1",
@@ -10021,7 +10630,8 @@
       "reason": "Specific tasks as a planetarium docent.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "incarnation_place_3",
@@ -10058,7 +10668,10 @@
       "reason": "No specific volunteer task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "incarnation_place_2",
@@ -10095,7 +10708,11 @@
       "reason": "Participating in feasts is not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community",
+      "food_security"
+    ]
   },
   {
     "id": "incarnation_place_4",
@@ -10132,7 +10749,8 @@
       "reason": "Joining a prayer group is participation, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "incarnation_place_7",
@@ -10169,7 +10787,8 @@
       "reason": "Fundraising help is typically about raising money, not a specific volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "incarnation_place_1",
@@ -10206,7 +10825,11 @@
       "reason": "Mentoring students is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "incarnation_place_5",
@@ -10243,7 +10866,8 @@
       "reason": "Participating in a Bible study is not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "incarnation_place_0",
@@ -10280,7 +10904,12 @@
       "reason": "Tutoring students is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "children",
+      "community"
+    ]
   },
   {
     "id": "incarnation_place_6",
@@ -10317,7 +10946,11 @@
       "reason": "Engaging with seniors is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "seniors",
+      "community"
+    ]
   },
   {
     "id": "interfaith_ministries_of_denton_inc_0",
@@ -10354,7 +10987,10 @@
       "reason": "Volunteering at events is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "irving_cares_2",
@@ -10391,7 +11027,8 @@
       "reason": "Administrative support is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "irving_cares_1",
@@ -10428,7 +11065,8 @@
       "reason": "Coaching clients is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "irving_cares_3",
@@ -10465,7 +11103,8 @@
       "reason": "Assisting at events is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "irving_cares_0",
@@ -10503,7 +11142,11 @@
       "reason": "Concrete role in sorting and filling orders at a food pantry.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "john_bunker_sands_wetland_center_0",
@@ -10541,7 +11184,8 @@
       "reason": "Various concrete volunteer roles at the Wetland Center.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "k9_s_for_freedom_independence_0",
@@ -10580,7 +11224,8 @@
       "reason": "Training service offered to first responder agencies.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "k9_s_for_freedom_independence_1",
@@ -10618,7 +11263,8 @@
       "reason": "Event to meet K9 teams, not a volunteer opportunity.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "kayla_cares_4_kids_1",
@@ -10655,7 +11301,8 @@
       "reason": "Concrete role in overseeing collection drives.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "kayla_cares_4_kids_4",
@@ -10693,7 +11340,12 @@
       "reason": "Concrete role in arts and crafts with pediatric patients.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "arts",
+      "community"
+    ]
   },
   {
     "id": "kayla_cares_4_kids_2",
@@ -10731,7 +11383,11 @@
       "reason": "Role involves coordinating donations, not volunteering time.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "community"
+    ]
   },
   {
     "id": "kayla_cares_4_kids_3",
@@ -10768,7 +11424,8 @@
       "reason": "Concrete role in sorting items and making phone calls.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "kayla_cares_4_kids_5",
@@ -10805,7 +11462,8 @@
       "reason": "Concrete role in managing social media presence.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "kayla_cares_4_kids_0",
@@ -10842,7 +11500,8 @@
       "reason": "Concrete role in planning and coordinating events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "kayla_cares_4_kids_6",
@@ -10880,7 +11539,8 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "keep_garland_beautiful_1",
@@ -10917,7 +11577,8 @@
       "reason": "Assistance with personal garden design, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "keep_garland_beautiful_2",
@@ -10954,7 +11615,8 @@
       "reason": "Requesting educational sessions, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "keep_garland_beautiful_0",
@@ -10991,7 +11653,11 @@
       "reason": "Concrete role in participating in litter clean-up events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "environment",
+      "community"
+    ]
   },
   {
     "id": "keep_lewisville_beautiful_3",
@@ -11029,7 +11695,8 @@
       "reason": "Concrete role in maintaining cleanliness of a local area.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "keep_lewisville_beautiful_5",
@@ -11066,7 +11733,8 @@
       "reason": "Concrete role in keeping local streams clean.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "keep_lewisville_beautiful_4",
@@ -11104,7 +11772,11 @@
       "reason": "Concrete role in cleaning up community parks and areas.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "environment",
+      "community"
+    ]
   },
   {
     "id": "keep_lewisville_beautiful_1",
@@ -11141,7 +11813,10 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "keep_lewisville_beautiful_0",
@@ -11179,7 +11854,11 @@
       "reason": "Concrete role in participating in a spring cleanup event.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community",
+      "environment"
+    ]
   },
   {
     "id": "keep_lewisville_beautiful_2",
@@ -11217,7 +11896,8 @@
       "reason": "Concrete role in cleaning up trash along the Trinity River.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "keep_rowlett_beautiful_2",
@@ -11254,7 +11934,8 @@
       "reason": "No specific role or task described, just a contact to get started.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "keep_rowlett_beautiful_3",
@@ -11291,7 +11972,8 @@
       "reason": "Concrete role of maintaining pollinator gardens.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "keep_rowlett_beautiful_4",
@@ -11328,7 +12010,8 @@
       "reason": "Generic invitation to join committees without specific tasks.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "keep_rowlett_beautiful_5",
@@ -11365,7 +12048,8 @@
       "reason": "No specific volunteer tasks, just a conversation starter.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "keep_rowlett_beautiful_0",
@@ -11402,7 +12086,11 @@
       "reason": "Concrete role of picking up trash at clean-up events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "environment",
+      "community"
+    ]
   },
   {
     "id": "keep_rowlett_beautiful_1",
@@ -11439,7 +12127,8 @@
       "reason": "Concrete role of assisting in cleaning efforts at events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "keith_house_a_dba_of_entrada_of_texas_0",
@@ -11477,7 +12166,11 @@
       "reason": "Concrete role of hosting art events and programs.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "arts",
+      "community"
+    ]
   },
   {
     "id": "lake_pointe_granbury_0",
@@ -11515,7 +12208,11 @@
       "reason": "Concrete role of volunteering at a community trail run.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community",
+      "health"
+    ]
   },
   {
     "id": "lifepath_systems_foundation_0",
@@ -11552,7 +12249,8 @@
       "reason": "Concrete roles in posting flyers, writing blogs, and admin support.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "lumin_education_0",
@@ -11589,7 +12287,8 @@
       "reason": "Concrete role in yardwork, clean-up, and repairs at campuses.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "lumin_education_2",
@@ -11627,7 +12326,11 @@
       "reason": "Volunteers assemble educational tools for families.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "lumin_education_1",
@@ -11664,7 +12367,12 @@
       "reason": "Volunteers read to classes weekly.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "children",
+      "community"
+    ]
   },
   {
     "id": "manna_house_0",
@@ -11701,7 +12409,8 @@
       "reason": "Volunteers sort and bundle donations.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "manna_house_4",
@@ -11738,7 +12447,10 @@
       "reason": "Role involves coordinating donation drives.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "manna_house_3",
@@ -11776,7 +12488,10 @@
       "reason": "Volunteers support community events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "manna_house_1",
@@ -11814,7 +12529,11 @@
       "reason": "Volunteers assist at the food pantry.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "manna_house_2",
@@ -11851,7 +12570,8 @@
       "reason": "Volunteers help manage thrift store operations.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "many_helping_hands_ministry_0",
@@ -11888,7 +12608,8 @@
       "reason": "Volunteers help with activities at the Day Center.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "many_helping_hands_ministry_1",
@@ -11926,7 +12647,11 @@
       "reason": "Volunteers assist with meal service.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "mckinney_public_library_foundation_0",
@@ -11961,7 +12686,8 @@
       "reason": "Board membership involves governance, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "metro_relief_inc_0",
@@ -12000,7 +12726,11 @@
       "reason": "Concrete role in serving meals and providing kits on outreach bus.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "mid_cities_animal_rescue_4",
@@ -12037,7 +12767,12 @@
       "reason": "Concrete role in fostering and caring for rescue dogs.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals",
+      "community",
+      "foster_care"
+    ]
   },
   {
     "id": "mid_cities_animal_rescue_2",
@@ -12074,7 +12809,10 @@
       "reason": "Concrete role in preparing rescue dogs for foster homes.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "mid_cities_animal_rescue_1",
@@ -12112,7 +12850,11 @@
       "reason": "Organizing events for fundraising, not direct volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ]
   },
   {
     "id": "mid_cities_animal_rescue_3",
@@ -12149,7 +12891,10 @@
       "reason": "Concrete role in transporting dogs to foster homes.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "mid_cities_animal_rescue_0",
@@ -12187,7 +12932,11 @@
       "reason": "Concrete role in assisting with community events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ]
   },
   {
     "id": "mission_arlington_mission_metroplex_4",
@@ -12222,7 +12971,8 @@
       "reason": "No specific role or task described for community service.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "mission_arlington_mission_metroplex_7",
@@ -12259,7 +13009,8 @@
       "reason": "Concrete role in supporting the dental clinic.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "mission_arlington_mission_metroplex_1",
@@ -12294,7 +13045,8 @@
       "reason": "No specific role or task described for group opportunities.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "mission_arlington_mission_metroplex_2",
@@ -12329,7 +13081,8 @@
       "reason": "No specific role or task described for individuals/families.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "mission_arlington_mission_metroplex_6",
@@ -12366,7 +13119,10 @@
       "reason": "Concrete role assisting patients at a medical clinic.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "health"
+    ]
   },
   {
     "id": "mission_arlington_mission_metroplex_0",
@@ -12401,7 +13157,8 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "mission_arlington_mission_metroplex_5",
@@ -12436,7 +13193,8 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "mission_arlington_mission_metroplex_3",
@@ -12471,7 +13229,8 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "my_possibilities_2",
@@ -12509,7 +13268,8 @@
       "reason": "Concrete role accompanying HIPsters on community outings.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "my_possibilities_0",
@@ -12546,7 +13306,8 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "my_possibilities_1",
@@ -12583,7 +13344,12 @@
       "reason": "Concrete role monitoring lunchroom and socializing.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "seniors",
+      "community",
+      "food_security"
+    ]
   },
   {
     "id": "my_possibilities_3",
@@ -12621,7 +13387,11 @@
       "reason": "Concrete role assisting in teaching classes.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "my_possibilities_4",
@@ -12659,7 +13429,8 @@
       "reason": "Concrete role supporting athletes as a coach or volunteer.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "new_day_arlington_0",
@@ -12698,7 +13469,12 @@
       "reason": "Concrete role preparing and delivering food bags.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "nomi_network_0",
@@ -12735,7 +13511,8 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "network_of_community_ministries_2",
@@ -13056,7 +13833,11 @@
       "reason": "Specific role in tutoring for GED, ACT/SAT, and subjects.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "new_friends_new_life_3",
@@ -13093,7 +13874,10 @@
       "reason": "Specific role in providing childcare.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children"
+    ]
   },
   {
     "id": "new_friends_new_life_0",
@@ -13130,7 +13914,8 @@
       "reason": "Concrete role in dinner setup and takedown.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "new_friends_new_life_2",
@@ -13168,7 +13953,8 @@
       "reason": "Concrete role in teaching wellness classes.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "new_friends_new_life_5",
@@ -13206,7 +13992,10 @@
       "reason": "Concrete role in teaching ongoing classes.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education"
+    ]
   },
   {
     "id": "new_friends_new_life_1",
@@ -13243,7 +14032,8 @@
       "reason": "Concrete role in assisting with special events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "north_texas_food_bank_3",
@@ -13281,7 +14071,11 @@
       "reason": "Concrete role in sorting food products.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "north_texas_food_bank_1",
@@ -13319,7 +14113,11 @@
       "reason": "Concrete role as a Food Donation Door Clerk.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "north_texas_food_bank_5",
@@ -13357,7 +14155,8 @@
       "reason": "Concrete role in assisting with gardening tasks.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "north_texas_food_bank_6",
@@ -13395,7 +14194,8 @@
       "reason": "Concrete role in volunteering and leading at the food bank.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "north_texas_food_bank_8",
@@ -13433,7 +14233,12 @@
       "reason": "Concrete role in teaching and distributing materials.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "north_texas_food_bank_0",
@@ -13471,7 +14276,11 @@
       "reason": "Concrete role in packaging food boxes.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "north_texas_food_bank_2",
@@ -13509,7 +14318,11 @@
       "reason": "Concrete role in sorting produce for distribution.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "north_texas_food_bank_4",
@@ -13548,7 +14361,12 @@
       "reason": "Concrete role in loading food boxes for seniors.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "seniors",
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "north_texas_food_bank_7",
@@ -13585,7 +14403,8 @@
       "reason": "Volunteers needed for various tasks at special events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "our_daily_bread_denton_0",
@@ -13622,7 +14441,10 @@
       "reason": "Concrete role for community service volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "our_daily_bread_denton_1",
@@ -13659,7 +14481,8 @@
       "reason": "No specific role or task described for group volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "poiema_foundation_3",
@@ -13696,7 +14519,8 @@
       "reason": "Concrete role in administrative and event tasks.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "poiema_foundation_0",
@@ -13734,7 +14558,8 @@
       "reason": "Concrete role in distributing posters for community awareness.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "poiema_foundation_2",
@@ -13771,7 +14596,8 @@
       "reason": "Concrete role in sending letters to trafficking survivors.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "poiema_foundation_4",
@@ -13809,7 +14635,8 @@
       "reason": "Role involves fundraising, not direct service.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "poiema_foundation_1",
@@ -13848,7 +14675,11 @@
       "reason": "Concrete role in direct care and mentoring for survivors.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "crisis_support",
+      "mental_health"
+    ]
   },
   {
     "id": "presbyterian_night_shelter_2",
@@ -13886,7 +14717,11 @@
       "reason": "Volunteers assist in creating activities for families.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "community"
+    ]
   },
   {
     "id": "presbyterian_night_shelter_1",
@@ -13923,7 +14758,8 @@
       "reason": "Volunteers sort and organize donation items.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "presbyterian_night_shelter_3",
@@ -13960,7 +14796,8 @@
       "reason": "Volunteers help refresh areas of the shelter.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "presbyterian_night_shelter_0",
@@ -13998,7 +14835,11 @@
       "reason": "Volunteers prepare and serve meals at shelter locations.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "presbyterian_night_shelter_4",
@@ -14035,7 +14876,8 @@
       "reason": "Volunteers engage with guests and assist at the resource center.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "preservation_society_for_spring_creek_forest_0",
@@ -14073,7 +14915,8 @@
       "reason": "Volunteers participate in Preserve maintenance work sessions.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "preservation_society_for_spring_creek_forest_3",
@@ -14110,7 +14953,8 @@
       "reason": "Volunteers maintain nest boxes and report data.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "preservation_society_for_spring_creek_forest_1",
@@ -14147,7 +14991,8 @@
       "reason": "Volunteers help control invasive species in the Preserve.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "preservation_society_for_spring_creek_forest_4",
@@ -14185,7 +15030,8 @@
       "reason": "Volunteers collaborate on projects enhancing the Preserve.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "preservation_society_for_spring_creek_forest_2",
@@ -14222,7 +15068,8 @@
       "reason": "Volunteers monitor trails for safety and cleanliness.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "preservation_society_for_spring_creek_forest_5",
@@ -14260,7 +15107,8 @@
       "reason": "Concrete role of picking up trash at the Preserve.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "richardson_community_band_1",
@@ -14298,7 +15146,12 @@
       "reason": "Attending an event dressed in costume, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "arts",
+      "community"
+    ]
   },
   {
     "id": "richardson_community_band_0",
@@ -14335,7 +15188,8 @@
       "reason": "Attending a concert, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "richardson_community_band_2",
@@ -14373,7 +15227,8 @@
       "reason": "Attending an event, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "richardson_community_band_3",
@@ -14412,7 +15267,12 @@
       "reason": "Attending a concert, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "seniors",
+      "community",
+      "arts"
+    ]
   },
   {
     "id": "richardson_community_band_4",
@@ -14451,7 +15311,12 @@
       "reason": "Attending a concert, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "seniors",
+      "community",
+      "arts"
+    ]
   },
   {
     "id": "richardson_humane_society_4",
@@ -14564,7 +15429,10 @@
     ],
     "apply_url": null,
     "apply_instructions": "Contact us to volunteer for the event.",
-    "unified_tags": [],
+    "unified_tags": [
+      "animals",
+      "community"
+    ],
     "qc": {
       "status": "passed",
       "category": null,
@@ -14689,7 +15557,10 @@
       "reason": "Concrete role in animal care at the nature center.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "river_legacy_foundation_3",
@@ -14728,7 +15599,11 @@
       "reason": "Concrete role in assisting with community festivals.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community",
+      "environment"
+    ]
   },
   {
     "id": "river_legacy_foundation_0",
@@ -14766,7 +15641,11 @@
       "reason": "Concrete role in assisting educational programs.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "river_legacy_foundation_2",
@@ -14804,7 +15683,8 @@
       "reason": "Concrete role as a front desk ambassador.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "sharing_life_community_outreach_inc_1",
@@ -14841,7 +15721,8 @@
       "reason": "Concrete role in assisting with various events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "sharing_life_community_outreach_inc_0",
@@ -14879,7 +15760,11 @@
       "reason": "Concrete role in serving clients and sorting food.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "sharing_life_community_outreach_inc_2",
@@ -14916,7 +15801,8 @@
       "reason": "Concrete role in group volunteer projects.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "spark_0",
@@ -14953,7 +15839,8 @@
       "reason": "Concrete role in volunteering at Klyde Warren Park.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "save_the_bees_usa_1",
@@ -14991,7 +15878,8 @@
       "reason": "Program involves sponsoring/adopting a hive, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "save_the_bees_usa_2",
@@ -15029,7 +15917,10 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "environment"
+    ]
   },
   {
     "id": "save_the_bees_usa_0",
@@ -15068,7 +15959,12 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "children",
+      "community"
+    ]
   },
   {
     "id": "selah_creek_1",
@@ -15105,7 +16001,12 @@
       "reason": "Concrete role teaching activities to young mothers.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "community",
+      "children"
+    ]
   },
   {
     "id": "selah_creek_0",
@@ -15142,7 +16043,10 @@
       "reason": "Concrete role providing childcare.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children"
+    ]
   },
   {
     "id": "selah_creek_2",
@@ -15179,7 +16083,11 @@
       "reason": "Concrete role preparing meals.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "selah_creek_4",
@@ -15216,7 +16124,8 @@
       "reason": "Concrete role providing transportation.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "selah_creek_3",
@@ -15253,7 +16162,8 @@
       "reason": "Concrete role assisting with office tasks.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "selah_creek_6",
@@ -15290,7 +16200,8 @@
       "reason": "Prayer is not a concrete volunteer task.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "selah_creek_5",
@@ -15327,7 +16238,8 @@
       "reason": "Concrete role maintaining outdoor areas.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "sharing_the_love_foundation_2",
@@ -15364,7 +16276,12 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "sharing_the_love_foundation_0",
@@ -15399,7 +16316,8 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "sharing_the_love_foundation_1",
@@ -15436,7 +16354,8 @@
       "reason": "Free workshop to attend, not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "songs_smiles_0",
@@ -15474,7 +16393,12 @@
       "reason": "Concrete role leading community singalongs.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "seniors",
+      "mental_health",
+      "community"
+    ]
   },
   {
     "id": "songs_smiles_1",
@@ -15512,7 +16436,12 @@
       "reason": "Concrete role assisting at events and sharing information.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "seniors",
+      "mental_health",
+      "community"
+    ]
   },
   {
     "id": "songs_smiles_2",
@@ -15550,7 +16479,12 @@
       "reason": "Concrete role facilitating workshops.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "seniors",
+      "health",
+      "mental_health"
+    ]
   },
   {
     "id": "southwestern_adventist_university_1",
@@ -15588,7 +16522,8 @@
       "reason": "Concrete role assisting during museum events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "southwestern_adventist_university_2",
@@ -15625,7 +16560,8 @@
       "reason": "Concrete role volunteering at community support events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "southwestern_adventist_university_3",
@@ -15662,7 +16598,12 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "southwestern_adventist_university_0",
@@ -15700,7 +16641,8 @@
       "reason": "Concrete role volunteering with mobile health unit.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "spay_neuter_network_3",
@@ -15738,7 +16680,8 @@
       "reason": "Concrete role providing client support during check-ins.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "spay_neuter_network_1",
@@ -15776,7 +16719,10 @@
       "reason": "Concrete role assisting in clinic operations.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "spay_neuter_network_4",
@@ -15813,7 +16759,8 @@
       "reason": "No specific volunteer role described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "spay_neuter_network_0",
@@ -15851,7 +16798,8 @@
       "reason": "Concrete role in community outreach and events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "spay_neuter_network_2",
@@ -15889,7 +16837,8 @@
       "reason": "Externship is a career/resume role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "joseph_catholic_mobile_pantry_0",
@@ -15969,7 +16918,12 @@
       "reason": "No specific volunteer role described for the camp.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "st_philip_s_school_and_community_center_0",
@@ -16006,7 +16960,8 @@
       "reason": "No specific volunteer role described for the cookout.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "st_philip_s_school_and_community_center_2",
@@ -16044,7 +16999,12 @@
       "reason": "Paid registration for participation, no volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "community",
+      "education"
+    ]
   },
   {
     "id": "st_philip_s_school_and_community_center_3",
@@ -16082,7 +17042,8 @@
       "reason": "No specific volunteer role described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "st_philip_s_school_and_community_center_1",
@@ -16120,7 +17081,12 @@
       "reason": "No specific volunteer role described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "community",
+      "education"
+    ]
   },
   {
     "id": "streetside_showers_1",
@@ -16155,7 +17121,10 @@
       "reason": "Concrete task of assembling hygiene kits and snack packs.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "streetside_showers_0",
@@ -16190,7 +17159,11 @@
       "reason": "Catering food is a donation of goods, not time.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "streetside_showers_3",
@@ -16225,7 +17198,8 @@
       "reason": "Concrete task of packaging underwear.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "streetside_showers_2",
@@ -16260,7 +17234,8 @@
       "reason": "Concrete task of rolling socks.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "stronger_women_0",
@@ -16297,7 +17272,8 @@
       "reason": "Training to become a facilitator is a class, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "stronger_women_1",
@@ -16334,7 +17310,11 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "stronger_women_2",
@@ -16371,7 +17351,8 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "tlt_tomorrow_s_leaders_today_inc_0",
@@ -16409,7 +17390,8 @@
       "reason": "Internship program, not a volunteer opportunity.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "tarrant_area_food_bank_2",
@@ -16448,7 +17430,12 @@
       "reason": "Concrete task of participating in gardening activities.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community",
+      "food_security",
+      "environment"
+    ]
   },
   {
     "id": "tarrant_area_food_bank_1",
@@ -16486,7 +17473,11 @@
       "reason": "Concrete task of preparing meals in a community kitchen.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "tarrant_area_food_bank_6",
@@ -16523,7 +17514,8 @@
       "reason": "Concrete role for community service at food bank.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "tarrant_area_food_bank_3",
@@ -16561,7 +17553,11 @@
       "reason": "Volunteers prepare and distribute orders.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "tarrant_area_food_bank_5",
@@ -16599,7 +17595,11 @@
       "reason": "Distribute vouchers at farmers markets.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "tarrant_area_food_bank_4",
@@ -16637,7 +17637,11 @@
       "reason": "Assist with food distribution at mobile sites.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "tarrant_area_food_bank_0",
@@ -16675,7 +17679,11 @@
       "reason": "Sort and pack food items for distribution.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "taste_project_0",
@@ -16713,7 +17721,11 @@
       "reason": "Serve meals and support community at Taste Project.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "texas_independent_rhodesian_ridgeback_rescue_1",
@@ -16750,7 +17762,8 @@
       "reason": "Help with Rescue Ranch repairs and maintenance.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "texas_independent_rhodesian_ridgeback_rescue_2",
@@ -16787,7 +17800,8 @@
       "reason": "Foster a dog, providing temporary home and care.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "texas_independent_rhodesian_ridgeback_rescue_0",
@@ -16824,7 +17838,10 @@
       "reason": "Play with, walk, or cuddle dogs at the rescue.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "texas_land_conservancy_0",
@@ -16862,7 +17879,8 @@
       "reason": "Volunteer to maintain trails at nature preserve.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "texas_land_conservancy_1",
@@ -16900,7 +17918,8 @@
       "reason": "Concrete volunteer role in maintaining a nature preserve.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "texas_trees_foundation_0",
@@ -16937,7 +17956,11 @@
       "reason": "Concrete volunteer role in planting trees.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "environment",
+      "community"
+    ]
   },
   {
     "id": "the_m_i_n_t_foundation_2",
@@ -16976,7 +17999,12 @@
       "reason": "Concrete volunteer role in school supply distribution.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "the_m_i_n_t_foundation_4",
@@ -17015,7 +18043,11 @@
       "reason": "Concrete volunteer role in distributing gifts during Christmas.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "community"
+    ]
   },
   {
     "id": "the_m_i_n_t_foundation_3",
@@ -17053,7 +18085,11 @@
       "reason": "Concrete volunteer role in distributing meals during Thanksgiving.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "the_m_i_n_t_foundation_1",
@@ -17091,7 +18127,11 @@
       "reason": "Concrete volunteer role in distributing groceries.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "the_m_i_n_t_foundation_0",
@@ -17129,7 +18169,11 @@
       "reason": "Concrete volunteer role in assisting a food pantry.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "the_main_place_0",
@@ -17164,7 +18208,8 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "the_main_place_1",
@@ -17199,7 +18244,8 @@
       "reason": "Concrete volunteer role during specified hours.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "the_oak_cliff_veggie_project_1",
@@ -17236,7 +18282,11 @@
       "reason": "Concrete volunteer role in maintaining a community garden.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community",
+      "environment"
+    ]
   },
   {
     "id": "the_oak_cliff_veggie_project_4",
@@ -17273,7 +18323,11 @@
       "reason": "Concrete role in garden maintenance.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community",
+      "environment"
+    ]
   },
   {
     "id": "the_oak_cliff_veggie_project_3",
@@ -17310,7 +18364,8 @@
       "reason": "Concrete role in garden maintenance.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "the_oak_cliff_veggie_project_0",
@@ -17347,7 +18402,10 @@
       "reason": "No specific volunteer role described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "the_oak_cliff_veggie_project_5",
@@ -17384,7 +18442,8 @@
       "reason": "Concrete role in operations team.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "the_oak_cliff_veggie_project_2",
@@ -17422,7 +18481,11 @@
       "reason": "Concrete role in food distribution.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "the_samaritan_inn_4",
@@ -17459,7 +18522,8 @@
       "reason": "Asking for donation of personal care items.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "the_samaritan_inn_5",
@@ -17497,7 +18561,11 @@
       "reason": "No specific volunteer role described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "the_samaritan_inn_3",
@@ -17534,7 +18602,8 @@
       "reason": "Asking for donation of personal care items.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "the_samaritan_inn_2",
@@ -17572,7 +18641,8 @@
       "reason": "Asking for donation of bedding items.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "the_samaritan_inn_1",
@@ -17609,7 +18679,8 @@
       "reason": "Participation in a pickleball tournament.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "the_samaritan_inn_0",
@@ -17648,7 +18719,13 @@
       "reason": "No specific volunteer role; focuses on program support.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "housing",
+      "community"
+    ]
   },
   {
     "id": "senior_source_dallas_5",
@@ -17980,7 +19057,8 @@
       "reason": "Organizing clothing and assisting during distributions is a concrete role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "the_storehouse_community_center_2",
@@ -18018,7 +19096,8 @@
       "reason": "Assisting and welcoming neighbors is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "the_storehouse_community_center_0",
@@ -18056,7 +19135,11 @@
       "reason": "Concrete tasks like sorting and greeting at food pantry.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "the_storehouse_community_center_3",
@@ -18094,7 +19177,11 @@
       "reason": "Specific roles in teaching ESL and class setup.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "texas_ramp_project_0",
@@ -18330,7 +19417,11 @@
       "reason": "No specific volunteer role described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "community"
+    ]
   },
   {
     "id": "together_we_thrive_3",
@@ -18367,7 +19458,8 @@
       "reason": "Concrete tasks in administrative projects.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "together_we_thrive_2",
@@ -18404,7 +19496,8 @@
       "reason": "Specific tasks like painting and providing meals.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "together_we_thrive_1",
@@ -18442,7 +19535,12 @@
       "reason": "Volunteers help plan and host events, a concrete role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "community",
+      "education"
+    ]
   },
   {
     "id": "together_we_thrive_0",
@@ -18480,7 +19578,11 @@
       "reason": "Volunteers mentor vulnerable youth, a concrete role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "community"
+    ]
   },
   {
     "id": "together_we_thrive_4",
@@ -18518,7 +19620,11 @@
       "reason": "Involves purchasing or donating items, not time.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "community"
+    ]
   },
   {
     "id": "traffick911_1",
@@ -18556,7 +19662,8 @@
       "reason": "Orientation is an educational session, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "traffick911_0",
@@ -18594,7 +19701,8 @@
       "reason": "Volunteers assist with guest check-in, a concrete role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "under_the_bridge_ministries_inc_0",
@@ -18632,7 +19740,12 @@
       "reason": "Volunteers serve meals and provide support, a concrete role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "community",
+      "crisis_support"
+    ]
   },
   {
     "id": "undies_for_everyone_1",
@@ -18669,7 +19782,8 @@
       "reason": "Volunteers sort, pack, and sticker underwear, a concrete role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "undies_for_everyone_0",
@@ -18706,7 +19820,11 @@
       "reason": "Involves hosting a drive, not direct volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "community"
+    ]
   },
   {
     "id": "undies_for_everyone_2",
@@ -18743,7 +19861,11 @@
       "reason": "Competing in a Roll-a-thon is a participatory event.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "community"
+    ]
   },
   {
     "id": "uptown_players_1",
@@ -18781,7 +19903,8 @@
       "reason": "Volunteers help at auditions and events, a concrete role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "uptown_players_0",
@@ -18819,7 +19942,8 @@
       "reason": "Ushering is a concrete volunteer role involving assisting patrons.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "vickery_meadow_youth_development_foundation_0",
@@ -18856,7 +19980,10 @@
       "reason": "Event support involves concrete tasks like setup and logistics.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "vickery_meadow_youth_development_foundation_4",
@@ -18893,7 +20020,10 @@
       "reason": "No specific volunteer role or task described.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "vickery_meadow_youth_development_foundation_3",
@@ -18930,7 +20060,12 @@
       "reason": "Mentoring and leading workshops are concrete volunteer roles.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "vickery_meadow_youth_development_foundation_2",
@@ -18967,7 +20102,12 @@
       "reason": "Assisting with enrichment activities is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "vickery_meadow_youth_development_foundation_1",
@@ -19004,7 +20144,11 @@
       "reason": "Mentoring students is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "visiting_nurse_association_of_texas_3",
@@ -19041,7 +20185,8 @@
       "reason": "Assisting with clerical duties is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "visiting_nurse_association_of_texas_2",
@@ -19079,7 +20224,8 @@
       "reason": "Supporting families through calls and groups is a concrete role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "visiting_nurse_association_of_texas_0",
@@ -19117,7 +20263,8 @@
       "reason": "Providing visits and caregiver relief is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "visiting_nurse_association_of_texas_6",
@@ -19156,7 +20303,11 @@
       "reason": "Visiting patients with therapy animals is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "health",
+      "animals"
+    ]
   },
   {
     "id": "visiting_nurse_association_of_texas_5",
@@ -19193,7 +20344,11 @@
       "reason": "Volunteers provide materials and sew at home.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "health",
+      "community"
+    ]
   },
   {
     "id": "visiting_nurse_association_of_texas_4",
@@ -19230,7 +20385,8 @@
       "reason": "Volunteers help with delivering bags and events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "visiting_nurse_association_of_texas_1",
@@ -19268,7 +20424,8 @@
       "reason": "Volunteers make weekly phone calls to patients.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "vogel_where_children_soar_0",
@@ -19305,7 +20462,8 @@
       "reason": "Volunteers support projects and events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "vogel_where_children_soar_1",
@@ -19344,7 +20502,12 @@
       "reason": "Opportunity involves donating items, not time.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "children",
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "weatherford_wags_8",
@@ -19381,7 +20544,8 @@
       "reason": "Volunteers assist with admin tasks and database.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "weatherford_wags_5",
@@ -19418,7 +20582,8 @@
       "reason": "Volunteers manage adoption applications and interviews.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "weatherford_wags_2",
@@ -19456,7 +20621,8 @@
       "reason": "Volunteers create content for social media.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "weatherford_wags_1",
@@ -19493,7 +20659,8 @@
       "reason": "Volunteers walk dogs for exercise.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "weatherford_wags_4",
@@ -19530,7 +20697,12 @@
       "reason": "Volunteers coordinate foster applications and visits.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "foster_care",
+      "animals",
+      "community"
+    ]
   },
   {
     "id": "weatherford_wags_7",
@@ -19567,7 +20739,8 @@
       "reason": "Role involves generating and planning fundraising events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "weatherford_wags_3",
@@ -19604,7 +20777,11 @@
       "reason": "Concrete role fostering dogs for short-term care.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "animals",
+      "foster_care"
+    ]
   },
   {
     "id": "weatherford_wags_0",
@@ -19641,7 +20818,8 @@
       "reason": "Concrete role transporting dogs to various locations.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "weatherford_wags_6",
@@ -19679,7 +20857,8 @@
       "reason": "Concrete role coordinating and training volunteers.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "well_community_3",
@@ -19717,7 +20896,11 @@
       "reason": "Concrete role assisting with community outreach efforts.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "community",
+      "housing"
+    ]
   },
   {
     "id": "well_community_7",
@@ -19754,7 +20937,8 @@
       "reason": "Role involves social media actions and awareness activities.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "well_community_4",
@@ -19792,7 +20976,8 @@
       "reason": "Concrete role assisting with spiritual retreat activities.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "well_community_2",
@@ -19830,7 +21015,12 @@
       "reason": "Concrete role leading or teaching activities at the center.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "education",
+      "mental_health",
+      "community"
+    ]
   },
   {
     "id": "well_community_6",
@@ -19868,7 +21058,8 @@
       "reason": "Concrete role assisting with planning and hosting fundraisers.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "well_community_5",
@@ -19906,7 +21097,8 @@
       "reason": "Concrete role organizing and helping at holiday parties.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "well_community_0",
@@ -19944,7 +21136,12 @@
       "reason": "Concrete role in preparing and serving meals.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": [
+      "food_security",
+      "mental_health",
+      "community"
+    ]
   },
   {
     "id": "well_community_1",
@@ -19982,7 +21179,8 @@
       "reason": "Concrete role in leading worship or delivering a message.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "white_rock_lake_conservancy_0",
@@ -20019,7 +21217,8 @@
       "reason": "Participate in a race, not a volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "white_rock_lake_conservancy_1",
@@ -20056,7 +21255,8 @@
       "reason": "Involves purchasing a custom brick, not volunteering.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "re_building_together_north_texas_1",
@@ -20093,7 +21293,8 @@
       "reason": "Concrete role in capturing event photos and videos.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   },
   {
     "id": "re_building_together_north_texas_0",
@@ -20130,6 +21331,7 @@
       "reason": "Concrete role in creating live content for an event.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
-    }
+    },
+    "unified_tags": []
   }
 ]

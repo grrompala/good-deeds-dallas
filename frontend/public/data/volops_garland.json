@@ -1,5 +1,36 @@
 [
   {
+    "id": "garland_1268268",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1268268",
+    "org_name": "City of Garland",
+    "opportunity_title": "(PD, FIRE, OEM) - Public Safety Scenario Actor Volunteer Pool Registration",
+    "description_long": "Public Safety Scenario Actor Volunteer Pool Organization: Volunteer Garland – City of Garland About the Opportunity: Volunteer Garland is working to help support future public safety and emergency response training exercises by building a trusted pool of volunteer scenario actors. These volunteers may assist Garland public safety personnel during realistic training scenarios designed to help first responders prepare for emergency situations in controlled training environments. Scenario actors help create realism, movement, decision-making pressure, and environmental complexity that improves the quality of training for law enforcement and emergency personnel. This opportunity is intended for mature, dependable volunteers who understand the importance of professionalism, discretion, and following directions in structured training environments. Potential Training Scenarios May Include: Active shooter response exercises Building evacuation simulations Emergency response drills Crowd movement and bystander scenarios Vehicle stop/takedown simulations Victim/witness role-playing Disaster and emergency management exercises Volunteer Roles May Include: Civilians/bystanders Witnesses Evacuees Injured victims Panicked civilians Optional suspect/aggressor roles during select training exercises No acting experience is required. Public safety personnel and Volunteer Garland staff will provide instructions prior to all scenarios. Important Expectations: Volunteers must be able to follow directions quickly and professionally. Volunteers must maintain discretion regarding training activities, tactics, personnel, and locations. Photography, video recording, livestreaming, or sharing sensitive training details may be prohibited during exercises. Scenario volunteers are present to support training realism and public safety preparedness. Some scenarios may involve loud noises, emergency vehicles, tactical equipment, simulated injuries, stress-based environments, and physical movement. Volunteers should be comfortable walking, standing for extended periods, using stairs, and occasionally getting up/down from the ground during simulations. All volunteers must wear Volunteer Garland safety vests during check-in, staging, and non-active training periods unless otherwise instructed by staff. Optional Marking Round Participation: Some advanced training scenarios may involve volunteers serving as simulated aggressors during controlled exercises using non-lethal marking/training rounds. Important: Participation in these roles is completely voluntary. Marking rounds can cause pain, bruising, welts, and damage to clothing. Clothing may become permanently stained or damaged. Volunteers participating in these scenarios must wear heavy, layered clothing. Protective equipment may be required and/or provided depending on the exercise. Volunteers are encouraged to bring additional protective sports gear if desired, including: Paintball padding Compression layers Padded shirts Protective gloves Athletic cups/protection Mouthguards Other non-metal protective sports equipment Volunteer Garland and participating public safety agencies are not responsible for damaged clothing or discomfort resulting from voluntary participation in approved training exercises. Background Screening & Selection: Because these opportunities may involve sensitive training environments: Volunteers must be willing to undergo background screening if requested. Participation is not guaranteed. Some exercises may require additional approval, screening, waivers, or age restrictions depending on the nature of the training. Age Requirements: Adults 18+ preferred Select opportunities may allow mature high school students (16+). Please put age when you register. Scheduling: Training opportunities may occur periodically throughout the year, potentially including quarterly exercises, evening drills, weekend trainings, or special event scenarios. Volunteers enrolled in this pool may receive private invitations to future training opportunities. Confidentiality & Professionalism: Scenario actors may be exposed to sensitive operational environments or training methods. Volunteers selected for participation are expected to conduct themselves professionally and avoid publicly discussing operational details, tactics, or sensitive information observed during exercises. Why This Matters: High-quality training helps first responders prepare for real emergencies before they happen. Scenario volunteers play an important role in helping public safety personnel train more effectively, safely, and realistically. Questions: Volunteer Garland Volunteer@GarlandTX.gov 972-205-3583 Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
+    "description_short": "Public Safety Scenario Actor Volunteer Pool Organization: Volunteer Garland – City of Garland About the Opportunity: Volunteer Garland is working to help support future public safety and emergency response training exercises by building a trusted…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Jul 30, 2027 Time Varies; Listing will have shift info"
+    },
+    "contact": [
+      {
+        "email": "JoDiaz@Garlandtx.gov",
+        "phone": "9722053583",
+        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Teaching/Training",
+      "Teaching/TrainingProgramCity of Garland",
+      "Instagram"
+    ],
+    "last_scraped": "2026-07-02T23:58:44.881151+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": []
+  },
+  {
     "id": "garland_1238708",
     "source": "volunteergarland",
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1238708",
@@ -20,14 +51,17 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical LaborProgramVolunteer Litter Program",
-      "Physical Labor"
+      "Physical Labor",
+      "Instagram",
+      "Physical LaborProgramVolunteer Litter Program"
     ],
-    "last_scraped": "2026-05-17T20:12:21.376629+00:00",
+    "last_scraped": "2026-07-02T23:58:03.408940+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
-    "unified_tags": []
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "garland_1254505",
@@ -50,12 +84,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "SocialPhysical LaborProgramGarland Public Libraries",
-      "Physical Labor",
       "SocialPhysical Labor",
+      "Instagram",
+      "Physical Labor",
+      "SocialPhysical LaborProgramGarland Public Libraries",
       "Social"
     ],
-    "last_scraped": "2026-05-17T20:13:06.844068+00:00",
+    "last_scraped": "2026-07-02T23:58:12.982158+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -83,9 +118,10 @@
     "requirements": "Respond",
     "cause_tags": [
       "Skilled LaborProgramGarland Public Libraries",
-      "Skilled Labor"
+      "Skilled Labor",
+      "Instagram"
     ],
-    "last_scraped": "2026-05-17T20:13:04.469856+00:00",
+    "last_scraped": "2026-07-02T23:58:11.028342+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -97,11 +133,11 @@
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1065196",
     "org_name": "City of Garland",
     "opportunity_title": "Animal Shelter Volunteers",
-    "description_long": "*This page is for information only. Click here for the official City of Garland Animal Shelter volunteer page* Volunteering at the City of Garland Animal Shelter Thank you for your interest in volunteering at the City of Garland Animal Shelter ! While the shelter is operated by the City, we partner with Friends of Rescue Animals (FRAs) , a local nonprofit organization, to screen and coordinate volunteers. To become a volunteer, please visit Friends of Rescue Animals (FRAs) and complete their volunteer application process. Once approved, you’ll have the opportunity to help care for animals, assist with adoptions, and support shelter operations. We appreciate your dedication to helping the animals in our community, and we look forward to having you as part of the team! How do I become a Friends of Rescue Animals volunteer? Follow these steps to become a FRA volunteer: Complete the volunteer application Complete a city application (directions given once volunteer application is approved) Register and complete the Online Volunteer Orientation Register and attend Animal Handling Training Volunteer and have fun! Note: Ages 12 -17 can only volunteer with a parent present at all times. 12 and under are not allowed to volunteer.",
+    "description_long": "*This page is for information only. Click here for the official City of Garland Animal Shelter volunteer page* Volunteering at the City of Garland Animal Shelter Thank you for your interest in volunteering at the City of Garland Animal Shelter ! While the shelter is operated by the City, we partner with Friends of Rescue Animals (FRAs) , a local nonprofit organization, to screen and coordinate volunteers. To become a volunteer, please visit Friends of Rescue Animals (FRAs) and complete their volunteer application process. Once approved, you’ll have the opportunity to help care for animals, assist with adoptions, and support shelter operations. We appreciate your dedication to helping the animals in our community, and we look forward to having you as part of the team! How do I become a Friends of Rescue Animals volunteer? Follow these steps to become a FRA volunteer: Complete the volunteer application Complete a city application (directions given once volunteer application is approved) Register and complete the Online Volunteer Orientation Register and attend Animal Handling Training Volunteer and have fun! Note: Ages 12 -17 can only volunteer with a parent present at all times. 12 and under are not allowed to volunteer. Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
     "description_short": "*This page is for information only. Click here for the official City of Garland Animal Shelter volunteer page* Volunteering at the City of Garland Animal Shelter Thank you for your interest in volunteering at the City of Garland Animal Shelter !…",
     "address": {},
     "schedule": {
-      "raw": "Calendar Until Apr 23, 2027 Time Varies"
+      "raw": "Calendar Until Jul 30, 2027 Time Varies"
     },
     "contact": [
       {
@@ -113,9 +149,10 @@
     "requirements": "Respond",
     "cause_tags": [
       "Skilled Labor",
+      "Instagram",
       "Skilled LaborProgramCity of Garland"
     ],
-    "last_scraped": "2026-05-17T20:12:35.337718+00:00",
+    "last_scraped": "2026-07-02T23:58:16.619545+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -129,19 +166,90 @@
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1065745",
     "org_name": "City of Garland",
     "opportunity_title": "Boards & Commissions Volunteers",
-    "description_long": "*This page is for information only. Click here for the official Boards & Commissions page* Volunteering with Boards & Commissions Boards & Commissions Serving on a Board or Commission The American democratic experience is built upon the foundation of concerned and caring residents becoming actively involved in local government. Consistent with this principle, Garland’s Charter provides for the City Council to utilize resident volunteers to assist in carrying out the many functions of municipal government by serving on various advisory boards and commissions. Please give serious consideration to becoming more involved in helping make Garland the best city possible by applying to serve on a board or commission of your choice. To apply, click here to open the application form , or pick up an application in the City Secretary’s Office . For more information, call 972-205-2404 . Qualifications The Garland Charter and Code of Ordinances establish certain qualifications that must be met by members of boards and commissions. In addition to special qualifications for service, a board member must: Be a qualified voter at time of appointment Have been a resident of Garland for one year prior to the date of appointment Have not been convicted of a Class A misdemeanor or a felony Boards and Commissions Training Video The training video includes a brief introduction for serving on a city board or commission and what to expect as you begin your service. The training also covers how to run an effective boards and commissions meeting. Looking for a City Council Committee? Visit our City Council webpage. Click here",
+    "description_long": "*This page is for information only. Click here for the official Boards & Commissions page* Volunteering with Boards & Commissions Boards & Commissions Serving on a Board or Commission The American democratic experience is built upon the foundation of concerned and caring residents becoming actively involved in local government. Consistent with this principle, Garland’s Charter provides for the City Council to utilize resident volunteers to assist in carrying out the many functions of municipal government by serving on various advisory boards and commissions. Please give serious consideration to becoming more involved in helping make Garland the best city possible by applying to serve on a board or commission of your choice. To apply, click here to open the application form , or pick up an application in the City Secretary’s Office . For more information, call 972-205-2404 . Qualifications The Garland Charter and Code of Ordinances establish certain qualifications that must be met by members of boards and commissions. In addition to special qualifications for service, a board member must: Be a qualified voter at time of appointment Have been a resident of Garland for one year prior to the date of appointment Have not been convicted of a Class A misdemeanor or a felony Boards and Commissions Training Video The training video includes a brief introduction for serving on a city board or commission and what to expect as you begin your service. The training also covers how to run an effective boards and commissions meeting. Looking for a City Council Committee? Visit our City Council webpage. Click here Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
     "description_short": "*This page is for information only. Click here for the official Boards & Commissions page* Volunteering with Boards & Commissions Boards & Commissions Serving on a Board or Commission The American democratic experience is built upon the foundation…",
     "address": {},
     "schedule": {
-      "raw": "Calendar Until Apr 23, 2027 Time 8 am to 12 pm"
+      "raw": "Calendar Until Jul 30, 2027 Time 8 am to 12 pm"
     },
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
       "SocialProgramCity of Garland",
+      "Instagram",
       "Social"
     ],
-    "last_scraped": "2026-05-17T20:12:49.013151+00:00",
+    "last_scraped": "2026-07-02T23:58:25.966091+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": []
+  },
+  {
+    "id": "garland_1272298",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1272298",
+    "org_name": "City of Garland",
+    "opportunity_title": "City of Garland Environmental Health Department: Office Support Volunteers",
+    "description_long": "Office Support Volunteers - Environmental Health Records Project Description Help preserve and organize important City records. The City of Garland Environmental Health Department is seeking volunteers to assist with a special records digitization project. Volunteers will help scan paper files into the City's electronic records system, making information easier to access and preserve for future use. This is a project-based opportunity ideal for individuals who enjoy administrative work, organization, and working with computers. Volunteer Duties Scan paper documents using City equipment Organize records for digitization Follow document handling procedures Assist staff with file preparation and quality checks Schedule Flexible scheduling Tuesday through Thursday Available between 8:30 a.m. and 5 p.m. Volunteers typically serve in morning or afternoon shifts based on availability Requirements Must be comfortable using computers Ability to sit, stand, and handle paper files Attention to detail Background check required prior to placement Some records may contain confidential information Training & Supervision Training will be provided by City staff. Volunteers will work under the supervision of Environmental Health personnel. Important Note Registering for this opportunity expresses your interest in serving. Volunteers selected for placement will be contacted by Volunteer Garland with additional information and scheduling options. Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
+    "description_short": "Office Support Volunteers - Environmental Health Records Project Description Help preserve and organize important City records. The City of Garland Environmental Health Department is seeking volunteers to assist with a special records digitization…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Jul 30, 2027 Time Flexiable"
+    },
+    "contact": [
+      {
+        "email": "JoDiaz@Garlandtx.gov",
+        "phone": "9722053583",
+        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Instagram",
+      "ClericalCustomer Service/Front DeskData EntryTechnology SupportProgramCity of Garland",
+      "ClericalCustomer Service/Front DeskData EntryTechnology Support",
+      "Clerical",
+      "Technology Support",
+      "Customer Service/Front Desk",
+      "Data Entry"
+    ],
+    "last_scraped": "2026-07-02T23:58:46.873637+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": []
+  },
+  {
+    "id": "garland_1272300",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1272300",
+    "org_name": "City of Garland",
+    "opportunity_title": "City of Garland Parks and Recreation Department: Office Support Volunteers",
+    "description_long": "Office Support Volunteers - Parks Historical Records Digitization Project Description Help preserve Garland's history. The City of Garland Parks and Recreation Department is seeking volunteers to assist with a historical records digitization project. Volunteers will help convert paper records into digital files to preserve important documents and make them more accessible for future staff and community use. This opportunity is perfect for volunteers who enjoy organization, administrative work, and helping preserve local history. Volunteer Duties Scan historical records and documents Organize files for digitization Label and save electronic files according to established procedures Assist with document preparation and quality review Schedule Flexible scheduling Monday through Friday Available between 8:30 a.m. and 5 p.m. Volunteers typically serve in morning or afternoon shifts based on availability Requirements Basic computer skills Ability to sit, stand, and handle paper records Attention to detail Ability to follow file management procedures Background check may be required depending on assignment Training & Supervision Training will be provided by Parks and Recreation staff. No previous records management experience is required. Important Note Registering for this opportunity expresses your interest in serving. Volunteers selected for placement will be contacted by Volunteer Garland to discuss availability, scheduling, and project details. Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
+    "description_short": "Office Support Volunteers - Parks Historical Records Digitization Project Description Help preserve Garland's history. The City of Garland Parks and Recreation Department is seeking volunteers to assist with a historical records digitization…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Jul 30, 2027 Time Flexiable"
+    },
+    "contact": [
+      {
+        "email": "JoDiaz@Garlandtx.gov",
+        "phone": "9722053583",
+        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Instagram",
+      "ClericalCustomer Service/Front DeskData EntryTechnology SupportProgramCity of Garland",
+      "ClericalCustomer Service/Front DeskData EntryTechnology Support",
+      "Clerical",
+      "Technology Support",
+      "Customer Service/Front Desk",
+      "Data Entry"
+    ],
+    "last_scraped": "2026-07-02T23:58:48.744105+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -151,7 +259,7 @@
     "id": "garland_1237789",
     "source": "volunteergarland",
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1237789",
-    "org_name": "Code Cares Program",
+    "org_name": "Garland Cares Program",
     "opportunity_title": "Code Cares - Community Chainsaw Response Team",
     "description_long": "Volunteer Garland is building a Chainsaw Response Team , a group of skilled and safety conscious volunteers who can assist residents with fallen trees or large limbs following storms or unexpected situations. Many of these requests come from older adults, individuals with limited physical capacity, or households facing financial challenges. These are neighbors who may not have the resources or ability to address the issue on their own. Your support can make an immediate and meaningful difference. What This Role Involves Assisting with cutting and removing fallen trees or large limbs Helping make properties safe and accessible again Responding to occasional, short notice requests based on your availability Most projects are short term and are typically completed within a week. Requests are coordinated based on urgency and volunteer availability. Important Notes Volunteers must provide their own equipment, including chainsaws and safety gear Signing up does not create an obligation to respond to every request Participation simply means you are willing to be contacted when a need arises Safety, proper training, and responsible equipment use are expected What Happens After Tree Removal In most cases, a separate volunteer group will assist with debris cleanup and hauling, typically the following Saturday. Chainsaw team members are welcome, but not required, to participate in these follow up efforts. Looking Ahead This initiative has the potential to grow into a broader community resource. Future opportunities may include hosting hands on trainings for residents, supporting storm preparedness efforts, and developing a community based volunteer disaster response team. Who We Are Looking For Individuals with chainsaw experience and proper equipment Volunteers who prioritize safety, service, and respect for others People willing to be part of a flexible, on call support network Join the Team Sign up to be added to our Chainsaw Response contact list and help support residents during times of need, when it matters most.",
     "description_short": "Volunteer Garland is building a Chainsaw Response Team , a group of skilled and safety conscious volunteers who can assist residents with fallen trees or large limbs following storms or unexpected situations. Many of these requests come from older…",
@@ -168,29 +276,33 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
-      "Physical LaborSkilled LaborSocialProgramCode Cares Program",
+      "Instagram",
       "Physical Labor",
       "Physical LaborSkilled LaborSocial",
-      "Skilled Labor"
+      "Physical LaborSkilled LaborSocialProgramGarland Cares Program",
+      "Skilled Labor",
+      "Social"
     ],
-    "last_scraped": "2026-05-17T20:12:16.008208+00:00",
+    "last_scraped": "2026-07-02T23:58:01.099125+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
-    "unified_tags": []
+    "unified_tags": [
+      "seniors",
+      "community"
+    ]
   },
   {
     "id": "garland_1237801",
     "source": "volunteergarland",
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1237801",
-    "org_name": "Code Cares Program",
+    "org_name": "Garland Cares Program",
     "opportunity_title": "Code Cares - Contractor & Business Partner Network",
-    "description_long": "Opportunity: Code Cares Contractor & Business Partner Network Fence Repair and Tree Trimming Focus Partner with the City of Garland to make a direct, visible impact in our community. Volunteer Garland is expanding its Code Cares initiative by building a network of local businesses and contractors who are willing to assist with two of the most common property needs in Garland: Fence repair and replacement Tree trimming and limb removal These projects often support older residents, individuals with limited physical capacity, or households facing financial hardship . With the right support, these properties can be restored quickly, improving safety and overall neighborhood conditions. What We Are Looking For We are seeking: Fence companies and general contractors Tree service professionals Skilled trades professionals Partners may choose to: Donate full services for select projects Offer discounted services for approved residents Participate in sponsored or shared community projects Join an on-call list for occasional opportunities Participation is flexible and based entirely on your availability. How This Benefits Your Business This is a practical, community-based partnership that offers meaningful visibility and local engagement. As a Code Cares Partner, your business may receive: Recognition on the City of Garland website and Volunteer Garland materials Inclusion in the Volunteer Garland newsletter The opportunity to place a yard sign at completed project sites Invitations to host a booth at major volunteer events , including: Tri-City Cleanup Duck Creek Litter Cleanup Association with a trusted City-led initiative focused on neighborhood improvement This is an opportunity to build your reputation as a business that invests in the community while connecting directly with local residents. How Projects Are Coordinated Volunteer Garland identifies and reviews resident needs Projects are scoped and matched with available partners Businesses are contacted with project details and can choose to participate Volunteer groups often assist with preparation or cleanup, allowing contractors to focus on skilled work Our Goal To build a reliable partnership network that brings together local businesses, volunteers, and the City to: Improve property conditions Support residents facing challenges Strengthen neighborhoods across Garland Get Involved If your business is interested in becoming a Code Cares Partner , sign up to join our network. Together, we can restore properties, support residents, and make a lasting impact in Garland",
+    "description_long": "Opportunity: Code Cares Contractor & Business Partner Network Fence Repair and Tree Trimming Focus Partner with the City of Garland to make a direct, visible impact in our community. Volunteer Garland is expanding its Code Cares initiative by building a network of local businesses and contractors who are willing to assist with two of the most common property needs in Garland: Fence repair and replacement Tree trimming and limb removal These projects often support older residents, individuals with limited physical capacity, or households facing financial hardship . With the right support, these properties can be restored quickly, improving safety and overall neighborhood conditions. What We Are Looking For We are seeking: Fence companies and general contractors Tree service professionals Skilled trades professionals Partners may choose to: Donate full services for select projects Offer discounted services for approved residents Participate in sponsored or shared community projects Join an on-call list for occasional opportunities Participation is flexible and based entirely on your availability. How This Benefits Your Business This is a practical, community-based partnership that offers meaningful visibility and local engagement. As a Code Cares Partner, your business may receive: Recognition on the City of Garland website and Volunteer Garland materials Inclusion in the Volunteer Garland newsletter The opportunity to place a yard sign at completed project sites Invitations to host a booth at major volunteer events , including: Tri-City Cleanup Duck Creek Litter Cleanup Association with a trusted City-led initiative focused on neighborhood improvement This is an opportunity to build your reputation as a business that invests in the community while connecting directly with local residents. How Projects Are Coordinated Volunteer Garland identifies and reviews resident needs Projects are scoped and matched with available partners Businesses are contacted with project details and can choose to participate Volunteer groups often assist with preparation or cleanup, allowing contractors to focus on skilled work Our Goal To build a reliable partnership network that brings together local businesses, volunteers, and the City to: Improve property conditions Support residents facing challenges Strengthen neighborhoods across Garland Get Involved If your business is interested in becoming a Code Cares Partner , sign up to join our network. Together, we can restore properties, support residents, and make a lasting impact in Garland Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
     "description_short": "Opportunity: Code Cares Contractor & Business Partner Network Fence Repair and Tree Trimming Focus Partner with the City of Garland to make a direct, visible impact in our community. Volunteer Garland is expanding its Code Cares initiative by…",
     "address": {},
     "schedule": {
-      "raw": "Calendar Until Mar 31, 2027"
+      "raw": "Calendar Until Jul 30, 2027"
     },
     "contact": [
       {
@@ -201,25 +313,28 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
-      "Physical LaborSkilled LaborSocialProgramCode Cares Program",
+      "Instagram",
       "Physical Labor",
       "Physical LaborSkilled LaborSocial",
-      "Skilled Labor"
+      "Physical LaborSkilled LaborSocialProgramGarland Cares Program",
+      "Skilled Labor",
+      "Social"
     ],
-    "last_scraped": "2026-05-17T20:12:18.651983+00:00",
+    "last_scraped": "2026-07-02T23:58:36.972929+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
-    "unified_tags": []
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "garland_1201437",
     "source": "volunteergarland",
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1201437",
-    "org_name": "Code Cares Program",
-    "opportunity_title": "Code Cares - Spring Lawn Care Volunteers",
-    "description_long": "CODE CARES - Help a Neighbor with Lawn Care We are looking for volunteers to help Garland residents with basic lawn mowing and light yard care. This effort supports residents who may be unable to maintain their yards due to age , disability , or temporary hardship . Volunteers will provide simple lawn care services that help residents stay safe, maintain their homes, and remain in compliance with City codes while showing kindness where it matters most. This project is conducted in partnership with Garland Code Compliance . Project Details Dates Spring and Early Summer 2026 Volunteers may sign up now. Scheduling will be coordinated individually. Time Commitment Flexible Volunteers may help one time or choose to assist again if they wish. There is no requirement to commit to the entire season. Location Various residential locations across Garland Addresses will be shared after sign-up. Project Description Volunteers will help residents by providing light lawn care. This may include mowing lawns, light trimming or edging, bagging or stacking grass clippings, and basic yard cleanup. This project does not include heavy landscaping or construction work. Volunteer Requirements Volunteers must provide their own lawn mower, trimmer, basic yard tools, work gloves, and eye protection. Volunteers are also responsible for their own transportation to and from the service location. Volunteers may not enter the homes or do remodeling work through the program for safety reasons. Please note that the City of Garland does not provide lawn equipment for this project. City Support The City of Garland will provide project coordination and resident matching, instructions and expectations before each assignment.",
+    "org_name": "Garland Cares Program",
+    "opportunity_title": "Code Cares - Lawn Care Volunteers",
+    "description_long": "CODE CARES - Help a Neighbor with Lawn Care We are looking for volunteers to help Garland residents with basic lawn mowing and light yard care. This effort supports residents who may be unable to maintain their yards due to age , disability , or temporary hardship . Volunteers will provide simple lawn care services that help residents stay safe, maintain their homes, and remain in compliance with City codes while showing kindness where it matters most. This project is conducted in partnership with Garland Code Compliance . Project Details Dates Spring and Early Summer 2026 Volunteers may sign up now. Scheduling will be coordinated individually. Time Commitment Flexible Volunteers may help one time or choose to assist again if they wish. There is no requirement to commit to the entire season. Location Various residential locations across Garland Addresses will be shared after sign-up. Project Description Volunteers will help residents by providing light lawn care. This may include mowing lawns, light trimming or edging, bagging or stacking grass clippings, and basic yard cleanup. This project does not include heavy landscaping or construction work. Volunteer Requirements Volunteers must provide their own lawn mower, trimmer, basic yard tools, work gloves, and eye protection. Volunteers are also responsible for their own transportation to and from the service location. Volunteers may not enter the homes or do remodeling work through the program for safety reasons. Please note that the City of Garland does not provide lawn equipment for this project. City Support The City of Garland will provide project coordination and resident matching, instructions and expectations before each assignment. Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
     "description_short": "CODE CARES - Help a Neighbor with Lawn Care We are looking for volunteers to help Garland residents with basic lawn mowing and light yard care. This effort supports residents who may be unable to maintain their yards due to age , disability , or…",
     "address": {},
     "schedule": {
@@ -234,53 +349,65 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
-      "Physical LaborSkilled LaborSocialProgramCode Cares Program",
+      "Instagram",
       "Physical Labor",
       "Physical LaborSkilled LaborSocial",
-      "Skilled Labor"
+      "Physical LaborSkilled LaborSocialProgramGarland Cares Program",
+      "Skilled Labor",
+      "Social"
     ],
-    "last_scraped": "2026-05-17T20:12:07.738168+00:00",
+    "last_scraped": "2026-07-02T23:57:51.490800+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [
-      "community",
-      "environment"
+      "seniors",
+      "disabilities",
+      "community"
     ]
   },
   {
-    "id": "garland_1112362",
+    "id": "garland_1238760",
     "source": "volunteergarland",
-    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1112362",
-    "org_name": "Code Cares Program",
-    "opportunity_title": "Code Cares Volunteers Needed",
-    "description_long": "*This is not an event opportunity, email Volunteer@GarlandTX.gov if interested* Looking to make a difference in your community on your own time? CODE CARES is a flexible, self-directed volunteer opportunity where you set the pace. Whether you're flying solo or teaming up with friends, this is your chance to help beautify Garland neighborhoods and support residents in need. What You'll Do: Help with light exterior maintenance projects such as: Litter pickup Lawn care Minor repairs Debris removal Other code compliance tasks that assist elderly or disabled residents Perfect For: Individuals who like to volunteer at their own pace Friends or families looking to give back together Groups of 2, 3, or 5—grab your crew and get to work! When: Totally up to you! CODE CARES is self-directed , so you choose the day and time that works best for your schedule. Where: Various residential locations in Garland (assignments provided upon sign-up) How It Works: Shoot us an email, get matched with a project, and we'll send you all the info you need. Then head out when it’s convenient for you. Simple as that. Ready to roll up your sleeves and help your neighbors? Sign up today and take part in this meaningful, make-a-difference mission— on your own time . Email us at Volunteer@GarlandTX.gov to get involved!",
-    "description_short": "*This is not an event opportunity, email Volunteer@GarlandTX.gov if interested* Looking to make a difference in your community on your own time? CODE CARES is a flexible, self-directed volunteer opportunity where you set the pace. Whether you're…",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1238760",
+    "org_name": "City of Garland",
+    "opportunity_title": "Community Connection - Connect Us with Churches Across Garland",
+    "description_long": "Organization: Volunteer Garland – City of Garland Location: Garland, TX (community-based outreach) About the Opportunity: Volunteer Garland is growing, and we are working to build stronger connections across the entire community. We are looking for volunteers who are part of local churches to help us connect with church leaders and introduce Volunteer Garland as a partner for service opportunities. Our goal is to create meaningful partnerships that allow churches to engage in projects that support neighborhoods, parks, waterways, and residents in need throughout Garland. This is a relationship-building opportunity that helps expand the reach and impact of volunteer efforts citywide. What Volunteers Will Do: Connect Volunteer Garland with leaders at your church Share information about Volunteer Garland programs and opportunities Help open the door for future collaboration and service projects Serve as a point of connection between your church and Volunteer Garland (optional) How This Works: By signing up, you are expressing interest in helping us build a connection with your church. Volunteer Garland staff will follow up with you to coordinate next steps and provide any materials or support needed. There is no requirement to lead projects. Your role is simply to help make the introduction and support the connection. Who Should Sign Up: Individuals who are active members of a church in Garland Volunteers who have a relationship with church leadership or ministry leaders Anyone interested in helping expand service opportunities across the community Why This Matters: Churches play an important role in serving communities. By building strong connections, we can work together to meet needs, support residents, and create more opportunities for people to serve. Volunteer Garland Notes: This is an outreach and connection-based opportunity. Staff will guide and support all next steps after sign-up. Be Part of Building Something Bigger Help us strengthen the network of service across Garland by connecting your church to Volunteer Garland.",
+    "description_short": "Organization: Volunteer Garland – City of Garland Location: Garland, TX (community-based outreach) About the Opportunity: Volunteer Garland is growing, and we are working to build stronger connections across the entire community. We are looking for…",
     "address": {},
     "schedule": {
-      "raw": "Calendar Until Apr 23, 2027"
+      "raw": "Calendar Until Mar 31, 2027"
     },
     "contact": [
       {
-        "email": "JoDiaz@Garlandtx.gov",
+        "email": "Volunteer@GarlandTx.gov",
         "phone": "9722053583",
-        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
+        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift Volunteer@GarlandTx.gov Phone Shift 9722053583"
       }
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
-      "Physical LaborSkilled LaborSocialProgramCode Cares Program",
-      "Physical Labor",
-      "Physical LaborSkilled LaborSocial",
-      "Skilled Labor"
+      "Landscaping/Lawn Care",
+      "Instagram",
+      "Chainsaw Experience",
+      "SocialAdministrative/Clerical SupportBasic Hand ToolsBoard ServiceChainsaw ExperienceConstruction/Building TradesEvent Setup/BreakdownFence Repair/CarpentryGardening/PlantingLandscaping/Lawn Care",
+      "Board Service",
+      "Administrative/Clerical Support",
+      "SocialAdministrative/Clerical SupportBasic Hand ToolsBoard ServiceChainsaw ExperienceConstruction/Building TradesEvent Setup/BreakdownFence Repair/CarpentryGardening/PlantingLandscaping/Lawn CareProgramCity of Garland",
+      "Basic Hand Tools",
+      "Gardening/Planting",
+      "Event Setup/Breakdown",
+      "Construction/Building Trades",
+      "Fence Repair/Carpentry",
+      "Social"
     ],
-    "last_scraped": "2026-05-17T20:12:57.469277+00:00",
+    "last_scraped": "2026-07-02T23:58:05.465707+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
-    "unified_tags": []
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "garland_1260796",
@@ -288,11 +415,11 @@
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1260796",
     "org_name": "City of Garland",
     "opportunity_title": "Community Events - Event Support Volunteers",
-    "description_long": "Community Event Volunteers Volunteer Garland Interest Group Signup Do you enjoy helping at festivals, family events, community celebrations, races, concerts, outreach events, holiday programs, and special activities across Garland? Volunteer Garland is creating a Community Event Volunteer Interest Group for residents who would like to be contacted when volunteer opportunities become available at City of Garland events or approved community partner events. This is not a commitment to volunteer for every event. By signing up, you are simply letting us know that you are interested in hearing about future opportunities. Volunteer Opportunities May Include: Event setup and breakdown Greeting and check-in tables Activity booths and games Water stations and hospitality Crowd guidance and wayfinding Festival and community outreach support Cleanup and beautification assistance Family-friendly event support Volunteer team leads and coordinators Who Can Join? Individuals Families Students seeking volunteer hours Community groups Corporate volunteer teams Retirees and civic-minded residents Why Join? Community events help bring Garland together. Volunteers play a major role in creating welcoming, successful, and memorable experiences for residents and visitors throughout the year. By joining this interest group, you will: Receive notifications about upcoming volunteer opportunities Gain community service experience Meet new people and organizations Support civic pride and community connection Help make Garland events successful Important Note Signing up for this interest group does not automatically register you for specific events. Volunteer opportunities will be shared as they become available, and you may choose which events interest you. Questions? Volunteer Garland",
+    "description_long": "Community Event Volunteers Volunteer Garland Interest Group Signup Do you enjoy helping at festivals, family events, community celebrations, races, concerts, outreach events, holiday programs, and special activities across Garland? Volunteer Garland is creating a Community Event Volunteer Interest Group for residents who would like to be contacted when volunteer opportunities become available at City of Garland events or approved community partner events. This is not a commitment to volunteer for every event. By signing up, you are simply letting us know that you are interested in hearing about future opportunities. Volunteer Opportunities May Include: Event setup and breakdown Greeting and check-in tables Activity booths and games Water stations and hospitality Crowd guidance and wayfinding Festival and community outreach support Cleanup and beautification assistance Family-friendly event support Volunteer team leads and coordinators Who Can Join? Individuals Families Students seeking volunteer hours Community groups Corporate volunteer teams Retirees and civic-minded residents Why Join? Community events help bring Garland together. Volunteers play a major role in creating welcoming, successful, and memorable experiences for residents and visitors throughout the year. By joining this interest group, you will: Receive notifications about upcoming volunteer opportunities Gain community service experience Meet new people and organizations Support civic pride and community connection Help make Garland events successful Important Note Signing up for this interest group does not automatically register you for specific events. Volunteer opportunities will be shared as they become available, and you may choose which events interest you. Questions? Volunteer Garland Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
     "description_short": "Community Event Volunteers Volunteer Garland Interest Group Signup Do you enjoy helping at festivals, family events, community celebrations, races, concerts, outreach events, holiday programs, and special activities across Garland? Volunteer Garland…",
     "address": {},
     "schedule": {
-      "raw": "Calendar Until May 31, 2027"
+      "raw": "Calendar Until Jul 30, 2027"
     },
     "contact": [
       {
@@ -303,13 +430,58 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
+      "Instagram",
+      "Physical LaborSkilled LaborSocialProgramCity of Garland",
       "Physical Labor",
       "Physical LaborSkilled LaborSocial",
-      "Physical LaborSkilled LaborSocialProgramCity of Garland",
-      "Skilled Labor"
+      "Skilled Labor",
+      "Social"
     ],
-    "last_scraped": "2026-05-17T20:13:09.756423+00:00",
+    "last_scraped": "2026-07-02T23:58:38.745197+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "community"
+    ]
+  },
+  {
+    "id": "garland_1264309",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1264309",
+    "org_name": "City of Garland",
+    "opportunity_title": "Community Response Group - Office Support Volunteer Pool",
+    "description_long": "Volunteer Garland is seeking community members interested in assisting City of Garland departments with temporary office support projects during regular business hours. These opportunities may include filing, organizing documents, data entry, assembling packets, assisting staff with administrative projects, event preparation, phone support, or other general office tasks. This is an interest sign-up list only . By registering, you are requesting to be contacted when office support opportunities become available. A separate registration may be required for each volunteer assignment. Most projects are short-term opportunities lasting one or two days, though some may develop into ongoing volunteer positions based on department needs and volunteer availability. Volunteers should: Have basic computer knowledge Be comfortable working in an office environment Possess general office or administrative skills Be dependable, professional, and courteous Typical volunteer shifts occur during standard City business hours: Monday through Friday, 8 a.m. to 5 p.m. Volunteer Garland understands that schedules vary. Staff will contact volunteers about opportunities and work around individual availability whenever possible. Please note: Some assignments may require a background check before placement. Certain projects may involve confidential information and require professionalism and discretion. Registering does not guarantee placement but ensures you may be contacted when opportunities arise. Help support your community behind the scenes and make a difference through service to the City of Garland. Additional Information Ages 16+ Background check may be required Flexible scheduling based on project needs Separate registration may be required for each assignment Most opportunities occur during weekday business hours Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
+    "description_short": "Volunteer Garland is seeking community members interested in assisting City of Garland departments with temporary office support projects during regular business hours. These opportunities may include filing, organizing documents, data entry,…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Jul 30, 2027"
+    },
+    "contact": [
+      {
+        "email": "JoDiaz@Garlandtx.gov",
+        "phone": "9722053583",
+        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Data Entry",
+      "Nonprofit Professional",
+      "Instagram",
+      "Public Speaking/Outreach",
+      "Translation/Interpretation",
+      "Clerical",
+      "Administrative/Clerical Support",
+      "Administrative/Clerical SupportClericalCustomer Service/Front DeskData EntryMarketingNonprofit ProfessionalNonprofit/Community OrganizingPublic Speaking/OutreachTechnologyTechnology SupportTranslation/InterpretationProgramCity of Garland",
+      "Marketing",
+      "Technology Support",
+      "Technology",
+      "Nonprofit/Community Organizing",
+      "Administrative/Clerical SupportClericalCustomer Service/Front DeskData EntryMarketingNonprofit ProfessionalNonprofit/Community OrganizingPublic Speaking/OutreachTechnologyTechnology SupportTranslation/Interpretation",
+      "Customer Service/Front Desk"
+    ],
+    "last_scraped": "2026-07-02T23:58:40.897945+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -336,10 +508,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
+      "MarketingProgramCity of Garland",
       "Marketing",
-      "MarketingProgramCity of Garland"
+      "Instagram"
     ],
-    "last_scraped": "2026-05-17T20:13:02.027186+00:00",
+    "last_scraped": "2026-07-02T23:58:09.216759+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -354,19 +527,20 @@
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1065376",
     "org_name": "City of Garland",
     "opportunity_title": "Fire Department Volunteers",
-    "description_long": "*This page is for information only. Click here for the official City of Garland Fire Academy page* Volunteering at the City of Garland Fire Department Community Programs The Garland Fire Department is committed to keeping our community safe, informed, and engaged. From life-saving emergency preparedness to hands-on educational experiences, we offer a variety of programs for residents of all ages. Whether you’re looking to learn vital medical information, explore a career in firefighting, or schedule a fire station visit, we have opportunities for you. Check out our programs below and get involved today! Life-Saving Information Who speaks for you when you cannot? Do you have a list of your medications, medical history and allergies readily available? In an emergency, this is important information which the first responders need to know. The Garland Fire Department has created such a list for you Emergency Medical Information Form (PDF) . Please print it, complete it, place it in a baggie and tape it to your refrigerator door. If you are on the go a lot, place a second one in your purse. This information could help save your life. Citizens Fire Academy The Citizens Fire Academy is open to anyone over the age of eighteen who lives or works in the City of Garland. This program is intended to familiarize citizens and associates of the services we provide, how we operate, and why we do things we do. Class hours are from 6:30 to 9:30 p.m. on Thursday nights. To apply, complete the Citizens Fire Academy Application (PDF). Youth Citizens Fire Academy We are proud to announce an opportunity for graduating senior GISD students to attend a Youth Citizens Fire Academy which is intended to promote a greater understanding of the mission, responsibilities, and activities of the Fire Department while serving the community. To apply, complete the Youth Citizens Fire Academy Application. Presentations, Tours, and Visits To schedule an engine visit, ambulance visit, or station tour, click here to submit a request. Requests must be submitted and scheduled two weeks prior to the event. We do not schedule visits or tours on Mondays. If you have questions, you may call 972-781-7148 for assistance. To schedule a career day speaker or a recruiter for a job fair, please call the recruiting office at 972-781-7149.",
+    "description_long": "*This page is for information only. Click here for the official City of Garland Fire Academy page* Volunteering at the City of Garland Fire Department Community Programs The Garland Fire Department is committed to keeping our community safe, informed, and engaged. From life-saving emergency preparedness to hands-on educational experiences, we offer a variety of programs for residents of all ages. Whether you’re looking to learn vital medical information, explore a career in firefighting, or schedule a fire station visit, we have opportunities for you. Check out our programs below and get involved today! Life-Saving Information Who speaks for you when you cannot? Do you have a list of your medications, medical history and allergies readily available? In an emergency, this is important information which the first responders need to know. The Garland Fire Department has created such a list for you Emergency Medical Information Form (PDF) . Please print it, complete it, place it in a baggie and tape it to your refrigerator door. If you are on the go a lot, place a second one in your purse. This information could help save your life. Citizens Fire Academy The Citizens Fire Academy is open to anyone over the age of eighteen who lives or works in the City of Garland. This program is intended to familiarize citizens and associates of the services we provide, how we operate, and why we do things we do. Class hours are from 6:30 to 9:30 p.m. on Thursday nights. To apply, complete the Citizens Fire Academy Application (PDF). Youth Citizens Fire Academy We are proud to announce an opportunity for graduating senior GISD students to attend a Youth Citizens Fire Academy which is intended to promote a greater understanding of the mission, responsibilities, and activities of the Fire Department while serving the community. To apply, complete the Youth Citizens Fire Academy Application. Presentations, Tours, and Visits To schedule an engine visit, ambulance visit, or station tour, click here to submit a request. Requests must be submitted and scheduled two weeks prior to the event. We do not schedule visits or tours on Mondays. If you have questions, you may call 972-781-7148 for assistance. To schedule a career day speaker or a recruiter for a job fair, please call the recruiting office at 972-781-7149. Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
     "description_short": "*This page is for information only. Click here for the official City of Garland Fire Academy page* Volunteering at the City of Garland Fire Department Community Programs The Garland Fire Department is committed to keeping our community safe,…",
     "address": {},
     "schedule": {
-      "raw": "Calendar Until Apr 23, 2027 Time 6:30 to 9:30 p.m."
+      "raw": "Calendar Until Jul 30, 2027 Time 6:30 to 9:30 p.m."
     },
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
+      "Physical LaborProgramCity of Garland",
       "Physical Labor",
-      "Physical LaborProgramCity of Garland"
+      "Instagram"
     ],
-    "last_scraped": "2026-05-17T20:12:38.205073+00:00",
+    "last_scraped": "2026-07-02T23:58:18.460376+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -378,7 +552,7 @@
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1151717",
     "org_name": "Community Partners",
     "opportunity_title": "Fostering Hope: Gifts and Care for Children in Foster Care",
-    "description_long": "Give Joy. Give Comfort. Support Foster Kids — All Year Long Volunteer Garland invites you to help brighten the lives of children and teens in foster care (ages 3–18). Many of these youth are navigating difficult transitions — your support can bring comfort, dignity, and hope right when they need it most. UPDATE : 01/05/26 Care Backpacks have been suspended. Residents in December overwhelmed the agency's storage capacity. (Good job, Garland) They are looking for a company that is interested in redirecting their giving to help them with a storage unit. Volunteer Garland will update this listing when the current stock of backpacks is given out to the new intakes, so as to not overwhelm their staff. Priority request: Pampers Swaddlers (Size 2) Diapers (Size 4, any brand) Baby wipes The additional cost of taking in babies for these items keeps potential foster care homes from taking in babies. The agency is asking for these items to help retain and recruit new foster homes. 1. Holiday Gifts & Toys Spread holiday cheer by donating new, unwrapped toys for children and teens. Every gift helps ensure they have something to call their own this season. Requested Holiday Items: Toys for boys and girls (ages 3–12) Legos and creative play sets 2. Year-Round Care Kits Children enter foster care throughout the year — often with little more than the clothes they are wearing. You can help by donating items for care kits that provide essentials and comfort. Requested Care Kit Items: Pampers Swaddlers (Size 2) Diapers (Size 4, any brand) Baby wipes New car seats (unused, in box) Jewelry, perfume, or makeup (for teens) Gift cards (clothing, shoes, personal care) Art and drawing supplies (sketch pads, paints, craft sets) How to Build a Care Backpack Want to make an even bigger impact? Consider putting together a complete backpack for a child or teen in foster care. Suggested contents: A sturdy backpack or tote Age-appropriate hygiene items (toothbrush, toothpaste, comb, lotion, wipes) A small comfort item (stuffed animal, journal, stress ball) Art or creative supplies (coloring book, sketch pad, crayons) A personal note or card of encouragement Optional: gift card ($10–$25) for clothing or a special treat Optional for teens: jewelry, perfume, makeup, or other self-care items Please label each backpack with the intended age group: 3–6, 7–12, or 13–18. Drop-Off Information When: Monday–Friday, 9 AM – 5 PM Where: Parks Operations Center Attention: Volunteer Garland 525 Tower Street, Garland, TX 75040 You may donate items individually or organize a collection drive through your workplace, school, church, or civic group. To coordinate a drop-off, please email volunteer@garlandtx.gov to make sure someone is in the office. The nature of our work requires weekend and evening work, which means we have to balance our weekday office presence. A Year-Round Program The holidays are a special time to give, but this program continues year-round. Each donation helps children and teens entering foster care feel safe, valued, and cared for — not just during the holidays, but every season of the year. Volunteer Hours for Donations We know some students and community members are looking to complete volunteer hours. Donations count! If you bring items for this program, you can still acquire volunteer hours for your contribution. A Heartfelt Thank You Every donation — large or small — has the power to restore hope, dignity, and comfort to a child in foster care. Whether it’s a single toy, a pack of wipes, or a full backpack, your gift matters more than you know. Together, we can remind every child entering foster care that they are seen, valued, and loved. Questions or want to coordinate? Email: Volunteer@Garlandtx.org",
+    "description_long": "Give Joy. Give Comfort. Support Foster Kids — All Year Long Volunteer Garland invites you to help brighten the lives of children and teens in foster care (ages 3–18). Many of these youth are navigating difficult transitions — your support can bring comfort, dignity, and hope right when they need it most. UPDATE : 01/05/26 Care Backpacks have been suspended. Residents in December overwhelmed the agency's storage capacity. (Good job, Garland) They are looking for a company that is interested in redirecting their giving to help them with a storage unit. Volunteer Garland will update this listing when the current stock of backpacks is given out to the new intakes, so as to not overwhelm their staff. Priority request: Pampers Swaddlers (Size 2) Diapers (Size 4, any brand) Baby wipes The additional cost of taking in babies for these items keeps potential foster care homes from taking in babies. The agency is asking for these items to help retain and recruit new foster homes. 1. Holiday Gifts & Toys Spread holiday cheer by donating new, unwrapped toys for children and teens. Every gift helps ensure they have something to call their own this season. Requested Holiday Items: Toys for boys and girls (ages 3–12) Legos and creative play sets 2. Year-Round Care Kits Children enter foster care throughout the year — often with little more than the clothes they are wearing. You can help by donating items for care kits that provide essentials and comfort. Requested Care Kit Items: Pampers Swaddlers (Size 2) Diapers (Size 4, any brand) Baby wipes New car seats (unused, in box) Jewelry, perfume, or makeup (for teens) Gift cards (clothing, shoes, personal care) Art and drawing supplies (sketch pads, paints, craft sets) How to Build a Care Backpack Want to make an even bigger impact? Consider putting together a complete backpack for a child or teen in foster care. Suggested contents: A sturdy backpack or tote Age-appropriate hygiene items (toothbrush, toothpaste, comb, lotion, wipes) A small comfort item (stuffed animal, journal, stress ball) Art or creative supplies (coloring book, sketch pad, crayons) A personal note or card of encouragement Optional: gift card ($10–$25) for clothing or a special treat Optional for teens: jewelry, perfume, makeup, or other self-care items Please label each backpack with the intended age group: 3–6, 7–12, or 13–18. Drop-Off Information When: Monday–Friday, 9 AM – 5 PM Where: Parks Operations Center Attention: Volunteer Garland 525 Tower Street, Garland, TX 75040 You may donate items individually or organize a collection drive through your workplace, school, church, or civic group. To coordinate a drop-off, please email volunteer@garlandtx.gov to make sure someone is in the office. The nature of our work requires weekend and evening work, which means we have to balance our weekday office presence. A Year-Round Program The holidays are a special time to give, but this program continues year-round. Each donation helps children and teens entering foster care feel safe, valued, and cared for — not just during the holidays, but every season of the year. Volunteer Hours for Donations We know some students and community members are looking to complete volunteer hours. Donations count! If you bring items for this program, you can still acquire volunteer hours for your contribution. A Heartfelt Thank You Every donation — large or small — has the power to restore hope, dignity, and comfort to a child in foster care. Whether it’s a single toy, a pack of wipes, or a full backpack, your gift matters more than you know. Together, we can remind every child entering foster care that they are seen, valued, and loved. Questions or want to coordinate? Email: Volunteer@Garlandtx.org Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
     "description_short": "Give Joy. Give Comfort. Support Foster Kids — All Year Long Volunteer Garland invites you to help brighten the lives of children and teens in foster care (ages 3–18). Many of these youth are navigating difficult transitions — your support can bring…",
     "address": {},
     "schedule": {
@@ -396,9 +570,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "ProgramCommunity Partners"
+      "Instagram",
+      "SocialNonprofit/Community Organizing",
+      "SocialNonprofit/Community OrganizingProgramCommunity Partners",
+      "Nonprofit/Community Organizing",
+      "Social"
     ],
-    "last_scraped": "2026-05-17T20:11:36.094971+00:00",
+    "last_scraped": "2026-07-02T23:57:17.974297+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -409,16 +587,47 @@
     ]
   },
   {
+    "id": "garland_1269577",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1269577",
+    "org_name": "Community Partners",
+    "opportunity_title": "GLOWS Cooling Station Volunteer Team",
+    "description_long": "GLOWS Community Lighthouse Cooling Station Volunteers GLOWS Community Lighthouse operates a Cooling Station during periods of dangerous heat to provide a safe, air-conditioned space for individuals experiencing homelessness and others who may be vulnerable to extreme temperatures. The Cooling Station is activated when the National Weather Service forecasts a heat index of 100°F or higher. Operating from the Salvation Army building in downtown Garland, the Cooling Station offers relief from the heat, access to water and light refreshments, and a welcoming environment where guests can cool down safely. Volunteers play an important role in making the Cooling Station possible. Responsibilities may include: What Volunteers Do Setting up the Cooling Station before guests arrive Greeting and welcoming guests Organizing and distributing water, snacks, and light refreshments Restocking supplies throughout the day Assisting with light cleaning and organization Helping with end-of-day cleanup and breakdown No special experience is required. Friendly, dependable volunteers are always welcome. Schedule & Location The Cooling Station operates on days when the National Weather Service forecasts a heat index of 100°F or higher. Hours of Operation 1:00 p.m. – 5:00 p.m. Preferred Volunteer Shifts 1:00 p.m. – 3:00 p.m. 3:00 p.m. – 5:00 p.m. Volunteers may sign up for one shift or serve for the full operating period based on availability. Location The Salvation Army 451 W. Avenue D Garland, TX 75040 Donations Needed The Cooling Station relies on community support throughout the summer. Donations of bottled water, electrolyte drinks, cooling towels, hygiene items, snacks, sunscreen, socks, and other heat-relief supplies are always appreciated. Items can be purchased through the GLOWS Amazon Wishlist and donations outside of the wishlist are also welcome. Why It Matters Extreme heat is one of the deadliest weather hazards in Texas. Access to a cool indoor space, drinking water, and basic supplies can help prevent heat-related illness and save lives. By volunteering with the GLOWS Cooling Station, you can help provide comfort, safety, and dignity to neighbors seeking relief during dangerous weather conditions. How to Get Started Sign up to receive notifications when Cooling Station volunteer opportunities become available. Because activations depend on weather conditions, opportunities are usually scheduled with just a few days notice. Joining the volunteer list does not create an obligation to serve on every activation day—it simply allows us to contact you when help is needed.",
+    "description_short": "GLOWS Community Lighthouse Cooling Station Volunteers GLOWS Community Lighthouse operates a Cooling Station during periods of dangerous heat to provide a safe, air-conditioned space for individuals experiencing homelessness and others who may be…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Oct 1, 2026 Time 1PM - 3PM or 3PM - 5PM"
+    },
+    "contact": [],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Instagram",
+      "Event Setup/BreakdownCustomer Service/Front DeskGeneral Physical LaborProgramCommunity Partners",
+      "General Physical Labor",
+      "Event Setup/Breakdown",
+      "Customer Service/Front Desk",
+      "Event Setup/BreakdownCustomer Service/Front DeskGeneral Physical Labor"
+    ],
+    "last_scraped": "2026-07-02T23:57:55.311320+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "housing",
+      "community"
+    ]
+  },
+  {
     "id": "garland_1065441",
     "source": "volunteergarland",
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1065441",
     "org_name": "City of Garland",
     "opportunity_title": "GPD Citizens Police Academy Volunteers",
-    "description_long": "*This page is for information only . Click here for the official Garland Citizen Police Academy page* Volunteering with the Garland Police Department Citizen Police Academy The Garland Citizen Police Academy (CPA) offers residents and those who work in Garland a unique opportunity to learn about the Garland Police Department. Over several weeks, participants hear from officers, detectives, investigators, and specialists, gaining insight into various aspects of law enforcement. The program features interactive sessions, detention center and communications observations, a ride-along, and hands-on demonstrations, providing a deeper understanding of the department’s role in the community. By strengthening relationships, the CPA fosters transparency, trust, and engagement. Applications Now accepting applications (PDF). Class 60 Graduation Congratulations CPA Class 60!",
+    "description_long": "*This page is for information only . Click here for the official Garland Citizen Police Academy page* Volunteering with the Garland Police Department Citizen Police Academy The Garland Citizen Police Academy (CPA) offers residents and those who work in Garland a unique opportunity to learn about the Garland Police Department. Over several weeks, participants hear from officers, detectives, investigators, and specialists, gaining insight into various aspects of law enforcement. The program features interactive sessions, detention center and communications observations, a ride-along, and hands-on demonstrations, providing a deeper understanding of the department’s role in the community. By strengthening relationships, the CPA fosters transparency, trust, and engagement. Applications Now accepting applications (PDF). Class 60 Graduation Congratulations CPA Class 60! Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
     "description_short": "*This page is for information only . Click here for the official Garland Citizen Police Academy page* Volunteering with the Garland Police Department Citizen Police Academy The Garland Citizen Police Academy (CPA) offers residents and those who work…",
     "address": {},
     "schedule": {
-      "raw": "Calendar Until Apr 23, 2027"
+      "raw": "Calendar Until Jul 30, 2027"
     },
     "contact": [
       {
@@ -429,10 +638,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
+      "Physical LaborProgramCity of Garland",
       "Physical Labor",
-      "Physical LaborProgramCity of Garland"
+      "Instagram"
     ],
-    "last_scraped": "2026-05-17T20:12:43.510860+00:00",
+    "last_scraped": "2026-07-02T23:58:22.072730+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -444,22 +654,23 @@
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1065450",
     "org_name": "City of Garland",
     "opportunity_title": "GPD Citizens on Patrol (COP) Volunteers",
-    "description_long": "**This is an information only page, please visit https://www.garlandtx.gov/461/Citizens-on-Patrol-COP ** Volunteering with Garland Police Department Citizens on Patrol (C.O.P) The Garland Police Department’s Citizens On Patrol (C.O.P.) program is an extension of the Neighborhood Crime Watch program and provides an opportunity for citizens to take an active role in crime prevention in their neighborhood. C.O.P. members must complete a training class provided by the police department and are instructed in effective ways to patrol their neighborhood in a car, on foot, or on a bicycle. The objective of the program is to provide more eyes and ears on the streets of Garland observing and reporting crime and/or suspicious activity. Minimum Entry Requirements Ability to recognize, understand, and report suspicious activity. Skill in communicating effectively with individuals. Capable of patrolling on foot or in a vehicle. Capable of writing a correct and legible report. Be at least 18 years old. Provide own transportation and proof of auto insurance. Be a current member of an active Neighborhood Crime Watch Group in the City of Garland. Successfully complete a training program provided by the Garland Police Department. Must have never been convicted of a felony, and pass a criminal background check. Possess a valid class \"C\" Texas drivers license. Additional Information For more information on the Citizens On Patrol program, call Officer Pesta at 972-485-4896. View a copy of the Citizens on Patrol Application (PDF).",
+    "description_long": "**This is an information only page, please visit https://www.garlandtx.gov/461/Citizens-on-Patrol-COP ** Volunteering with Garland Police Department Citizens on Patrol (C.O.P) The Garland Police Department’s Citizens On Patrol (C.O.P.) program is an extension of the Neighborhood Crime Watch program and provides an opportunity for citizens to take an active role in crime prevention in their neighborhood. C.O.P. members must complete a training class provided by the police department and are instructed in effective ways to patrol their neighborhood in a car, on foot, or on a bicycle. The objective of the program is to provide more eyes and ears on the streets of Garland observing and reporting crime and/or suspicious activity. Minimum Entry Requirements Ability to recognize, understand, and report suspicious activity. Skill in communicating effectively with individuals. Capable of patrolling on foot or in a vehicle. Capable of writing a correct and legible report. Be at least 18 years old. Provide own transportation and proof of auto insurance. Be a current member of an active Neighborhood Crime Watch Group in the City of Garland. Successfully complete a training program provided by the Garland Police Department. Must have never been convicted of a felony, and pass a criminal background check. Possess a valid class \"C\" Texas drivers license. Additional Information For more information on the Citizens On Patrol program, call Officer Pesta at 972-485-4896. View a copy of the Citizens on Patrol Application (PDF). Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
     "description_short": "**This is an information only page, please visit https://www.garlandtx.gov/461/Citizens-on-Patrol-COP ** Volunteering with Garland Police Department Citizens on Patrol (C.O.P) The Garland Police Department’s Citizens On Patrol (C.O.P.) program is an…",
     "address": {},
     "schedule": {
-      "raw": "Calendar Until Apr 23, 2027 Time 12 a.m. to 12 a.m."
+      "raw": "Calendar Until Jul 30, 2027 Time 12 a.m. to 12 a.m."
     },
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
-      "Physical Labor",
+      "Instagram",
       "SocialPhysical LaborTechnologyProgramCity of Garland",
+      "Physical Labor",
       "SocialPhysical LaborTechnology",
-      "Technology"
+      "Technology",
+      "Social"
     ],
-    "last_scraped": "2026-05-17T20:12:46.226613+00:00",
+    "last_scraped": "2026-07-02T23:58:24.099307+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -471,21 +682,56 @@
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1065418",
     "org_name": "City of Garland",
     "opportunity_title": "GPD Volunteers in Policing (VIP)",
-    "description_long": "*This page is for information only. Click here for the official Volunteers in Policing page* Volunteering with the Garland Police Department Volunteers in Policing The volunteers of the Garland Police Department continue to assist us in our service to the citizens of this city by contributing their time, expertise, and commitment to our department. Their willingness to help and their professionalism have truly been an example to all other volunteer groups. We are, once again, grateful for their assistance. All those interested in volunteering must first attend and complete the Garland Citizen's Police Academy. Volunteers in Policing (VIP) Services Finger Printing Volunteers offer fingerprinting services Tuesday and Thursday from 9 a.m. to 1 p.m., off the main lobby of the Police Department. Cash only. Fingerprints: 1-2 Cards Current Fee Amount $13.00 Fingerprints: 3 Cards Current Fee Amount $20.00 Fingerprints: 4 Cards Current Fee Amount $27.00 Vacation Watch Uniformed volunteers in a marked Garland Police car check the homes of Garland citizens who are away from home on vacation to ensure that no burglar has broken in and taken their possessions. If you would like to have your home placed on the Vacation Watch list, please view the Vacation Watch Request Form (PDF) This service is available to any homeowner within the city limits of Garland. Squad Car Maintenance Volunteers are utilized by the Patrol Division to maintain the safe condition of the Patrol vehicles by checking fluid levels, making sure that lights, brakes, etc. are functioning properly, and transporting the vehicles needing repairs to and from the City garage.",
+    "description_long": "*This page is for information only. Click here for the official Volunteers in Policing page* Volunteering with the Garland Police Department Volunteers in Policing The volunteers of the Garland Police Department continue to assist us in our service to the citizens of this city by contributing their time, expertise, and commitment to our department. Their willingness to help and their professionalism have truly been an example to all other volunteer groups. We are, once again, grateful for their assistance. All those interested in volunteering must first attend and complete the Garland Citizen's Police Academy. Volunteers in Policing (VIP) Services Finger Printing Volunteers offer fingerprinting services Tuesday and Thursday from 9 a.m. to 1 p.m., off the main lobby of the Police Department. Cash only. Fingerprints: 1-2 Cards Current Fee Amount $13.00 Fingerprints: 3 Cards Current Fee Amount $20.00 Fingerprints: 4 Cards Current Fee Amount $27.00 Vacation Watch Uniformed volunteers in a marked Garland Police car check the homes of Garland citizens who are away from home on vacation to ensure that no burglar has broken in and taken their possessions. If you would like to have your home placed on the Vacation Watch list, please view the Vacation Watch Request Form (PDF) This service is available to any homeowner within the city limits of Garland. Squad Car Maintenance Volunteers are utilized by the Patrol Division to maintain the safe condition of the Patrol vehicles by checking fluid levels, making sure that lights, brakes, etc. are functioning properly, and transporting the vehicles needing repairs to and from the City garage. Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
     "description_short": "*This page is for information only. Click here for the official Volunteers in Policing page* Volunteering with the Garland Police Department Volunteers in Policing The volunteers of the Garland Police Department continue to assist us in our service…",
     "address": {},
     "schedule": {
-      "raw": "Calendar Until Apr 23, 2027 Time 12 a.m. to 12 a.m."
+      "raw": "Calendar Until Jul 30, 2027 Time 12 a.m. to 12 a.m."
     },
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
+      "Instagram",
       "SocialTechnology",
-      "Technology",
       "SocialTechnologyProgramCity of Garland",
+      "Technology",
       "Social"
     ],
-    "last_scraped": "2026-05-17T20:12:40.902431+00:00",
+    "last_scraped": "2026-07-02T23:58:20.339215+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": []
+  },
+  {
+    "id": "garland_1112362",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1112362",
+    "org_name": "Garland Cares Program",
+    "opportunity_title": "Garland Cares Volunteers Needed",
+    "description_long": "*This is not an event opportunity, email Volunteer@GarlandTX.gov if interested* Looking to make a difference in your community on your own time? GARLAND CARES is a flexible, self-directed volunteer opportunity where you set the pace. Whether you're flying solo or teaming up with friends, this is your chance to help beautify Garland neighborhoods and support residents in need. What You'll Do: Help with light exterior maintenance projects such as: Litter pickup Lawn care Minor repairs Debris removal Other code compliance tasks that assist elderly or disabled residents Perfect For: Individuals who like to volunteer at their own pace Friends or families looking to give back together Groups of 2, 3, or 5—grab your crew and get to work! When: Totally up to you! GARLAND CARES is often led by staff from Volunteer Garland but on smaller projects, it can be self-directed as well. We can train you to handle simple lawns on your own with your own equipment. Where: Various residential locations in Garland (assignments provided upon sign-up) How It Works: Shoot us an email, get matched with a project, and we'll send you all the info you need. Then head out when it’s convenient for you. Simple as that. Ready to roll up your sleeves and help your neighbors? Sign up today and take part in this meaningful, make-a-difference mission— on your own time . Email us at Volunteer@GarlandTX.gov to get involved! Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
+    "description_short": "*This is not an event opportunity, email Volunteer@GarlandTX.gov if interested* Looking to make a difference in your community on your own time? GARLAND CARES is a flexible, self-directed volunteer opportunity where you set the pace. Whether you're…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Jul 30, 2027"
+    },
+    "contact": [
+      {
+        "email": "JoDiaz@Garlandtx.gov",
+        "phone": "9722053583",
+        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Instagram",
+      "Physical Labor",
+      "Physical LaborSkilled LaborSocial",
+      "Physical LaborSkilled LaborSocialProgramGarland Cares Program",
+      "Skilled Labor",
+      "Social"
+    ],
+    "last_scraped": "2026-07-02T23:58:31.393185+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -507,19 +753,83 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical LaborSocialProgramGarland Public Libraries",
+      "Instagram",
       "Physical LaborSocial",
-      "Social",
-      "Physical Labor"
+      "Physical Labor",
+      "Physical LaborSocialProgramGarland Public Libraries",
+      "Social"
     ],
-    "last_scraped": "2026-05-17T20:11:43.686086+00:00",
+    "last_scraped": "2026-07-02T23:57:23.696385+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [
       "children",
-      "community",
-      "education"
+      "education",
+      "community"
+    ]
+  },
+  {
+    "id": "garland_1266122",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1266122",
+    "org_name": "Garland Public Libraries",
+    "opportunity_title": "Garland Central Library - Teen Volunteers - ChompSaw Challenge",
+    "description_long": "Join us this summer for the ChompSaw Challenge, where families will work together with a kid-safe power tool to create 3D dinosaur puzzles from cardboard. Volunteers will help with setting up the supplies before the program, counting attendance during the event, and cleaning up after the event is done. This volunteer opportunity is for ages 12-18 only . Volunteers will sign in for their shift upstairs in the front lobby . ➡️PLEASE NOTE: We do not accept volunteers that are fulfilling court-mandated service hours. Note: If you cannot attend your volunteer shift, please cancel it online or call Central Library at 972-205-2501 to let us know so we can cancel the shift.",
+    "description_short": "Join us this summer for the ChompSaw Challenge, where families will work together with a kid-safe power tool to create 3D dinosaur puzzles from cardboard. Volunteers will help with setting up the supplies before the program, counting attendance…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Happens On Jul 20, 2026 Time 2:00 p.m. - 4:30 p.m."
+    },
+    "contact": [],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Instagram",
+      "SocialEvent Setup/Breakdown",
+      "SocialEvent Setup/BreakdownProgramGarland Public Libraries",
+      "Event Setup/Breakdown",
+      "Social"
+    ],
+    "last_scraped": "2026-07-02T23:57:44.072136+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
+  },
+  {
+    "id": "garland_1266120",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1266120",
+    "org_name": "Garland Public Libraries",
+    "opportunity_title": "Garland Central Library - Teen Volunteers - LEGO Lab",
+    "description_long": "Join us this summer for LEGO Lab, where kids can be creative with a collection of bricks, gears and minifigures. Volunteers will help with setting up the supplies before the program, counting attendance during the event, and cleaning up after the event is done. This volunteer opportunity is for ages 12-18 only . Volunteers will sign in for their shift upstairs in the front lobby . ➡️PLEASE NOTE: We do not accept volunteers that are fulfilling court-mandated service hours. Note: If you cannot attend your volunteer shift, please cancel it online or call Central Library at 972-205-2501 to let us know so we can cancel the shift.",
+    "description_short": "Join us this summer for LEGO Lab, where kids can be creative with a collection of bricks, gears and minifigures. Volunteers will help with setting up the supplies before the program, counting attendance during the event, and cleaning up after the…",
+    "address": {
+      "full": "625 Austin St. Garland, TX 75040",
+      "zip": "75040"
+    },
+    "schedule": {},
+    "contact": [],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Instagram",
+      "SocialUshering/Guest Services",
+      "Ushering/Guest Services",
+      "SocialUshering/Guest ServicesProgramGarland Public Libraries",
+      "Social"
+    ],
+    "last_scraped": "2026-07-02T23:57:40.417638+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
     ]
   },
   {
@@ -532,19 +842,83 @@
     "description_short": "ATTENTION: Starting on Monday, March 23, volunteering on the Reader Stairs will be limited to 3 hours per day. The rules written below are still in effect. Central Library is looking for teen volunteers to model proper usage of our new Reader…",
     "address": {},
     "schedule": {
-      "raw": "Calendar Until May 31, 2026"
+      "raw": "Calendar Until Aug 1, 2026"
     },
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
-      "SocialProgramGarland Public Libraries"
+      "Instagram",
+      "SocialProgramGarland Public Libraries",
+      "Social"
     ],
-    "last_scraped": "2026-05-17T20:11:58.682917+00:00",
+    "last_scraped": "2026-07-02T23:57:53.330680+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
     "unified_tags": []
+  },
+  {
+    "id": "garland_1266128",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1266128",
+    "org_name": "Garland Public Libraries",
+    "opportunity_title": "Garland Central Library - Teen Volunteers - Perot TECH Truck",
+    "description_long": "Families can experience hands-on science with the Perot Museum's TECH Truck. Volunteers will be assigned an activity station before the program starts, then will help participants during the event. After the event is over, you'll help clean up and put away supplies. This volunteer opportunity is for ages 12-18 only . Volunteers will sign in for their shift upstairs in the front lobby . ➡️PLEASE NOTE: We do not accept volunteers that are fulfilling court-mandated service hours. Note: If you cannot attend your volunteer shift, please cancel it online or call Central Library at 972-205-2501 to let us know so we can cancel the shift.",
+    "description_short": "Families can experience hands-on science with the Perot Museum's TECH Truck. Volunteers will be assigned an activity station before the program starts, then will help participants during the event. After the event is over, you'll help clean up and…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Happens On Jul 24, 2026 Time 2:00 p.m. - 4:30 p.m."
+    },
+    "contact": [],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Instagram",
+      "SocialEvent Setup/Breakdown",
+      "SocialEvent Setup/BreakdownProgramGarland Public Libraries",
+      "Event Setup/Breakdown",
+      "Social"
+    ],
+    "last_scraped": "2026-07-02T23:57:45.982100+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "education",
+      "community",
+      "children"
+    ]
+  },
+  {
+    "id": "garland_1150934",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1150934",
+    "org_name": "Garland Public Libraries",
+    "opportunity_title": "Garland Central Library - Teen Volunteers - Play & Learn",
+    "description_long": "Come help us at Play & Learn, where families with children ages 0 to 5 join us in the Central Library Storytime Room to enjoy an assortment of toys, games, and activities that foster imagination, creativity and problem solving. Volunteers will sign in at 10 am and help count attendance during the program, which runs 10 a.m. to noon. At noon, we will close the storytime room, and volunteers will help clean the toys and put them away. This volunteer opportunity is for ages 12-18 only . Volunteers will sign in for their shift downstairs at the Children's Desk. ➡️PLEASE NOTE: We do not accept volunteers that are fulfilling court-mandated service hours. Note: If you cannot attend your volunteer shift, please cancel it online or call Central Library at 972-205-2501 to let us know so we can cancel the shift.",
+    "description_short": "Come help us at Play & Learn, where families with children ages 0 to 5 join us in the Central Library Storytime Room to enjoy an assortment of toys, games, and activities that foster imagination, creativity and problem solving. Volunteers will sign…",
+    "address": {
+      "full": "625 Austin St. Garland, TX 75040",
+      "zip": "75040"
+    },
+    "schedule": {},
+    "contact": [],
+    "requirements": "Respond",
+    "cause_tags": [
+      "SocialPhysical Labor",
+      "Instagram",
+      "Physical Labor",
+      "SocialPhysical LaborProgramGarland Public Libraries",
+      "Social"
+    ],
+    "last_scraped": "2026-07-02T23:57:33.230134+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "garland_1257418",
@@ -573,10 +947,14 @@
       "Social"
     ],
     "last_scraped": "2026-05-17T20:11:55.905577+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
-    "unified_tags": []
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "garland_1065747",
@@ -584,11 +962,11 @@
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1065747",
     "org_name": "City of Garland",
     "opportunity_title": "Garland Youth Council Volunteers",
-    "description_long": "*This page is for information only. Click here for the official Garland Youth Council Page* Volunteering with Garland Youth Council",
-    "description_short": "*This page is for information only. Click here for the official Garland Youth Council Page* Volunteering with Garland Youth Council",
+    "description_long": "*This page is for information only. Click here for the official Garland Youth Council Page* Volunteering with Garland Youth Council Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
+    "description_short": "*This page is for information only. Click here for the official Garland Youth Council Page* Volunteering with Garland Youth Council Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your…",
     "address": {},
     "schedule": {
-      "raw": "Calendar Until Apr 23, 2027 Time 8 am to 12 pm"
+      "raw": "Calendar Until Jul 30, 2027 Time 8 am to 12 pm"
     },
     "contact": [
       {
@@ -599,12 +977,42 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
+      "Instagram",
       "Physical LaborSocial",
-      "Social",
+      "Physical Labor",
       "Physical LaborSocialProgramCity of Garland",
-      "Physical Labor"
+      "Social"
     ],
-    "last_scraped": "2026-05-17T20:12:51.986580+00:00",
+    "last_scraped": "2026-07-02T23:58:27.746225+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "children",
+      "community",
+      "education"
+    ]
+  },
+  {
+    "id": "garland_1280593",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1280593",
+    "org_name": "Community Partners",
+    "opportunity_title": "Get to Know Your Preserve...with Summer Strolls",
+    "description_long": "It is possible to enjoy being outside in the summer...especially if you go early in the morning or later in the evening. This summer, Preservation Society for Spring Creek Forest members (all Texas Master Naturalists) will lead 1-hour walks in several parts of the preserve. This is a great way to relax, stroll with a knowledgeable guide, and maybe see some parts of the preserve that you haven’t seen before. Close-toe shoes and long pants are highly recommended; bring water and bug spray. A great activity for families, friends, and pets on a leash. Please contact Dana Wilson (danawilson59@yahoo.com) with questions. Fri., July 10, 7:30pm: Join Steve & Nancy Boeding for a walk down our new trout lily trail and across to a limestone prairie. 1770 Holford Road (the east side of Holford between Arapaho and George Bush. Sat., July 11, 8am: Join Vince Hale & David Parrish as they make the loop from the Boy Scout trail to a Spring Creek landmark: our much-graffitied BelAir. 1770 Holford Road (the east side of Holford between Arapaho and George Bush. Sun, July 12, 8:30am: Piotr Gruszecki will lead walks into the woods and along our creek-side Mapleridge Trail. 2393 Mapleridge Drive (at the dead end 2 blocks east of Shiloh). Fri., July 17, 7:30pm: Steve & Nancy Boeding get a sunset look at our big limestone prairie and old-growth forest. 1787 Holford Road (the west side of Holford between Arapaho and George Bush). Sat., July 18, 8am: Rob Kaaa will loop through our oldest old-growth forest then circle back across a limestone prairie. Meet at Halff Park, 4695 Ranger Dr. (directly east of the Naaman Forest parking lot and batting cages). Sun, July 19, 8:30am: Piotr Gruszecki will lead walks into the woods and along our creek-side Mapleridge Trail. 2393 Mapleridge Dr. (at the dead end 2 blocks east of Shiloh). Sat., July 25, 8am: Rob Kaaa will loop through our oldest old-growth forest then circle back across a limestone prairie. Meet at Halff Park, 4695 Ranger Dr. (directly east of the Naaman Forest parking lot and batting cages). Sun., July 26, 8am: David Parrish will make a circle through the woods to the old abandoned BelAir then back to a creek overlook. 1770 Holford Road (the east side of Holford between Arapaho and George Bush.",
+    "description_short": "It is possible to enjoy being outside in the summer...especially if you go early in the morning or later in the evening. This summer, Preservation Society for Spring Creek Forest members (all Texas Master Naturalists) will lead 1-hour walks in…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Jul 10, 2026 through Jul 26, 2026"
+    },
+    "contact": [],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Instagram",
+      "SocialProgramCommunity Partners",
+      "Social"
+    ],
+    "last_scraped": "2026-07-02T23:57:29.576944+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -616,11 +1024,11 @@
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1176744",
     "org_name": "Community Partners",
     "opportunity_title": "Good Samaritans of Garland - Food Pantry Volunteers Needed (passthrough)",
-    "description_long": "Good Samaritans of Garland (“Good Sam”) is a nonprofit food pantry serving neighbors in Garland and the surrounding community who are experiencing hunger or food insecurity. Volunteers help make sure families have access to nutritious food in a welcoming, dignified environment. This is an external partner opportunity. Volunteer Garland will connect you to Good Sam’s volunteer interest form so you can sign up directly with their team. What Volunteers Do Good Sam has several weekday volunteer roles at their food pantry: Welcome Room Greet guests and check them in. Assist with basic registration steps. Help guests take food to their vehicle with a cart when needed. Bilingual Spanish-speaking volunteers are especially helpful for translation. Kitchen Support Help prepare carts with food items for guests. Stock shelves with donations received from retail partners each day. Pantry Support Assemble dry-goods boxes and produce bags. Unload deliveries and restock shelves, refrigerators, and freezers. Assist with end-of-day clean up. If you have other skills (office, logistics, language, etc.), you can share them with Good Sam’s team when you complete their interest form. Schedule & Location Volunteer shift times: Monday–Friday, approximately 8:00 a.m. – 2:00 p.m. (flexible shifts during these hours). Pantry public hours: Monday–Friday, 9:00 a.m. – 1:00 p.m. No weekend opportunities: Good Sam is closed Saturday and Sunday and is not able to offer weekend volunteer shifts at this time. Location: Good Samaritans of Garland 214 N. 12th Street Garland, TX 75040 Who Can Volunteer? Good Sam welcomes a wide range of volunteers, including: Individual volunteers Students Groups (churches, schools, businesses, clubs) Volunteers completing court-ordered community service Minimum age: Volunteers must be at least 16 years old. How to Get Started This opportunity is managed directly by Good Samaritans of Garland , not by the City of Garland. Click the “Respond” button on this page. You will be redirected to Good Sam’s volunteer interest form at: https://www.goodsamofgarland.org/volunteer/ Complete their interest form. Good Sam’s staff will follow up with you within a few business days. If you do not hear back after submitting the form, Good Sam invites you to contact them directly at 972-276-2263 or info@goodsamofgarland.org NOTE: Please be prepared to fill out the attached Good Samaritan's waiver onsite or print and bring it completed with you to expedite the process.",
+    "description_long": "Good Samaritans of Garland (“Good Sam”) is a nonprofit food pantry serving neighbors in Garland and the surrounding community who are experiencing hunger or food insecurity. Volunteers help make sure families have access to nutritious food in a welcoming, dignified environment. This is an external partner opportunity. Volunteer Garland will connect you to Good Sam’s volunteer interest form so you can sign up directly with their team. What Volunteers Do Good Sam has several weekday volunteer roles at their food pantry: Welcome Room Greet guests and check them in. Assist with basic registration steps. Help guests take food to their vehicle with a cart when needed. Bilingual Spanish-speaking volunteers are especially helpful for translation. Kitchen Support Help prepare carts with food items for guests. Stock shelves with donations received from retail partners each day. Pantry Support Assemble dry-goods boxes and produce bags. Unload deliveries and restock shelves, refrigerators, and freezers. Assist with end-of-day clean up. If you have other skills (office, logistics, language, etc.), you can share them with Good Sam’s team when you complete their interest form. Schedule & Location Volunteer shift times: Monday–Friday, approximately 8:00 a.m. – 2:00 p.m. (flexible shifts during these hours). Pantry public hours: Monday–Friday, 9:00 a.m. – 1:00 p.m. No weekend opportunities: Good Sam is closed Saturday and Sunday and is not able to offer weekend volunteer shifts at this time. Location: Good Samaritans of Garland 3319 Edgewood Drive Garland, TX 75042 Mailing Address: PO Box 460177 Garland, TX 75046 Who Can Volunteer? Good Sam welcomes a wide range of volunteers, including: Individual volunteers Students Groups (churches, schools, businesses, clubs) Volunteers completing court-ordered community service Minimum age: Volunteers must be at least 16 years old. How to Get Started This opportunity is managed directly by Good Samaritans of Garland , not by the City of Garland. Click the “Respond” button on this page. You will be redirected to Good Sam’s volunteer interest form at: https://www.goodsamofgarland.org/volunteer/ Complete their interest form. Good Sam’s staff will follow up with you within a few business days. If you do not hear back after submitting the form, Good Sam invites you to contact them directly at 972-276-2263 or volunteer@goodsamofgarland.org NOTE: Please be prepared to fill out the attached Good Samaritan's waiver onsite or print and bring it completed with you to expedite the process. Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
     "description_short": "Good Samaritans of Garland (“Good Sam”) is a nonprofit food pantry serving neighbors in Garland and the surrounding community who are experiencing hunger or food insecurity. Volunteers help make sure families have access to nutritious food in a…",
     "address": {},
     "schedule": {
-      "raw": "Calendar Until Apr 6, 2027"
+      "raw": "Calendar Until Jul 30, 2027"
     },
     "contact": [
       {
@@ -631,13 +1039,14 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
+      "Instagram",
       "Physical Labor",
-      "SocialPhysical LaborTechnologyProgramCommunity Partners",
       "SocialPhysical LaborTechnology",
-      "Technology"
+      "Technology",
+      "SocialPhysical LaborTechnologyProgramCommunity Partners",
+      "Social"
     ],
-    "last_scraped": "2026-05-17T20:12:32.516604+00:00",
+    "last_scraped": "2026-07-02T23:58:35.140781+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -647,48 +1056,25 @@
     ]
   },
   {
-    "id": "garland_1238760",
-    "source": "volunteergarland",
-    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1238760",
-    "org_name": "City of Garland",
-    "opportunity_title": "Help Us Connect with Local Churches Across Garland",
-    "description_long": "Organization: Volunteer Garland – City of Garland Location: Garland, TX (community-based outreach) About the Opportunity: Volunteer Garland is growing, and we are working to build stronger connections across the entire community. We are looking for volunteers who are part of local churches to help us connect with church leaders and introduce Volunteer Garland as a partner for service opportunities. Our goal is to create meaningful partnerships that allow churches to engage in projects that support neighborhoods, parks, waterways, and residents in need throughout Garland. This is a relationship-building opportunity that helps expand the reach and impact of volunteer efforts citywide. What Volunteers Will Do: Connect Volunteer Garland with leaders at your church Share information about Volunteer Garland programs and opportunities Help open the door for future collaboration and service projects Serve as a point of connection between your church and Volunteer Garland (optional) How This Works: By signing up, you are expressing interest in helping us build a connection with your church. Volunteer Garland staff will follow up with you to coordinate next steps and provide any materials or support needed. There is no requirement to lead projects. Your role is simply to help make the introduction and support the connection. Who Should Sign Up: Individuals who are active members of a church in Garland Volunteers who have a relationship with church leadership or ministry leaders Anyone interested in helping expand service opportunities across the community Why This Matters: Churches play an important role in serving communities. By building strong connections, we can work together to meet needs, support residents, and create more opportunities for people to serve. Volunteer Garland Notes: This is an outreach and connection-based opportunity. Staff will guide and support all next steps after sign-up. Be Part of Building Something Bigger Help us strengthen the network of service across Garland by connecting your church to Volunteer Garland.",
-    "description_short": "Organization: Volunteer Garland – City of Garland Location: Garland, TX (community-based outreach) About the Opportunity: Volunteer Garland is growing, and we are working to build stronger connections across the entire community. We are looking for…",
-    "address": {},
-    "schedule": {
-      "raw": "Calendar Until Mar 31, 2027"
-    },
-    "contact": [],
-    "requirements": "Respond",
-    "cause_tags": [
-      "SocialProgramCity of Garland",
-      "Social"
-    ],
-    "last_scraped": "2026-05-17T20:12:23.746999+00:00",
-    "status": "active",
-    "city": "Garland",
-    "state": "TX",
-    "unified_tags": []
-  },
-  {
     "id": "garland_1065757",
     "source": "volunteergarland",
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1065757",
     "org_name": "Community Partners",
     "opportunity_title": "Keep Garland Beautiful Volunteers",
-    "description_long": "*This page is for information only. Click here for the official Keep Garland Beautiful Page* Volunteering with Keep Garland Beautiful Mission Keep Garland Beautiful, a 501(c)3 registered non-profit organization, is committed to educating and engaging individuals to take responsibility for improving their community environment. Programs: – Litter Prevention & Clean-up – Butterfly Gardens & Beautification – Environmental Education Litter Prevention & Clean-up Participate in regular litter clean-up events or request the supplies your group needs to beautify your school or neighborhood. Learn More Butterfly Gardens & Beautification Let our native plant experts help you design and start your Monarch Way Station , pollinator patch or garden. Learn More Environmental Education Request a Keep Garland Beautiful table for your event or have our education team give your group a lesson on recycling or litter prevention. Learn More Keep Garland Beautiful is a Keep Texas Beautiful Gold Star Affiliate. Gold Star distinction is awarded to groups that have made an impact in their communities and helped make Texas the cleanest, most beautiful state in the nation. It is the highest status any community affiliate can achieve. Do You Want To Be A Volunteer? Your support will mean so much to us, and the 243,000 or so people that call Garland home. Contact Us Follow Us on Facebook",
+    "description_long": "*This page is for information only. Click here for the official Keep Garland Beautiful Page* Volunteering with Keep Garland Beautiful Mission Keep Garland Beautiful, a 501(c)3 registered non-profit organization, is committed to educating and engaging individuals to take responsibility for improving their community environment. Programs: – Litter Prevention & Clean-up – Butterfly Gardens & Beautification – Environmental Education Litter Prevention & Clean-up Participate in regular litter clean-up events or request the supplies your group needs to beautify your school or neighborhood. Learn More Butterfly Gardens & Beautification Let our native plant experts help you design and start your Monarch Way Station , pollinator patch or garden. Learn More Environmental Education Request a Keep Garland Beautiful table for your event or have our education team give your group a lesson on recycling or litter prevention. Learn More Keep Garland Beautiful is a Keep Texas Beautiful Gold Star Affiliate. Gold Star distinction is awarded to groups that have made an impact in their communities and helped make Texas the cleanest, most beautiful state in the nation. It is the highest status any community affiliate can achieve. Do You Want To Be A Volunteer? Your support will mean so much to us, and the 243,000 or so people that call Garland home. Contact Us Follow Us on Facebook Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
     "description_short": "*This page is for information only. Click here for the official Keep Garland Beautiful Page* Volunteering with Keep Garland Beautiful Mission Keep Garland Beautiful, a 501(c)3 registered non-profit organization, is committed to educating and…",
     "address": {},
     "schedule": {
-      "raw": "Calendar Until Apr 23, 2027 Time 8 am to 12 pm"
+      "raw": "Calendar Until Jul 30, 2027 Time 8 am to 12 pm"
     },
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
       "Physical LaborProgramCommunity Partners",
-      "Physical Labor"
+      "Physical Labor",
+      "Instagram"
     ],
-    "last_scraped": "2026-05-17T20:12:54.718020+00:00",
+    "last_scraped": "2026-07-02T23:58:29.594658+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -711,24 +1097,167 @@
     },
     "contact": [
       {
-        "email": "JoDiaz@Garlandtx.gov",
-        "phone": "9722053583",
-        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
+        "email": "HColeson@garlandtx.gov",
+        "phone": "9722052544",
+        "raw": "Site Supervisor Clipboard 1 Shift Heather Coleson Envelope 1 Shift HColeson@garlandtx.gov Phone Shift 9722052544"
       }
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Nonprofit ProfessionalClericalSocialProgramGarland Public Libraries",
-      "Clerical",
-      "Social",
+      "Nonprofit ProfessionalClericalSocial",
       "Nonprofit Professional",
-      "Nonprofit ProfessionalClericalSocial"
+      "Instagram",
+      "Clerical",
+      "Nonprofit ProfessionalClericalSocialProgramGarland Public Libraries",
+      "Social"
     ],
-    "last_scraped": "2026-05-17T20:12:13.158906+00:00",
+    "last_scraped": "2026-07-02T23:57:58.995213+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
     "unified_tags": []
+  },
+  {
+    "id": "garland_1259671",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1259671",
+    "org_name": "Garland Public Libraries",
+    "opportunity_title": "North Garland Library Teen Volunteer Opportunities July 2026",
+    "description_long": "Teens can earn community service hours by volunteering at the North Garland Library! Help us keep our books organized and the children's area clean. Duties include: Wiping down toys and surfaces in the Children's Area Dusting shelves Preparing materials for library storytimes and programs This volunteer opportunity is for ages 12-18 only . Volunteers will sign in for their shift at the Children's Desk. Due to limited shift availability, volunteers may sign up for no more than two shifts in a month. We appreciate your understanding.",
+    "description_short": "Teens can earn community service hours by volunteering at the North Garland Library! Help us keep our books organized and the children's area clean. Duties include: Wiping down toys and surfaces in the Children's Area Dusting shelves Preparing…",
+    "address": {
+      "full": "3845 North Garland AVE Garland, TX 75040",
+      "zip": "75040"
+    },
+    "schedule": {},
+    "contact": [
+      {
+        "email": "mmoore@garlandtx.gov",
+        "phone": "972-205-2804",
+        "raw": "Site Supervisor Clipboard 1 Shift Malia Moore Envelope 1 Shift mmoore@garlandtx.gov Phone Shift 972-205-2804"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Physical Labor",
+      "Instagram",
+      "Physical LaborProgramGarland Public Libraries"
+    ],
+    "last_scraped": "2026-07-02T23:57:35.038098+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
+  },
+  {
+    "id": "garland_1259668",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1259668",
+    "org_name": "Garland Public Libraries",
+    "opportunity_title": "North Garland Library Teen Volunteer Opportunities Perot Tech Truck",
+    "description_long": "Teens can earn community service hours by volunteering at the North Garland Library! The Perot Tech Truck is visiting the library. They will bring science activities. Duties include: Setting up and taking down library programs Help librarian take program attendance This volunteer opportunity is for ages 12-18 only . Volunteers will sign in for their shift at the Children's Desk. Due to limited shift availability, volunteers may sign up for no more than two shifts in a month. We appreciate your understanding.",
+    "description_short": "Teens can earn community service hours by volunteering at the North Garland Library! The Perot Tech Truck is visiting the library. They will bring science activities. Duties include: Setting up and taking down library programs Help librarian take…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Happens On Jul 28, 2026 Time 2 pm - 4pm"
+    },
+    "contact": [
+      {
+        "email": "mmoore@garlandtx.gov",
+        "phone": "972-205-2804",
+        "raw": "Site Supervisor Clipboard 1 Shift Malia Moore Envelope 1 Shift mmoore@garlandtx.gov Phone Shift 972-205-2804"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Physical Labor",
+      "Instagram",
+      "Physical LaborProgramGarland Public Libraries"
+    ],
+    "last_scraped": "2026-07-02T23:57:49.605204+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "education",
+      "community"
+    ]
+  },
+  {
+    "id": "garland_1253140",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1253140",
+    "org_name": "Garland Public Libraries",
+    "opportunity_title": "North Garland Library Teen Volunteer Opportunities Storytime",
+    "description_long": "Teens can earn community service hours by volunteering at the North Garland Library! Help us with Baby, Bounce and Read and Play and Learn. Duties include: Help librarian take program attendance Assist families with crafts Pass out program materials Program clean up This volunteer opportunity is for ages 12-18 only . Volunteers will sign in for their shift at the Children's Desk. Due to limited shift availability, volunteers may sign up for no more than two shifts in a month. We appreciate your understanding.",
+    "description_short": "Teens can earn community service hours by volunteering at the North Garland Library! Help us with Baby, Bounce and Read and Play and Learn. Duties include: Help librarian take program attendance Assist families with crafts Pass out program materials…",
+    "address": {
+      "full": "3845 North Garland AVE Garland, TX 75040",
+      "zip": "75040"
+    },
+    "schedule": {},
+    "contact": [
+      {
+        "email": "mmoore@garlandtx.gov",
+        "phone": "972-205-2804",
+        "raw": "Site Supervisor Clipboard 1 Shift Malia Moore Envelope 1 Shift mmoore@garlandtx.gov Phone Shift 972-205-2804"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Physical Labor",
+      "Instagram",
+      "Physical LaborProgramGarland Public Libraries"
+    ],
+    "last_scraped": "2026-07-02T23:57:25.565514+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
+  },
+  {
+    "id": "garland_1259647",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1259647",
+    "org_name": "Garland Public Libraries",
+    "opportunity_title": "North Garland Library Teen Volunteer Opportunities Storytime",
+    "description_long": "Teens can earn community service hours by volunteering at the North Garland Library! Help us with Toddler Time and Preschool Discovery Duties include: Help librarian take program attendance Assist families with crafts Pass out program materials Program clean up This volunteer opportunity is for ages 12-18 only . Volunteers will sign in for their shift at the Children's Desk. Due to limited shift availability, volunteers may sign up for no more than two shifts in a month. We appreciate your understanding.",
+    "description_short": "Teens can earn community service hours by volunteering at the North Garland Library! Help us with Toddler Time and Preschool Discovery Duties include: Help librarian take program attendance Assist families with crafts Pass out program materials…",
+    "address": {
+      "full": "3845 North Garland AVE Garland, TX 75040",
+      "zip": "75040"
+    },
+    "schedule": {},
+    "contact": [
+      {
+        "email": "mmoore@garlandtx.gov",
+        "phone": "972-205-2804",
+        "raw": "Site Supervisor Clipboard 1 Shift Malia Moore Envelope 1 Shift mmoore@garlandtx.gov Phone Shift 972-205-2804"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Physical Labor",
+      "Instagram",
+      "Physical LaborProgramGarland Public Libraries"
+    ],
+    "last_scraped": "2026-07-02T23:57:31.426012+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "garland_1263082",
@@ -755,10 +1284,14 @@
       "Physical Labor"
     ],
     "last_scraped": "2026-05-17T20:11:48.866824+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
-    "unified_tags": []
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "garland_1263080",
@@ -785,10 +1318,88 @@
       "Physical Labor"
     ],
     "last_scraped": "2026-05-17T20:11:52.682671+00:00",
+    "status": "inactive",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
+  },
+  {
+    "id": "garland_1259642",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1259642",
+    "org_name": "Garland Public Libraries",
+    "opportunity_title": "North Garland Library Teen Volunteer Opportunity Fossil Fest",
+    "description_long": "Teens ages 12-18 can earn community service hours by volunteering at the library's Fossil Fest. The library will have dinosaur and fossil art and science experiments. The Dallas Paleontological Society will be on hand with fossils to examine and explore. Help set up before and clean up the program Help at craft tables Help at science tables Volunteers will report to the Children's Reference Desk.",
+    "description_short": "Teens ages 12-18 can earn community service hours by volunteering at the library's Fossil Fest. The library will have dinosaur and fossil art and science experiments. The Dallas Paleontological Society will be on hand with fossils to examine and…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Happens On Jul 25, 2026 Time 2 pm- 5 pm"
+    },
+    "contact": [
+      {
+        "email": "mmoore@garlandtx.gov",
+        "phone": "9722052804",
+        "raw": "Site Supervisor Clipboard 1 Shift Malia Moore Envelope 1 Shift mmoore@garlandtx.gov Phone Shift 9722052804"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "SocialPhysical Labor",
+      "Instagram",
+      "Physical Labor",
+      "SocialPhysical LaborProgramGarland Public Libraries",
+      "Social"
+    ],
+    "last_scraped": "2026-07-02T23:57:47.831479+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
-    "unified_tags": []
+    "unified_tags": [
+      "education",
+      "community",
+      "arts"
+    ]
+  },
+  {
+    "id": "garland_1259637",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1259637",
+    "org_name": "Garland Public Libraries",
+    "opportunity_title": "North Garland Library Teen Volunteer Opportunity July STEAM Lab",
+    "description_long": "Teens ages 12-18 can earn community service hours by volunteering at the library's STEAM Lab. This month children ages 6-12 will make junk robots from recycled materials. Help set up before and clean up the program Help kids trouble shoot their projects. Volunteers will report to the Children's Reference Desk.",
+    "description_short": "Teens ages 12-18 can earn community service hours by volunteering at the library's STEAM Lab. This month children ages 6-12 will make junk robots from recycled materials. Help set up before and clean up the program Help kids trouble shoot their…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Happens On Jul 16, 2026 Time 2 pm - 4 pm"
+    },
+    "contact": [
+      {
+        "email": "mmoore@garlandtx.gov",
+        "phone": "9722052804",
+        "raw": "Site Supervisor Clipboard 1 Shift Malia Moore Envelope 1 Shift mmoore@garlandtx.gov Phone Shift 9722052804"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "SocialPhysical Labor",
+      "Instagram",
+      "Physical Labor",
+      "SocialPhysical LaborProgramGarland Public Libraries",
+      "Social"
+    ],
+    "last_scraped": "2026-07-02T23:57:36.833226+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "garland_1262415",
@@ -809,7 +1420,7 @@
       "Physical Labor"
     ],
     "last_scraped": "2026-05-17T20:12:01.991361+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "unified_tags": []
@@ -820,11 +1431,11 @@
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1059678",
     "org_name": "Volunteer Litter Program",
     "opportunity_title": "Self Directed Litter Cleanups",
-    "description_long": "Self Directed Litter Cleanup Program The City of Garland's Volunteer Office holds guided litter cleanups once a month. The registration for those opportunities will be listed separately on the Get Connected website. If you want to clean up litter alone, we can help you. Our safety program trains you, provides supplies, and location. First Time Experience Contact the volunteer office for safety training. Schedule a time and date at least a week ahead of time to pick up supplies and location. Schedule yourself online so you track your hours. Location The Volunteer Office is located at 525 Tower Street and is open Monday through Friday, 8:00 AM to 5:00 PM. Please contact the office at 972-205-3583 or email Volunteer@GarlandTx.org to schedule your visit in advance. Program Restrictions Participants under 18 must be accompanied by an adult sponsor. North Texas Community Cleanup Challenge - March 1st - May 31st Join us in making a difference across our region by participating in the North Texas Community Cleanup ! Volunteers of all ages are invited to help remove litter, beautify our neighborhoods, and protect our local parks, creeks, and roadways. Whether you come as an individual, family, or group, your time and effort will help create a cleaner, healthier community for everyone.",
+    "description_long": "Self Directed Litter Cleanup Program The City of Garland's Volunteer Office holds guided litter cleanups once a month. The registration for those opportunities will be listed separately on the Get Connected website. If you want to clean up litter alone, we can help you. Our safety program trains you, provides supplies, and location. First Time Experience Contact the volunteer office for safety training. Schedule a time and date at least a week ahead of time to pick up supplies and location. Schedule yourself online so you track your hours. Location The Volunteer Office is located at 525 Tower Street and is open Monday through Friday, 8:00 AM to 5:00 PM. Please contact the office at 972-205-3583 or email Volunteer@GarlandTx.org to schedule your visit in advance. Program Restrictions Participants under 18 must be accompanied by an adult sponsor. North Texas Community Cleanup Challenge - March 1st - May 31st Join us in making a difference across our region by participating in the North Texas Community Cleanup ! Volunteers of all ages are invited to help remove litter, beautify our neighborhoods, and protect our local parks, creeks, and roadways. Whether you come as an individual, family, or group, your time and effort will help create a cleaner, healthier community for everyone. Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
     "description_short": "Self Directed Litter Cleanup Program The City of Garland's Volunteer Office holds guided litter cleanups once a month. The registration for those opportunities will be listed separately on the Get Connected website. If you want to clean up litter…",
     "address": {},
     "schedule": {
-      "raw": "Calendar Until Apr 5, 2027 Time You set your time"
+      "raw": "Calendar Until Jul 30, 2027 Time You set your time"
     },
     "contact": [
       {
@@ -835,10 +1446,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical LaborProgramVolunteer Litter Program",
-      "Physical Labor"
+      "Physical Labor",
+      "Instagram",
+      "Physical LaborProgramVolunteer Litter Program"
     ],
-    "last_scraped": "2026-05-17T20:12:29.612385+00:00",
+    "last_scraped": "2026-07-02T23:58:14.784971+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -853,7 +1465,7 @@
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1225291",
     "org_name": "Parks and Recreation",
     "opportunity_title": "Senior Center Digital Literacy Volunteer",
-    "description_long": "Senior Digital Literacy Volunteer Location : Garland Senior Activity Center Commitment : Once per month (2–3 hours per session) Background Check Required Do you enjoy helping others feel confident using technology? Volunteer Garland is seeking patient, friendly individuals to serve as Senior Digital Literacy Volunteers at the Garland Senior Activity Center. Volunteers will visit the center once per month to provide basic technology guidance to older adults in a supportive group setting. Sessions may include short lessons followed by one-on-one assistance. Topics may include: Understanding WiFi and internet basics What is a QR code and how to use it Smartphone settings and features Sending photos and text messages Video calling (FaceTime / Zoom) Avoiding online scams and phishing Downloading and using apps Volunteers do not repair devices or access financial accounts. Seniors will enter their own passwords and maintain control of their personal information at all times. Qualifications: Age 18 or older Successful completion of City background check Basic comfort with smartphones and tablets Strong communication skills and patience Ability to explain technology in simple, clear language Training and session guidelines will be provided. Help bridge the digital divide and empower seniors with confidence in today’s connected world. Ready to Help? Sign up at VolunteerGarland.org Or contact Josue Diaz, Volunteer Coordinator jodiaz@GarlandTX.gov | ☎ 972-205-3583 Let’s serve our seniors—together. **Restrictions: No court appointed or truancy candidates.**",
+    "description_long": "Senior Digital Literacy Volunteer Location : Garland Senior Activity Center Commitment : Once per month (2–3 hours per session) Background Check Required Do you enjoy helping others feel confident using technology? Volunteer Garland is seeking patient, friendly individuals to serve as Senior Digital Literacy Volunteers at the Garland Senior Activity Center. Volunteers will visit the center once per month to provide basic technology guidance to older adults in a supportive group setting. Sessions may include short lessons followed by one-on-one assistance. Topics may include: Understanding WiFi and internet basics What is a QR code and how to use it Smartphone settings and features Sending photos and text messages Video calling (FaceTime / Zoom) Avoiding online scams and phishing Downloading and using apps Volunteers do not repair devices or access financial accounts. Seniors will enter their own passwords and maintain control of their personal information at all times. Qualifications: Age 18 or older Successful completion of City background check Basic comfort with smartphones and tablets Strong communication skills and patience Ability to explain technology in simple, clear language Training and session guidelines will be provided. Help bridge the digital divide and empower seniors with confidence in today’s connected world. Ready to Help? Sign up at VolunteerGarland.org Or contact Josue Diaz, Volunteer Coordinator jodiaz@GarlandTX.gov | ☎ 972-205-3583 Let’s serve our seniors—together. **Restrictions: No court appointed or truancy candidates.** Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
     "description_short": "Senior Digital Literacy Volunteer Location : Garland Senior Activity Center Commitment : Once per month (2–3 hours per session) Background Check Required Do you enjoy helping others feel confident using technology? Volunteer Garland is seeking…",
     "address": {},
     "schedule": {
@@ -862,12 +1474,13 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
-      "SocialPhysical LaborProgramParks and Recreation",
       "SocialPhysical Labor",
-      "Physical Labor"
+      "Instagram",
+      "Physical Labor",
+      "SocialPhysical LaborProgramParks and Recreation",
+      "Social"
     ],
-    "last_scraped": "2026-05-17T20:12:26.432780+00:00",
+    "last_scraped": "2026-07-02T23:58:07.338038+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -883,7 +1496,7 @@
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1116138",
     "org_name": "Parks and Recreation",
     "opportunity_title": "Senior Center Meal Support Crew: Carver Senior Center",
-    "description_long": "Carver Senior Center is looking for 3 dependable volunteers daily to help during senior lunch service. Make Mealtime Meaningful You’ll support staff with: Setting up tables & chairs Light cleaning before and after meals Welcoming our seniors and keeping things cheerful Creating a safe, clean, and inviting dining space Each shift is only 2 hours—a small time commitment that brings big smiles and meaningful connection. Who We're Looking For: ✔ Enjoys being around older adults ✔ Can lift light chairs & tidy up ✔ Dependable, respectful, and kind ✔ Able to commit weekly or be on-call Great for students, retirees, or anyone with a heart to serve over lunch! Why It Matters For many of our seniors, this lunch is more than just a meal. It’s a time to connect, enjoy conversation, and feel part of a community. By volunteering, you help create a warm and welcoming space where older adults can enjoy their meal comfortably. Your presence adds kindness and care to their day. Every table you set and every smile you share helps make the experience more enjoyable for everyone. Carver Senior Center 222 Carver St. #B Garland, TX 75040 Monday–Friday Lunchtime Hours (exact time varies slightly depending on the day’s schedule) Ready to Help? Sign up at VolunteerGarland.org Or contact Jelisa Baker, Recreation Services Supervisor jebaker@GarlandTX.gov | ☎ 972-205-3305 Let’s serve our seniors—together. **Restrictions: No court appointed or truancy candidates.**",
+    "description_long": "Carver Senior Center is looking for 3 dependable volunteers daily to help during senior lunch service. Make Mealtime Meaningful You’ll support staff with: Setting up tables & chairs Light cleaning before and after meals Welcoming our seniors and keeping things cheerful Creating a safe, clean, and inviting dining space Each shift is only 2 hours—a small time commitment that brings big smiles and meaningful connection. Who We're Looking For: ✔ Enjoys being around older adults ✔ Can lift light chairs & tidy up ✔ Dependable, respectful, and kind ✔ Able to commit weekly or be on-call Great for students, retirees, or anyone with a heart to serve over lunch! Why It Matters For many of our seniors, this lunch is more than just a meal. It’s a time to connect, enjoy conversation, and feel part of a community. By volunteering, you help create a warm and welcoming space where older adults can enjoy their meal comfortably. Your presence adds kindness and care to their day. Every table you set and every smile you share helps make the experience more enjoyable for everyone. Carver Senior Center 222 Carver St. #B Garland, TX 75040 Monday–Friday Lunchtime Hours (exact time varies slightly depending on the day’s schedule) Ready to Help? Sign up at VolunteerGarland.org Or contact Jelisa Baker, Recreation Services Supervisor jebaker@GarlandTX.gov | ☎ 972-205-3305 Let’s serve our seniors—together. **Restrictions: No court appointed or truancy candidates.** Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
     "description_short": "Carver Senior Center is looking for 3 dependable volunteers daily to help during senior lunch service. Make Mealtime Meaningful You’ll support staff with: Setting up tables & chairs Light cleaning before and after meals Welcoming our seniors and…",
     "address": {
       "full": "222 Carver St. #B Garland, TX 75040",
@@ -893,12 +1506,13 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
-      "SocialPhysical LaborProgramParks and Recreation",
       "SocialPhysical Labor",
-      "Physical Labor"
+      "Instagram",
+      "Physical Labor",
+      "SocialPhysical LaborProgramParks and Recreation",
+      "Social"
     ],
-    "last_scraped": "2026-05-17T20:11:41.184867+00:00",
+    "last_scraped": "2026-07-02T23:57:21.836338+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -914,7 +1528,7 @@
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1116125",
     "org_name": "Parks and Recreation",
     "opportunity_title": "Senior Center Meal Support Crew: Fields Recreation Center",
-    "description_long": "Fields Recreation Center is looking for 3 dependable volunteers daily to help during senior lunch service. Make Mealtime Meaningful You’ll support staff with: Setting up tables & chairs Light cleaning before and after meals Welcoming our seniors and keeping things cheerful Creating a safe, clean, and inviting dining space Each shift is only 2 hours—a small time commitment that brings big smiles and meaningful connection. Who We're Looking For: ✔ Enjoys being around older adults ✔ Can lift light chairs & tidy up ✔ Dependable, respectful, and kind ✔ Able to commit weekly or be on-call Great for students, retirees, or anyone with a heart to serve over lunch! Why It Matters For many of our seniors, this lunch is more than just a meal. It’s a time to connect, enjoy conversation, and feel part of a community. By volunteering, you help create a warm and welcoming space where older adults can enjoy their meal comfortably. Your presence adds kindness and care to their day. Every table you set and every smile you share helps make the experience more enjoyable for everyone. Fields Recreation Center 1701 Dairy Road Garland, TX 75040 Monday–Friday Lunchtime Hours (exact time varies slightly depending on the day’s schedule) Ready to Help? Sign up at VolunteerGarland.org Or contact Elda Guerrero, Recreation Services Specialist mguerrero@garlandtx.gov | ☎ 972-205-3583 Rachel Bibby, Recreation Services Specialist rbibby@garlandtx.gov | ☎ 972-205-3665 Let’s serve our seniors—together. **Restrictions: No court appointed or truancy candidates.**",
+    "description_long": "Fields Recreation Center is looking for 3 dependable volunteers daily to help during senior lunch service. Make Mealtime Meaningful You’ll support staff with: Setting up tables & chairs Light cleaning before and after meals Welcoming our seniors and keeping things cheerful Creating a safe, clean, and inviting dining space Each shift is only 2 hours—a small time commitment that brings big smiles and meaningful connection. Who We're Looking For: ✔ Enjoys being around older adults ✔ Can lift light chairs & tidy up ✔ Dependable, respectful, and kind ✔ Able to commit weekly or be on-call Great for students, retirees, or anyone with a heart to serve over lunch! Why It Matters For many of our seniors, this lunch is more than just a meal. It’s a time to connect, enjoy conversation, and feel part of a community. By volunteering, you help create a warm and welcoming space where older adults can enjoy their meal comfortably. Your presence adds kindness and care to their day. Every table you set and every smile you share helps make the experience more enjoyable for everyone. Fields Recreation Center 1701 Dairy Road Garland, TX 75040 Monday–Friday Lunchtime Hours (exact time varies slightly depending on the day’s schedule) Ready to Help? Sign up at VolunteerGarland.org Or contact Elda Guerrero, Recreation Services Specialist mguerrero@garlandtx.gov | ☎ 972-205-3583 Rachel Bibby, Recreation Services Specialist rbibby@garlandtx.gov | ☎ 972-205-3665 Let’s serve our seniors—together. **Restrictions: No court appointed or truancy candidates.** Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
     "description_short": "Fields Recreation Center is looking for 3 dependable volunteers daily to help during senior lunch service. Make Mealtime Meaningful You’ll support staff with: Setting up tables & chairs Light cleaning before and after meals Welcoming our seniors and…",
     "address": {
       "full": "1701 Dairy Rd. Garland, TX 75040",
@@ -933,19 +1547,19 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
-      "SocialPhysical LaborProgramParks and Recreation",
       "SocialPhysical Labor",
-      "Physical Labor"
+      "Instagram",
+      "Physical Labor",
+      "SocialPhysical LaborProgramParks and Recreation",
+      "Social"
     ],
-    "last_scraped": "2026-05-17T20:11:38.564234+00:00",
+    "last_scraped": "2026-07-02T23:57:19.885428+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [
       "seniors",
-      "food_security",
-      "community"
+      "food_security"
     ]
   },
   {
@@ -973,10 +1587,57 @@
       "Physical Labor"
     ],
     "last_scraped": "2026-05-17T20:12:04.924961+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "unified_tags": []
+  },
+  {
+    "id": "garland_1264325",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1264325",
+    "org_name": "City of Garland",
+    "opportunity_title": "Volunteer Garland – Community Response Team",
+    "description_long": "The Volunteer Garland Community Response Team is a growing network of residents who want to help Garland during times of community need, neighborhood recovery, special projects, and preparedness efforts. The group is a new partnership between the City of Garland's Office of Emergency Management and Volunteer Garland. Volunteers may assist with storm recovery support, neighborhood cleanup projects, supply distribution, community outreach, event support, damage reporting assistance, logistics support, and other citywide volunteer efforts as needs arise. This interest list helps Volunteer Garland identify residents interested in future opportunities connected to community resiliency, preparedness, and recovery efforts. Volunteers will receive notifications about trainings, projects, and opportunities that match their interests and availability. The listings will be called \" Volunteer University - Emergency Preparedness Training .\" We plan to offer 2 courses this summer, 1 in the fall, and 2 in the spring. No previous experience is required for most opportunities. Some specialized projects or response roles may require additional training, background checks, waivers, or certifications. Volunteer opportunities may include: Storm recovery support Neighborhood cleanup projects Community outreach events Preparedness education events Logistics and supply support Volunteer coordination assistance Administrative support during emergencies Damage assessment support training opportunities Participation is flexible and based on volunteer availability. Signing up for this interest list does not commit volunteers to participate in every project or activation. Help strengthen Garland through service, preparedness, and community connection. Additional Information Some opportunities may involve outdoor work, lifting, walking, or extended standing. Training opportunities will be announced separately through Volunteer Garland. Certain specialized opportunities may require a background check. Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
+    "description_short": "The Volunteer Garland Community Response Team is a growing network of residents who want to help Garland during times of community need, neighborhood recovery, special projects, and preparedness efforts. The group is a new partnership between the…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Jul 30, 2027"
+    },
+    "contact": [
+      {
+        "email": "Volunteer@GarlandTx.gov",
+        "phone": "9722053583",
+        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift Volunteer@GarlandTx.gov Phone Shift 9722053583"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Food Service",
+      "Teaching/Training",
+      "Landscaping/Lawn Care",
+      "Tree Care/Tree Trimming",
+      "Instagram",
+      "Chainsaw Experience",
+      "Education",
+      "Medical",
+      "Basic Hand Tools",
+      "General Physical Labor",
+      "Painting",
+      "Event Setup/Breakdown",
+      "Basic Hand ToolsChainsaw ExperienceConstruction/Building TradesEducationEvent Setup/BreakdownFence Repair/CarpentryFood ServiceGeneral Physical LaborLandscaping/Lawn CareMedicalPaintingTeaching/TrainingTree Care/Tree TrimmingWorkshop Instructor/TrainerProgramCity of Garland",
+      "Workshop Instructor/Trainer",
+      "Basic Hand ToolsChainsaw ExperienceConstruction/Building TradesEducationEvent Setup/BreakdownFence Repair/CarpentryFood ServiceGeneral Physical LaborLandscaping/Lawn CareMedicalPaintingTeaching/TrainingTree Care/Tree TrimmingWorkshop Instructor/Trainer",
+      "Construction/Building Trades",
+      "Fence Repair/Carpentry"
+    ],
+    "last_scraped": "2026-07-02T23:58:43.036103+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "garland_1116149",
@@ -984,11 +1645,11 @@
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1116149",
     "org_name": "City of Garland",
     "opportunity_title": "Volunteer Recruiter",
-    "description_long": "Volunteer Registration Drive Recruiter Category: Community Engagement Location: Flexible (schools, churches, organizations) Hours: Self-paced — 1 hour per verified registered Age Requirement: 14+ Credit Offered: Yes, volunteer service hours (verifiable) Help Us Grow t he Movement! Are you passionate about community service and want to help expand our volunteer impact across Garland? Become a Volunteer Registration Drive Recruiter and help us spread the word about VolunteerGarland.org in your school, church, or organization. We’re looking for motivated, self-directed individuals to help us recruit new volunteers. This is a perfect opportunity for students, faith leaders, civic-minded residents, or service clubs looking to earn volunteer credit in a flexible and impactful way. Ideal Candidates: Friendly and outgoing — enjoys talking to others Self-motivated and reliable Comfortable speaking to peers, congregations, or groups Involved in schools, churches, nonprofits, or community groups Passionate about making Garland stronger through civic engagement How It Works: Register to Participate Sign up for this opportunity on VolunteerGarland.org to let us know you're taking part. Start Recruiting Spread the word to your peers, teachers, church members, club leaders, and neighbors. Encourage them to visit VolunteerGarland.org and register as a volunteer. Submit Your Recruitment List Collect and submit a list of names you personally recruited who signed up on the website. Email your list to Volunteer@GarlandTX.gov or upload it via the submission form. We Verify & Award Credit We’ll match the submitted names to our registration records. For every 5 confirmed new registrations, we’ll award you 1 volunteer hour (rounded as needed). You can recruit as many as you like — the more, the better!",
+    "description_long": "Volunteer Registration Drive Recruiter Category: Community Engagement Location: Flexible (schools, churches, organizations) Hours: Self-paced — 1 hour per verified registered Age Requirement: 14+ Credit Offered: Yes, volunteer service hours (verifiable) Help Us Grow t he Movement! Are you passionate about community service and want to help expand our volunteer impact across Garland? Become a Volunteer Registration Drive Recruiter and help us spread the word about VolunteerGarland.org in your school, church, or organization. We’re looking for motivated, self-directed individuals to help us recruit new volunteers. This is a perfect opportunity for students, faith leaders, civic-minded residents, or service clubs looking to earn volunteer credit in a flexible and impactful way. Ideal Candidates: Friendly and outgoing — enjoys talking to others Self-motivated and reliable Comfortable speaking to peers, congregations, or groups Involved in schools, churches, nonprofits, or community groups Passionate about making Garland stronger through civic engagement How It Works: Register to Participate Sign up for this opportunity on VolunteerGarland.org to let us know you're taking part. Start Recruiting Spread the word to your peers, teachers, church members, club leaders, and neighbors. Encourage them to visit VolunteerGarland.org and register as a volunteer. Submit Your Recruitment List Collect and submit a list of names you personally recruited who signed up on the website. Email your list to Volunteer@GarlandTX.gov or upload it via the submission form. We Verify & Award Credit We’ll match the submitted names to our registration records. For every 5 confirmed new registrations, we’ll award you 1 volunteer hour (rounded as needed). You can recruit as many as you like — the more, the better! Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
     "description_short": "Volunteer Registration Drive Recruiter Category: Community Engagement Location: Flexible (schools, churches, organizations) Hours: Self-paced — 1 hour per verified registered Age Requirement: 14+ Credit Offered: Yes, volunteer service hours…",
     "address": {},
     "schedule": {
-      "raw": "Calendar Until Apr 23, 2027 Time 8 am to 12 pm"
+      "raw": "Calendar Until Jul 30, 2027 Time 8 am to 12 pm"
     },
     "contact": [
       {
@@ -999,9 +1660,10 @@
     "requirements": "Respond",
     "cause_tags": [
       "SocialProgramCity of Garland",
+      "Instagram",
       "Social"
     ],
-    "last_scraped": "2026-05-17T20:12:59.682264+00:00",
+    "last_scraped": "2026-07-02T23:58:33.252887+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1023,20 +1685,21 @@
     },
     "contact": [
       {
-        "email": "JoDiaz@Garlandtx.gov",
-        "phone": "9722053583",
-        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
+        "email": "dshepherd@garlandtx.gov",
+        "phone": "9722053934",
+        "raw": "Site Supervisor Clipboard 1 Shift Dorothy Shepherd Envelope 1 Shift dshepherd@garlandtx.gov Phone Shift 9722053934"
       }
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Nonprofit ProfessionalClericalSocialProgramGarland Public Libraries",
-      "Clerical",
-      "Social",
+      "Nonprofit ProfessionalClericalSocial",
       "Nonprofit Professional",
-      "Nonprofit ProfessionalClericalSocial"
+      "Instagram",
+      "Clerical",
+      "Nonprofit ProfessionalClericalSocialProgramGarland Public Libraries",
+      "Social"
     ],
-    "last_scraped": "2026-05-17T20:12:10.431520+00:00",
+    "last_scraped": "2026-07-02T23:57:57.068047+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1044,6 +1707,81 @@
       "children",
       "education",
       "community"
+    ]
+  },
+  {
+    "id": "garland_1267359",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1267359",
+    "org_name": "Garland Public Libraries",
+    "opportunity_title": "West Garland Library - Teen Volunteer - 1-2-3 STEAM: Bugs Program",
+    "description_long": "Teen volunteers will help the Youth Services Librarian run the 1-2-3 STEAM: Bugs program for families with children ages 1-5 years! All volunteers need to be attentive and engaging to families with duties include, but not limited to: Crowd management Storytime assistance Helping families do activities after storytime Set up/Clean up assistance This volunteer opportunity is for: Ages 12 - 17 only. Individual volunteers and NOT for groups. For questions about group volunteering, please contact the Site Supervisor. 2 hour shifts. Longer shifts need to be preapproved by Site Supervisor. Volunteers will sign in for their shift at the Children's Desk. ➡️If you cannot attend your volunteer shift, please cancel it online or call us at 972-205-2586 to let us know. If you have three no-call no-show occurrences with the Garland libraries, we will delete your future shifts and you will no longer be permitted to volunteer at any of the library branches. ➡️PLEASE NOTE: We do not accept volunteers that are fulfilling court-mandated service hours.",
+    "description_short": "Teen volunteers will help the Youth Services Librarian run the 1-2-3 STEAM: Bugs program for families with children ages 1-5 years! All volunteers need to be attentive and engaging to families with duties include, but not limited to: Crowd…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Happens On Jul 18, 2026 Time 10 a.m. - 12 p.m."
+    },
+    "contact": [
+      {
+        "email": "dshepherd@garlandtx.gov",
+        "phone": "972-205-2586",
+        "raw": "Site Supervisor Clipboard 1 Shift Dorothy Shepherd Envelope 1 Shift dshepherd@garlandtx.gov Phone Shift 972-205-2586"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Instagram",
+      "Physical LaborSocial",
+      "Physical Labor",
+      "Physical LaborSocialProgramGarland Public Libraries",
+      "Social"
+    ],
+    "last_scraped": "2026-07-02T23:57:42.201586+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
+  },
+  {
+    "id": "garland_1276891",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1276891",
+    "org_name": "Garland Public Libraries",
+    "opportunity_title": "West Garland Library - Teen Volunteer - July",
+    "description_long": "Teens ages 12 - 17 can earn community service hours by volunteering at the brand new West Garland Library! Help us prepare for children's programs and keeping the children's area tidy! Typical duties include, but not limited to: Cleaning toys used in storytimes Prepping crafts for programs Pulling books Shelf-reading in the Children's section These volunteer opportunities are for: ages 12 - 17 only. Individual volunteers and NOT for groups. For questions about group volunteering, please contact the Site Supervisor. 2 hour shifts. Longer shifts need to be preapproved by Site Supervisor. ➡️If you cannot attend your volunteer shift, please cancel it online or call us at 972-205-2586 to let us know. If you have three no-call no-show occurrences, we will delete your future shifts and you will no longer be permitted to volunteer at any of the four Garland libraries. ➡️PLEASE NOTE: We do not accept volunteers that are fulfilling court-mandated service hours. ➡️Volunteers will sign in for their shift at the Children's Desk.",
+    "description_short": "Teens ages 12 - 17 can earn community service hours by volunteering at the brand new West Garland Library! Help us prepare for children's programs and keeping the children's area tidy! Typical duties include, but not limited to: Cleaning toys used…",
+    "address": {
+      "full": "3921 W Walnut St Garland, TX 75042",
+      "zip": "75042"
+    },
+    "schedule": {},
+    "contact": [
+      {
+        "email": "dshepherd@garlandtx.gov",
+        "phone": "972-205-2586",
+        "raw": "Site Supervisor Clipboard 1 Shift Dorothy Shepherd Envelope 1 Shift dshepherd@garlandtx.gov Phone Shift 972-205-2586"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Instagram",
+      "Physical LaborSocial",
+      "Physical Labor",
+      "Physical LaborSocialProgramGarland Public Libraries",
+      "Social"
+    ],
+    "last_scraped": "2026-07-02T23:57:27.505519+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "children",
+      "community",
+      "education"
     ]
   },
   {
@@ -1074,13 +1812,50 @@
       "Physical Labor"
     ],
     "last_scraped": "2026-05-17T20:11:46.343650+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [
       "children",
       "community",
       "education"
+    ]
+  },
+  {
+    "id": "garland_1267602",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1267602",
+    "org_name": "Garland Public Libraries",
+    "opportunity_title": "West Garland Library - Teen Volunteer - STEAM Lab Program",
+    "description_long": "Teen volunteers will help the Youth Services Librarian run the STEAM Lab: Solar Oven S'mores program for families with children ages 6-12 years! All volunteers need to be attentive and engaging to families with duties include, but not limited to: Crowd management Helping children/family do activities Set up/Clean up assistance This volunteer opportunity is for: Ages 12 - 17 only. Individual volunteers and NOT for groups. For questions about group volunteering, please contact the Site Supervisor. 2 hour shifts. Longer shifts need to be preapproved by Site Supervisor. Volunteers will sign in for their shift at the Children's Desk. ➡️If you cannot attend your volunteer shift, please cancel it online or call us at 972-205-2586 to let us know. If you have three no-call no-show occurrences with the Garland libraries, we will delete your future shifts and you will no longer be permitted to volunteer at any of the library branches. ➡️PLEASE NOTE: We do not accept volunteers that are fulfilling court-mandated service hours.",
+    "description_short": "Teen volunteers will help the Youth Services Librarian run the STEAM Lab: Solar Oven S'mores program for families with children ages 6-12 years! All volunteers need to be attentive and engaging to families with duties include, but not limited to:…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Happens On Jul 16, 2026 Time 2:00 p.m. - 4:00 p.m."
+    },
+    "contact": [
+      {
+        "email": "dshepherd@garlandtx.gov",
+        "phone": "972-205-2586",
+        "raw": "Site Supervisor Clipboard 1 Shift Dorothy Shepherd Envelope 1 Shift dshepherd@garlandtx.gov Phone Shift 972-205-2586"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Instagram",
+      "Physical LaborSocial",
+      "Physical Labor",
+      "Physical LaborSocialProgramGarland Public Libraries",
+      "Social"
+    ],
+    "last_scraped": "2026-07-02T23:57:38.635341+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
     ]
   }
 ]

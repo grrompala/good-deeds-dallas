@@ -1,12 +1,20 @@
 """
-Scrapes volunteer-related posts from local DFW subreddits using Reddit's public
-JSON API (no API key required for public subreddits).
+Scrapes volunteer-related posts from local DFW subreddits using Reddit's
+public RSS/Atom search feed (search.rss) — no app registration or login
+required.
+
+Reddit now blocks the old unauthenticated www.reddit.com/*.json endpoints
+outright (403), and as of mid-2026 self-serve OAuth "script" app creation is
+gated behind a manual-approval process that most requests never hear back on.
+The search.rss endpoint is still open to a plain descriptive User-Agent, just
+rate-limited (429) more aggressively than the old JSON API was, so this
+backs off hard between requests.
 
 Searches r/Richardson, r/Garland, r/DFW, and r/Dallas for volunteer-related
 posts and saves them for LLM review/extraction.
 
 Usage:
-    pip install requests
+    pip install requests beautifulsoup4 lxml
     python fetch_reddit.py
 
 Output:
@@ -15,18 +23,18 @@ Output:
 
 import json
 import time
-import re
+import xml.etree.ElementTree as ET
 import requests
+from bs4 import BeautifulSoup
 from datetime import datetime, timezone
 from pathlib import Path
 
 OUTPUT_FILE = Path("frontend/public/data/reddit_raw.json")
-DELAY = 1.0  # Reddit asks for 1 req/sec for unauthenticated access
+DELAY = 5.0  # search.rss rate-limits (429) much faster than the old JSON API did
+MAX_RETRIES = 3
 
-HEADERS = {
-    # Reddit requires a descriptive User-Agent for unauthenticated access
-    "User-Agent": "VolunteerHubBot/1.0 (local nonprofit aggregator; contact: grrompala@gmail.com)"
-}
+USER_AGENT = "VolunteerHubBot/1.0 (local nonprofit aggregator; contact: grrompala@gmail.com)"
+ATOM_NS = {"a": "http://www.w3.org/2005/Atom"}
 
 # Subreddits to search — ordered by relevance to Richardson/Garland
 SUBREDDITS = [
@@ -69,89 +77,92 @@ def relevance_score(text: str) -> tuple[int, int]:
     return vol_hits, loc_hits
 
 
+def parse_entry(entry) -> dict:
+    """Pull the fields we need out of one Atom <entry>."""
+    def text(tag):
+        el = entry.find(f"a:{tag}", ATOM_NS)
+        return el.text if el is not None else None
+
+    raw_id = text("id") or ""
+    post_id = raw_id.split("_")[-1] if raw_id.startswith("t3_") else raw_id
+
+    author_el = entry.find("a:author/a:name", ATOM_NS)
+    author = (author_el.text or "").removeprefix("/u/") if author_el is not None else None
+
+    link_el = entry.find("a:link", ATOM_NS)
+    link = link_el.get("href") if link_el is not None else None
+
+    content_el = entry.find("a:content", ATOM_NS)
+    body_html = content_el.text or "" if content_el is not None else ""
+    body_text = BeautifulSoup(body_html, "lxml").get_text(separator=" ").strip()
+
+    return {
+        "id": post_id,
+        "title": text("title") or "",
+        "author": author,
+        "link": link,
+        "updated": text("updated"),
+        "body": body_text,
+    }
+
+
 def search_subreddit(subreddit: str, query: str, limit: int = 100) -> list[dict]:
-    """
-    Search a subreddit for a query using Reddit's JSON API.
-    Handles pagination via 'after' token.
-    """
-    posts = []
-    after = None
-    page = 0
+    """Search a subreddit via its RSS/Atom search feed. No pagination — a
+    single request capped at `limit` (RSS doesn't expose an 'after' cursor
+    the way the JSON API did), which is plenty for a recent-posts sweep."""
+    params = {
+        "q": query,
+        "restrict_sr": "on",
+        "sort": "new",
+        "t": "year",       # posts from last year
+        "limit": limit,
+    }
+    url = f"https://www.reddit.com/r/{subreddit}/search.rss"
+    headers = {"User-Agent": USER_AGENT}
 
-    while True:
-        page += 1
-        params = {
-            "q": query,
-            "restrict_sr": "on",
-            "sort": "new",
-            "t": "year",       # posts from last year
-            "limit": 100,
-            "type": "link",
-        }
-        if after:
-            params["after"] = after
-
-        url = f"https://www.reddit.com/r/{subreddit}/search.json"
+    for attempt in range(1, MAX_RETRIES + 1):
         try:
-            response = requests.get(url, headers=HEADERS, params=params, timeout=15)
+            response = requests.get(url, headers=headers, params=params, timeout=15)
         except requests.RequestException as e:
             print(f"    Request error: {e}")
-            break
+            return []
 
         if response.status_code == 429:
-            print(f"    Rate limited — waiting 10s")
-            time.sleep(10)
+            wait = 20 * attempt
+            print(f"    Rate limited — waiting {wait}s (attempt {attempt}/{MAX_RETRIES})")
+            time.sleep(wait)
             continue
         if response.status_code != 200:
             print(f"    HTTP {response.status_code} for r/{subreddit} query '{query}'")
-            break
+            return []
 
-        data = response.json()
-        children = data.get("data", {}).get("children", [])
-        if not children:
-            break
+        try:
+            root = ET.fromstring(response.content)
+        except ET.ParseError as e:
+            print(f"    Feed parse error: {e}")
+            return []
+        return [parse_entry(e) for e in root.findall("a:entry", ATOM_NS)]
 
-        for child in children:
-            post = child.get("data", {})
-            posts.append(post)
-
-        after = data.get("data", {}).get("after")
-        fetched = len(posts)
-
-        if not after or fetched >= limit:
-            break
-
-        time.sleep(DELAY)
-
-    return posts
+    print(f"    Giving up on r/{subreddit} query '{query}' after {MAX_RETRIES} rate-limited attempts")
+    return []
 
 
 def normalize_post(post: dict, subreddit: str) -> dict:
-    """Convert a raw Reddit post into our schema."""
+    """Convert a parsed RSS entry into our schema."""
     title = post.get("title", "")
-    body = post.get("selftext", "") or ""
+    body = post.get("body", "") or ""
     full_text = f"{title} {body}"
     vol_score, loc_score = relevance_score(full_text)
-
-    created = post.get("created_utc")
-    created_iso = (
-        datetime.fromtimestamp(created, tz=timezone.utc).isoformat()
-        if created else None
-    )
 
     return {
         "id": f"reddit_{post.get('id')}",
         "source": "reddit",
         "subreddit": subreddit,
-        "source_url": f"https://www.reddit.com{post.get('permalink', '')}",
+        "source_url": post.get("link"),
         "title": title,
         "body": body[:2000],  # cap at 2000 chars
         "author": post.get("author"),
-        "score": post.get("score"),
-        "num_comments": post.get("num_comments"),
-        "created_utc": created_iso,
-        "is_self": post.get("is_self"),         # True = text post, False = link
-        "url": post.get("url"),                  # external link if any
+        "created_utc": post.get("updated"),  # already ISO 8601
         "relevance": {
             "volunteer_keyword_hits": vol_score,
             "location_keyword_hits": loc_score,
@@ -182,7 +193,7 @@ def main():
         for query in SEARCH_QUERIES:
             print(f"  Searching: '{query}'...")
             posts = search_subreddit(subreddit, query)
-            print(f"  → {len(posts)} raw results")
+            print(f"  -> {len(posts)} raw results")
 
             for post in posts:
                 pid = post.get("id")
@@ -207,18 +218,9 @@ def main():
             rid = post["id"]
             if rid not in existing:
                 new_count += 1
-            existing[rid] = post  # always update (score/comments may change)
+            existing[rid] = post  # always update
 
-    # Sort output: highest relevance first, then by date
-    all_records = sorted(
-        existing.values(),
-        key=lambda r: (
-            -r.get("relevance", {}).get("total", 0),
-            r.get("created_utc") or "",
-        ),
-        reverse=False,
-    )
-    # Re-sort: highest relevance desc, newest date desc within same relevance
+    # Sort output: highest relevance first, then newest within same relevance
     all_records = sorted(
         existing.values(),
         key=lambda r: (
@@ -239,7 +241,7 @@ def main():
     print("\nTop 10 by relevance:")
     for rec in all_records[:10]:
         score = rec["relevance"]["total"]
-        print(f"  [{score}] r/{rec['subreddit']} — {rec['title'][:70]}")
+        print(f"  [{score}] r/{rec['subreddit']} - {rec['title'][:70]}")
 
 
 if __name__ == "__main__":
