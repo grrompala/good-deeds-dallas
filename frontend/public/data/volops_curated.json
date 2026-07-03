@@ -273,7 +273,9 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "arlington_life_shelter_2",
@@ -504,7 +506,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "arts",
+      "community"
+    ]
   },
   {
     "id": "art_house_dallas_1",
@@ -1375,7 +1380,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "community",
+      "housing"
+    ]
   },
   {
     "id": "boomerang_cares_0",
@@ -3524,7 +3532,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "animals",
+      "community"
+    ]
   },
   {
     "id": "coppell_humane_society_2",
@@ -8099,7 +8110,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "future_city_competition_north_texas_1",
@@ -8461,7 +8475,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "good_samaritans_garland_0",
@@ -8954,7 +8971,9 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "mental_health"
+    ]
   },
   {
     "id": "habitat_for_humanity_of_grayson_county_4",
@@ -11616,7 +11635,11 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "education",
+      "environment",
+      "community"
+    ]
   },
   {
     "id": "keep_garland_beautiful_0",
@@ -11897,7 +11920,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "environment",
+      "community"
+    ]
   },
   {
     "id": "keep_rowlett_beautiful_2",
@@ -13624,7 +13650,10 @@
     ],
     "apply_url": null,
     "apply_instructions": "Contact the Volunteer Program Manager at volunteer@thenetwork.org.",
-    "unified_tags": [],
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
     "qc": {
       "status": "passed",
       "category": null,
@@ -13954,7 +13983,11 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "education",
+      "health",
+      "community"
+    ]
   },
   {
     "id": "new_friends_new_life_5",
@@ -14156,7 +14189,11 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "food_security",
+      "community",
+      "environment"
+    ]
   },
   {
     "id": "north_texas_food_bank_6",
@@ -16561,7 +16598,9 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "southwestern_adventist_university_3",
@@ -16961,7 +17000,9 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "st_philip_s_school_and_community_center_2",
@@ -17043,7 +17084,11 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "children",
+      "community",
+      "education"
+    ]
   },
   {
     "id": "st_philip_s_school_and_community_center_1",
@@ -17199,7 +17244,9 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "streetside_showers_2",
@@ -18365,7 +18412,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "environment",
+      "community"
+    ]
   },
   {
     "id": "the_oak_cliff_veggie_project_0",
@@ -20264,7 +20314,9 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "health"
+    ]
   },
   {
     "id": "visiting_nurse_association_of_texas_6",
@@ -20463,7 +20515,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "children",
+      "community"
+    ]
   },
   {
     "id": "vogel_where_children_soar_1",
@@ -20583,7 +20638,9 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "weatherford_wags_2",
