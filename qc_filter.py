@@ -156,10 +156,14 @@ def _normalize(text):
 
 
 def _dedup_key(rec):
+    # description_short (the truncated teaser actually shown on cards) is far
+    # more stable across true duplicates than description_long — the full text
+    # sometimes carries trivial noise (a phone number appended, a stray line)
+    # that breaks an exact match even when the posting is otherwise identical.
     return (
         _normalize(rec.get("org_name")),
         _normalize(rec.get("opportunity_title")),
-        _normalize(rec.get("description_long") or rec.get("description_short")),
+        _normalize(rec.get("description_short") or rec.get("description_long")),
     )
 
 
@@ -175,8 +179,11 @@ def _schedule_signal(rec):
 
 def _completeness(rec):
     """Rough proxy for 'most complete record' — used to pick which duplicate
-    to keep. Empty dicts/lists/strings don't count as populated."""
-    return sum(1 for v in rec.values() if v not in (None, "", [], {}))
+    to keep. Empty dicts/lists/strings don't count as populated. Excludes
+    `qc` itself — it's only ever set on rejected copies, never the keeper, so
+    counting it would let a rejected record out-score the keeper on a later
+    re-run and flip which copy survives."""
+    return sum(1 for k, v in rec.items() if k != "qc" and v not in (None, "", [], {}))
 
 
 def dedupe_records(records, now):
