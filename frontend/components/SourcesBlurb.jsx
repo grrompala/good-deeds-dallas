@@ -3,7 +3,7 @@
 
 import { sourceInfo } from './SourceBox'
 
-const SOURCES = ['volunteergarland', 'volunteermckinney', 'voly_dallas', 'idealist']
+const SOURCES = ['volunteergarland', 'volunteermckinney', 'voly_dallas', 'idealist', 'curated']
 
 export default function SourcesBlurb() {
   return (
@@ -19,15 +19,19 @@ export default function SourcesBlurb() {
             <li key={s} className="flex items-start gap-2.5 text-sm leading-relaxed">
               <span className={`mt-1.5 h-2 w-2 rounded-full shrink-0 ${info.dot}`} aria-hidden />
               <span>
-                <a
-                  href={info.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="font-semibold text-ink hover:text-brand transition-colors"
-                >
-                  {info.fullName}
-                </a>
-                <span className="text-muted font-mono text-xs ml-1.5">({info.domain})</span>
+                {info.url ? (
+                  <a
+                    href={info.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="font-semibold text-ink hover:text-brand transition-colors"
+                  >
+                    {info.fullName}
+                  </a>
+                ) : (
+                  <span className="font-semibold text-ink">{info.fullName}</span>
+                )}
+                {info.domain && <span className="text-muted font-mono text-xs ml-1.5">({info.domain})</span>}
                 <span className="block sm:inline sm:ml-2 text-inkSoft">— {info.summary}</span>
               </span>
             </li>

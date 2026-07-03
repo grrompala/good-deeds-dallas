@@ -18,7 +18,7 @@ export default function CommunityPanel({ posts, compact = false, onExpand }) {
 
   return (
     <SectionShell
-      title="Chatter"
+      title="Reddit Threads"
       subtitle="Volunteer talk pulled from local subreddits."
       count={`${filtered.length} posts`}
       compact={compact}

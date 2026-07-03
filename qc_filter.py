@@ -1,19 +1,27 @@
 """
-LLM quality-control filter for volunteer opportunities.
+Quality-control filter for volunteer opportunities: a rule-based duplicate
+check plus an LLM judge of real-opportunity content.
 
-Reads a volops_*.json file (default: the curated set) and asks an LLM to judge
-each opportunity: is this an ACTUAL volunteer opportunity — a person donating
-their time in a concrete role — or something that slipped through (a race you
-run in, a paid internship, a pickleball tournament, a donation drive, printable
-kids' activities, etc.)?
+Two independent passes, always in this order:
+  1. Dedup (rule-based, free, no API key): groups records within one file by
+     (org, title, description). If a group has no distinguishing schedule
+     (an actual date, or specific days/times), all but the most complete copy
+     are rejected as duplicates. Idealist re-posts the same base opportunity
+     once per shift instance with identical text, which is what this targets.
+  2. Content judge (LLM, default: curated set): is this an ACTUAL volunteer
+     opportunity — a person donating their time in a concrete role — or
+     something that slipped through (a race you run in, a paid internship, a
+     pickleball tournament, a donation drive, printable kids' activities,
+     etc.)? Skip this pass with --dedupe-only.
 
 It's NON-DESTRUCTIVE and auditable:
   - stamps each record with a `qc` block (status / category / reason / model),
-  - writes every rejection to qc_rejected.json for you to skim,
+  - writes every rejection to a per-file log for you to skim (qc_rejected.json
+    for the curated set, qc_rejected_<name>.json for anything else),
   - respects qc_overrides.json ({ "<id>": "keep" | "reject" }) so you can
     correct the model,
   - is incremental: only checks records without a `qc` stamp (use --recheck to
-    redo all).
+    redo all) — dedup re-groups fresh every run regardless (it's free).
 
 The frontend hides records whose qc.status == "rejected".
 
@@ -23,10 +31,12 @@ Usage:
     python qc_filter.py --model gpt-4o                   # smarter model
     python qc_filter.py --file frontend/public/data/volops_voly.json
     python qc_filter.py --recheck                        # re-judge everything
+    python qc_filter.py --file frontend/public/data/volops_idealist.json --dedupe-only
 """
 
 import os
 import json
+import re
 import time
 import argparse
 from datetime import datetime, timezone
@@ -36,11 +46,22 @@ from dotenv import load_dotenv
 load_dotenv()
 
 DEFAULT_FILE = Path("frontend/public/data/volops_curated.json")
-REJECT_LOG = Path("qc_rejected.json")
+REJECT_LOG = Path("qc_rejected.json")   # curated's log — kept under its original name
 OVERRIDES = Path("qc_overrides.json")
 BATCH_SIZE = 10
 DELAY = 1.0
 MAX_DESC_CHARS = 700  # cap each opportunity's text to bound tokens
+
+
+def reject_log_path(source_path: Path) -> Path:
+    """Each reviewed file gets its own rejection log so running this against a
+    second file (e.g. Idealist) can't clobber another file's log — REJECT_LOG
+    stays as the name for curated specifically since that's its existing,
+    already-committed history."""
+    if source_path.resolve() == DEFAULT_FILE.resolve():
+        return REJECT_LOG
+    stem = source_path.stem.removeprefix("volops_")
+    return Path(f"qc_rejected_{stem}.json")
 
 # ── The rubric (STRICT) ──────────────────────────────────────────────────────
 RUBRIC = """\
@@ -124,6 +145,73 @@ def compact(rec):
     }
 
 
+# ── Deduplication (rule-based, no LLM) ───────────────────────────────────────
+# Idealist in particular re-posts the same base opportunity many times (one
+# copy per shift instance) with identical org/title/description and only the
+# tag order shuffled. Unless there's an actual distinguishing schedule (a real
+# date, or specific days/times), those are noise — keep one, reject the rest.
+
+def _normalize(text):
+    return re.sub(r"\s+", " ", (text or "").strip().lower())
+
+
+def _dedup_key(rec):
+    return (
+        _normalize(rec.get("org_name")),
+        _normalize(rec.get("opportunity_title")),
+        _normalize(rec.get("description_long") or rec.get("description_short")),
+    )
+
+
+def _schedule_signal(rec):
+    """A schedule value worth distinguishing duplicates by, or None."""
+    sched = rec.get("schedule") or {}
+    for key in ("date", "raw"):
+        val = _normalize(sched.get(key))
+        if val:
+            return val
+    return None
+
+
+def _completeness(rec):
+    """Rough proxy for 'most complete record' — used to pick which duplicate
+    to keep. Empty dicts/lists/strings don't count as populated."""
+    return sum(1 for v in rec.values() if v not in (None, "", [], {}))
+
+
+def dedupe_records(records, now):
+    """Group active records by (org, title, description). Within a group with
+    no distinguishing schedule signal, keep the most complete record and stamp
+    the rest qc.status=rejected / category=duplicate. Returns count rejected."""
+    groups = {}
+    for rec in records:
+        if rec.get("status") == "inactive":
+            continue
+        groups.setdefault(_dedup_key(rec), []).append(rec)
+
+    rejected = 0
+    for group in groups.values():
+        if len(group) < 2:
+            continue
+        signals = {_schedule_signal(r) for r in group} - {None}
+        if len(signals) > 1:
+            continue  # genuinely different scheduled instances — keep all
+
+        keeper = max(group, key=_completeness)
+        for rec in group:
+            if rec is keeper:
+                continue
+            rec["qc"] = {
+                "status": "rejected",
+                "category": "duplicate",
+                "reason": f"duplicate of {keeper.get('id')} — same org/title/description, no distinguishing schedule",
+                "model": "dedup-rule",
+                "checked_at": now,
+            }
+            rejected += 1
+    return rejected
+
+
 def parse_json(raw):
     if raw.startswith("```"):
         raw = raw.split("```")[1]
@@ -153,50 +241,62 @@ def main():
     ap.add_argument("--model", default=os.environ.get("QC_MODEL", "gpt-4o-mini"))
     ap.add_argument("--recheck", action="store_true", help="re-judge records that already have a qc stamp")
     ap.add_argument("--batch-size", type=int, default=BATCH_SIZE)
+    ap.add_argument("--dedupe-only", action="store_true",
+                    help="only run the rule-based duplicate check (no LLM, no API key needed) "
+                         "and skip the real-opportunity content judge")
     args = ap.parse_args()
 
     path = Path(args.file)
     records = json.load(open(path, encoding="utf-8"))
-    client = make_client(args.provider)
 
     overrides = {}
     if OVERRIDES.exists():
         overrides = json.load(open(OVERRIDES, encoding="utf-8"))
 
-    # Pick records to judge: active, no qc stamp yet (unless --recheck).
-    todo = [
-        r for r in records
-        if r.get("status") != "inactive"
-        and r.get("id") not in overrides
-        and (args.recheck or "qc" not in r)
-    ]
-    print(f"{len(records)} records · judging {len(todo)} with {args.provider}/{args.model} "
-          f"(strict). Overrides: {len(overrides)}.\n")
-
     now = datetime.now(timezone.utc).isoformat()
     by_id = {r.get("id"): r for r in records}
     rejected_this_run = 0
 
-    for i in range(0, len(todo), args.batch_size):
-        batch = todo[i:i + args.batch_size]
-        verdicts = judge_batch(client, args.provider, args.model, batch)
-        for r in batch:
-            v = verdicts.get(r.get("id"))
-            if not v:
-                continue  # leave unstamped; a later run retries it
-            reject = str(v.get("verdict", "")).lower() == "reject"
-            r["qc"] = {
-                "status": "rejected" if reject else "passed",
-                "category": v.get("category") if reject else None,
-                "reason": (v.get("reason") or "")[:200],
-                "model": args.model,
-                "checked_at": now,
-            }
-            if reject:
-                rejected_this_run += 1
-                print(f"  REJECT [{v.get('category')}] {r.get('org_name')}: {r.get('opportunity_title')}")
-        print(f"  ...{min(i + args.batch_size, len(todo))}/{len(todo)}")
-        time.sleep(DELAY)
+    # Rule-based duplicate check always runs first — it's free and catches the
+    # same-posting-repeated-N-times noise (Idealist's biggest offender) before
+    # any LLM content judging happens.
+    dupes_rejected = dedupe_records(records, now)
+    print(f"Dedup: {dupes_rejected} record(s) rejected as duplicates.\n")
+    rejected_this_run += dupes_rejected
+
+    if not args.dedupe_only:
+        client = make_client(args.provider)
+
+        # Pick records to judge: active, no qc stamp yet (unless --recheck).
+        todo = [
+            r for r in records
+            if r.get("status") != "inactive"
+            and r.get("id") not in overrides
+            and (args.recheck or "qc" not in r)
+        ]
+        print(f"{len(records)} records · judging {len(todo)} with {args.provider}/{args.model} "
+              f"(strict). Overrides: {len(overrides)}.\n")
+
+        for i in range(0, len(todo), args.batch_size):
+            batch = todo[i:i + args.batch_size]
+            verdicts = judge_batch(client, args.provider, args.model, batch)
+            for r in batch:
+                v = verdicts.get(r.get("id"))
+                if not v:
+                    continue  # leave unstamped; a later run retries it
+                reject = str(v.get("verdict", "")).lower() == "reject"
+                r["qc"] = {
+                    "status": "rejected" if reject else "passed",
+                    "category": v.get("category") if reject else None,
+                    "reason": (v.get("reason") or "")[:200],
+                    "model": args.model,
+                    "checked_at": now,
+                }
+                if reject:
+                    rejected_this_run += 1
+                    print(f"  REJECT [{v.get('category')}] {r.get('org_name')}: {r.get('opportunity_title')}")
+            print(f"  ...{min(i + args.batch_size, len(todo))}/{len(todo)}")
+            time.sleep(DELAY)
 
     # Apply manual overrides on top (always win).
     for oid, decision in overrides.items():
@@ -213,7 +313,8 @@ def main():
     # Write the file back (in place).
     json.dump(records, open(path, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
 
-    # Rebuild the rejection audit log from the full current state.
+    # Rebuild this file's rejection audit log from its full current state.
+    reject_log = reject_log_path(path)
     rejected = [
         {
             "id": r.get("id"),
@@ -226,12 +327,12 @@ def main():
         for r in records
         if r.get("qc", {}).get("status") == "rejected"
     ]
-    json.dump(rejected, open(REJECT_LOG, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+    json.dump(rejected, open(reject_log, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
 
     passed = sum(1 for r in records if r.get("qc", {}).get("status") == "passed")
     print(f"\nDone. {rejected_this_run} new rejects this run.")
     print(f"Totals — passed: {passed} · rejected: {len(rejected)} "
-          f"(logged to {REJECT_LOG}). Reviewed file: {path}")
+          f"(logged to {reject_log}). Reviewed file: {path}")
     print("To correct a call, add its id to qc_overrides.json as "
           '{"<id>": "keep"} or {"<id>": "reject"} and re-run.')
 

@@ -254,6 +254,15 @@ def parse_detail(soup: BeautifulSoup, opp_id: int) -> dict:
                    full_text, re.I)
     time_str = tm.group(0) if tm else None
 
+    # Flexible/recurring opportunities show a "Click Here For Dates" link (the
+    # calendar-icon date next to it is just today's date / a placeholder, not
+    # a real fixed date). One-time events instead show a direct "Sign Up" link.
+    # Confirmed by diffing both link types across live detail pages.
+    is_recurring = any(
+        "click here for dates" in a.get_text(strip=True).lower()
+        for a in soup.find_all("a")
+    )
+
     # ── Address parsing ───────────────────────────────────────────────────────
     # Detail pages typically show the full street address; the listing card only
     # has city + state. Try to find a full street address first, then fall back
@@ -321,10 +330,11 @@ def parse_detail(soup: BeautifulSoup, opp_id: int) -> dict:
         "cause_tags":        cause_tags,
         "is_virtual":        is_virtual,
         "schedule": {
-            "date":     date_str,
-            "time":     time_str,
-            "duration": duration_str,
-            "raw":      " | ".join(filter(None, [date_str, time_str, duration_str])) or None,
+            "date":      date_str,
+            "time":      time_str,
+            "duration":  duration_str,
+            "recurring": is_recurring,
+            "raw":       " | ".join(filter(None, [date_str, time_str, duration_str])) or None,
         },
         "volunteers_needed": volunteers_needed,
         "address": {

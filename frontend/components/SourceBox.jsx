@@ -54,8 +54,8 @@ const SOURCES = {
     dot:         'bg-sky-500',
   },
   curated: {
-    name:        'Curated',
-    fullName:    'Curated nonprofits',
+    name:        'GDD Curated',
+    fullName:    'GDD Curated',
     url:         null,
     domain:      null,
     summary:     'Hand-picked DFW nonprofits whose volunteer pages we extract directly with an LLM.',
@@ -100,7 +100,7 @@ export default function SourceBox({ source }) {
   return (
     <div
       className={`shrink-0 w-16 h-16 sm:w-20 sm:h-20 rounded-xl ${def.bg} ${def.text} border ${def.border} flex items-center justify-center text-center p-1.5`}
-      title={`Source: ${def.name}`}
+      title={`${def.name} — ${def.summary}`}
       aria-label={`Source: ${def.name}`}
     >
       {logo ? (

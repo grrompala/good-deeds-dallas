@@ -154,7 +154,14 @@
     "unified_tags": [
       "community",
       "food_security"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_1bc2a359880d4e2ea4c2232803986083 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_ffc4b442b436483090f9000f106f7b34",
@@ -179,7 +186,14 @@
     "unified_tags": [
       "community",
       "food_security"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_1bc2a359880d4e2ea4c2232803986083 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_211bbe6ac9114ddbbf4b235074fe3333",
@@ -203,7 +217,14 @@
     "last_scraped": "2026-07-03T00:12:34.578815+00:00",
     "unified_tags": [
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_1bc2a359880d4e2ea4c2232803986083 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_23c24566c1a74b9c8d21cbe00cc0f80a",
@@ -756,7 +777,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.587090+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_48de9d5f6993402dabbbaba321fc17f3 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_c8533c328c214a6abe2f84cdd81fa5e7",
@@ -871,7 +899,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.588260+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d1c848578b254456959f7ceaaebc5ce4 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_f3262615e27349d69f3e3cf06509e9cf",
@@ -1142,7 +1177,14 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_c4ec3712a1b647b882d2df37c1550b10 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_02810e718eb24eaba11ea498169bab9b",
@@ -1773,7 +1815,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_17d36df6f93f4b89b3a9de02f64830cd — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_a5ac8594c4e94e958f75bd0e3e725ecb",
@@ -1798,7 +1847,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_17d36df6f93f4b89b3a9de02f64830cd — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_5e38b873fd5c4ab6ab337f695f17f729",
@@ -1823,7 +1879,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_17d36df6f93f4b89b3a9de02f64830cd — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_76c0ff50bfe745d095857914965b96a7",
@@ -1848,7 +1911,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_17d36df6f93f4b89b3a9de02f64830cd — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_10c1aeacae3d423f94b9e320450d192f",
@@ -1976,7 +2046,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_17d36df6f93f4b89b3a9de02f64830cd — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_db2f1ff7b164434298da324a713a6ffc",
@@ -2001,7 +2078,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_17d36df6f93f4b89b3a9de02f64830cd — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_50d2bbd9899c464db9dd8c30b1d26aa3",
@@ -2026,7 +2110,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_17d36df6f93f4b89b3a9de02f64830cd — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_e8181ab63b0549b1a81fc0dd658c9706",
@@ -2051,7 +2142,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_17d36df6f93f4b89b3a9de02f64830cd — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_197d80868e154489a5af7c4d568b14f5",
@@ -2077,7 +2175,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_17d36df6f93f4b89b3a9de02f64830cd — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_ec273ef3a5c447eaafb99207307a8972",
@@ -2102,7 +2207,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_17d36df6f93f4b89b3a9de02f64830cd — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_12bd0aede145477095a024b7924a75ac",
@@ -2128,7 +2240,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_17d36df6f93f4b89b3a9de02f64830cd — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_3eab6771aa7e43968a65b432b149da38",
@@ -2154,7 +2273,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_17d36df6f93f4b89b3a9de02f64830cd — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_b49cae87586346e6831e981758f6ac0c",
@@ -2815,7 +2941,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_6f7134382f6047a0861f5ae909b589e6 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_6aec19c9c84b4434abaa3118864e2b37",
@@ -2868,7 +3001,14 @@
       "seniors",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_6f7134382f6047a0861f5ae909b589e6 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_a51706abd44b4a7abfc8efc7b02b26fd",
@@ -2946,7 +3086,14 @@
       "seniors",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_24a140c85be341af929dca977f53668d — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_1478e5ddb5c64ed6a9fe63bbadf80014",
@@ -3056,7 +3203,14 @@
       "children",
       "health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_8fcc4db3d2fd4b6ca1647f1b22188345 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_8e2e9d1b8f7543bca93be10dd391ff24",
@@ -3084,7 +3238,14 @@
       "children",
       "health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_8fcc4db3d2fd4b6ca1647f1b22188345 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_0cf0d94cd35945fd962e4abc3c88dc38",
@@ -3367,7 +3528,14 @@
       "seniors",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_c8125d9e3d844792a848f54db4984371 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_2c0ff6c30c574314bc2d0950e6d6ddb4",
@@ -3594,7 +3762,14 @@
     "unified_tags": [
       "mental_health",
       "crisis_support"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_121c3a6f95494603972d0689e06104ed — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_2e85a2a14b1348e2a57a087c2e1962b5",
@@ -3620,7 +3795,14 @@
       "seniors",
       "mental_health",
       "crisis_support"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_121c3a6f95494603972d0689e06104ed — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_7eb496c47b304e6b8820eae415598d47",
@@ -3645,7 +3827,14 @@
     "unified_tags": [
       "mental_health",
       "crisis_support"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_121c3a6f95494603972d0689e06104ed — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_87563db469234e448f14ad7d3d3e8c06",
@@ -4351,7 +4540,14 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d6998a9fb4ce43b7978ecb818ecf382c — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_3863b21bbfce4d0e8527c5c037dfa2a6",
@@ -4377,7 +4573,14 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d6998a9fb4ce43b7978ecb818ecf382c — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_5d1849f8a20143bd9dacb9901d040751",
@@ -4402,7 +4605,14 @@
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d6998a9fb4ce43b7978ecb818ecf382c — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_2800a9632f9d44cc985626cf58a150ea",
@@ -4428,7 +4638,14 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d6998a9fb4ce43b7978ecb818ecf382c — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_06434a4541754b4293bba147acdd1a73",
@@ -4454,7 +4671,14 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d6998a9fb4ce43b7978ecb818ecf382c — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_543b63b0ec24445fa9dd6bba2f1c3582",
@@ -4480,7 +4704,14 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d6998a9fb4ce43b7978ecb818ecf382c — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_09828e77cb0e4a8b8500c79520896176",
@@ -4505,7 +4736,14 @@
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d6998a9fb4ce43b7978ecb818ecf382c — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_b725c8e6b4544cee93778aaf3fa926a3",
@@ -4531,7 +4769,14 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d6998a9fb4ce43b7978ecb818ecf382c — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_e0790ddd93504c0dad7b19c93db75e01",
@@ -4556,7 +4801,14 @@
     "unified_tags": [
       "children",
       "education"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d6998a9fb4ce43b7978ecb818ecf382c — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_bf7cf1acd7904fb9890bac7e7918f655",
@@ -4802,7 +5054,14 @@
       "health",
       "community",
       "arts"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_f8c37951f9eb4ca79dd50efc067c213f — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_6ef5d83f914e4cb5891e6f52e438d3f6",
@@ -5085,7 +5344,14 @@
     "last_scraped": "2026-07-03T00:12:34.577113+00:00",
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_75c4ef733a00475cb6c54337f0d478ac — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_fa5204e3bea0404b946443ceced48c47",
@@ -6262,7 +6528,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_6fe12cde0404484ba0f2bc2b43ef6c9b — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_19e52bdeacc74e33b338b8891432a6b3",
@@ -6315,7 +6588,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_19e52bdeacc74e33b338b8891432a6b3 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_646f5533ad1f4abc9f9cce50ae119368",
@@ -6368,7 +6648,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_646f5533ad1f4abc9f9cce50ae119368 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_5b01023852d94bfbb79db51245bb646e",
@@ -7035,7 +7322,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.577807+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_566cb972054d4e789fee73336d4e75f4",
@@ -7057,7 +7351,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.577821+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_128ad1854d6f414ca2c8aea39e04e34f",
@@ -7079,7 +7380,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.578282+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_25bf8d5139884fa8a3819a0fc1d126cc",
@@ -7126,7 +7434,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.578628+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_abda698efbb84311bd59d453781c0f84",
@@ -7148,7 +7463,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.579024+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_ca0fba4e2d5f4226a59081941bc74c59",
@@ -7170,7 +7492,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.579336+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_df3f07cfdd69424593ebe6dc69dc83fb",
@@ -7192,7 +7521,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.579679+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_fe3faa5307bb4c41bfbb4900cc64bdc8",
@@ -7214,7 +7550,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.579691+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_1ea1895d6ca948edb5a7d60192bb81c8",
@@ -7236,7 +7579,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.580038+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_e0b148c37c9a438394a6780c00d42152",
@@ -7261,7 +7611,14 @@
     "unified_tags": [
       "health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_615e0764633f49e7bd1e852bc3e2e1f0",
@@ -7283,7 +7640,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.580673+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_1af5f31e07e24753a81854296aadd12a",
@@ -7327,7 +7691,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.576691+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_60ed7948c48e4e3d9257a3a8663ec002",
@@ -7349,7 +7720,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.576646+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_b448a1fad99541a1a8b5fff26db83f64",
@@ -7371,7 +7749,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.576677+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_f90ed860407c4565a384aee7591a0dfd",
@@ -7393,7 +7778,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.576632+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_64b0aaa5f4ce49fea26e1ace05526c12",
@@ -7437,7 +7829,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.577020+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_97e04da6564941f1980f2efd9d5b773a",
@@ -7462,7 +7861,14 @@
     "unified_tags": [
       "health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_19a26b898b5f4db38aa3d7f244d6a21f",
@@ -7484,7 +7890,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.577386+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_25bf8d5139884fa8a3819a0fc1d126cc — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_46ff242a2e9d493f99eb6d9ddeab7ebf",
@@ -7558,7 +7971,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b9e5a722c99f4c618fb44d43fd736918 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_e9e49db972c149969d6a6f5fcfd60e2a",
@@ -7584,7 +8004,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b9e5a722c99f4c618fb44d43fd736918 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_dc2598c644324562abaf51b101a4d593",
@@ -7610,7 +8037,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b9e5a722c99f4c618fb44d43fd736918 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_418fdb5dfc2c49109adb356dd82c5686",
@@ -7636,7 +8070,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b9e5a722c99f4c618fb44d43fd736918 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_ebfb5873897d4fb693c546bf212a7233",
@@ -7661,7 +8102,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b9e5a722c99f4c618fb44d43fd736918 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_c29509b2cf014cf9a9adfb601d25ce73",
@@ -7687,7 +8135,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b9e5a722c99f4c618fb44d43fd736918 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_1c4fe34e7c2642179e7c93e35664f36d",
@@ -7713,7 +8168,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b9e5a722c99f4c618fb44d43fd736918 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_d1d28c0cd45a44ce9917c888d1a80a4b",
@@ -7739,7 +8201,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b9e5a722c99f4c618fb44d43fd736918 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_ee7d3384e9694dacb17aea95f0a561ca",
@@ -7765,7 +8234,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b9e5a722c99f4c618fb44d43fd736918 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_c949ed2e6f654117afc0bd934a2d6cd3",
@@ -7791,7 +8267,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b9e5a722c99f4c618fb44d43fd736918 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_c4d0df2ee9614365a4ee60f2859243f1",
@@ -7817,7 +8300,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b9e5a722c99f4c618fb44d43fd736918 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_5410af3c753c486c828f9e99880922d0",
@@ -7843,7 +8333,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b9e5a722c99f4c618fb44d43fd736918 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_29604d15013f4958a523c9fe8e6c8e53",
@@ -7895,7 +8392,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b9e5a722c99f4c618fb44d43fd736918 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_bd3b1a5dd1bb48f986db6acedb560b86",
@@ -7921,7 +8425,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b9e5a722c99f4c618fb44d43fd736918 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_3781ec4ae01f4d7e80623ca78ad1062c",
@@ -7947,7 +8458,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b9e5a722c99f4c618fb44d43fd736918 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_73acb3d3cb104584991bf548a463468d",
@@ -7999,7 +8517,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b9e5a722c99f4c618fb44d43fd736918 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_731058e67cb84c4d9a7b661f1aab24a5",
@@ -8025,7 +8550,14 @@
       "seniors",
       "community",
       "health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b9e5a722c99f4c618fb44d43fd736918 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_97120ce500ce4999a8c898fd9b11b504",
@@ -8443,7 +8975,14 @@
       "health",
       "mental_health",
       "crisis_support"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_c480667df1db40aca34cff544c876c0c — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_b0af7bb7a89c4cbb84039e93289a7567",
@@ -9067,7 +9606,14 @@
     "unified_tags": [
       "environment",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_1c64b21cc35b4e3f946a0695aba3ed56 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_b0053d8731274c2495b5cbf3b1d293b0",
@@ -9435,7 +9981,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.582481+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_c23ca3eac981419b929955a8c0a91366 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_b2b280d236fc4110bbde1cc70ad4e13d",
@@ -9479,7 +10032,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.583428+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b2b280d236fc4110bbde1cc70ad4e13d — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_848ec27f83664448af8330a22d9c8819",
@@ -10205,7 +10765,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.587841+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_e5b60ff9ac1447898f6e6026a7495c7d — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_88662ea9d7394346a1fb50d9b1ace917",
@@ -10550,7 +11117,14 @@
     "unified_tags": [
       "health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_1c2b5774808b40479fd84dbd66f64982 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_848ad08db08f41a5bfe017e80e4e92c2",
@@ -10669,7 +11243,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.586954+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_f32e72ef28d74e3393ef9dacce78f0ff — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_e59b6789e4b64c919b4b12aeaa2ff203",
@@ -10766,7 +11347,14 @@
       "seniors",
       "health",
       "mental_health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_75a800b887ea4b4d8ed9e78871d109ce — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_10e63d9d971448959a39a0ddbb6f0b40",
@@ -10793,7 +11381,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_75a800b887ea4b4d8ed9e78871d109ce — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_5c950170919c428e9bd3c4c7e4fe2ea8",
@@ -11109,7 +11704,14 @@
       "seniors",
       "health",
       "mental_health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_a79d26ec1cf94d6ba632140d6f2551f5 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_41cef097677e4fd5884c5b2689ea1a7e",
@@ -11203,7 +11805,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.582106+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_47a015d96d7c4eeb82d970055a491265 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_ae628ecd34d24e51b09001753d86d5bf",
@@ -11225,7 +11834,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.582117+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_47a015d96d7c4eeb82d970055a491265 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_2299f3967cc84814b92a104476ed15bb",
@@ -11505,7 +12121,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_173d4281028b4d8185029826074f5675 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_b1ba1c8ffdbe4161bea138504149315e",
@@ -11625,7 +12248,14 @@
     "last_scraped": "2026-07-03T00:12:34.579948+00:00",
     "unified_tags": [
       "crisis_support"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d9d6f55d35b54edb985685043c22067d — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_ffc5600180cd41e393c1e354e0f2448a",
@@ -13323,7 +13953,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_9be418347f9948548707513b1793dd43 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_20f917586b864cdca33f5ab0f148d7b6",
@@ -13487,7 +14124,14 @@
       "seniors",
       "health",
       "mental_health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_bd1fd690bd9541aba3504f1005658933 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_6c9caf312cfa47fbb61ec7cc841ca148",
@@ -13515,7 +14159,14 @@
       "seniors",
       "health",
       "mental_health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_bd1fd690bd9541aba3504f1005658933 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_00d29de8db894543aa3460627c8b269e",
@@ -13658,7 +14309,14 @@
       "seniors",
       "health",
       "mental_health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d8132053e419495196077073ed5071b0 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_435ef4bec15344b4831bab4c6aeba546",
@@ -13684,7 +14342,14 @@
       "seniors",
       "health",
       "mental_health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d8132053e419495196077073ed5071b0 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_b702337b4d7941db9dcd1d75486877fd",
@@ -13776,7 +14441,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.586424+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_6cbd283801a340b4a2481b49d6b6701b — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_75be3ff6c02a4cb088830f36fb749685",
@@ -13830,7 +14502,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_75be3ff6c02a4cb088830f36fb749685 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_7448ab34717544339e98849dbd64e9e4",
@@ -13960,7 +14639,14 @@
       "seniors",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_694c191f95ab4fb19baa04a7a592857a — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_8ff085aebf37474a9e9eabc3fd92a8f5",
@@ -14136,7 +14822,14 @@
       "animals",
       "health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_fa8f79e701244cc3807159151c48347b — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_8419daf8e0714f4486b0a80a9459ee88",
@@ -14315,7 +15008,14 @@
       "veterans",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_e0d1237fdcdc46c18a8617c6770b8249 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_4a6c2aa019d840af89374a28b27e1f4b",
@@ -14447,7 +15147,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_a59201c9d56442d2a8885d551600ed04 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_e3c395fc9a584caaba98b7c2b7430f98",
@@ -14811,7 +15518,14 @@
     "unified_tags": [
       "seniors",
       "mental_health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d61be867f42a452eb6066397f2c46c4a — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_0ae59ced0e1a4772b8f0f3d8eb858c83",
@@ -14838,7 +15552,14 @@
       "health",
       "education",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d61be867f42a452eb6066397f2c46c4a — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_4cf6a1e4d5c14b76ba60026559f8a49e",
@@ -14919,7 +15640,14 @@
       "health",
       "community",
       "mental_health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_72a438bfb97c43feb85055802e48e037 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_93cdbbf1118e4d6e9d292ce8577d474b",
@@ -15050,7 +15778,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.587316+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_65e83a01e4994283ba3e51c92b007324 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_e350903e1c2b4875aed45c1f3d85c321",
@@ -15075,7 +15810,14 @@
     "unified_tags": [
       "health",
       "mental_health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_65e83a01e4994283ba3e51c92b007324 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_028c0a3ee6e9427098a8dd0373458d98",
@@ -15101,7 +15843,14 @@
       "health",
       "mental_health",
       "seniors"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_65e83a01e4994283ba3e51c92b007324 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_4e95e23713694826bc568bea6280c474",
@@ -15762,7 +16511,14 @@
       "seniors",
       "health",
       "mental_health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_641d9979c69748f2a8ba39326043d230 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_f350941232f84173894ccf6ab11ffb47",
@@ -15814,7 +16570,14 @@
       "seniors",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_f350941232f84173894ccf6ab11ffb47 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_ce7c01f3eccb4517b130c8143bc12d1a",
@@ -15893,7 +16656,14 @@
       "seniors",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_f350941232f84173894ccf6ab11ffb47 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_1197b19f092f48bc95875c6db910d153",
@@ -16394,7 +17164,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.579960+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_91b4436fb2a044fab7978714c7f9f84d — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_91b4436fb2a044fab7978714c7f9f84d",
@@ -16816,7 +17593,14 @@
     "unified_tags": [
       "crisis_support",
       "legal"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_6a09b05fed00452380bb6e010682af23 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_45cd44bb5b744f7d91603d56e7b14c33",
@@ -16869,7 +17653,14 @@
       "health",
       "mental_health",
       "crisis_support"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_45cd44bb5b744f7d91603d56e7b14c33 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_155c91f32e674d3695dd3c35a79be1ab",
@@ -16997,7 +17788,14 @@
       "seniors",
       "health",
       "mental_health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_8aebe5deea3e4d7da1f3bf5e850b334a — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_c232c2d0a58c4f2f8912d7d26dcebab3",
@@ -17077,7 +17875,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_3786c0ea00314b23beaaf36ca9dced96 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_acab093af07549998e0db03c6930c4e6",
@@ -17346,7 +18151,14 @@
       "health",
       "community",
       "mental_health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_3786c0ea00314b23beaaf36ca9dced96 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_723f60a753f243d38aff1e291b458c49",
@@ -17555,7 +18367,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.588461+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_5d53b003daac4b3cb721e8a79a89e486 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_5d53b003daac4b3cb721e8a79a89e486",
@@ -17608,7 +18427,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_5d53b003daac4b3cb721e8a79a89e486 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_b7a97e41c8b5440a807e5230a79c27d2",
@@ -17635,7 +18461,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_5d53b003daac4b3cb721e8a79a89e486 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_c1332dbe9b9d467289ee816482a988ba",
@@ -17662,7 +18495,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_5d53b003daac4b3cb721e8a79a89e486 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_c5757d38dddf469f8a350f09cc368c3e",
@@ -17688,7 +18528,14 @@
       "seniors",
       "health",
       "mental_health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_5d53b003daac4b3cb721e8a79a89e486 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_7b93b18d2cd8427686addd644fc425c1",
@@ -17714,7 +18561,14 @@
       "seniors",
       "health",
       "mental_health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_5d53b003daac4b3cb721e8a79a89e486 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_d73085de13554fcabaa45c73497915e0",
@@ -17741,7 +18595,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_5d53b003daac4b3cb721e8a79a89e486 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_ca9f45677bcd49e8915cb53ed7aca71b",
@@ -17795,7 +18656,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_ca9f45677bcd49e8915cb53ed7aca71b — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_6f834ec74f054fdeaba44dfd22021417",
@@ -17821,7 +18689,14 @@
       "seniors",
       "health",
       "mental_health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_5d53b003daac4b3cb721e8a79a89e486 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_ac15022ac9cf47c4b05a4232dae2eaa6",
@@ -18684,7 +19559,14 @@
     "unified_tags": [
       "health",
       "crisis_support"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_6020936c850e4294a1d6b50e0c354d60 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_81a8735f79f14a82a0c1c36c234940c6",
@@ -18828,7 +19710,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.582469+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_4b94ab0e8ab84fea897137a6ff3a2d40 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_9408a4d1e4084ce79ab209f0ca56964f",
@@ -19520,7 +20409,14 @@
     "unified_tags": [
       "environment",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_0342fdec41b149099426bfbab2e09932 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_8827c359cfe34012a7e6d5bb8939ec2b",
@@ -19547,7 +20443,14 @@
     "unified_tags": [
       "environment",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_0342fdec41b149099426bfbab2e09932 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_e55fd886e20a4b4593c03647d2feea0f",
@@ -21353,7 +22256,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.587853+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_aff48a6513d8455fa4c3b015fc6ebcba — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_aff48a6513d8455fa4c3b015fc6ebcba",
@@ -21432,7 +22342,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_363e8ff612cf42ecaf57f8d467ddfc27 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_999d6c0a9f0e41f5890810fa17c1372d",
@@ -21573,7 +22490,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.583666+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_9fb2b4142c524cb3bb3e3e83e70611b2 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_c9682f3e76ac4133b50a622dfcb1a348",
@@ -21725,7 +22649,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_ade9f4460f9a43ac91238e6412ce10cf — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_6173b5fb14f2427788e15e0509633437",
@@ -21805,7 +22736,14 @@
       "health",
       "mental_health",
       "crisis_support"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_33eaea00678e4e19805c5883f3b3605d — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_391cf78b09b3405aa95a5c19c721da66",
@@ -21831,7 +22769,14 @@
       "seniors",
       "health",
       "mental_health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_33eaea00678e4e19805c5883f3b3605d — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_6902fd255bda4522b1a2847a4f3d7ab0",
@@ -21858,7 +22803,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_33eaea00678e4e19805c5883f3b3605d — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_1c2cbaabdab940439228673b43878769",
@@ -21885,7 +22837,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_33eaea00678e4e19805c5883f3b3605d — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_4a2deac09bd34ceb84d82a9f6d4dfc9c",
@@ -21912,7 +22871,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_33eaea00678e4e19805c5883f3b3605d — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_ead27367fbc6423899740b2fdc7a3f94",
@@ -22159,7 +23125,14 @@
       "seniors",
       "health",
       "mental_health"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d3bc0a93dacf4d1d91fd5af4e3b37e7f — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_7f33dd0326d24df2bc397402f3c697b6",
@@ -22186,7 +23159,14 @@
       "health",
       "mental_health",
       "crisis_support"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d3bc0a93dacf4d1d91fd5af4e3b37e7f — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_78d220abfd394352a1f03b181818b78c",
@@ -22790,7 +23770,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.580223+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_9bf87b0ae54b490dbeffc9ef1749a0d4 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_7ff422c2f1414c01a71b1cbd8b3b5ee2",
@@ -22812,7 +23799,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.580404+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_9bf87b0ae54b490dbeffc9ef1749a0d4 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_92a448c3e95443ea825376b3bf39ca89",
@@ -22918,7 +23912,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_e9da2d2176974e179919f94d2883463c — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_f6e8ba71fd6b48e789eeb1a026cc5186",
@@ -23176,7 +24177,14 @@
       "seniors",
       "health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_e61ee6a6e3f84136a83751daa21c25ac — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_b2be4923f55e49c58a74b71eeba22390",
@@ -24965,7 +25973,14 @@
       "seniors",
       "health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_45f74ebdc72241aabbd8a52670b7377e — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_7eb38286e9424f6299b65918a020819e",
@@ -25009,7 +26024,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.582273+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_7eb38286e9424f6299b65918a020819e — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_52daa63170604453bc7383e890957b25",
@@ -25031,7 +26053,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.582284+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_7eb38286e9424f6299b65918a020819e — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_2771149f06024be88fcde847242b9469",
@@ -25053,7 +26082,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.582306+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_7eb38286e9424f6299b65918a020819e — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_6f79c5d354c8402386593461da27f549",
@@ -25097,7 +26133,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.582295+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_6f79c5d354c8402386593461da27f549 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_54a2b0a158bb4c87afc3bdd1eea1f3e9",
@@ -25141,7 +26184,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.587682+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_54a2b0a158bb4c87afc3bdd1eea1f3e9 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_c17b20797b0e49428444b44396caa952",
@@ -25163,7 +26213,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.587693+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_54a2b0a158bb4c87afc3bdd1eea1f3e9 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_5df188662b874ff5acb924460dc591cc",
@@ -25185,7 +26242,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.587704+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_54a2b0a158bb4c87afc3bdd1eea1f3e9 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_3cb7552b35b24c9e931e8cbb3b5c6746",
@@ -25207,7 +26271,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.587715+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_54a2b0a158bb4c87afc3bdd1eea1f3e9 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_a0893246953842b5b4073d1aad51ece1",
@@ -25229,7 +26300,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.587726+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_54a2b0a158bb4c87afc3bdd1eea1f3e9 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_d372eea85a944fa685f7916f73f1ea60",
@@ -26673,7 +27751,14 @@
     "unified_tags": [
       "crisis_support",
       "veterans"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_b48036e2108149bdaff00db32b75ee8f — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_04d4ff5c01b24c33b343b6311d002362",
@@ -26903,7 +27988,14 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_53a3e90c83524e20b84ac53680699838 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_cc4fb66e9c4d49eea9d7687b319720fe",
@@ -27546,7 +28638,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.578503+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_a420e37e8bf54cf18a8f27044dbb7d9a — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_25ebfdbd482a4e39bbbd2c4b72848f95",
@@ -27786,7 +28885,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_de7eccc02aa645e1994a50a556f6d2d8 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_5f654d74b2e9437b85932c7354750edb",
@@ -27811,7 +28917,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_de7eccc02aa645e1994a50a556f6d2d8 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_d498da5898cb4ad59b7e60ea6bb19d9d",
@@ -27836,7 +28949,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_de7eccc02aa645e1994a50a556f6d2d8 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_37b2b9af048b41a9a003a7019a86f667",
@@ -28442,7 +29562,14 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d2279f8bed7a4341a9846a52c54f5552 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_f1668327640945fdb942d7916566f9b7",
@@ -28470,7 +29597,14 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_d2279f8bed7a4341a9846a52c54f5552 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_cc3f47692dce429ea0b432cefb89e87c",
@@ -29571,7 +30705,14 @@
       "seniors",
       "health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_7420442706824fac9e14dd142067e716 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_507f24ab15b5439ba708879510913288",
@@ -29598,7 +30739,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_7420442706824fac9e14dd142067e716 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_e677fcbb9d5c4d4db35086ddcbe78768",
@@ -29620,7 +30768,14 @@
     },
     "status": "active",
     "last_scraped": "2026-07-03T00:12:34.583340+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_7420442706824fac9e14dd142067e716 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_06ae00389677475084d894e7f65540d0",
@@ -29754,7 +30909,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_5f82ecebf031401f99f4f0c53ba25ae2 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_0ef90945c50b4cfe9db9df7551c40a17",
@@ -29781,7 +30943,14 @@
       "health",
       "community",
       "crisis_support"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_5f82ecebf031401f99f4f0c53ba25ae2 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_0292530fda3242a0a82d79e6ba0b3bfc",
@@ -29835,7 +31004,14 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of idealist_5f82ecebf031401f99f4f0c53ba25ae2 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-03T14:25:31.640592+00:00"
+    }
   },
   {
     "id": "idealist_6ae0a09b308c4bffa8376eb2b53bc1e8",

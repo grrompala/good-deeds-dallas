@@ -8,7 +8,7 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react'
 import CityBadge from './CityBadge'
-import SourceBox, { sourceLabel } from './SourceBox'
+import SourceBox, { sourceLabel, sourceInfo } from './SourceBox'
 import SectionShell from './SectionShell'
 import TagChip from './TagChip'
 import { getTags } from './sanitizeTag'
@@ -17,7 +17,7 @@ import { orgKey } from './orgs'
 
 // Sources that feed this panel — add new ones here and they'll appear as
 // filter pills automatically.
-const SOURCES = ['volunteergarland', 'volunteermckinney', 'voly_dallas', 'idealist']
+const SOURCES = ['volunteergarland', 'volunteermckinney', 'voly_dallas', 'idealist', 'curated']
 
 // How many rows to reveal per "page" as the user scrolls (non-compact only).
 const PAGE_SIZE = 12
@@ -99,7 +99,7 @@ export default function ListingsPanel({ listings, compact = false, onExpand, onS
   return (
     <SectionShell
       title="Opportunities"
-      subtitle={!compact && 'Concrete volunteer shifts and projects from across the Dallas metro.'}
+      subtitle={!compact && 'Volunteer opportunities from across the Dallas metro.'}
       count={`${filtered.length} of ${listings.length}`}
       compact={compact}
       onExpand={onExpand}
@@ -111,7 +111,13 @@ export default function ListingsPanel({ listings, compact = false, onExpand, onS
               All sources
             </SitePill>
             {sourceOptions.slice(1).map(o => (
-              <SitePill key={o.id} active={sources.includes(o.id)} count={o.count} onClick={() => toggle(setSources, o.id)}>
+              <SitePill
+                key={o.id}
+                active={sources.includes(o.id)}
+                count={o.count}
+                title={sourceInfo(o.id)?.summary}
+                onClick={() => toggle(setSources, o.id)}
+              >
                 {o.label}
               </SitePill>
             ))}
@@ -190,10 +196,11 @@ function FilterRow({ label, children }) {
 }
 
 // Plain "site" pill (no icon) — used for Source and "All" buttons
-function SitePill({ children, count, active, onClick }) {
+function SitePill({ children, count, active, onClick, title }) {
   return (
     <button
       onClick={onClick}
+      title={title}
       className={`
         inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium
         border transition-colors whitespace-nowrap
@@ -286,7 +293,7 @@ export function ListingRow({ data, compact, onSelectOrg, onSelectListing }) {
           )}
 
           <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1.5 text-xs text-muted">
-            {schedule?.date     && <Meta icon="calendar">{schedule.date}</Meta>}
+            {schedule?.date && !schedule?.recurring && <Meta icon="calendar">{schedule.date}</Meta>}
             {postedLabel        && <Meta icon="posted">Posted {postedLabel}</Meta>}
             {schedule?.duration && <Meta icon="clock">{schedule.duration}</Meta>}
             {volunteers_needed > 0 && <Meta icon="users">{volunteers_needed.toLocaleString()} needed</Meta>}

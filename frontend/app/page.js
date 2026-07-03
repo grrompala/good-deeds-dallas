@@ -27,7 +27,18 @@ import { buildOrgs }       from '../components/orgs'
 // posts). A listing is dropped only when it names a place with NO Texas signal.
 const TX_SIGNAL = /\bTX\b|\bTexas\b|Dallas|Garland|McKinney|Plano|Irving|Arlington|Fort Worth|Frisco|Richardson|Denton|Carrollton|Mesquite|Allen|Rockwall|Wylie|Addison|Grapevine|Lewisville|Rowlett|Sachse|Murphy|Collin|Tarrant|DFW|Metroplex/i
 
+// Multi-city "roadshow" events (e.g. "Shatterproof Boston Walk") sometimes carry
+// a hardcoded/default TX address even though the event itself is elsewhere —
+// Voly defaults address.state to "TX" whenever it can't parse one, which makes
+// the address-based check above a no-op for these. Catch it from the title
+// instead: an explicit other-city name with no Texas signal in the title is a
+// reliable tell, without needing to trust the (often-wrong) address fields.
+const OTHER_CITY_SIGNAL = /\bBoston\b|\bChicago\b|\bNew York\b|\bNYC\b|\bLos Angeles\b|\bSeattle\b|\bAtlanta\b|\bMiami\b|\bDenver\b|\bPhoenix\b|\bSan Francisco\b|\bPhiladelphia\b|\bPortland\b|\bNashville\b|\bWashington,?\s*D\.?C\.?\b|\bMinneapolis\b|\bDetroit\b|\bBaltimore\b|\bCharlotte\b|\bOrlando\b|\bTampa\b|\bLas Vegas\b|\bSan Diego\b|\bColumbus\b|\bIndianapolis\b/i
+
 function isTexasListing(o) {
+  const title = o.opportunity_title || ''
+  if (OTHER_CITY_SIGNAL.test(title) && !TX_SIGNAL.test(title)) return false
+
   const a = o.address || {}
   const blob = [a.full, a.city, a.state, o.city, o.state].filter(Boolean).join(' ').trim()
   if (!blob) return true            // no location info → keep (ambiguous/remote)
@@ -114,6 +125,13 @@ export default function Home() {
   // Hero stats (unfiltered totals)
   const totalListings = opportunities.length
   const totalOrgCount = useMemo(() => buildOrgs(opportunities).length, [opportunities])
+
+  // Most recent last_scraped across every loaded opportunity — shown in the footer.
+  const lastUpdated = useMemo(() => {
+    const timestamps = opportunities.map(o => o.last_scraped).filter(Boolean)
+    if (!timestamps.length) return null
+    return timestamps.reduce((max, t) => (t > max ? t : max))
+  }, [opportunities])
 
   // Tab counts (filtered)
   const tabCounts = {
@@ -252,6 +270,16 @@ export default function Home() {
             </span>
           </button>
           <div className="text-sm text-muted">
+            {lastUpdated && (
+              <span>
+                Last updated{' '}
+                {new Date(lastUpdated).toLocaleDateString('en-US', {
+                  month: 'short',
+                  day: 'numeric',
+                  year: 'numeric',
+                })}
+              </span>
+            )}
           </div>
         </div>
       </footer>

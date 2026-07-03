@@ -5,7 +5,7 @@
 const TABS = [
   { id: 'listings',      label: 'Opportunities' },
   { id: 'organizations', label: 'Organizations' },
-  { id: 'chatter',       label: 'Chatter' },
+  { id: 'chatter',       label: 'Reddit Threads' },
   { id: 'search',        label: 'Smart Search' },
 ]
 

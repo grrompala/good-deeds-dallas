@@ -20,7 +20,13 @@ const LISTING_FILES = [
 // address shows a DFW/Texas signal, or if it has no parseable location at all.
 const TX_SIGNAL = /\bTX\b|\bTexas\b|Dallas|Garland|McKinney|Plano|Irving|Arlington|Fort Worth|Frisco|Richardson|Denton|Carrollton|Mesquite|Allen|Rockwall|Wylie|Addison|Grapevine|Lewisville|Rowlett|Sachse|Murphy|Collin|Tarrant|DFW|Metroplex/i
 
+// Mirror of the OTHER_CITY_SIGNAL check in app/page.js — see that file for why.
+const OTHER_CITY_SIGNAL = /\bBoston\b|\bChicago\b|\bNew York\b|\bNYC\b|\bLos Angeles\b|\bSeattle\b|\bAtlanta\b|\bMiami\b|\bDenver\b|\bPhoenix\b|\bSan Francisco\b|\bPhiladelphia\b|\bPortland\b|\bNashville\b|\bWashington,?\s*D\.?C\.?\b|\bMinneapolis\b|\bDetroit\b|\bBaltimore\b|\bCharlotte\b|\bOrlando\b|\bTampa\b|\bLas Vegas\b|\bSan Diego\b|\bColumbus\b|\bIndianapolis\b/i
+
 export function isTexasListing(o) {
+  const title = o.opportunity_title || ''
+  if (OTHER_CITY_SIGNAL.test(title) && !TX_SIGNAL.test(title)) return false
+
   const a = o.address || {}
   const blob = [a.full, a.city, a.state, o.city, o.state].filter(Boolean).join(' ').trim()
   if (!blob) return true

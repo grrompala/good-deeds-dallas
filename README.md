@@ -183,25 +183,38 @@ records. The frontend reads `unified_tags` first via `getTags()`
 
 ## QC filter
 
-Garland/McKinney/Voly/Idealist come from platforms where every listing is
-already a real, staffed volunteer role, so they're **trusted as-is** and
-skip QC. `fetch_curated.py` pulls from arbitrary org websites via an LLM
-extraction step, which occasionally surfaces things that aren't real
-volunteer roles (a 5K someone runs in, a donation drive, a paid internship).
-`qc_filter.py` runs an LLM rubric over `volops_curated.json` only, stamping
+`qc_filter.py` runs two independent passes, always in this order, and stamps
 each record with a `qc: { status: "passed" | "rejected", category, reason }`
 block. The frontend and the Smart Search corpus both drop `qc.status ==
 "rejected"` records.
 
-Like the other pipeline steps, it's incremental (only judges records without a
-`qc` stamp; `--recheck` re-judges everything) and correctable: put
-`{"<id>": "keep" | "reject"}` entries in `qc_overrides.json` to override the
-model, then re-run — overrides always win. Rejections are logged to
-`qc_rejected.json` for a quick skim.
+**1. Dedup (rule-based, free, no API key).** Idealist in particular re-posts
+the same base opportunity once per shift instance — identical org/title/
+description, only the tags shuffled. Within a file, records are grouped by
+(org, title, description); a group with no distinguishing schedule (an actual
+date, or specific days/times) gets all but the most complete copy rejected as
+`category: "duplicate"`. Runs fresh every time (it's free) regardless of
+existing `qc` stamps.
+
+**2. Content judge (LLM, curated set only).** Garland/McKinney/Voly/Idealist
+come from platforms where every listing is already a real, staffed volunteer
+role, so they're **trusted as-is** for content and skip this pass. Curated
+pulls from arbitrary org websites via an LLM extraction step, which
+occasionally surfaces things that aren't real volunteer roles (a 5K someone
+runs in, a donation drive, a paid internship) — this pass judges those.
+
+Like the other pipeline steps, the content judge is incremental (only judges
+records without a `qc` stamp; `--recheck` re-judges everything) and
+correctable: put `{"<id>": "keep" | "reject"}` entries in `qc_overrides.json`
+to override the model, then re-run — overrides always win. Rejections are
+logged per-file for a quick skim (`qc_rejected.json` for curated,
+`qc_rejected_<name>.json` for anything else, so running this against a second
+file can't clobber another file's log).
 
 ```powershell
-python qc_filter.py                 # judge new/unstamped curated records
-python qc_filter.py --recheck       # re-judge everything
+python qc_filter.py                                            # dedup + judge curated
+python qc_filter.py --recheck                                  # re-judge everything (curated)
+python qc_filter.py --file frontend/public/data/volops_idealist.json --dedupe-only
 ```
 
 ---
