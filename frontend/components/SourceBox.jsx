@@ -58,7 +58,7 @@ const SOURCES = {
     fullName:    'GDD Curated',
     url:         null,
     domain:      null,
-    summary:     'Hand-picked DFW nonprofits whose volunteer pages we extract directly with an LLM.',
+    summary:     'Local DFW nonprofits we follow directly — organizations whose opportunities don’t appear on the big volunteer portals.',
     short:       ['GDD', 'Curated'],
     bg:          'bg-amber-50',
     text:        'text-amber-700',

@@ -18,7 +18,7 @@ import OrgModal            from '../components/OrgModal'
 import ListingDetailModal  from '../components/ListingDetailModal'
 import AdvancedSearchPanel  from '../components/AdvancedSearchPanel'
 import TagChip             from '../components/TagChip'
-import SourcesBlurb        from '../components/SourcesBlurb'
+import SourcesBlurb, { CONTACT_EMAIL } from '../components/SourcesBlurb'
 import { buildOrgs }       from '../components/orgs'
 
 // Some national sources (e.g. Idealist, Voly) occasionally surface a listing
@@ -269,7 +269,13 @@ export default function Home() {
             
             </span>
           </button>
-          <div className="text-sm text-muted">
+          <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-4 text-sm text-muted">
+            <a
+              href={`mailto:${CONTACT_EMAIL}`}
+              className="hover:text-brand transition-colors"
+            >
+              {CONTACT_EMAIL}
+            </a>
             {lastUpdated && (
               <span>
                 Last updated{' '}
