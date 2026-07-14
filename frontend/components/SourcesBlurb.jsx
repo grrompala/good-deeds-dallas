@@ -68,7 +68,7 @@ export default function SourcesBlurb() {
               Most opportunities are pulled automatically from the volunteer portals
               listed above. <strong className="font-semibold text-ink">GDD Curated</strong>{' '}
               listings come from local nonprofits we follow directly — same idea, just
-              for organizations that don't post to the big portals.
+              for organizations that don't always post to the big portals.
             </span>
           </li>
           <li className="flex items-start gap-2.5">
@@ -82,6 +82,7 @@ export default function SourcesBlurb() {
             </span>
           </li>
         </ul>
+        <br>
         <p className="mt-3 text-sm text-muted leading-relaxed">
           Spot something that looks wrong or out of date? The source link is the
           fastest way to verify — or let us know at{' '}
