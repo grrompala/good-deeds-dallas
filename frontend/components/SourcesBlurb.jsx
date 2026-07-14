@@ -82,7 +82,7 @@ export default function SourcesBlurb() {
             </span>
           </li>
         </ul>
-        <br>
+        <br></br>
         <p className="mt-3 text-sm text-muted leading-relaxed">
           Spot something that looks wrong or out of date? The source link is the
           fastest way to verify — or let us know at{' '}
