@@ -260,13 +260,35 @@ export default function Home() {
       </main>
 
       <footer className="border-t border-line bg-white mt-8">
-        <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10 py-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+        {/* Static browse links: the crawlable path into the server-rendered
+            /volunteer pages (crawlers don't run the JS that loads listings). */}
+        <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10 pt-8 pb-2 text-sm text-muted">
+          <span className="font-semibold text-inkSoft">Browse:</span>{' '}
+          <a href="/volunteer" className="hover:text-brand transition-colors">All opportunities</a>
+          {' · '}
+          <a href="/volunteer/animals" className="hover:text-brand transition-colors">Animals</a>
+          {' · '}
+          <a href="/volunteer/food-security" className="hover:text-brand transition-colors">Food security</a>
+          {' · '}
+          <a href="/volunteer/children" className="hover:text-brand transition-colors">Children</a>
+          {' · '}
+          <a href="/volunteer/seniors" className="hover:text-brand transition-colors">Seniors</a>
+          {' · '}
+          <a href="/volunteer/education" className="hover:text-brand transition-colors">Education</a>
+          {' · '}
+          <a href="/volunteer/in/dallas" className="hover:text-brand transition-colors">Dallas</a>
+          {' · '}
+          <a href="/volunteer/in/garland" className="hover:text-brand transition-colors">Garland</a>
+          {' · '}
+          <a href="/volunteer/in/plano" className="hover:text-brand transition-colors">Plano</a>
+        </div>
+        <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10 py-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
           <button onClick={goHome} className="flex flex-wrap items-center gap-3 hover:opacity-80 transition-opacity">
             <span className="font-display font-extrabold text-ink text-lg">
               Good Deeds <span className="text-brand">Dallas</span>
             </span>
             <span className="text-xs font-mono text-muted uppercase tracking-wider">
-            
+
             </span>
           </button>
           <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-4 text-sm text-muted">

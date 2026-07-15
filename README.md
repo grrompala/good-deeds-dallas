@@ -80,8 +80,14 @@ volunteer_hub/
 │
 └── frontend/                        ← Next.js 15 / React 18 / Tailwind
     ├── app/
-    │   ├── layout.js                ← fonts + page shell + browser title
+    │   ├── layout.js                ← fonts + page shell + site metadata + JSON-LD
     │   ├── page.js                  ← main page; data load, Texas filter, section routing
+    │   ├── robots.js                ← /robots.txt (allows search + AI crawlers, points at sitemap)
+    │   ├── sitemap.js               ← /sitemap.xml (home + all /volunteer pages)
+    │   ├── volunteer/               ← SEO pages: server-rendered browse index,
+    │   │                              /volunteer/[tag] per cause, /volunteer/in/[city]
+    │   │                              per city — full HTML for non-JS crawlers,
+    │   │                              statically rebuilt on every deploy
     │   └── api/chat/route.js        ← Smart Search endpoint (retrieve + LLM)
     ├── components/
     │   ├── Hero.jsx                 ← wordmark + tagline + global search bar
