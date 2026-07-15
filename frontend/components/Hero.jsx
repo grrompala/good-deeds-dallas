@@ -4,7 +4,7 @@
 //
 // To change copy: edit the <h1> and <p> below.
 
-export default function Hero({ search, setSearch, totalOpps, totalOrgs, totalNews, onWordmarkClick }) {
+export default function Hero({ search, setSearch, onWordmarkClick }) {
   return (
     <section className="relative overflow-hidden border-b border-line bg-gradient-to-br from-brandSoft via-white to-accentSoft">
       <div
@@ -63,27 +63,9 @@ export default function Hero({ search, setSearch, totalOpps, totalOrgs, totalNew
               />
             </div>
 
-            {/* Centered while the layout is stacked (mobile/tablet); returns
-                to left-aligned once the search bar sits beside the wordmark. */}
-            <div className="mt-3 flex flex-wrap items-center justify-center lg:justify-start gap-x-4 gap-y-1 text-sm text-muted">
-              <Stat value={totalOpps} label="opportunities" />
-              <span className="text-line">·</span>
-              <Stat value={totalOrgs} label="organizations" />
-              <span className="text-line">·</span>
-              <Stat value={totalNews} label="discussions" />
-            </div>
           </div>
         </div>
       </div>
     </section>
-  )
-}
-
-function Stat({ value, label }) {
-  return (
-    <span className="inline-flex items-baseline gap-1">
-      <span className="font-display font-bold text-ink tabular-nums">{value}</span>
-      <span>{label}</span>
-    </span>
   )
 }

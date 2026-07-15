@@ -1,8 +1,9 @@
-// TabBar — sticky section nav.
-//   • sm and up: one centered row — Home, divider, four tabs.
-//   • below sm: a centered 2×2 grid of the four tabs. The Home button is
-//     absolutely positioned in the left corner, OUTSIDE the flow — every
-//     in-flow variant skewed the grid off the screen's true centerline.
+// TabBar — section nav.
+//   • sm and up: sticky single centered row — Home, divider, four tabs.
+//   • below sm: the tabs stack vertically, full-width and centered — the
+//     only layout that centers cleanly at phone widths. The stacked bar is
+//     NOT sticky (five rows would eat half the viewport while scrolling);
+//     it scrolls away naturally like the hero.
 
 const TABS = [
   { id: 'listings',      label: 'Opportunities' },
@@ -22,41 +23,40 @@ function HomeIcon({ className }) {
 
 export default function TabBar({ active, onChange, counts = {}, onHome }) {
   return (
-    <div className="sticky top-0 z-30 bg-canvas/95 backdrop-blur-md border-b border-line">
+    <div className="sm:sticky sm:top-0 z-30 bg-canvas/95 backdrop-blur-md border-b border-line">
 
-      {/* ── Phone: centered 2×2 grid; Home floats in the corner ──────────── */}
-      <nav className="sm:hidden relative px-12">
+      {/* ── Phone: vertical stack, every row full-width and centered ─────── */}
+      <nav className="sm:hidden flex flex-col gap-0.5 px-4 py-2">
         <button
           onClick={onHome}
-          className="absolute left-2 top-1/2 -translate-y-1/2 p-2.5 text-muted hover:text-ink transition-colors"
+          className="flex items-center justify-center gap-1.5 py-2 rounded-lg text-sm font-medium text-muted"
           aria-label="Return to home"
         >
-          <HomeIcon className="w-5 h-5" />
+          <HomeIcon className="w-4 h-4" />
+          Home
         </button>
 
-        <div className="max-w-xs mx-auto grid grid-cols-2">
-          {TABS.map(tab => (
-            <button
-              key={tab.id}
-              onClick={() => onChange(tab.id)}
-              className={`
-                inline-flex items-center justify-center gap-1.5 px-1 py-2 text-xs font-medium
-                border-b-2 transition-colors whitespace-nowrap
-                ${active === tab.id
-                  ? 'border-brand text-ink'
-                  : 'border-transparent text-muted'
-                }
-              `}
-            >
-              {tab.label}
-              {counts[tab.id] !== undefined && (
-                <span className={`font-mono text-[10px] ${active === tab.id ? 'text-brand' : 'text-subtle'}`}>
-                  {counts[tab.id]}
-                </span>
-              )}
-            </button>
-          ))}
-        </div>
+        {TABS.map(tab => (
+          <button
+            key={tab.id}
+            onClick={() => onChange(tab.id)}
+            className={`
+              flex items-center justify-center gap-2 py-2 rounded-lg text-sm font-medium
+              transition-colors
+              ${active === tab.id
+                ? 'bg-brandSoft text-ink'
+                : 'text-muted'
+              }
+            `}
+          >
+            {tab.label}
+            {counts[tab.id] !== undefined && (
+              <span className={`font-mono text-xs ${active === tab.id ? 'text-brand' : 'text-subtle'}`}>
+                {counts[tab.id]}
+              </span>
+            )}
+          </button>
+        ))}
       </nav>
 
       {/* ── sm and up: one centered row ──────────────────────────────────── */}

@@ -146,10 +146,6 @@ export default function HomeClient({
     [filteredOpps]
   )
 
-  // Hero stats (unfiltered totals)
-  const totalListings = opportunities.length
-  const totalOrgCount = useMemo(() => buildOrgs(opportunities).length, [opportunities])
-
   // Most recent last_scraped across every loaded opportunity — shown in the footer.
   const lastUpdated = useMemo(() => {
     const timestamps = opportunities.map(o => o.last_scraped).filter(Boolean)
@@ -205,9 +201,6 @@ export default function HomeClient({
         search={search}
         setSearch={setSearch}
         onWordmarkClick={goHome}
-        totalOpps={totalListings}
-        totalOrgs={totalOrgCount}
-        totalNews={news.length}
       />
 
       <TabBar
