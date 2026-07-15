@@ -6,23 +6,23 @@
 
 import { tagMeta } from './tagMeta'
 
-export default function TagChip({ id, count, active, onClick, variant = 'chip', size = 'sm' }) {
+export default function TagChip({ id, count, active, onClick, href, variant = 'chip', size = 'sm' }) {
   const m = tagMeta(id)
   const px = size === 'md' ? 'px-3 py-1.5 text-sm' : 'px-2.5 py-1 text-xs'
 
   if (variant === 'filter') {
-    return (
-      <button
-        onClick={onClick}
-        className={`
-          inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium
-          border transition-colors whitespace-nowrap
-          ${active
-            ? 'bg-brand text-white border-brand'
-            : 'bg-white text-inkSoft border-line hover:border-brand/40 hover:text-brand'
-          }
-        `}
-      >
+    // With `href` the chip is a real link (crawlable + navigates); with
+    // `onClick` it's a filter button. Same appearance either way.
+    const className = `
+      inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium
+      border transition-colors whitespace-nowrap
+      ${active
+        ? 'bg-brand text-white border-brand'
+        : 'bg-white text-inkSoft border-line hover:border-brand/40 hover:text-brand'
+      }
+    `
+    const body = (
+      <>
         <span aria-hidden>{m.icon}</span>
         <span>{m.label}</span>
         {count !== undefined && (
@@ -30,6 +30,14 @@ export default function TagChip({ id, count, active, onClick, variant = 'chip', 
             {count}
           </span>
         )}
+      </>
+    )
+    if (href) {
+      return <a href={href} className={className}>{body}</a>
+    }
+    return (
+      <button onClick={onClick} className={className}>
+        {body}
       </button>
     )
   }

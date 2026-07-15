@@ -218,12 +218,14 @@ export default function HomeClient({
       />
 
       <main className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10 py-8 lg:py-12">
-        {loading ? (
+        {/* The empty state needs no data — render it immediately (it's also
+            what puts the /volunteer chip links in the crawlable HTML). */}
+        {isEmpty ? (
+          <EmptyHomeState onOpenSearch={() => handleTabChange('search')} />
+        ) : loading ? (
           <div className="flex justify-center items-center py-32 text-muted">
             <div className="animate-pulse">Loading…</div>
           </div>
-        ) : isEmpty ? (
-          <EmptyHomeState onSuggest={setSearch} onOpenSearch={() => handleTabChange('search')} />
         ) : showSearch ? (
           <AdvancedSearchPanel
             opportunities={opportunities}
@@ -293,28 +295,6 @@ export default function HomeClient({
       </main>
 
       <footer className="border-t border-line bg-white mt-8">
-        {/* Static browse links: the crawlable path into the pre-filtered
-            routes (crawlers don't run the JS that loads listings). */}
-        <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10 pt-8 pb-2 text-sm text-muted">
-          <span className="font-semibold text-inkSoft">Browse:</span>{' '}
-          <a href="/volunteer" className="hover:text-brand transition-colors">All opportunities</a>
-          {' · '}
-          <a href="/volunteer/animals" className="hover:text-brand transition-colors">Animals</a>
-          {' · '}
-          <a href="/volunteer/food-security" className="hover:text-brand transition-colors">Food security</a>
-          {' · '}
-          <a href="/volunteer/children" className="hover:text-brand transition-colors">Children</a>
-          {' · '}
-          <a href="/volunteer/seniors" className="hover:text-brand transition-colors">Seniors</a>
-          {' · '}
-          <a href="/volunteer/education" className="hover:text-brand transition-colors">Education</a>
-          {' · '}
-          <a href="/volunteer/in/dallas" className="hover:text-brand transition-colors">Dallas</a>
-          {' · '}
-          <a href="/volunteer/in/garland" className="hover:text-brand transition-colors">Garland</a>
-          {' · '}
-          <a href="/volunteer/in/plano" className="hover:text-brand transition-colors">Plano</a>
-        </div>
         <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10 py-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
           <button onClick={goHome} className="flex flex-wrap items-center gap-3 hover:opacity-80 transition-opacity">
             <span className="font-display font-extrabold text-ink text-lg">
@@ -363,8 +343,9 @@ export default function HomeClient({
 
 // ── Empty default state ──────────────────────────────────────────────────────
 // Suggestion chips pull from the unified TAXONOMY (see classify_listings.py
-// and components/tagMeta.js). Clicking a chip sets the search query to the
-// tag id, which matches against unified_tags in the haystack.
+// and components/tagMeta.js). Each chip links to its pre-filtered
+// /volunteer/[tag] route — the same experience with that cause selected —
+// which doubles as the crawlable path into those pages.
 const SUGGESTED_TAGS = [
   'food_security',
   'children',
@@ -376,19 +357,10 @@ const SUGGESTED_TAGS = [
   'community',
 ]
 
-function EmptyHomeState({ onSuggest, onOpenSearch }) {
+function EmptyHomeState({ onOpenSearch }) {
   return (
-    <div className="py-16 lg:py-24 text-center max-w-2xl mx-auto">
-      <div className="inline-flex items-center justify-center w-14 h-14 rounded-2xl bg-brandSoft text-brand mb-5">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-7 h-7">
-          <circle cx="11" cy="11" r="7" />
-          <path d="m20 20-3.5-3.5" strokeLinecap="round" />
-        </svg>
-      </div>
-      <h2 className="font-display font-bold text-2xl sm:text-3xl text-ink">
-        What kind of giving back are you up for?
-      </h2>
-      <p className="mt-3 text-base sm:text-lg text-muted leading-relaxed">
+    <div className="py-8 lg:py-12 text-center max-w-2xl mx-auto">
+      <p className="text-base sm:text-lg text-muted leading-relaxed">
         Type a cause, neighborhood, or nonprofit in the search above — or pick
         a category to start exploring.
       </p>
@@ -398,7 +370,7 @@ function EmptyHomeState({ onSuggest, onOpenSearch }) {
             key={tagId}
             id={tagId}
             variant="filter"
-            onClick={() => onSuggest(tagId)}
+            href={`/volunteer/${tagId.replace(/_/g, '-')}`}
           />
         ))}
       </div>
