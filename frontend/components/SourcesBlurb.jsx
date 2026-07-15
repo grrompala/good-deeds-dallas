@@ -17,7 +17,7 @@ export default function SourcesBlurb() {
         <p className="text-sm text-inkSoft leading-relaxed mb-3">
           Good Deeds Dallas is a <strong className="font-semibold text-ink">directory,
           not a volunteer platform</strong>. We help you <em>find</em> opportunities
-          across the Dallas metro in one place — but we don't handle signups,
+          across the Dallas metro in one place. We don't handle signups,
           applications, or any communication with organizations.
         </p>
         <ul className="space-y-2 text-sm text-inkSoft leading-relaxed">
@@ -25,9 +25,9 @@ export default function SourcesBlurb() {
             <span className="mt-1.5 h-2 w-2 rounded-full shrink-0 bg-brand" aria-hidden />
             <span>
               <strong className="font-semibold text-ink">Ready to volunteer?</strong>{' '}
-              Every listing links straight to its original posting — that's where you
-              sign up, always with the source or organization directly. We never sit
-              in the middle, and you'll never need an account here.
+              Every listing links straight to its original posting. That's where you
+              sign up, directly with the source or organization. We never sit in the
+              middle, and you'll never need an account here.
             </span>
           </li>
           <li className="flex items-start gap-2.5">
@@ -36,7 +36,7 @@ export default function SourcesBlurb() {
               <strong className="font-semibold text-ink">Two kinds of listings.</strong>{' '}
               Most opportunities are pulled automatically from the volunteer portals
               listed below. <strong className="font-semibold text-ink">GDD Curated</strong>{' '}
-              listings come from local nonprofits we follow directly — same idea, just
+              listings come from local nonprofits we follow directly. Same idea, just
               for organizations that don't always post to the big portals.
             </span>
           </li>
@@ -46,7 +46,7 @@ export default function SourcesBlurb() {
               <strong className="font-semibold text-ink">Check availability at the source.</strong>{' '}
               We refresh listings weekly and remove ones that disappear, but the
               original posting is always the source of truth. An opportunity shown
-              here may have filled, changed, or expired since our last update — the
+              here may have filled, changed, or expired since our last update, so the
               linked page has the current word.
             </span>
           </li>
@@ -54,7 +54,7 @@ export default function SourcesBlurb() {
         <br></br>
         <p className="mt-3 text-sm text-muted leading-relaxed">
           Spot something that looks wrong or out of date? The source link is the
-          fastest way to verify — or let us know at{' '}
+          fastest way to verify, or you can let us know at{' '}
           <a href={`mailto:${CONTACT_EMAIL}`} className="text-brand font-semibold hover:text-brandDark">
             {CONTACT_EMAIL}
           </a>.

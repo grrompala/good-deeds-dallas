@@ -32,8 +32,8 @@ export default function VolunteerIndex() {
       <p className="mt-3 text-base text-inkSoft leading-relaxed max-w-2xl">
         {total.toLocaleString()} current opportunities across the Dallas metro,
         gathered weekly from local volunteer portals and nonprofits. Pick a cause
-        or a city — every listing links to the original posting, where you sign
-        up directly with the organization.
+        or a city, and every listing links to the original posting where you
+        sign up directly with the organization.
       </p>
 
       <h2 className="mt-10 font-bold text-xl text-ink">By cause</h2>

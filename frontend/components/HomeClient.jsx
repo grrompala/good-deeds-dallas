@@ -352,9 +352,9 @@ const SUGGESTED_TAGS = [
 
 function EmptyHomeState({ onOpenSearch }) {
   return (
-    <div className="py-8 lg:py-12 text-center max-w-2xl mx-auto">
+    <div className="py-3 lg:py-5 text-center max-w-2xl mx-auto">
       <p className="text-base sm:text-lg text-muted leading-relaxed">
-        Type a cause, neighborhood, or nonprofit in the search above — or pick
+        Type a cause, neighborhood, or nonprofit in the search above, or pick
         a category to start exploring.
       </p>
       <div className="mt-7 flex flex-wrap items-center justify-center gap-2">
@@ -368,10 +368,15 @@ function EmptyHomeState({ onOpenSearch }) {
         ))}
       </div>
 
+      {/* Where the listings come from */}
+      <div className="mt-10 max-w-2xl mx-auto rounded-2xl border border-line bg-white p-5 sm:p-6">
+        <SourcesBlurb />
+      </div>
+
       {/* Smart Search feature callout */}
       <button
         onClick={onOpenSearch}
-        className="mt-10 group inline-flex items-center gap-3 rounded-xl border border-line bg-white px-5 py-3.5 text-left hover:border-brand transition-colors"
+        className="mt-8 group inline-flex items-center gap-3 rounded-xl border border-line bg-white px-5 py-3.5 text-left hover:border-brand transition-colors"
       >
         <span className="inline-flex items-center justify-center w-9 h-9 rounded-lg bg-accentSoft text-accent shrink-0">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-5 h-5">
@@ -380,19 +385,14 @@ function EmptyHomeState({ onOpenSearch }) {
         </span>
         <span>
           <span className="block text-sm font-semibold text-ink">
-            New: Smart Search
+            Smart Search
           </span>
           <span className="block text-sm text-muted">
-            Ask in plain English — get an answer plus the closest opportunities, ranked by match.
+            Ask in plain English and get an answer, plus the closest opportunities ranked by match.
           </span>
         </span>
         <span className="ml-1 text-brand font-semibold group-hover:translate-x-0.5 transition-transform">→</span>
       </button>
-
-      {/* Where the listings come from */}
-      <div className="mt-12 max-w-2xl mx-auto rounded-2xl border border-line bg-white p-5 sm:p-6">
-        <SourcesBlurb />
-      </div>
     </div>
   )
 }
