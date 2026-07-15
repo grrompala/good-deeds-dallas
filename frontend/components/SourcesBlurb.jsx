@@ -1,5 +1,5 @@
-// SourcesBlurb — explains each volunteer site we aggregate, plus how the site
-// works (directory, not platform). Shown on the home (empty) state so the
+// SourcesBlurb — how the site works (directory, not platform), followed by
+// the volunteer sources we aggregate. Shown on the home (empty) state so the
 // Listings panel itself can stay lean.
 
 import { sourceInfo } from './SourceBox'
@@ -11,39 +11,8 @@ export const CONTACT_EMAIL = 'info@good-deeds-dallas.org'
 export default function SourcesBlurb() {
   return (
     <div className="mt-2 text-left">
-      <p className="text-sm sm:text-base text-muted mb-3">
-        Opportunities are pulled from these volunteer sources:
-      </p>
-      <ul className="space-y-2">
-        {SOURCES.map(s => {
-          const info = sourceInfo(s)
-          if (!info) return null
-          return (
-            <li key={s} className="flex items-start gap-2.5 text-sm leading-relaxed">
-              <span className={`mt-1.5 h-2 w-2 rounded-full shrink-0 ${info.dot}`} aria-hidden />
-              <span>
-                {info.url ? (
-                  <a
-                    href={info.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-semibold text-ink hover:text-brand transition-colors"
-                  >
-                    {info.fullName}
-                  </a>
-                ) : (
-                  <span className="font-semibold text-ink">{info.fullName}</span>
-                )}
-                {info.domain && <span className="text-muted font-mono text-xs ml-1.5">({info.domain})</span>}
-                <span className="block sm:inline sm:ml-2 text-inkSoft">— {info.summary}</span>
-              </span>
-            </li>
-          )
-        })}
-      </ul>
-
       {/* How this site works — directory-not-platform expectations */}
-      <div className="mt-6 pt-5 border-t border-lineSoft">
+      <div>
         <h3 className="font-bold text-ink text-base mb-2">How this site works</h3>
         <p className="text-sm text-inkSoft leading-relaxed mb-3">
           Good Deeds Dallas is a <strong className="font-semibold text-ink">directory,
@@ -66,7 +35,7 @@ export default function SourcesBlurb() {
             <span>
               <strong className="font-semibold text-ink">Two kinds of listings.</strong>{' '}
               Most opportunities are pulled automatically from the volunteer portals
-              listed above. <strong className="font-semibold text-ink">GDD Curated</strong>{' '}
+              listed below. <strong className="font-semibold text-ink">GDD Curated</strong>{' '}
               listings come from local nonprofits we follow directly — same idea, just
               for organizations that don't always post to the big portals.
             </span>
@@ -90,6 +59,40 @@ export default function SourcesBlurb() {
             {CONTACT_EMAIL}
           </a>.
         </p>
+      </div>
+
+      {/* Where the listings come from */}
+      <div className="mt-6 pt-5 border-t border-lineSoft">
+        <p className="text-sm sm:text-base text-muted mb-3">
+          Opportunities are pulled from these volunteer sources:
+        </p>
+        <ul className="space-y-2">
+          {SOURCES.map(s => {
+            const info = sourceInfo(s)
+            if (!info) return null
+            return (
+              <li key={s} className="flex items-start gap-2.5 text-sm leading-relaxed">
+                <span className={`mt-1.5 h-2 w-2 rounded-full shrink-0 ${info.dot}`} aria-hidden />
+                <span>
+                  {info.url ? (
+                    <a
+                      href={info.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="font-semibold text-ink hover:text-brand transition-colors"
+                    >
+                      {info.fullName}
+                    </a>
+                  ) : (
+                    <span className="font-semibold text-ink">{info.fullName}</span>
+                  )}
+                  {info.domain && <span className="text-muted font-mono text-xs ml-1.5">({info.domain})</span>}
+                  <span className="block sm:inline sm:ml-2 text-inkSoft">— {info.summary}</span>
+                </span>
+              </li>
+            )
+          })}
+        </ul>
       </div>
     </div>
   )
