@@ -1,7 +1,8 @@
-// TabBar — sticky section nav. One centered, wrapping row for every screen:
-// on desktop all five items sit in a single centered line; on phones the row
-// wraps into two centered lines (the four tab labels can't fit one legible
-// row on a ~375px screen). Home is icon-only below sm to save width.
+// TabBar — sticky section nav.
+//   • sm and up: one centered row — Home, divider, four tabs.
+//   • below sm: a centered 2×2 grid of the four tabs. The Home button is
+//     absolutely positioned in the left corner, OUTSIDE the flow — every
+//     in-flow variant skewed the grid off the screen's true centerline.
 
 const TABS = [
   { id: 'listings',      label: 'Opportunities' },
@@ -22,26 +23,62 @@ function HomeIcon({ className }) {
 export default function TabBar({ active, onChange, counts = {}, onHome }) {
   return (
     <div className="sticky top-0 z-30 bg-canvas/95 backdrop-blur-md border-b border-line">
-      <nav className="max-w-6xl mx-auto px-3 sm:px-6 lg:px-10 flex flex-wrap items-center justify-center gap-x-0.5 sm:gap-x-1">
-        {/* Home */}
+
+      {/* ── Phone: centered 2×2 grid; Home floats in the corner ──────────── */}
+      <nav className="sm:hidden relative px-12">
         <button
           onClick={onHome}
-          className="inline-flex items-center gap-1.5 px-2.5 sm:px-3 py-2.5 sm:py-3 text-xs sm:text-sm font-medium text-muted hover:text-ink border-b-2 border-transparent transition-colors whitespace-nowrap"
+          className="absolute left-2 top-1/2 -translate-y-1/2 p-2.5 text-muted hover:text-ink transition-colors"
+          aria-label="Return to home"
+        >
+          <HomeIcon className="w-5 h-5" />
+        </button>
+
+        <div className="max-w-xs mx-auto grid grid-cols-2">
+          {TABS.map(tab => (
+            <button
+              key={tab.id}
+              onClick={() => onChange(tab.id)}
+              className={`
+                inline-flex items-center justify-center gap-1.5 px-1 py-2 text-xs font-medium
+                border-b-2 transition-colors whitespace-nowrap
+                ${active === tab.id
+                  ? 'border-brand text-ink'
+                  : 'border-transparent text-muted'
+                }
+              `}
+            >
+              {tab.label}
+              {counts[tab.id] !== undefined && (
+                <span className={`font-mono text-[10px] ${active === tab.id ? 'text-brand' : 'text-subtle'}`}>
+                  {counts[tab.id]}
+                </span>
+              )}
+            </button>
+          ))}
+        </div>
+      </nav>
+
+      {/* ── sm and up: one centered row ──────────────────────────────────── */}
+      <nav className="hidden sm:flex max-w-6xl mx-auto px-6 lg:px-10 items-stretch justify-center gap-1">
+        <button
+          onClick={onHome}
+          className="shrink-0 inline-flex items-center gap-1.5 px-3 py-3 text-sm font-medium text-muted hover:text-ink border-b-2 border-transparent transition-colors whitespace-nowrap"
           aria-label="Return to home"
         >
           <HomeIcon className="w-4 h-4" />
-          <span className="hidden sm:inline">Home</span>
+          Home
         </button>
 
-        <span className="hidden sm:block self-center mx-1 h-5 w-px bg-line" />
+        <span className="self-center mx-1 h-5 w-px bg-line" />
 
         {TABS.map(tab => (
           <button
             key={tab.id}
             onClick={() => onChange(tab.id)}
             className={`
-              inline-flex items-center gap-1.5 sm:gap-2 px-2.5 sm:px-4 py-2.5 sm:py-3
-              text-xs sm:text-sm font-medium border-b-2 transition-colors whitespace-nowrap
+              shrink-0 inline-flex items-center gap-2 px-4 py-3 text-sm font-medium
+              border-b-2 transition-colors whitespace-nowrap
               ${active === tab.id
                 ? 'border-brand text-ink'
                 : 'border-transparent text-muted hover:text-ink'
@@ -50,7 +87,7 @@ export default function TabBar({ active, onChange, counts = {}, onHome }) {
           >
             {tab.label}
             {counts[tab.id] !== undefined && (
-              <span className={`font-mono text-[10px] sm:text-xs ${active === tab.id ? 'text-brand' : 'text-subtle'}`}>
+              <span className={`font-mono text-xs ${active === tab.id ? 'text-brand' : 'text-subtle'}`}>
                 {counts[tab.id]}
               </span>
             )}

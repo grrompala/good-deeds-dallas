@@ -63,7 +63,9 @@ export default function Hero({ search, setSearch, totalOpps, totalOrgs, totalNew
               />
             </div>
 
-            <div className="mt-3 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted">
+            {/* Centered while the layout is stacked (mobile/tablet); returns
+                to left-aligned once the search bar sits beside the wordmark. */}
+            <div className="mt-3 flex flex-wrap items-center justify-center lg:justify-start gap-x-4 gap-y-1 text-sm text-muted">
               <Stat value={totalOpps} label="opportunities" />
               <span className="text-line">·</span>
               <Stat value={totalOrgs} label="organizations" />
