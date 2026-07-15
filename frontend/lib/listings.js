@@ -99,3 +99,12 @@ export function listingsByCitySlug(slug) {
     return c && citySlug(c) === slug
   })
 }
+
+// Slim version of a listing for embedding in a pre-rendered page's payload.
+// Drops the bulky fields (full description, QC audit trail) — the client
+// fetch swaps in complete records right after hydration, so nothing that
+// needs them (detail modals etc.) misses out for more than a moment.
+export function lightenListing(o) {
+  const { description_long, qc, contact, ...rest } = o
+  return rest
+}

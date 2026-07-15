@@ -84,10 +84,12 @@ volunteer_hub/
     │   ├── page.js                  ← main page; data load, Texas filter, section routing
     │   ├── robots.js                ← /robots.txt (allows search + AI crawlers, points at sitemap)
     │   ├── sitemap.js               ← /sitemap.xml (home + all /volunteer pages)
-    │   ├── volunteer/               ← SEO pages: server-rendered browse index,
-    │   │                              /volunteer/[tag] per cause, /volunteer/in/[city]
-    │   │                              per city — full HTML for non-JS crawlers,
-    │   │                              statically rebuilt on every deploy
+    │   ├── volunteer/               ← pre-filtered app routes: /volunteer/[tag] opens
+    │   │                              the normal interactive experience with that cause
+    │   │                              selected; /volunteer/in/[city] opens it searched
+    │   │                              for that city. Listings are server-rendered into
+    │   │                              the HTML (for non-JS crawlers), then the client
+    │   │                              fetch takes over. Rebuilt statically each deploy.
     │   └── api/chat/route.js        ← Smart Search endpoint (retrieve + LLM)
     ├── components/
     │   ├── Hero.jsx                 ← wordmark + tagline + global search bar

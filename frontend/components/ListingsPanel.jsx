@@ -22,11 +22,13 @@ const SOURCES = ['volunteergarland', 'volunteermckinney', 'voly_dallas', 'ideali
 // How many rows to reveal per "page" as the user scrolls (non-compact only).
 const PAGE_SIZE = 12
 
-export default function ListingsPanel({ listings, compact = false, onExpand, onSelectOrg, onSelectListing }) {
+export default function ListingsPanel({ listings, compact = false, initialCauses = [], initialVisible = PAGE_SIZE, onExpand, onSelectOrg, onSelectListing }) {
   // Multi-select: empty array = "All". Otherwise the listing must match ANY
   // selected site and ANY selected cause (OR within a group, AND across groups).
+  // initialCauses lets the pre-filtered /volunteer/[tag] routes start with a
+  // cause already selected — the pills behave normally from there.
   const [sources, setSources] = useState([])
-  const [causes,  setCauses]  = useState([])
+  const [causes,  setCauses]  = useState(initialCauses)
 
   // Toggle a value in/out of a selection array.
   function toggle(setter, value) {
@@ -69,13 +71,15 @@ export default function ListingsPanel({ listings, compact = false, onExpand, onS
   }, [listings, sources, causes])
 
   // ── Infinite scroll (non-compact) ─────────────────────────────────────────
-  // Reveal PAGE_SIZE rows at a time; a sentinel near the bottom loads more as
-  // it scrolls into view — the pattern common on mobile feeds.
-  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE)
+  // Reveal rows a page at a time; a sentinel near the bottom loads more as
+  // it scrolls into view — the pattern common on mobile feeds. The
+  // pre-filtered /volunteer routes pass a larger initialVisible so their
+  // server-rendered HTML contains the listings (crawlers can't scroll).
+  const [visibleCount, setVisibleCount] = useState(initialVisible)
   const sentinelRef = useRef(null)
 
   // Reset the window whenever the result set changes (filters/sort).
-  useEffect(() => { setVisibleCount(PAGE_SIZE) }, [sources, causes, listings])
+  useEffect(() => { setVisibleCount(initialVisible) }, [sources, causes, listings, initialVisible])
 
   useEffect(() => {
     if (compact) return
