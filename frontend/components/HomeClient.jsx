@@ -298,6 +298,9 @@ export default function HomeClient({
             </span>
           </button>
           <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-4 text-sm text-muted">
+            <a href="/privacy" className="hover:text-brand transition-colors">
+              Privacy
+            </a>
             <a
               href={`mailto:${CONTACT_EMAIL}`}
               className="hover:text-brand transition-colors"

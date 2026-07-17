@@ -17,6 +17,7 @@ export default function sitemap() {
   return [
     { url: SITE_URL, lastModified, changeFrequency: 'weekly', priority: 1 },
     { url: `${SITE_URL}/volunteer`, lastModified, changeFrequency: 'weekly', priority: 0.9 },
+    { url: `${SITE_URL}/privacy`, changeFrequency: 'yearly', priority: 0.2 },
     ...tagCounts().map(({ tag }) => ({
       url: `${SITE_URL}/volunteer/${tagSlug(tag)}`,
       lastModified,

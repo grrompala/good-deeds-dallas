@@ -43,7 +43,16 @@ SUBREDDITS = [
     "plano",          # neighboring, often overlaps
     "DFW",
     "Dallas",
+    "askdallas",
+    "askdfw",
 ]
+
+# Posts we haven't re-seen in any search for this long get dropped. This is
+# how we honor upstream deletions (a deleted/removed post stops appearing in
+# results, so it ages out) and it also keeps stale threads from lingering
+# forever. Generous because a post can fall out of results for benign reasons
+# (past the 100-result window, older than the 1-year search range).
+EXPIRE_DAYS = 90
 
 # Keywords to search for in each subreddit
 SEARCH_QUERIES = [
@@ -219,6 +228,21 @@ def main():
             if rid not in existing:
                 new_count += 1
             existing[rid] = post  # always update
+
+    # Expire posts we haven't re-seen recently. Posts found this run carry a
+    # fresh last_scraped; anything whose last sighting is older than
+    # EXPIRE_DAYS is presumed deleted/stale upstream and is dropped.
+    cutoff = datetime.now(timezone.utc).timestamp() - EXPIRE_DAYS * 86400
+    def _last_seen_ts(rec):
+        try:
+            return datetime.fromisoformat(rec.get("last_scraped")).timestamp()
+        except (TypeError, ValueError):
+            return 0  # unparseable/missing → treat as stale
+    kept = {rid: r for rid, r in existing.items() if _last_seen_ts(r) >= cutoff}
+    expired = len(existing) - len(kept)
+    if expired:
+        print(f"\nExpired {expired} post(s) not seen in {EXPIRE_DAYS} days (deleted or stale upstream)")
+    existing = kept
 
     # Sort output: highest relevance first, then newest within same relevance
     all_records = sorted(
