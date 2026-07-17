@@ -40,8 +40,13 @@ Invoke-Step { python fetch_idealist.py }
 Invoke-Step { python fetch_reddit.py }
 
 Write-Host "`n=== 2/4 QC filter ===" -ForegroundColor Cyan
-Invoke-Step { python qc_filter.py }   # dedup + LLM content judge (curated)
-Invoke-Step { python qc_filter.py --file frontend/public/data/volops_idealist.json --dedupe-only }
+Invoke-Step { python qc_filter.py }   # dedup + expiry + LLM content judge (curated)
+# Scraped portal sources: trusted for content (no judge) but still deduped
+# and checked for passed event dates.
+Invoke-Step { python qc_filter.py --file frontend/public/data/volops_garland.json --no-judge }
+Invoke-Step { python qc_filter.py --file frontend/public/data/volops_mckinney.json --no-judge }
+Invoke-Step { python qc_filter.py --file frontend/public/data/volops_voly.json --no-judge }
+Invoke-Step { python qc_filter.py --file frontend/public/data/volops_idealist.json --no-judge }
 
 Write-Host "`n=== 3/4 Unified tags ===" -ForegroundColor Cyan
 Invoke-Step { python classify_listings.py }

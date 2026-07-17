@@ -205,7 +205,7 @@ records. The frontend reads `unified_tags` first via `getTags()`
 
 ## QC filter
 
-`qc_filter.py` runs two independent passes, always in this order, and stamps
+`qc_filter.py` runs three independent passes, always in this order, and stamps
 each record with a `qc: { status: "passed" | "rejected", category, reason }`
 block. The frontend and the Smart Search corpus both drop `qc.status ==
 "rejected"` records.
@@ -218,25 +218,35 @@ date, or specific days/times) gets all but the most complete copy rejected as
 `category: "duplicate"`. Runs fresh every time (it's free) regardless of
 existing `qc` stamps.
 
-**2. Content judge (LLM, curated set only).** Garland/McKinney/Voly/Idealist
-come from platforms where every listing is already a real, staffed volunteer
-role, so they're **trusted as-is** for content and skip this pass. Curated
-pulls from arbitrary org websites via an LLM extraction step, which
-occasionally surfaces things that aren't real volunteer roles (a 5K someone
-runs in, a donation drive, a paid internship) — this pass judges those.
+**2. Expiry check (LLM extraction once, free date compare every run).** Some
+sources leave one-time events listed long after the event date. Each record
+gets a one-time extraction of `expiry: { kind, ends_on }` — rule-based where
+the data is structured (Voly), LLM elsewhere — cached on the record and
+preserved across re-scrapes. Every run then rejects records whose explicit
+end date has passed (`category: "expired"`), compared against the Dallas-local
+date. Conservative on purpose: no explicit end date means never expired, so
+ongoing programs can't be killed by a stale start date.
 
-Like the other pipeline steps, the content judge is incremental (only judges
-records without a `qc` stamp; `--recheck` re-judges everything) and
-correctable: put `{"<id>": "keep" | "reject"}` entries in `qc_overrides.json`
-to override the model, then re-run — overrides always win. Rejections are
-logged per-file for a quick skim (`qc_rejected.json` for curated,
-`qc_rejected_<name>.json` for anything else, so running this against a second
-file can't clobber another file's log).
+**3. Content judge (LLM, curated set only).** Garland/McKinney/Voly/Idealist
+come from platforms where every listing is already a real, staffed volunteer
+role, so they're **trusted as-is** for content and skip this pass (they run
+dedup + expiry via `--no-judge`). Curated pulls from arbitrary org websites
+via an LLM extraction step, which occasionally surfaces things that aren't
+real volunteer roles (a 5K someone runs in, a donation drive, a paid
+internship) — this pass judges those.
+
+The LLM passes are incremental (only records without a stamp; `--recheck`
+redoes everything) and correctable: put `{"<id>": "keep" | "reject"}` entries
+in `qc_overrides.json` to override the model, then re-run — overrides always
+win. Rejections are logged per-file for a quick skim (`qc_rejected.json` for
+curated, `qc_rejected_<name>.json` for anything else, so running this against
+a second file can't clobber another file's log).
 
 ```powershell
-python qc_filter.py                                            # dedup + judge curated
+python qc_filter.py                                            # dedup + expiry + judge (curated)
 python qc_filter.py --recheck                                  # re-judge everything (curated)
-python qc_filter.py --file frontend/public/data/volops_idealist.json --dedupe-only
+python qc_filter.py --file frontend/public/data/volops_idealist.json --no-judge
+python qc_filter.py --file frontend/public/data/volops_idealist.json --dedupe-only  # no API key needed
 ```
 
 ---

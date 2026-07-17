@@ -381,6 +381,14 @@ def main():
         if not detail.get("opportunity_title"):
             detail["opportunity_title"] = list_title
 
+
+        # Carry pipeline stamps (LLM tags, QC verdicts, expiry extraction)
+        # across re-scrapes — they're expensive to recompute and stay valid.
+        old = existing.get(record_id)
+        if old:
+            for k in ("unified_tags", "qc", "expiry"):
+                if k in old and k not in detail:
+                    detail[k] = old[k]
         existing[record_id] = detail
         print(f"  [{i}/{len(need_ids)}] OK: {detail.get('opportunity_title', list_title)}")
 

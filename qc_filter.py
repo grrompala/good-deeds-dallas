@@ -39,7 +39,7 @@ import json
 import re
 import time
 import argparse
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -143,6 +143,137 @@ def compact(rec):
         "apply": (rec.get("apply_instructions") or "")[:200],
         "virtual": loc.get("virtual"),
     }
+
+
+# ── Expiry check (LLM date extraction, cached; free date compare each run) ───
+# Idealist especially leaves one-time events listed long after the event date
+# (e.g. "Date: April 25, 2026 ... Recurrence: One time only" still shown in
+# July). Every record gets a one-time LLM extraction of {kind, ends_on} stored
+# under rec["expiry"]; the pass then rejects records whose explicit end date
+# has passed. Extraction is time-independent (we never tell the model today's
+# date), so the stamp stays valid forever — only the cheap comparison reruns.
+# Conservative by design: no explicit end date -> never expired.
+
+RUBRIC_DATES = """\
+You are extracting scheduling facts from volunteer-opportunity listings.
+
+For each item decide:
+- "kind": "one_time" if it is a dated, non-recurring event; "ongoing" if it
+  repeats indefinitely or is open-ended (weekly shifts, anytime, flexible);
+  "unknown" if you cannot tell.
+- "ends_on": the LAST calendar date the opportunity happens, as YYYY-MM-DD —
+  the event date for a one-time event, the final date of a range, or an
+  explicit "until"/end date (an ongoing opportunity can still have one).
+  null if there is no explicit, complete date. NEVER guess: if no year is
+  stated, use null. Do not infer a date from vague words like "summer".
+
+Return ONLY a JSON array, one object per input item, in the same order:
+[{"id": "<id>", "kind": "one_time" | "ongoing" | "unknown", "ends_on": "YYYY-MM-DD" | null}]
+No markdown, no commentary.
+
+ITEMS:
+{items}
+"""
+
+
+def compact_dates(rec):
+    return {
+        "id": rec.get("id"),
+        "title": rec.get("opportunity_title"),
+        "schedule": rec.get("schedule") or {},
+        "description": (rec.get("description_long") or rec.get("description_short") or "")[:MAX_DESC_CHARS],
+    }
+
+
+def _parse_mdy(text):
+    """'Nov 14, 2026' -> '2026-11-14', else None."""
+    try:
+        return datetime.strptime(text.strip(), "%b %d, %Y").date().isoformat()
+    except (ValueError, AttributeError):
+        return None
+
+
+def _rule_based_expiry(rec):
+    """Deterministic extraction where the data is fully structured (Voly:
+    parsed date + recurring flag). Returns an expiry stamp dict or None."""
+    sched = rec.get("schedule") or {}
+    if isinstance(sched.get("recurring"), bool):
+        if sched["recurring"]:
+            return {"kind": "ongoing", "ends_on": None, "model": "rule"}
+        ends = _parse_mdy(sched.get("date") or "")
+        if ends:
+            return {"kind": "one_time", "ends_on": ends, "model": "rule"}
+    # Idealist-style ISO date alone is NOT trusted deterministically — for
+    # some listings it's the start of an ongoing program, so the LLM decides.
+    return None
+
+
+def expiry_pass(records, client, provider, model, recheck, batch_size):
+    """Stamp rec['expiry'] where missing (rule or LLM), then reject any
+    record whose explicit end date has passed. Returns count rejected."""
+    now = datetime.now(timezone.utc).isoformat()
+    # "Today" in Dallas terms, not UTC — otherwise events still happening
+    # locally get expired a few hours early once UTC rolls past midnight.
+    # Fixed UTC-6 offset (CST); at day granularity the DST hour is noise.
+    today = (datetime.now(timezone.utc) - timedelta(hours=6)).date().isoformat()
+
+    candidates = [
+        r for r in records
+        if r.get("status") != "inactive"
+        and r.get("qc", {}).get("status") != "rejected"
+        and (recheck or "expiry" not in r)
+    ]
+
+    # Deterministic stamps first, LLM for the rest.
+    todo_llm = []
+    for r in candidates:
+        stamp = _rule_based_expiry(r)
+        if stamp:
+            r["expiry"] = {**stamp, "checked_at": now}
+        else:
+            todo_llm.append(r)
+
+    print(f"Expiry: {len(candidates) - len(todo_llm)} stamped by rule, "
+          f"{len(todo_llm)} need LLM date extraction")
+
+    for i in range(0, len(todo_llm), batch_size):
+        batch = todo_llm[i:i + batch_size]
+        items = json.dumps([compact_dates(r) for r in batch], ensure_ascii=False, indent=1)
+        raw = call_llm(client, provider, model, RUBRIC_DATES.replace("{items}", items))
+        verdicts = {v.get("id"): v for v in parse_json(raw) if isinstance(v, dict)}
+        for r in batch:
+            v = verdicts.get(r.get("id"))
+            if not v:
+                continue  # unstamped; retried next run
+            ends_on = v.get("ends_on")
+            if ends_on is not None and not re.match(r"^\d{4}-\d{2}-\d{2}$", str(ends_on)):
+                ends_on = None  # malformed date from the model — don't trust it
+            r["expiry"] = {
+                "kind": v.get("kind") if v.get("kind") in ("one_time", "ongoing", "unknown") else "unknown",
+                "ends_on": ends_on,
+                "model": model,
+                "checked_at": now,
+            }
+        print(f"  ...{min(i + batch_size, len(todo_llm))}/{len(todo_llm)}")
+        time.sleep(DELAY)
+
+    # The free, every-run part: reject anything whose end date has passed.
+    rejected = 0
+    for r in records:
+        if r.get("status") == "inactive" or r.get("qc", {}).get("status") == "rejected":
+            continue
+        ends_on = (r.get("expiry") or {}).get("ends_on")
+        if ends_on and ends_on < today:
+            r["qc"] = {
+                "status": "rejected",
+                "category": "expired",
+                "reason": f"event date passed ({ends_on})",
+                "model": "expiry-rule",
+                "checked_at": now,
+            }
+            rejected += 1
+            print(f"  EXPIRED [{ends_on}] {r.get('org_name')}: {r.get('opportunity_title')}")
+    return rejected
 
 
 # ── Deduplication (rule-based, no LLM) ───────────────────────────────────────
@@ -250,7 +381,10 @@ def main():
     ap.add_argument("--batch-size", type=int, default=BATCH_SIZE)
     ap.add_argument("--dedupe-only", action="store_true",
                     help="only run the rule-based duplicate check (no LLM, no API key needed) "
-                         "and skip the real-opportunity content judge")
+                         "and skip the expiry check and the real-opportunity content judge")
+    ap.add_argument("--no-judge", action="store_true",
+                    help="run dedup + expiry but skip the content judge — for the scraped "
+                         "portal sources, which are trusted for content but can go stale")
     args = ap.parse_args()
 
     path = Path(args.file)
@@ -271,9 +405,16 @@ def main():
     print(f"Dedup: {dupes_rejected} record(s) rejected as duplicates.\n")
     rejected_this_run += dupes_rejected
 
+    # Expiry check: LLM extraction is cached per record; the date comparison
+    # reruns every time, so newly-passed dates get caught on each run.
     if not args.dedupe_only:
         client = make_client(args.provider)
+        expired = expiry_pass(records, client, args.provider, args.model,
+                              args.recheck, args.batch_size)
+        print(f"Expiry: {expired} record(s) rejected as expired.\n")
+        rejected_this_run += expired
 
+    if not args.dedupe_only and not args.no_judge:
         # Pick records to judge: active, no qc stamp yet (unless --recheck).
         todo = [
             r for r in records

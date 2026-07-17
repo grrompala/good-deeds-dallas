@@ -225,8 +225,13 @@ def main():
             continue
         active_ids.add(rec["id"])
         # Preserve unified_tags from previous classifier runs
-        if rec["id"] in existing and "unified_tags" in existing[rec["id"]]:
-            rec["unified_tags"] = existing[rec["id"]]["unified_tags"]
+        # Carry pipeline stamps (LLM tags, QC verdicts, expiry extraction)
+        # across re-scrapes — they're expensive to recompute and stay valid.
+        old = existing.get(rec["id"])
+        if old:
+            for k in ("unified_tags", "qc", "expiry"):
+                if k in old and k not in rec:
+                    rec[k] = old[k]
         existing[rec["id"]] = rec
 
     removed = 0

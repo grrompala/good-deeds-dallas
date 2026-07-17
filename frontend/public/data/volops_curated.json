@@ -72,13 +72,19 @@
     "apply_url": null,
     "apply_instructions": "Contact Tricia Deitz at 817-207-9733 (H), 817-718-7590 (C), or [email protected] to sign up or if you have any questions.",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Volunteers needed for specific tasks at an event.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2023-10-27)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2023-10-27",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "allie_s_haven_animal_rescue_2",
@@ -116,7 +122,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "allie_s_haven_animal_rescue_3",
@@ -157,7 +169,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "allie_s_haven_animal_rescue_0",
@@ -197,7 +215,13 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "allie_s_haven_animal_rescue_1",
@@ -239,7 +263,13 @@
       "animals",
       "foster_care",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "allie_s_haven_animal_rescue_4",
@@ -279,7 +309,13 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "arlington_life_shelter_2",
@@ -472,7 +508,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "art_house_dallas_0",
@@ -513,7 +555,13 @@
     "unified_tags": [
       "arts",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "art_house_dallas_1",
@@ -594,7 +642,13 @@
       "veterans",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "big_brothers_big_sisters_lone_star_0",
@@ -637,7 +691,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "baylor_scott_white_richardson_0",
@@ -679,6 +739,12 @@
       "reason": "Bringing a therapy dog to visit patients is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -951,7 +1017,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "big_hearts_day_habilitation_center_4",
@@ -1027,7 +1099,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "big_hearts_day_habilitation_center_3",
@@ -1105,7 +1183,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "big_hearts_day_habilitation_center_0",
@@ -1145,7 +1229,13 @@
     },
     "unified_tags": [
       "disabilities"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "body_soul_homeless_program_0",
@@ -1188,7 +1278,13 @@
       "food_security",
       "community",
       "housing"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "body_soul_homeless_program_4",
@@ -1228,7 +1324,13 @@
     },
     "unified_tags": [
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "body_soul_homeless_program_3",
@@ -1266,7 +1368,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "body_soul_homeless_program_1",
@@ -1308,7 +1416,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "body_soul_homeless_program_5",
@@ -1346,7 +1460,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "body_soul_homeless_program_2",
@@ -1387,7 +1507,13 @@
     "unified_tags": [
       "community",
       "housing"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "boomerang_cares_0",
@@ -1461,13 +1587,19 @@
     "apply_url": null,
     "apply_instructions": "Complete Volunteer Application.",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Concrete role assisting with gala setup and operations.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2023-10-14)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2023-10-14",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "boys_girls_clubs_of_collin_county_4",
@@ -1503,7 +1635,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "boys_girls_clubs_of_collin_county_0",
@@ -1539,7 +1677,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "boys_girls_clubs_of_collin_county_1",
@@ -1581,7 +1725,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "boys_girls_clubs_of_collin_county_2",
@@ -1623,7 +1773,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "boys_girls_clubs_of_collin_county_6",
@@ -1655,13 +1811,19 @@
     "apply_url": null,
     "apply_instructions": "Complete Volunteer Application.",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Volunteers needed to staff the Poker Tournament.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2023-04-11)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2023-04-11",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "boys_girls_clubs_of_collin_county_5",
@@ -1699,7 +1861,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "boys_girls_clubs_of_collin_county_3",
@@ -1735,7 +1903,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "camp_summit_inc_0",
@@ -1892,7 +2066,13 @@
       "seniors",
       "disabilities",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "cancer_care_services_2",
@@ -1930,7 +2110,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "cancer_care_services_0",
@@ -1968,7 +2154,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "cancer_care_services_1",
@@ -2009,7 +2201,13 @@
     "unified_tags": [
       "health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "cancer_care_services_3",
@@ -2047,7 +2245,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "canine_companions_4",
@@ -2086,7 +2290,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "canine_companions_1",
@@ -2127,7 +2337,13 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "canine_companions_6",
@@ -2166,7 +2382,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "canine_companions_5",
@@ -2284,7 +2506,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "canine_companions_3",
@@ -2358,16 +2586,22 @@
     "apply_url": null,
     "apply_instructions": "Join us to spruce up the classrooms.",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Concrete role setting up classrooms for the new school year.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2025-08-11)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2025-08-11",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "catch_up_read_1",
@@ -2531,7 +2765,13 @@
     "unified_tags": [
       "children",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "christian_community_action_6",
@@ -2569,7 +2809,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "christian_community_action_5",
@@ -2612,7 +2858,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "christian_community_action_3",
@@ -2656,7 +2908,13 @@
       "seniors",
       "children",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "christian_community_action_4",
@@ -2698,7 +2956,13 @@
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "christian_community_action_0",
@@ -2740,7 +3004,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "christian_community_action_2",
@@ -2782,7 +3052,13 @@
     "unified_tags": [
       "children",
       "food_security"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "christian_community_action_1",
@@ -2821,7 +3097,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "cindy_ramsey_center_3",
@@ -2865,7 +3147,13 @@
       "seniors",
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "cindy_ramsey_center_1",
@@ -2904,7 +3192,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "cindy_ramsey_center_2",
@@ -2943,7 +3237,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "cindy_ramsey_center_0",
@@ -2985,7 +3285,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "city_house_0",
@@ -3023,7 +3329,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "city_house_5",
@@ -3104,7 +3416,13 @@
       "children",
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "city_house_2",
@@ -3142,7 +3460,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "city_house_3",
@@ -3180,7 +3504,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "city_house_7",
@@ -3222,7 +3552,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "city_house_4",
@@ -3264,7 +3600,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "city_house_6",
@@ -3305,7 +3647,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "city_house_10",
@@ -3381,7 +3729,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "city_house_8",
@@ -3463,7 +3817,13 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "coppell_humane_society_1",
@@ -3501,7 +3861,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "coppell_humane_society_3",
@@ -3542,7 +3908,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "coppell_humane_society_2",
@@ -3580,7 +3952,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "coppell_humane_society_4",
@@ -3661,7 +4039,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "creative_arts_center_1",
@@ -3699,7 +4083,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "cuisine_for_healing_0",
@@ -3743,7 +4133,13 @@
       "health",
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "cuisine_for_healing_1",
@@ -3782,7 +4178,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "cynthia_mickens_ministries_inc_1",
@@ -3825,7 +4227,13 @@
     "unified_tags": [
       "community",
       "environment"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "cynthia_mickens_ministries_inc_2",
@@ -3867,7 +4275,13 @@
     "unified_tags": [
       "children",
       "education"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "cynthia_mickens_ministries_inc_0",
@@ -3909,7 +4323,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dfw_rescue_me_2",
@@ -3948,7 +4368,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dfw_rescue_me_1",
@@ -3987,7 +4413,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dfw_rescue_me_0",
@@ -4029,7 +4461,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_casa_0",
@@ -4187,7 +4625,13 @@
     "unified_tags": [
       "community",
       "education"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_meditation_center_3",
@@ -4223,7 +4667,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_meditation_center_6",
@@ -4259,7 +4709,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_meditation_center_1",
@@ -4295,7 +4751,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_meditation_center_4",
@@ -4331,7 +4793,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_meditation_center_9",
@@ -4367,7 +4835,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_meditation_center_5",
@@ -4403,7 +4877,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_meditation_center_0",
@@ -4433,13 +4913,19 @@
     "apply_url": null,
     "apply_instructions": "Contact Jiyoon at Jiyoon@dallasmeditationcenter.com for more information.",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Concrete role mailing t-shirts to donors.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2025-03-01)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2025-03-01",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_meditation_center_10",
@@ -4475,7 +4961,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_meditation_center_11",
@@ -4511,7 +5003,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_meditation_center_8",
@@ -4547,7 +5045,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_meditation_center_7",
@@ -4583,7 +5087,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_meditation_center_2",
@@ -4659,7 +5169,13 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_pets_alive_1",
@@ -4697,7 +5213,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_pets_alive_2",
@@ -4739,7 +5261,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_pets_alive_4",
@@ -4780,7 +5308,13 @@
     "unified_tags": [
       "animals",
       "foster_care"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_pets_alive_3",
@@ -4818,7 +5352,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_pets_alive_5",
@@ -4856,7 +5396,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_pets_alive_6",
@@ -4895,7 +5441,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dallas_pets_alive_7",
@@ -4935,7 +5487,13 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dementia_friendly_fort_worth_0",
@@ -4977,7 +5535,13 @@
       "seniors",
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dementia_friendly_fort_worth_1",
@@ -5018,7 +5582,13 @@
     "unified_tags": [
       "seniors",
       "mental_health"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "dementia_friendly_fort_worth_2",
@@ -5059,7 +5629,13 @@
     "unified_tags": [
       "seniors",
       "mental_health"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "denton_animal_support_foundation_inc_0",
@@ -5099,7 +5675,13 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "denton_animal_support_foundation_inc_1",
@@ -5132,13 +5714,19 @@
     "apply_url": null,
     "apply_instructions": "Reach out to Lori Kloepper at volunteer@dentonasf.com.",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Supporting vaccination clinics involves concrete tasks.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2023-12-31)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2023-12-31",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "design_connect_create_0",
@@ -5181,7 +5769,13 @@
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "design_connect_create_1",
@@ -5224,7 +5818,13 @@
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "design_connect_create_2",
@@ -5307,7 +5907,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "embrace_0",
@@ -5945,7 +6551,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "feed_my_starving_children_0",
@@ -5988,7 +6600,13 @@
       "children",
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "fmsc_richardson_0",
@@ -6032,6 +6650,12 @@
       "reason": "Concrete role of packing meals at a specific location.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -6196,7 +6820,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "first_refuge_ministries_1",
@@ -6238,7 +6868,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "first_refuge_ministries_0",
@@ -6280,7 +6916,13 @@
     "unified_tags": [
       "health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "first_street_methodist_mission_2",
@@ -6322,7 +6964,13 @@
     "unified_tags": [
       "children",
       "food_security"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "first_street_methodist_mission_0",
@@ -6402,7 +7050,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "for_the_nations_refugee_outreach_2",
@@ -6445,7 +7099,13 @@
       "education",
       "immigration",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "for_the_nations_refugee_outreach_1",
@@ -6488,7 +7148,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "for_the_nations_refugee_outreach_3",
@@ -6531,7 +7197,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "for_the_nations_refugee_outreach_4",
@@ -6574,7 +7246,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-07-24",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "for_the_nations_refugee_outreach_0",
@@ -6613,7 +7291,13 @@
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "fort_worth_abandoned_animal_alliance_0",
@@ -6734,7 +7418,13 @@
     },
     "unified_tags": [
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "fort_worth_community_collaborative_3",
@@ -6775,7 +7465,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "fort_worth_community_collaborative_1",
@@ -6813,7 +7509,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "fort_worth_community_collaborative_0",
@@ -6851,7 +7553,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "fort_worth_pregnancy_center_0",
@@ -6892,7 +7600,13 @@
     "unified_tags": [
       "health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "foundation_communities_5",
@@ -6931,7 +7645,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "foundation_communities_1",
@@ -6970,7 +7690,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "foundation_communities_7",
@@ -7003,16 +7729,22 @@
     "apply_url": null,
     "apply_instructions": "Sign Up Here",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Concrete task of assisting with health insurance enrollment.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2024-01-15)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
     "unified_tags": [
       "health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2024-01-15",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "foundation_communities_6",
@@ -7054,7 +7786,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "foundation_communities_4",
@@ -7097,7 +7835,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "foundation_communities_3",
@@ -7172,16 +7916,22 @@
     "apply_url": null,
     "apply_instructions": "Sign Up Here",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Concrete task of providing tax preparation assistance.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2024-04-15)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
     "unified_tags": [
       "community",
       "education"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2024-04-15",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "foundation_communities_2",
@@ -7302,7 +8052,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "friends_of_northaven_trail_2",
@@ -7455,7 +8211,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "friends_of_northaven_trail_4",
@@ -7493,7 +8255,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "friends_of_rescue_animals_1",
@@ -7533,7 +8301,13 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "friends_of_rescue_animals_6",
@@ -7574,7 +8348,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "friends_of_rescue_animals_0",
@@ -7615,7 +8395,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "friends_of_rescue_animals_2",
@@ -7653,7 +8439,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "friends_of_rescue_animals_4",
@@ -7691,7 +8483,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "friends_of_rescue_animals_7",
@@ -7731,7 +8529,13 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "friends_of_rescue_animals_9",
@@ -7772,7 +8576,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "friends_of_rescue_animals_3",
@@ -7813,7 +8623,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "friends_of_rescue_animals_5",
@@ -7851,7 +8667,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "friends_of_rescue_animals_8",
@@ -7893,7 +8715,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "friends_of_the_dallas_public_library_0",
@@ -7965,16 +8793,22 @@
     "apply_url": null,
     "apply_instructions": "Check the website to see how you can help.",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Concrete role of helping with meal distribution.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2023-07-23)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
     "unified_tags": [
       "children",
       "food_security"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2023-07-23",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "frisco_threads_student_clothes_closet_0",
@@ -8015,7 +8849,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "future_city_competition_north_texas_3",
@@ -8053,7 +8893,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "future_city_competition_north_texas_2",
@@ -8085,13 +8931,19 @@
     "apply_url": null,
     "apply_instructions": "Sign Up",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Volunteers assist with logistical tasks at the event.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2024-01-31)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2024-01-31",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "future_city_competition_north_texas_0",
@@ -8132,7 +8984,13 @@
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "future_city_competition_north_texas_1",
@@ -8170,7 +9028,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "grow_north_texas_1",
@@ -8209,7 +9073,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "grow_north_texas_0",
@@ -8250,7 +9120,13 @@
     },
     "unified_tags": [
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "good_samaritans_garland_3",
@@ -8288,7 +9164,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "good_samaritans_of_garland_3",
@@ -8329,7 +9211,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "good_samaritans_garland_1",
@@ -8371,7 +9259,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "good_samaritans_of_garland_1",
@@ -8413,7 +9307,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "good_samaritans_garland_2",
@@ -8455,7 +9355,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "good_samaritans_of_garland_2",
@@ -8497,7 +9403,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "good_samaritans_garland_0",
@@ -8535,7 +9447,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "good_samaritans_of_garland_0",
@@ -8573,7 +9491,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "grayson_grand_central_station_2",
@@ -8616,7 +9540,13 @@
       "children",
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "grayson_grand_central_station_0",
@@ -8657,7 +9587,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "grayson_grand_central_station_1",
@@ -8698,7 +9634,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "greater_denton_arts_council_4",
@@ -9030,7 +9972,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "habitat_for_humanity_of_grayson_county_0",
@@ -9072,7 +10020,13 @@
     "unified_tags": [
       "community",
       "housing"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "habitat_for_humanity_of_grayson_county_3",
@@ -9148,7 +10102,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "habitat_for_humanity_of_grayson_county_2",
@@ -9186,7 +10146,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "habitat_garland_0",
@@ -9225,6 +10191,12 @@
       "reason": "Concrete role in building homes.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -9264,6 +10236,12 @@
       "reason": "Concrete role in assisting at ReStore.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -9303,6 +10281,12 @@
       "reason": "Concrete role in photography at events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -9383,7 +10367,13 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "happy_furever_3",
@@ -9461,7 +10451,13 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "heart_of_the_city_2",
@@ -9499,7 +10495,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "heart_of_the_city_7",
@@ -9579,7 +10581,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "heart_of_the_city_4",
@@ -9617,7 +10625,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "heart_of_the_city_5",
@@ -9693,7 +10707,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "heart_of_the_city_1",
@@ -9769,7 +10789,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "hearts_for_homes_0",
@@ -9812,7 +10838,13 @@
       "seniors",
       "housing",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "hearts_for_homes_1",
@@ -9850,7 +10882,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "hearts_for_homes_2",
@@ -9888,7 +10926,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "heritage_farmstead_museum_5",
@@ -9928,6 +10972,12 @@
       "reason": "Concrete role providing care to livestock.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -9970,6 +11020,12 @@
       "reason": "Concrete role guiding tours and educating visitors.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -10012,6 +11068,12 @@
       "reason": "Concrete role assisting with youth programs and field trips.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -10050,6 +11112,12 @@
       "reason": "Concrete role engaging with guests and providing information.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -10088,6 +11156,12 @@
       "reason": "Concrete role helping with special events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -10126,6 +11200,12 @@
       "reason": "Concrete role welcoming visitors and assisting with admissions.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -10204,7 +11284,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "holy_sews_4",
@@ -10243,7 +11329,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "holy_sews_2",
@@ -10282,7 +11374,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "holy_sews_1",
@@ -10321,7 +11419,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "hope_mommies_dallas_chapter_0",
@@ -10439,7 +11543,13 @@
     "unified_tags": [
       "community",
       "housing"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "hope_restored_missions_1",
@@ -10517,7 +11627,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "hopekids_north_texas_2",
@@ -10556,7 +11672,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "hopekids_north_texas_1",
@@ -10595,7 +11717,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "icr_discovery_center_0",
@@ -10633,7 +11761,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "icr_discovery_center_1",
@@ -10671,7 +11805,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "incarnation_place_3",
@@ -10869,7 +12009,13 @@
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "incarnation_place_5",
@@ -10949,7 +12095,13 @@
       "education",
       "children",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "incarnation_place_6",
@@ -10990,7 +12142,13 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "interfaith_ministries_of_denton_inc_0",
@@ -11030,7 +12188,13 @@
     },
     "unified_tags": [
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "irving_cares_2",
@@ -11068,7 +12232,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "irving_cares_1",
@@ -11106,7 +12276,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "irving_cares_3",
@@ -11144,7 +12320,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "irving_cares_0",
@@ -11186,7 +12368,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "john_bunker_sands_wetland_center_0",
@@ -11225,7 +12413,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "k9_s_for_freedom_independence_0",
@@ -11345,7 +12539,13 @@
     "unified_tags": [
       "children",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "kayla_cares_4_kids_4",
@@ -11388,7 +12588,13 @@
       "children",
       "arts",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "kayla_cares_4_kids_2",
@@ -11468,7 +12674,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "kayla_cares_4_kids_5",
@@ -11506,7 +12718,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "kayla_cares_4_kids_0",
@@ -11544,7 +12762,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "kayla_cares_4_kids_6",
@@ -11704,7 +12928,13 @@
     "unified_tags": [
       "environment",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "keep_lewisville_beautiful_3",
@@ -11743,7 +12973,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "keep_lewisville_beautiful_5",
@@ -11781,7 +13017,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "keep_lewisville_beautiful_4",
@@ -11823,7 +13065,13 @@
     "unified_tags": [
       "environment",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "keep_lewisville_beautiful_1",
@@ -11905,7 +13153,13 @@
     "unified_tags": [
       "community",
       "environment"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "keep_lewisville_beautiful_2",
@@ -11947,7 +13201,13 @@
     "unified_tags": [
       "environment",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "keep_rowlett_beautiful_2",
@@ -12023,7 +13283,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "keep_rowlett_beautiful_4",
@@ -12140,7 +13406,13 @@
     "unified_tags": [
       "environment",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "keep_rowlett_beautiful_1",
@@ -12178,7 +13450,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "keith_house_a_dba_of_entrada_of_texas_0",
@@ -12220,7 +13498,13 @@
     "unified_tags": [
       "arts",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "lake_pointe_granbury_0",
@@ -12262,7 +13546,13 @@
     "unified_tags": [
       "community",
       "health"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "lifepath_systems_foundation_0",
@@ -12300,7 +13590,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "lumin_education_0",
@@ -12338,7 +13634,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "lumin_education_2",
@@ -12380,7 +13682,13 @@
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "lumin_education_1",
@@ -12422,7 +13730,13 @@
       "education",
       "children",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "manna_house_0",
@@ -12460,7 +13774,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "manna_house_4",
@@ -12541,7 +13861,13 @@
     },
     "unified_tags": [
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "manna_house_1",
@@ -12583,7 +13909,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "manna_house_2",
@@ -12621,7 +13953,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "many_helping_hands_ministry_0",
@@ -12659,7 +13997,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "many_helping_hands_ministry_1",
@@ -12701,7 +14045,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "mckinney_public_library_foundation_0",
@@ -12780,7 +14130,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "mid_cities_animal_rescue_4",
@@ -12822,7 +14178,13 @@
       "animals",
       "community",
       "foster_care"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "mid_cities_animal_rescue_2",
@@ -12862,7 +14224,13 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "mid_cities_animal_rescue_1",
@@ -12944,7 +14312,13 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "mid_cities_animal_rescue_0",
@@ -12986,7 +14360,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "mission_arlington_mission_metroplex_4",
@@ -13060,7 +14440,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "mission_arlington_mission_metroplex_1",
@@ -13172,7 +14558,13 @@
     },
     "unified_tags": [
       "health"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "mission_arlington_mission_metroplex_0",
@@ -13319,7 +14711,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "my_possibilities_0",
@@ -13399,7 +14797,13 @@
       "seniors",
       "community",
       "food_security"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "my_possibilities_3",
@@ -13441,7 +14845,13 @@
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "my_possibilities_4",
@@ -13484,7 +14894,13 @@
       "education",
       "community",
       "disabilities"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "new_day_arlington_0",
@@ -13528,7 +14944,13 @@
       "children",
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "nomi_network_0",
@@ -13604,6 +15026,12 @@
       "reason": "Specific roles in clothing checkout and donation sorting.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -13646,6 +15074,12 @@
       "reason": "Specific roles in warehouse, checkout, and greeting.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -13688,6 +15122,12 @@
       "reason": "Specific role in picking up groceries weekly.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -13730,6 +15170,12 @@
       "reason": "Specific role in delivery driving.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -13768,6 +15214,12 @@
       "reason": "Specific role in intake department with training.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -13810,6 +15262,12 @@
       "reason": "Specific roles in bagging and paperwork assistance.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -13853,6 +15311,12 @@
       "reason": "Specific roles in seniors' day, companion calls, and handymen.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -13894,7 +15358,13 @@
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "new_friends_new_life_3",
@@ -13934,7 +15404,13 @@
     },
     "unified_tags": [
       "children"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "new_friends_new_life_0",
@@ -13972,7 +15448,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "new_friends_new_life_2",
@@ -14015,7 +15497,13 @@
       "education",
       "health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "new_friends_new_life_5",
@@ -14056,7 +15544,13 @@
     },
     "unified_tags": [
       "education"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "new_friends_new_life_1",
@@ -14094,7 +15588,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "north_texas_food_bank_3",
@@ -14136,7 +15636,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "north_texas_food_bank_1",
@@ -14178,7 +15684,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "north_texas_food_bank_5",
@@ -14221,7 +15733,13 @@
       "food_security",
       "community",
       "environment"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "north_texas_food_bank_6",
@@ -14260,7 +15778,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-08-08",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "north_texas_food_bank_8",
@@ -14303,7 +15827,13 @@
       "food_security",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "north_texas_food_bank_0",
@@ -14345,7 +15875,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "north_texas_food_bank_2",
@@ -14387,7 +15923,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "north_texas_food_bank_4",
@@ -14431,7 +15973,13 @@
       "seniors",
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "north_texas_food_bank_7",
@@ -14469,7 +16017,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "our_daily_bread_denton_0",
@@ -14509,7 +16063,13 @@
     },
     "unified_tags": [
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "our_daily_bread_denton_1",
@@ -14585,7 +16145,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "poiema_foundation_0",
@@ -14624,7 +16190,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "poiema_foundation_2",
@@ -14662,7 +16234,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "poiema_foundation_4",
@@ -14744,7 +16322,13 @@
     "unified_tags": [
       "crisis_support",
       "mental_health"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "presbyterian_night_shelter_2",
@@ -14786,7 +16370,13 @@
     "unified_tags": [
       "children",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "presbyterian_night_shelter_1",
@@ -14824,7 +16414,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "presbyterian_night_shelter_3",
@@ -14862,7 +16458,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "presbyterian_night_shelter_0",
@@ -14904,7 +16506,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "presbyterian_night_shelter_4",
@@ -14942,7 +16550,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "preservation_society_for_spring_creek_forest_0",
@@ -14981,7 +16595,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "preservation_society_for_spring_creek_forest_3",
@@ -15019,7 +16639,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "preservation_society_for_spring_creek_forest_1",
@@ -15060,7 +16686,13 @@
     "unified_tags": [
       "environment",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "preservation_society_for_spring_creek_forest_4",
@@ -15099,7 +16731,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "preservation_society_for_spring_creek_forest_2",
@@ -15137,7 +16775,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "preservation_society_for_spring_creek_forest_5",
@@ -15176,7 +16820,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "richardson_community_band_1",
@@ -15422,6 +17072,12 @@
       "reason": "Concrete role for community service hours with RHS.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -15465,6 +17121,12 @@
       "reason": "Concrete role in educating the community on pet issues.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -15507,6 +17169,12 @@
       "reason": "Concrete role in organizing and running a golf tournament.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -15545,6 +17213,12 @@
       "reason": "Concrete role using marketing skills for RHS.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -15587,6 +17261,12 @@
       "reason": "Concrete role in staffing and caring for pets at events.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -15628,7 +17308,13 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "river_legacy_foundation_3",
@@ -15671,7 +17357,13 @@
     "unified_tags": [
       "community",
       "environment"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "river_legacy_foundation_0",
@@ -15713,7 +17405,13 @@
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "river_legacy_foundation_2",
@@ -15752,7 +17450,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "sharing_life_community_outreach_inc_1",
@@ -15790,7 +17494,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "sharing_life_community_outreach_inc_0",
@@ -15832,7 +17542,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "sharing_life_community_outreach_inc_2",
@@ -15870,7 +17586,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "spark_0",
@@ -15902,13 +17624,19 @@
     "apply_url": null,
     "apply_instructions": "Contact our Director of Programs, Aubrey Ferguson, at aferguson@SparkDallas.org.",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Concrete role in volunteering at Klyde Warren Park.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-05-09)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-05-09",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "save_the_bees_usa_1",
@@ -16074,7 +17802,13 @@
       "education",
       "community",
       "children"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "selah_creek_0",
@@ -16114,7 +17848,13 @@
     },
     "unified_tags": [
       "children"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "selah_creek_2",
@@ -16155,7 +17895,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "selah_creek_4",
@@ -16193,7 +17939,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "selah_creek_3",
@@ -16231,7 +17983,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "selah_creek_6",
@@ -16307,7 +18065,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "sharing_the_love_foundation_2",
@@ -16466,7 +18230,13 @@
       "seniors",
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "songs_smiles_1",
@@ -16509,7 +18279,13 @@
       "seniors",
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "songs_smiles_2",
@@ -16552,7 +18328,13 @@
       "seniors",
       "health",
       "mental_health"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "southwestern_adventist_university_1",
@@ -16591,7 +18373,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "southwestern_adventist_university_2",
@@ -16623,15 +18411,21 @@
     "apply_url": null,
     "apply_instructions": "Check schedule for participation.",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Concrete role volunteering at community support events.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2023-08-15)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
     "unified_tags": [
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2023-08-15",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "southwestern_adventist_university_3",
@@ -16715,7 +18509,13 @@
     "unified_tags": [
       "health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "spay_neuter_network_3",
@@ -16754,7 +18554,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "spay_neuter_network_1",
@@ -16795,7 +18601,13 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "spay_neuter_network_4",
@@ -16872,7 +18684,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "spay_neuter_network_2",
@@ -16953,6 +18771,12 @@
       "reason": "Concrete role distributing food at a pantry.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -17203,7 +19027,13 @@
     },
     "unified_tags": [
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "streetside_showers_0",
@@ -17280,7 +19110,13 @@
     },
     "unified_tags": [
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "streetside_showers_2",
@@ -17316,7 +19152,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "stronger_women_0",
@@ -17519,7 +19361,13 @@
       "community",
       "food_security",
       "environment"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "tarrant_area_food_bank_1",
@@ -17561,7 +19409,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "tarrant_area_food_bank_6",
@@ -17599,7 +19453,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "tarrant_area_food_bank_3",
@@ -17641,7 +19501,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "tarrant_area_food_bank_5",
@@ -17683,7 +19549,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "tarrant_area_food_bank_4",
@@ -17725,7 +19597,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "tarrant_area_food_bank_0",
@@ -17767,7 +19645,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "taste_project_0",
@@ -17809,7 +19693,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "texas_independent_rhodesian_ridgeback_rescue_1",
@@ -17850,7 +19740,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "texas_independent_rhodesian_ridgeback_rescue_2",
@@ -17888,7 +19784,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "texas_independent_rhodesian_ridgeback_rescue_0",
@@ -17928,7 +19830,13 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "texas_land_conservancy_0",
@@ -17961,13 +19869,19 @@
     "apply_url": null,
     "apply_instructions": "Sign up to volunteer on June 6, 2026.",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Volunteer to maintain trails at nature preserve.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-06-06)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-06-06",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "texas_land_conservancy_1",
@@ -18006,7 +19920,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "texas_trees_foundation_0",
@@ -18047,7 +19967,13 @@
     "unified_tags": [
       "environment",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "the_m_i_n_t_foundation_2",
@@ -18081,17 +20007,23 @@
     "apply_url": null,
     "apply_instructions": "Sign up for specific volunteer shifts.",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Concrete volunteer role in school supply distribution.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2023-08-08)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
     "unified_tags": [
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2023-08-08",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "the_m_i_n_t_foundation_4",
@@ -18125,16 +20057,22 @@
     "apply_url": null,
     "apply_instructions": "Sign up for specific volunteer dates.",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Concrete volunteer role in distributing gifts during Christmas.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2023-12-19)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
     "unified_tags": [
       "children",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2023-12-19",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "the_m_i_n_t_foundation_3",
@@ -18167,16 +20105,22 @@
     "apply_url": null,
     "apply_instructions": "Sign up for specific volunteer dates.",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Concrete volunteer role in distributing meals during Thanksgiving.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2023-11-21)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2023-11-21",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "the_m_i_n_t_foundation_1",
@@ -18218,7 +20162,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "the_m_i_n_t_foundation_0",
@@ -18260,7 +20210,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "the_main_place_0",
@@ -18332,7 +20288,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "the_oak_cliff_veggie_project_1",
@@ -18373,7 +20335,13 @@
     "unified_tags": [
       "community",
       "environment"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "the_oak_cliff_veggie_project_4",
@@ -18414,7 +20382,13 @@
     "unified_tags": [
       "community",
       "environment"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "the_oak_cliff_veggie_project_3",
@@ -18455,7 +20429,13 @@
     "unified_tags": [
       "environment",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "the_oak_cliff_veggie_project_0",
@@ -18533,7 +20513,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "the_oak_cliff_veggie_project_2",
@@ -18575,7 +20561,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "the_samaritan_inn_4",
@@ -18859,6 +20851,12 @@
       "reason": "Mentoring children with special needs is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -18901,6 +20899,12 @@
       "reason": "Engaging in activities with residents is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -18985,6 +20989,12 @@
       "reason": "Advocating for seniors as an ombudsman is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -19026,6 +21036,12 @@
       "reason": "Helping manage finances for older adults is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -19110,6 +21126,12 @@
       "reason": "Providing companionship to seniors is a concrete volunteer role.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -19148,7 +21170,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "the_storehouse_community_center_2",
@@ -19187,7 +21215,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "the_storehouse_community_center_0",
@@ -19229,7 +21263,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "the_storehouse_community_center_3",
@@ -19271,7 +21311,13 @@
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "texas_ramp_project_0",
@@ -19314,6 +21360,12 @@
       "reason": "Concrete task of building wheelchair ramps.",
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
   },
   {
@@ -19549,7 +21601,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "together_we_thrive_2",
@@ -19587,7 +21645,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "together_we_thrive_1",
@@ -19630,7 +21694,13 @@
       "children",
       "community",
       "education"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "together_we_thrive_0",
@@ -19672,7 +21742,13 @@
     "unified_tags": [
       "children",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "together_we_thrive_4",
@@ -19786,13 +21862,19 @@
     "apply_url": "REGISTER TO SERVE",
     "apply_instructions": "Sign up through the registration link provided.",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Volunteers assist with guest check-in, a concrete role.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-07-11)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-07-11",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "under_the_bridge_ministries_inc_0",
@@ -19835,7 +21917,13 @@
       "food_security",
       "community",
       "crisis_support"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "undies_for_everyone_1",
@@ -19876,7 +21964,13 @@
     "unified_tags": [
       "community",
       "food_security"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "undies_for_everyone_0",
@@ -19997,7 +22091,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "uptown_players_0",
@@ -20036,7 +22136,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "vickery_meadow_youth_development_foundation_0",
@@ -20076,7 +22182,13 @@
     },
     "unified_tags": [
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "vickery_meadow_youth_development_foundation_4",
@@ -20158,7 +22270,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "vickery_meadow_youth_development_foundation_2",
@@ -20200,7 +22318,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "vickery_meadow_youth_development_foundation_1",
@@ -20241,7 +22365,13 @@
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "visiting_nurse_association_of_texas_3",
@@ -20279,7 +22409,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "visiting_nurse_association_of_texas_2",
@@ -20318,7 +22454,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "visiting_nurse_association_of_texas_0",
@@ -20359,7 +22501,13 @@
     },
     "unified_tags": [
       "health"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "visiting_nurse_association_of_texas_6",
@@ -20402,7 +22550,13 @@
     "unified_tags": [
       "health",
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "visiting_nurse_association_of_texas_5",
@@ -20481,7 +22635,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "visiting_nurse_association_of_texas_1",
@@ -20520,7 +22680,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "vogel_where_children_soar_0",
@@ -20561,7 +22727,13 @@
     "unified_tags": [
       "children",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "vogel_where_children_soar_1",
@@ -20643,7 +22815,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "weatherford_wags_5",
@@ -20683,7 +22861,13 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "weatherford_wags_2",
@@ -20722,7 +22906,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "weatherford_wags_1",
@@ -20760,7 +22950,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "weatherford_wags_4",
@@ -20802,7 +22998,13 @@
       "foster_care",
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "weatherford_wags_7",
@@ -20881,7 +23083,13 @@
     "unified_tags": [
       "animals",
       "foster_care"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "weatherford_wags_0",
@@ -20919,7 +23127,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "weatherford_wags_6",
@@ -20958,7 +23172,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "well_community_3",
@@ -21000,7 +23220,13 @@
     "unified_tags": [
       "community",
       "housing"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "well_community_7",
@@ -21077,7 +23303,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "well_community_2",
@@ -21120,7 +23352,13 @@
       "education",
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "well_community_6",
@@ -21159,7 +23397,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "well_community_5",
@@ -21200,7 +23444,13 @@
     },
     "unified_tags": [
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "well_community_0",
@@ -21243,7 +23493,13 @@
       "food_security",
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "well_community_1",
@@ -21282,7 +23538,13 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "white_rock_lake_conservancy_0",
@@ -21390,13 +23652,19 @@
     "apply_url": null,
     "apply_instructions": null,
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Concrete role in capturing event photos and videos.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-04-25)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-04-25",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   },
   {
     "id": "re_building_together_north_texas_0",
@@ -21428,12 +23696,18 @@
     "apply_url": null,
     "apply_instructions": null,
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Concrete role in creating live content for an event.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-04-25)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-04-25",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+    }
   }
 ]

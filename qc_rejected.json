@@ -8,6 +8,14 @@
     "source_url": "https://tarrantcounty-tx.aauw.net/volunteer-needs"
   },
   {
+    "id": "aauw_tarrant_county_branch_0",
+    "org_name": "AAUW Tarrant County Branch",
+    "opportunity_title": "Sister-to-Sister Volunteer",
+    "category": "expired",
+    "reason": "event date passed (2023-10-27)",
+    "source_url": "https://tarrantcounty-tx.aauw.net/volunteer-needs"
+  },
+  {
     "id": "arlington_life_shelter_2",
     "org_name": "Arlington Life Shelter",
     "opportunity_title": "Angel Tree",
@@ -120,6 +128,22 @@
     "source_url": "https://boomerangcares.org"
   },
   {
+    "id": "boys_girls_clubs_of_collin_county_7",
+    "org_name": "Boys & Girls Clubs of Collin County",
+    "opportunity_title": "Chrysalis Gala Volunteer",
+    "category": "expired",
+    "reason": "event date passed (2023-10-14)",
+    "source_url": "https://www.bgccc.org/volunteers"
+  },
+  {
+    "id": "boys_girls_clubs_of_collin_county_6",
+    "org_name": "Boys & Girls Clubs of Collin County",
+    "opportunity_title": "Poker Tournament Volunteer",
+    "category": "expired",
+    "reason": "event date passed (2023-04-11)",
+    "source_url": "https://www.bgccc.org/volunteers"
+  },
+  {
     "id": "camp_summit_inc_0",
     "org_name": "CAMP SUMMIT INC",
     "opportunity_title": "Annual Golf Tournament",
@@ -166,6 +190,14 @@
     "category": "vague_no_role",
     "reason": "No specific volunteer role or task described.",
     "source_url": "https://canine.org/get-involved/ways-to-volunteer"
+  },
+  {
+    "id": "catch_up_read_2",
+    "org_name": "Catch Up & Read",
+    "opportunity_title": "Back to School Prep Party",
+    "category": "expired",
+    "reason": "event date passed (2025-08-11)",
+    "source_url": "http://www.catchupandread.org/volunteer"
   },
   {
     "id": "catch_up_read_1",
@@ -248,12 +280,28 @@
     "source_url": "https://www.dallashopecharities.org"
   },
   {
+    "id": "dallas_meditation_center_0",
+    "org_name": "Dallas Meditation Center",
+    "opportunity_title": "Mailing Volunteer",
+    "category": "expired",
+    "reason": "event date passed (2025-03-01)",
+    "source_url": "https://dallasmeditationcenter.com/volunteer-2"
+  },
+  {
     "id": "dallas_meditation_center_2",
     "org_name": "Dallas Meditation Center",
     "opportunity_title": "Social Media Content Creator",
     "category": "printable_or_athome_activity",
     "reason": "Creating a video reel from home is an at-home activity.",
     "source_url": "https://dallasmeditationcenter.com/volunteer-2"
+  },
+  {
+    "id": "denton_animal_support_foundation_inc_1",
+    "org_name": "Denton Animal Support Foundation, Inc.",
+    "opportunity_title": "Vaccination Clinic Volunteer",
+    "category": "expired",
+    "reason": "event date passed (2023-12-31)",
+    "source_url": "http://www.DentonASF.com/volunteer-opportunities"
   },
   {
     "id": "design_connect_create_2",
@@ -432,11 +480,27 @@
     "source_url": "https://fwabandoned.org/get-involved"
   },
   {
+    "id": "foundation_communities_7",
+    "org_name": "Foundation Communities",
+    "opportunity_title": "Health Coverage",
+    "category": "expired",
+    "reason": "event date passed (2024-01-15)",
+    "source_url": "https://foundcom.org/get-involved/volunteer"
+  },
+  {
     "id": "foundation_communities_3",
     "org_name": "Foundation Communities",
     "opportunity_title": "Supper Clubs",
     "category": "donation_or_fundraising",
     "reason": "Requires covering cost of meal, not just volunteering time.",
+    "source_url": "https://foundcom.org/get-involved/volunteer"
+  },
+  {
+    "id": "foundation_communities_0",
+    "org_name": "Foundation Communities",
+    "opportunity_title": "Tax Help",
+    "category": "expired",
+    "reason": "event date passed (2024-04-15)",
     "source_url": "https://foundcom.org/get-involved/volunteer"
   },
   {
@@ -486,6 +550,22 @@
     "category": "vague_no_role",
     "reason": "No specific role or task described, just a generic invitation.",
     "source_url": "http://www.supportdpl.org/get-involved"
+  },
+  {
+    "id": "frisco_family_services_0",
+    "org_name": "Frisco Family Services",
+    "opportunity_title": "Summer Lunch Program",
+    "category": "expired",
+    "reason": "event date passed (2023-07-23)",
+    "source_url": "http://friscofamilyservices.org/"
+  },
+  {
+    "id": "future_city_competition_north_texas_2",
+    "org_name": "Future City Competition - North Texas",
+    "opportunity_title": "Day-of-the-Event Support",
+    "category": "expired",
+    "reason": "event date passed (2024-01-31)",
+    "source_url": "https://dfwfuturecity.org/part_vols.html"
   },
   {
     "id": "greater_denton_arts_council_4",
@@ -888,6 +968,14 @@
     "source_url": "http://www.richardsoncommunityband.org/"
   },
   {
+    "id": "spark_0",
+    "org_name": "SPARK!",
+    "opportunity_title": "SPARK! In The Park at Klyde Warren Park",
+    "category": "expired",
+    "reason": "event date passed (2026-05-09)",
+    "source_url": "https://sparkdallas.org/volunteer-sign-up"
+  },
+  {
     "id": "save_the_bees_usa_1",
     "org_name": "Save the Bees USA",
     "opportunity_title": "Adopt A Hive Program",
@@ -942,6 +1030,14 @@
     "category": "class_membership_or_paid",
     "reason": "Free workshop to attend, not a volunteer role.",
     "source_url": "http://www.sharingthelove.org"
+  },
+  {
+    "id": "southwestern_adventist_university_2",
+    "org_name": "Southwestern Adventist University",
+    "opportunity_title": "Refugio (The Refuge)",
+    "category": "expired",
+    "reason": "event date passed (2023-08-15)",
+    "source_url": "http://www.swau.edu/"
   },
   {
     "id": "southwestern_adventist_university_3",
@@ -1046,6 +1142,38 @@
     "category": "internship_or_job",
     "reason": "Internship program, not a volunteer opportunity.",
     "source_url": "https://www.tltleaders.org/tlt-interns/"
+  },
+  {
+    "id": "texas_land_conservancy_0",
+    "org_name": "Texas Land Conservancy",
+    "opportunity_title": "National Trails Day at Oak Cliff Nature Preserve",
+    "category": "expired",
+    "reason": "event date passed (2026-06-06)",
+    "source_url": "https://www.texaslandconservancy.org/oak-cliff-nature-preserve"
+  },
+  {
+    "id": "the_m_i_n_t_foundation_2",
+    "org_name": "The M.I.N.T Foundation",
+    "opportunity_title": "Back to School Giveaway",
+    "category": "expired",
+    "reason": "event date passed (2023-08-08)",
+    "source_url": "http://www.mintcares.org/bulletin-board/volunteer-opportunities-2026"
+  },
+  {
+    "id": "the_m_i_n_t_foundation_4",
+    "org_name": "The M.I.N.T Foundation",
+    "opportunity_title": "Christmas Candyland",
+    "category": "expired",
+    "reason": "event date passed (2023-12-19)",
+    "source_url": "http://www.mintcares.org/bulletin-board/volunteer-opportunities-2026"
+  },
+  {
+    "id": "the_m_i_n_t_foundation_3",
+    "org_name": "The M.I.N.T Foundation",
+    "opportunity_title": "DeSoto Gives Thanks",
+    "category": "expired",
+    "reason": "event date passed (2023-11-21)",
+    "source_url": "http://www.mintcares.org/bulletin-board/volunteer-opportunities-2026"
   },
   {
     "id": "the_main_place_0",
@@ -1184,6 +1312,14 @@
     "source_url": "http://www.traffick911.com/volunteer"
   },
   {
+    "id": "traffick911_0",
+    "org_name": "Traffick911",
+    "opportunity_title": "McKinney Sip & Stroll",
+    "category": "expired",
+    "reason": "event date passed (2026-07-11)",
+    "source_url": "http://www.traffick911.com/volunteer"
+  },
+  {
     "id": "undies_for_everyone_0",
     "org_name": "Undies for Everyone",
     "opportunity_title": "Host a Drive",
@@ -1254,5 +1390,21 @@
     "category": "donation_or_fundraising",
     "reason": "Involves purchasing a custom brick, not volunteering.",
     "source_url": "http://www.whiterockdallas.org"
+  },
+  {
+    "id": "re_building_together_north_texas_1",
+    "org_name": "[Re]Building Together North Texas",
+    "opportunity_title": "Event Photographer & Videographer",
+    "category": "expired",
+    "reason": "event date passed (2026-04-25)",
+    "source_url": "https://rtntx.org/volunteermatch"
+  },
+  {
+    "id": "re_building_together_north_texas_0",
+    "org_name": "[Re]Building Together North Texas",
+    "opportunity_title": "Live Content Creator",
+    "category": "expired",
+    "reason": "event date passed (2026-04-25)",
+    "source_url": "https://rtntx.org/volunteermatch"
   }
 ]

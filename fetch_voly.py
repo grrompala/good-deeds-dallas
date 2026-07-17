@@ -391,6 +391,14 @@ def main():
             print(f"  [{i}/{len(all_ids)}] SKIP (404): {opp_id}")
             continue
 
+
+        # Carry pipeline stamps (LLM tags, QC verdicts, expiry extraction)
+        # across re-scrapes — they're expensive to recompute and stay valid.
+        old = existing.get(rid)
+        if old:
+            for k in ("unified_tags", "qc", "expiry"):
+                if k in old and k not in detail:
+                    detail[k] = old[k]
         existing[rid] = detail
         print(f"  [{i}/{len(all_ids)}] OK: {detail.get('opportunity_title', opp_id)}")
 

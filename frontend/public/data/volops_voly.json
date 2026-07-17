@@ -42,7 +42,13 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118643",
@@ -171,7 +177,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_111324",
@@ -218,7 +230,13 @@
       "health",
       "community",
       "mental_health"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118095",
@@ -259,7 +277,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:48.028938+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118712",
@@ -300,7 +324,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:28:28.840163+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_111216",
@@ -346,7 +376,13 @@
       "seniors",
       "health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_111321",
@@ -392,7 +428,13 @@
       "seniors",
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118687",
@@ -434,7 +476,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:28:25.156428+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-07-18",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_116509",
@@ -515,7 +563,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:28:11.204733+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118512",
@@ -556,7 +610,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:28:07.228370+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-07-18",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118700",
@@ -598,7 +658,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:28:28.085496+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118681",
@@ -639,7 +705,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:28:23.840970+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-08-01",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_112613",
@@ -681,7 +753,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:26:42.253562+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117281",
@@ -722,7 +800,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:32.191381+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118391",
@@ -764,7 +848,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:58.614843+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118354",
@@ -806,7 +896,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:52.675133+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117731",
@@ -851,7 +947,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117732",
@@ -896,7 +998,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117733",
@@ -941,7 +1049,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117734",
@@ -986,7 +1100,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_109171",
@@ -1028,7 +1148,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:26:32.982110+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_106838",
@@ -1161,7 +1287,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:26:59.408761+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_115411",
@@ -1202,7 +1334,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:12.162064+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_115489",
@@ -1248,7 +1386,13 @@
       "seniors",
       "arts",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_115493",
@@ -1294,7 +1438,13 @@
       "seniors",
       "arts",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_115484",
@@ -1340,7 +1490,13 @@
       "seniors",
       "arts",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_111322",
@@ -1387,7 +1543,13 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117967",
@@ -1553,7 +1715,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:28:16.529171+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113436",
@@ -1597,7 +1765,13 @@
     "last_scraped": "2026-07-13T12:26:49.240268+00:00",
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118387",
@@ -1734,7 +1908,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118388",
@@ -1780,7 +1960,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_111330",
@@ -1827,7 +2013,13 @@
       "health",
       "community",
       "mental_health"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_111328",
@@ -1874,7 +2066,13 @@
       "health",
       "community",
       "mental_health"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118394",
@@ -1921,7 +2119,13 @@
       "education",
       "immigration",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117477",
@@ -1965,7 +2169,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117476",
@@ -2009,7 +2219,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113949",
@@ -2054,7 +2270,13 @@
       "community",
       "education",
       "food_security"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118587",
@@ -2099,7 +2321,13 @@
       "seniors",
       "community",
       "mental_health"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_116483",
@@ -2140,7 +2368,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:20.997444+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118642",
@@ -2184,7 +2418,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_116773",
@@ -2230,7 +2470,13 @@
       "food_security",
       "community",
       "health"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118689",
@@ -2271,7 +2517,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:28:25.821695+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_95725",
@@ -2313,7 +2565,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:26:29.471477+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118393",
@@ -2403,7 +2661,13 @@
     "unified_tags": [
       "community",
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_111327",
@@ -2450,7 +2714,13 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118023",
@@ -2491,7 +2761,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:46.715556+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113437",
@@ -2536,7 +2812,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113774",
@@ -2578,7 +2860,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:26:56.756184+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118567",
@@ -2621,7 +2909,13 @@
     "last_scraped": "2026-07-13T12:28:07.897669+00:00",
     "unified_tags": [
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_108143",
@@ -2749,7 +3043,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118638",
@@ -2794,7 +3094,13 @@
       "foster_care",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118509",
@@ -2838,7 +3144,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_115699",
@@ -2964,7 +3276,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_116140",
@@ -3005,7 +3323,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:17.015117+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118446",
@@ -3089,7 +3413,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_116428",
@@ -3134,7 +3464,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_116506",
@@ -3222,7 +3558,13 @@
       "food_security",
       "community",
       "housing"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113843",
@@ -3268,7 +3610,13 @@
       "food_security",
       "community",
       "housing"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117806",
@@ -3310,7 +3658,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:44.721016+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118351",
@@ -3398,7 +3752,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113772",
@@ -3440,7 +3800,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:26:56.086353+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_114595",
@@ -3531,7 +3897,13 @@
       "education",
       "legal",
       "housing"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-08-08",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118690",
@@ -3576,7 +3948,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113430",
@@ -3622,7 +4000,13 @@
       "animals",
       "foster_care",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118309",
@@ -3793,7 +4177,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:10.188668+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113827",
@@ -3837,7 +4227,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_103933",
@@ -3878,7 +4274,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:26:30.807583+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113143",
@@ -3921,7 +4323,13 @@
     "last_scraped": "2026-07-13T12:26:42.906993+00:00",
     "unified_tags": [
       "food_security"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118183",
@@ -3965,7 +4373,13 @@
     "unified_tags": [
       "children",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118184",
@@ -4010,7 +4424,13 @@
     "unified_tags": [
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118487",
@@ -4055,7 +4475,13 @@
     "unified_tags": [
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-10-03",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118486",
@@ -4100,7 +4526,13 @@
     "unified_tags": [
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-09-26",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118488",
@@ -4145,7 +4577,13 @@
     "unified_tags": [
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-10-17",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118491",
@@ -4190,7 +4628,13 @@
     "unified_tags": [
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-11-14",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118490",
@@ -4235,7 +4679,13 @@
     "unified_tags": [
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-11-07",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118489",
@@ -4280,7 +4730,13 @@
     "unified_tags": [
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-10-24",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_107701",
@@ -4322,7 +4778,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:26:32.249453+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118685",
@@ -4364,7 +4826,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:28:24.482568+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-07-16",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117544",
@@ -4410,7 +4878,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_116445",
@@ -4452,7 +4926,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:19.688571+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_115002",
@@ -4498,7 +4978,13 @@
       "animals",
       "children",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113403",
@@ -4583,7 +5069,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:56.633180+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118374",
@@ -4624,7 +5116,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:55.976567+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118373",
@@ -4665,7 +5163,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:55.318244+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118508",
@@ -4706,7 +5210,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:28:05.262114+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118661",
@@ -4747,7 +5257,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:28:22.531671+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_111316",
@@ -4793,7 +5309,13 @@
       "seniors",
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118645",
@@ -4922,7 +5444,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:26:50.574932+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_116556",
@@ -4964,7 +5492,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:21.647839+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118650",
@@ -5094,7 +5628,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:28:21.209696+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-07-18",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118653",
@@ -5136,7 +5676,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:28:21.866650+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-07-25",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118651",
@@ -5179,7 +5725,20 @@
     "last_scraped": "2026-07-13T12:28:20.544474+00:00",
     "unified_tags": [
       "health"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-07-15",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-07-15)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118422",
@@ -5266,7 +5825,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118511",
@@ -5311,7 +5876,14 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of voly_113415 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-17T00:49:25.527855+00:00"
+    }
   },
   {
     "id": "voly_111325",
@@ -5358,7 +5930,13 @@
       "health",
       "community",
       "mental_health"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_111326",
@@ -5404,7 +5982,13 @@
       "seniors",
       "health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_116754",
@@ -5491,7 +6075,13 @@
       "children",
       "health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113244",
@@ -5537,7 +6127,13 @@
       "foster_care",
       "children",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_82115",
@@ -5582,7 +6178,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_111331",
@@ -5628,7 +6230,13 @@
       "seniors",
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118637",
@@ -5673,7 +6281,13 @@
       "education",
       "foster_care",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118371",
@@ -5717,7 +6331,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117107",
@@ -5762,7 +6382,13 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117110",
@@ -5807,7 +6433,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of voly_117107 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-17T00:49:25.527855+00:00"
+    }
   },
   {
     "id": "voly_117113",
@@ -5852,7 +6485,13 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117116",
@@ -5897,7 +6536,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of voly_117113 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-17T00:49:25.527855+00:00"
+    }
   },
   {
     "id": "voly_117117",
@@ -5942,7 +6588,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of voly_117113 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-17T00:49:25.527855+00:00"
+    }
   },
   {
     "id": "voly_117118",
@@ -5987,7 +6640,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of voly_117113 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-17T00:49:25.527855+00:00"
+    }
   },
   {
     "id": "voly_117119",
@@ -6032,7 +6692,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of voly_117113 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-17T00:49:25.527855+00:00"
+    }
   },
   {
     "id": "voly_117112",
@@ -6077,7 +6744,14 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "duplicate",
+      "reason": "duplicate of voly_117107 — same org/title/description, no distinguishing schedule",
+      "model": "dedup-rule",
+      "checked_at": "2026-07-17T00:49:25.527855+00:00"
+    }
   },
   {
     "id": "voly_117546",
@@ -6159,7 +6833,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:28:10.537963+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-10-10",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113853",
@@ -6204,7 +6884,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117311",
@@ -6246,7 +6932,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:33.481213+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118103",
@@ -6287,7 +6979,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:49.338107+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118699",
@@ -6329,7 +7027,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:28:27.341544+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-07-25",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113119",
@@ -6412,7 +7116,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:26:58.744964+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113435",
@@ -6456,7 +7166,13 @@
     "last_scraped": "2026-07-13T12:26:48.460008+00:00",
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113434",
@@ -6501,7 +7217,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113444",
@@ -6546,7 +7268,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113442",
@@ -6590,7 +7318,13 @@
     "last_scraped": "2026-07-13T12:26:52.657261+00:00",
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113443",
@@ -6634,7 +7368,13 @@
     "last_scraped": "2026-07-13T12:26:53.311218+00:00",
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113445",
@@ -6679,7 +7419,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118088",
@@ -6720,7 +7466,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:47.368619+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_116498",
@@ -6809,7 +7561,13 @@
       "health",
       "community",
       "crisis_support"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117428",
@@ -6850,7 +7608,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:34.131186+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117434",
@@ -6891,7 +7655,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:34.791203+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117443",
@@ -6932,7 +7702,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:37.453934+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117439",
@@ -6973,7 +7749,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:36.797023+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117444",
@@ -7014,7 +7796,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:38.107756+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117436",
@@ -7055,7 +7843,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:35.464817+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117438",
@@ -7096,7 +7890,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:36.128070+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113439",
@@ -7140,7 +7940,13 @@
     "last_scraped": "2026-07-13T12:26:51.238178+00:00",
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117829",
@@ -7182,7 +7988,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:45.372698+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-07-25",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118101",
@@ -7223,7 +8035,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:48.682410+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_116851",
@@ -7270,7 +8088,13 @@
       "education",
       "housing",
       "legal"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-07-25",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118716",
@@ -7315,7 +8139,13 @@
       "children",
       "community",
       "health"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_115644",
@@ -7405,7 +8235,13 @@
       "education",
       "foster_care",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_116889",
@@ -7450,7 +8286,13 @@
     "unified_tags": [
       "crisis_support",
       "mental_health"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113943",
@@ -7494,7 +8336,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_115303",
@@ -7535,7 +8383,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:09.540615+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117966",
@@ -7579,7 +8433,13 @@
     "unified_tags": [
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_115393",
@@ -7624,7 +8484,13 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_116850",
@@ -7671,7 +8537,13 @@
       "education",
       "legal",
       "housing"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-07-31",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_116847",
@@ -7759,7 +8631,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:32.830465+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117279",
@@ -7801,7 +8679,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:30.843887+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117280",
@@ -7842,7 +8726,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:31.516659+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_115094",
@@ -7889,7 +8779,13 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113410",
@@ -7934,7 +8830,13 @@
       "children",
       "community",
       "education"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117180",
@@ -8020,7 +8922,13 @@
       "education",
       "arts",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118384",
@@ -8062,7 +8970,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:57.292946+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118392",
@@ -8104,7 +9018,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:59.283482+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118570",
@@ -8150,7 +9070,13 @@
       "children",
       "immigration",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118568",
@@ -8196,7 +9122,13 @@
       "education",
       "immigration",
       "civic"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118569",
@@ -8242,7 +9174,13 @@
       "education",
       "immigration",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_115412",
@@ -8283,7 +9221,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:12.841143+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118630",
@@ -8327,7 +9271,13 @@
     "unified_tags": [
       "arts",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_114346",
@@ -8373,7 +9323,13 @@
       "arts",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_116429",
@@ -8418,7 +9374,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118386",
@@ -8500,7 +9462,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:26:44.230152+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118282",
@@ -8546,7 +9514,13 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113352",
@@ -8587,7 +9561,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:26:44.876464+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_117796",
@@ -8674,7 +9654,13 @@
       "seniors",
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_115683",
@@ -8720,7 +9706,13 @@
       "seniors",
       "mental_health",
       "crisis_support"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_115689",
@@ -8766,7 +9758,13 @@
       "seniors",
       "mental_health",
       "crisis_support"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_115085",
@@ -8812,7 +9810,13 @@
       "housing",
       "crisis_support",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_101943",
@@ -8857,7 +9861,13 @@
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118597",
@@ -8903,7 +9913,13 @@
       "seniors",
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113483",
@@ -8949,7 +9965,13 @@
       "housing",
       "health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118618",
@@ -8993,7 +10015,13 @@
     "unified_tags": [
       "environment",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_113976",
@@ -9038,7 +10066,13 @@
     "unified_tags": [
       "seniors",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-11-08",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118584",
@@ -9080,7 +10114,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:28:13.160987+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_111317",
@@ -9126,7 +10166,13 @@
       "seniors",
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118648",
@@ -9213,7 +10259,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:24.926388+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118672",
@@ -9260,7 +10312,13 @@
       "health",
       "mental_health",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_118416",
@@ -9392,7 +10450,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-07-19",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_114962",
@@ -9436,7 +10500,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-08-16",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_114963",
@@ -9480,7 +10550,13 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-09-20",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_114964",
@@ -9521,7 +10597,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:05.570262+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-10-18",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_114965",
@@ -9562,7 +10644,13 @@
     "dress_code": null,
     "status": "active",
     "last_scraped": "2026-07-13T12:27:06.226225+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-11-15",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   },
   {
     "id": "voly_114966",
@@ -9606,6 +10694,12 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-12-20",
+      "model": "rule",
+      "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    }
   }
 ]
