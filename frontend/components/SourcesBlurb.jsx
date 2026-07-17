@@ -15,8 +15,7 @@ export default function SourcesBlurb() {
       <div>
         <h3 className="font-bold text-ink text-base mb-2">How this site works</h3>
         <p className="text-sm text-inkSoft leading-relaxed mb-3">
-          Good Deeds Dallas is a <strong className="font-semibold text-ink">directory,
-          not a volunteer platform</strong>. We help you <em>find</em> opportunities
+          Good Deeds Dallas is a <strong className="font-semibold text-ink">volunteer directory</strong> for helping you <em>find</em> opportunities
           across the Dallas metro in one place. We don't handle signups,
           applications, or any communication with organizations.
         </p>
