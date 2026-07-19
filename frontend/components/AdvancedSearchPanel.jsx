@@ -102,7 +102,7 @@ export default function AdvancedSearchPanel({
   return (
     <SectionShell
       title="Smart Search"
-      subtitle="AI chat feature."
+      subtitle="AI query feature."
       count={
         limit !== null
           ? `${remaining ?? limit}/${limit} searches left today`
