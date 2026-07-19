@@ -38,3 +38,6 @@ frontend/public/data/rag_index.json
 *.bak
 *.html              # ad-hoc page dumps we curl while debugging scrapers
 !frontend/**/*.html # but keep any HTML inside the Next.js app
+
+.vercel
+.env*

@@ -25,9 +25,9 @@ export const runtime = 'nodejs'
 const MAX_QUERY_CHARS = 300
 const DAILY_LIMIT = Number(process.env.SEARCH_IP_LIMIT || 5)       // per IP / 24h
 const GLOBAL_LIMIT = Number(process.env.SEARCH_GLOBAL_LIMIT || 50) // all users / 24h
-// Pull enough that each domain (listings / orgs / chatter) can contribute a
-// few cards. With the full corpus this is where you'd cap per-group instead.
-const RETRIEVE_K = Math.max(RAG_CONFIG.topK, 12)
+// Pull enough candidates that the LLM screen (below) has real choices —
+// unpicked ones are hidden, so over-retrieving is cheap and harmless.
+const RETRIEVE_K = Math.max(RAG_CONFIG.topK, 16)
 
 // Smart Search is focused on LISTINGS for now. We keep only listing hits,
 // sorted best-match-first (cosine order). No score is surfaced to the client —
@@ -36,6 +36,31 @@ function rankedListingHits(hits) {
   return hits
     .filter(h => h.type === 'listing')
     .sort((a, b) => b.score - a.score)
+}
+
+// Parse the model's JSON envelope {answer, picks}. Defensive by design: strip
+// code fences if the model added them, validate picks are in-range CONTEXT
+// numbers, and on any failure fall back to treating the whole reply as prose
+// with no screening (cosine order, all cards) — a parse hiccup must never
+// blank the answer or the card list.
+function parseAnswerEnvelope(raw, listingCount) {
+  let text = String(raw || '').trim()
+  const fence = text.match(/^```(?:json)?\s*([\s\S]*?)\s*```$/)
+  if (fence) text = fence[1].trim()
+  try {
+    const obj = JSON.parse(text)
+    if (typeof obj?.answer === 'string' && obj.answer.trim()) {
+      const picks = Array.isArray(obj.picks)
+        ? [...new Set(obj.picks.map(Number))].filter(
+            n => Number.isInteger(n) && n >= 1 && n <= listingCount
+          )
+        : []
+      return { answer: obj.answer, picks }
+    }
+  } catch {
+    // fall through to the plain-text fallback
+  }
+  return { answer: String(raw || ''), picks: [] }
 }
 
 function clientIp(request) {
@@ -118,7 +143,6 @@ export async function POST(request) {
     // 2. Retrieve the closest LISTINGS (filtered + ranked in Postgres).
     const hits = await retrieve(queryVector, RETRIEVE_K, 'listing')
     const listingHits = rankedListingHits(hits)
-    const listings = listingHits.map(h => ({ item: h.item }))
     const context = listingHits
       .map((h, i) => `[${i + 1}] ${h.text}`)
       .join('\n\n')
@@ -129,33 +153,47 @@ export async function POST(request) {
     const system = [
       'You are a helpful assistant for a Dallas-area volunteer website.',
       'Recommend volunteer opportunities using ONLY the LISTINGS provided in',
-      'CONTEXT; never invent opportunities. Take your best crack at every',
-      'request: lead with the strongest matches, presented positively as options',
-      'worth a look, even when the fit is only partial. Never open with a',
-      'disclaimer like "I could not find a strong match" — if the matches are',
-      'loose, recommend the closest ones first and add at most one short caveat',
-      'at the end.',
+      'CONTEXT; never invent opportunities.',
+      'Tone: factual and practical. No marketing language, no exclamation',
+      'marks, no phrases like "excellent opportunity" or "make a meaningful',
+      'difference". Do not open with a disclaimer about match quality either —',
+      'lead with the best available options, and if the fit is only partial,',
+      'say so plainly in one short closing note.',
       'When you mention more than one opportunity, format them as a numbered',
       'list with each item on its own line: the opportunity name and',
-      'organization in **bold**, then one short sentence on why it fits.',
-      'Be concise. Do NOT use bracketed reference numbers like [1] or [5] —',
-      'the user cannot see those numbers.',
+      'organization in **bold**, then one short factual sentence on what the',
+      'role involves. Do NOT use bracketed reference numbers like [1] in the',
+      'prose — the user cannot see those numbers.',
+      'Return ONLY a JSON object (no code fences) shaped exactly like:',
+      '{"answer": "<your answer; may contain markdown bold and numbered',
+      'lines>", "picks": [<the CONTEXT numbers of the listings that genuinely',
+      'fit the request, best first, e.g. [4, 1, 9]>]}',
+      'Include a listing in picks only if it actually serves the request — a',
+      'location match alone is not enough. picks may be empty.',
     ].join(' ')
 
     const user = `CONTEXT:\n${context}\n\nUSER QUESTION: ${query}`
 
-    const answer = await chat([
+    const raw = await chat([
       { role: 'system', content: system },
       { role: 'user', content: user },
     ])
 
-    // The prose `answer` and the ranked `listings` are two renderings of one
+    // Screen the cards with the model's picks: chosen listings in the LLM's
+    // order; everything else hidden. Empty/invalid picks -> cosine order.
+    const { answer, picks } = parseAnswerEnvelope(raw, listingHits.length)
+    const chosen = picks.length
+      ? picks.map(n => listingHits[n - 1])
+      : listingHits
+    const screenedListings = chosen.map(h => ({ item: h.item }))
+
+    // The prose `answer` and the screened `listings` are two renderings of one
     // retrieval. We also echo the remaining quota and the daily limit.
     return Response.json({
       answer,
       remaining,
       limit: DAILY_LIMIT,
-      listings,
+      listings: screenedListings,
     })
   } catch (e) {
     return Response.json({ error: String(e?.message || e) }, { status: 500 })
