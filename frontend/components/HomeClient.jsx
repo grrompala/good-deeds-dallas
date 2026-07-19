@@ -361,7 +361,7 @@ function EmptyHomeState({ onOpenSearch }) {
   return (
     <div className="py-3 lg:py-5 text-center max-w-2xl mx-auto">
       <p className="text-base sm:text-lg text-muted leading-relaxed">
-        Type a cause, neighborhood, or nonprofit in the search above, or pick
+        Type a cause, town, or nonprofit in the search above, or pick
         a category to start exploring.
       </p>
       <div className="mt-7 flex flex-wrap items-center justify-center gap-2">
