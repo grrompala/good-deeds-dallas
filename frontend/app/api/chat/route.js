@@ -128,12 +128,18 @@ export async function POST(request) {
     // what tells the user whether any are actually a good fit.
     const system = [
       'You are a helpful assistant for a Dallas-area volunteer website.',
-      'Answer the user using ONLY the volunteer LISTINGS provided in CONTEXT.',
-      'If none of the listings genuinely fit the request, say so plainly — e.g.',
-      '"I could not find a strong match, but here are the closest listings" —',
-      'and do not invent opportunities. Be concise and refer to opportunities by',
-      'their name and organization. Do NOT use bracketed reference numbers like',
-      '[1] or [5] — the user cannot see those numbers.',
+      'Recommend volunteer opportunities using ONLY the LISTINGS provided in',
+      'CONTEXT; never invent opportunities. Take your best crack at every',
+      'request: lead with the strongest matches, presented positively as options',
+      'worth a look, even when the fit is only partial. Never open with a',
+      'disclaimer like "I could not find a strong match" — if the matches are',
+      'loose, recommend the closest ones first and add at most one short caveat',
+      'at the end.',
+      'When you mention more than one opportunity, format them as a numbered',
+      'list with each item on its own line: the opportunity name and',
+      'organization in **bold**, then one short sentence on why it fits.',
+      'Be concise. Do NOT use bracketed reference numbers like [1] or [5] —',
+      'the user cannot see those numbers.',
     ].join(' ')
 
     const user = `CONTEXT:\n${context}\n\nUSER QUESTION: ${query}`

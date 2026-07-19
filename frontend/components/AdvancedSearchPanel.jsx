@@ -214,14 +214,69 @@ function Dot() {
   return <span className="w-1.5 h-1.5 rounded-full bg-subtle animate-pulse" />
 }
 
-// ── Minimal markdown: paragraphs + **bold**, with stray [n] citations removed.
+// ── Minimal markdown: paragraphs, **bold**, and clean list rendering, with
+// stray [n] citations removed. Numbered/bulleted items get real list markup
+// (one item per line) instead of running together in a paragraph.
+const NUM_ITEM = /^\s*\d{1,2}[.)]\s+/
+const BULLET_ITEM = /^\s*[-•*]\s+/
+
+// The model is prompted to put each numbered item on its own line, but if an
+// enumeration arrives inline ("... 1. thing 2. thing"), break it apart. Only
+// fires when a sequential "1." and "2." both appear, so prose like
+// "meet on July 4." can't trigger it.
+function explodeInlineNumbers(block) {
+  if (block.includes('\n')) return block
+  if (!/(?:^|[\s:])1[.)]\s/.test(block) || !/\s2[.)]\s/.test(block)) return block
+  let out = block
+  for (let n = 1; n <= 20; n++) {
+    const re = new RegExp(`(?:^|[\\s:])${n}[.)]\\s`)
+    if (!re.test(out)) break
+    out = out.replace(re, `\n${n}. `)
+  }
+  return out
+}
+
+function Block({ text }) {
+  const lines = explodeInlineNumbers(text)
+    .split('\n')
+    .map(l => l.trim())
+    .filter(Boolean)
+
+  const isNumbered = lines.filter(l => NUM_ITEM.test(l)).length >= 2
+  const isBulleted = !isNumbered && lines.filter(l => BULLET_ITEM.test(l)).length >= 2
+
+  if (!isNumbered && !isBulleted) {
+    return <p>{renderInline(lines.join(' '))}</p>
+  }
+
+  const marker = isNumbered ? NUM_ITEM : BULLET_ITEM
+  const intro = []
+  const items = []
+  for (const line of lines) {
+    if (marker.test(line)) items.push(line.replace(marker, ''))
+    else if (!items.length) intro.push(line)
+    else items[items.length - 1] += ' ' + line // wrapped continuation line
+  }
+  const ListTag = isNumbered ? 'ol' : 'ul'
+  return (
+    <div>
+      {intro.length > 0 && <p className="mb-1.5">{renderInline(intro.join(' '))}</p>}
+      <ListTag className={`${isNumbered ? 'list-decimal' : 'list-disc'} pl-5 space-y-1.5`}>
+        {items.map((item, i) => (
+          <li key={i}>{renderInline(item)}</li>
+        ))}
+      </ListTag>
+    </div>
+  )
+}
+
 function FormattedAnswer({ text }) {
   const clean = String(text || '').replace(/\s*\[\d+\]/g, '')
-  const paragraphs = clean.trim().split(/\n{2,}/)
+  const blocks = clean.trim().split(/\n{2,}/)
   return (
     <div className="space-y-2.5">
-      {paragraphs.map((para, i) => (
-        <p key={i}>{renderInline(para)}</p>
+      {blocks.map((block, i) => (
+        <Block key={i} text={block} />
       ))}
     </div>
   )

@@ -17,7 +17,8 @@ import { orgKey } from './orgs'
 
 // Sources that feed this panel — add new ones here and they'll appear as
 // filter pills automatically.
-const SOURCES = ['volunteergarland', 'volunteermckinney', 'voly_dallas', 'idealist', 'curated']
+// Same biggest/most-Dallas-first ordering as the home page sources list.
+const SOURCES = ['voly_dallas', 'idealist', 'volunteermckinney', 'volunteergarland', 'curated']
 
 // How many rows to reveal per "page" as the user scrolls (non-compact only).
 const PAGE_SIZE = 12

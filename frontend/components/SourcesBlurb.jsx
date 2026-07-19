@@ -4,7 +4,10 @@
 
 import { sourceInfo } from './SourceBox'
 
-const SOURCES = ['volunteergarland', 'volunteermckinney', 'voly_dallas', 'idealist', 'curated']
+// Ordered biggest/most-Dallas first; McKinney and Garland follow. GDD Curated
+// is intentionally NOT in this list — it's our own layer, not a pulled source,
+// so it gets its own line below the list.
+const SOURCES = ['voly_dallas', 'idealist', 'volunteermckinney', 'volunteergarland']
 
 export const CONTACT_EMAIL = 'info@good-deeds-dallas.org'
 
@@ -92,6 +95,26 @@ export default function SourcesBlurb() {
             )
           })}
         </ul>
+
+        {/* GDD Curated — our own layer, separate from the pulled sources */}
+        {(() => {
+          const curated = sourceInfo('curated')
+          if (!curated) return null
+          return (
+            <>
+              <p className="mt-5 text-sm sm:text-base text-muted mb-3">
+                Plus our own additions:
+              </p>
+              <div className="flex items-start gap-2.5 text-sm leading-relaxed">
+                <span className={`mt-1.5 h-2 w-2 rounded-full shrink-0 ${curated.dot}`} aria-hidden />
+                <span>
+                  <span className="font-semibold text-ink">{curated.fullName}</span>
+                  <span className="block sm:inline sm:ml-2 text-inkSoft">— {curated.summary}</span>
+                </span>
+              </div>
+            </>
+          )
+        })()}
       </div>
     </div>
   )
