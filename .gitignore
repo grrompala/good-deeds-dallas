@@ -36,8 +36,8 @@ frontend/public/data/rag_index.json
 # ── Local scratch / temp ─────────────────────────────────────────────────────
 *.tmp
 *.bak
-*.html              # ad-hoc page dumps we curl while debugging scrapers
-!frontend/**/*.html # but keep any HTML inside the Next.js app
+# ad-hoc page dumps and reports at repo root (gitignore has no inline comments)
+/*.html
 
 .vercel
 .env*
