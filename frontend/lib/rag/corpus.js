@@ -7,6 +7,7 @@
 
 import fs from 'node:fs'
 import path from 'node:path'
+import { cityName } from '../city.js'
 
 const LISTING_FILES = [
   'public/data/volops_garland.json',
@@ -75,7 +76,8 @@ export function deriveOrgs(listings) {
     }
     const rec = byKey.get(key)
     rec.count += 1
-    if (o.address?.city) rec.cities.add(o.address.city)
+    const city = cityName(o)
+    if (city) rec.cities.add(city)
     const tags = (o.unified_tags?.length ? o.unified_tags : o.cause_tags) || []
     tags.forEach(t => rec.causes.add(t))
   }

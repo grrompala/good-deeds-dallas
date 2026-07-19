@@ -6,6 +6,7 @@
 
 import { cleanOrgName } from './cleanText'
 import { getTags } from './sanitizeTag'
+import { cityName } from '../lib/city'
 
 // Canonical identity for an org. We match case-insensitively so "Wilkinson
 // Center" and "wilkinson center" collapse together, but we keep a display name.
@@ -33,7 +34,8 @@ export function summarizeOrg(entries) {
 
   entries.forEach(o => {
     getTags(o).forEach(t => causeCounts.set(t, (causeCounts.get(t) || 0) + 1))
-    if (o.address?.city) cities.add(o.address.city)
+    const city = cityName(o)   // normalized; raw address junk never surfaces
+    if (city) cities.add(city)
     if (o.source) sources.add(o.source)
     if (!url && o.org_url) url = o.org_url
   })

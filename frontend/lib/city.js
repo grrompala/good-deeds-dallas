@@ -10,10 +10,11 @@ const BAD_CITY = /^(confidential|virtual|n\/?a|none|tbd|various|multiple|online|
 // Fragments of listing text that sometimes bleed into the city field.
 const TEXT_BLEED = /\b(needed|hours?|click|brought|location|center|rd|street|st|ave|blvd|opportunity|details|view)\b/i
 
-// Title-casing gets these wrong; fix known cases.
+// Title-casing gets these wrong (plus known source-data typos); fix them.
 const CITY_DISPLAY_FIXES = {
   Mckinney: 'McKinney',
   Desoto: 'DeSoto',
+  Carrolltonm: 'Carrollton',
 }
 
 // Raw city string -> trimmed city or null if it doesn't look like a city.
