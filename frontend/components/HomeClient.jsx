@@ -6,7 +6,8 @@
 //                             initialCauses={[tag]}
 //                             initialFocusedTab="listings" />       (pre-filtered)
 //   /volunteer/in/[city]  → <HomeClient initialListings={…}
-//                             initialSearch={city} />               (pre-searched)
+//                             initialCities={[city]}
+//                             initialFocusedTab="listings" />       (pre-filtered)
 //
 // The pre-filtered routes pass a server-loaded subset so the full listing
 // content is in the static HTML (crawlers don't run JS). After hydration the
@@ -57,8 +58,9 @@ function isTexasListing(o) {
 export default function HomeClient({
   initialListings  = null,   // server-provided subset (pre-filtered routes)
   initialCauses    = [],     // cause filter to pre-apply in ListingsPanel
+  initialCities    = [],     // city filter to pre-apply in ListingsPanel
   initialFocusedTab = null,  // e.g. 'listings' to open focused on that section
-  initialSearch    = '',     // pre-filled search query (city routes)
+  initialSearch    = '',     // pre-filled search query
 }) {
   // On pre-filtered routes, render every server-provided row into the HTML
   // (crawlers can't trigger the infinite scroll). Interactive loading takes
@@ -245,6 +247,7 @@ export default function HomeClient({
                   <ListingsPanel
                     listings={filteredOpps}
                     initialCauses={initialCauses}
+                    initialCities={initialCities}
                     initialVisible={initialVisible}
                     onSelectOrg={setSelectedOrg}
                     onSelectListing={setSelectedListing}
@@ -268,6 +271,7 @@ export default function HomeClient({
               <ListingsPanel
                 listings={filteredOpps}
                 initialCauses={initialCauses}
+                initialCities={initialCities}
                 initialVisible={initialVisible}
                 onSelectOrg={setSelectedOrg}
                 onSelectListing={setSelectedListing}

@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Good Deeds Dallas — Technical Specification</title>
+<style>
+  :root { --ink:#0B1220; --soft:#3b4354; --muted:#6b7280; --line:#e5e7eb; --brand:#4f46e5; --bg:#fafafa; --code:#f4f4f6; }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; color: var(--ink); background: var(--bg); margin: 0; line-height: 1.55; }
+  .page { max-width: 900px; margin: 0 auto; padding: 40px 28px 80px; background: #fff; min-height: 100vh; box-shadow: 0 0 24px rgba(0,0,0,.06); }
+  h1 { font-size: 1.9rem; margin: 0 0 4px; }
+  h2 { font-size: 1.35rem; margin-top: 2.2em; border-bottom: 2px solid var(--line); padding-bottom: 6px; }
+  h3 { font-size: 1.05rem; margin-top: 1.6em; color: var(--soft); }
+  .meta { color: var(--muted); font-size: .9rem; margin-bottom: 24px; }
+  p, li { color: var(--soft); }
+  strong { color: var(--ink); }
+  code { background: var(--code); padding: 1px 5px; border-radius: 4px; font-size: .86em; color: #111; }
+  pre { background: var(--code); padding: 12px 14px; border-radius: 8px; overflow-x: auto; font-size: .82rem; line-height: 1.45; }
+  table { border-collapse: collapse; width: 100%; font-size: .88rem; margin: 12px 0; }
+  th, td { border: 1px solid var(--line); padding: 7px 10px; text-align: left; vertical-align: top; }
+  th { background: #f8f8fb; color: var(--ink); }
+  .toc { background: #f8f8fb; border: 1px solid var(--line); border-radius: 10px; padding: 16px 22px; font-size: .92rem; }
+  .toc a { color: var(--brand); text-decoration: none; }
+  .toc ol { margin: 6px 0 0; padding-left: 20px; }
+  .tag { display: inline-block; background: #eef2ff; color: var(--brand); border-radius: 999px; padding: 1px 10px; font-size: .78rem; font-weight: 600; margin-right: 6px; }
+  .warn { background: #fff7ed; border-left: 4px solid #fb923c; padding: 10px 14px; border-radius: 0 8px 8px 0; font-size: .9rem; }
+  .note { background: #eef2ff; border-left: 4px solid var(--brand); padding: 10px 14px; border-radius: 0 8px 8px 0; font-size: .9rem; }
+  @media print { .page { box-shadow: none; } body { background: #fff; } }
+</style>
+</head>
+<body>
+<div class="page">
+
+<h1>Good Deeds Dallas — Technical Specification</h1>
+<div class="meta">
+  Prepared July 19, 2026 · <a href="https://www.good-deeds-dallas.org">www.good-deeds-dallas.org</a> ·
+  GitHub: <code>grrompala/good-deeds-dallas</code> · Vercel project: <code>good-deeds-dallas</code>
+</div>
+
+<div class="toc">
+<strong>Contents</strong>
+<ol>
+  <li><a href="#overview">System overview</a></li>
+  <li><a href="#pipeline">Data pipeline (scrapers)</a></li>
+  <li><a href="#quality">Data quality layer (tagging + QC)</a></li>
+  <li><a href="#automation">Automation (weekly refresh)</a></li>
+  <li><a href="#frontend">Frontend application</a></li>
+  <li><a href="#seo">Discoverability (SEO / AI crawlers)</a></li>
+  <li><a href="#rag">Smart Search (RAG)</a></li>
+  <li><a href="#infra">Infrastructure, DNS, email</a></li>
+  <li><a href="#env">Configuration matrix</a></li>
+  <li><a href="#security">Security &amp; privacy posture</a></li>
+  <li><a href="#costs">Cost model</a></li>
+  <li><a href="#risks">Known limitations &amp; risks</a></li>
+  <li><a href="#runbook">Operational runbook</a></li>
+  <li><a href="#parked">Parked / future work</a></li>
+</ol>
+</div>
+
+<h2 id="overview">1. System overview</h2>
+<p><strong>What it is:</strong> a free, non-commercial directory of volunteer opportunities across
+Dallas–Fort Worth. Python scrapers aggregate listings from five sources into JSON files; an LLM
+layer normalizes categories and quality-controls the data; a Next.js frontend serves browsing,
+keyword search, and a semantic "Smart Search" backed by embeddings in Supabase. The whole refresh
+cycle runs unattended weekly via GitHub Actions.</p>
+
+<p><span class="tag">Python 3.11</span><span class="tag">Next.js 15.3 / React 18</span>
+<span class="tag">Tailwind</span><span class="tag">Supabase (pgvector)</span>
+<span class="tag">OpenAI API</span><span class="tag">Vercel</span>
+<span class="tag">GitHub Actions</span><span class="tag">Cloudflare (DNS + email)</span></p>
+
+<pre>
+Python scrapers ──► frontend/public/data/*.json ──► Next.js app (browse + keyword search)
+      │                        │
+      │                        ├──► SSG: pre-filtered crawlable pages (/volunteer/*)
+      ▼                        ▼
+qc_filter + classify    build-rag-index.mjs ──► Supabase pgvector ──► /api/chat (Smart Search)
+(LLM tagging & QC)      (embeddings, rebuilt each deploy-triggering refresh)
+</pre>
+
+<p><strong>Design principle:</strong> the site is a read-only mirror with judgment. Data lives in
+flat JSON committed to git (full audit history); every destructive decision (duplicate, expired,
+not-a-real-opportunity) is a reversible <em>stamp</em> on the record, never a deletion. Signups
+always happen at the source site — this system holds no user accounts and takes no applications.</p>
+
+<h2 id="pipeline">2. Data pipeline (scrapers)</h2>
+<table>
+<tr><th>Script</th><th>Source</th><th>Technique</th><th>Notes</th></tr>
+<tr><td><code>fetch_garland.py</code></td><td>volunteergarland.org (Galaxy Digital)</td>
+<td>HTML pagination + detail pages</td><td>Shared cleaners strip page chrome from descriptions/locations.</td></tr>
+<tr><td><code>fetch_mckinney.py</code></td><td>volunteermckinney.galaxydigital.com</td>
+<td>Same platform/cleanup as Garland</td><td>~350 records.</td></tr>
+<tr><td><code>fetch_voly.py</code></td><td>dallas.voly.org</td>
+<td>AJAX search endpoint (offset-paginated POST) + detail pages</td>
+<td>Pagination requires a browser User-Agent. Detects recurring vs one-time listings via the
+"Click Here For Dates" CTA and stamps <code>schedule.recurring</code>.</td></tr>
+<tr><td><code>fetch_idealist.py</code></td><td>Idealist (Dallas slice)</td>
+<td>Public Algolia search API (credentials shipped in their client JS), 50&nbsp;km radius around Dallas</td>
+<td><strong>Known cap:</strong> Algolia serves max 1,000 of ~2,400 matching listings (distance-sorted).
+See Risks.</td></tr>
+<tr><td><code>fetch_curated.py</code></td><td>Org websites listed in <code>orgs.json</code></td>
+<td>LLM extraction of opportunities from arbitrary nonprofit pages</td>
+<td>Org list seeded partly by <code>fetch_ntgd.py</code> (North Texas Giving Day directory discovery,
+human-reviewed before merge). Skips orgs already extracted.</td></tr>
+<tr><td><code>fetch_reddit.py</code></td><td>7 DFW subreddits</td>
+<td>Reddit public <code>search.rss</code> feeds, descriptive bot User-Agent, backoff on 429</td>
+<td>r/Dallas, r/Garland, r/plano, r/Richardson, r/DFW, r/askdallas, r/askdfw · keyword relevance
+scoring · posts not re-seen in 90 days expire (honors upstream deletions).</td></tr>
+</table>
+
+<p><strong>Shared behaviors:</strong> every scraper is incremental — it loads its existing output,
+keys records by stable <code>id</code>, updates in place, and marks vanished listings
+<code>status: "inactive"</code> rather than deleting. All scrapers carry the pipeline stamps
+(<code>unified_tags</code>, <code>qc</code>, <code>expiry</code>) across re-scrapes so LLM work is
+never silently re-purchased. Output is a shared record schema (see <code>README.md</code>) with
+per-source field coverage varying.</p>
+
+<h2 id="quality">3. Data quality layer</h2>
+
+<h3>3a. Unified tagging — <code>classify_listings.py</code></h3>
+<p>Source sites use inconsistent native categories. An LLM (default <code>gpt-4o-mini</code>;
+provider auto-detected from env keys) assigns 1–4 tags from a fixed 18-tag taxonomy
+(<code>seniors, children, food_security, education, animals, environment, housing, health, legal,
+arts, community, crisis_support, foster_care, disabilities, mental_health, immigration, civic,
+veterans</code>). Incremental — only records missing <code>unified_tags</code>. The frontend's
+cause filters, suggestion chips, and the SEO cause pages all key off this taxonomy.</p>
+
+<h3>3b. Three-pass QC — <code>qc_filter.py</code></h3>
+<table>
+<tr><th>Pass</th><th>Mechanism</th><th>Applies to</th><th>Cost</th></tr>
+<tr><td><strong>1. Dedup</strong></td>
+<td>Rule-based. Groups by normalized (org, title, description_short); groups with no distinguishing
+schedule keep the most complete record, rest stamped <code>category: duplicate</code>.</td>
+<td>All sources</td><td>Free</td></tr>
+<tr><td><strong>2. Expiry</strong></td>
+<td>One-time extraction of <code>expiry: {kind, ends_on}</code> per record — deterministic where
+structured (Voly), LLM elsewhere — cached forever (extraction is time-independent). Every run then
+rejects records whose explicit end date &lt; Dallas-local today (UTC−6) as
+<code>category: expired</code>. Conservative: no explicit end date → never expires.</td>
+<td>All sources</td><td>LLM once per record, then free</td></tr>
+<tr><td><strong>3. Content judge</strong></td>
+<td>Strict LLM rubric: is this a person donating time in a concrete role? Rejection categories:
+athletic/social event, internship/job, donation drive, printable/at-home, paid class,
+vague-no-role, not-volunteering.</td>
+<td>Curated only (portal sources trusted for content)</td><td>LLM, incremental</td></tr>
+</table>
+<p><strong>Controls:</strong> <code>qc_overrides.json</code> (<code>{"&lt;id&gt;": "keep"|"reject"}</code>)
+always beats the model. Rejections are logged per source (<code>qc_rejected.json</code> for curated,
+<code>qc_rejected_&lt;source&gt;.json</code> otherwise) for human review. The frontend and the RAG
+corpus both hide <code>qc.status == "rejected"</code> and <code>status == "inactive"</code>.
+Current scale: ~190 expired + ~180 duplicates + ~160 content rejections filtered from ~2,100 raw records.</p>
+
+<h2 id="automation">4. Automation</h2>
+<p><code>.github/workflows/refresh.yml</code> runs <strong>Mondays 9:23 UTC</strong> on
+<code>ubuntu-latest</code> (also manually triggerable via <code>workflow_dispatch</code>):</p>
+<ol>
+<li>Checkout; setup Python 3.11 + Node 22 (Node ≥22 required — supabase-js needs native WebSocket);
+<code>pip install -r requirements.txt</code>; <code>npm ci</code>.</li>
+<li>Run <code>refresh.ps1</code> under PowerShell Core (ships on the runner):
+scrape all 6 sources → QC (curated full; other 4 sources <code>--no-judge</code> = dedup+expiry) →
+classify → <code>build-rag-index.mjs</code> (full embed + upsert to Supabase).</li>
+<li>Commit changed data + QC logs back to <code>main</code> as <code>github-actions[bot]</code>
+(skips commit when nothing changed). The push triggers a Vercel deploy, which regenerates all
+static pages from the fresh data.</li>
+</ol>
+<p>Typical runtime ~50 minutes (Reddit rate-limit backoffs dominate). Env for the run comes from
+three repo secrets (see Configuration matrix). <code>PYTHONIOENCODING=utf-8</code> and
+<code>PYTHONUNBUFFERED=1</code> are set to survive Windows/CI console quirks and stream logs live.
+Failures abort before the commit step — partial data is never published.</p>
+
+<h2 id="frontend">5. Frontend application</h2>
+<p>Next.js 15 App Router, single-page experience in a reusable client component
+(<code>components/HomeClient.jsx</code>) that all routes mount:</p>
+<table>
+<tr><th>Route</th><th>Rendering</th><th>Purpose</th></tr>
+<tr><td><code>/</code></td><td>Static shell + client fetch</td><td>Empty state (chips, sources, how-it-works, Smart Search callout); data loads client-side from <code>/data/*.json</code>.</td></tr>
+<tr><td><code>/volunteer</code></td><td>SSG</td><td>Browse hub: causes + cities with counts.</td></tr>
+<tr><td><code>/volunteer/[tag]</code> (18)</td><td>SSG, rebuilt each deploy</td><td>The app pre-filtered to one cause; newest 60 matching listings server-rendered into the HTML (lightened records), then client fetch swaps in the live dataset.</td></tr>
+<tr><td><code>/volunteer/in/[city]</code> (~20)</td><td>SSG</td><td>Same, entering via a pre-filled city search. Cities with ≥8 listings get pages (set regenerates per deploy).</td></tr>
+<tr><td><code>/privacy</code></td><td>SSG</td><td>Plain-language privacy policy.</td></tr>
+<tr><td><code>/api/chat</code></td><td>Node serverless</td><td>Smart Search endpoint (see §7).</td></tr>
+</table>
+<p>Sections: Smart Search · Opportunities (source + cause multi-select filters, infinite scroll)
+· Organizations (derived from listings via <code>buildOrgs()</code>) · Reddit Threads. Detail and
+org modals keep users on-site; all listing titles link out to the source posting. Client-side
+Texas filter (<code>isTexasListing</code>) drops listings whose address or title signals a
+non-DFW location (mirrored server-side in the RAG corpus builder).</p>
+
+<h2 id="seo">6. Discoverability</h2>
+<ul>
+<li><strong>Why SSG pages exist:</strong> the home page loads data via client JS, which AI-search
+crawlers (ChatGPT Search, Gemini grounding fetchers) do not execute. The <code>/volunteer/*</code>
+pages put real listing content in raw HTML.</li>
+<li><code>robots.txt</code> allows all, explicitly welcoming Googlebot, Bingbot, Google-Extended,
+GPTBot, OAI-SearchBot, ChatGPT-User. <code>sitemap.xml</code> (~40 URLs) with lastModified from
+newest scrape.</li>
+<li>Structured data: Organization + WebSite JSON-LD site-wide; ItemList per cause/city page.
+Canonical host <code>www.good-deeds-dallas.org</code> (apex 308-redirects), per-page canonicals,
+OpenGraph metadata.</li>
+<li>Crawl path: home-page suggestion chips are real links into <code>/volunteer/[tag]</code>.</li>
+<li>Google Search Console: verified, sitemap submitted. Bing: pending (verify via GSC-import or
+Cloudflare CNAME, then submit sitemap — feeds ChatGPT Search).</li>
+</ul>
+
+<h2 id="rag">7. Smart Search (RAG)</h2>
+<pre>
+corpus.js (active + QC-passed + TX listings, + derived orgs)
+  → build-rag-index.mjs: embed (text-embedding-3-small @ 256 dims) → Supabase `opportunities` (~2,000 rows)
+  → /api/chat POST: rate-limit → embed query → match_opportunities() top-16 (HNSW cosine, in Postgres)
+  → gpt-5.4 with listings as CONTEXT → JSON envelope {answer, picks}
+  → response: prose answer + ONLY the picked listings, in the LLM's order
+</pre>
+<ul>
+<li><strong>Retrieval:</strong> cosine similarity via pgvector HNSW index, computed in Postgres
+(<code>match_opportunities</code> RPC). Orgs are embedded but not currently surfaced.</li>
+<li><strong>LLM screening:</strong> the same single chat call that writes the answer also returns
+<code>picks</code> — CONTEXT indices of listings that genuinely fit (location match alone
+insufficient). Unpicked cards are hidden. Defensive parsing (fence-stripping, index validation)
+falls back to prose + cosine order on any failure — a bad model response can never blank the UI.</li>
+<li><strong>Prompt posture:</strong> grounded strictly in retrieved listings; factual tone, no
+marketing language, no leading no-match disclaimers; numbered-list format contract that the
+frontend renders as real list markup.</li>
+<li><strong>Rate limiting (durable):</strong> <code>check_search_quota()</code> in Postgres —
+atomic check-and-insert under an advisory lock. Rolling 24 h window; 5/IP (SHA-256-hashed) and
+50 sitewide; hashes auto-purged after 48 h. Env-tunable (<code>SEARCH_IP_LIMIT</code>,
+<code>SEARCH_GLOBAL_LIMIT</code>). The global cap is the true spend ceiling.</li>
+<li><strong>Guardrails:</strong> 300-char query cap; the client panel shows remaining quota
+(read-only peek on GET, never consumes a search); last exchange persists in sessionStorage only.</li>
+<li><strong>Index rebuild:</strong> full wipe + re-embed (~1–2¢) on every weekly refresh; also the
+lever for changing embed model/dims (requires matching <code>vector(N)</code> in
+<code>supabase/schema.sql</code>).</li>
+</ul>
+
+<h2 id="infra">8. Infrastructure, DNS, email</h2>
+<table>
+<tr><th>Layer</th><th>Provider</th><th>Detail</th></tr>
+<tr><td>Hosting</td><td>Vercel (Hobby)</td><td>Project <code>good-deeds-dallas</code>; deploys on push to <code>main</code>; SSG + serverless API routes. Static export is disabled because <code>/api/chat</code> needs a server.</td></tr>
+<tr><td>Domain</td><td>Cloudflare Registrar</td><td><code>good-deeds-dallas.org</code>. DNS records are <em>DNS-only</em> (gray cloud) pointing at Vercel — deliberately not proxied, avoiding Cloudflare's default AI-crawler blocking and SSL complications.</td></tr>
+<tr><td>Email</td><td>Cloudflare Email Routing</td><td><code>info@good-deeds-dallas.org</code> forwards to Gmail. MX + SPF auto-managed; DMARC quarantine policy recommended. Receive-only (no sending infrastructure).</td></tr>
+<tr><td>Database</td><td>Supabase (free tier)</td><td>pgvector embeddings + rate-limit log. RLS enabled with no policies — only the server's secret key can touch tables.</td></tr>
+<tr><td>CI</td><td>GitHub Actions</td><td>Free minutes; weekly cron + manual dispatch.</td></tr>
+</table>
+
+<h2 id="env">9. Configuration matrix</h2>
+<table>
+<tr><th>Variable</th><th><code>.env</code> (repo root, Python)</th><th><code>frontend/.env.local</code></th><th>GitHub secrets</th><th>Vercel env</th></tr>
+<tr><td><code>OPEN_AI_KEY</code> / <code>OPENAI_API_KEY</code></td><td>✔ (legacy name, scripts accept both)</td><td>✔</td><td>✔</td><td>✔</td></tr>
+<tr><td><code>SUPABASE_URL</code>, <code>SUPABASE_SECRET_KEY</code></td><td>—</td><td>✔</td><td>✔</td><td>✔</td></tr>
+<tr><td><code>RAG_CHAT_MODEL</code></td><td>—</td><td><code>gpt-5.4</code></td><td>— (indexer doesn't chat)</td><td><code>gpt-5.4</code> (prod + preview)</td></tr>
+<tr><td><code>RAG_EMBED_MODEL / _DIMS / _TOP_K</code></td><td>—</td><td>defaults: 3-small / 256 / (topK)</td><td>defaults</td><td>defaults</td></tr>
+<tr><td><code>SEARCH_IP_LIMIT / SEARCH_GLOBAL_LIMIT</code></td><td>—</td><td>defaults 5 / 50</td><td>—</td><td>defaults</td></tr>
+</table>
+<div class="warn"><strong>Gotcha to remember:</strong> Vercel env and <code>.env.local</code> are
+independent. Production ran the fallback chat model for weeks because the override only existed
+locally. When changing models, update both.</div>
+
+<h2 id="security">10. Security &amp; privacy posture</h2>
+<ul>
+<li>No user accounts, no cookies of our own, no ads/trackers. Public content only.</li>
+<li>Secrets never in git: <code>.env*</code> gitignored; server-side only (no
+<code>NEXT_PUBLIC</code> exposure); Supabase secret key bypasses RLS by design, public key is
+locked out (RLS on, zero policies).</li>
+<li>Rate-limit log stores SHA-256(IP) only, auto-deleted ≤48 h. Search queries processed by
+OpenAI, not stored by us. Privacy policy at <code>/privacy</code> documents all of this and
+offers removal-by-email for Reddit authors.</li>
+<li>Scrapers identify honestly (descriptive User-Agent with contact email) and respect rate
+limits/backoff. Reddit access posture: published RSS feeds, ~30 requests/week, letter-vs-spirit
+tension documented; official API application planned (privacy policy prerequisite complete).</li>
+<li>Abuse surfaces: <code>/api/chat</code> is the only compute-spending endpoint — bounded by
+query cap + per-IP and global quotas enforced atomically in Postgres.</li>
+</ul>
+
+<h2 id="costs">11. Cost model</h2>
+<table>
+<tr><th>Item</th><th>Cost</th><th>Notes</th></tr>
+<tr><td>Domain</td><td>~$11/yr</td><td>Cloudflare at-cost.</td></tr>
+<tr><td>Vercel, Supabase, GitHub Actions, Cloudflare email</td><td>$0</td><td>All free tiers, comfortably within limits.</td></tr>
+<tr><td>Weekly refresh (OpenAI)</td><td>≈ $0.05–0.50/wk</td><td>Classification + expiry extraction only touch <em>new</em> records (stamps cached & preserved); full re-embed ~1–2¢; curated extraction only for new orgs.</td></tr>
+<tr><td>Smart Search</td><td>~2¢/query (gpt-5.4)</td><td>≈5k in / 0.5k out tokens. Hard ceiling: 50 queries/day globally → ≤ ~$1/day absolute worst case; realistic usage is pennies.</td></tr>
+</table>
+<p><strong>Structural point:</strong> every LLM expenditure is either one-time-and-cached (tags,
+expiry extraction, curated extraction, QC verdicts) or hard-capped (Smart Search). There is no
+unbounded spend path.</p>
+
+<h2 id="risks">12. Known limitations &amp; risks</h2>
+<table>
+<tr><th>Item</th><th>Impact</th><th>Posture</th></tr>
+<tr><td>Idealist 1,000-result Algolia cap (of ~2,400 matches, distance-sorted)</td>
+<td>Structural blind spot for farther listings; a new close listing can push a live far listing out
+of the window, falsely marking it inactive</td><td>Accepted; fix = narrower radius or sharded queries.</td></tr>
+<tr><td>Reddit ToS (letter vs. spirit)</td><td>Programmatic access technically requires approval; current use is respectful (published RSS, attributed, tiny volume, deletions honored)</td>
+<td>API application planned; personal projects often rejected/ghosted — RSS remains fallback.</td></tr>
+<tr><td>LLM judgment fallibility (QC rejections, expiry extraction, Smart Search picks)</td>
+<td>Occasional wrong hide/expire</td><td>All decisions are stamps, audit-logged, reversible via <code>qc_overrides.json</code>; Smart Search falls back to unscreened on parse failure.</td></tr>
+<tr><td>No automated test suite</td><td>Regressions caught by build + manual verification only</td>
+<td>Accepted for project size; ad-hoc unit tests are run during development (parser/envelope logic).</td></tr>
+<tr><td>Supabase free tier pauses after ~1 week idle</td><td>Smart Search + rate limiting would 500</td>
+<td>Weekly index rebuild keeps it active in practice.</td></tr>
+<tr><td>Per-IP limiting is fuzzy (NAT sharing, VPN hopping)</td><td>Shared buckets / evasion</td>
+<td>Global 50/day cap is the real control.</td></tr>
+<tr><td>City parsing quality varies by source</td><td>City pages/badges miss some listings</td>
+<td>Cities shown only where parsed; casing normalized with a fix-map.</td></tr>
+<tr><td>Dedup is per-file only</td><td>Cross-source duplicates possible</td><td>Not yet observed as a major issue; parked.</td></tr>
+</table>
+
+<h2 id="runbook">13. Operational runbook</h2>
+<pre>
+# Full refresh (identical to what CI runs weekly)
+.\refresh.ps1                    # scrape → QC → classify → re-embed   (-SkipEmbed to skip Supabase)
+
+# Targeted
+python qc_filter.py                                              # dedup+expiry+judge (curated)
+python qc_filter.py --file frontend/public/data/volops_X.json --no-judge
+python classify_listings.py --reclassify                         # after editing TAXONOMY
+node frontend/scripts/build-rag-index.mjs                        # re-embed only (run in frontend/)
+
+# Corrections
+qc_overrides.json: {"<id>": "keep"}  then re-run qc_filter       # overrides always win
+
+# Model swaps
+Chat model:   RAG_CHAT_MODEL in Vercel env + .env.local (no reindex)
+Embed model:  RAG_EMBED_MODEL/_DIMS + vector(N) in supabase/schema.sql + full reindex
+</pre>
+<p><strong>Adding a source:</strong> new <code>fetch_&lt;name&gt;.py</code> → add path to
+<code>LISTING_FILES</code> in <code>classify_listings.py</code> and <code>lib/rag/corpus.js</code>
+and <code>lib/listings.js</code> → add fetch + merge in <code>HomeClient.jsx</code> → add entry in
+<code>SourceBox.jsx</code> → add QC line in <code>refresh.ps1</code>.</p>
+
+<h2 id="parked">14. Parked / future work</h2>
+<ul>
+<li><strong>Conversational memory for Smart Search</strong> — designed (client-held history,
+standalone-query rewrite pre-call, ~25% marginal cost); deprioritized. Feature honestly labeled
+"AI query feature" meanwhile.</li>
+<li><strong>Reddit official API application</strong> — privacy policy prerequisite shipped;
+application text drafted on request.</li>
+<li><strong>Bing Webmaster verification + sitemap</strong> — feeds ChatGPT Search.</li>
+<li><strong>Off-site discoverability</strong> — r/Dallas launch post, local press, backlinks from
+listed orgs (largest untapped ranking lever).</li>
+<li><strong>Cross-source dedup; LLM near-duplicate pass</strong> — only if paraphrased dupes
+become visible.</li>
+<li><strong>Idealist coverage past the 1,000 cap</strong> — sharded geo queries if the blind spot
+starts to matter.</li>
+</ul>
+
+<p class="meta" style="margin-top:40px">End of specification. Source of truth for day-to-day
+detail remains <code>README.md</code> in the repository, which is kept current alongside code
+changes.</p>
+
+</div>
+</body>
+</html>

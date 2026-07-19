@@ -7,6 +7,9 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { isTexasListing } from './rag/corpus'
+import { cityName, citySlug } from './city'
+
+export { cityName, citySlug } // re-export for existing importers
 
 const LISTING_FILES = [
   'public/data/volops_garland.json',
@@ -15,12 +18,6 @@ const LISTING_FILES = [
   'public/data/volops_idealist.json',
   'public/data/volops_curated.json',
 ]
-
-// Title-case city names arrive with quirks; fix the known ones.
-const CITY_DISPLAY_FIXES = {
-  Mckinney: 'McKinney',
-  Desoto: 'DeSoto',
-}
 
 // Minimum listings for a city to get its own page (avoids thin pages).
 const CITY_PAGE_MIN = 8
@@ -68,17 +65,6 @@ export function tagCounts() {
 }
 
 // ── Cities ────────────────────────────────────────────────────────────────────
-
-export function cityName(o) {
-  const raw = (o.address?.city || '').trim()
-  if (!raw) return null
-  const titled = raw.toLowerCase().replace(/\b\w/g, c => c.toUpperCase())
-  return CITY_DISPLAY_FIXES[titled] || titled
-}
-
-export function citySlug(name) {
-  return name.toLowerCase().replace(/\s+/g, '-')
-}
 
 // [{ city, slug, count }] for cities with enough listings for their own page.
 export function cityCounts() {

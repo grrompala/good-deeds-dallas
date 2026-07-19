@@ -11,7 +11,7 @@
 
 import Modal from './Modal'
 import TagChip from './TagChip'
-import { cleanCity } from './CityBadge'
+import { cleanCity } from '../lib/city'
 import { sourceLabel } from './SourceBox'
 import { cleanOrgName } from './cleanText'
 import { getTags } from './sanitizeTag'

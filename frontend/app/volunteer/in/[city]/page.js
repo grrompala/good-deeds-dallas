@@ -1,7 +1,7 @@
-// /volunteer/in/[city] — the real app experience, pre-searched for one DFW
+// /volunteer/in/[city] — the real app experience, pre-filtered to one DFW
 // city (e.g. /volunteer/in/garland). The city's listings are server-loaded
-// into the HTML for crawlers; humans land on the interactive app with the
-// search box pre-filled with the city name — exactly what typing it would do.
+// into the HTML for crawlers; humans land on the interactive app focused on
+// Opportunities with that city's filter pill active.
 // Only cities with enough listings get a page (CITY_PAGE_MIN in lib/listings).
 
 import { notFound } from 'next/navigation'
@@ -66,7 +66,8 @@ export default function CityPage({ params }) {
       />
       <HomeClient
         initialListings={listings.slice(0, SSR_CAP).map(lightenListing)}
-        initialSearch={entry.city}
+        initialCities={[entry.city]}
+        initialFocusedTab="listings"
       />
     </>
   )

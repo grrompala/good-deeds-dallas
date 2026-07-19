@@ -13,7 +13,7 @@
 import { useState } from 'react'
 import Modal from './Modal'
 import TagChip from './TagChip'
-import CityBadge from './CityBadge'
+import { cityName } from '../lib/city'
 import { sourceLabel } from './SourceBox'
 import { getTags } from './sanitizeTag'
 import { listingsForOrg, summarizeOrg } from './orgs'
@@ -96,7 +96,11 @@ function OrgListingItem({ opp, onOpenListing }) {
             {sourceLabel(opp.source) || opp.source}
           </span>
         )}
-        {opp.address?.city && <CityBadge city={opp.address.city} />}
+        {cityName(opp) && (
+          <span className="text-[10px] font-mono uppercase tracking-wider text-muted">
+            {cityName(opp)}
+          </span>
+        )}
       </div>
 
       <h3 className="font-bold text-ink text-sm sm:text-base leading-snug">
