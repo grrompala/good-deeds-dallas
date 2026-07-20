@@ -1,0 +1,10 @@
+# Discovery agent (agent/discovery/) — installs on top of requirements.txt,
+# which already provides requests, beautifulsoup4, lxml, python-dotenv, openai.
+#
+#   pip install -r requirements.txt -r requirements-agent.txt
+#
+# PR creation uses the `gh` CLI (already present in GitHub Actions runners),
+# so no PyGithub dependency is needed. Swap OpenAI -> the Claude API by adding
+# `anthropic` here and setting DISCOVERY_PROVIDER=anthropic.
+langgraph
+tavily-python
