@@ -32,6 +32,24 @@ def detect_provider() -> str:
     )
 
 
+def _maybe_trace(client, provider: str):
+    """Wrap the SDK client for LangSmith when tracing is on, so each LLM call
+    (prompt, response, tokens) shows up nested under its graph node. No-op when
+    tracing is off or langsmith isn't importable."""
+    if os.environ.get("LANGSMITH_TRACING", "").lower() != "true":
+        return client
+    try:
+        if provider == "openai":
+            from langsmith.wrappers import wrap_openai
+            return wrap_openai(client)
+        if provider == "anthropic":
+            from langsmith.wrappers import wrap_anthropic
+            return wrap_anthropic(client)
+    except Exception:
+        pass
+    return client
+
+
 def make_client(provider: str):
     """Return a provider client. Kept import-lazy so a missing SDK for the
     provider you're *not* using never blocks a run."""
@@ -40,13 +58,13 @@ def make_client(provider: str):
         key = os.environ.get("ANTHROPIC_API_KEY")
         if not key:
             raise SystemExit("ANTHROPIC_API_KEY not set.")
-        return anthropic.Anthropic(api_key=key)
+        return _maybe_trace(anthropic.Anthropic(api_key=key), "anthropic")
     if provider == "openai":
         import openai
         key = os.environ.get("OPENAI_API_KEY") or os.environ.get("OPEN_AI_KEY")
         if not key:
             raise SystemExit("OPENAI_API_KEY / OPEN_AI_KEY not set.")
-        return openai.OpenAI(api_key=key)
+        return _maybe_trace(openai.OpenAI(api_key=key), "openai")
     raise SystemExit(f"Unknown provider: {provider}")
 
 
