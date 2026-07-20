@@ -1,0 +1,80 @@
+name: Discovery Agent
+
+# Monthly: hunt for DFW nonprofits we don't cover yet, investigate their sites,
+# and open a PR proposing new orgs.json entries (agent/discovery/). A human
+# merges or closes the PR — this workflow never merges. See
+# tech-plan-discovery-agent.html.
+#
+# Required repo secrets (Settings -> Secrets and variables -> Actions):
+#   OPENAI_API_KEY   - triage + judgment models
+#   TAVILY_API_KEY   - web search (free tier; ~50-80 calls/run)
+# Optional:
+#   LANGSMITH_API_KEY - turns on LangSmith tracing when present (else off)
+#   LANGSMITH_PROJECT - trace project name (default: discovery-agent)
+#
+# One-time repo setting also required for the live PR:
+#   Settings -> Actions -> General -> Workflow permissions ->
+#   enable "Allow GitHub Actions to create and approve pull requests".
+
+on:
+  schedule:
+    # 14:41 UTC on the 3rd of each month — an off-the-hour minute so it doesn't
+    # queue behind on-the-hour crons. Scheduled runs are LIVE (open a PR).
+    - cron: '41 14 3 * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (write a report artifact, do NOT open a PR)'
+        type: boolean
+        default: true
+
+permissions:
+  contents: write         # push the discovery/YYYY-MM branch
+  pull-requests: write    # open the PR
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt -r requirements-agent.txt
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run discovery agent
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          # gh CLI (open_pr) authenticates with this.
+          GH_TOKEN: ${{ github.token }}
+          # LangSmith tracing turns on only when the key is set.
+          LANGSMITH_API_KEY: ${{ secrets.LANGSMITH_API_KEY }}
+          LANGSMITH_PROJECT: ${{ secrets.LANGSMITH_PROJECT || 'discovery-agent' }}
+          LANGSMITH_TRACING: ${{ secrets.LANGSMITH_API_KEY != '' }}
+          PYTHONUNBUFFERED: '1'    # stream logs per-line
+        run: |
+          # Live by default; only a manual dispatch with dry_run=true is a dry run.
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then
+            echo "Mode: DRY-RUN (report only)"
+            python -m agent.discovery --dry-run
+          else
+            echo "Mode: LIVE (opens a PR)"
+            python -m agent.discovery --live
+          fi
+
+      - name: Upload dry-run report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: discovery-report
+          path: agent/reports/
+          if-no-files-found: ignore

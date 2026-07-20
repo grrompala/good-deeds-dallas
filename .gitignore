@@ -33,6 +33,13 @@ desktop.ini
 # ── Generated RAG index (large + reproducible via build-rag-index.mjs) ───────
 frontend/public/data/rag_index.json
 
+# ── Discovery agent local state ──────────────────────────────────────────────
+# Checkpoints = within-run resume state (not committed). Reports = dry-run
+# artifacts. The ledger (agent/seen_domains.json) IS committed — long-term memory.
+agent/checkpoints.sqlite
+agent/checkpoints.sqlite-*
+agent/reports/
+
 # ── Local scratch / temp ─────────────────────────────────────────────────────
 *.tmp
 *.bak
