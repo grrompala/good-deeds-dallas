@@ -7,4 +7,5 @@
 # so no PyGithub dependency is needed. Swap OpenAI -> the Claude API by adding
 # `anthropic` here and setting DISCOVERY_PROVIDER=anthropic.
 langgraph
+langgraph-checkpoint-sqlite
 tavily-python

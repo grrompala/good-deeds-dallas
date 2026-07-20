@@ -25,6 +25,10 @@ VOLOPS_GLOB = "frontend/public/data/volops_*.json"
 # Dry-run report destination (tech plan §4 `report` node).
 REPORT_DIR = REPO_ROOT / "agent" / "reports"
 
+# Short-term memory: LangGraph SQLite checkpoint store (tech plan §5). Local
+# file, gitignored — it's within-run resume state, not something to commit.
+CHECKPOINT_PATH = REPO_ROOT / "agent" / "checkpoints.sqlite"
+
 # Aggregators / nationals that are never a curated-source find (tech plan §4 triage).
 BLOCKLIST_DOMAINS = {
     "volunteermatch.org", "idealist.org", "eventbrite.com", "facebook.com",
@@ -65,6 +69,12 @@ class RunConfig:
     # Seed of hand-picked domains for supervised dry-runs (tech plan §10 session 1).
     # When set, the search node is skipped and these are investigated directly.
     seed_domains: list[str] = field(default_factory=list)
+
+    # Memory (tech plan §5).
+    checkpoint: bool = True          # SQLite within-run resume; --no-checkpoint off
+    thread_id: str = field(          # resume key; same month -> resumes same thread
+        default_factory=lambda: f"discovery-{__import__('time').strftime('%Y-%m')}")
+    ignore_ledger: bool = False      # bypass + don't persist the ledger (prompt iteration)
 
     # PR / branch settings (live mode only).
     branch_prefix: str = "discovery"

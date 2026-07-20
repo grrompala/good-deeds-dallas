@@ -27,7 +27,9 @@ MAX_PAGE_CHARS = 8_000  # cap page text sent to the LLM (cost + context)
 def make_plan_queries(cfg: config.RunConfig):
     def plan_queries(state: DiscoveryState) -> DiscoveryState:
         coverage, coverage_domains = tools.load_coverage()
-        ledger = tools.load_ledger()
+        # ignore_ledger (prompt iteration): start empty so triage filters nothing
+        # and investigate won't persist over the real ledger.
+        ledger = {} if cfg.ignore_ledger else tools.load_ledger()
 
         # Search grid: cause keyword x DFW city, rotated by month so runs differ.
         cause_phrases = [
@@ -173,6 +175,10 @@ def make_investigate(cfg: config.RunConfig, llm: LLM):
                 "date": tools.today_iso(),
                 "reason": (v.get("reason") or "")[:200],
             }
+            # Persist after each candidate: a crash keeps prior verdicts, and a
+            # re-run's triage skips these domains (candidate-level no-re-pay).
+            if not cfg.ignore_ledger:
+                tools.save_ledger(ledger)
             time.sleep(1.0)  # be gentle on hosts + APIs
         return {"verdicts": verdicts, "ledger": ledger}
     return investigate
@@ -239,7 +245,7 @@ def make_finalize(cfg: config.RunConfig):
 
 
 # ── assembly ─────────────────────────────────────────────────────────────────
-def build_graph(cfg: config.RunConfig, llm: LLM):
+def build_graph(cfg: config.RunConfig, llm: LLM, checkpointer=None):
     g = StateGraph(DiscoveryState)
     g.add_node("plan_queries", make_plan_queries(cfg))
     g.add_node("search", make_search(cfg))
@@ -255,4 +261,4 @@ def build_graph(cfg: config.RunConfig, llm: LLM):
     g.add_edge("investigate", "select")
     g.add_edge("select", "finalize")
     g.add_edge("finalize", END)
-    return g.compile()
+    return g.compile(checkpointer=checkpointer)
