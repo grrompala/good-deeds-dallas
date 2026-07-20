@@ -1,13 +1,5 @@
 [
   {
-    "id": "voly_118685",
-    "org_name": "Salvation Army North Texas",
-    "opportunity_title": "Help sort essential donations in our warehouse",
-    "category": "expired",
-    "reason": "event date passed (2026-07-16)",
-    "source_url": "https://dallas.voly.org/opportunity/view.html?id=118685"
-  },
-  {
     "id": "voly_118651",
     "org_name": "Spay Neuter Network Kaufman",
     "opportunity_title": "Low-Cost Vaccine Clinic - West Dallas Multipurpose Center (WDMC) - Wednesday, July 15th, 2026 - 6PM - 8PM",
@@ -70,5 +62,13 @@
     "category": "duplicate",
     "reason": "duplicate of voly_117107 — same org/title/description, no distinguishing schedule",
     "source_url": "https://dallas.voly.org/opportunity/view.html?id=117112"
+  },
+  {
+    "id": "voly_114961",
+    "org_name": "Gift of Love",
+    "opportunity_title": "food pantry",
+    "category": "expired",
+    "reason": "event date passed (2026-07-19)",
+    "source_url": "https://dallas.voly.org/opportunity/view.html?id=114961"
   }
 ]

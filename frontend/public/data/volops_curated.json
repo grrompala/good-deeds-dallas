@@ -4413,7 +4413,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "animals",
+      "community"
+    ],
     "expiry": {
       "kind": "unknown",
       "ends_on": null,
@@ -7645,7 +7648,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "education",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
@@ -14755,7 +14761,9 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "my_possibilities_1",
@@ -21515,7 +21523,9 @@
     ],
     "apply_url": null,
     "apply_instructions": "Contact us to learn more about getting involved as an individual volunteer.",
-    "unified_tags": [],
+    "unified_tags": [
+      "community"
+    ],
     "qc": {
       "status": "rejected",
       "category": "vague_no_role",
