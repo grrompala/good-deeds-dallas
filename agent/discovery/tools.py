@@ -188,12 +188,35 @@ def have_gh() -> bool:
         return False
 
 
+# orgs.json is hand-formatted: 2-space indent, short arrays kept inline
+# ("cause": ["seniors"]). json.dump(indent=2) explodes every array onto its own
+# lines, rewriting the whole file — a useless PR diff. So we match that style and
+# splice new entries in, leaving every existing byte untouched.
+_ENTRY_KEYS = ["id", "name", "city", "state", "cause", "volunteer_url",
+               "fallback_urls", "notes", "active"]
+
+
+def format_entry(e: dict) -> str:
+    """Render one orgs.json entry in the file's existing hand style (inline
+    arrays, 2-space indent). Listed keys first in canonical order, then any rest."""
+    keys = _ENTRY_KEYS + [k for k in e if k not in _ENTRY_KEYS]
+    body = ",\n".join(
+        f'    {json.dumps(k)}: {json.dumps(e[k], ensure_ascii=False)}'
+        for k in keys if k in e
+    )
+    return "  {\n" + body + "\n  }"
+
+
 def write_proposal(entries: list[dict], ledger: dict) -> None:
-    """Append accepted entries to orgs.json and persist the ledger (working tree)."""
-    orgs = _read_json(config.ORGS_PATH, [])
-    orgs.extend(entries)
-    with open(config.ORGS_PATH, "w", encoding="utf-8") as f:
-        json.dump(orgs, f, indent=2, ensure_ascii=False)
+    """Append accepted entries to orgs.json and persist the ledger. Splices the
+    new entries before the closing ']' so existing entries get a zero-line diff."""
+    if entries:
+        text = config.ORGS_PATH.read_text(encoding="utf-8")
+        close = text.rstrip().rfind("]")
+        before = text[:close].rstrip()             # up to the last entry's '}'
+        blocks = ",\n".join(format_entry(e) for e in entries)
+        sep = ",\n" if before.endswith("}") else "\n"   # "\n" only if array was empty
+        config.ORGS_PATH.write_text(f"{before}{sep}{blocks}\n]\n", encoding="utf-8")
     save_ledger(ledger)
 
 
