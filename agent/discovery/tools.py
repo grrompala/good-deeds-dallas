@@ -168,36 +168,63 @@ def fetch_page(url: str) -> dict | None:
     return {"title": title, "text": text, "links": links}
 
 
-# ── PR creation (gh CLI, tech plan §4 draft_pr; disabled in dry-run) ─────────
+# ── PR creation (git + gh CLI, tech plan §4 draft_pr; disabled in dry-run) ───
+# Split into three steps so the local half (file edit + branch + commit) can be
+# tested without a push or a GitHub round-trip, and so the whole thing degrades
+# gracefully when gh isn't installed (leaves a ready-to-push local branch).
 
-def open_pr(entries: list[dict], ledger: dict, pr_body: str,
-            branch: str) -> str:
-    """Append entries to orgs.json, write the ledger, and open a PR via the gh
-    CLI using the workflow's GITHUB_TOKEN. Never merges. Returns the PR URL.
+def _git(*args) -> str:
+    r = subprocess.run(["git", *args], cwd=config.REPO_ROOT,
+                       check=True, capture_output=True, text=True)
+    return r.stdout.strip()
 
-    Only called in live mode; dry-run writes a markdown report instead.
-    """
+
+def have_gh() -> bool:
+    try:
+        subprocess.run(["gh", "--version"], cwd=config.REPO_ROOT,
+                       check=True, capture_output=True, text=True)
+        return True
+    except (OSError, subprocess.CalledProcessError):
+        return False
+
+
+def write_proposal(entries: list[dict], ledger: dict) -> None:
+    """Append accepted entries to orgs.json and persist the ledger (working tree)."""
     orgs = _read_json(config.ORGS_PATH, [])
     orgs.extend(entries)
     with open(config.ORGS_PATH, "w", encoding="utf-8") as f:
         json.dump(orgs, f, indent=2, ensure_ascii=False)
     save_ledger(ledger)
 
-    def git(*args):
-        subprocess.run(["git", *args], cwd=config.REPO_ROOT, check=True)
 
-    git("checkout", "-b", branch)
-    git("add", str(config.ORGS_PATH), str(config.LEDGER_PATH))
-    git("commit", "-m", f"Discovery agent: {len(entries)} proposed org(s)")
-    git("push", "-u", "origin", branch)
+def branch_and_commit(branch: str, message: str) -> None:
+    """Create `branch` from current HEAD and commit the proposal files. Never
+    touches main directly — the branch is the only thing that changes."""
+    _git("checkout", "-b", branch)
+    _git("add", str(config.ORGS_PATH), str(config.LEDGER_PATH))
+    _git("commit", "-m", message)
 
-    result = subprocess.run(
-        ["gh", "pr", "create", "--title",
-         f"Discovery: {len(entries)} candidate org(s) for review",
-         "--body", pr_body, "--base", "main", "--head", branch],
-        cwd=config.REPO_ROOT, check=True, capture_output=True, text=True,
-    )
-    return result.stdout.strip()
+
+def push_and_open_pr(branch: str, base: str, title: str, pr_body: str) -> str:
+    """Push `branch` and open a PR via gh (GITHUB_TOKEN in Actions). Never
+    merges. Returns the PR URL. Body goes through a temp file to avoid arg-length
+    and quoting limits on long evidence bodies."""
+    import os
+    import tempfile
+
+    _git("push", "-u", "origin", branch)
+    fd, path = tempfile.mkstemp(suffix=".md", text=True)
+    with os.fdopen(fd, "w", encoding="utf-8") as f:
+        f.write(pr_body)
+    try:
+        r = subprocess.run(
+            ["gh", "pr", "create", "--base", base, "--head", branch,
+             "--title", title, "--body-file", path],
+            cwd=config.REPO_ROOT, check=True, capture_output=True, text=True,
+        )
+        return r.stdout.strip()
+    finally:
+        os.remove(path)
 
 
 def today_iso() -> str:

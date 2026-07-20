@@ -42,13 +42,20 @@ def main() -> None:
                          "--thread, or this month's thread by default.")
     ap.add_argument("--ignore-ledger", action="store_true",
                     help="don't filter by or persist the ledger (for prompt iteration)")
+    ap.add_argument("--no-push", action="store_true",
+                    help="live mode: prepare the branch+commit locally but don't "
+                         "push or open a PR (for testing the PR flow)")
+    ap.add_argument("--base", default=None, help="PR base branch (default: main)")
     ap.add_argument("--compile-only", action="store_true",
                     help="build the graph and exit (offline wiring check, no LLM/network)")
     args = ap.parse_args()
 
     cfg = config.RunConfig(dry_run=not args.live, provider=args.provider,
                            checkpoint=not args.no_checkpoint,
-                           ignore_ledger=args.ignore_ledger)
+                           ignore_ledger=args.ignore_ledger,
+                           push=not args.no_push)
+    if args.base:
+        cfg.base_branch = args.base
     if args.domains:
         cfg.seed_domains = args.domains
     if args.limit is not None:

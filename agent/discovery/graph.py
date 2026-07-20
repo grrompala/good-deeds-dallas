@@ -117,7 +117,8 @@ def _investigate_one(cand: dict, cfg: config.RunConfig, llm: LLM) -> dict:
     judgment. Returns a Verdict dict (always, even on failure)."""
     domain, name = cand["domain"], cand.get("name", "")
     base = {"domain": domain, "name": name, "volunteer_url": None,
-            "evidence_quotes": [], "draft_entry": None}
+            "evidence_quotes": [], "draft_entry": None,
+            "snippet": cand.get("snippet", "")}
 
     home = tools.fetch_page(cand["url"])
     if not home:
@@ -237,8 +238,29 @@ def make_finalize(cfg: config.RunConfig):
         accepted = [v for v in verdicts if v.get("decision") == "accept"
                     and v.get("draft_entry")][: cfg.max_entries]
         branch = f"{cfg.branch_prefix}/{time.strftime('%Y-%m')}"
-        url = tools.open_pr(drafts, state.get("ledger", {}),
-                            report_mod.render_pr_body(accepted), branch)
+
+        # Local half: mutate files + commit on a fresh branch. main is untouched.
+        tools.write_proposal(drafts, state.get("ledger", {}))
+        tools.branch_and_commit(branch, f"Discovery agent: {len(drafts)} proposed org(s)")
+
+        # Outward half: push + PR. Skipped by --no-push, or if gh is unavailable.
+        # In both local cases, write the PR body that WOULD be posted, for review.
+        def _dump_body(why: str) -> DiscoveryState:
+            config.REPORT_DIR.mkdir(parents=True, exist_ok=True)
+            body_path = config.REPORT_DIR / f"pr-body-{branch.replace('/', '-')}.md"
+            body_path.write_text(report_mod.render_pr_body(accepted), encoding="utf-8")
+            print(f"[finalize] {why}: prepared local branch '{branch}' "
+                  f"({len(drafts)} entries); PR body -> {body_path}")
+            return {"output_ref": f"local:{branch}"}
+
+        if not cfg.push:
+            return _dump_body("--no-push")
+        if not tools.have_gh():
+            return _dump_body("gh CLI not found")
+
+        title = f"Discovery: {len(drafts)} candidate org(s) for review"
+        url = tools.push_and_open_pr(branch, cfg.base_branch, title,
+                                     report_mod.render_pr_body(accepted))
         print(f"[finalize] PR opened -> {url}")
         return {"output_ref": url}
     return finalize

@@ -78,3 +78,5 @@ class RunConfig:
 
     # PR / branch settings (live mode only).
     branch_prefix: str = "discovery"
+    base_branch: str = "main"        # PR target
+    push: bool = True                # --no-push: prepare branch+commit locally only
