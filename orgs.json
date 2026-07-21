@@ -251,5 +251,115 @@
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Bonhamcreativeartscenter",
     "active": true,
     "already_in_orgs_json": false
+  },
+  {
+    "id": "stewpot_dallas",
+    "name": "The Stewpot",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["food_security", "arts", "community"],
+    "volunteer_url": "https://www.thestewpot.org/volunteer",
+    "fallback_urls": [],
+    "notes": "The Stewpot offers roles like helping in the food pantry and art studio, and serving meals to support the community.",
+    "active": true
+  },
+  {
+    "id": "communities_in_schools_of_dallas_region_dallas",
+    "name": "Communities In Schools of the Dallas Region",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["education", "children"],
+    "volunteer_url": "https://cisdallas.org/volunteer",
+    "fallback_urls": [],
+    "notes": "Supports students through tutoring, mentoring, and test prep roles in DFW schools.",
+    "active": true
+  },
+  {
+    "id": "copilot_animal_rescue_denton",
+    "name": "CoPilot Animal Rescue",
+    "city": "Denton",
+    "state": "TX",
+    "cause": ["animals"],
+    "volunteer_url": "https://www.copilotanimalrescue.org/volunteer",
+    "fallback_urls": [],
+    "notes": "CoPilot Animal Rescue offers roles like animal care, shelter operations, and transportation to support rescued animals.",
+    "active": true
+  },
+  {
+    "id": "apollo_support_rescue_justin",
+    "name": "Apollo Support & Rescue",
+    "city": "Justin",
+    "state": "TX",
+    "cause": ["animals", "community"],
+    "volunteer_url": "https://www.apollosupportandrescue.org/volunteer.html",
+    "fallback_urls": [],
+    "notes": "Apollo Support & Rescue offers roles like dog walking, event handling, and community outreach in Fort Worth.",
+    "active": true
+  },
+  {
+    "id": "texas_health_and_human_services_nursing_homes_and_assisted_living_facilities_dallasfort_worth",
+    "name": "Texas Health and Human Services - Nursing Homes and Assisted Living Facilities",
+    "city": "Dallas-Fort Worth",
+    "state": "TX",
+    "cause": ["seniors", "community"],
+    "volunteer_url": "https://www.hhs.texas.gov/about/community-engagement/volunteer-hhs/nursing-homes-assisted-living-facilities",
+    "fallback_urls": [],
+    "notes": "Volunteers provide companionship and assist with activities at nursing homes and assisted living facilities.",
+    "active": true
+  },
+  {
+    "id": "caring_senior_service_richardson",
+    "name": "Caring Senior Service",
+    "city": "Richardson",
+    "state": "TX",
+    "cause": ["seniors", "community"],
+    "volunteer_url": "https://caringseniorservice.com/dallas-northeast/news/volunteer-opportunities",
+    "fallback_urls": [],
+    "notes": "Offers seniors volunteer roles in community service projects, elder support, and emergency services.",
+    "active": true
+  },
+  {
+    "id": "cc_young_dallas",
+    "name": "CC Young",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["seniors", "arts", "community"],
+    "volunteer_url": "https://www.ccyoung.org/volunteer",
+    "fallback_urls": [],
+    "notes": "CC Young offers various volunteer roles like hosting parties, facilitating arts, and office help to enrich seniors' lives.",
+    "active": true
+  },
+  {
+    "id": "volunteer_opportunities_city_of_dallas_dallas",
+    "name": "Volunteer Opportunities City of Dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["housing", "community"],
+    "volunteer_url": "https://dallashomelesssolutions.com/get-involved/volunteer/index.html",
+    "fallback_urls": [],
+    "notes": "Supports unsheltered residents with roles like shelter setup and supply delivery during inclement weather.",
+    "active": true
+  },
+  {
+    "id": "dallas_life_recovery_for_homeless_dallas",
+    "name": "Dallas LIFE, Recovery for the Homeless",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["housing", "food_security", "community"],
+    "volunteer_url": "https://dallaslife.org/volunteer",
+    "fallback_urls": [],
+    "notes": "Dallas LIFE provides meals and shelter; volunteers help prepare and serve meals.",
+    "active": true
+  },
+  {
+    "id": "mustangs_for_hope_dallas",
+    "name": "Mustangs for Hope",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["education", "community"],
+    "volunteer_url": "https://blog.smu.edu/teacher/tutoring-volunteer-opportunity-mustangs-for-hope",
+    "fallback_urls": [],
+    "notes": "Provides virtual tutoring to K-12 students; volunteers tutor one-on-one weekly.",
+    "active": true
   }
 ]
