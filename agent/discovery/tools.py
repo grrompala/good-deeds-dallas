@@ -64,6 +64,23 @@ def is_blocklisted(domain: str) -> bool:
     return any(domain == b or domain.endswith(f".{b}") for b in config.BLOCKLIST_DOMAINS)
 
 
+def best_volunteer_url(urls: list[str]) -> str | None:
+    """Of the fetched URLs, the one whose PATH looks most like a volunteer page.
+    Ties resolve to the first (the search-surfaced landing URL), so a page that
+    isn't obviously volunteer-y by path doesn't lose to a random sub-link."""
+    def score(u: str) -> int:
+        path = urlparse(u).path.lower()
+        s = 0
+        if "volunteer" in path:
+            s += 3
+        if re.search(r"get.?involved|ways.?to.?(help|serve|give)", path):
+            s += 2
+        if "opportunit" in path:
+            s += 1
+        return s
+    return max(urls, key=score) if urls else None
+
+
 # ── Coverage set + ledger (memory, tech plan §5) ─────────────────────────────
 
 def _read_json(path: Path, default):

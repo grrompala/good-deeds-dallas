@@ -16,11 +16,12 @@ from langgraph.graph import StateGraph, START, END
 
 from . import config, tools
 from .llm import LLM, parse_json
-from .prompts import VOLUNTEER_PAGE_PICKER, LOCAL_ORG_TRIAGE, FINAL_JUDGMENT
+from .prompts import LOCAL_ORG_TRIAGE, FINAL_JUDGMENT
 from .state import DiscoveryState
 from .tools import TAXONOMY
 
-MAX_PAGE_CHARS = 8_000  # cap page text sent to the LLM (cost + context)
+MAX_PAGE_CHARS = 8_000  # total cap on combined page text sent to the LLM
+PER_PAGE_CHARS = 3_500  # per-page cap so one page can't dominate the combination
 
 
 # ── plan_queries ─────────────────────────────────────────────────────────────
@@ -151,23 +152,36 @@ def _investigate_one(cand: dict, cfg: config.RunConfig, llm: LLM) -> dict:
             "evidence_quotes": [], "draft_entry": None,
             "snippet": cand.get("snippet", "")}
 
-    home = tools.fetch_page(cand["url"])
-    if not home:
+    landing = tools.fetch_page(cand["url"])
+    if not landing:
         return {**base, "decision": "reject", "confidence": 0.0,
-                "reason": "homepage fetch failed"}
+                "reason": "landing page fetch failed"}
 
-    # Pick the volunteer page: heuristics first (find_volunteer_links already
-    # ranked them), LLM only to disambiguate.
-    vol_url = home["links"][0] if home["links"] else None
-    if len(home["links"]) > 1:
-        raw = llm.mini(VOLUNTEER_PAGE_PICKER.replace("{links}", "\n".join(home["links"])))
-        picked = (parse_json(raw) or {}).get("url")
-        if picked in home["links"]:
-            vol_url = picked
+    # Read the search-surfaced page AND its top volunteer links, then judge on
+    # the combined text. Betting on a single page pick was sinking good orgs when
+    # the guess was wrong (e.g. /our-team chosen over the real /volunteer page);
+    # gathering a few pages lets the judge see the opportunity wherever it lives.
+    pages = [(cand["url"], landing["text"])]
+    fetched = {cand["url"]}
+    for link in landing["links"][: cfg.max_fetches_per_domain - 1]:
+        if link in fetched:
+            continue
+        sub = tools.fetch_page(link)
+        fetched.add(link)
+        if sub and sub["text"]:
+            pages.append((link, sub["text"]))
 
-    page = tools.fetch_page(vol_url) if vol_url else home
-    vol_url = vol_url or cand["url"]
-    page_text = (page or home)["text"][:MAX_PAGE_CHARS]
+    # Budget the combined text: per-page cap so no single page dominates, and a
+    # total cap for cost/context.
+    sections, budget = [], MAX_PAGE_CHARS
+    for url, text in pages:
+        chunk = text[:PER_PAGE_CHARS][:budget]
+        if not chunk:
+            break
+        sections.append(f"[PAGE: {url}]\n{chunk}")
+        budget -= len(chunk)
+    page_text = "\n\n".join(sections)
+    vol_url = tools.best_volunteer_url([u for u, _ in pages]) or cand["url"]
 
     # Cheap triage (biased toward keep).
     raw = llm.mini(LOCAL_ORG_TRIAGE.replace("{page_text}", page_text))
