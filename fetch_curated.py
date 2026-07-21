@@ -198,19 +198,24 @@ def detect_provider() -> str:
     raise ValueError("No API key found. Set OPENAI_API_KEY (or OPEN_AI_KEY) in your .env file.")
 
 
+# Opportunity-rich pages (e.g. a shelter listing 10+ roles) overflow a small
+# cap, and a truncated response is invalid JSON -> the whole page yields zero.
+MAX_OUTPUT_TOKENS = 4096
+
+
 def call_llm(prompt: str, client, provider: str) -> str:
     """Call the appropriate LLM and return the response text."""
     if provider == "anthropic":
         message = client.messages.create(
             model="claude-haiku-4-5-20251001",
-            max_tokens=2048,
+            max_tokens=MAX_OUTPUT_TOKENS,
             messages=[{"role": "user", "content": prompt}]
         )
         return message.content[0].text.strip()
     elif provider == "openai":
         response = client.chat.completions.create(
             model="gpt-4o-mini",
-            max_tokens=2048,
+            max_tokens=MAX_OUTPUT_TOKENS,
             messages=[{"role": "user", "content": prompt}]
         )
         return response.choices[0].message.content.strip()

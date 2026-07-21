@@ -122,7 +122,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "animals",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
@@ -2026,6 +2029,573 @@
     "unified_tags": []
   },
   {
+    "id": "cc_young_dallas_7",
+    "source": "curated",
+    "org_id": "cc_young_dallas",
+    "org_name": "CC Young",
+    "source_url": "https://www.ccyoung.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T04:20:38.572827+00:00",
+    "opportunity_title": "Decorate for Holidays",
+    "description_short": "Help decorate the community for festive occasions.",
+    "description_long": "Assist in decorating for holidays, bringing joy and festivity to the residents.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be at least 15 years old to volunteer individually.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Register online to learn more about volunteer opportunities.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role to decorate for holidays.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:20:57.870535+00:00"
+    },
+    "unified_tags": []
+  },
+  {
+    "id": "cc_young_dallas_6",
+    "source": "curated",
+    "org_id": "cc_young_dallas",
+    "org_name": "CC Young",
+    "source_url": "https://www.ccyoung.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T04:20:38.572827+00:00",
+    "opportunity_title": "Do Gardening Projects",
+    "description_short": "Participate in gardening activities with residents.",
+    "description_long": "Help with gardening projects, engaging residents in outdoor activities and beautifying the community.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be at least 15 years old to volunteer individually.",
+    "cause_tags": [
+      "seniors",
+      "environment"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Register online to learn more about volunteer opportunities.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role to assist with gardening projects.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:20:57.870535+00:00"
+    },
+    "unified_tags": []
+  },
+  {
+    "id": "cc_young_dallas_1",
+    "source": "curated",
+    "org_id": "cc_young_dallas",
+    "org_name": "CC Young",
+    "source_url": "https://www.ccyoung.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T04:20:38.572827+00:00",
+    "opportunity_title": "Facilitate Arts and Crafts",
+    "description_short": "Lead arts and crafts sessions, engaging seniors in creative activities.",
+    "description_long": "Help facilitate arts and crafts activities for seniors, offering them a chance to express their creativity.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be at least 15 years old to volunteer individually.",
+    "cause_tags": [
+      "seniors",
+      "arts"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Register online to learn more about volunteer opportunities.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role to facilitate arts and crafts.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:20:57.870535+00:00"
+    },
+    "unified_tags": [
+      "seniors",
+      "arts",
+      "community"
+    ]
+  },
+  {
+    "id": "cc_young_dallas_0",
+    "source": "curated",
+    "org_id": "cc_young_dallas",
+    "org_name": "CC Young",
+    "source_url": "https://www.ccyoung.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T04:20:38.572827+00:00",
+    "opportunity_title": "Host a Birthday Party",
+    "description_short": "Help organize and facilitate birthday celebrations for residents.",
+    "description_long": "Volunteer to host a birthday party for seniors at our community, making their special day memorable.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be at least 15 years old to volunteer individually.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Register online to learn more about volunteer opportunities.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role to host birthday parties.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:20:57.870535+00:00"
+    },
+    "unified_tags": []
+  },
+  {
+    "id": "cc_young_dallas_4",
+    "source": "curated",
+    "org_id": "cc_young_dallas",
+    "org_name": "CC Young",
+    "source_url": "https://www.ccyoung.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T04:20:38.572827+00:00",
+    "opportunity_title": "Lead Sing-a-long",
+    "description_short": "Organize and lead sing-a-long sessions for residents.",
+    "description_long": "Lead sing-a-long sessions, encouraging seniors to participate and enjoy music together.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be at least 15 years old to volunteer individually.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Register online to learn more about volunteer opportunities.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role to lead sing-a-long sessions.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:20:57.870535+00:00"
+    },
+    "unified_tags": [
+      "seniors",
+      "community",
+      "arts"
+    ]
+  },
+  {
+    "id": "cc_young_dallas_8",
+    "source": "curated",
+    "org_id": "cc_young_dallas",
+    "org_name": "CC Young",
+    "source_url": "https://www.ccyoung.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T04:20:38.572827+00:00",
+    "opportunity_title": "Lead a Trivia Session",
+    "description_short": "Engage residents in fun trivia sessions.",
+    "description_long": "Lead trivia sessions, providing entertainment and stimulating conversations among seniors.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be at least 15 years old to volunteer individually.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Register online to learn more about volunteer opportunities.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role to lead trivia sessions.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:20:57.870535+00:00"
+    },
+    "unified_tags": [
+      "seniors",
+      "community"
+    ]
+  },
+  {
+    "id": "cc_young_dallas_2",
+    "source": "curated",
+    "org_id": "cc_young_dallas",
+    "org_name": "CC Young",
+    "source_url": "https://www.ccyoung.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T04:20:38.572827+00:00",
+    "opportunity_title": "Lead or Teach Games",
+    "description_short": "Engage seniors in games like bingo, cards, and puzzles.",
+    "description_long": "Lead or teach games such as dominos, cards, bingo, puzzles, and brain fitness activities for residents.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be at least 15 years old to volunteer individually.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Register online to learn more about volunteer opportunities.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role to lead or teach games.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:20:57.870535+00:00"
+    },
+    "unified_tags": [
+      "seniors",
+      "community"
+    ]
+  },
+  {
+    "id": "cc_young_dallas_11",
+    "source": "curated",
+    "org_id": "cc_young_dallas",
+    "org_name": "CC Young",
+    "source_url": "https://www.ccyoung.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T04:20:38.572827+00:00",
+    "opportunity_title": "Pet Therapy Volunteer",
+    "description_short": "Engage residents with pets for therapeutic benefits.",
+    "description_long": "Become a Pet Therapy volunteer, sharing the joy of pets with our senior residents.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be at least 15 years old to volunteer individually.",
+    "cause_tags": [
+      "seniors",
+      "health"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Register online to learn more about volunteer opportunities.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role as a Pet Therapy volunteer.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:20:57.870535+00:00"
+    },
+    "unified_tags": [
+      "seniors",
+      "animals",
+      "health",
+      "community"
+    ]
+  },
+  {
+    "id": "cc_young_dallas_5",
+    "source": "curated",
+    "org_id": "cc_young_dallas",
+    "org_name": "CC Young",
+    "source_url": "https://www.ccyoung.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T04:20:38.572827+00:00",
+    "opportunity_title": "Read Aloud or Tell Stories",
+    "description_short": "Engage residents by reading or sharing stories.",
+    "description_long": "Volunteer to read aloud or tell stories, providing entertainment and companionship for seniors.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be at least 15 years old to volunteer individually.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Register online to learn more about volunteer opportunities.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role to read aloud or tell stories.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:20:57.870535+00:00"
+    },
+    "unified_tags": [
+      "seniors",
+      "education",
+      "community"
+    ]
+  },
+  {
+    "id": "cc_young_dallas_3",
+    "source": "curated",
+    "org_id": "cc_young_dallas",
+    "org_name": "CC Young",
+    "source_url": "https://www.ccyoung.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T04:20:38.572827+00:00",
+    "opportunity_title": "Share Musical Talents",
+    "description_short": "Perform music for residents, enhancing their social experience.",
+    "description_long": "Share your musical talents by playing the piano, guitar, or other instruments for the residents.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be at least 15 years old to volunteer individually.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Register online to learn more about volunteer opportunities.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role to share musical talents.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:20:57.870535+00:00"
+    },
+    "unified_tags": [
+      "seniors",
+      "arts",
+      "community"
+    ]
+  },
+  {
+    "id": "cc_young_dallas_9",
+    "source": "curated",
+    "org_id": "cc_young_dallas",
+    "org_name": "CC Young",
+    "source_url": "https://www.ccyoung.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T04:20:38.572827+00:00",
+    "opportunity_title": "Share Unique Talents",
+    "description_short": "Volunteers can showcase their unique skills.",
+    "description_long": "Share your unique talents such as magic, comedy, dance, or other performances with the residents.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be at least 15 years old to volunteer individually.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Register online to learn more about volunteer opportunities.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "No specific role or task described for showcasing talents.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:20:57.870535+00:00"
+    },
+    "unified_tags": []
+  },
+  {
+    "id": "cc_young_dallas_10",
+    "source": "curated",
+    "org_id": "cc_young_dallas",
+    "org_name": "CC Young",
+    "source_url": "https://www.ccyoung.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T04:20:38.572827+00:00",
+    "opportunity_title": "Volunteer in the Office",
+    "description_short": "Assist with various office tasks to support operations.",
+    "description_long": "Volunteer in the office, helping with administrative tasks to support the community.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be at least 15 years old to volunteer individually.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Register online to learn more about volunteer opportunities.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role assisting with administrative tasks in the office.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T04:20:57.870535+00:00"
+    },
+    "unified_tags": []
+  },
+  {
     "id": "call_a_ride_of_southlake_cars_0",
     "source": "curated",
     "org_id": "call_a_ride_of_southlake_cars",
@@ -2698,7 +3268,9 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-21T03:59:17.050665+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "caring_senior_service_richardson_3",
@@ -4161,7 +4733,10 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-21T03:59:17.050665+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "community",
+      "animals"
+    ]
   },
   {
     "id": "copilot_animal_rescue_denton_0",
@@ -6619,7 +7194,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "animals",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
@@ -15844,7 +16422,11 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "education",
+      "community",
+      "crisis_support"
+    ]
   },
   {
     "id": "network_of_community_ministries_2",
@@ -15875,7 +16457,9 @@
     ],
     "apply_url": null,
     "apply_instructions": "Contact the Volunteer Program Manager at volunteer@thenetwork.org.",
-    "unified_tags": [],
+    "unified_tags": [
+      "community"
+    ],
     "qc": {
       "status": "passed",
       "category": null,
@@ -17107,7 +17691,9 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-21T03:59:17.050665+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "operation_kindness_humane_carrollton_4",
