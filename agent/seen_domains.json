@@ -1,0 +1,127 @@
+{
+  "addisontx.gov": {
+    "date": "2026-07-21",
+    "reason": "The page lacks specific, actionable volunteer roles.",
+    "verdict": "reject"
+  },
+  "austinstreet.org": {
+    "date": "2026-07-21",
+    "reason": "The page describes multiple concrete volunteer opportunities in Dallas, TX.",
+    "verdict": "accept"
+  },
+  "caringseniorservice.com": {
+    "date": "2026-07-21",
+    "reason": "The page describes multiple real volunteer opportunities in the DFW area for seniors.",
+    "verdict": "accept"
+  },
+  "ccyoung.org": {
+    "date": "2026-07-21",
+    "reason": "The page describes specific volunteer opportunities in a DFW-area nonprofit.",
+    "verdict": "accept"
+  },
+  "cisdallas.org": {
+    "date": "2026-07-21",
+    "reason": "The organization is a DFW-area nonprofit offering specific volunteer roles in education.",
+    "verdict": "accept"
+  },
+  "colonytx.com": {
+    "date": "2026-07-21",
+    "reason": "The page primarily discusses volunteer opportunities in Bastrop, not the DFW area.",
+    "verdict": "reject"
+  },
+  "copilotanimalrescue.org": {
+    "date": "2026-07-21",
+    "reason": "The page describes specific, actionable volunteer roles in the DFW area.",
+    "verdict": "accept"
+  },
+  "dallashomelesssolutions.com": {
+    "date": "2026-07-21",
+    "reason": "The page describes specific volunteer opportunities related to setting up shelters and providing meals during inclement weather, which are actionable roles.",
+    "verdict": "accept"
+  },
+  "developmentservices.addisontx.gov": {
+    "date": "2026-07-21",
+    "reason": "The page does not describe a specific volunteer opportunity.",
+    "verdict": "reject"
+  },
+  "friendsoftcas.com": {
+    "date": "2026-07-21",
+    "reason": "The page does not indicate a local DFW presence or volunteer opportunities.",
+    "verdict": "reject"
+  },
+  "hhs.texas.gov": {
+    "date": "2026-07-21",
+    "reason": "The page describes real volunteer opportunities in DFW-area nursing homes and assisted living facilities.",
+    "verdict": "accept"
+  },
+  "intellichoice.org": {
+    "date": "2026-07-21",
+    "reason": "The organization is a DFW-area nonprofit offering specific volunteer roles in tutoring and leadership.",
+    "verdict": "accept"
+  },
+  "learntobe.org": {
+    "date": "2026-07-21",
+    "reason": "The organization does not specifically serve the DFW area.",
+    "verdict": "reject"
+  },
+  "minniesfoodpantry.org": {
+    "date": "2026-07-21",
+    "reason": "landing page fetch failed",
+    "verdict": "reject"
+  },
+  "nationalcharityleague.org": {
+    "date": "2026-07-21",
+    "reason": "The page is focused on employment opportunities, not volunteer roles.",
+    "verdict": "reject"
+  },
+  "ntxcfp.org": {
+    "date": "2026-07-21",
+    "reason": "The page describes specific volunteer roles such as sorting and packing food, assisting clients, and organizing events.",
+    "verdict": "accept"
+  },
+  "operationkindness.org": {
+    "date": "2026-07-21",
+    "reason": "The page describes specific volunteer roles in animal care and support at a DFW-area nonprofit.",
+    "verdict": "accept"
+  },
+  "police.addisontx.gov": {
+    "date": "2026-07-21",
+    "reason": "The page does not describe a specific volunteer opportunity.",
+    "verdict": "reject"
+  },
+  "sanmarcostx.gov": {
+    "date": "2026-07-21",
+    "reason": "The organization is not located in the DFW area.",
+    "verdict": "reject"
+  },
+  "thecolonytx.gov": {
+    "date": "2026-07-21",
+    "reason": "The page describes a real volunteer opportunity in The Colony, TX, involving property maintenance assistance.",
+    "verdict": "accept"
+  },
+  "tiktok.com": {
+    "date": "2026-07-21",
+    "reason": "The page is a TikTok link with no specific volunteer opportunity described.",
+    "verdict": "reject"
+  },
+  "unitedtolearn.org": {
+    "date": "2026-07-21",
+    "reason": "landing page fetch failed",
+    "verdict": "reject"
+  },
+  "upchieve.org": {
+    "date": "2026-07-21",
+    "reason": "The organization does not have a clear DFW presence or specific volunteer opportunities tied to the DFW area.",
+    "verdict": "reject"
+  },
+  "volunteer.ntfb.org": {
+    "date": "2026-07-21",
+    "reason": "The page describes a specific volunteer opportunity in the DFW area involving direct food distribution.",
+    "verdict": "accept"
+  },
+  "wilcotx.gov": {
+    "date": "2026-07-21",
+    "reason": "The organization is not located in or serving the DFW area.",
+    "verdict": "reject"
+  }
+}
