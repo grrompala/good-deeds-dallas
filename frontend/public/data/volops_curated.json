@@ -2556,6 +2556,249 @@
     ]
   },
   {
+    "id": "caring_senior_service_richardson_0",
+    "source": "curated",
+    "org_id": "caring_senior_service_richardson",
+    "org_name": "Caring Senior Service",
+    "source_url": "https://caringseniorservice.com/dallas-northeast/news/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:57:05.665129+00:00",
+    "opportunity_title": "City of Richardson Volunteer Opportunities",
+    "description_short": "Assist with community projects and animal shelter tasks.",
+    "description_long": "The City of Richardson provides multiple volunteer opportunities through its Parks and Recreation Department, including programs at the Richardson Senior Center for citizens 55 and older. Volunteers can participate in various community service projects, from helping fellow seniors with code violation assistance to supporting the annual Trash Bash environmental cleanup event. The city’s animal shelter also welcomes volunteers who spend time keeping dogs and cats clean and happy while providing a positive atmosphere for exceptional adoptions.",
+    "schedule": {
+      "raw": "Flexible scheduling available.",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "Varies by project",
+    "location": {
+      "address": null,
+      "city": "Richardson",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 55 or older.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the City of Richardson Parks and Recreation Department.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete tasks at community projects and animal shelter.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": [
+      "seniors",
+      "community",
+      "animals"
+    ]
+  },
+  {
+    "id": "caring_senior_service_richardson_2",
+    "source": "curated",
+    "org_id": "caring_senior_service_richardson",
+    "org_name": "Caring Senior Service",
+    "source_url": "https://caringseniorservice.com/dallas-northeast/news/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:57:05.665129+00:00",
+    "opportunity_title": "Network of Community Ministries Volunteer Opportunities",
+    "description_short": "Help serve children and families in need.",
+    "description_long": "The Network of Community Ministries is a nondenominational community-based organization that provides emergency services to children, low-income families, and senior citizens, along with medical and dental care for the uninsured. Senior volunteers are needed in multiple departments including the food pantry, clothing closet, and reception desk to make appointments and check in clients. This organization particularly values older volunteers who can bring patience, compassion, and reliability to serving vulnerable community members.",
+    "schedule": {
+      "raw": "Flexible scheduling available.",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "Varies depending on department.",
+    "location": {
+      "address": null,
+      "city": "Richardson",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Compassionate attitude and reliability required.",
+    "cause_tags": [
+      "seniors",
+      "children",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Reach out to the Network of Community Ministries to volunteer.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Specific roles in food pantry, clothing closet, and reception.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": [
+      "children",
+      "community"
+    ]
+  },
+  {
+    "id": "caring_senior_service_richardson_4",
+    "source": "curated",
+    "org_id": "caring_senior_service_richardson",
+    "org_name": "Caring Senior Service",
+    "source_url": "https://caringseniorservice.com/dallas-northeast/news/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:57:05.665129+00:00",
+    "opportunity_title": "Plano Conservancy Volunteer Opportunities",
+    "description_short": "Support local history preservation efforts.",
+    "description_long": "The Plano Conservancy for Historic Preservation offers senior volunteer opportunities near Richardson focused on protecting and maintaining the area’s historical heritage. Senior volunteers are especially valuable to this organization because they often possess firsthand knowledge of local history and may have witnessed the community’s transformation over decades. Opportunities include leading historical tours, assisting with archival work, participating in preservation projects, and educating younger generations about the area’s past.",
+    "schedule": {
+      "raw": "Flexible scheduling based on events.",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "Varies by project.",
+    "location": {
+      "address": null,
+      "city": "Plano",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Knowledge of local history preferred.",
+    "cause_tags": [
+      "seniors",
+      "education",
+      "community",
+      "arts"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the Plano Conservancy for more information.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Roles in historical tours, archival work, and preservation projects.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": []
+  },
+  {
+    "id": "caring_senior_service_richardson_3",
+    "source": "curated",
+    "org_id": "caring_senior_service_richardson",
+    "org_name": "Caring Senior Service",
+    "source_url": "https://caringseniorservice.com/dallas-northeast/news/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:57:05.665129+00:00",
+    "opportunity_title": "Texas Ramp Project Volunteer Builds",
+    "description_short": "Participate in Saturday builds for wheelchair ramps.",
+    "description_long": "The Texas Ramp Project has built over 30,000 wheelchair ramps for disabled or elderly people who can’t afford to purchase one, giving them the freedom to leave their homes again. This 501(c)(3) nonprofit welcomes volunteers ages 16 and older to participate in Saturday morning builds, making it perfect for seniors who want to engage in hands-on construction work alongside multiple generations. Volunteers in Dallas County and Collin County can sign up for specific ramp builds, with experienced team leaders guiding each project.",
+    "schedule": {
+      "raw": "Saturdays mornings.",
+      "recurring": true,
+      "times_of_day": "morning"
+    },
+    "commitment": "One-time for each ramp build.",
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Must be 16 or older; no special skills required.",
+    "cause_tags": [
+      "seniors",
+      "community",
+      "housing"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up for specific ramp builds through the Texas Ramp Project.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Hands-on construction work for wheelchair ramps.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": [
+      "seniors",
+      "community"
+    ]
+  },
+  {
+    "id": "caring_senior_service_richardson_1",
+    "source": "curated",
+    "org_id": "caring_senior_service_richardson",
+    "org_name": "Caring Senior Service",
+    "source_url": "https://caringseniorservice.com/dallas-northeast/news/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:57:05.665129+00:00",
+    "opportunity_title": "The Senior Source Volunteer Roles",
+    "description_short": "Counsel and support older adults in need.",
+    "description_long": "Since 1961, The Senior Source has been the go-to nonprofit for aging services in the Dallas area, helping adults with job searches, long-term residential care advocacy, money management, and volunteer opportunities for Richardson seniors. This organization offers unique volunteer roles where seniors can use their life experience to counsel and support other older adults facing various challenges. Volunteers can assist with Elder Financial Safety Center services, fraud prevention education, and nursing home advocacy.",
+    "schedule": {
+      "raw": "Flexible scheduling available.",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "Varies based on role.",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Experience with aging services preferred, but not mandatory.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact The Senior Source for more information.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Counseling and support roles for older adults.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": [
+      "seniors",
+      "health",
+      "community"
+    ]
+  },
+  {
     "id": "catch_up_read_2",
     "source": "curated",
     "org_id": "catch_up_read",
@@ -3780,6 +4023,469 @@
     ]
   },
   {
+    "id": "city_of_dallas_office_of_homeless_solutions_dallas_0",
+    "source": "curated",
+    "org_id": "city_of_dallas_office_of_homeless_solutions_dallas",
+    "org_name": "City of Dallas: Office of Homeless Solutions",
+    "source_url": "https://dallashomelesssolutions.com/get-involved/volunteer/index.html",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:57:39.992773+00:00",
+    "opportunity_title": "Friends of OHS",
+    "description_short": "Join the Friends of OHS to support initiatives for unsheltered residents.",
+    "description_long": "Launched in the Spring of 2023, the Office of Homeless Solutions has created The Friends of OHS, made up of individuals interested in supporting OHS initiatives and serving Dallas’ unsheltered residents. Friends Group members must be 18 years of age. Exceptions may be made for younger volunteers accompanied by a parent or guardian. As a member of the Friends Group, you may be called upon during the year when the need for volunteer assistance is identified.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 years of age; exceptions for younger volunteers with a parent.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up to become a member of the Friends Group.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "No specific role or task described.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": [
+      "community",
+      "housing"
+    ]
+  },
+  {
+    "id": "city_of_dallas_office_of_homeless_solutions_dallas_1",
+    "source": "curated",
+    "org_id": "city_of_dallas_office_of_homeless_solutions_dallas",
+    "org_name": "City of Dallas: Office of Homeless Solutions",
+    "source_url": "https://dallashomelesssolutions.com/get-involved/volunteer/index.html",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:57:39.992773+00:00",
+    "opportunity_title": "Temporary Inclement Weather Shelter Support",
+    "description_short": "Assistance needed during inclement weather for sheltering.",
+    "description_long": "Assistance is needed when the city activates temporary inclement weather sheltering at City of Dallas facilities. Opportunities include shelter set up and take down (must be 18 years of age), providing meals for shelter guests (no age requirement), providing snacks for shelter guests (no age requirement), pick-up/delivery of supplies for shelter, and volunteering at partnering IWS sites.",
+    "schedule": {
+      "raw": "When the city activates TIWS",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 years of age for shelter setup; no age requirement for meals and snacks.",
+    "cause_tags": [
+      "housing",
+      "crisis_support"
+    ],
+    "apply_url": "http://dal.city/AustinStreetRegister",
+    "apply_instructions": "Register online at dal.city/AustinStreetRegister and sign up for a volunteer shift.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Specific tasks for shelter setup, meals, and supply delivery.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": [
+      "housing",
+      "crisis_support",
+      "community"
+    ]
+  },
+  {
+    "id": "copilot_animal_rescue_denton_3",
+    "source": "curated",
+    "org_id": "copilot_animal_rescue_denton",
+    "org_name": "CoPilot Animal Rescue",
+    "source_url": "https://www.copilotanimalrescue.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:56:15.296544+00:00",
+    "opportunity_title": "Community & Admin Support",
+    "description_short": "Support our community efforts through admin and outreach tasks.",
+    "description_long": "Help with photography, office filing, and social media to assist our outreach and community efforts.",
+    "schedule": {
+      "raw": "Flexible hours based on availability.",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Denton",
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Volunteers must be 16 and older; no prior experience needed.",
+    "cause_tags": [
+      "community",
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact us to express interest and schedule a time to volunteer.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Admin and outreach tasks like photography and filing.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": []
+  },
+  {
+    "id": "copilot_animal_rescue_denton_0",
+    "source": "curated",
+    "org_id": "copilot_animal_rescue_denton",
+    "org_name": "CoPilot Animal Rescue",
+    "source_url": "https://www.copilotanimalrescue.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:56:15.296544+00:00",
+    "opportunity_title": "Dog Care",
+    "description_short": "Care for dogs through walking, training, and cleaning.",
+    "description_long": "Join our team of 'copilots' and care for dogs by walking, socializing, basic training reinforcement, kennel cleaning, and prepping enrichment toys.",
+    "schedule": {
+      "raw": "Flexible hours based on availability.",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Denton",
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Volunteers must be 16 and older; no prior experience needed, just a willingness to help.",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact us to express interest and schedule a time to volunteer.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete tasks in dog care including walking and training.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ]
+  },
+  {
+    "id": "copilot_animal_rescue_denton_2",
+    "source": "curated",
+    "org_id": "copilot_animal_rescue_denton",
+    "org_name": "CoPilot Animal Rescue",
+    "source_url": "https://www.copilotanimalrescue.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:56:15.296544+00:00",
+    "opportunity_title": "Facility & Grounds Maintenance",
+    "description_short": "Help with repairs and landscaping at the sanctuary.",
+    "description_long": "Assist with fence repairs, general landscaping, and workshop projects to keep the facility in good condition.",
+    "schedule": {
+      "raw": "Flexible hours based on availability.",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Denton",
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Volunteers must be 16 and older; no prior experience needed.",
+    "cause_tags": [
+      "community",
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact us to express interest and schedule a time to volunteer.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Maintenance tasks like repairs and landscaping.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ]
+  },
+  {
+    "id": "copilot_animal_rescue_denton_1",
+    "source": "curated",
+    "org_id": "copilot_animal_rescue_denton",
+    "org_name": "CoPilot Animal Rescue",
+    "source_url": "https://www.copilotanimalrescue.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:56:15.296544+00:00",
+    "opportunity_title": "Farm Animal Care",
+    "description_short": "Feeding and caring for sheep, goats, and chickens.",
+    "description_long": "Feed and water sheep, goats, and chickens; muck stalls; and maintain pastures as part of farm animal care.",
+    "schedule": {
+      "raw": "Flexible hours based on availability.",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Denton",
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Volunteers must be 16 and older; no prior experience needed.",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact us to express interest and schedule a time to volunteer.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete tasks in farm animal care.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ]
+  },
+  {
+    "id": "communities_in_schools_of_dallas_region_dallas_0",
+    "source": "curated",
+    "org_id": "communities_in_schools_of_dallas_region_dallas",
+    "org_name": "Communities In Schools of the Dallas Region",
+    "source_url": "https://cisdallas.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:56:03.729592+00:00",
+    "opportunity_title": "Campus Volunteers",
+    "description_short": "Support students through tutoring and mentoring at schools.",
+    "description_long": "CIS campus volunteers work with students in tutoring, mentoring, assisting with small groups. Daily or weekly opportunities are available during school hours and during the school year. Volunteer opportunities are available at nearly all of partner schools. All school volunteers are required to submit their information for a Criminal Background Check (CBC).",
+    "schedule": {
+      "raw": "Daily or weekly during school hours",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "daily or weekly",
+    "location": {
+      "address": "1341 W. Mockingbird Lane, Suite 1000E",
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Criminal background check required.",
+    "cause_tags": [
+      "education",
+      "community"
+    ],
+    "apply_url": "https://voly.org",
+    "apply_instructions": "Complete the volunteer application via our VOLY site to get started.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Tutoring and mentoring students in schools.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ]
+  },
+  {
+    "id": "communities_in_schools_of_dallas_region_dallas_3",
+    "source": "curated",
+    "org_id": "communities_in_schools_of_dallas_region_dallas",
+    "org_name": "Communities In Schools of the Dallas Region",
+    "source_url": "https://cisdallas.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:56:03.729592+00:00",
+    "opportunity_title": "Custom Volunteer Opportunities",
+    "description_short": "Create tailored volunteer projects for groups.",
+    "description_long": "We can provide custom opportunities for groups of 1-100. We welcome your input and creativity if you have a project that will meet the needs of our students. If you would like to connect and learn more, contact our team via email.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": true
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact our team via email for more information.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "No specific role or task described.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": []
+  },
+  {
+    "id": "communities_in_schools_of_dallas_region_dallas_1",
+    "source": "curated",
+    "org_id": "communities_in_schools_of_dallas_region_dallas",
+    "org_name": "Communities In Schools of the Dallas Region",
+    "source_url": "https://cisdallas.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:56:03.729592+00:00",
+    "opportunity_title": "Events and Projects",
+    "description_short": "Help with community outreach and various events.",
+    "description_long": "Communities In Schools has several annual events or projects that require volunteers. These include community outreach events, the annual Golf Tournament, and our holiday drive. Duties for these events may include greeting, assisting with registration, set up, and clean up after an event. Projects duties may include organizing, sorting, registration, decoration, and labeling.",
+    "schedule": {
+      "raw": "Various dates for events throughout the year",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "one-time",
+    "location": {
+      "address": "1341 W. Mockingbird Lane, Suite 1000E",
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": "https://voly.org",
+    "apply_instructions": "Sign up via our VOLY site to receive information on upcoming events.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers needed for various event tasks.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": []
+  },
+  {
+    "id": "communities_in_schools_of_dallas_region_dallas_2",
+    "source": "curated",
+    "org_id": "communities_in_schools_of_dallas_region_dallas",
+    "org_name": "Communities In Schools of the Dallas Region",
+    "source_url": "https://cisdallas.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:56:03.729592+00:00",
+    "opportunity_title": "One-Time Volunteers",
+    "description_short": "Participate in larger group activities during the year.",
+    "description_long": "CIS staff members are involved in additional activities throughout the year which may include working with larger groups (i.e. corporations, small businesses, etc.) to conduct career fairs, field days, holiday parties, field trips, job shadowing, large groups, service learning projects, career panels, and college visits for students.",
+    "schedule": {
+      "raw": "Throughout the year",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "one-time",
+    "location": {
+      "address": "1341 W. Mockingbird Lane, Suite 1000E",
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "education",
+      "community"
+    ],
+    "apply_url": "https://voly.org",
+    "apply_instructions": "Register on our VOLY site to learn about these activities.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "No specific role or task described.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": []
+  },
+  {
     "id": "coppell_humane_society_0",
     "source": "curated",
     "org_id": "coppell_humane_society",
@@ -4368,7 +5074,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "animals",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
@@ -8855,7 +9564,9 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
@@ -12155,6 +12866,143 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-17T01:07:41.466287+00:00"
     }
+  },
+  {
+    "id": "intellichoice_math_tutoring_dallas_0",
+    "source": "curated",
+    "org_id": "intellichoice_math_tutoring_dallas",
+    "org_name": "IntelliChoice Math Tutoring",
+    "source_url": "https://www.intellichoice.org/volunteers",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:57:50.431397+00:00",
+    "opportunity_title": "Become a Tutor",
+    "description_short": "Tutor K-12 students in math and help foster their academic growth.",
+    "description_long": "Our tutors include middle school through college students, working adults and retirees. We provide K-12 tutoring, so advanced math knowledge is not necessary – we will match you with students according to your math comfort level. You may sign up for weekly tutoring sessions at the branch of your choosing.",
+    "schedule": {
+      "raw": "Weekly tutoring sessions",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "variable, based on availability",
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Must be over 18 for background check; others can be younger.",
+    "cause_tags": [
+      "education"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Register for an IntelliChoice account and sign up for tutoring sessions.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Tutoring K-12 students in math.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": [
+      "education",
+      "children",
+      "community"
+    ]
+  },
+  {
+    "id": "intellichoice_math_tutoring_dallas_1",
+    "source": "curated",
+    "org_id": "intellichoice_math_tutoring_dallas",
+    "org_name": "IntelliChoice Math Tutoring",
+    "source_url": "https://www.intellichoice.org/volunteers",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:57:50.431397+00:00",
+    "opportunity_title": "Become a Volunteer Chapter Leader",
+    "description_short": "Lead and recruit other tutors, building a supportive tutoring community.",
+    "description_long": "In addition to tutoring, chapter leaders develop leadership skills by recruiting and cultivating other tutors, encouraging their attendance at IntelliChoice’s tutoring branches. IntelliChoice chapters organize as student clubs within highschools and universities.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "variable, based on chapter activities",
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": null
+    },
+    "requirements": "Interest in leadership and recruitment; preferred for high school and university students.",
+    "cause_tags": [
+      "education",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Email us if interested in starting a chapter.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "internship_or_job",
+      "reason": "Role involves leadership and recruitment, not direct volunteering.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": []
+  },
+  {
+    "id": "intellichoice_math_tutoring_dallas_2",
+    "source": "curated",
+    "org_id": "intellichoice_math_tutoring_dallas",
+    "org_name": "IntelliChoice Math Tutoring",
+    "source_url": "https://www.intellichoice.org/volunteers",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:57:50.431397+00:00",
+    "opportunity_title": "Web & Software Help",
+    "description_short": "Support our online presence and software development.",
+    "description_long": "We are looking for volunteers to maintain our website and to manage and develop software for workflow management.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "variable, based on project needs",
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": true
+    },
+    "requirements": "Technical skills in web maintenance and software development.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Email us if interested in this opportunity.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "internship_or_job",
+      "reason": "Technical role in web maintenance, not direct volunteering.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "interfaith_ministries_of_denton_inc_0",
@@ -15795,6 +16643,54 @@
     }
   },
   {
+    "id": "north_texas_food_bank_dallas_0",
+    "source": "curated",
+    "org_id": "north_texas_food_bank_dallas",
+    "org_name": "North Texas Food Bank",
+    "source_url": "https://volunteer.ntfb.org/need/detail?need_id=648251",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:57:59.238398+00:00",
+    "opportunity_title": "Mobile Pantry Volunteer",
+    "description_short": "Help distribute food to communities in need through the Mobile Pantry program.",
+    "description_long": "Like a market on wheels, the North Texas Food Bank's Mobile Pantry program is a traveling pantry that delivers nutritious food, including fresh produce and refrigerated items, directly to communities with high need. NTFB staff and host site volunteers unload, set up and distribute food directly to clients in a parking lot. You must not have any symptoms of COVID-19 as stated on the CDC website. Starting on June 10, 2021, drive time to the event will be included in your volunteer services hours. We will round up to the nearest 15 minutes and use the home address in your account to determine drive time. This is available for Mobile Pantry Volunteer Opportunities only. Help unload, set up and distribute food directly to clients in a fast-paced, outside environment. Volunteers must have good verbal skills and physically be able to stand for long periods of time, bend, stoop and lift at least 25 pounds repeatedly throughout their shift.",
+    "schedule": {
+      "raw": "Check in at 8:00 AM, orientation at 8:30 AM",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "one-time",
+    "location": {
+      "address": "6404 Paige Rd",
+      "city": "The Colony",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "All attendees must be 18 years of age or older; 16 and 17 year olds may volunteer with guardian present.",
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up online through the NTFB system and check in for every shift.",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2021-06-10",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2021-06-10)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
+  },
+  {
     "id": "north_texas_food_bank_8",
     "source": "curated",
     "org_id": "north_texas_food_bank",
@@ -16034,6 +16930,418 @@
     }
   },
   {
+    "id": "operation_kindness_humane_carrollton_0",
+    "source": "curated",
+    "org_id": "operation_kindness_humane_carrollton",
+    "org_name": "Operation Kindness Humane Society",
+    "source_url": "https://www.operationkindness.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:56:42.021975+00:00",
+    "opportunity_title": "Animal Care Support",
+    "description_short": "Support the health and well-being of shelter animals.",
+    "description_long": "Animal Care Support is vital to the health and well-being of the animals in our care, and a huge support to our Animal Care team. Volunteers will aid with kennel sanitization, laundry, dishes and general care of kennel spaces. This position aids with everyday kennel care tasks to allow our staff to focus on vulnerable animals within our shelter.",
+    "schedule": {
+      "raw": "Offered every day at all locations.",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "4 hours/month",
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Must be at least 16 years old.",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a registration form and pay your volunteer fee of $10 per person.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete tasks in animal care support.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ]
+  },
+  {
+    "id": "operation_kindness_humane_carrollton_5",
+    "source": "curated",
+    "org_id": "operation_kindness_humane_carrollton",
+    "org_name": "Operation Kindness Humane Society",
+    "source_url": "https://www.operationkindness.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:56:42.021975+00:00",
+    "opportunity_title": "Client Service Support",
+    "description_short": "Support client interactions at events.",
+    "description_long": "Our Client Services team is the first shiny face clients meet! From our main location, offsite adoption event, to our retail partner locations, volunteers play an important part in the client experiences. Volunteers aid with greeting, animal wrangling adoption contracts during adoption events, transport support, and more to promote adoptions.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Must be at least 16 years old.",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a registration form and pay your volunteer fee of $10 per person.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers needed for client service support at events.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": []
+  },
+  {
+    "id": "operation_kindness_humane_carrollton_2",
+    "source": "curated",
+    "org_id": "operation_kindness_humane_carrollton",
+    "org_name": "Operation Kindness Humane Society",
+    "source_url": "https://www.operationkindness.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:56:42.021975+00:00",
+    "opportunity_title": "Enrichment",
+    "description_short": "Create stimulation items for shelter animals.",
+    "description_long": "Keeping Operation Kindness Humane Society animals mentally and physically stimulated is key to having stress-free pets! Volunteers aid with building and distributing a variety of different enrichment items from Kong toys to shredding treat-filled egg cartons. Volunteers who complete advanced animal handling training participate in enrichment and socialization shifts with animals.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Must be at least 16 years old.",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a registration form and pay your volunteer fee of $10 per person.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers create stimulation items for shelter animals.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ]
+  },
+  {
+    "id": "operation_kindness_humane_carrollton_3",
+    "source": "curated",
+    "org_id": "operation_kindness_humane_carrollton",
+    "org_name": "Operation Kindness Humane Society",
+    "source_url": "https://www.operationkindness.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:56:42.021975+00:00",
+    "opportunity_title": "Foster",
+    "description_short": "Foster pets in need of temporary care.",
+    "description_long": "Sign up as a foster and you will receive one-on-one training on how to care for foster pets in your home. Fosters are needed for orphaned puppies and kittens, nursing mothers, animals recovering from a medical procedure, and animals that need behavioral support. The typical foster stay is two weeks to two months, depending on the individual animal. Volunteers can claim up to 2 hours a day of fostering towards volunteer hours.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "2 weeks to 2 months",
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Must be at least 16 years old.",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a registration form and pay your volunteer fee of $10 per person.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers foster pets in need of temporary care.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": []
+  },
+  {
+    "id": "operation_kindness_humane_carrollton_4",
+    "source": "curated",
+    "org_id": "operation_kindness_humane_carrollton",
+    "org_name": "Operation Kindness Humane Society",
+    "source_url": "https://www.operationkindness.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:56:42.021975+00:00",
+    "opportunity_title": "Fundraising",
+    "description_short": "Assist with fundraising events and tasks.",
+    "description_long": "As a non-profit organization, fundraising is pivotal to our life-saving efforts. Volunteer aid throughout the year aiding with fundraising events, tabling events, sending mailers to donors and aiding a variety of data entry work.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Must be at least 16 years old.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a registration form and pay your volunteer fee of $10 per person.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "donation_or_fundraising",
+      "reason": "Involves assisting with fundraising events.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": []
+  },
+  {
+    "id": "operation_kindness_humane_carrollton_1",
+    "source": "curated",
+    "org_id": "operation_kindness_humane_carrollton",
+    "org_name": "Operation Kindness Humane Society",
+    "source_url": "https://www.operationkindness.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:56:42.021975+00:00",
+    "opportunity_title": "Kitten Nursery Support",
+    "description_short": "Help care for underage kittens and puppies.",
+    "description_long": "Volunteers aid with caring for underage kittens (and occasionally puppies!) by providing support to our nursery staff. Volunteers aid with bottle feeding, sanitation and socialization of kittens.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Must be at least 16 years old.",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a registration form and pay your volunteer fee of $10 per person.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers help care for underage kittens and puppies.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ]
+  },
+  {
+    "id": "operation_kindness_humane_carrollton_7",
+    "source": "curated",
+    "org_id": "operation_kindness_humane_carrollton",
+    "org_name": "Operation Kindness Humane Society",
+    "source_url": "https://www.operationkindness.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:56:42.021975+00:00",
+    "opportunity_title": "Medical Support",
+    "description_short": "Assist with care for sick or injured animals.",
+    "description_long": "As a medically focused facility, aiding the sick, injured, and vulnerable is our mission. Volunteers aid with providing these animals with top-notch care while being medically treated. Volunteers aid with kennel sanitizing, socialization + enrichment, dog walking, ringworm dips, parvo puppy cuddling and so much more!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Must be at least 16 years old.",
+    "cause_tags": [
+      "animals",
+      "health"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a registration form and pay your volunteer fee of $10 per person.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers assist with care for sick or injured animals.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ]
+  },
+  {
+    "id": "operation_kindness_humane_carrollton_8",
+    "source": "curated",
+    "org_id": "operation_kindness_humane_carrollton",
+    "org_name": "Operation Kindness Humane Society",
+    "source_url": "https://www.operationkindness.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:56:42.021975+00:00",
+    "opportunity_title": "Pet Food Pantry",
+    "description_short": "Help clients seeking pet supplies assistance.",
+    "description_long": "Our Pet Food Pantry provides community support to individuals seeking assistance with pet supplies such as food or litter. Volunteers provide support in greeting clients and completing applications as well as aiding with fulfilling orders. This opportunity is provided every Thursday and Sunday.",
+    "schedule": {
+      "raw": "Every Thursday and Sunday",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Must be at least 16 years old.",
+    "cause_tags": [
+      "community",
+      "food_security"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a registration form and pay your volunteer fee of $10 per person.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers help clients seeking pet supplies assistance.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ]
+  },
+  {
+    "id": "operation_kindness_humane_carrollton_6",
+    "source": "curated",
+    "org_id": "operation_kindness_humane_carrollton",
+    "org_name": "Operation Kindness Humane Society",
+    "source_url": "https://www.operationkindness.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-21T03:56:42.021975+00:00",
+    "opportunity_title": "Walking/Jogging Club",
+    "description_short": "Exercise with dogs in a social setting.",
+    "description_long": "Track Pack is an opportunity for dogs and volunteers alike to get exercise and stimulation outside the shelter. This opportunity meets every Saturday and takes a 1.5-mile jog around the nearby business complex. Dogs are able to stretch their legs and get socialization from our volunteers.",
+    "schedule": {
+      "raw": "Every Saturday",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "Weekly",
+    "location": {
+      "address": null,
+      "city": null,
+      "state": null,
+      "virtual": false
+    },
+    "requirements": "Must be at least 16 years old.",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a registration form and pay your volunteer fee of $10 per person.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "athletic_or_social_event",
+      "reason": "Involves exercising with dogs in a social setting.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-21T03:59:17.050665+00:00"
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ]
+  },
+  {
     "id": "our_daily_bread_denton_0",
     "source": "curated",
     "org_id": "our_daily_bread_denton",
@@ -16198,7 +17506,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "children",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
@@ -17073,7 +18384,10 @@
     ],
     "apply_url": null,
     "apply_instructions": "Sign up to attend an orientation session.",
-    "unified_tags": [],
+    "unified_tags": [
+      "community",
+      "animals"
+    ],
     "qc": {
       "status": "passed",
       "category": null,

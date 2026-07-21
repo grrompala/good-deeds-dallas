@@ -248,6 +248,30 @@
     "source_url": "http://cityhouse.org/volunteer"
   },
   {
+    "id": "city_of_dallas_office_of_homeless_solutions_dallas_0",
+    "org_name": "City of Dallas: Office of Homeless Solutions",
+    "opportunity_title": "Friends of OHS",
+    "category": "vague_no_role",
+    "reason": "No specific role or task described.",
+    "source_url": "https://dallashomelesssolutions.com/get-involved/volunteer/index.html"
+  },
+  {
+    "id": "communities_in_schools_of_dallas_region_dallas_3",
+    "org_name": "Communities In Schools of the Dallas Region",
+    "opportunity_title": "Custom Volunteer Opportunities",
+    "category": "vague_no_role",
+    "reason": "No specific role or task described.",
+    "source_url": "https://cisdallas.org/volunteer"
+  },
+  {
+    "id": "communities_in_schools_of_dallas_region_dallas_2",
+    "org_name": "Communities In Schools of the Dallas Region",
+    "opportunity_title": "One-Time Volunteers",
+    "category": "vague_no_role",
+    "reason": "No specific role or task described.",
+    "source_url": "https://cisdallas.org/volunteer"
+  },
+  {
     "id": "coppell_humane_society_4",
     "org_name": "Coppell Humane Society",
     "opportunity_title": "Youth Volunteers",
@@ -744,6 +768,22 @@
     "source_url": "http://www.IncarnationPlace.org/volunteer"
   },
   {
+    "id": "intellichoice_math_tutoring_dallas_1",
+    "org_name": "IntelliChoice Math Tutoring",
+    "opportunity_title": "Become a Volunteer Chapter Leader",
+    "category": "internship_or_job",
+    "reason": "Role involves leadership and recruitment, not direct volunteering.",
+    "source_url": "https://www.intellichoice.org/volunteers"
+  },
+  {
+    "id": "intellichoice_math_tutoring_dallas_2",
+    "org_name": "IntelliChoice Math Tutoring",
+    "opportunity_title": "Web & Software Help",
+    "category": "internship_or_job",
+    "reason": "Technical role in web maintenance, not direct volunteering.",
+    "source_url": "https://www.intellichoice.org/volunteers"
+  },
+  {
     "id": "k9_s_for_freedom_independence_0",
     "org_name": "K9's For Freedom & Independence",
     "opportunity_title": "CIRT K9 Certification Training",
@@ -910,6 +950,30 @@
     "category": "vague_no_role",
     "reason": "No specific volunteer role or task described.",
     "source_url": "https://nominetwork.org/get-involved/host-an-event"
+  },
+  {
+    "id": "north_texas_food_bank_dallas_0",
+    "org_name": "North Texas Food Bank",
+    "opportunity_title": "Mobile Pantry Volunteer",
+    "category": "expired",
+    "reason": "event date passed (2021-06-10)",
+    "source_url": "https://volunteer.ntfb.org/need/detail?need_id=648251"
+  },
+  {
+    "id": "operation_kindness_humane_carrollton_4",
+    "org_name": "Operation Kindness Humane Society",
+    "opportunity_title": "Fundraising",
+    "category": "donation_or_fundraising",
+    "reason": "Involves assisting with fundraising events.",
+    "source_url": "https://www.operationkindness.org/volunteer"
+  },
+  {
+    "id": "operation_kindness_humane_carrollton_6",
+    "org_name": "Operation Kindness Humane Society",
+    "opportunity_title": "Walking/Jogging Club",
+    "category": "athletic_or_social_event",
+    "reason": "Involves exercising with dogs in a social setting.",
+    "source_url": "https://www.operationkindness.org/volunteer"
   },
   {
     "id": "our_daily_bread_denton_1",
