@@ -91,8 +91,9 @@ def _read_json(path: Path, default):
 
 
 def load_coverage() -> tuple[set[str], set[str]]:
-    """Everything we already have: normalized org names + known domains, drawn
-    from orgs.json, the NTGD candidates, and every volops_*.json output."""
+    """Everything we already have OR already declined: normalized org names +
+    known domains, drawn from orgs.json, orgs_rejected.json (so declined orgs
+    aren't re-proposed), and every volops_*.json output."""
     names: set[str] = set()
     domains: set[str] = set()
 
@@ -106,7 +107,7 @@ def load_coverage() -> tuple[set[str], set[str]]:
 
     for org in _read_json(config.ORGS_PATH, []):
         add(org.get("name"), org.get("volunteer_url"))
-    for org in _read_json(config.NTGD_CANDIDATES_PATH, []):
+    for org in _read_json(config.REJECTED_PATH, []):
         add(org.get("name"), org.get("volunteer_url"))
 
     for path in sorted(config.REPO_ROOT.glob(config.VOLOPS_GLOB)):

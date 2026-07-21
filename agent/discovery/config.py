@@ -19,7 +19,7 @@ LEDGER_PATH = REPO_ROOT / "agent" / "seen_domains.json"
 
 # Where accepted entries are appended, and the files that define "already covered".
 ORGS_PATH = REPO_ROOT / "orgs.json"
-NTGD_CANDIDATES_PATH = REPO_ROOT / "orgs_ntgd_candidates.json"
+REJECTED_PATH = REPO_ROOT / "orgs_rejected.json"  # declined orgs — don't re-propose
 VOLOPS_GLOB = "frontend/public/data/volops_*.json"
 
 # Dry-run report destination (tech plan §4 `report` node).

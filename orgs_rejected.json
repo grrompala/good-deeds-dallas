@@ -1,27 +1,5 @@
 [
   {
-    "id": "keith_house_a_dba_of_entrada_of_texas",
-    "ntgd_slug": "Entrada-of-Texas",
-    "name": "Keith House (a DBA of Entrada of Texas)",
-    "city": "Fort Worth",
-    "state": "TX",
-    "postal": "76101",
-    "ein": "83-0901571",
-    "county": "Tarrant",
-    "cause": [
-      "arts"
-    ],
-    "cause_raw": "Arts & Humanities",
-    "volunteer_url": "https://www.keithhouse.org/",
-    "fallback_urls": [],
-    "phone": "817-924-4134",
-    "email": "info@keithhouse.org",
-    "notes": "Keith House, located in Fort Worth, is proud to participate in North Texas Giving Day 2025. Keith House is a modern-day meeting place for nonprofits and c...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Entrada-of-Texas",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "friends_of_little_elm_animal_support",
     "ntgd_slug": "Fleas",
     "name": "Friends of Little Elm Animal Support",
@@ -84,50 +62,6 @@
     "email": "jfor@mystronghold.org",
     "notes": "What are our Giving Day goals? We seek to raise $100,000 during this Giving Day season from August 27 to September 18! We will double all donations up to ...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Stronghold-Ministry",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "first_refuge_ministries",
-    "ntgd_slug": "first-refuge-ministries",
-    "name": "First Refuge Ministries",
-    "city": "Broadway St. Denton",
-    "state": "TX",
-    "postal": "76201",
-    "ein": "45-5606427",
-    "county": "Denton",
-    "cause": [
-      "food_security"
-    ],
-    "cause_raw": "Hunger & Food Access",
-    "volunteer_url": "http://dentonrefuge.org",
-    "fallback_urls": [],
-    "phone": "940 484 4384",
-    "email": "info@firstrm.org",
-    "notes": "A Certain Hope for Uncertain Times.Imagine the weight of a toothache that won't go away, but having no insurance to fix it. Imagine the worry of a parent...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/first-refuge-ministries",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "grayson_grand_central_station",
-    "ntgd_slug": "GraysonGrandCentralStation",
-    "name": "Grayson Grand Central Station",
-    "city": "E. Houston Sherman",
-    "state": "TX",
-    "postal": "75090",
-    "ein": "26-3653572",
-    "county": "Denton, Rockwall, Navarro, Kaufman, Hunt, Grayson, Fannin, Ellis, Dallas, Collin",
-    "cause": [
-      "food_security"
-    ],
-    "cause_raw": "Hunger & Food Access",
-    "volunteer_url": "http://grandcentralsherman.com/",
-    "fallback_urls": [],
-    "phone": "903 328 4512",
-    "email": "grandcentralexecdir@gmail.com",
-    "notes": "Located in Sherman, Grand Central Station (GCS) is a hub of support for members of the Grayson County community. Our work is organized into four...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/GraysonGrandCentralStation",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -264,72 +198,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "spay_neuter_network",
-    "ntgd_slug": "spay-neuter-network",
-    "name": "Spay Neuter Network",
-    "city": "Kaufman",
-    "state": "TX",
-    "postal": "75142",
-    "ein": "20-0276988",
-    "county": "Dallas, Tarrant, Kaufman, Collin, Denton, Ellis, Hunt, Johnson, Rockwall, Navarro",
-    "cause": [
-      "animals"
-    ],
-    "cause_raw": "Animals",
-    "volunteer_url": "http://www.spayneuternet.org",
-    "fallback_urls": [],
-    "phone": "972-472-3500",
-    "email": "info@spayneuternet.org",
-    "notes": "Every Pet Deserves a Chance\nTogether, we can help families keep the pets they love healthy, safe, and by their side.\nAcross Texas, many families face fi...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/spay-neuter-network",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "future_city_competition_north_texas",
-    "ntgd_slug": "Dfwfuturecity",
-    "name": "Future City Competition - North Texas",
-    "city": "Carrollton",
-    "state": "TX",
-    "postal": "75007",
-    "ein": "32-0210977",
-    "county": "Hood, Wise, Tarrant, Somervell, Rockwall, Parker, Palo Pinto, Navarro, Montague, Kaufman, Johnson, Hunt, Grayson, Fannin, Erath, Ellis, Denton, Dallas, Cooke, Collin",
-    "cause": [
-      "education"
-    ],
-    "cause_raw": "Education - K-12",
-    "volunteer_url": "https://dfwfuturecity.org/",
-    "fallback_urls": [],
-    "phone": null,
-    "email": "texas_north@futurecity.org",
-    "notes": "The Future City Competition-North Texas is a project-based learning program that has been inspiring students to explore Science, Technology, Engineering,...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Dfwfuturecity",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "north_texas_food_bank",
-    "ntgd_slug": "northtexasfoodbank",
-    "name": "North Texas Food Bank",
-    "city": "Mapleshade Lane Plano",
-    "state": "TX",
-    "postal": "75075",
-    "ein": "75-1785357",
-    "county": "Dallas, Rockwall, Navarro, Kaufman, Hunt, Grayson, Fannin, Ellis, Collin",
-    "cause": [
-      "food_security"
-    ],
-    "cause_raw": "Hunger & Food Access",
-    "volunteer_url": "http://www.ntfb.org",
-    "fallback_urls": [],
-    "phone": "214-330-1396",
-    "email": "info@ntfb.org",
-    "notes": "North Texas Food Bank (NTFB) is a nonprofit hunger-relief organization that focuses on providing children, older adults and families with access to nutrit...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/northtexasfoodbank",
-    "active": true,
-    "already_in_orgs_json": true
-  },
-  {
     "id": "white_rock_center_of_hope",
     "ntgd_slug": "White-Rock-Center-Of-Hope",
     "name": "White Rock Center of Hope",
@@ -370,50 +238,6 @@
     "email": "richardsonfoundation@mhd.com",
     "notes": "Invest in a Culture of Compassionate Care\nMethodist Richardson Medical Center Foundation works to curate a culture of compassionate healthcare, close to h...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/MRMC",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "for_the_nations_refugee_outreach",
-    "ntgd_slug": "FTNRO",
-    "name": "For the Nations Refugee Outreach",
-    "city": "Richardson",
-    "state": "TX",
-    "postal": "75085",
-    "ein": "45-2256540",
-    "county": "Dallas",
-    "cause": [
-      "immigration"
-    ],
-    "cause_raw": "Immigrants & Refugees",
-    "volunteer_url": "http://www.ftnro.org",
-    "fallback_urls": [],
-    "phone": "469-367-5363",
-    "email": "info@ftnro.org",
-    "notes": "FTNRO has been serving refugees since 2006 before becoming incorporated in 2011. We are now the largest organization serving refugees in the Dallas area....",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/FTNRO",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "embrace",
-    "ntgd_slug": "embracetexas",
-    "name": "Embrace",
-    "city": "S Tennessee St McKinney",
-    "state": "TX",
-    "postal": "75069",
-    "ein": "27-0946206",
-    "county": "Collin, Cooke, Dallas, Denton, Grayson",
-    "cause": [
-      "children"
-    ],
-    "cause_raw": "Youth & Children",
-    "volunteer_url": "http://www.EmbraceTexas.org",
-    "fallback_urls": [],
-    "phone": "469-617-3174",
-    "email": "amber@embracetexas.org",
-    "notes": "For over 17 years, Embrace has provided life changing programs and resources to vulnerable children and their caregivers. Our services are provided at no...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/embracetexas",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -462,50 +286,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "farmhouse_fresh_animal_sanctuary",
-    "ntgd_slug": "Farmhouse-Fresh-Animal-Sanctuary",
-    "name": "Farmhouse Fresh Animal Sanctuary",
-    "city": "MCKINNEY",
-    "state": "TX",
-    "postal": "75071",
-    "ein": "85-0727418",
-    "county": "Collin",
-    "cause": [
-      "animals"
-    ],
-    "cause_raw": "Animals",
-    "volunteer_url": "https://fhfanimalsanctuary.org/",
-    "fallback_urls": [],
-    "phone": "1-888-943-3429",
-    "email": "sanctuary@fhfanimalsanctuary.org",
-    "notes": "$25,000 Match!\nThis North Texas Giving Day, every donation you make is matched up to $25,000 by an Anonymous Angel to help fund constructio...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Farmhouse-Fresh-Animal-Sanctuary",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "habitat_for_humanity_of_grayson_county",
-    "ntgd_slug": "graysonhabitat",
-    "name": "Habitat for Humanity of Grayson County",
-    "city": "N. Grand Ave. Sherman",
-    "state": "TX",
-    "postal": "75090",
-    "ein": "75-2391661",
-    "county": "Grayson",
-    "cause": [
-      "housing"
-    ],
-    "cause_raw": "Housing, Shelter & Homelessness",
-    "volunteer_url": "http://www.graysonhabitat.org",
-    "fallback_urls": [],
-    "phone": "903-893-0009",
-    "email": "graysonhabitat@gmail.com",
-    "notes": "Habitat for Humanity of Grayson County is part of a global, nonprofit housing ministry. Our vision is a world where everyone has a decent place to live....",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/graysonhabitat",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "single_parent_advocate",
     "ntgd_slug": "Singleparentadvocate",
     "name": "Single Parent Advocate",
@@ -546,50 +326,6 @@
     "email": "Tamara@CampFireFW.org",
     "notes": "Every Part of a Child Matters. Your Gift Helps All of Them Shine.\nAt Camp Fire First Texas, we know that every child holds a spark — a unique mix of tal...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Campfirefw",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "selah_creek",
-    "ntgd_slug": "SelahCreek",
-    "name": "Selah Creek",
-    "city": "Terrell",
-    "state": "TX",
-    "postal": "75160",
-    "ein": "47-4492616",
-    "county": "Collin, Cooke, Dallas, Denton, Hunt, Kaufman, Rockwall, Tarrant",
-    "cause": [
-      "housing"
-    ],
-    "cause_raw": "Housing, Shelter & Homelessness",
-    "volunteer_url": "http://selahcreek.org",
-    "fallback_urls": [],
-    "phone": "469-310-9996",
-    "email": "info@selahcreek.org",
-    "notes": "About UsSelah Creek is a residential housing program dedicated to offering a safe, stable environment for pregnant women and their babies. Our program...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/SelahCreek",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "christian_community_action",
-    "ntgd_slug": "Ccahelps",
-    "name": "Christian Community Action",
-    "city": "South Mill Street Lewisville",
-    "state": "TX",
-    "postal": "75057",
-    "ein": "23-7319371",
-    "county": "Denton",
-    "cause": [
-      "housing"
-    ],
-    "cause_raw": "Housing, Shelter & Homelessness",
-    "volunteer_url": "http://ccahelps.org",
-    "fallback_urls": [],
-    "phone": "972-221-1224",
-    "email": "development@ccahelps.org",
-    "notes": "Christian Community Action52 years of bringing hope & changing lives\nCompelled by the love of Jesus Christ, we are committed to walking alongside those in...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Ccahelps",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -660,72 +396,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "faith_grief",
-    "ntgd_slug": "faithandgrief",
-    "name": "Faith & Grief",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75367",
-    "ein": "45-3959179",
-    "county": "Collin, Dallas, Denton, Ellis, Hunt, Kaufman, Rockwall, Tarrant",
-    "cause": [
-      "health"
-    ],
-    "cause_raw": "Mental and Behavioral Health",
-    "volunteer_url": "https://www.faithandgrief.org",
-    "fallback_urls": [],
-    "phone": "469-616-1795",
-    "email": "info@faithandgrief.org",
-    "notes": "No one should have to grieve alone.\nThose who experience the loss of a loved one want friends, family, and colleagues to understand the intensity of the p...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/faithandgrief",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "dogs_for_better_lives",
-    "ntgd_slug": "From-Shelter-To-Service-Dog-Program",
-    "name": "Dogs for Better Lives",
-    "city": "Carrollton",
-    "state": "TX",
-    "postal": "75006",
-    "ein": null,
-    "county": "Collin, Dallas, Denton, Tarrant",
-    "cause": [
-      "animals"
-    ],
-    "cause_raw": "Animals",
-    "volunteer_url": "https://dogsforbetterlives.org",
-    "fallback_urls": [],
-    "phone": null,
-    "email": "info@dogsforbetterlives.org",
-    "notes": "Dogs for Better Lives’ (DBL) mission is to professionally train dogs to help people and enhance lives while maintaining a lifelong commitment to all dogs...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/From-Shelter-To-Service-Dog-Program",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "coppell_humane_society",
-    "ntgd_slug": "Coppell-Humane-Society",
-    "name": "Coppell Humane Society",
-    "city": "Coppell",
-    "state": "TX",
-    "postal": "75019",
-    "ein": "75-2335062",
-    "county": "Collin, Dallas, Denton, Parker, Tarrant",
-    "cause": [
-      "animals"
-    ],
-    "cause_raw": "Animals",
-    "volunteer_url": "http://www.coppellhumanesociety.org/",
-    "fallback_urls": [],
-    "phone": "972-462-1121",
-    "email": "info@coppellhumanesociety.org",
-    "notes": "You're the reason tails wag and hearts heal!\nCoppell Humane Society was established in 1989 and is a 100% volunteer-run foster based rescue that services ...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Coppell-Humane-Society",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "eagle_mountain_pregnancy_help_center",
     "ntgd_slug": "Eagle-Mountain-Pregnancy-Help-Center",
     "name": "Eagle Mountain Pregnancy Help Center",
@@ -744,94 +414,6 @@
     "email": "executivedirector@emphc.org",
     "notes": "Our goal is to transform the lives of our growing client base.\nEach week, the Eagle Mountain Pregnancy Help Center sees more and more new clients from ou...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Eagle-Mountain-Pregnancy-Help-Center",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "fort_worth_community_collaborative",
-    "ntgd_slug": "Fort-Worth-Community-Collaborative",
-    "name": "Fort Worth Community Collaborative",
-    "city": "Camp Bowie West Blvd Fort Worth",
-    "state": "TX",
-    "postal": "76116",
-    "ein": "88-1513236",
-    "county": "Hood, Johnson, Parker, Tarrant",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Social Services",
-    "volunteer_url": "http://www.fortworthcollab.org",
-    "fallback_urls": [],
-    "phone": "682 200 9954",
-    "email": "hello@fortworthcollab.org",
-    "notes": "Founded in 2022, Fort Worth Community Collaborative (FWCC) is a community closet in its truest form — repurposing excess clothing to eliminate clothing in...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Fort-Worth-Community-Collaborative",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "hopekids_north_texas",
-    "ntgd_slug": "Hopekids-North-Texas",
-    "name": "HopeKids North Texas",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75355",
-    "ein": null,
-    "county": "Hood, Wise, Tarrant, Somervell, Rockwall, Parker, Palo Pinto, Navarro, Montague, Kaufman, Johnson, Hunt, Grayson, Fannin, Erath, Ellis, Denton, Dallas, Cooke, Collin",
-    "cause": [
-      "children"
-    ],
-    "cause_raw": "Youth & Children",
-    "volunteer_url": "http://www.hopekids.org",
-    "fallback_urls": [],
-    "phone": "972-482-7343",
-    "email": "Mandy@hopekids.org",
-    "notes": "Our Needs:\nHopeKids provides ongoing events, activities, and a powerful, unique support community for families who have a child with cancer or another lif...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Hopekids-North-Texas",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "mid_cities_animal_rescue",
-    "ntgd_slug": "Mcarescue",
-    "name": "Mid-Cities Animal Rescue",
-    "city": "Lorraine Ln Mesquite",
-    "state": "TX",
-    "postal": "75149",
-    "ein": "85-3131996",
-    "county": "Wise, Tarrant, Somervell, Rockwall, Parker, Palo Pinto, Navarro, Montague, Kaufman, Johnson, Hunt, Hood, Grayson, Fannin, Erath, Ellis, Denton, Dallas, Cooke, Collin",
-    "cause": [
-      "animals"
-    ],
-    "cause_raw": "Animals",
-    "volunteer_url": "https://www.mcarescue.org",
-    "fallback_urls": [],
-    "phone": "682 200 9877",
-    "email": "info@mcarescue.org",
-    "notes": "Mid-Cities Animal Rescue is a nonprofit corporation, organized and operated exclusively for charitable purposes -- specifically to:...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Mcarescue",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "children_s_advocacy_center_for_rockwall_county",
-    "ntgd_slug": "CACRC",
-    "name": "Children's Advocacy Center for Rockwall County",
-    "city": "E. Washington Steet Rockwall",
-    "state": "TX",
-    "postal": "75087",
-    "ein": "47-4946358",
-    "county": "Rockwall",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Domestic/Family Violence & Advocacy",
-    "volunteer_url": "http://www.rockwallcac.org",
-    "fallback_urls": [],
-    "phone": "469-745-8200",
-    "email": "Info@rockwallcac.org",
-    "notes": "This North Texas Giving Day, we invite you to join in the transformative power of just one day of Texas-sized giving, to help create a safer tomorrow for ...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/CACRC",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -876,28 +458,6 @@
     "email": "therese@mpowergirlscamp.org",
     "notes": null,
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Mpower-Girls-Camp",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "city_house",
-    "ntgd_slug": "CityHouse",
-    "name": "City House",
-    "city": "Plano",
-    "state": "TX",
-    "postal": "75074",
-    "ein": "75-2213291",
-    "county": "Collin, Dallas, Denton",
-    "cause": [
-      "housing"
-    ],
-    "cause_raw": "Housing, Shelter & Homelessness",
-    "volunteer_url": "http://cityhouse.org",
-    "fallback_urls": [],
-    "phone": "972-424-4626",
-    "email": "ckedslie@cityhouse.org",
-    "notes": "Who We Are\nThere are about 4,000 homeless youth in North Texas with many of them having been homeless for an average of 12 months over the last three year...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/CityHouse",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -1012,72 +572,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "dementia_friendly_fort_worth",
-    "ntgd_slug": "dementiafriendlyfortworth",
-    "name": "Dementia Friendly Fort Worth",
-    "city": "th St. Fort Worth",
-    "state": "TX",
-    "postal": "76102",
-    "ein": "82-5303287",
-    "county": "Tarrant",
-    "cause": [
-      "seniors"
-    ],
-    "cause_raw": "Seniors",
-    "volunteer_url": "http://dffw.org",
-    "fallback_urls": [],
-    "phone": "817-332-6266",
-    "email": "gsnider@dementiafriendlyfw.org",
-    "notes": "Fort Worth leads Texas in joining Dementia Friendly America, educating sectors like businesses, healthcare, and faith communities to enrich lives affected...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/dementiafriendlyfortworth",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "traffick911",
-    "ntgd_slug": "Traffick911",
-    "name": "Traffick911",
-    "city": "Claire Chennault Addison",
-    "state": "TX",
-    "postal": "75001",
-    "ein": "27-1111529",
-    "county": "Collin, Dallas, Denton, Ellis, Rockwall, Tarrant",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Human Trafficking & Exploitation",
-    "volunteer_url": "http://www.traffick911.com",
-    "fallback_urls": [],
-    "phone": "817 575 9923",
-    "email": "ashleyg@traffick911.com",
-    "notes": "Traffick911 is the only agency providing 24/7 crisis response to child sex trafficking victims across all of North Texas: Dallas, Tarrant, Denton, Collin,...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Traffick911",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "keep_lewisville_beautiful",
-    "ntgd_slug": "KeepLewisvilleBeautiful",
-    "name": "Keep Lewisville Beautiful",
-    "city": "Lewisville",
-    "state": "TX",
-    "postal": "75029",
-    "ein": "75-2488233",
-    "county": "Denton",
-    "cause": [
-      "environment"
-    ],
-    "cause_raw": "Environment & Conservation",
-    "volunteer_url": "http://www.keeplewisvillebeautiful.org/",
-    "fallback_urls": [],
-    "phone": "972-538-5949",
-    "email": "info@keeplewisvillebeautiful.org",
-    "notes": "KLB's focus on sustainable programs, volunteer engagement, and community improvement make a difference by providing hands-on volunteer opportunities,...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/KeepLewisvilleBeautiful",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "texas_husky_rescue",
     "ntgd_slug": "Texas-Husky-Rescue",
     "name": "Texas Husky Rescue",
@@ -1166,118 +660,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "dallas_pets_alive",
-    "ntgd_slug": "dallaspetsalive",
-    "name": "Dallas Pets Alive",
-    "city": "Manor Way Dallas",
-    "state": "TX",
-    "postal": "75235",
-    "ein": "46-2768869",
-    "county": "Hunt, Wise, Tarrant, Somervell, Rockwall, Parker, Palo Pinto, Navarro, Montague, Kaufman, Johnson, Hood, Grayson, Fannin, Erath, Ellis, Denton, Dallas, Cooke, Collin",
-    "cause": [
-      "animals"
-    ],
-    "cause_raw": "Animals",
-    "volunteer_url": "https://dallaspetsalive.org/",
-    "fallback_urls": [],
-    "phone": "(325) 225-5372",
-    "email": "info@dallaspetsalive.org",
-    "notes": "Dallas Pets Alive \nDallas Pets Alive (DPA), founded in 2012, is a primarily volunteer-run, foster-based rescue organization dedicated to saving the lives ...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/dallaspetsalive",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "k9_s_for_freedom_independence",
-    "ntgd_slug": "45-3620942",
-    "name": "K9's For Freedom & Independence",
-    "city": "Collinsville",
-    "state": "TX",
-    "postal": "76233",
-    "ein": "45-3620942",
-    "county": "Kaufman, Collin, Wise, Tarrant, Somervell, Rockwall, Parker, Palo Pinto, Navarro, Montague, Cooke, Johnson, Hunt, Hood, Grayson, Fannin, Erath, Ellis, Denton, Dallas",
-    "cause": [
-      "animals",
-      "health",
-      "civic"
-    ],
-    "cause_raw": "Mental and Behavioral Health, Animals, Public Safety",
-    "volunteer_url": "http://www.k9sforfreedom.org",
-    "fallback_urls": [],
-    "phone": "844-353-8700",
-    "email": "janeen@k9sforfreedom.org",
-    "notes": "We are seeing the lives that are being changed by the dogs we train. It is not just the recipient, but also their kids, spouses, employers that are seeing...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/45-3620942",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "keep_rowlett_beautiful",
-    "ntgd_slug": "Keep-Rowlett-Beautiful",
-    "name": "Keep Rowlett Beautiful",
-    "city": "Rowlett Rd. Rowlett",
-    "state": "TX",
-    "postal": "75088",
-    "ein": "75-2793697",
-    "county": "Dallas",
-    "cause": [
-      "environment"
-    ],
-    "cause_raw": "Environment & Conservation",
-    "volunteer_url": "http://www.keeprowlettbeautiful.org",
-    "fallback_urls": [],
-    "phone": "972-998-5924",
-    "email": "info@keeprowlettbeautiful.org",
-    "notes": "Our Needs\nKeep Rowlett Beautiful, Inc. (KRB) relies on the generous support of corporate sponsors, small businesses, and individuals like you to keep our ...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Keep-Rowlett-Beautiful",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "art_house_dallas",
-    "ntgd_slug": "arthousedallas",
-    "name": "Art House Dallas",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75209",
-    "ein": "45-5031726",
-    "county": "Dallas, Collin, Denton",
-    "cause": [
-      "arts"
-    ],
-    "cause_raw": "Arts & Humanities",
-    "volunteer_url": "http://www.arthousedallas.com",
-    "fallback_urls": [],
-    "phone": "214-810-0125",
-    "email": "info@arthousedallas.com",
-    "notes": "Since our founding in 2010, Art House Dallas has served more than 6,500 artists and creatives through 11 core programs, averaging over 100 events and gath...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/arthousedallas",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "vickery_meadow_youth_development_foundation",
-    "ntgd_slug": "Vmydf",
-    "name": "Vickery Meadow Youth Development Foundation",
-    "city": "Holly Hill Dr. Dallas",
-    "state": "TX",
-    "postal": "75231",
-    "ein": "26-1199982",
-    "county": "Dallas",
-    "cause": [
-      "education"
-    ],
-    "cause_raw": "Education - Higher Ed",
-    "volunteer_url": "http://www.vmydf.com",
-    "fallback_urls": [],
-    "phone": "214-443--7985",
-    "email": "contact@vmydf.com",
-    "notes": "This North Texas Giving Day, you’re powering a proven pathway to college—equipping first-generation students from over 16 different countries with the too...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Vmydf",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "friends_of_furneaux_creek",
     "ntgd_slug": "friendsoffurneauxcreek",
     "name": "Friends of Furneaux Creek",
@@ -1300,28 +682,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "good_samaritans_of_garland",
-    "ntgd_slug": "Goodsamofgarland",
-    "name": "Good Samaritans of Garland",
-    "city": "th Street Garland",
-    "state": "TX",
-    "postal": "75040",
-    "ein": "75-1916118",
-    "county": "Dallas",
-    "cause": [
-      "food_security"
-    ],
-    "cause_raw": "Hunger & Food Access",
-    "volunteer_url": "http://www.goodsamofgarland.org",
-    "fallback_urls": [],
-    "phone": "972-276-2263",
-    "email": "info@goodsamofgarland.org",
-    "notes": "Good Samaritans of Garland “Good Sam” is committed to our mission of feeding, helping, and serving our community through direct food assistance and collab...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Goodsamofgarland",
-    "active": true,
-    "already_in_orgs_json": true
-  },
-  {
     "id": "brighter_community_charitable_foundation",
     "ntgd_slug": "bccf",
     "name": "Brighter Community Charitable Foundation",
@@ -1340,50 +700,6 @@
     "email": "contactus@brighterccf.org",
     "notes": "The Brighter Community Charitable Foundation (BCCF) is a North Texas-based nonprofit committed to empowering future leaders through education, mentorship,...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/bccf",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "toast_for_charity",
-    "ntgd_slug": "toastforcharity",
-    "name": "Toast for Charity",
-    "city": "Kessler Heights Lane Dallas",
-    "state": "TX",
-    "postal": "75208",
-    "ein": "81-4929529",
-    "county": "Collin, Dallas, Denton, Johnson, Tarrant",
-    "cause": [
-      "children"
-    ],
-    "cause_raw": "Youth & Children",
-    "volunteer_url": "http://www.toastforcharity.org",
-    "fallback_urls": [],
-    "phone": "773-727-8045",
-    "email": "toastforcharity@gmail.com",
-    "notes": "Toast for Charity is a youth empowerment, Dallas-based nonprofit organization dedicated to supporting the next generation of leaders and difference-makers....",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/toastforcharity",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "holy_sews",
-    "ntgd_slug": "holysews",
-    "name": "Holy Sews",
-    "city": "E. Peters Colony Road Carrollton",
-    "state": "TX",
-    "postal": "75007",
-    "ein": "46-3643891",
-    "county": "Montague, Collin, Wise, Tarrant, Somervell, Rockwall, Parker, Palo Pinto, Navarro, Cooke, Kaufman, Johnson, Hunt, Hood, Grayson, Fannin, Erath, Ellis, Denton, Dallas",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Social Services, Religion/Spiritual Focus, Women & Girls",
-    "volunteer_url": "http://www.holysews.org/",
-    "fallback_urls": [],
-    "phone": "214-794-3224",
-    "email": "dallas@holysews.org",
-    "notes": "Holy Sews DFW serves hospitals by providing special handmade clothing sets (layettes) to their patients who have experienced a loss of an infant during ea...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/holysews",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -1432,50 +748,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "the_oak_cliff_veggie_project",
-    "ntgd_slug": "theoakcliffveggieproject",
-    "name": "The Oak Cliff Veggie Project",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75226",
-    "ein": "82-5346391",
-    "county": "Dallas, Tarrant",
-    "cause": [
-      "food_security"
-    ],
-    "cause_raw": "Hunger & Food Access",
-    "volunteer_url": "http://www.oakcliffveggieproject.org",
-    "fallback_urls": [],
-    "phone": "214 533 9222",
-    "email": "ples.montgomery@oakcliffveggieproject.org",
-    "notes": "Prior to our non-profit incorporation our co-founders and a handful of volunteers provided monthly free food distribution to the Singing Hills neighborhood...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/theoakcliffveggieproject",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "texas_independent_rhodesian_ridgeback_rescue",
-    "ntgd_slug": "Texas-Independent-Rhodesian-Ridgeback-Rescue",
-    "name": "Texas Independent Rhodesian Ridgeback Rescue",
-    "city": "Spring Valley Rd. Paradise",
-    "state": "TX",
-    "postal": "76073",
-    "ein": "54-2118222",
-    "county": "Collin, Dallas, Denton, Grayson, Hood, Johnson, Kaufman, Palo Pinto, Parker, Tarrant, Wise",
-    "cause": [
-      "animals"
-    ],
-    "cause_raw": "Animals",
-    "volunteer_url": "http://www.tirrrescue.org",
-    "fallback_urls": [],
-    "phone": "817-454-6023",
-    "email": "tirrrescue@gmail.com",
-    "notes": "Who are we?\nThe TIRR Rescue founders, Roy and Cindy Hughes, have created an environment where a dog can be a dog, or sometimes learn to be a dog. Some TI...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Texas-Independent-Rhodesian-Ridgeback-Rescue",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "fort_worth_steam_academy",
     "ntgd_slug": "Fwsa",
     "name": "Fort Worth STEAM Academy",
@@ -1494,28 +766,6 @@
     "email": "nditto@fwsteamacademy.org",
     "notes": "Our Mission:<span class=\"fr-mk\" style=\"display:none;\"> </span><span class=\"fr-mk\" style=\"display:none;\"> </span><span class=\"f...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Fwsa",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "arlington_life_shelter",
-    "ntgd_slug": "arlington-life-shelter",
-    "name": "Arlington Life Shelter",
-    "city": "W DIVISION ST Arlington",
-    "state": "TX",
-    "postal": "76011",
-    "ein": "75-2235099",
-    "county": "Dallas, Tarrant",
-    "cause": [
-      "housing"
-    ],
-    "cause_raw": "Housing, Shelter & Homelessness",
-    "volunteer_url": "http://www.arlingtonlifeshelter.org",
-    "fallback_urls": [],
-    "phone": "817-548-9885",
-    "email": "info@arlingtonlifeshelter.org",
-    "notes": "On any given night, the Arlington Life Shelter provides homeless men, women and children a safe place to sleep. But the help doesn’t end there. Case manag...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/arlington-life-shelter",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -1582,28 +832,6 @@
     "email": "erin@communitystorehouse.org",
     "notes": "<span class=\"fr-mk\" style=\"display:none;\"> </span>Nutrition Center \nCommunity Storehouse provides food to approximately 230 households weekly ...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/CommunityStorehouse",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "nomi_network",
-    "ntgd_slug": "Nomi-Network",
-    "name": "NOMI NETWORK",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75205",
-    "ein": "80-0290896",
-    "county": "Dallas",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Human Trafficking & Exploitation",
-    "volunteer_url": "https://nominetwork.org/",
-    "fallback_urls": [],
-    "phone": "646867 0608",
-    "email": "info@nominetwork.org",
-    "notes": "We launched our Dallas program in 2021 at the invitation of Dallas County and local\nphilanthropists. Our goal: support girls ages 13–17 at the Letot Cente...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Nomi-Network",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -1692,28 +920,6 @@
     "email": "maryking@metroportmow.org",
     "notes": "Supporting independence for the elderly is at the heart of Metroport Meals On Wheels’ mission.  For 46 years, MMOW has relieved isolation, supported...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/MMOW",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "presbyterian_night_shelter",
-    "ntgd_slug": "presbyterian-night-shelter",
-    "name": "Presbyterian Night Shelter",
-    "city": "Fort Worth",
-    "state": "TX",
-    "postal": "76113",
-    "ein": "75-1985591",
-    "county": "Tarrant",
-    "cause": [
-      "housing"
-    ],
-    "cause_raw": "Housing, Shelter & Homelessness",
-    "volunteer_url": "http://www.journeyhome.org",
-    "fallback_urls": [],
-    "phone": "817-632-7417",
-    "email": "development@journeyhome.org",
-    "notes": "<span class=\"fr-mk\" style=\"display:none;\"> </span><span class=\"fr-mk\" style=\"display:none;\"> </span><span class=\"fr-mk\" style=\"...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/presbyterian-night-shelter",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -1916,50 +1122,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "feeding_fannin",
-    "ntgd_slug": "Feedingfannin",
-    "name": "Feeding Fannin",
-    "city": "Bonham",
-    "state": "TX",
-    "postal": "75418",
-    "ein": null,
-    "county": "Fannin",
-    "cause": [
-      "food_security"
-    ],
-    "cause_raw": "Hunger & Food Access",
-    "volunteer_url": "http://feedingfannin.org",
-    "fallback_urls": [],
-    "phone": "469-571-6766",
-    "email": "Terefcfcc@frontier.com",
-    "notes": "Feeding Fannin was started in April 2018 and partnered with North Texas Food Bank Mobile Pantry to bring fresh produce to underserved residents. Monthly...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Feedingfannin",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "incarnation_place",
-    "ntgd_slug": "incarnationplace",
-    "name": "Incarnation Place",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75225",
-    "ein": "82-0626524",
-    "county": "Dallas",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Community Improvement",
-    "volunteer_url": "http://www.IncarnationPlace.org",
-    "fallback_urls": [],
-    "phone": "972-762-1088",
-    "email": "regina.nippert@incarnationplace.org",
-    "notes": "Incarnation Place was born of insight from an extraordinary coming together of black and white churches in and around the Roseland Community.In 2009, a...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/incarnationplace",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "jacob_way_organization",
     "ntgd_slug": "Jacob-Way-Organization",
     "name": "Jacob Way Organization",
@@ -2000,72 +1162,6 @@
     "email": "events@rockwallhelpinghands.com",
     "notes": "...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/rockwall-county-helping-hands-inc",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "cuisine_for_healing",
-    "ntgd_slug": "cuisine-for-healing",
-    "name": "Cuisine for Healing",
-    "city": "Mistletoe Blvd. Fort Worth",
-    "state": "TX",
-    "postal": "76104",
-    "ein": "20-8858735",
-    "county": "Tarrant",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Social Services",
-    "volunteer_url": "https://cuisineforhealing.org/?v=7516fd43adaa",
-    "fallback_urls": [],
-    "phone": "817-921-2377",
-    "email": "Lori@cuisineforhealing.org",
-    "notes": "Click Here to go to our website!\n...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/cuisine-for-healing",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "body_soul_homeless_program",
-    "ntgd_slug": "Bodyandsoulhomelessprogram",
-    "name": "Body & Soul Homeless Program",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75219",
-    "ein": "99-1469390",
-    "county": "Dallas",
-    "cause": [
-      "housing"
-    ],
-    "cause_raw": "Housing, Shelter & Homelessness",
-    "volunteer_url": "https://www.bodyandsouldallas.org/",
-    "fallback_urls": [],
-    "phone": "214-971-6426",
-    "email": "Information@BodyandSoulDallas.org",
-    "notes": "For over 27 years, Body & Soul Homeless Program has been a beacon of light in the Dallas Arts District, offering hot meals, personal essentials, clothing,...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Bodyandsoulhomelessprogram",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "many_helping_hands_ministry",
-    "ntgd_slug": "many-helping-hands-ministry",
-    "name": "Many Helping Hands Ministry",
-    "city": "Irving",
-    "state": "TX",
-    "postal": "75061",
-    "ein": "46-4933405",
-    "county": "Dallas",
-    "cause": [
-      "housing"
-    ],
-    "cause_raw": "Housing, Shelter & Homelessness",
-    "volunteer_url": "http://www.manyhelpinghands.org",
-    "fallback_urls": [],
-    "phone": "469-730-6206",
-    "email": "info@manyhelpinghands.org",
-    "notes": "Changing the lives of Irving Homeless, by providing basic services and safe spaces with dignity, hope, and love. \nMany Helping Hands has been serving th...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/many-helping-hands-ministry",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -2114,140 +1210,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "boomerang_cares",
-    "ntgd_slug": "Boomerang-Cares-Foundation",
-    "name": "Boomerang Cares",
-    "city": "MCKINNEY",
-    "state": "TX",
-    "postal": "75069",
-    "ein": "88-3863962",
-    "county": "Collin",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Community Improvement",
-    "volunteer_url": "https://boomerangcares.org",
-    "fallback_urls": [],
-    "phone": null,
-    "email": "info@boomerangcares.org",
-    "notes": "It all began with a compassionate heart and a simple act of kindness—giving toys to children who might otherwise miss out on the magic of the holidays. I...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Boomerang-Cares-Foundation",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "sharing_life_community_outreach_inc",
-    "ntgd_slug": "sharing-life-community-outreach-inc",
-    "name": "SHARING LIFE COMMUNITY OUTREACH, INC.",
-    "city": "W Emporium Circle Mesquite",
-    "state": "TX",
-    "postal": "75150",
-    "ein": "75-2831756",
-    "county": "Dallas, Kaufman, Rockwall",
-    "cause": [
-      "food_security"
-    ],
-    "cause_raw": "Hunger & Food Access",
-    "volunteer_url": "http://sharing.life",
-    "fallback_urls": [],
-    "phone": "972-279-6200",
-    "email": "Giving@Sharing.Life",
-    "notes": "Who we are\nSince 1999, Sharing Life has been a steady hand for families in crisis. What began as a small food pantry has grown into a comprehensive nonpro...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/sharing-life-community-outreach-inc",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "vogel_where_children_soar",
-    "ntgd_slug": "Vogel",
-    "name": "Vogel | Where Children Soar",
-    "city": "Gano Street Dallas",
-    "state": "TX",
-    "postal": "75315",
-    "ein": "75-2133827",
-    "county": "Collin, Dallas",
-    "cause": [
-      "education"
-    ],
-    "cause_raw": "Education - Early Childhood",
-    "volunteer_url": "https://vogelalcove.org",
-    "fallback_urls": [],
-    "phone": "214-368-8686",
-    "email": "info@vogelalcove.org",
-    "notes": "What Makes Vogel Different\nVogel's mission is to help young children and their families prevent & overcome the traumatic effects of homelessness and pover...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Vogel",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "the_samaritan_inn",
-    "ntgd_slug": "the-samaritan-inn",
-    "name": "The Samaritan Inn",
-    "city": "North McDonald Street McKinney",
-    "state": "TX",
-    "postal": "75071",
-    "ein": "75-1984285",
-    "county": "Collin, Dallas, Grayson, Denton, Fannin, Hunt, Wise, Tarrant, Somervell, Rockwall, Parker, Palo Pinto, Navarro, Montague, Kaufman, Johnson, Hood, Erath, Ellis, Cooke",
-    "cause": [
-      "animals",
-      "food_security",
-      "housing"
-    ],
-    "cause_raw": "Housing, Shelter & Homelessness, Hunger & Food Access, Animals",
-    "volunteer_url": "https://www.SamInn.org",
-    "fallback_urls": [],
-    "phone": "972-542-5302",
-    "email": "marketing@saminn.org",
-    "notes": "About The Samaritan Inn\nWe provide a transitional home for our residents where all of their basic needs are met so that they can focus on obtaining gainfu...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/the-samaritan-inn",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "dallas_meditation_center",
-    "ntgd_slug": "Dallas-Meditation-Center",
-    "name": "Dallas Meditation Center",
-    "city": "Richardson",
-    "state": "TX",
-    "postal": "75083",
-    "ein": "46-3512018",
-    "county": "Collin, Dallas, Denton, Rockwall, Tarrant",
-    "cause": [
-      "arts"
-    ],
-    "cause_raw": "Arts & Humanities",
-    "volunteer_url": "http://www.dallasmeditationcenter.com",
-    "fallback_urls": [],
-    "phone": "972-432-7871",
-    "email": "info@dallasmeditationcenter.com",
-    "notes": "At the Dallas Meditation Center, we envision a North Texas community where every individual experiences peace, joy, compassion, creativity, and well-being....",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Dallas-Meditation-Center",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "feed_my_starving_children",
-    "ntgd_slug": "Fmsc",
-    "name": "Feed My Starving Children",
-    "city": "Richardson",
-    "state": "TX",
-    "postal": "75081",
-    "ein": "41-1601449",
-    "county": "Collin, Dallas",
-    "cause": [
-      "food_security"
-    ],
-    "cause_raw": "Hunger & Food Access",
-    "volunteer_url": "https://www.fmsc.org/",
-    "fallback_urls": [],
-    "phone": "214-453-5480",
-    "email": "info@fmsc.org",
-    "notes": "Charity Navigator 4-star rating for 20 years  | 88% of donations go straight to meal production\n\nHunger is rising. Hope can too. \nFeed My Starving Childre...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Fmsc",
-    "active": true,
-    "already_in_orgs_json": true
-  },
-  {
     "id": "reading_partners",
     "ntgd_slug": "Reading-Partners-2",
     "name": "Reading Partners",
@@ -2266,28 +1228,6 @@
     "email": "contact.northtexas@readingpartners.org",
     "notes": "Donations generously matched by the Devereaux Family Foundation \nReading Partners believes in the power of reading to spark learning, curiosity, empathy, ...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Reading-Partners-2",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "allie_s_haven_animal_rescue",
-    "ntgd_slug": "allies-haven-animal-rescue-inc",
-    "name": "Allie's Haven Animal Rescue",
-    "city": "Fort Worth",
-    "state": "TX",
-    "postal": "76108",
-    "ein": "47-2153829",
-    "county": "Tarrant, Johnson, Parker, Hood, Palo Pinto, Wise",
-    "cause": [
-      "animals"
-    ],
-    "cause_raw": "Animals",
-    "volunteer_url": "http://www.allieshaven.org",
-    "fallback_urls": [],
-    "phone": "817-229-0995",
-    "email": "info@allieshaven.org",
-    "notes": "Allie's Haven Animal Rescue is a non-profit, all-volunteer animal welfare organization that works tirelessly to help end animal abandonment, neglect and...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/allies-haven-animal-rescue-inc",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -2354,28 +1294,6 @@
     "email": "info@hagarsheart.org",
     "notes": "<span class=\"fr-mk\" style=\"display:none;\"> </span><span class=\"fr-mk\" style=\"display:none;\"> </span>\n\nThe Hagar's Heart Story\n...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Hagarsheart",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "tarrant_area_food_bank",
-    "ntgd_slug": "tafb",
-    "name": "Tarrant Area Food Bank",
-    "city": "Cullen Street Fort Worth",
-    "state": "TX",
-    "postal": "76107",
-    "ein": "75-1822473",
-    "county": "Cooke, Denton, Erath, Hood, Johnson, Palo Pinto, Parker, Somervell, Tarrant, Wise",
-    "cause": [
-      "food_security"
-    ],
-    "cause_raw": "Hunger & Food Access",
-    "volunteer_url": "http://www.tafb.org",
-    "fallback_urls": [],
-    "phone": "817-857-7100",
-    "email": "stephen.raeside@tafb.org",
-    "notes": "About Tarrant Area Food Bank\nTarrant Area Food Bank envisions a community where everyone has access to the food they need. Throughout our 13-county serv...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/tafb",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -2556,50 +1474,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "lumin_education",
-    "ntgd_slug": "lumin-education",
-    "name": "Lumin Education",
-    "city": "Lindsley Avenue Dallas",
-    "state": "TX",
-    "postal": "75223",
-    "ein": "75-1612054",
-    "county": "Dallas",
-    "cause": [
-      "education"
-    ],
-    "cause_raw": "Education - Early Childhood",
-    "volunteer_url": "http://www.lumineducation.org",
-    "fallback_urls": [],
-    "phone": "214-824-8950",
-    "email": "media@lumineducation.org",
-    "notes": "Lumin Education was founded in 1978 with the belief that all children can succeed in school and life when we “start young and involve parents.”\nFrom its h...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/lumin-education",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "friends_of_the_dallas_public_library",
-    "ntgd_slug": "supportdpl",
-    "name": "Friends of the Dallas Public Library",
-    "city": "th Floor Dallas",
-    "state": "TX",
-    "postal": "75201",
-    "ein": "75-2033106",
-    "county": "Collin, Dallas, Denton, Kaufman, Rockwall",
-    "cause": [
-      "education"
-    ],
-    "cause_raw": "Education - K-12",
-    "volunteer_url": "http://www.supportdpl.org",
-    "fallback_urls": [],
-    "phone": "214-670-1458",
-    "email": "friends@fodpl.org",
-    "notes": "Check Out Opportunity! Every gift opens doors across Dallas.\nThis year, we’re shining a spotlight on the incredible range of free programs Dallas Public L...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/supportdpl",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "black_tie_dinner_inc",
     "ntgd_slug": "black-tie-dinner-inc",
     "name": "Black Tie Dinner, Inc.",
@@ -2732,28 +1606,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "feonix_mobility_rising",
-    "ntgd_slug": "FeonixMobilityRising",
-    "name": "Feonix Mobility Rising",
-    "city": "Oak Cliff Dallas",
-    "state": "TX",
-    "postal": "75208",
-    "ein": "82-4842980",
-    "county": "Dallas",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Community Improvement",
-    "volunteer_url": "http://www.feonix.org",
-    "fallback_urls": [],
-    "phone": "833-653-6544",
-    "email": "support@feonix.org",
-    "notes": "Our VisionTo create mobility solutions for the health and well-being of every person in every community.We See Transportation as More Than Mere MovementAt...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/FeonixMobilityRising",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "asian_culture_and_education_society_usa",
     "ntgd_slug": "Acaesusa",
     "name": "Asian Culture and Education Society USA",
@@ -2773,50 +1625,6 @@
     "notes": "<span class=\"fr-mk\" style=\"display:none;\"> </span><span class=\"fr-mk\" style=\"display:none;\"> </span><span class=\"fr-mk\" style=\"...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Acaesusa",
     "active": false,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "my_possibilities",
-    "ntgd_slug": "mypossibilities",
-    "name": "My Possibilities",
-    "city": "Mapleshade Lane Plano",
-    "state": "TX",
-    "postal": "75075",
-    "ein": "26-1509133",
-    "county": "Collin, Cooke, Dallas, Denton, Fannin, Grayson, Kaufman, Rockwall, Tarrant",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Intellectual, Developmental, and Physical Differences",
-    "volunteer_url": "http://www.mypossibilities.org/",
-    "fallback_urls": [],
-    "phone": "469-241-9100",
-    "email": "hwackett@mptx.org",
-    "notes": "My Possibilities is the first full-day, year-long continuing education and job placement program in North Texas, aimed to give adults with Intellectual and...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/mypossibilities",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "river_legacy_foundation",
-    "ntgd_slug": "riverlegacyfoundation",
-    "name": "River Legacy Foundation",
-    "city": "NW Green Oaks Blvd. Arlington",
-    "state": "TX",
-    "postal": "76006",
-    "ein": "75-2215558",
-    "county": "Collin, Dallas, Ellis, Tarrant",
-    "cause": [
-      "education"
-    ],
-    "cause_raw": "Education - STEM",
-    "volunteer_url": "https://riverlegacy.org/",
-    "fallback_urls": [],
-    "phone": "817-860-6752",
-    "email": "reply@riverlegacy.org",
-    "notes": "This year, River Legacy nature Center is celebrating 30 years of DISCOVERY, WONDER and WILDLIFE CARE. \nThis year, River Legacy Nature Center turns 30 - a...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/riverlegacyfoundation",
-    "active": true,
     "already_in_orgs_json": false
   },
   {
@@ -2864,28 +1672,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "greater_denton_arts_council",
-    "ntgd_slug": "GDAC",
-    "name": "Greater Denton Arts Council",
-    "city": "E. Hickory St. Denton",
-    "state": "TX",
-    "postal": "76201",
-    "ein": "75-1326458",
-    "county": "Denton",
-    "cause": [
-      "arts"
-    ],
-    "cause_raw": "Arts & Humanities",
-    "volunteer_url": "https://dentonarts.com/",
-    "fallback_urls": [],
-    "phone": "940-382-2787",
-    "email": "krissi.oden@dentonarts.com",
-    "notes": "The Greater Denton Arts Council has served the Denton Community for over 50 years supporting and providing a platform for all artistic mediums including...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/GDAC",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "stable_strides_farm",
     "ntgd_slug": "StableStridesFarm",
     "name": "Stable Strides Farm",
@@ -2908,28 +1694,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "texas_ramp_project",
-    "ntgd_slug": "texas-ramp-project-06f799df-1cd4-4230-a9c2-96d97a622a67",
-    "name": "Texas Ramp Project",
-    "city": "Richardson",
-    "state": "TX",
-    "postal": "75083",
-    "ein": "33-1139484",
-    "county": "Hunt, Wise, Tarrant, Somervell, Rockwall, Parker, Palo Pinto, Navarro, Montague, Kaufman, Johnson, Hood, Grayson, Fannin, Erath, Ellis, Denton, Dallas, Cooke, Collin",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Community Improvement",
-    "volunteer_url": "http://www.texasramps.org",
-    "fallback_urls": [],
-    "phone": "2145580339",
-    "email": "info@texasramps.org",
-    "notes": "Building Freedom and Restoring Independence right here in East TexasEvery day, simple steps can become impossible barriers.The Texas Ramp Project (TRP) is...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/texas-ramp-project-06f799df-1cd4-4230-a9c2-96d97a622a67",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "paw_4_the_foundation_inc",
     "ntgd_slug": "Paw4TheFoundation",
     "name": "Paw 4 the Foundation Inc",
@@ -2948,28 +1712,6 @@
     "email": "Help@paw4thefoundation.org",
     "notes": "Project Equine Safety – Program Description\nProject Equine Safety focuses on ensuring the highest standards of care, safety, and emergency response for bo...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Paw4TheFoundation",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "aauw_tarrant_county_branch",
-    "ntgd_slug": "aauw-tarrant-county-branch",
-    "name": "AAUW Tarrant County Branch",
-    "city": "Fort Worth",
-    "state": "TX",
-    "postal": "76147",
-    "ein": "75-1510954",
-    "county": "Tarrant",
-    "cause": [
-      "education"
-    ],
-    "cause_raw": "Education - Higher Ed",
-    "volunteer_url": "https://tarrantcounty-tx.aauw.net/",
-    "fallback_urls": [],
-    "phone": "713-306-8551",
-    "email": "jccenkus@aol.com",
-    "notes": "AAUW TARRANT COUNTY BRANCH HISTORY\n\n\nWe are celebrating our 54th year of meeting the needs of women and girls this year! Founded in 1971, with Kathryn Bry...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/aauw-tarrant-county-branch",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -3014,50 +1756,6 @@
     "email": "bshumate@habitatcctc.org",
     "notes": "Passion\nHabitat for Humanity of Collin County's passion is homeowners. People with a dream willing to do what it takes to have a safe, affordable, and de...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/HabitatforHumanityofCollinCounty",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "keep_garland_beautiful",
-    "ntgd_slug": "Keep-Garland-Beautiful",
-    "name": "Keep Garland Beautiful",
-    "city": "Drawbridge Lane Garland",
-    "state": "TX",
-    "postal": "75044",
-    "ein": "27-0237524",
-    "county": "Dallas",
-    "cause": [
-      "environment"
-    ],
-    "cause_raw": "Environment & Conservation",
-    "volunteer_url": "http://keepgarlandbeautiful.com",
-    "fallback_urls": [],
-    "phone": "19725302412",
-    "email": "rcollins20@verizon.net",
-    "notes": "Keep Garland Beautiful invites individuals and service groups to work with us in our city with litter cleanup events, beautification projects, and our...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Keep-Garland-Beautiful",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "be_an_angel_fund_dallas_fort_worth",
-    "ntgd_slug": "Be-An-Angel-Fund-Dallas-Fort-Worth",
-    "name": "Be an Angel Fund Dallas-Fort Worth",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75379",
-    "ein": null,
-    "county": "Hunt, Wise, Tarrant, Somervell, Rockwall, Parker, Palo Pinto, Navarro, Montague, Kaufman, Johnson, Hood, Grayson, Fannin, Erath, Ellis, Denton, Dallas, Cooke, Collin",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Intellectual, Developmental, and Physical Differences",
-    "volunteer_url": "https://beanangel.org/dfw/",
-    "fallback_urls": [],
-    "phone": "940-867-3359",
-    "email": "DFWAngel@beanangel.org",
-    "notes": "Be An Angel DFW is so grateful for your support.  Below you will find what your donations will do for DFW area special needs children through our programs:...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Be-An-Angel-Fund-Dallas-Fort-Worth",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -3172,73 +1870,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "first_street_methodist_mission",
-    "ntgd_slug": "Firststreetmission",
-    "name": "First Street Methodist Mission",
-    "city": "st Street Fort Worth",
-    "state": "TX",
-    "postal": "76102",
-    "ein": "56-2570858",
-    "county": "Tarrant",
-    "cause": [
-      "food_security",
-      "housing"
-    ],
-    "cause_raw": "Housing, Shelter & Homelessness, Hunger & Food Access, Economic/Financial Security/Poverty",
-    "volunteer_url": "http://www.fumcfw.org/mission",
-    "fallback_urls": [],
-    "phone": "817-335-6080",
-    "email": "questions@firststreetmission.org",
-    "notes": "About Us\nAt First Street Mission, our volunteers and staff build relationships with neighbors facing food insecurity, housing instability, or homelessness...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Firststreetmission",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "ashton_johnson_memorial_clouddancer_scholarship",
-    "ntgd_slug": "Ashton-Johnson-Memorial-Clouddancer-Scholarship",
-    "name": "Ashton Johnson Memorial CloudDancer Scholarship",
-    "city": "RUSSELL RD WILLOW PARK",
-    "state": "TX",
-    "postal": "76087",
-    "ein": "87-3432788",
-    "county": "Wise, Tarrant, Somervell, Rockwall, Parker, Palo Pinto, Navarro, Montague, Kaufman, Johnson, Hunt, Hood, Grayson, Fannin, Erath, Ellis, Denton, Dallas, Cooke, Collin",
-    "cause": [
-      "veterans"
-    ],
-    "cause_raw": "Veterans",
-    "volunteer_url": "https://clouddancerscholarship.org/",
-    "fallback_urls": [],
-    "phone": null,
-    "email": "Info@clouddancerscholarship.org",
-    "notes": "The Ashton Johnson Memorial CloudDancer Scholarship is raising funds to support our mission to help Veterans' attain their dream of becoming pilots. We...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Ashton-Johnson-Memorial-Clouddancer-Scholarship",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "preservation_society_for_spring_creek_forest",
-    "ntgd_slug": "Preservation-Society-Of-Spring-Creek-Forest",
-    "name": "Preservation Society for Spring Creek Forest",
-    "city": "GARLAND",
-    "state": "TX",
-    "postal": "75045",
-    "ein": "75-2399051",
-    "county": "Dallas",
-    "cause": [
-      "environment"
-    ],
-    "cause_raw": "Environment & Conservation",
-    "volunteer_url": "https://springcreekforest.org/volunteer/",
-    "fallback_urls": [],
-    "phone": null,
-    "email": "springcreekforestpreservation@gmail.com",
-    "notes": "The Society is an all-volunteer group dedicated to protecting and maintaining the Spring Creek Forest in Garland. The Society was formed in 1989 by an...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Preservation-Society-Of-Spring-Creek-Forest",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "flamenco_fever",
     "ntgd_slug": "Flamenco-Fever",
     "name": "Flamenco Fever",
@@ -3261,28 +1892,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "irving_cares",
-    "ntgd_slug": "IrvingCares",
-    "name": "Irving Cares",
-    "city": "Irving",
-    "state": "TX",
-    "postal": "75060",
-    "ein": "75-1436937",
-    "county": "Dallas",
-    "cause": [
-      "food_security"
-    ],
-    "cause_raw": "Hunger & Food Access",
-    "volunteer_url": "http://www.irvingcares.org",
-    "fallback_urls": [],
-    "phone": "972-721-9181",
-    "email": "icares@irvingcares.org",
-    "notes": "Irving Cares provides a lifeline to Irving families experiencing a financial crisis. We meet Irving resident's needs through three programs: ...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/IrvingCares",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "opening_doors_for_women_in_need_inc",
     "ntgd_slug": "opening-doors-for-women-in-need-inc",
     "name": "Opening Doors for Women in Need, Inc.",
@@ -3301,50 +1910,6 @@
     "email": "info@opendoors4women.org",
     "notes": "At Opening Doors for Women In Need, we facilitate a tailored reentry program that helps women navigate successfully through the integration process of...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/opening-doors-for-women-in-need-inc",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "hearts_for_homes",
-    "ntgd_slug": "Hearts-For-Homes",
-    "name": "Hearts for Homes",
-    "city": "E. McKinney Street Denton",
-    "state": "TX",
-    "postal": "76209",
-    "ein": "20-4637974",
-    "county": "Denton",
-    "cause": [
-      "seniors"
-    ],
-    "cause_raw": "Seniors",
-    "volunteer_url": "http://heartsforhomes.org",
-    "fallback_urls": [],
-    "phone": "940-891-0947",
-    "email": "info@heartsforhomes.org",
-    "notes": "“It wouldn't be safe to live in my home because I wouldn't be able to do all that y'all done,\" shared Barbara (widow, age 85) after her tub to shower co...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Hearts-For-Homes",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "frisco_threads_student_clothes_closet",
-    "ntgd_slug": "Friscothreads",
-    "name": "Frisco Threads Student Clothes Closet",
-    "city": "Hickory St FRISCO",
-    "state": "TX",
-    "postal": "75034",
-    "ein": "75-2942145",
-    "county": "Collin, Denton",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Social Services",
-    "volunteer_url": "https://www.friscopta.org/frisco-threads.html",
-    "fallback_urls": [],
-    "phone": "214 4973391",
-    "email": "friscothreads_partners@friscopta.org",
-    "notes": "In the United States, an estimated two out of every five children experience clothing insecurity, meaning they lack access to adequate, appropriate, or af...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Friscothreads",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -3393,28 +1958,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "fort_worth_abandoned_animal_alliance",
-    "ntgd_slug": "FWAbandonedAnimalAlliance",
-    "name": "Fort Worth Abandoned Animal Alliance",
-    "city": "Stewart Lane Benbrook",
-    "state": "TX",
-    "postal": "76126",
-    "ein": "82-5269957",
-    "county": "Collin, Dallas, Denton, Erath, Grayson, Hood, Hunt, Johnson, Palo Pinto, Parker, Tarrant",
-    "cause": [
-      "animals"
-    ],
-    "cause_raw": "Animals",
-    "volunteer_url": "http://www.fwabandoned.org",
-    "fallback_urls": [],
-    "phone": "817-657-6139",
-    "email": "rescue@fwabandoned.org",
-    "notes": "...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/FWAbandonedAnimalAlliance",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "next_steps_the_colony",
     "ntgd_slug": "Nextstepsthecolony",
     "name": "Next Steps The Colony",
@@ -3433,28 +1976,6 @@
     "email": "pam@nextstepstc.org",
     "notes": "Next Steps The Colony is a community-focused organization dedicated to empowering individuals and families to overcome obstacles and achieve their full...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Nextstepsthecolony",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "the_storehouse_community_center",
-    "ntgd_slug": "thestorehousecc",
-    "name": "The Storehouse Community Center",
-    "city": "Mira Vista Boulevard Plano",
-    "state": "TX",
-    "postal": "75093",
-    "ein": "27-1883333",
-    "county": "Collin, Dallas, Denton",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Economic/Financial Security/Poverty",
-    "volunteer_url": "http://www.thestorehousecc.org",
-    "fallback_urls": [],
-    "phone": "469-385-1813",
-    "email": "info@thestorehousecc.org",
-    "notes": "As Neighbors in ONE Community.\nSince 2009, The Storehouse Community Center has fed, clothed, and cared for neighbors from across North Texas. We are a tru...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/thestorehousecc",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -3525,28 +2046,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "well_community",
-    "ntgd_slug": "Well-Community",
-    "name": "Well Community",
-    "city": "Sunset Ave. Dallas",
-    "state": "TX",
-    "postal": "75208",
-    "ein": "74-3071281",
-    "county": "Dallas",
-    "cause": [
-      "health"
-    ],
-    "cause_raw": "Mental and Behavioral Health",
-    "volunteer_url": "http://www.wellcommunity.org",
-    "fallback_urls": [],
-    "phone": "214-393-5878",
-    "email": "info@wellcommunity.org",
-    "notes": "The Well Community provides a place to belong for those who struggle with serious mental illness and seek acceptance, meaningful relationships and practic...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Well-Community",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "arm_dallas",
     "ntgd_slug": "Armdallas",
     "name": "ARM Dallas",
@@ -3565,28 +2064,6 @@
     "email": "director@armdallas.org",
     "notes": "Dear Friends and Supporters,\nAs we approach North Texas Giving Day, we're excited to share an important update about our mission at The Adult Rehabili...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Armdallas",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "grow_north_texas",
-    "ntgd_slug": "Grownorthtexas",
-    "name": "GROW North Texas",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75209",
-    "ein": "20-8043130",
-    "county": "Collin, Dallas, Denton, Kaufman, Rockwall, Tarrant",
-    "cause": [
-      "environment"
-    ],
-    "cause_raw": "Environment & Conservation",
-    "volunteer_url": "http://www.grownorthtexas.org",
-    "fallback_urls": [],
-    "phone": "214-702-6655",
-    "email": "susie@grownorthtexas.org",
-    "notes": "GROW North Texas works to connect North Texans to food, farms, and community, creating a sustainable food system that enriches the land, encourages econom...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Grownorthtexas",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -3631,50 +2108,6 @@
     "email": "ukrainianclubofdallas@gmail.com",
     "notes": "Ukrainian Cultural Club of Dallas (UCCD) was created primarily to support Ukrainian cultural events in DFW area. UCCD tightly cooperates with Zorya...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/UCCD",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "metro_relief_inc",
-    "ntgd_slug": "Metro-Relief",
-    "name": "Metro Relief Inc.",
-    "city": "The Colony",
-    "state": "TX",
-    "postal": "75056",
-    "ein": "45-2389719",
-    "county": "Collin, Dallas, Denton, Tarrant, Wise",
-    "cause": [
-      "housing"
-    ],
-    "cause_raw": "Housing, Shelter & Homelessness",
-    "volunteer_url": "http://www.metrorelief.org",
-    "fallback_urls": [],
-    "phone": "214-705-3555",
-    "email": "info@metrorelief.org",
-    "notes": "METRO RELIEF - a DCEO Nonprofit Team of the Year 2025 and \"a best in class homeless rescue and provision agency with platinum level financial accountabili...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Metro-Relief",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "the_main_place",
-    "ntgd_slug": "the-main-place",
-    "name": "The Main Place",
-    "city": "West Fifth Steet Irving",
-    "state": "TX",
-    "postal": "75060",
-    "ein": "45-4289421",
-    "county": "Dallas",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Social Services",
-    "volunteer_url": "http://www.TheMainPlaceIrving.org",
-    "fallback_urls": [],
-    "phone": "972-252-4082",
-    "email": "info2@themainplaceirving.org",
-    "notes": "At The Main Place, every hanger holds more than clothing—it holds hope, dignity, and a fresh start.\nWhat makes us unique isn't just that we provide new an...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/the-main-place",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -3922,28 +2355,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "poiema_foundation",
-    "ntgd_slug": "Poiema-Foundation",
-    "name": "Poiema Foundation",
-    "city": "Rockwall",
-    "state": "TX",
-    "postal": "75087",
-    "ein": "46-4133090",
-    "county": "Collin, Dallas, Denton, Ellis, Hunt, Kaufman, Rockwall, Tarrant",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Human Trafficking & Exploitation",
-    "volunteer_url": "http://www.poiemafoundation.org/",
-    "fallback_urls": [],
-    "phone": "469-757-8888",
-    "email": "bobby@poiemafoundation.org",
-    "notes": "<span class=\"fr-mk\" style=\"display:none;\"> </span><span class=\"fr-mk\" style=\"display:none;\"> </span><span class=\"fr-mk\" style=...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Poiema-Foundation",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "be_well_kids_foundation",
     "ntgd_slug": "Be-Well-Kids-Foundation",
     "name": "Be Well Kids Foundation",
@@ -4076,94 +2487,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "cancer_care_services",
-    "ntgd_slug": "Cancer-Care-Services",
-    "name": "Cancer Care Services",
-    "city": "S. Henderson Street Fort Worth",
-    "state": "TX",
-    "postal": "76104",
-    "ein": "75-1025511",
-    "county": "Tarrant",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Social Services",
-    "volunteer_url": "http://cancercareservices.org",
-    "fallback_urls": [],
-    "phone": "817-921-0653",
-    "email": "info@cancercareservices.org",
-    "notes": "At Cancer Care Services, we provide free cancer support services to everyone in Tarrant County. We walk with cancer patients, caregivers, and survivors ...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Cancer-Care-Services",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "dallas_hope_charities",
-    "ntgd_slug": "Dallas-Hope-Charities",
-    "name": "Dallas Hope Charities",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75219",
-    "ein": "81-2568424",
-    "county": "Dallas",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "LGBTQIA",
-    "volunteer_url": "https://www.dallashopecharities.org",
-    "fallback_urls": [],
-    "phone": "214-301-9407",
-    "email": "hope@dallashopecharities.org",
-    "notes": "Dallas Hope Charities (DHC) is a nonprofit organization dedicated to serving the Dallas community, with a primary focus on homeless and at-risk LGBTQIA+ y...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Dallas-Hope-Charities",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "stronger_women",
-    "ntgd_slug": "strongerwomen",
-    "name": "Stronger Women",
-    "city": "McKinney",
-    "state": "TX",
-    "postal": "75071",
-    "ein": "46-3994628",
-    "county": "Hood, Wise, Tarrant, Somervell, Rockwall, Parker, Palo Pinto, Navarro, Montague, Kaufman, Johnson, Hunt, Grayson, Fannin, Erath, Ellis, Denton, Dallas, Cooke, Collin",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Domestic/Family Violence & Advocacy",
-    "volunteer_url": "http://www.strongerwomen.com",
-    "fallback_urls": [],
-    "phone": "214 708 7085",
-    "email": "brooke@strongerwomen.com",
-    "notes": "Since 2013 Stronger has worked to multiply impact and now has over 60 active certified facilitators leading healing groups for survivors in North and East...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/strongerwomen",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "fort_worth_pregnancy_center",
-    "ntgd_slug": "fort-worth-pregnancy-center",
-    "name": "Fort Worth Pregnancy Center",
-    "city": "Fort Worth",
-    "state": "TX",
-    "postal": "76110",
-    "ein": "75-2548774",
-    "county": "Tarrant",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Women & Girls",
-    "volunteer_url": "http://www.fwpcfriends.org/",
-    "fallback_urls": [],
-    "phone": "817-924-9110",
-    "email": "supportlife@fwpc.org",
-    "notes": "All NTX Giving Day gifts up to $30,000 will be doubled by a matching grant from a generous donor! FWPC exists to help new moms and dads facing an unplanne...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/fort-worth-pregnancy-center",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "hope_s_gate",
     "ntgd_slug": "Hopesgate",
     "name": "Hope's Gate",
@@ -4252,50 +2575,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "foundation_communities",
-    "ntgd_slug": "NTXFoundationCommunities",
-    "name": "Foundation Communities",
-    "city": "Swiss Ave. Dallas",
-    "state": "TX",
-    "postal": "75204",
-    "ein": "74-2563260",
-    "county": "Dallas, Denton, Tarrant",
-    "cause": [
-      "housing"
-    ],
-    "cause_raw": "Housing, Shelter & Homelessness",
-    "volunteer_url": "http://www.foundcom.org",
-    "fallback_urls": [],
-    "phone": "817-461-3936",
-    "email": "lynnette.barton@foundcom.org",
-    "notes": "In North Texas, Foundation Communities owns and operates three affordable housing communities that also provide no-cost, onsite services for residents inc...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/NTXFoundationCommunities",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "big_brothers_big_sisters_lone_star",
-    "ntgd_slug": "Bbbslonestar",
-    "name": "BIG BROTHERS BIG SISTERS LONE STAR",
-    "city": "LBJ freeway Dallas",
-    "state": "TX",
-    "postal": "75244",
-    "ein": "75-0800632",
-    "county": "Collin, Dallas, Denton, Ellis, Rockwall, Tarrant",
-    "cause": [
-      "children"
-    ],
-    "cause_raw": "Youth & Children",
-    "volunteer_url": "https://bbbstx.org/",
-    "fallback_urls": [],
-    "phone": "888-887-2447",
-    "email": "info@bbbstx.org",
-    "notes": "https://bbbstx.org/\n\n\n\n...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Bbbslonestar",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "aspasians",
     "ntgd_slug": "Aspasians",
     "name": "Aspasians",
@@ -4336,28 +2615,6 @@
     "email": "jocotxhunger@gmail.com",
     "notes": null,
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Johnson-County-Texas-Hunger-Coalition",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "john_bunker_sands_wetland_center",
-    "ntgd_slug": "John-Bunker-Sands-Wetland-Center",
-    "name": "John Bunker Sands Wetland Center",
-    "city": "Martin Lane Seagoville",
-    "state": "TX",
-    "postal": "75159",
-    "ein": "27-0712564",
-    "county": "Collin, Dallas, Ellis, Johnson, Kaufman, Rockwall, Tarrant",
-    "cause": [
-      "education"
-    ],
-    "cause_raw": "Education - STEM",
-    "volunteer_url": "http://www.wetlandcenter.com",
-    "fallback_urls": [],
-    "phone": "972-474-9100",
-    "email": "contact@wetlandcenter.com",
-    "notes": "Set amid a former working cattle ranch and an expansive wetland on the East Fork of the Trinity River, the John Bunker Sands Wetland Center is a nature ce...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/John-Bunker-Sands-Wetland-Center",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -4428,28 +2685,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "happy_furever",
-    "ntgd_slug": "Paws-And-Purrs",
-    "name": "Happy FurEver",
-    "city": "Element Ave. Plano",
-    "state": "TX",
-    "postal": "75024",
-    "ein": null,
-    "county": "Denton",
-    "cause": [
-      "animals"
-    ],
-    "cause_raw": "Animals",
-    "volunteer_url": "http://www.happyfurever.org",
-    "fallback_urls": [],
-    "phone": "945 308 0000",
-    "email": "carlhill@happyfurever.org",
-    "notes": "🐾 URGENT: Help Us Save North Texas Dogs from Euthanasia!\n \nEvery day, countless dogs across North Texas face needless euthanasia. Happy Fur Ever is fighti...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Paws-And-Purrs",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "kuluntu_bakery",
     "ntgd_slug": "Kuluntu-Bakery",
     "name": "Kuluntu Bakery",
@@ -4490,28 +2725,6 @@
     "email": "info@switchtheworld.org",
     "notes": "Thank YOU for the $10k raised in 2024! \nYOU enabled us to tap into an additonal $263k to offer 23 fully funded scholarships to unemployed and underemploye...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Kosmos-Arts-And-Tech",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "tlt_tomorrow_s_leaders_today_inc",
-    "ntgd_slug": "TLTLeaders",
-    "name": "TLT-Tomorrow's Leaders Today, Inc.",
-    "city": "Frisco",
-    "state": "TX",
-    "postal": "75035",
-    "ein": "84-3142901",
-    "county": "Dallas, Collin, Denton, Tarrant, Grayson, Rockwall, Parker, Wise, Cooke, Somervell, Palo Pinto, Navarro, Montague, Kaufman, Johnson, Hunt, Hood, Fannin, Erath, Ellis",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Employment & Workforce Development",
-    "volunteer_url": "https://www.tltleaders.org/tlt-interns/",
-    "fallback_urls": [],
-    "phone": "214-226-5971",
-    "email": "Info@TLTLeaders.Org",
-    "notes": "TLT-Tomorrows Leaders Today (TLT) was founded in 2019. Based on current data provided by zipdatamaps and the free and reduced lunch program Texas data, 96...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/TLTLeaders",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -4582,28 +2795,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "design_connect_create",
-    "ntgd_slug": "Design-Connect-Create",
-    "name": "Design Connect Create",
-    "city": "Grand Prairie",
-    "state": "TX",
-    "postal": "75052",
-    "ein": "46-5169169",
-    "county": "Collin, Dallas, Tarrant",
-    "cause": [
-      "education"
-    ],
-    "cause_raw": "Education - STEM",
-    "volunteer_url": "https://designconnectcreate.org",
-    "fallback_urls": [],
-    "phone": "214-884-8117",
-    "email": "info@designconnectcreate.org",
-    "notes": "Design Connect Create (DCC) is a STEM nonprofit committed to empowering girls, grades 3rd to 12th grade, from low-income and marginalized communities in...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Design-Connect-Create",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "doodle_dandy_rescue",
     "ntgd_slug": "doodledandyrescue",
     "name": "Doodle Dandy Rescue",
@@ -4622,50 +2813,6 @@
     "email": "doodledandyrescue@gmail.com",
     "notes": "Who We AreDoodle Dandy Rescue is a 100% volunteer organization whose mission is to rescue Doodle Dogs in crisis. While we are based in the DFW area, we ha...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/doodledandyrescue",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "re_building_together_north_texas",
-    "ntgd_slug": "Rebuildingntx",
-    "name": "[Re]Building Together North Texas",
-    "city": "Plano",
-    "state": "TX",
-    "postal": "75025",
-    "ein": "04-3613194",
-    "county": "Collin, Dallas, Denton, Rockwall, Tarrant",
-    "cause": [
-      "housing"
-    ],
-    "cause_raw": "Housing, Shelter & Homelessness",
-    "volunteer_url": "https://rtntx.org/volunteermatch",
-    "fallback_urls": [],
-    "phone": "972-245-6900",
-    "email": "tia@rtntx.org",
-    "notes": "About Rebuilding Together NTXOur efforts assist seniors to age in place, veterans and first responders to live with dignity, and children to thrive in a...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Rebuildingntx",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "kayla_cares_4_kids",
-    "ntgd_slug": "Kayla-Cares-4-Kids",
-    "name": "Kayla Cares 4 Kids",
-    "city": "Frisco",
-    "state": "TX",
-    "postal": "75034",
-    "ein": "47-1050866",
-    "county": "Collin, Dallas, Denton, Grayson, Navarro, Rockwall, Tarrant",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Social Services",
-    "volunteer_url": "https://www.kaylacares4kids.org",
-    "fallback_urls": [],
-    "phone": "561-389-4648",
-    "email": "andrea@kaylacares4kids.org",
-    "notes": "Help Support Kayla Cares 4 Kids!\n\nSince 2013, Kayla Cares 4 Kids has supported chronically ill children to learn, play and grow, both in and out of the ho...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Kayla-Cares-4-Kids",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -4736,72 +2883,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "catch_up_read",
-    "ntgd_slug": "Catchupandread",
-    "name": "Catch Up & Read",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75251",
-    "ein": "45-3533496",
-    "county": "Dallas, Tarrant",
-    "cause": [
-      "education"
-    ],
-    "cause_raw": "Education - K-12",
-    "volunteer_url": "http://www.catchupandread.org",
-    "fallback_urls": [],
-    "phone": "469-206-7244",
-    "email": "david@catchupandread.org",
-    "notes": "Help us reach our YEAR-END GOAL of $100,000! Your support can help children to read! \nThanks to a Catch Up & Read Super Fan, all donations were matched up...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Catchupandread",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "weatherford_wags",
-    "ntgd_slug": "Weatherford-Wags",
-    "name": "Weatherford Wags",
-    "city": "WESTRIDGE TRL WEATHERFORD",
-    "state": "TX",
-    "postal": "76087",
-    "ein": "92-1008606",
-    "county": "Parker",
-    "cause": [
-      "animals"
-    ],
-    "cause_raw": "Animals",
-    "volunteer_url": "http://www.weatherfordwags.org",
-    "fallback_urls": [],
-    "phone": null,
-    "email": "hello@weatherfordwags.org",
-    "notes": "Our Start ... and Our Impact\nLeading with heart, saving with purpose.\nFounded in Nov 2022 with just $200 and a big dream, Weatherford Wags has grown into...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Weatherford-Wags",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "manna_house",
-    "ntgd_slug": "Manna-House-10",
-    "name": "Manna House",
-    "city": "Ste A Midlothian",
-    "state": "TX",
-    "postal": "76065",
-    "ein": "75-2442266",
-    "county": "Ellis",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Social Services",
-    "volunteer_url": "http://www.mannahouseoutreach.org",
-    "fallback_urls": [],
-    "phone": "972-775-1800",
-    "email": "Info@mannahouseoutreach.org",
-    "notes": "Our Needs\nManna House will use funding to continue feeding Senior Citizens, children and families through our pantry and a new mobile kitchen. Manna House...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Manna-House-10",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "scdr_second_chance_dog_rescue_mansfield",
     "ntgd_slug": "Scdr-1",
     "name": "SCDR (Second Chance Dog Rescue Mansfield)",
@@ -4868,28 +2949,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "dfw_rescue_me",
-    "ntgd_slug": "Dfw-Rescue-Me",
-    "name": "DFW Rescue Me",
-    "city": "Denton",
-    "state": "TX",
-    "postal": "76206",
-    "ein": "27-4646693",
-    "county": "Collin, Dallas, Denton, Kaufman, Rockwall, Tarrant",
-    "cause": [
-      "animals"
-    ],
-    "cause_raw": "Animals",
-    "volunteer_url": "http://dfwrescueme.org/",
-    "fallback_urls": [],
-    "phone": "940-465-4688",
-    "email": "jim@dfwrescueme.org",
-    "notes": "DFW Rescue Me is responsible for approximately 4,000 dogs finding their forever home. That's over 3,800 abandoned dogs that now have loving forever homes ...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Dfw-Rescue-Me",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "altrusa_dfw",
     "ntgd_slug": "Altrusa-International-Foundation-98",
     "name": "Altrusa DFW",
@@ -4912,72 +2971,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "hope_mommies_dallas_chapter",
-    "ntgd_slug": "hopemommiesdallas",
-    "name": "Hope Mommies Dallas Chapter",
-    "city": "o Cassie Mycoskie Princeton",
-    "state": "TX",
-    "postal": "75407",
-    "ein": "27-4945123",
-    "county": "Collin, Dallas, Grayson, Hunt, Kaufman, Rockwall",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Religion/Spiritual Focus",
-    "volunteer_url": "http://www.hopemommies.org",
-    "fallback_urls": [],
-    "phone": "225-788-4800",
-    "email": "dallas@hopemommies.org",
-    "notes": "We create a safe, Biblical community through our online forum, Hope (support) Groups, annual retreats, local gatherings, and support, and resources/minist...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/hopemommiesdallas",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "hope_restored_missions",
-    "ntgd_slug": "hoperestoredmissions",
-    "name": "Hope Restored Missions",
-    "city": "Plano",
-    "state": "TX",
-    "postal": "75074",
-    "ein": "84-2252859",
-    "county": "Collin, Dallas, Denton, Tarrant",
-    "cause": [
-      "housing"
-    ],
-    "cause_raw": "Housing, Shelter & Homelessness",
-    "volunteer_url": "http://www.hoperestoredmissions.org",
-    "fallback_urls": [],
-    "phone": "214-501-2181",
-    "email": "tamara.monroe@hoperestoredmissions.org",
-    "notes": "The homeless among us are equal members of humanity, and are worthy of love, respect, dignity and assistance in their journey to live a purposeful and...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/hoperestoredmissions",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "spark",
-    "ntgd_slug": "dallas-spark",
-    "name": "SPARK!",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75215",
-    "ein": "27-2797033",
-    "county": "Ellis, Wise, Tarrant, Rockwall, Kaufman, Johnson, Hunt, Hood, Erath, Denton, Dallas, Collin",
-    "cause": [
-      "arts"
-    ],
-    "cause_raw": "Arts & Humanities",
-    "volunteer_url": "http://www.sparkdallas.org",
-    "fallback_urls": [],
-    "phone": "214-421-7727",
-    "email": "info@sparkdallas.org",
-    "notes": "About SPARK!SPARK! is North Texas’ only fully immersive creative environment designed to ignite the boundless potential of young minds. Inside our...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/dallas-spark",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "north_texas_basset_hound_rescue_inc",
     "ntgd_slug": "No-Texas-Basset-Hound-Rescue-Inc",
     "name": "North Texas Basset Hound Rescue, Inc",
@@ -4996,50 +2989,6 @@
     "email": "bassetrescuedfw@gmail.com",
     "notes": "We take basset hounds from area shelters, allowing them to take in more animals. Typically, these bassets require some form of medical help that is...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/No-Texas-Basset-Hound-Rescue-Inc",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "undies_for_everyone",
-    "ntgd_slug": "undiesforeveryone",
-    "name": "Undies for Everyone",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75208",
-    "ein": "46-0640114",
-    "county": "Dallas, Tarrant",
-    "cause": [
-      "children"
-    ],
-    "cause_raw": "Youth & Children",
-    "volunteer_url": "http://www.undiesforeveryone.org",
-    "fallback_urls": [],
-    "phone": "713 3389 676",
-    "email": "info@undiesforeveryone.org",
-    "notes": "Undies for Everyone gives kids in crisis something small that makes a huge impact: a week’s worth of brand-new underwear. It might not be the first thing ...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/undiesforeveryone",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "bedford_public_library_foundation",
-    "ntgd_slug": "bedfordpubliclibrary",
-    "name": "Bedford Public Library Foundation",
-    "city": "Forest Ridge Drive Bedford",
-    "state": "TX",
-    "postal": "76021",
-    "ein": "27-0349377",
-    "county": "Tarrant",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Community Improvement",
-    "volunteer_url": "http://bedfordlibraryfoundation.org/",
-    "fallback_urls": [],
-    "phone": "817-952-2332",
-    "email": "bedfordlibraryfoundation@gmail.com",
-    "notes": "#NTXGivingDay\nNORTH TEXAS GIVING DAY                                                                                       \nThe Bedford Public Library Fou...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/bedfordpubliclibrary",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -5220,28 +3169,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "visiting_nurse_association_of_texas",
-    "ntgd_slug": "vna-meals-on-wheels-and-hospice-care",
-    "name": "Visiting Nurse Association of Texas",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75247",
-    "ein": "75-0800692",
-    "county": "Grayson, Wise, Tarrant, Rockwall, Navarro, Kaufman, Johnson, Hunt, Hood, Fannin, Ellis, Denton, Dallas, Cooke, Collin",
-    "cause": [
-      "seniors"
-    ],
-    "cause_raw": "Seniors",
-    "volunteer_url": "http://www.vnatexas.org",
-    "fallback_urls": [],
-    "phone": "214-689-2265",
-    "email": "jennifer.austin@vnatexas.org",
-    "notes": "You make so much possible for VNA and those we serve.\nYou make so much possible for VNA and the individuals and families we serve. Thanks to your support...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/vna-meals-on-wheels-and-hospice-care",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "denton_county_mhmr_center_loss_team",
     "ntgd_slug": "dentontxloss",
     "name": "Denton County MHMR Center - LOSS Team",
@@ -5286,28 +3213,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "together_we_thrive",
-    "ntgd_slug": "Together-We-Thrive",
-    "name": "Together We Thrive",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75240",
-    "ein": "83-2951879",
-    "county": "Collin, Dallas",
-    "cause": [
-      "children"
-    ],
-    "cause_raw": "Youth & Children",
-    "volunteer_url": "http://www.togetherwethrivetexas.org",
-    "fallback_urls": [],
-    "phone": "972-591-3738",
-    "email": "traceyhardwick@me.com",
-    "notes": "Our Mission and Vision\nTogether We Thrive exists to champion the potential of every youth in North Texas who has been unjustly labeled or overlooked. Thro...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Together-We-Thrive",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "parkinson_s_foundation",
     "ntgd_slug": "parkinson-foundation",
     "name": "Parkinson's Foundation",
@@ -5326,28 +3231,6 @@
     "email": "wrobinson@parkinson.org",
     "notes": "The Parkinson's Foundation is the nation's leading community for people living with Parkinson's, those who love them and those who are working to end the...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/parkinson-foundation",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "our_daily_bread_denton",
-    "ntgd_slug": "our-daily-bread-together-with-monsignor-king",
-    "name": "Our Daily Bread Denton",
-    "city": "Denton",
-    "state": "TX",
-    "postal": "76209",
-    "ein": "61-1698166",
-    "county": "Denton",
-    "cause": [
-      "housing"
-    ],
-    "cause_raw": "Housing, Shelter & Homelessness",
-    "volunteer_url": "http://www.ourdailybreaddenton.org",
-    "fallback_urls": [],
-    "phone": "940-566-1308",
-    "email": "info@ourdailybreaddenton.org",
-    "notes": "DOUBLE YOUR IMPACT!\nYour gift will be doubled! A generous donor is matching every donation up to $25,000 during North Texas Giving Day.\n<span class=\"fr...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/our-daily-bread-together-with-monsignor-king",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -5374,72 +3257,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "st_philip_s_school_and_community_center",
-    "ntgd_slug": "St-Philips-School-And-Community-Center",
-    "name": "St. Philip's School and Community Center",
-    "city": "PENNSYLVANIA AVENUE Dallas",
-    "state": "TX",
-    "postal": "75215",
-    "ein": "75-1097360",
-    "county": "Dallas",
-    "cause": [
-      "education"
-    ],
-    "cause_raw": "Education - K-12",
-    "volunteer_url": "https://www.stphilips1600.org/",
-    "fallback_urls": [],
-    "phone": "214-421-5221",
-    "email": "philanthropy@stphilips.com",
-    "notes": "Our Needs\nSt. Philip's serves over 7,900 children, youth, and elderly adults annually. As a dynamic School AND Community Center, St. Philip's has 5 key ar...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/St-Philips-School-And-Community-Center",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "creative_arts_center",
-    "ntgd_slug": "Bonhamcreativeartscenter",
-    "name": "Creative Arts Center",
-    "city": "th St Bonham",
-    "state": "TX",
-    "postal": "75418",
-    "ein": null,
-    "county": "Fannin",
-    "cause": [
-      "arts"
-    ],
-    "cause_raw": "Arts & Humanities",
-    "volunteer_url": "http://creativeartscenterbonham.org",
-    "fallback_urls": [],
-    "phone": "903-640-2196",
-    "email": "director@creativeartscenterbonham.org",
-    "notes": "The Creative Arts Center in Bonham is a nonprofit organization dedicated to supporting and promoting the arts in Fannin County. Our Center has an art...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Bonhamcreativeartscenter",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "songs_smiles",
-    "ntgd_slug": "Songsandsmiles",
-    "name": "Songs & Smiles",
-    "city": "GRAPEVINE",
-    "state": "TX",
-    "postal": "76051",
-    "ein": "84-4550884",
-    "county": "Collin, Dallas, Denton, Tarrant",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Social Services",
-    "volunteer_url": "https://www.songsandsmiles.com",
-    "fallback_urls": [],
-    "phone": "817-631-0569",
-    "email": "info@songsandsmiles.com",
-    "notes": "Your gift to Songs & Smiles will bring joy to people living with Alzheimer's.\nYour gift will directly impact families in North Texas, brining joy to peopl...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Songsandsmiles",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "a_twist_of_faith_outreach",
     "ntgd_slug": "A-Twist-Of-Faith-Outreach",
     "name": "A Twist of Faith Outreach",
@@ -5462,94 +3279,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "cynthia_mickens_ministries_inc",
-    "ntgd_slug": "cynthia-mickens-ministries-inc",
-    "name": "Cynthia Mickens Ministries, Inc.",
-    "city": "West Palestine Street Hutchins",
-    "state": "TX",
-    "postal": "75141",
-    "ein": "46-0496440",
-    "county": "Dallas",
-    "cause": [
-      "housing"
-    ],
-    "cause_raw": "Housing, Shelter & Homelessness",
-    "volunteer_url": "http://www.cynthiamickensministries.org",
-    "fallback_urls": [],
-    "phone": "888-419-0957",
-    "email": "CynthiaMickensRoss@gmail.com",
-    "notes": "Cynthia Mickens Ministries, Inc. (CMM) was founded in 2002 to \"provide the tools and resources to help individuals live the life they were created to live...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/cynthia-mickens-ministries-inc",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "interfaith_ministries_of_denton_inc",
-    "ntgd_slug": "interfaith-ministries-of-denton-inc",
-    "name": "Interfaith Ministries of Denton, Inc.",
-    "city": "N. Elm St. Denton",
-    "state": "TX",
-    "postal": "76201",
-    "ein": "75-2442459",
-    "county": "Denton",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Economic/Financial Security/Poverty",
-    "volunteer_url": "http://www.ifmdenton.org",
-    "fallback_urls": [],
-    "phone": "940-565-5479",
-    "email": "help@ifmdenton.org",
-    "notes": "Interfaith Ministries assisted over 3,000 people last year with supportive services to help prevent homelessness. Services include utility assistance, pre...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/interfaith-ministries-of-denton-inc",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "uptown_players",
-    "ntgd_slug": "Uptown-Players",
-    "name": "Uptown Players",
-    "city": "Motor Circle Dallas",
-    "state": "TX",
-    "postal": "75207",
-    "ein": "36-4591959",
-    "county": "Collin, Dallas, Denton, Ellis, Kaufman, Rockwall, Tarrant",
-    "cause": [
-      "arts"
-    ],
-    "cause_raw": "Arts & Humanities",
-    "volunteer_url": "http://www.uptownplayers.org",
-    "fallback_urls": [],
-    "phone": "214-219-2718",
-    "email": "boxoffice@uptownplayers.org",
-    "notes": "Since our founding in 2001, Uptown Players has become a leading regional theater in Texas, providing a platform for exploring themes such as relationships,...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Uptown-Players",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "save_the_bees_usa",
-    "ntgd_slug": "Save-The-Bees-Usa",
-    "name": "Save the Bees USA",
-    "city": "BRYNLEE JAMES LN VAN ALSTYNE",
-    "state": "TX",
-    "postal": "75495",
-    "ein": "93-3534683",
-    "county": "Tarrant, Somervell, Rockwall, Parker, Palo Pinto, Navarro, Montague, Kaufman, Johnson, Hunt, Hood, Grayson, Fannin, Erath, Ellis, Denton, Dallas, Cooke, Collin",
-    "cause": [
-      "education"
-    ],
-    "cause_raw": "Education - K-12",
-    "volunteer_url": "https://savethebeesusa.org",
-    "fallback_urls": [],
-    "phone": "970-658-8333",
-    "email": "buzzus@savethebeesusa.org",
-    "notes": "Save The Bees USA is a 501(c)(3) nonprofit founded in 2023 and based in Texas, dedicated to protecting and restoring bee populations through education, c...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Save-The-Bees-Usa",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "paws_in_the_city",
     "ntgd_slug": "paws-in-the-city",
     "name": "Paws in the City",
@@ -5568,50 +3297,6 @@
     "email": "info@pawsinthecity.org",
     "notes": null,
     "ntgd_url": "https://www.northtexasgivingday.org/organization/paws-in-the-city",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "frisco_family_services",
-    "ntgd_slug": "frisco-family-services",
-    "name": "Frisco Family Services",
-    "city": "Frisco",
-    "state": "TX",
-    "postal": "75034",
-    "ein": "75-2530888",
-    "county": "Collin, Dallas, Denton",
-    "cause": [
-      "food_security"
-    ],
-    "cause_raw": "Hunger & Food Access",
-    "volunteer_url": "http://friscofamilyservices.org/",
-    "fallback_urls": [],
-    "phone": "972-335-9495",
-    "email": "marketing@friscocenter.org",
-    "notes": "Frisco Family Services\nFor over 30 years, Frisco Family Services (FFS) has been a cornerstone of compassion and support in our community. We demonstrate c...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/frisco-family-services",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "sharing_the_love_foundation",
-    "ntgd_slug": "Sharing-The-Love-Foundation",
-    "name": "Sharing the Love Foundation",
-    "city": "Forney",
-    "state": "TX",
-    "postal": "75126",
-    "ein": "45-4809398",
-    "county": "Kaufman",
-    "cause": [
-      "children"
-    ],
-    "cause_raw": "Youth & Children",
-    "volunteer_url": "http://www.sharingthelove.org",
-    "fallback_urls": [],
-    "phone": "469-278-5755",
-    "email": "info@sharingthelove.org",
-    "notes": "At Sharing the Love Foundation, we believe in the power and promise of our youth. Guided by the belief that \"the youth are our future,\" we see it as both ...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Sharing-The-Love-Foundation",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -5660,28 +3345,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "lifepath_systems_foundation",
-    "ntgd_slug": "Lifepath-Systems-Foundation",
-    "name": "LifePath Systems Foundation",
-    "city": "Heritage Drive McKinney",
-    "state": "TX",
-    "postal": "75069",
-    "ein": "61-1644629",
-    "county": "Collin, Fannin, Grayson, Kaufman, Rockwall",
-    "cause": [
-      "health"
-    ],
-    "cause_raw": "Mental and Behavioral Health",
-    "volunteer_url": "http://www.lifepathfoundation.org",
-    "fallback_urls": [],
-    "phone": "469-215-3286",
-    "email": "kgaddy@lifepathsystems.org",
-    "notes": "LifePath Systems is Collin County's Behavioral Health and Intellectual and Developmental Disabilities authority, as well as, a provider of services. While...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Lifepath-Systems-Foundation",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "folds_of_honor_north_texas",
     "ntgd_slug": "foldsofhonor",
     "name": "Folds of Honor North Texas",
@@ -5726,28 +3389,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "fannin_county_family_crisis_center",
-    "ntgd_slug": "fannincountycrisiscenter",
-    "name": "Fannin County Family Crisis Center",
-    "city": "E Sam Rayburn Drive Bonham",
-    "state": "TX",
-    "postal": "75418",
-    "ein": "75-2680707",
-    "county": "Fannin",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Domestic/Family Violence & Advocacy",
-    "volunteer_url": "http://fccrisiscenter.org",
-    "fallback_urls": [],
-    "phone": "903-583-7694",
-    "email": "fcfcc@frontier.com",
-    "notes": "At Fannin County Family Crisis Center, we are committed to walking alongside survivors of domestic violence and sexual assault with compassion, dignity,...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/fannincountycrisiscenter",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "irving_heritage_society",
     "ntgd_slug": "Irvingheritagesociety",
     "name": "Irving Heritage Society",
@@ -5766,28 +3407,6 @@
     "email": "irvingheritage@gmail.com",
     "notes": "The Irving Heritage Society was founded in 1978 to maintain and preserve the Heritage House built in 1912. The Heritage House serves as a tour home for th...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Irvingheritagesociety",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "cindy_ramsey_center",
-    "ntgd_slug": "Cindyramseycenter",
-    "name": "Cindy Ramsey Center",
-    "city": "N. Riverside Dr. Fort Worth",
-    "state": "TX",
-    "postal": "76244",
-    "ein": "36-4842425",
-    "county": "Johnson, Parker, Tarrant, Wise",
-    "cause": [
-      "food_security"
-    ],
-    "cause_raw": "Hunger & Food Access",
-    "volunteer_url": "http://cindyramseycenter.org",
-    "fallback_urls": [],
-    "phone": "817 502 3885",
-    "email": "info@cindyramseycenter.org",
-    "notes": "Cindy Ramsey Center \nThe Cindy Ramsey Center is an IRS approved 501c3 charity located in Fort Worth that serves as a non profit community hub dedicated ...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Cindyramseycenter",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -5880,50 +3499,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "grief_loss_center_of_north_texas",
-    "ntgd_slug": "Grief-And-Loss-Center-Of-North-Texas",
-    "name": "Grief & Loss Center of North Texas",
-    "city": "Abrams Road Dallas",
-    "state": "TX",
-    "postal": "75214",
-    "ein": "45-1584986",
-    "county": "Collin, Dallas, Denton, Tarrant",
-    "cause": [
-      "health"
-    ],
-    "cause_raw": "Mental and Behavioral Health",
-    "volunteer_url": "http://www.mygriefandloss.org",
-    "fallback_urls": [],
-    "phone": "214-452-3105",
-    "email": "hope@mygriefandloss.org",
-    "notes": "We offer no cost grief support for preschoolers through senior adults. Over the past year, 75 children ages K - 18 have participated in grief support grou...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Grief-And-Loss-Center-Of-North-Texas",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "texas_trees_foundation",
-    "ntgd_slug": "Texas-Trees-Foundation",
-    "name": "Texas Trees Foundation",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75247",
-    "ein": "75-1886520",
-    "county": "Grayson, Wise, Tarrant, Somervell, Rockwall, Parker, Palo Pinto, Navarro, Montague, Kaufman, Johnson, Hunt, Hood, Fannin, Erath, Ellis, Denton, Dallas, Cooke, Collin",
-    "cause": [
-      "environment"
-    ],
-    "cause_raw": "Environment & Conservation",
-    "volunteer_url": "http://www.texastrees.org",
-    "fallback_urls": [],
-    "phone": "214-953-1184",
-    "email": "info@TexasTrees.org",
-    "notes": "WE ARE EXCITED TO ANNOUNCE THAT A GENEROUS ANNONYMOUS DONOR HAS OFFERED TO MATCH UP TO $10,000 IN DONATIONS RAISED THROUGH NORTH TEXAS GIVING DAY!\n\nNorth ...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Texas-Trees-Foundation",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "rays_of_light_where_special_children_shine",
     "ntgd_slug": "rays-of-light-where-special-children-shine",
     "name": "Rays of Light...Where Special Children SHINE!",
@@ -6012,50 +3587,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "new_day_arlington",
-    "ntgd_slug": "New-Day-11",
-    "name": "NEW DAY Arlington",
-    "city": "Arlington",
-    "state": "TX",
-    "postal": "76003",
-    "ein": "80-0789676",
-    "county": "Tarrant",
-    "cause": [
-      "food_security"
-    ],
-    "cause_raw": "Hunger & Food Access",
-    "volunteer_url": "https://www.newdayarlington.org/",
-    "fallback_urls": [],
-    "phone": "682-238-0338",
-    "email": "newdayarlington@gmail.com",
-    "notes": "NEW DAY provides weekend food bags for Arlington Independent School District (AISD) students who live in food-insufficient situations. NEW DAY works with...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/New-Day-11",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "southwestern_adventist_university",
-    "ntgd_slug": "Southwestern-Adventist-University",
-    "name": "Southwestern Adventist University",
-    "city": "W. Hillcrest Street",
-    "state": "TX",
-    "postal": "76059",
-    "ein": "75-0891465",
-    "county": "Johnson",
-    "cause": [
-      "education"
-    ],
-    "cause_raw": "Education - Higher Ed",
-    "volunteer_url": "http://www.swau.edu/",
-    "fallback_urls": [],
-    "phone": "817-202-6231",
-    "email": "advancement@swau.edu",
-    "notes": "Our Needs\nWe are celebrating a significant milestone in our institution’s history - the 50th Anniversary of the Nursing Program! This remarkable achieveme...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Southwestern-Adventist-University",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "ukirk_smu",
     "ntgd_slug": "ukirksmu",
     "name": "UKirk SMU",
@@ -6074,28 +3605,6 @@
     "email": "ukirksmu@gmail.com",
     "notes": "Presence changes everything. In college, questions of identity, belonging, and faith are never theoretical—they are lived every day. At UKirk SMU, student...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/ukirksmu",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "richardson_community_band",
-    "ntgd_slug": "Richardson-Community-Band",
-    "name": "Richardson Community Band",
-    "city": "Richardson",
-    "state": "TX",
-    "postal": "75083",
-    "ein": "75-1641172",
-    "county": "Collin, Dallas",
-    "cause": [
-      "arts"
-    ],
-    "cause_raw": "Arts & Humanities",
-    "volunteer_url": "http://www.richardsoncommunityband.org/",
-    "fallback_urls": [],
-    "phone": null,
-    "email": "info@richardsoncommunityband.org",
-    "notes": "Help us continue to make beautiful music for our community.\nThe RCB's season runs from September 1 through August 31 of the following year. The full year...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Richardson-Community-Band",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -6210,28 +3719,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "friends_of_rescue_animals",
-    "ntgd_slug": "Fras",
-    "name": "Friends of Rescue Animals",
-    "city": "Rowlett",
-    "state": "TX",
-    "postal": "75030",
-    "ein": "20-1606547",
-    "county": "Collin, Dallas, Rockwall",
-    "cause": [
-      "animals"
-    ],
-    "cause_raw": "Animals",
-    "volunteer_url": "http://frastx.org/",
-    "fallback_urls": [],
-    "phone": "972-591-7387",
-    "email": "info@frastx.org",
-    "notes": "Friends of Rescue Animals (FRAs) is more than just an animal welfare organization—we’re a movement of compassion in action. Founded in 2004 by four dedica...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Fras",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "our_productions_theatre_co",
     "ntgd_slug": "our-productions-theatre-co",
     "name": "Our Productions Theatre Co.",
@@ -6250,28 +3737,6 @@
     "email": "info@ourproductions.org",
     "notes": "An important part of the Our Productions Theatre Co.'s mission is the educational development of future artists. We have an excellent year round training ...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/our-productions-theatre-co",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "mckinney_public_library_foundation",
-    "ntgd_slug": "Mckinney-Public-Library-Foundation",
-    "name": "McKinney Public Library Foundation",
-    "city": "WEST ELDORADO PKWY MCKINNEY",
-    "state": "TX",
-    "postal": "75070",
-    "ein": "93-2163661",
-    "county": "Collin",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Community Improvement",
-    "volunteer_url": "https://www.mckinneyplf.org",
-    "fallback_urls": [],
-    "phone": null,
-    "email": "mplfboard@gmail.com",
-    "notes": "Support the McKinney Public Library Foundation on North Texas Giving Day!\nOur Goal: Raise $5,000 to fund McKinney Public Library programs and create schol...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Mckinney-Public-Library-Foundation",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -6320,50 +3785,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "feed_oak_cliff",
-    "ntgd_slug": "FEEDoakcliff",
-    "name": "FEED Oak Cliff",
-    "city": "Spruce Valley Lane Dallas",
-    "state": "TX",
-    "postal": "75233",
-    "ein": "47-4797832",
-    "county": "Collin, Dallas, Denton, Ellis",
-    "cause": [
-      "food_security"
-    ],
-    "cause_raw": "Hunger & Food Access",
-    "volunteer_url": "http://www.feedoakcliff.org",
-    "fallback_urls": [],
-    "phone": "214-455-6204",
-    "email": "Feedoakcliff@gmail.com",
-    "notes": "FEED Oak's goal is to disrupt and eradicate food deserts in southern Dallas with innovative and equitable solutions. We have spent the past six years...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/FEEDoakcliff",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "boys_girls_clubs_of_collin_county",
-    "ntgd_slug": "bgccc",
-    "name": "Boys & Girls Clubs of Collin County",
-    "city": "Allen",
-    "state": "TX",
-    "postal": "75013",
-    "ein": "75-1296869",
-    "county": "Collin",
-    "cause": [
-      "children"
-    ],
-    "cause_raw": "Youth & Children",
-    "volunteer_url": "http://www.bgccc.org",
-    "fallback_urls": [],
-    "phone": "469 888 4620",
-    "email": "donations@bgccc.org",
-    "notes": "Boys & Girls Clubs of Collin County has a 55-year history of creating great futures in North Texas. Strategically located in low-income neighborhoods,...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/bgccc",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "kates_cause",
     "ntgd_slug": "Kates-Cause",
     "name": "Kates Cause",
@@ -6382,28 +3803,6 @@
     "email": "kate@katescause.org",
     "notes": null,
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Kates-Cause",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "icr_discovery_center",
-    "ntgd_slug": "Icrdiscovery",
-    "name": "ICR Discovery Center",
-    "city": "Royal Lane Dallas",
-    "state": "TX",
-    "postal": "75229",
-    "ein": "95-3523177",
-    "county": "Wise, Tarrant, Somervell, Rockwall, Parker, Palo Pinto, Navarro, Montague, Kaufman, Johnson, Hunt, Hood, Grayson, Fannin, Erath, Ellis, Denton, Dallas, Cooke, Collin",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Medical/Scientific Research",
-    "volunteer_url": "https://discoverycenter.icr.org/",
-    "fallback_urls": [],
-    "phone": "800 743 6374",
-    "email": "discover@icr.org",
-    "notes": "Support the ICR Discovery Center on North Texas Giving Day!\nThe ICR Discovery Center is a unique museum in the Dallas-Fort Worth area, offering the commun...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Icrdiscovery",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -6518,28 +3917,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "family_compass",
-    "ntgd_slug": "Familycompass",
-    "name": "Family Compass",
-    "city": "Junius Street Dallas",
-    "state": "TX",
-    "postal": "75246",
-    "ein": "75-2400158",
-    "county": "Collin, Dallas",
-    "cause": [
-      "children"
-    ],
-    "cause_raw": "Youth & Children",
-    "volunteer_url": "https://family-compass.org",
-    "fallback_urls": [],
-    "phone": "214-370-9810",
-    "email": "development@family-compass.org",
-    "notes": "About Family Compass\nIn 2024, Family Compass served 2,495 unduplicated individuals—a 39% increase from the previous year. Working in partnership with fami...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Familycompass",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "southfair_community_development_corporation",
     "ntgd_slug": "Southfair-Community-Development-Corporation",
     "name": "SouthFair Community Development Corporation",
@@ -6560,50 +3937,6 @@
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Southfair-Community-Development-Corporation",
     "active": true,
     "already_in_orgs_json": false
-  },
-  {
-    "id": "call_a_ride_of_southlake_cars",
-    "ntgd_slug": "Call-A-Ride-Of-Southlake",
-    "name": "Call A Ride of Southlake-CARS",
-    "city": "Southlake",
-    "state": "TX",
-    "postal": "76092",
-    "ein": "75-2848408",
-    "county": "Tarrant",
-    "cause": [
-      "seniors"
-    ],
-    "cause_raw": "Seniors",
-    "volunteer_url": "http://www.callaridesouthlake.org",
-    "fallback_urls": [],
-    "phone": "817-798-4022",
-    "email": "callaride@hotmail.com",
-    "notes": "Call A Ride of Southlake has been providing vital, free transportation since 1999. It is important that our senior citizens and our disabled adult citizens...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Call-A-Ride-Of-Southlake",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "network_of_community_ministries",
-    "ntgd_slug": "network-of-community-ministries-inc",
-    "name": "NETWORK of Community Ministries",
-    "city": "Richardson",
-    "state": "TX",
-    "postal": "75081",
-    "ein": "75-2060900",
-    "county": "Collin, Dallas",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Social Services",
-    "volunteer_url": "http://www.thenetwork.org",
-    "fallback_urls": [],
-    "phone": "972-234-8880",
-    "email": "akauffman@thenetwork.org",
-    "notes": "Network of Community Ministries is a 501(c)(3) nonprofit organization with a service area encompassing the 14 zip codes in Dallas County that make up RISD...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/network-of-community-ministries-inc",
-    "active": true,
-    "already_in_orgs_json": true
   },
   {
     "id": "keller_isd_education_foundation",
@@ -6646,29 +3979,6 @@
     "email": "hello@ntxdc.org",
     "notes": "North Texas Disability Chamber (NTXDC) was founded in December of 2020 (formerly DylanListed Connect). This Disability Chamber is the 5th cross-disability...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Ntxdc",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "canine_companions",
-    "ntgd_slug": "Canine-Companions-For-Independence-3",
-    "name": "Canine Companions",
-    "city": "Las Colinas Ridge Irving",
-    "state": "TX",
-    "postal": "75063",
-    "ein": null,
-    "county": "Montague, Collin, Wise, Tarrant, Somervell, Rockwall, Parker, Palo Pinto, Navarro, Cooke, Kaufman, Johnson, Hunt, Hood, Grayson, Fannin, Erath, Ellis, Denton, Dallas",
-    "cause": [
-      "animals",
-      "veterans"
-    ],
-    "cause_raw": "Intellectual, Developmental, and Physical Differences, Animals, Veterans",
-    "volunteer_url": "http://canine.org",
-    "fallback_urls": [],
-    "phone": "214-259-4700",
-    "email": "info@canine.org",
-    "notes": "Give the gift of independence this North Texas Giving Day. Your donation is DOUBLED to provide life-changing service dogs and children, adults and veteran...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Canine-Companions-For-Independence-3",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -6783,28 +4093,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "dallas_innovation_alliance",
-    "ntgd_slug": "Dallas-Innovation-Alliance",
-    "name": "Dallas Innovation Alliance",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75247",
-    "ein": "81-5161144",
-    "county": "Dallas",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Employment & Workforce Development",
-    "volunteer_url": "http://www.dallasinnovationalliance.com",
-    "fallback_urls": [],
-    "phone": "214 909 0400",
-    "email": "jennifer.sanders@dallasinnovationalliance.com",
-    "notes": "The Dallas Innovation Alliance was founded in 2015 as a cross-sector collaborative that unites with a shared mission to build a smart city strategy here in...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Dallas-Innovation-Alliance",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "feed_lake_highlands",
     "ntgd_slug": "FeedLakeHighlands",
     "name": "Feed Lake Highlands",
@@ -6849,50 +4137,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "new_friends_new_life",
-    "ntgd_slug": "New-Friends-New-Life",
-    "name": "New Friends New Life",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75219",
-    "ein": "75-2820473",
-    "county": "Dallas",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Human Trafficking & Exploitation",
-    "volunteer_url": "http://newfriendsnewlife.org",
-    "fallback_urls": [],
-    "phone": "214-217-8652",
-    "email": "PMurphy@newfriendsnewlife.org",
-    "notes": "Mission\nNew Friends New Life (NFNL) restores and empowers trafficked and sexually exploited teen girls, women, and their children, and drives awareness of...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/New-Friends-New-Life",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "the_m_i_n_t_foundation",
-    "ntgd_slug": "the-chocolate-mint-foundation",
-    "name": "The M.I.N.T Foundation",
-    "city": "Falcon Drive DeSoto",
-    "state": "TX",
-    "postal": "75115",
-    "ein": "27-1589053",
-    "county": "Dallas, Ellis",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Economic/Financial Security/Poverty",
-    "volunteer_url": "http://www.mintcares.org",
-    "fallback_urls": [],
-    "phone": "972-224-7200",
-    "email": "felicia.frazier@thechocolatemint.org",
-    "notes": "For over 16 years, The MINT Foundation has supported families in Southern Dallas and Ellis Counties with programs that meet urgent needs and build long-...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/the-chocolate-mint-foundation",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "school_of_lexia",
     "ntgd_slug": "SCHOOLofLEXIA",
     "name": "School of Lexia",
@@ -6915,28 +4159,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "denton_animal_support_foundation_inc",
-    "ntgd_slug": "Dentonasf",
-    "name": "Denton Animal Support Foundation, Inc.",
-    "city": "Denton",
-    "state": "TX",
-    "postal": "76202",
-    "ein": "20-4712596",
-    "county": "Denton",
-    "cause": [
-      "animals"
-    ],
-    "cause_raw": "Animals",
-    "volunteer_url": "http://www.DentonASF.com",
-    "fallback_urls": [],
-    "phone": null,
-    "email": "info@dentonasf.com",
-    "notes": "SAVING DENTON AREA ANIMALS SINCE 2006\nThe Denton Animal Support Foundation (DASF) is a 501(c)(3) public charity dedicated to reducing pet overpopulation, ...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Dentonasf",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "downwinders_at_risk_education_fund",
     "ntgd_slug": "Downwinders-At-Risk-Education-Fund",
     "name": "DOWNWINDERS AT RISK EDUCATION FUND",
@@ -6955,28 +4177,6 @@
     "email": "downwindersatrisk@gmail.com",
     "notes": "Our cities are divided by race and pollution. \nJoin us to fight for clean air for all.\n\nDownwinders is a group seeking deep social change through the pris...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Downwinders-At-Risk-Education-Fund",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "texas_land_conservancy",
-    "ntgd_slug": "texaslandconservancy",
-    "name": "Texas Land Conservancy",
-    "city": "Pierce St Dallas",
-    "state": "TX",
-    "postal": "75233",
-    "ein": "75-1825883",
-    "county": "Wise, Tarrant, Somervell, Rockwall, Parker, Palo Pinto, Navarro, Montague, Kaufman, Johnson, Hunt, Hood, Grayson, Fannin, Erath, Ellis, Denton, Dallas, Cooke, Collin",
-    "cause": [
-      "environment"
-    ],
-    "cause_raw": "Environment & Conservation",
-    "volunteer_url": "https://www.texaslandconservancy.org/oak-cliff-nature-preserve",
-    "fallback_urls": [],
-    "phone": "5123016363",
-    "email": "info@texaslandconservancy.org",
-    "notes": "Texas Land Conservancy (TLC) is committed to safeguarding the land, water, and wildlife of Texas, protecting our state's natural heritage from the adverse...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/texaslandconservancy",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -7047,28 +4247,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "friends_of_northaven_trail",
-    "ntgd_slug": "NorthavenTrail",
-    "name": "Friends of Northaven Trail",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75244",
-    "ein": "27-2405143",
-    "county": "Dallas",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Parks and Greenspaces",
-    "volunteer_url": "http://www.northaventrail.org",
-    "fallback_urls": [],
-    "phone": null,
-    "email": "Info@northaventrail.org",
-    "notes": "The Northaven Trail is a nine-mile commuter and recreational bike and hike trail built and maintained by the Dallas Parks and Recreation Department. The t...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/NorthavenTrail",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "team_mercy",
     "ntgd_slug": "Teammercyorg",
     "name": "Team Mercy",
@@ -7113,28 +4291,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "heart_of_the_city",
-    "ntgd_slug": "HeartOfTheCity",
-    "name": "Heart of the City",
-    "city": "N. Mill St. Lewisville",
-    "state": "TX",
-    "postal": "75057",
-    "ein": "83-4530943",
-    "county": "Collin, Denton, Tarrant",
-    "cause": [
-      "food_security"
-    ],
-    "cause_raw": "Hunger & Food Access",
-    "volunteer_url": "http://www.heartofthecitylewisville.com",
-    "fallback_urls": [],
-    "phone": "972-824-6171",
-    "email": "heartofthecitylewisville@gmail.com",
-    "notes": "Heart of the City is a charitable non-profit organization serving the marginalized, vulnerable, and impoverished populations of Denton, Dallas, and Collin...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/HeartOfTheCity",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "north_texas_catholic_women",
     "ntgd_slug": "North-Texas-Catholic-Women",
     "name": "North Texas Catholic Women",
@@ -7153,28 +4309,6 @@
     "email": "info@ntxcw.org",
     "notes": "North Texas Catholic Women exists to promote a sense of belonging for women in all stages of life; married, single, and consecrated.  Our faith and...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/North-Texas-Catholic-Women",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "white_rock_lake_conservancy",
-    "ntgd_slug": "White-Rock-Lake-Conservancy",
-    "name": "White Rock Lake Conservancy",
-    "city": "Dallas",
-    "state": "TX",
-    "postal": "75214",
-    "ein": "27-3741373",
-    "county": "Dallas",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Parks and Greenspaces",
-    "volunteer_url": "http://www.whiterockdallas.org",
-    "fallback_urls": [],
-    "phone": "214-402-5714",
-    "email": "wrlc@whiterockdallas.org",
-    "notes": "Did you know that White Rock Lake Park is a city park? The park consists of a 1,015 acre city lake with over 9 miles of trails, several boat clubs, picnic...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/White-Rock-Lake-Conservancy",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -7223,28 +4357,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "taste_project",
-    "ntgd_slug": "tasteproject",
-    "name": "Taste Project",
-    "city": "Arlington",
-    "state": "TX",
-    "postal": "76011",
-    "ein": "45-5471587",
-    "county": "Tarrant",
-    "cause": [
-      "food_security"
-    ],
-    "cause_raw": "Hunger & Food Access",
-    "volunteer_url": "https://www.tasteproject.org",
-    "fallback_urls": [],
-    "phone": "817 759 9045",
-    "email": "tasteandsee@tasteproject.org",
-    "notes": "Taste Project's flagship program, Taste Community Restaurant, is more than your average restaurant; it's a community place where all are welcome regardle...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/tasteproject",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "wipe_out_kids_cancer",
     "ntgd_slug": "Wokc",
     "name": "Wipe Out Kids' Cancer",
@@ -7285,50 +4397,6 @@
     "email": "POOCHSAVERS@GMAIL.COM",
     "notes": "Our NeedsMonetary donations are ALWAYS needed as every new intake requires some form of vet attention (spay/neuter, rabies, heartworm test, fecal,...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/POOCHSAVERSRESCUE",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "under_the_bridge_ministries_inc",
-    "ntgd_slug": "Under-The-Bridge-Ministries-1",
-    "name": "Under the Bridge Ministries Inc",
-    "city": "BURLESON",
-    "state": "TX",
-    "postal": "76097",
-    "ein": "87-3968844",
-    "county": "Johnson, Tarrant",
-    "cause": [
-      "food_security"
-    ],
-    "cause_raw": "Hunger & Food Access",
-    "volunteer_url": "https://www.utbfw.org",
-    "fallback_urls": [],
-    "phone": "Email Address:  UnderTheBridgeMinistriesFW@gmail.com",
-    "email": "Underthebridgeministriesfw@gmail.com",
-    "notes": "Under the  Bridge Ministries, Inc.Website:  www.utbfw.orgPhone Number:  817-875-4431Email Address:  UnderTheBridgeMinistriesFW@gmail.com Mailing Address: ...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Under-The-Bridge-Ministries-1",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "mission_arlington_mission_metroplex",
-    "ntgd_slug": "mission-arlington-mission-metroplex",
-    "name": "Mission Arlington/Mission Metroplex",
-    "city": "W. South St. Arlington",
-    "state": "TX",
-    "postal": "76010",
-    "ein": "75-2354962",
-    "county": "Tarrant",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Social Services",
-    "volunteer_url": "http://missionarlington.org",
-    "fallback_urls": [],
-    "phone": "817-277-6620",
-    "email": "mission@missionarlington.org",
-    "notes": "Mission Arlington is a faith-based, non-profit designed to meet the physical, spiritual, educational, and social needs of people in a holistic way. Led th...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/mission-arlington-mission-metroplex",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -7395,28 +4463,6 @@
     "email": "info@givingmas.org",
     "notes": "About Givingmas\nA Hand Up, Not a Handout\nGivingmas is a community-powered nonprofit that provides personalized support to families seeking stability—helpi...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Givingmas",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "lake_pointe_granbury",
-    "ntgd_slug": "lakepointegranbury",
-    "name": "Lake Pointe Granbury",
-    "city": "Granbury",
-    "state": "TX",
-    "postal": "76049",
-    "ein": "45-4700787",
-    "county": "Hood",
-    "cause": [
-      "health"
-    ],
-    "cause_raw": "Mental and Behavioral Health",
-    "volunteer_url": "http://www.lakepointegranbury.org",
-    "fallback_urls": [],
-    "phone": "682-333-1555",
-    "email": "m.cano@lakepointegranbury.org",
-    "notes": "Our goal is to raise $20,000 this year to increase our capacity in providing therapy and education to youth on the autism spectrum or with related...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/lakepointegranbury",
     "active": true,
     "already_in_orgs_json": false
   },
@@ -7509,50 +4555,6 @@
     "already_in_orgs_json": false
   },
   {
-    "id": "streetside_showers",
-    "ntgd_slug": "streetsideshowers",
-    "name": "Streetside Showers",
-    "city": "McKinney",
-    "state": "TX",
-    "postal": "75070",
-    "ein": "82-2043901",
-    "county": "Collin, Dallas, Hunt",
-    "cause": [
-      "housing"
-    ],
-    "cause_raw": "Housing, Shelter & Homelessness",
-    "volunteer_url": "http://www.streetsideshowers.com",
-    "fallback_urls": [],
-    "phone": "214-842-3132",
-    "email": "Lance@streetsideshowers.com",
-    "notes": "WHO WE ARE\nDue to the growing rate of homelessness in North Texas and lack of emergency shelters, Streetside Showers is working very hard to meet the need...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/streetsideshowers",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "camp_summit_inc",
-    "ntgd_slug": "campsummittx",
-    "name": "CAMP SUMMIT INC",
-    "city": "W Dallas",
-    "state": "TX",
-    "postal": "75252",
-    "ein": "75-2488486",
-    "county": "Wise, Tarrant, Somervell, Rockwall, Parker, Palo Pinto, Navarro, Montague, Kaufman, Johnson, Hunt, Hood, Grayson, Fannin, Erath, Ellis, Denton, Dallas, Cooke, Collin",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Social Services",
-    "volunteer_url": "http://www.campsummittx.org",
-    "fallback_urls": [],
-    "phone": "972-484-8900",
-    "email": "camp@campsummittx.org",
-    "notes": "Be part of something remarkable. Donate to Camp Summit as we break barriers and embrace abilities. Camp Summit proudly celebrates 78 years of providing ba...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/campsummittx",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
     "id": "ranch_hands_rescue",
     "ntgd_slug": "ranch-hand-rescue",
     "name": "Ranch Hands Rescue",
@@ -7594,28 +4596,6 @@
     "email": "entertainmentseriesofirving@yahoo.com",
     "notes": "Organized in 1955, the ESI has provided a wide variety of live, quality entertainment to the Irving community. We envision offering a superior level of...",
     "ntgd_url": "https://www.northtexasgivingday.org/organization/Entertainment-Series-Of-Irving",
-    "active": true,
-    "already_in_orgs_json": false
-  },
-  {
-    "id": "big_hearts_day_habilitation_center",
-    "ntgd_slug": "Big-Hearts-Day-Habilitation-Center",
-    "name": "Big Hearts Day Habilitation Center",
-    "city": "Mansfield",
-    "state": "TX",
-    "postal": "76063",
-    "ein": "86-3978349",
-    "county": "Dallas, Ellis, Johnson, Tarrant",
-    "cause": [
-      "community"
-    ],
-    "cause_raw": "Social Services",
-    "volunteer_url": "https://BigHeartsDayHab.org",
-    "fallback_urls": [],
-    "phone": "214-205-1381",
-    "email": "info@BigHeartsDayHab.org",
-    "notes": "WHY WE NEED YOU!High school graduation is an exciting time, representing the transition of a child to a young adult. Universities visited, career choices...",
-    "ntgd_url": "https://www.northtexasgivingday.org/organization/Big-Hearts-Day-Habilitation-Center",
     "active": true,
     "already_in_orgs_json": false
   },

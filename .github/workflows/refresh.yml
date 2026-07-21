@@ -5,7 +5,7 @@ name: Weekly data refresh
 # GitHub's ubuntu-latest runners ship PowerShell Core preinstalled).
 #
 # Required repo secrets (Settings -> Secrets and variables -> Actions):
-#   OPENAI_API_KEY      - scrapers/classifier + embeddings/chat
+#   OPENAI_API_KEY      - scrapers/classifier + embeddings/chat + curated extraction
 #   SUPABASE_URL        - Smart Search index
 #   SUPABASE_SECRET_KEY - Smart Search index (secret key, not publishable)
 
@@ -54,7 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add frontend/public/data qc_rejected*.json
+          git add frontend/public/data qc_rejected*.json orgs.json curated_scraped.json
           if git diff --cached --quiet; then
             echo "No data changes to commit."
           else

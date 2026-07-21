@@ -33,8 +33,9 @@ from bs4 import BeautifulSoup
 
 BASE = "https://www.northtexasgivingday.org"
 SEARCH = f"{BASE}/search?orgScope=on&activeVolunteerOppOnly=on&page={{page}}"
-OUTPUT_FILE = Path("orgs_ntgd_candidates.json")
-EXISTING_ORGS = Path("orgs.json")
+OUTPUT_FILE = Path("orgs_ntgd_review.json")   # fresh candidates to review
+EXISTING_ORGS = Path("orgs.json")             # already curated
+REJECTED_ORGS = Path("orgs_rejected.json")    # previously declined
 DELAY = 0.6
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; VolunteerHubBot/1.0; +mailto:grrompala@gmail.com)"
@@ -215,14 +216,19 @@ def parse_profile(slug, fallback_name):
 
 
 def load_existing_names():
-    if not EXISTING_ORGS.exists():
-        return set()
-    try:
-        data = json.load(open(EXISTING_ORGS, encoding="utf-8"))
-        items = data if isinstance(data, list) else list(data.values())
-        return {(o.get("name") or "").strip().lower() for o in items}
-    except Exception:
-        return set()
+    """Names we already know — curated (orgs.json) or declined (orgs_rejected.json)
+    — so discovery flags them instead of re-surfacing them for review."""
+    names = set()
+    for path in (EXISTING_ORGS, REJECTED_ORGS):
+        if not path.exists():
+            continue
+        try:
+            data = json.load(open(path, encoding="utf-8"))
+            items = data if isinstance(data, list) else list(data.values())
+            names |= {(o.get("name") or "").strip().lower() for o in items}
+        except Exception:
+            pass
+    return names
 
 
 def main():
@@ -245,11 +251,11 @@ def main():
         if not rec:
             print(f"  [{i}/{len(orgs)}] SKIP {name}")
             continue
-        rec["already_in_orgs_json"] = rec["name"].strip().lower() in existing
+        rec["already_known"] = rec["name"].strip().lower() in existing
         records.append(rec)
         flags = []
-        if rec["already_in_orgs_json"]:
-            flags.append("DUP")
+        if rec["already_known"]:
+            flags.append("KNOWN")
         if not rec["volunteer_url"]:
             flags.append("NO-SITE")
         print(f"  [{i}/{len(orgs)}] {name} {' '.join(flags)}")
@@ -257,12 +263,12 @@ def main():
     json.dump(records, open(OUTPUT_FILE, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
 
     with_site = sum(1 for r in records if r["volunteer_url"])
-    dupes = sum(1 for r in records if r["already_in_orgs_json"])
+    known = sum(1 for r in records if r["already_known"])
     print(f"\nWrote {len(records)} candidates to {OUTPUT_FILE}")
-    print(f"  {with_site} have a website · {dupes} already in orgs.json · "
+    print(f"  {with_site} have a website · {known} already known (curated or declined) · "
           f"{len(records) - with_site} need a manual URL")
-    print("\nNext: review the file, then merge the good ones into orgs.json "
-          "(keeping the orgs.json schema) and run fetch_curated.py.")
+    print("\nNext: review the file, merge the good ones into orgs.json (keeping the "
+          "orgs.json schema); the rest can go to orgs_rejected.json.")
 
 
 if __name__ == "__main__":

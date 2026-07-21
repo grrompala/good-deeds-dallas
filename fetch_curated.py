@@ -30,10 +30,23 @@ from dotenv import load_dotenv
 
 load_dotenv()  # loads .env from current directory
 
-ORGS_FILE = Path("orgs_ntgd_candidates.json")
+ORGS_FILE = Path("orgs.json")   # the single curated source of truth
 OUTPUT_FILE = Path("frontend/public/data/volops_curated.json")
+LEDGER_FILE = Path("curated_scraped.json")  # {org_id: last_scraped_iso}; skip these unless --force/--org
 DELAY = 1.5
 MAX_PAGE_CHARS = 12_000  # keep LLM input manageable
+
+
+def load_ledger():
+    if LEDGER_FILE.exists():
+        with open(LEDGER_FILE, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+
+def save_ledger(ledger):
+    with open(LEDGER_FILE, "w", encoding="utf-8") as f:
+        json.dump(ledger, f, indent=2, ensure_ascii=False, sort_keys=True)
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; VolunteerHubBot/1.0; +mailto:grrompala@gmail.com)"
@@ -331,21 +344,21 @@ def main():
 
     active_orgs = [o for o in orgs if o.get("active", True)]
 
-    # Incremental by default: skip orgs that already have extracted records, so
-    # re-running only processes NEW orgs. --force re-does everything; --org always
-    # processes the one you asked for.
-    def already_done(org):
-        return any(k.startswith(f"{org['id']}_") for k in existing)
-
-    if not args.force and not args.org:
-        todo = [o for o in active_orgs if not already_done(o)]
-        skipped = len(active_orgs) - len(todo)
-        print(f"Processing {len(todo)} new org(s); skipping {skipped} already extracted "
-              f"(use --force to re-extract).\n")
-    else:
+    # Incremental by default via the scrape ledger: skip orgs already scraped —
+    # including ones that yielded zero opportunities, so declined/empty orgs
+    # aren't retried every run. --force re-does everything; --org always runs the
+    # one you asked for. Every processed org gets stamped so it won't run again.
+    ledger = load_ledger()
+    if args.org or args.force:
         todo = active_orgs
-        print(f"Processing {len(todo)} org(s)...\n")
+        print(f"Processing {len(todo)} org(s){' (--force)' if args.force else ''}...\n")
+    else:
+        todo = [o for o in active_orgs if o["id"] not in ledger]
+        print(f"Processing {len(todo)} new org(s); skipping "
+              f"{len(active_orgs) - len(todo)} already scraped "
+              f"(use --force to re-scrape).\n")
 
+    now = datetime.now(timezone.utc).isoformat()
     for org in todo:
         print(f"--- {org['name']} ---")
 
@@ -358,6 +371,11 @@ def main():
 
         for opp in opportunities:
             existing[opp["id"]] = opp
+
+        # Stamp scraped regardless of yield, and persist immediately so a crash
+        # mid-run doesn't re-scrape the whole list next time.
+        ledger[org["id"]] = now
+        save_ledger(ledger)
 
         time.sleep(DELAY)
         print()

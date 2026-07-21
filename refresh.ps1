@@ -33,6 +33,10 @@ function Invoke-Step([scriptblock]$Step) {
 }
 
 Write-Host "`n=== 1/4 Scraping sources ===" -ForegroundColor Cyan
+# Curated nonprofits first. Incremental via curated_scraped.json: only NEW orgs
+# in orgs.json (e.g. just-merged discovery-agent finds) get scraped; use --force
+# to re-scrape everything.
+Invoke-Step { python fetch_curated.py }
 Invoke-Step { python fetch_garland.py }
 Invoke-Step { python fetch_mckinney.py }
 Invoke-Step { python fetch_voly.py }
