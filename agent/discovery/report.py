@@ -46,8 +46,35 @@ def _card(v: Verdict, show_json: bool) -> str:
     return "\n".join(parts)
 
 
-def render_report(verdicts: list[Verdict]) -> str:
-    """Full dry-run report: accepts first, then rejects, for quick scanning."""
+def render_diagnostics(diag: dict) -> str:
+    """The search-grid + triage funnel: what ran, and why 25 became the final
+    candidate count. Meant so a bad run can be diagnosed from the report alone,
+    without needing to read raw Actions logs."""
+    queries = diag.get("queries") or []
+    dropped = diag.get("triage_dropped") or {}
+    lines = [
+        "## Run diagnostics",
+        "",
+        f"**Queries this run ({len(queries)}):**",
+    ] + [f"- `{q}`" for q in queries] + [
+        "",
+        f"**Search:** {diag.get('raw_hits', '?')} raw hit(s) -> "
+        f"{diag.get('unique_domains', '?')} unique-domain candidate(s)",
+        "",
+        f"**Triage:** {diag.get('triage_input', '?')} in -> "
+        f"{diag.get('triage_kept', '?')} survived to investigate",
+    ]
+    if dropped:
+        lines.append("")
+        for reason, items in dropped.items():
+            sample = ", ".join(f"`{i}`" for i in items[:8])
+            more = f" (+{len(items) - 8} more)" if len(items) > 8 else ""
+            lines.append(f"- dropped as **{reason}** ({len(items)}): {sample}{more}")
+    return "\n".join(lines)
+
+
+def render_report(verdicts: list[Verdict], diagnostics: dict | None = None) -> str:
+    """Full dry-run report: diagnostics, then accepts, then rejects."""
     accepts = [v for v in verdicts if v.get("decision") == "accept"]
     rejects = [v for v in verdicts if v.get("decision") != "accept"]
     lines = [
@@ -55,9 +82,10 @@ def render_report(verdicts: list[Verdict]) -> str:
         "",
         f"Investigated {len(verdicts)} candidate(s): "
         f"**{len(accepts)} accept**, {len(rejects)} reject.",
-        "",
-        "## Accepted",
     ]
+    if diagnostics:
+        lines += ["", render_diagnostics(diagnostics)]
+    lines += ["", "## Accepted"]
     lines += [_card(v, show_json=True) for v in accepts] or ["_none_"]
     lines += ["## Rejected"]
     lines += [_card(v, show_json=True) for v in rejects] or ["_none_"]

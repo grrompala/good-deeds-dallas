@@ -60,3 +60,4 @@ class DiscoveryState(TypedDict, total=False):
     verdicts: list[Verdict]             # investigation outcomes
     drafts: list[OrgEntry]              # accepted, schema-shaped entries
     output_ref: Optional[str]           # PR url (live) or report path (dry-run)
+    diagnostics: dict                   # queries run + triage funnel, for the report

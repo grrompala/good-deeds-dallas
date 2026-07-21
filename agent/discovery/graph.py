@@ -55,12 +55,15 @@ def make_plan_queries(cfg: config.RunConfig):
 
         print(f"[plan_queries] coverage={len(coverage)} names, "
               f"{len(coverage_domains)} domains; ledger={len(ledger)}; "
-              f"{len(queries)} queries")
+              f"{len(queries)} queries:")
+        for q in queries:
+            print(f"    - {q}")
         return {
             "coverage": coverage,
             "coverage_domains": coverage_domains,
             "ledger": ledger,
             "queries": queries,
+            "diagnostics": {"queries": queries},
         }
     return plan_queries
 
@@ -81,14 +84,19 @@ def make_search(cfg: config.RunConfig):
 
         seen: set[str] = set()
         cands: list[dict] = []
+        raw_hits = 0
         for q in state["queries"]:
-            for r in tools.web_search(q, k=cfg.search_k):
+            results = tools.web_search(q, k=cfg.search_k)
+            raw_hits += len(results)
+            for r in results:
                 dom = r["domain"]
                 if dom and dom not in seen:
                     seen.add(dom)
                     cands.append(r)
-        print(f"[search] {len(cands)} unique-domain candidate(s)")
-        return {"candidates": cands}
+        print(f"[search] {raw_hits} raw hit(s) -> {len(cands)} unique-domain candidate(s)")
+        diag = dict(state.get("diagnostics", {}))
+        diag.update({"raw_hits": raw_hits, "unique_domains": len(cands)})
+        return {"candidates": cands, "diagnostics": diag}
     return search
 
 
@@ -98,21 +106,39 @@ def make_triage(cfg: config.RunConfig):
         ledger = state.get("ledger", {})
         coverage = state.get("coverage", set())
         coverage_domains = state.get("coverage_domains", set())
+        all_candidates = state.get("candidates", [])
         kept: list[dict] = []
-        for c in state.get("candidates", []):
+        dropped: dict[str, list[str]] = {"no_domain": [], "blocklisted": [],
+                                         "ledgered": [], "covered": []}
+        for c in all_candidates:
             dom = c["domain"]
-            if not dom or tools.is_blocklisted(dom):
+            if not dom:
+                dropped["no_domain"].append(c.get("name") or "?")
+                continue
+            if tools.is_blocklisted(dom):
+                dropped["blocklisted"].append(dom)
                 continue
             if dom in ledger:
+                dropped["ledgered"].append(dom)
                 continue  # already judged in a past run
             cov = tools.check_coverage(c["name"], dom, coverage, coverage_domains)
             if cov["known"]:
+                dropped["covered"].append(dom)
                 continue
             kept.append(c)
         kept = kept[: cfg.max_candidates]
-        print(f"[triage] {len(kept)} candidate(s) survive "
-              f"(from {len(state.get('candidates', []))})")
-        return {"candidates": kept}
+
+        print(f"[triage] {len(kept)} candidate(s) survive (from {len(all_candidates)}): "
+              f"blocklisted={len(dropped['blocklisted'])}, ledgered={len(dropped['ledgered'])}, "
+              f"covered={len(dropped['covered'])}, no_domain={len(dropped['no_domain'])}")
+
+        diag = dict(state.get("diagnostics", {}))
+        diag.update({
+            "triage_kept": len(kept),
+            "triage_input": len(all_candidates),
+            "triage_dropped": {k: v for k, v in dropped.items() if v},
+        })
+        return {"candidates": kept, "diagnostics": diag}
     return triage
 
 
@@ -232,7 +258,9 @@ def make_finalize(cfg: config.RunConfig):
         if cfg.dry_run:
             config.REPORT_DIR.mkdir(parents=True, exist_ok=True)
             path = config.REPORT_DIR / f"discovery-{tools.today_iso()}.md"
-            path.write_text(report_mod.render_report(verdicts), encoding="utf-8")
+            path.write_text(
+                report_mod.render_report(verdicts, state.get("diagnostics")),
+                encoding="utf-8")
             print(f"[finalize] dry-run report -> {path}")
             return {"output_ref": str(path)}
 
