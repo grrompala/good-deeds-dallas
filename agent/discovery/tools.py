@@ -58,6 +58,12 @@ def domain_of(url: str | None) -> str:
     return host[4:] if host.startswith("www.") else host
 
 
+def is_blocklisted(domain: str) -> bool:
+    """True if `domain` IS or is a subdomain of a blocklisted domain — a plain
+    `in` check misses e.g. 'm.yelp.com' when 'yelp.com' is what's listed."""
+    return any(domain == b or domain.endswith(f".{b}") for b in config.BLOCKLIST_DOMAINS)
+
+
 # ── Coverage set + ledger (memory, tech plan §5) ─────────────────────────────
 
 def _read_json(path: Path, default):

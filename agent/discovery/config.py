@@ -37,6 +37,8 @@ BLOCKLIST_DOMAINS = {
     "justserve.org", "pointsoflight.org", "handsonconnect.org",
     "guidestar.org", "causeiq.com", "instagram.com", "youtube.com",
     "amazon.com", "google.com", "yelp.com", "wikipedia.org",
+    "findhelp.org",   # nationwide social-care referral directory (ex-Aunt Bertha)
+    "adoptapet.com",  # nationwide pet-adoption listing aggregator
 }
 
 # Target cities for the search grid. DFW-area towns we want curated coverage in.

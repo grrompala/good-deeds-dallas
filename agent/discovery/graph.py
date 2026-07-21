@@ -42,8 +42,13 @@ def make_plan_queries(cfg: config.RunConfig):
         # Rotate the city window monthly.
         start = (month * 5) % len(cities)
         rotated = cities[start:] + cities[:start]
+        # ", Texas" anchors the search: without it, a bare city name collides
+        # with same-named places elsewhere (Addison, VT / Addison, IL) and
+        # generic phrases return zero location grounding at all (e.g.
+        # "homeless shelter volunteer The Colony" surfacing Atlanta/Nevada/
+        # Tampa results that don't mention the city).
         queries = [
-            f"{phrase} {city}"
+            f"{phrase} {city}, Texas"
             for city in rotated
             for phrase in cause_phrases
         ][: cfg.max_queries]
@@ -96,7 +101,7 @@ def make_triage(cfg: config.RunConfig):
         kept: list[dict] = []
         for c in state.get("candidates", []):
             dom = c["domain"]
-            if not dom or dom in config.BLOCKLIST_DOMAINS:
+            if not dom or tools.is_blocklisted(dom):
                 continue
             if dom in ledger:
                 continue  # already judged in a past run
