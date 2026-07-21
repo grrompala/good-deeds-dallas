@@ -1703,5 +1703,115 @@
     "fallback_urls": [],
     "notes": "WHY WE NEED YOU!High school graduation is an exciting time, representing the transition of a child to a young adult. Universities visited, career choices...",
     "active": true
+  },
+  {
+    "id": "austin_street_center_dallas",
+    "name": "Austin Street Center",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["housing", "community"],
+    "volunteer_url": "https://austinstreet.org/volunteer",
+    "fallback_urls": [],
+    "notes": "Provides shelter services; volunteers assist with tasks like guest services, meal service, and donation sorting.",
+    "active": true
+  },
+  {
+    "id": "communities_in_schools_of_dallas_region_dallas",
+    "name": "Communities In Schools of the Dallas Region",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["education", "children"],
+    "volunteer_url": "https://cisdallas.org/volunteer",
+    "fallback_urls": [],
+    "notes": "Supports students through tutoring, mentoring, and test prep roles in DFW schools.",
+    "active": true
+  },
+  {
+    "id": "copilot_animal_rescue_denton",
+    "name": "CoPilot Animal Rescue",
+    "city": "Denton",
+    "state": "TX",
+    "cause": ["animals", "community"],
+    "volunteer_url": "https://www.copilotanimalrescue.org/volunteer",
+    "fallback_urls": [],
+    "notes": "CoPilot Animal Rescue offers roles like animal care, shelter operations, and transportation to support rescued animals.",
+    "active": true
+  },
+  {
+    "id": "operation_kindness_humane_carrollton",
+    "name": "Operation Kindness Humane Society",
+    "city": "Carrollton",
+    "state": "TX",
+    "cause": ["animals"],
+    "volunteer_url": "https://www.operationkindness.org/volunteer",
+    "fallback_urls": [],
+    "notes": "Operation Kindness offers roles in animal care support, including kennel sanitization and animal enrichment.",
+    "active": true
+  },
+  {
+    "id": "texas_health_and_human_services_dallasfort_worth",
+    "name": "Texas Health and Human Services",
+    "city": "Dallas-Fort Worth",
+    "state": "TX",
+    "cause": ["seniors", "community"],
+    "volunteer_url": "https://www.hhs.texas.gov/about/community-engagement/volunteer-hhs/nursing-homes-assisted-living-facilities",
+    "fallback_urls": [],
+    "notes": "Volunteers provide companionship and assist with activities at nursing homes and assisted living facilities.",
+    "active": true
+  },
+  {
+    "id": "caring_senior_service_richardson",
+    "name": "Caring Senior Service",
+    "city": "Richardson",
+    "state": "TX",
+    "cause": ["seniors", "community"],
+    "volunteer_url": "https://caringseniorservice.com/dallas-northeast/news/volunteer-opportunities",
+    "fallback_urls": [],
+    "notes": "Offers seniors volunteer roles in community service projects, elder support, and emergency services.",
+    "active": true
+  },
+  {
+    "id": "cc_young_dallas",
+    "name": "CC Young",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["seniors", "community", "arts"],
+    "volunteer_url": "https://www.ccyoung.org/volunteer",
+    "fallback_urls": [],
+    "notes": "CC Young offers various volunteer roles like hosting parties, facilitating arts, and office help to enrich seniors' lives.",
+    "active": true
+  },
+  {
+    "id": "city_of_dallas_office_of_homeless_solutions_dallas",
+    "name": "City of Dallas: Office of Homeless Solutions",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["housing", "community", "crisis_support"],
+    "volunteer_url": "https://dallashomelesssolutions.com/get-involved/volunteer/index.html",
+    "fallback_urls": [],
+    "notes": "Provides shelter and meals during inclement weather; volunteers help set up shelters and serve meals.",
+    "active": true
+  },
+  {
+    "id": "intellichoice_math_tutoring_dallas",
+    "name": "IntelliChoice Math Tutoring",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["education", "children"],
+    "volunteer_url": "https://www.intellichoice.org/volunteers",
+    "fallback_urls": [],
+    "notes": "Provides free math tutoring to underprivileged children; volunteers can tutor or lead chapters.",
+    "active": true
+  },
+  {
+    "id": "north_texas_food_bank_dallas",
+    "name": "North Texas Food Bank",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["food_security"],
+    "volunteer_url": "https://volunteer.ntfb.org/need/detail?need_id=648251",
+    "fallback_urls": [],
+    "notes": "Mobile Pantry volunteers help distribute food directly to clients in a fast-paced, outdoor environment.",
+    "active": true
   }
 ]
