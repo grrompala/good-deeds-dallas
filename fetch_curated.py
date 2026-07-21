@@ -244,6 +244,16 @@ def extract_opportunities(page_text: str, org: dict, client, provider: str,
     now = datetime.now(timezone.utc).isoformat()
     stamped = []
     for i, opp in enumerate(opportunities):
+        # Backfill location from the org's known city/state (orgs.json) when the
+        # page didn't state one. Without a city the listing never shows up on
+        # /volunteer/in/<city> pages, even though we know where the org is.
+        loc = opp.get("location") or {}
+        if not loc.get("city") and org.get("city"):
+            loc["city"] = org["city"]
+        if not loc.get("state") and org.get("state"):
+            loc["state"] = org["state"]
+        opp["location"] = loc
+
         stamped.append({
             "id": f"{org['id']}_{i}",
             "source": "curated",

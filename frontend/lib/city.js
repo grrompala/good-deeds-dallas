@@ -34,8 +34,12 @@ export function cleanCity(raw) {
 }
 
 // Listing -> normalized display city ("Plano", "McKinney") or null.
+// Sources disagree on where the city lives: the portal scrapers put it at
+// address.city, while the curated scraper (fetch_curated) puts it at
+// location.city. Check both so curated listings aren't invisible on city pages.
 export function cityName(listing) {
-  const cleaned = cleanCity(listing?.address?.city)
+  const raw = listing?.address?.city ?? listing?.location?.city
+  const cleaned = cleanCity(raw)
   if (!cleaned) return null
   const titled = cleaned.toLowerCase().replace(/\b\w/g, ch => ch.toUpperCase())
   return CITY_DISPLAY_FIXES[titled] || titled
