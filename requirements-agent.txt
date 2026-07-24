@@ -9,3 +9,4 @@
 langgraph
 langgraph-checkpoint-sqlite
 tavily-python
+streamlit          # interactive discovery dashboard (agent/dashboard/)

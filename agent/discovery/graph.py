@@ -33,11 +33,7 @@ def make_plan_queries(cfg: config.RunConfig):
         ledger = {} if cfg.ignore_ledger else tools.load_ledger()
 
         # Search grid: cause keyword x DFW city, rotated by month so runs differ.
-        cause_phrases = [
-            "food pantry volunteer", "animal rescue volunteers",
-            "nonprofit volunteer opportunities", "senior services volunteer",
-            "homeless shelter volunteer", "tutoring volunteer",
-        ]
+        cause_phrases = config.CAUSE_PHRASES
         month = int(time.strftime("%m"))
         cities = config.DFW_CITIES
         # Rotate the city window monthly.
@@ -144,7 +140,7 @@ def make_triage(cfg: config.RunConfig):
 
 
 # ── investigate ──────────────────────────────────────────────────────────────
-def _investigate_one(cand: dict, cfg: config.RunConfig, llm: LLM) -> dict:
+def investigate_candidate(cand: dict, cfg: config.RunConfig, llm: LLM) -> dict:
     """Fetch home -> pick volunteer page -> fetch -> mini triage -> full
     judgment. Returns a Verdict dict (always, even on failure)."""
     domain, name = cand["domain"], cand.get("name", "")
@@ -214,7 +210,7 @@ def make_investigate(cfg: config.RunConfig, llm: LLM):
         verdicts = []
         for c in state.get("candidates", []):
             print(f"[investigate] {c['domain']} ...")
-            v = _investigate_one(c, cfg, llm)
+            v = investigate_candidate(c, cfg, llm)
             verdicts.append(v)
             ledger[v["domain"]] = {
                 "verdict": v["decision"],

@@ -51,6 +51,14 @@ DFW_CITIES = [
     "Lewisville", "Grand Prairie", "Arlington",
 ]
 
+# Cause/role phrases combined with cities to form search queries. The dashboard
+# offers these as a pick-list; the cron grid uses them too.
+CAUSE_PHRASES = [
+    "food pantry volunteer", "animal rescue volunteers",
+    "nonprofit volunteer opportunities", "senior services volunteer",
+    "homeless shelter volunteer", "tutoring volunteer",
+]
+
 
 @dataclass
 class RunConfig:
