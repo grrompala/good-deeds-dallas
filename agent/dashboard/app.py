@@ -64,7 +64,7 @@ def get_llm():
 
 
 # ── persistent app header (every stage) ──────────────────────────────────────
-st.title("🔎 Curated Discovery Agent")
+st.title("🔎 Good Deeds Dallas - Discovery Agent")
 st.caption("Finds DFW nonprofits we don't cover yet and proposes them for Good Deeds Dallas · "
            "step through search → triage → investigate → review, then open a PR.")
 st.divider()
