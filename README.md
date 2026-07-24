@@ -64,9 +64,12 @@ That's enough to browse Opportunities / Organizations / Chatter. To also light u
 volunteer_hub/
 ├── README.md                        ← this file
 ├── requirements.txt                 ← Python deps for the scrapers/classifier/QC
-├── orgs.json                        ← curated nonprofit list (input to fetch_curated)
+├── requirements-agent.txt           ← extra deps for the discovery agent + dashboard
+├── orgs.json                        ← curated nonprofit list — single source of truth (input to fetch_curated)
+├── orgs_rejected.json               ← reviewed-and-declined discovery candidates (never re-proposed)
+├── curated_scraped.json             ← {org_id: last_scraped} ledger so fetch_curated only scrapes new orgs
 ├── .env                             ← Python API keys (gitignored)
-├── refresh.ps1                      ← one-command scrape → QC → classify → re-embed
+├── refresh.ps1                      ← one-command curated → scrape → QC → classify → re-embed
 ├── .github/workflows/refresh.yml    ← same pipeline, on a weekly GitHub Actions schedule
 │
 ├── fetch_garland.py                 ← Galaxy Digital scraper (volunteergarland.org)
@@ -77,6 +80,10 @@ volunteer_hub/
 ├── fetch_reddit.py                  ← volunteer-related posts from local subreddits (search.rss)
 ├── classify_listings.py             ← LLM step assigning unified category tags
 ├── qc_filter.py                     ← dedup + LLM content QC (see QC filter section)
+│
+├── agent/                           ← Discovery Agent (see Discovery Agent section)
+│   ├── discovery/                   ←   LangGraph agent: graph, tools, prompts, llm, CLI
+│   └── dashboard/                   ←   interactive Streamlit console (app.py + session.py)
 │
 └── frontend/                        ← Next.js 15 / React 18 / Tailwind
     ├── app/
@@ -251,6 +258,62 @@ python qc_filter.py --file frontend/public/data/volops_idealist.json --dedupe-on
 
 ---
 
+## Discovery Agent
+
+The curated org list (`orgs.json`) is grown by a **discovery agent** — a
+[LangGraph](https://langchain-ai.github.io/langgraph/) agent (`agent/discovery/`)
+that hunts for DFW nonprofits we don't cover yet, investigates their websites,
+and proposes new `orgs.json` entries for human review. It automates the
+*research*, not the *judgment* — a human always approves before anything ships.
+
+Pipeline (the same node logic runs headless or from the dashboard, so they can't drift):
+
+```
+build queries → search (Tavily) → triage → investigate → select → propose
+```
+
+- **search** — cause × city queries (e.g. `"food pantry volunteer Plano, Texas"`) via Tavily.
+- **triage** — cheap, no-LLM elimination: drop aggregators (a blocklist), orgs
+  already covered (`orgs.json` / `orgs_rejected.json` / the scraped listings), and
+  domains already judged in a past run.
+- **investigate** — per surviving candidate: fetch the site *and* its top volunteer
+  pages, run a cheap mini-model local-org triage, then a strict full-model judgment
+  (reusing `qc_filter.py`'s definition of a real opportunity) with quoted evidence.
+- **select / propose** — accepts above a confidence threshold become schema-shaped
+  `orgs.json` entries.
+
+**Memory.** Long-term: `orgs_rejected.json` (reviewed-and-declined candidates,
+never re-proposed) and the agent's per-domain verdict ledger
+(`agent/seen_domains.json`) — both consulted by triage. Short-term: a LangGraph
+SQLite checkpointer for within-run resume. Models are behind `agent/discovery/llm.py`
+(OpenAI today; `DISCOVERY_PROVIDER=anthropic` swaps the whole agent to Claude).
+
+### Interactive dashboard (the way to run it)
+
+```powershell
+pip install -r requirements-agent.txt
+streamlit run agent/dashboard/app.py          # needs TAVILY_API_KEY + OPENAI_API_KEY in .env
+```
+
+A human-in-the-loop console (`agent/dashboard/`): build a query from cause/city
+presets or freeform text, then step through **search → triage → investigate →
+review**, overriding triage keep/drop and editing the proposed entries in a grid
+before opening a PR (or writing to `orgs.json` locally). Because the review
+happens in the dashboard, the GitHub side is trivial. (A headless CLI,
+`python -m agent.discovery --dry-run`, exists for development; the earlier
+scheduled GitHub Action was retired in favor of this dashboard.)
+
+### How a discovered org reaches the site
+
+Merge the PR (or write locally) → the org lands in `orgs.json` → the next weekly
+`refresh.ps1` run picks it up. `fetch_curated.py` is **incremental** via
+`curated_scraped.json` (a `{org_id: last_scraped}` ledger): only orgs not yet
+scraped are extracted (`--force` re-does all, `--org <id>` targets one), and every
+processed org is stamped so zero-yield pages aren't retried each week. From there
+it's the normal QC → classify → embed path — no manual steps.
+
+---
+
 ## Smart Search (RAG)
 
 Natural-language search over opportunities. Pipeline:
@@ -403,10 +466,11 @@ index lives in Supabase, so no large file ships with the build.
 ```powershell
 .\refresh.ps1
 ```
-Runs scrapers → `qc_filter.py` (curated only) → `classify_listings.py` →
-`build-rag-index.mjs`, in order — each step only touches new/changed records.
-Pass `-SkipEmbed` to skip the Supabase rebuild. Under the hood:
+Runs `fetch_curated.py` + the portal scrapers → `qc_filter.py` (curated only) →
+`classify_listings.py` → `build-rag-index.mjs`, in order — each step only touches
+new/changed records. Pass `-SkipEmbed` to skip the Supabase rebuild. Under the hood:
 ```powershell
+python fetch_curated.py                          # curated orgs (incremental via curated_scraped.json)
 python fetch_garland.py; python fetch_mckinney.py; python fetch_voly.py
 python fetch_idealist.py; python fetch_reddit.py
 python qc_filter.py

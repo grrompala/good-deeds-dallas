@@ -63,9 +63,15 @@ def get_llm():
     return st.session_state.llm
 
 
+# ── persistent app header (every stage) ──────────────────────────────────────
+st.title("🔎 Curated Discovery Agent")
+st.caption("Finds DFW nonprofits we don't cover yet and proposes them for Good Deeds Dallas · "
+           "step through search → triage → investigate → review, then open a PR.")
+st.divider()
+
 # ── stage: build query ───────────────────────────────────────────────────────
 if st.session_state.stage == "build":
-    st.title("🔎 Build a discovery query")
+    st.header("① Build a query")
     st.caption("Pick cause + city presets, add any freeform queries, then run search.")
     col1, col2 = st.columns(2)
     with col1:
@@ -98,7 +104,7 @@ if st.session_state.stage == "build":
 # ── stage: triage ────────────────────────────────────────────────────────────
 elif st.session_state.stage == "triage":
     state = st.session_state.gstate
-    st.title("② Triage")
+    st.header("② Triage")
     rows = session.triage_rows(state)
     kept_default = sum(1 for r in rows if r["keep"])
     st.caption(f"{len(rows)} candidate(s) found · {kept_default} pass automatic triage. "
@@ -142,7 +148,7 @@ elif st.session_state.stage == "triage":
 elif st.session_state.stage == "verdicts":
     verdicts = st.session_state.verdicts
     accepts = [v for v in verdicts if v.get("decision") == "accept"]
-    st.title("③ Verdicts")
+    st.header("③ Verdicts")
     st.caption(f"{len(verdicts)} investigated · {len(accepts)} accepted. "
                f"Entries below the {cfg.confidence_threshold:.2f} threshold won't become drafts.")
     for v in sorted(verdicts, key=lambda x: (x.get("decision") != "accept", -(x.get("confidence") or 0))):
@@ -168,7 +174,7 @@ elif st.session_state.stage == "verdicts":
 
 # ── stage: drafts (edit + finish) ────────────────────────────────────────────
 elif st.session_state.stage == "drafts":
-    st.title("④ Edit drafts & finish")
+    st.header("④ Edit drafts & finish")
     rows = st.session_state.drafts_rows
     if not rows:
         st.warning("No accepted orgs cleared the confidence threshold. Go back and "
