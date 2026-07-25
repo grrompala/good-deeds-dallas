@@ -27,6 +27,40 @@ const PAGE_SIZE = 12
 const CITY_MIN_COUNT = 3
 const CITY_MAX_PILLS = 18
 
+// A listing is a dated "event" only if it's a one-time occurrence AND carries a
+// real end date. one_time-without-a-date is a classifier mis-flag (common on
+// sources with no schedule field) — it can't go on a calendar, so it isn't an
+// event here. Kept in one place so the filter, the count, and the card agree.
+function isEvent(o) {
+  return o.expiry?.kind === 'one_time' && !!o.expiry?.ends_on
+}
+
+// Format an ISO date ('YYYY-MM-DD') as 'Jul 20', adding the year only when it
+// isn't the current one. '' on anything unparseable.
+function fmtDate(iso) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '')
+  if (!m) return ''
+  const d = new Date(+m[1], +m[2] - 1, +m[3])
+  return d.toLocaleDateString('en-US', {
+    month: 'short', day: 'numeric',
+    ...(d.getFullYear() !== new Date().getFullYear() ? { year: 'numeric' } : {}),
+  })
+}
+
+// The date label for a card. Prefers the parsed, cross-source expiry stamp
+// (populated for every source) over the legacy voly-only schedule.date: a
+// dated event shows its date ('Jul 20'); a bounded/seasonal ongoing program
+// shows when it stops ('Through Jul 24'). null when there's no date to show.
+function scheduleDateLabel(o) {
+  const ends = o.expiry?.ends_on
+  if (ends) {
+    const t = fmtDate(ends)
+    if (t) return o.expiry.kind === 'one_time' ? t : `Through ${t}`
+  }
+  const s = o.schedule || {}
+  return s.date && !s.recurring ? s.date : null
+}
+
 export default function ListingsPanel({ listings, compact = false, initialCauses = [], initialCities = [], initialVisible = PAGE_SIZE, onExpand, onSelectOrg, onSelectListing }) {
   // Multi-select: empty array = "All". Otherwise the listing must match ANY
   // selected site and ANY selected cause (OR within a group, AND across groups).
@@ -103,12 +137,13 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
       .map(([id, count]) => ({ id, count }))
   }, [listings])
 
-  // When filter counts — how many one-time events vs ongoing roles. Records with
-  // no expiry stamp (unknown/missing) only appear under "All".
+  // When filter counts. "Events" = a dated single occurrence — one_time AND an
+  // actual date; a one_time with no date is a mis-flag, not something we can
+  // put on a calendar, so it stays out of Events (and only shows under All).
   const whenOptions = useMemo(() => {
     let events = 0, ongoing = 0
     listings.forEach(o => {
-      if (o.expiry?.kind === 'one_time') events++
+      if (isEvent(o)) events++
       else if (o.expiry?.kind === 'ongoing') ongoing++
     })
     return { all: listings.length, events, ongoing }
@@ -119,7 +154,7 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
     if (sources.length) rows = rows.filter(o => sources.includes(o.source))
     if (causes.length)  rows = rows.filter(o => getTags(o).some(t => causes.includes(t)))
     if (cities.length)  rows = rows.filter(o => cities.includes(cityName(o)))
-    if (when === 'events')  rows = rows.filter(o => o.expiry?.kind === 'one_time')
+    if (when === 'events')  rows = rows.filter(isEvent)
     else if (when === 'ongoing') rows = rows.filter(o => o.expiry?.kind === 'ongoing')
     // Order: 'upcoming' = soonest end date first (undated sink to the bottom);
     // 'recent' = most recently added first.
@@ -380,6 +415,7 @@ export function ListingRow({ data, compact, onSelectOrg, onSelectListing }) {
   // Visible city label (was a hover-only pin). McKinney's city field is too
   // noisy to trust, so it stays suppressed for that source.
   const city      = source !== 'volunteermckinney' ? cityName(data) : null
+  const dateLabel = scheduleDateLabel(data)
   const cleanTags = getTags(data)
   const orgLabel  = cleanOrgName(org_name)
   const orgK      = orgKey(org_name)
@@ -453,7 +489,7 @@ export function ListingRow({ data, compact, onSelectOrg, onSelectListing }) {
           )}
 
           <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1.5 text-xs text-muted">
-            {schedule?.date && !schedule?.recurring && <Meta icon="calendar">{schedule.date}</Meta>}
+            {dateLabel && <Meta icon="calendar">{dateLabel}</Meta>}
             {postedLabel        && <Meta icon="posted">Posted {postedLabel}</Meta>}
             {schedule?.duration && <Meta icon="clock">{schedule.duration}</Meta>}
             {volunteers_needed > 0 && <Meta icon="users">{volunteers_needed.toLocaleString()} needed</Meta>}

@@ -158,14 +158,24 @@ RUBRIC_DATES = """\
 You are extracting scheduling facts from volunteer-opportunity listings.
 
 For each item decide:
-- "kind": "one_time" if it is a dated, non-recurring event; "ongoing" if it
-  repeats indefinitely or is open-ended (weekly shifts, anytime, flexible);
-  "unknown" if you cannot tell.
+- "kind":
+  - "one_time": happens on ONE specific calendar date (or a single continuous
+    occurrence like one weekend) AND that date is explicitly stated. A one_time
+    item MUST have an "ends_on". If no explicit date is given, it is NOT
+    one_time — even if the title sounds like an event ("August Work Day",
+    "Run for Hope Volunteers").
+  - "ongoing": repeats or is open-ended (weekly shifts, anytime, flexible), OR
+    runs as a program spanning multiple days/weeks even if bounded by start and
+    end dates (e.g. "June 8-July 24, Mondays-Thursdays", a seasonal or
+    multi-week program). Anything covering more than a single day is ongoing,
+    not one_time. An ongoing item MAY still carry an "ends_on" (the date it
+    stops).
+  - "unknown": you cannot tell, or it sounds dated but gives no usable date.
 - "ends_on": the LAST calendar date the opportunity happens, as YYYY-MM-DD —
-  the event date for a one-time event, the final date of a range, or an
-  explicit "until"/end date (an ongoing opportunity can still have one).
-  null if there is no explicit, complete date. NEVER guess: if no year is
-  stated, use null. Do not infer a date from vague words like "summer".
+  the event date for a one_time event, or the final date of a range / explicit
+  "until" date for an ongoing program. null if there is no explicit, complete
+  date. NEVER guess: if no year is stated, use null. Do not infer a date from
+  vague words like "summer".
 
 Return ONLY a JSON array, one object per input item, in the same order:
 [{"id": "<id>", "kind": "one_time" | "ongoing" | "unknown", "ends_on": "YYYY-MM-DD" | null}]
@@ -248,8 +258,15 @@ def expiry_pass(records, client, provider, model, recheck, batch_size):
             ends_on = v.get("ends_on")
             if ends_on is not None and not re.match(r"^\d{4}-\d{2}-\d{2}$", str(ends_on)):
                 ends_on = None  # malformed date from the model — don't trust it
+            kind = v.get("kind") if v.get("kind") in ("one_time", "ongoing", "unknown") else "unknown"
+            # A dated event must actually carry a date. The model sometimes calls
+            # something one_time from the title alone (sources with no schedule
+            # field are the worst offenders); without a date it can't go on a
+            # calendar, so downgrade it rather than pollute the events view.
+            if kind == "one_time" and not ends_on:
+                kind = "unknown"
             r["expiry"] = {
-                "kind": v.get("kind") if v.get("kind") in ("one_time", "ongoing", "unknown") else "unknown",
+                "kind": kind,
                 "ends_on": ends_on,
                 "model": model,
                 "checked_at": now,

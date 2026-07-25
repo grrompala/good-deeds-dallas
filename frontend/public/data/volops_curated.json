@@ -127,10 +127,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -174,10 +174,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -220,10 +220,10 @@
       "animals"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -268,10 +268,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -314,10 +314,10 @@
       "animals"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -516,7 +516,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -563,7 +563,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -647,10 +647,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -699,7 +699,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -747,7 +747,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -1025,7 +1025,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -1104,10 +1104,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -1191,7 +1191,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -1234,10 +1234,10 @@
       "disabilities"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -1286,7 +1286,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -1332,7 +1332,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -1376,7 +1376,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -1424,7 +1424,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -1468,7 +1468,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -1515,7 +1515,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -1643,7 +1643,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -1685,7 +1685,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -1733,7 +1733,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -1781,7 +1781,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -1869,7 +1869,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -1911,7 +1911,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -2062,7 +2062,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -2107,7 +2107,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -2152,7 +2152,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -2201,7 +2201,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -2246,7 +2246,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -2295,7 +2295,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -2343,7 +2343,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -2391,7 +2391,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -2441,7 +2441,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -2490,7 +2490,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -2581,10 +2581,10 @@
     "apply_url": null,
     "apply_instructions": "Register online to learn more about volunteer opportunities.",
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T04:21:01.320492+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -2641,7 +2641,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -2682,10 +2682,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -2729,7 +2729,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -2773,10 +2773,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -2817,10 +2817,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -2865,7 +2865,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -2909,10 +2909,10 @@
       "animals"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -2954,10 +2954,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -3078,10 +3078,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -3159,7 +3159,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -3209,7 +3209,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -3259,7 +3259,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -3307,7 +3307,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -3355,7 +3355,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -3582,10 +3582,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -3629,7 +3629,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -3678,7 +3678,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -3728,7 +3728,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -3776,7 +3776,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -3824,7 +3824,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -3869,10 +3869,10 @@
       "food_security"
     ],
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -3917,7 +3917,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -3964,10 +3964,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -4009,10 +4009,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -4054,10 +4054,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -4105,7 +4105,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -4146,10 +4146,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -4233,10 +4233,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -4277,10 +4277,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -4324,7 +4324,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -4369,10 +4369,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -4417,10 +4417,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -4464,10 +4464,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -4549,7 +4549,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -4672,10 +4672,10 @@
     "apply_url": "http://dal.city/AustinStreetRegister",
     "apply_instructions": "Register online at dal.city/AustinStreetRegister and sign up for a volunteer shift.",
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -4724,7 +4724,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -4771,7 +4771,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -4818,7 +4818,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -4865,7 +4865,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -4912,7 +4912,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -5004,7 +5004,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -5100,10 +5100,10 @@
       "animals"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -5144,10 +5144,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -5191,10 +5191,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -5235,10 +5235,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -5325,7 +5325,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -5369,7 +5369,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -5419,7 +5419,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -5461,10 +5461,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -5510,10 +5510,10 @@
       "environment"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -5561,7 +5561,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -5609,7 +5609,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -5654,10 +5654,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -5705,7 +5705,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -5753,7 +5753,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -5917,7 +5917,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -5959,7 +5959,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6001,7 +6001,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6043,7 +6043,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6085,7 +6085,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6124,10 +6124,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6169,7 +6169,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6253,7 +6253,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6295,7 +6295,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6337,7 +6337,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6379,7 +6379,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6461,7 +6461,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6505,7 +6505,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6553,7 +6553,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6600,7 +6600,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6644,7 +6644,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6688,7 +6688,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6733,7 +6733,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6779,7 +6779,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6827,7 +6827,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6874,7 +6874,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6921,7 +6921,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -6967,7 +6967,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -7061,7 +7061,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -7110,7 +7110,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -7202,7 +7202,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -7846,7 +7846,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -7895,7 +7895,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -7945,7 +7945,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -8115,7 +8115,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -8160,10 +8160,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -8208,10 +8208,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -8259,7 +8259,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -8345,7 +8345,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -8394,7 +8394,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -8443,7 +8443,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -8492,7 +8492,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -8526,11 +8526,11 @@
     "apply_url": null,
     "apply_instructions": "Sign up for a week only if committing to attend Sunday orientation and Monday-Thursday programs.",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Help in summer programs for refugee children.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-07-24)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "unified_tags": [
       "children",
@@ -8538,10 +8538,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "one_time",
+      "kind": "ongoing",
       "ends_on": "2026-07-24",
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -8586,7 +8586,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -8710,10 +8710,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -8757,10 +8757,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -8801,10 +8801,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -8848,7 +8848,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -8895,7 +8895,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -8943,7 +8943,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -8988,7 +8988,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -9084,7 +9084,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -9133,7 +9133,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -9350,7 +9350,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -9509,7 +9509,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -9553,7 +9553,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -9599,7 +9599,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -9646,7 +9646,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -9690,10 +9690,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -9734,10 +9734,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -9778,10 +9778,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -9824,10 +9824,10 @@
       "animals"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -9871,10 +9871,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -9918,10 +9918,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -9962,10 +9962,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10010,10 +10010,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10149,7 +10149,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10190,10 +10190,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10284,7 +10284,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10328,7 +10328,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10370,10 +10370,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "one_time",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10420,7 +10420,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10464,7 +10464,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10511,7 +10511,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10559,7 +10559,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10607,7 +10607,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10655,7 +10655,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10703,7 +10703,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10747,7 +10747,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10791,7 +10791,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10837,10 +10837,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10887,7 +10887,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -10934,7 +10934,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -11272,7 +11272,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -11320,7 +11320,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -11402,7 +11402,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -11446,7 +11446,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -11491,7 +11491,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -11536,7 +11536,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -11578,10 +11578,10 @@
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -11667,7 +11667,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -11751,7 +11751,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -11795,7 +11795,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -11881,7 +11881,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -11925,7 +11925,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12007,7 +12007,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12089,7 +12089,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12138,7 +12138,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12182,7 +12182,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12226,7 +12226,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12272,7 +12272,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12320,7 +12320,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12368,7 +12368,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12412,7 +12412,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12456,7 +12456,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12500,7 +12500,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12581,10 +12581,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12626,10 +12626,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12671,10 +12671,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12716,10 +12716,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12843,7 +12843,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12927,7 +12927,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -12972,7 +12972,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -13017,7 +13017,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -13061,7 +13061,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -13105,7 +13105,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -13306,10 +13306,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -13392,10 +13392,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -13439,10 +13439,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -13478,7 +13478,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -13625,7 +13625,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -13666,10 +13666,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -13710,10 +13710,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -13757,7 +13757,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -13805,7 +13805,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -13850,7 +13850,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -13973,10 +13973,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -14022,10 +14022,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -14108,10 +14108,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -14152,10 +14152,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -14196,10 +14196,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -14365,7 +14365,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -14407,10 +14407,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -14451,10 +14451,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -14499,10 +14499,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -14587,10 +14587,10 @@
       "environment"
     ],
     "expiry": {
-      "kind": "one_time",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -14638,7 +14638,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -14720,7 +14720,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -14843,7 +14843,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -14887,7 +14887,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -14935,7 +14935,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -14983,7 +14983,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -15027,7 +15027,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -15071,7 +15071,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -15119,7 +15119,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -15167,7 +15167,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -15211,7 +15211,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -15298,7 +15298,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -15346,7 +15346,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -15387,10 +15387,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -15434,7 +15434,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -15482,7 +15482,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -15567,7 +15567,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -15612,10 +15612,10 @@
       "foster_care"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -15658,10 +15658,10 @@
       "animals"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -15746,10 +15746,10 @@
       "animals"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -15794,10 +15794,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -15877,7 +15877,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -15995,7 +15995,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -16148,7 +16148,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -16236,7 +16236,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -16284,7 +16284,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -16333,7 +16333,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -16383,7 +16383,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -16471,7 +16471,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -16519,7 +16519,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -16567,7 +16567,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -16615,7 +16615,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -16659,7 +16659,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -16707,7 +16707,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -16756,7 +16756,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -16803,7 +16803,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -16849,7 +16849,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -16893,7 +16893,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -16942,7 +16942,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -16989,7 +16989,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -17030,10 +17030,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -17081,7 +17081,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -17129,7 +17129,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -17178,7 +17178,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -17212,18 +17212,18 @@
     "apply_url": "here",
     "apply_instructions": "Apply by midnight on April 6, 2026.",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Concrete role in volunteering and leading at the food bank.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2023-08-08)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "one_time",
-      "ends_on": "2026-08-08",
+      "kind": "ongoing",
+      "ends_on": "2023-08-08",
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -17320,7 +17320,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -17368,7 +17368,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -17416,7 +17416,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -17466,7 +17466,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -17510,7 +17510,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -17546,7 +17546,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -17589,10 +17589,10 @@
     "apply_url": null,
     "apply_instructions": "Complete a registration form and pay your volunteer fee of $10 per person.",
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -17633,10 +17633,10 @@
     "apply_url": null,
     "apply_instructions": "Complete a registration form and pay your volunteer fee of $10 per person.",
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -17682,7 +17682,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -17769,10 +17769,10 @@
     "apply_url": null,
     "apply_instructions": "Complete a registration form and pay your volunteer fee of $10 per person.",
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -17816,10 +17816,10 @@
     "apply_url": null,
     "apply_instructions": "Complete a registration form and pay your volunteer fee of $10 per person.",
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -17866,7 +17866,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-21T03:59:20.593380+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "qc": {
       "status": "passed",
@@ -17970,7 +17970,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -18049,10 +18049,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -18100,7 +18100,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -18141,10 +18141,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -18232,7 +18232,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -18277,10 +18277,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -18324,7 +18324,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -18368,7 +18368,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -18416,7 +18416,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -18460,7 +18460,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -18505,7 +18505,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -18549,7 +18549,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -18596,7 +18596,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -18641,7 +18641,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -18685,7 +18685,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -18730,7 +18730,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -18985,7 +18985,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -19034,7 +19034,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -19079,10 +19079,10 @@
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
     "expiry": {
-      "kind": "one_time",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -19126,7 +19126,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -19174,7 +19174,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -19221,7 +19221,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -19270,7 +19270,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -19318,7 +19318,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -19363,7 +19363,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -19404,10 +19404,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "one_time",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -19455,7 +19455,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -19499,7 +19499,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -19712,10 +19712,10 @@
       "children"
     ],
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -19758,10 +19758,10 @@
       "children"
     ],
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -19805,10 +19805,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -19849,10 +19849,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -19896,7 +19896,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -19978,7 +19978,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -20143,7 +20143,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -20192,7 +20192,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -20241,7 +20241,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -20286,7 +20286,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -20422,7 +20422,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -20467,7 +20467,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -20514,7 +20514,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -20597,7 +20597,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -20684,7 +20684,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -20940,7 +20940,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -21023,7 +21023,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -21065,7 +21065,7 @@
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -21271,10 +21271,10 @@
       "environment"
     ],
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -21319,10 +21319,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -21366,7 +21366,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -21414,7 +21414,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -21462,7 +21462,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -21510,7 +21510,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -21558,7 +21558,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -21606,7 +21606,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -21653,7 +21653,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -21697,7 +21697,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -21743,7 +21743,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -21833,7 +21833,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -21880,7 +21880,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -22061,21 +22061,21 @@
     "apply_url": null,
     "apply_instructions": "Sign up for specific volunteer dates.",
     "qc": {
-      "status": "passed",
-      "category": null,
-      "reason": "Concrete volunteer role in distributing groceries.",
-      "model": "gpt-4o",
-      "checked_at": "2026-06-08T03:13:37.319340+00:00"
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2023-10-17)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     },
     "unified_tags": [
       "food_security",
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
-      "ends_on": null,
+      "kind": "one_time",
+      "ends_on": "2023-10-17",
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -22123,7 +22123,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -22201,7 +22201,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -22245,10 +22245,10 @@
       "environment"
     ],
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -22292,10 +22292,10 @@
       "environment"
     ],
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -22339,10 +22339,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -22423,10 +22423,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -22474,7 +22474,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -22761,10 +22761,10 @@
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -22809,10 +22809,10 @@
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -22899,10 +22899,10 @@
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -22946,10 +22946,10 @@
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -23036,10 +23036,10 @@
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -23083,7 +23083,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -23128,7 +23128,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -23176,7 +23176,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -23224,7 +23224,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -23273,7 +23273,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -23516,7 +23516,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -23560,7 +23560,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -23609,7 +23609,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -23657,7 +23657,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -23832,7 +23832,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -23879,7 +23879,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24006,7 +24006,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24051,7 +24051,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24097,7 +24097,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24182,10 +24182,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24233,7 +24233,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24280,7 +24280,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24324,7 +24324,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24369,7 +24369,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24416,7 +24416,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24465,7 +24465,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24550,7 +24550,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24595,7 +24595,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24642,7 +24642,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24730,7 +24730,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24776,7 +24776,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24821,7 +24821,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24862,10 +24862,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24910,10 +24910,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -24995,10 +24995,10 @@
       "foster_care"
     ],
     "expiry": {
-      "kind": "one_time",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -25039,10 +25039,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -25084,10 +25084,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -25132,10 +25132,10 @@
       "housing"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -25215,10 +25215,10 @@
     },
     "unified_tags": [],
     "expiry": {
-      "kind": "one_time",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -25264,10 +25264,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "ongoing",
+      "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -25312,7 +25312,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -25356,10 +25356,10 @@
       "community"
     ],
     "expiry": {
-      "kind": "unknown",
+      "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -25408,7 +25408,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
@@ -25453,7 +25453,7 @@
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
-      "checked_at": "2026-07-17T01:07:41.466287+00:00"
+      "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
   },
   {
