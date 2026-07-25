@@ -30,6 +30,7 @@ import AdvancedSearchPanel from './AdvancedSearchPanel'
 import TagChip             from './TagChip'
 import SourcesBlurb, { CONTACT_EMAIL } from './SourcesBlurb'
 import { buildOrgs }       from './orgs'
+import { parseQuery, matchesQuery } from '../lib/search'
 
 // Some national sources (e.g. Idealist, Voly) occasionally surface a listing
 // from outside the metro. We keep a listing if its address shows any Texas /
@@ -122,24 +123,28 @@ export default function HomeClient({
   }, [])
 
   // ── Search filter ────────────────────────────────────────────────────────
+  // `terms` are the parsed query tokens (quoted phrases stay intact); a listing
+  // matches only if its haystack contains ALL terms (see lib/search.js). `q` is
+  // still used elsewhere as the "is a search active?" flag.
   const q = search.trim().toLowerCase()
+  const terms = useMemo(() => parseQuery(search), [search])
   const filteredOpps = useMemo(() => {
-    if (!q) return opportunities
+    if (!terms.length) return opportunities
     return opportunities.filter(o => {
       const hay = [
         o.opportunity_title, o.org_name, o.description_short, o.description_long,
         ...(o.cause_tags || []), ...(o.unified_tags || []), o.address?.city,
       ].filter(Boolean).join(' ').toLowerCase()
-      return hay.includes(q)
+      return matchesQuery(hay, terms)
     })
-  }, [opportunities, q])
+  }, [opportunities, terms])
 
   const filteredNews = useMemo(() => {
-    if (!q) return news
+    if (!terms.length) return news
     return news.filter(p =>
-      `${p.title} ${p.body || ''} ${p.subreddit}`.toLowerCase().includes(q)
+      matchesQuery(`${p.title} ${p.body || ''} ${p.subreddit}`.toLowerCase(), terms)
     )
-  }, [news, q])
+  }, [news, terms])
 
   // Organizations are now DERIVED from the listings themselves (no separate
   // curated source). Both panels read from the same filtered listings.

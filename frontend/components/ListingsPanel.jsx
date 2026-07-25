@@ -36,6 +36,12 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
   const [causes,  setCauses]  = useState(initialCauses)
   const [cities,  setCities]  = useState(initialCities)
 
+  // Timing filter (single-select): 'all' | 'events' (one-time, dated) | 'ongoing'
+  // (standing roles). Keyed on expiry.kind, the only cross-source timing signal.
+  const [when, setWhen] = useState('all')
+  // Result order: 'recent' (most recently added) | 'upcoming' (soonest end date).
+  const [sort, setSort] = useState('recent')
+
   // The City pill row stays collapsed until asked for (screen-space thrift);
   // starts open when a city filter arrives pre-applied.
   const [cityRowOpen, setCityRowOpen] = useState(initialCities.length > 0)
@@ -49,7 +55,7 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
   }, [])
   const filtersVisibleClass =
     filtersOpen === null ? 'hidden sm:block' : filtersOpen ? 'block' : 'hidden'
-  const activeFilterCount = sources.length + causes.length + cities.length
+  const activeFilterCount = sources.length + causes.length + cities.length + (when !== 'all' ? 1 : 0)
 
   // Toggle a value in/out of a selection array.
   function toggle(setter, value) {
@@ -97,14 +103,32 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
       .map(([id, count]) => ({ id, count }))
   }, [listings])
 
+  // When filter counts — how many one-time events vs ongoing roles. Records with
+  // no expiry stamp (unknown/missing) only appear under "All".
+  const whenOptions = useMemo(() => {
+    let events = 0, ongoing = 0
+    listings.forEach(o => {
+      if (o.expiry?.kind === 'one_time') events++
+      else if (o.expiry?.kind === 'ongoing') ongoing++
+    })
+    return { all: listings.length, events, ongoing }
+  }, [listings])
+
   const filtered = useMemo(() => {
     let rows = listings
     if (sources.length) rows = rows.filter(o => sources.includes(o.source))
     if (causes.length)  rows = rows.filter(o => getTags(o).some(t => causes.includes(t)))
     if (cities.length)  rows = rows.filter(o => cities.includes(cityName(o)))
-    // Fixed order: most recently added first.
-    return [...rows].sort((a, b) => (b.last_scraped || '').localeCompare(a.last_scraped || ''))
-  }, [listings, sources, causes, cities])
+    if (when === 'events')  rows = rows.filter(o => o.expiry?.kind === 'one_time')
+    else if (when === 'ongoing') rows = rows.filter(o => o.expiry?.kind === 'ongoing')
+    // Order: 'upcoming' = soonest end date first (undated sink to the bottom);
+    // 'recent' = most recently added first.
+    return [...rows].sort((a, b) =>
+      sort === 'upcoming'
+        ? (a.expiry?.ends_on || '9999').localeCompare(b.expiry?.ends_on || '9999')
+        : (b.last_scraped || '').localeCompare(a.last_scraped || '')
+    )
+  }, [listings, sources, causes, cities, when, sort])
 
   // ── Infinite scroll (non-compact) ─────────────────────────────────────────
   // Reveal rows a page at a time; a sentinel near the bottom loads more as
@@ -115,7 +139,7 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
   const sentinelRef = useRef(null)
 
   // Reset the window whenever the result set changes (filters/sort).
-  useEffect(() => { setVisibleCount(initialVisible) }, [sources, causes, cities, listings, initialVisible])
+  useEffect(() => { setVisibleCount(initialVisible) }, [sources, causes, cities, when, sort, listings, initialVisible])
 
   useEffect(() => {
     if (compact) return
@@ -179,6 +203,18 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
               ))}
             </FilterRow>
 
+            <FilterRow label="When">
+              <SitePill active={when === 'all'} count={whenOptions.all} onClick={() => setWhen('all')}>
+                Anytime
+              </SitePill>
+              <SitePill active={when === 'events'} count={whenOptions.events} onClick={() => setWhen('events')}>
+                Events
+              </SitePill>
+              <SitePill active={when === 'ongoing'} count={whenOptions.ongoing} onClick={() => setWhen('ongoing')}>
+                Ongoing
+              </SitePill>
+            </FilterRow>
+
             <FilterRow label="Cause">
               <SitePill active={causes.length === 0} count={causeOptions[0]?.count} onClick={() => setCauses([])}>
                 All causes
@@ -233,11 +269,33 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
         </>
       )}
 
+      {/* Sort control — always visible (outside the collapsible filter block),
+          non-compact only. Upcoming needs an end date, so it's most useful with
+          the Events filter on, but it works across any result set. */}
+      {!compact && (
+        <div className="mb-4 flex items-center justify-end gap-2">
+          <span className="text-xs font-mono uppercase tracking-wider text-muted">Sort</span>
+          <div className="inline-flex rounded-full border border-line bg-white p-0.5">
+            {[['recent', 'Recently added'], ['upcoming', 'Upcoming']].map(([id, label]) => (
+              <button
+                key={id}
+                onClick={() => setSort(id)}
+                className={`px-3 py-1 rounded-full text-sm font-medium transition-colors whitespace-nowrap ${
+                  sort === id ? 'bg-brand text-white' : 'text-inkSoft hover:text-brand'
+                }`}
+              >
+                {label}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
       {visible.length === 0 ? (
         <div className="bg-white border border-line rounded-2xl py-12 text-center">
           <p className="text-sm text-muted">No matches.</p>
           <button
-            onClick={() => { setSources([]); setCauses([]); setCities([]) }}
+            onClick={() => { setSources([]); setCauses([]); setCities([]); setWhen('all') }}
             className="mt-2 text-brand text-sm font-semibold hover:text-brandDark"
           >
             Reset filters
