@@ -1813,5 +1813,27 @@
     "fallback_urls": [],
     "notes": "Mobile Pantry volunteers help distribute food directly to clients in a fast-paced, outdoor environment.",
     "active": true
+  },
+  {
+    "id": "suicide_and_crisis_center_of_north_texas_dallas",
+    "name": "Suicide and Crisis Center of North Texas",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["crisis_support", "mental_health"],
+    "volunteer_url": "https://www.sccenter.org/volunteer",
+    "fallback_urls": [],
+    "notes": "Provides crisis line support; volunteers undergo training and commit to weekly shifts.",
+    "active": true
+  },
+  {
+    "id": "suicide_and_crisis_center_of_north_texas_dallas",
+    "name": "Suicide and Crisis Center of North Texas",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["crisis_support", "mental_health"],
+    "volunteer_url": "https://www.sccenter.org/volunteer",
+    "fallback_urls": [],
+    "notes": "Provides crisis line support; volunteers undergo training and commit to weekly shifts.",
+    "active": true
   }
 ]
