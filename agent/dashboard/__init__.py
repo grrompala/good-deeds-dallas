@@ -3,5 +3,5 @@ the discovery agent. Build a query, step through each pipeline stage, inspect an
 edit between steps, edit the proposed orgs.json entries, then open a PR (or write
 locally). Replaces the fire-and-forget GitHub Action with interactive review.
 
-Run:  streamlit run agent/dashboard/app.py
+Run:  streamlit run agent/dashboard/Discover_orgs.py
 """

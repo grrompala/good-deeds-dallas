@@ -287,6 +287,21 @@ def run_curated_tags() -> tuple[bool, str]:
     return _run(["classify_listings.py", "--file", "volops_curated"])
 
 
+def curated_records(org_ids: list[str]) -> list[dict]:
+    """The actual scraped listings for the given orgs, read fresh from
+    volops_curated.json — so the dashboard can preview what was curated without
+    leaving. Ordered by org then title; each dict is the raw record."""
+    ids = set(org_ids)
+    try:
+        with open(CURATED_FILE, encoding="utf-8") as f:
+            records = json.load(f)
+    except (OSError, ValueError):
+        return []
+    rows = [r for r in records if r.get("org_id") in ids]
+    rows.sort(key=lambda r: (r.get("org_name") or "", r.get("opportunity_title") or ""))
+    return rows
+
+
 def curated_yield(org_ids: list[str]) -> dict[str, dict]:
     """Post-run summary keyed by org id: how many listings survived QC and how
     many were rejected, read from the current volops_curated.json. Orgs that

@@ -292,7 +292,7 @@ SQLite checkpointer for within-run resume. Models are behind `agent/discovery/ll
 
 ```powershell
 pip install -r requirements-agent.txt
-streamlit run agent/dashboard/app.py          # needs TAVILY_API_KEY + OPENAI_API_KEY in .env
+streamlit run agent/dashboard/Discover_orgs.py   # needs TAVILY_API_KEY + OPENAI_API_KEY in .env
 ```
 
 A human-in-the-loop console (`agent/dashboard/`): build a query from cause/city

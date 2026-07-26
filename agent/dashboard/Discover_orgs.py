@@ -1,6 +1,8 @@
-"""Discovery dashboard UI (Streamlit). Thin layer over session.py.
+"""Discovery dashboard — "Discover orgs" workflow (Streamlit). Thin layer over
+session.py. This is the dashboard's entry script; the sidebar nav also exposes
+the "Scrape pending" page (agent/dashboard/pages/).
 
-    streamlit run agent/dashboard/app.py
+    streamlit run agent/dashboard/Discover_orgs.py
 
 Needs TAVILY_API_KEY (search) and OPENAI_API_KEY (investigate) in your env/.env.
 """
@@ -14,8 +16,8 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
-# Allow `streamlit run agent/dashboard/app.py` from the repo root to import the
-# agent packages (root on sys.path).
+# Allow `streamlit run agent/dashboard/Discover_orgs.py` from the repo root to
+# import the agent packages (root on sys.path).
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
 from agent.dashboard import session  # noqa: E402
