@@ -21189,6 +21189,49 @@
     "unified_tags": []
   },
   {
+    "id": "suicide_and_crisis_center_of_north_texas_dallas_0",
+    "source": "curated",
+    "org_id": "suicide_and_crisis_center_of_north_texas_dallas",
+    "org_name": "Suicide and Crisis Center of North Texas",
+    "source_url": "https://www.sccenter.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-07-26T04:31:44.965789+00:00",
+    "opportunity_title": "Crisis Line Volunteer",
+    "description_short": "Support those in crisis by becoming a crisis line volunteer.",
+    "description_long": "Volunteers are asked to commit to one 3 to 4 hour shift per week for at least six months. Shifts are available 24 hours a day after completing necessary training.",
+    "schedule": {
+      "raw": "one shift per week for at least six months",
+      "recurring": true,
+      "times_of_day": "24 hours"
+    },
+    "commitment": "1 shift (3 to 4 hours) per week for at least 6 months",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": true
+    },
+    "requirements": "Must complete ten weeks of training classes, one evening a week.",
+    "cause_tags": [
+      "crisis_support"
+    ],
+    "apply_url": "mailto:volunteer@sccenter.org",
+    "apply_instructions": "Call 214-824-7020 or email volunteer@sccenter.org to express interest.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-07-26T04:31:50.895539+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role as a crisis line volunteer with specific shift commitment.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-26T04:31:47.537342+00:00"
+    }
+  },
+  {
     "id": "tlt_tomorrow_s_leaders_today_inc_0",
     "source": "curated",
     "org_id": "tlt_tomorrow_s_leaders_today_inc",
