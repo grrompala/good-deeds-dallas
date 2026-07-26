@@ -9,7 +9,10 @@ select — so the two paths can't drift.
 
 from __future__ import annotations
 
+import json
+import os
 import subprocess
+import sys
 from urllib.parse import urlparse
 
 from agent.discovery import config, tools
@@ -209,3 +212,93 @@ def open_pr(cfg: config.RunConfig, drafts: list[dict], verdicts: list[dict]) -> 
     subprocess.run(["git", "push", "-u", "origin", branch],
                    cwd=config.REPO_ROOT, check=True, capture_output=True, text=True)
     return {"url": _compare_url(branch, cfg.base_branch), "via": "compare", "branch": branch}
+
+
+# ── Curated scrape (post-merge: get newly-merged orgs live on the site) ───────
+# Drives the "Scrape pending" page. orgs.json is only the input list — an org
+# merged by a discovery PR stays invisible until fetch_curated scrapes it into
+# volops_curated.json and QC/tags run. These run that curated sub-pipeline on
+# demand. Each underlying script is a CLI batch tool with hard-coded relative
+# paths, so we shell out with cwd=REPO_ROOT (as the finish step does for git),
+# rather than importing. fetch_curated's load_dotenv() + the inherited env
+# supply the LLM key — the same requirement as the discovery flow.
+
+CURATED_FILE = config.REPO_ROOT / "frontend" / "public" / "data" / "volops_curated.json"
+
+
+def _fetch_curated_mod():
+    """Import the repo-root fetch_curated module (repo root is importable here,
+    same as agent.discovery). Importing it also runs its load_dotenv()."""
+    root = str(config.REPO_ROOT)
+    if root not in sys.path:
+        sys.path.insert(0, root)
+    import fetch_curated
+    return fetch_curated
+
+
+def pending_orgs() -> list[dict]:
+    """Active orgs merged into orgs.json that haven't been scraped yet — the same
+    set a no-arg `fetch_curated.py` run would process."""
+    return _fetch_curated_mod().pending_orgs()
+
+
+def _run(cmd: list[str]) -> tuple[bool, str]:
+    """Run a repo script with the current interpreter, capturing combined output.
+
+    Force UTF-8 on the child: these scripts print org names / listing titles that
+    can contain emoji, and to a captured (piped) stdout Python otherwise defaults
+    to the Windows cp1252 codec and crashes on the first emoji — e.g. qc_filter
+    printing an expired listing's title. PYTHONIOENCODING fixes the child's
+    stdout; encoding/errors fixes our decode side."""
+    env = {**os.environ, "PYTHONIOENCODING": "utf-8"}
+    proc = subprocess.run([sys.executable, *cmd], cwd=config.REPO_ROOT,
+                          capture_output=True, text=True,
+                          encoding="utf-8", errors="replace", env=env)
+    out = ((proc.stdout or "") + (proc.stderr or "")).strip()
+    return proc.returncode == 0, out
+
+
+def scrape_org_ids(org_ids: list[str], on_progress=None) -> list[dict]:
+    """Scrape each org one at a time (fetch_curated --org <id>) so the UI can show
+    progress. Each run re-merges volops_curated.json and stamps the ledger.
+    Returns per-org {id, ok, output}."""
+    results = []
+    total = len(org_ids)
+    for i, oid in enumerate(org_ids, 1):
+        if on_progress:
+            on_progress(i, total, oid)
+        ok, out = _run(["fetch_curated.py", "--org", oid])
+        results.append({"id": oid, "ok": ok, "output": out})
+    return results
+
+
+def run_curated_qc() -> tuple[bool, str]:
+    """Dedup + expiry + content-judge the curated file in place (defaults to it)."""
+    return _run(["qc_filter.py"])
+
+
+def run_curated_tags() -> tuple[bool, str]:
+    """Add unified_tags to any untagged curated records in place."""
+    return _run(["classify_listings.py", "--file", "volops_curated"])
+
+
+def curated_yield(org_ids: list[str]) -> dict[str, dict]:
+    """Post-run summary keyed by org id: how many listings survived QC and how
+    many were rejected, read from the current volops_curated.json. Orgs that
+    yielded nothing simply report zeros."""
+    out = {oid: {"listings": 0, "rejected": 0} for oid in org_ids}
+    ids = set(org_ids)
+    try:
+        with open(CURATED_FILE, encoding="utf-8") as f:
+            records = json.load(f)
+    except (OSError, ValueError):
+        return out
+    for r in records:
+        oid = r.get("org_id")
+        if oid not in ids:
+            continue
+        if (r.get("qc") or {}).get("status") == "rejected":
+            out[oid]["rejected"] += 1
+        else:
+            out[oid]["listings"] += 1
+    return out

@@ -48,6 +48,20 @@ def save_ledger(ledger):
     with open(LEDGER_FILE, "w", encoding="utf-8") as f:
         json.dump(ledger, f, indent=2, ensure_ascii=False, sort_keys=True)
 
+
+def pending_orgs(orgs=None):
+    """Active orgs in orgs.json that have never been scraped (not in the ledger).
+
+    This is the same set `main()` scrapes on a no-arg (incremental) run — a
+    freshly-merged discovery org shows up here until fetch runs for it. Shared so
+    the dashboard's "scrape pending" page and the CLI can't drift on the diff."""
+    if orgs is None:
+        with open(ORGS_FILE, encoding="utf-8") as f:
+            orgs = json.load(f)
+    active = [o for o in orgs if o.get("active", True)]
+    ledger = load_ledger()
+    return [o for o in active if o["id"] not in ledger]
+
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; VolunteerHubBot/1.0; +mailto:grrompala@gmail.com)"
 }
@@ -368,7 +382,7 @@ def main():
         todo = active_orgs
         print(f"Processing {len(todo)} org(s){' (--force)' if args.force else ''}...\n")
     else:
-        todo = [o for o in active_orgs if o["id"] not in ledger]
+        todo = pending_orgs(active_orgs)
         print(f"Processing {len(todo)} new org(s); skipping "
               f"{len(active_orgs) - len(todo)} already scraped "
               f"(use --force to re-scrape).\n")
