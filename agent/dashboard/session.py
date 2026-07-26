@@ -186,9 +186,14 @@ def _compare_url(branch: str, base: str) -> str | None:
 
 
 def write_local(drafts: list[dict]) -> str:
-    """Append the entries to orgs.json on the current branch (no commit/PR)."""
-    tools.write_proposal(drafts, tools.load_ledger())
-    return f"Appended {len(drafts)} org(s) to orgs.json (uncommitted, current branch)."
+    """Append the entries to orgs.json on the current branch (no commit/PR).
+    Entries already present are skipped (see tools.write_proposal)."""
+    written = tools.write_proposal(drafts, tools.load_ledger())
+    msg = f"Appended {len(written)} org(s) to orgs.json (uncommitted, current branch)."
+    skipped = len(drafts) - len(written)
+    if skipped:
+        msg += f" Skipped {skipped} already in orgs.json."
+    return msg
 
 
 def open_pr(cfg: config.RunConfig, drafts: list[dict], verdicts: list[dict]) -> dict:

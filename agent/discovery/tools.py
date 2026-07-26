@@ -231,17 +231,37 @@ def format_entry(e: dict) -> str:
     return "  {\n" + body + "\n  }"
 
 
-def write_proposal(entries: list[dict], ledger: dict) -> None:
+def write_proposal(entries: list[dict], ledger: dict) -> list[str]:
     """Append accepted entries to orgs.json and persist the ledger. Splices the
-    new entries before the closing ']' so existing entries get a zero-line diff."""
+    new entries before the closing ']' so existing entries get a zero-line diff.
+
+    Skips any entry whose `id` is already in orgs.json (or repeated within this
+    batch): guards against double-adding the same org — e.g. hitting the
+    dashboard's "Write to orgs.json" and then "Open PR", which both call here.
+    Returns the ids actually written."""
+    written: list[str] = []
     if entries:
         text = config.ORGS_PATH.read_text(encoding="utf-8")
-        close = text.rstrip().rfind("]")
-        before = text[:close].rstrip()             # up to the last entry's '}'
-        blocks = ",\n".join(format_entry(e) for e in entries)
-        sep = ",\n" if before.endswith("}") else "\n"   # "\n" only if array was empty
-        config.ORGS_PATH.write_text(f"{before}{sep}{blocks}\n]\n", encoding="utf-8")
+        try:
+            seen = {o.get("id") for o in json.loads(text)}
+        except (ValueError, TypeError):
+            seen = set()                            # unparseable — don't dedup, just append
+        fresh = []
+        for e in entries:
+            eid = e.get("id")
+            if eid in seen:
+                continue                            # already present — skip the duplicate
+            seen.add(eid)
+            fresh.append(e)
+        if fresh:
+            close = text.rstrip().rfind("]")
+            before = text[:close].rstrip()          # up to the last entry's '}'
+            blocks = ",\n".join(format_entry(e) for e in fresh)
+            sep = ",\n" if before.endswith("}") else "\n"   # "\n" only if array was empty
+            config.ORGS_PATH.write_text(f"{before}{sep}{blocks}\n]\n", encoding="utf-8")
+        written = [e.get("id") for e in fresh]
     save_ledger(ledger)
+    return written
 
 
 def branch_and_commit(branch: str, message: str) -> None:
