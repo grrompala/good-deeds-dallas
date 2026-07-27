@@ -275,6 +275,22 @@ def expiry_pass(records, client, provider, model, recheck, batch_size):
         time.sleep(DELAY)
 
     # The free, every-run part: reject anything whose end date has passed.
+    return reject_expired(records, now, today)
+
+
+def dallas_today() -> str:
+    """Today's date (YYYY-MM-DD) in Dallas terms — a fixed UTC-6 offset so events
+    still happening locally aren't expired a few hours early once UTC rolls past
+    midnight. DST is noise at day granularity."""
+    return (datetime.now(timezone.utc) - timedelta(hours=6)).date().isoformat()
+
+
+def reject_expired(records, now=None, today=None) -> int:
+    """Free, LLM-free pass: mark any active, un-rejected record whose explicit
+    `expiry.ends_on` is before `today` as qc-rejected (category "expired").
+    Returns the count newly rejected. Safe to run repeatedly (idempotent)."""
+    now = now or datetime.now(timezone.utc).isoformat()
+    today = today or dallas_today()
     rejected = 0
     for r in records:
         if r.get("status") == "inactive" or r.get("qc", {}).get("status") == "rejected":
@@ -402,6 +418,10 @@ def main():
     ap.add_argument("--no-judge", action="store_true",
                     help="run dedup + expiry but skip the content judge — for the scraped "
                          "portal sources, which are trusted for content but can go stale")
+    ap.add_argument("--expire-only", action="store_true",
+                    help="ONLY reject records whose expiry.ends_on has already passed — "
+                         "no dedup, no LLM, no API key. For the daily cron that prunes "
+                         "past-dated events from the site.")
     args = ap.parse_args()
 
     path = Path(args.file)
@@ -417,21 +437,28 @@ def main():
 
     # Rule-based duplicate check always runs first — it's free and catches the
     # same-posting-repeated-N-times noise (Idealist's biggest offender) before
-    # any LLM content judging happens.
-    dupes_rejected = dedupe_records(records, now)
-    print(f"Dedup: {dupes_rejected} record(s) rejected as duplicates.\n")
-    rejected_this_run += dupes_rejected
+    # any LLM content judging happens. (--expire-only skips it: the daily cron
+    # only prunes past-dated events.)
+    if not args.expire_only:
+        dupes_rejected = dedupe_records(records, now)
+        print(f"Dedup: {dupes_rejected} record(s) rejected as duplicates.\n")
+        rejected_this_run += dupes_rejected
 
-    # Expiry check: LLM extraction is cached per record; the date comparison
-    # reruns every time, so newly-passed dates get caught on each run.
-    if not args.dedupe_only:
+    # Expiry check. --expire-only does JUST the free date comparison (no LLM, no
+    # API key). Otherwise the full pass runs: LLM extraction is cached per record
+    # and the date comparison reruns every time, so newly-passed dates are caught.
+    if args.expire_only:
+        expired = reject_expired(records, now, dallas_today())
+        print(f"Expiry: {expired} record(s) rejected as expired.\n")
+        rejected_this_run += expired
+    elif not args.dedupe_only:
         client = make_client(args.provider)
         expired = expiry_pass(records, client, args.provider, args.model,
                               args.recheck, args.batch_size)
         print(f"Expiry: {expired} record(s) rejected as expired.\n")
         rejected_this_run += expired
 
-    if not args.dedupe_only and not args.no_judge:
+    if not args.dedupe_only and not args.no_judge and not args.expire_only:
         # Pick records to judge: active, no qc stamp yet (unless --recheck).
         todo = [
             r for r in records

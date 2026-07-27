@@ -1,0 +1,57 @@
+name: Daily expire past events
+
+# Lightweight daily prune: mark any listing whose expiry.ends_on has already
+# passed as qc-rejected, so past-dated events drop off the site the day after
+# they happen — without waiting for the weekly refresh. Pure date comparison
+# in qc_filter.py --expire-only: no LLM, no API keys, no scraping.
+#
+# The weekly refresh (refresh.yml) still does the full scrape/QC/classify/embed;
+# this just keeps the "what's on now" view honest in between.
+
+on:
+  schedule:
+    # 06:11 UTC daily. qc_filter treats "today" as UTC-6 (Dallas), which rolls
+    # over at 06:00 UTC — so by 06:11 an event dated yesterday is expired, while
+    # today's events stay visible all day. Off-the-hour to dodge cron congestion.
+    - cron: '11 6 * * *'
+  workflow_dispatch: {}   # manual trigger from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  expire:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # --expire-only touches only stdlib + python-dotenv (no openai/requests) —
+      # keep the install minimal so this stays fast.
+      - name: Install python-dotenv
+        run: pip install python-dotenv
+
+      - name: Expire past-dated events across all sources
+        env:
+          PYTHONIOENCODING: 'utf-8'   # emoji-safe printing of listing titles
+          PYTHONUNBUFFERED: '1'
+        run: |
+          for f in frontend/public/data/volops_*.json; do
+            echo "== $f =="
+            python qc_filter.py --file "$f" --expire-only
+          done
+
+      - name: Commit and push if anything expired
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add frontend/public/data qc_rejected*.json
+          if git diff --cached --quiet; then
+            echo "Nothing newly expired today."
+          else
+            git commit -m "Daily expiry: prune past-dated events"
+            git push
+          fi
