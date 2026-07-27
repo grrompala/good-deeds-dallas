@@ -80,17 +80,10 @@ export default function HomeClient({
   const chatterRef  = useRef(null)
   const headerRef   = useRef(null)
 
-  // The whole top (Hero + TabBar) is a single sticky header so search + section
-  // nav stay reachable without scrolling back up. Once scrolled, the Hero
-  // collapses to a slim bar (see Hero `compact`); its live height is published
-  // as a CSS var so the sticky filter bar can pin right beneath it.
-  const [scrolled, setScrolled] = useState(false)
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 72)
-    onScroll()
-    window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
+  // The whole top (Hero + TabBar) is a single sticky, fixed-size header so
+  // search + section nav stay reachable without scrolling back up. Its height
+  // (which varies by breakpoint) is published as a CSS var so the sticky filter
+  // toolbar can pin right beneath it.
   useEffect(() => {
     const el = headerRef.current
     if (!el) return
@@ -232,7 +225,6 @@ export default function HomeClient({
           search={search}
           setSearch={setSearch}
           onWordmarkClick={goHome}
-          compact={scrolled}
         />
 
         <TabBar
