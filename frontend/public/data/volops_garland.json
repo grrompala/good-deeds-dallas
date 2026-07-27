@@ -1734,6 +1734,13 @@
       "ends_on": "2026-07-25",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:10.681327+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-07-25)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-27T03:44:39.344839+00:00"
     }
   },
   {

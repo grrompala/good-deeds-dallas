@@ -6807,6 +6807,13 @@
       "ends_on": "2026-07-25",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-07-25)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-27T03:44:39.611155+00:00"
     }
   },
   {
@@ -8362,6 +8369,13 @@
       "ends_on": "2026-07-25",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-07-25)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-27T03:44:39.611155+00:00"
     }
   },
   {
@@ -9376,6 +9390,13 @@
       "ends_on": "2026-07-25",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-07-25)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-27T03:44:39.611155+00:00"
     }
   },
   {
@@ -9476,6 +9497,13 @@
       "ends_on": "2026-07-25",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-07-25)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-27T03:44:39.611155+00:00"
     }
   },
   {
