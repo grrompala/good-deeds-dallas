@@ -12,6 +12,7 @@ import SectionShell from './SectionShell'
 import TagChip from './TagChip'
 import { getTags } from './sanitizeTag'
 import { CANONICAL_TAGS } from './tagMeta'
+import FilterDrawer, { FilterGroup, SitePill } from './FilterDrawer'
 import { cleanOrgName } from './cleanText'
 import { orgKey } from './orgs'
 import { cityName } from '../lib/city'
@@ -76,20 +77,6 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
   const [when, setWhen] = useState('all')
   // Result order: 'recent' (most recently added) | 'upcoming' (soonest end date).
   const [sort, setSort] = useState('recent')
-
-  // Filters live in a slide-in side drawer opened from the toolbar — no fixed
-  // filter banner eating the viewport.
-  const [drawerOpen, setDrawerOpen] = useState(false)
-
-  // While the drawer is open, lock body scroll and allow Escape to close.
-  useEffect(() => {
-    if (!drawerOpen) return
-    const prev = document.body.style.overflow
-    document.body.style.overflow = 'hidden'
-    const onKey = e => { if (e.key === 'Escape') setDrawerOpen(false) }
-    window.addEventListener('keydown', onKey)
-    return () => { document.body.style.overflow = prev; window.removeEventListener('keydown', onKey) }
-  }, [drawerOpen])
 
   const activeFilterCount = sources.length + causes.length + cities.length + (when !== 'all' ? 1 : 0)
 
@@ -209,30 +196,12 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
       onExpand={onExpand}
     >
       {!compact && (
-        <>
-          {/* Toolbar — a slim, always-reachable row: the Filters trigger (opens
-              the drawer) on the left, Sort on the right. No fat filter banner. */}
-          <div
-            className="sticky z-20 bg-canvas py-2 mb-1 flex items-center justify-between gap-3"
-            style={{ top: 'var(--app-header-h, 96px)' }}
-          >
-            <button
-              onClick={() => setDrawerOpen(true)}
-              className="inline-flex items-center gap-2 rounded-full border border-line bg-white px-4 py-2 text-sm font-medium text-inkSoft hover:border-brand/40 hover:text-brand transition-colors"
-              aria-haspopup="dialog"
-              aria-expanded={drawerOpen}
-            >
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4">
-                <path d="M4 7h16M4 12h16M4 17h16" strokeLinecap="round" />
-              </svg>
-              Filters
-              {activeFilterCount > 0 && (
-                <span className="inline-flex items-center justify-center min-w-[1.25rem] h-5 px-1.5 rounded-full bg-brand text-white text-xs font-mono">
-                  {activeFilterCount}
-                </span>
-              )}
-            </button>
-
+        <FilterDrawer
+          activeCount={activeFilterCount}
+          resultCount={filtered.length}
+          resultNoun="result"
+          onReset={resetFilters}
+          toolbarRight={
             <div className="flex items-center gap-2">
               <span className="hidden sm:inline text-xs font-mono uppercase tracking-wider text-muted">Sort</span>
               <div className="inline-flex rounded-full border border-line bg-white p-0.5">
@@ -249,114 +218,65 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
                 ))}
               </div>
             </div>
-          </div>
+          }
+        >
+          <FilterGroup label="Source">
+            <SitePill active={sources.length === 0} count={sourceOptions[0]?.count} onClick={() => setSources([])}>
+              All sources
+            </SitePill>
+            {sourceOptions.slice(1).map(o => (
+              <SitePill
+                key={o.id}
+                active={sources.includes(o.id)}
+                count={o.count}
+                title={sourceInfo(o.id)?.summary}
+                onClick={() => toggle(setSources, o.id)}
+              >
+                {o.label}
+              </SitePill>
+            ))}
+          </FilterGroup>
 
-          {/* Filter drawer — slides in from the right. Always mounted so it can
-              animate both ways; inert + off-screen when closed. */}
-          <div
-            className={`fixed inset-0 z-50 overflow-hidden ${drawerOpen ? '' : 'pointer-events-none'}`}
-            aria-hidden={!drawerOpen}
-          >
-            <div
-              className={`absolute inset-0 bg-ink/40 backdrop-blur-sm transition-opacity duration-200 ${drawerOpen ? 'opacity-100' : 'opacity-0'}`}
-              onClick={() => setDrawerOpen(false)}
-            />
-            <aside
-              role="dialog"
-              aria-modal="true"
-              aria-label="Filters"
-              className={`absolute right-0 top-0 h-full w-full max-w-sm bg-white shadow-2xl flex flex-col transition-transform duration-200 ${drawerOpen ? 'translate-x-0' : 'translate-x-full'}`}
-            >
-              <div className="flex items-center justify-between px-5 py-4 border-b border-line">
-                <h2 className="font-display font-bold text-lg text-ink">Filters</h2>
-                <button
-                  onClick={() => setDrawerOpen(false)}
-                  aria-label="Close filters"
-                  className="p-1.5 -mr-1.5 rounded-full text-muted hover:text-ink hover:bg-canvas transition-colors"
+          <FilterGroup label="Type">
+            <SitePill active={when === 'all'} count={whenOptions.all} onClick={() => setWhen('all')}>Any</SitePill>
+            <SitePill active={when === 'events'} count={whenOptions.events} onClick={() => setWhen('events')}>Event</SitePill>
+            <SitePill active={when === 'ongoing'} count={whenOptions.ongoing} onClick={() => setWhen('ongoing')}>Ongoing</SitePill>
+          </FilterGroup>
+
+          <FilterGroup label="Cause">
+            <SitePill active={causes.length === 0} count={listings.length} onClick={() => setCauses([])}>
+              All causes
+            </SitePill>
+            {causeOptions.map(o => (
+              <TagChip
+                key={o.id}
+                id={o.id}
+                count={o.count}
+                active={causes.includes(o.id)}
+                onClick={() => toggle(setCauses, o.id)}
+                variant="filter"
+              />
+            ))}
+          </FilterGroup>
+
+          {cityOptions.length > 0 && (
+            <FilterGroup label="City">
+              <SitePill active={cities.length === 0} onClick={() => setCities([])}>
+                All cities
+              </SitePill>
+              {cityOptions.map(o => (
+                <SitePill
+                  key={o.id}
+                  active={cities.includes(o.id)}
+                  count={o.count}
+                  onClick={() => toggle(setCities, o.id)}
                 >
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-5 h-5">
-                    <path d="M6 6l12 12M18 6L6 18" strokeLinecap="round" />
-                  </svg>
-                </button>
-              </div>
-
-              <div className="flex-1 overflow-y-auto px-5 py-5 space-y-6">
-                <FilterGroup label="Source">
-                  <SitePill active={sources.length === 0} count={sourceOptions[0]?.count} onClick={() => setSources([])}>
-                    All sources
-                  </SitePill>
-                  {sourceOptions.slice(1).map(o => (
-                    <SitePill
-                      key={o.id}
-                      active={sources.includes(o.id)}
-                      count={o.count}
-                      title={sourceInfo(o.id)?.summary}
-                      onClick={() => toggle(setSources, o.id)}
-                    >
-                      {o.label}
-                    </SitePill>
-                  ))}
-                </FilterGroup>
-
-                <FilterGroup label="Type">
-                  <SitePill active={when === 'all'} count={whenOptions.all} onClick={() => setWhen('all')}>Any</SitePill>
-                  <SitePill active={when === 'events'} count={whenOptions.events} onClick={() => setWhen('events')}>Event</SitePill>
-                  <SitePill active={when === 'ongoing'} count={whenOptions.ongoing} onClick={() => setWhen('ongoing')}>Ongoing</SitePill>
-                </FilterGroup>
-
-                <FilterGroup label="Cause">
-                  <SitePill active={causes.length === 0} count={listings.length} onClick={() => setCauses([])}>
-                    All causes
-                  </SitePill>
-                  {causeOptions.map(o => (
-                    <TagChip
-                      key={o.id}
-                      id={o.id}
-                      count={o.count}
-                      active={causes.includes(o.id)}
-                      onClick={() => toggle(setCauses, o.id)}
-                      variant="filter"
-                    />
-                  ))}
-                </FilterGroup>
-
-                {cityOptions.length > 0 && (
-                  <FilterGroup label="City">
-                    <SitePill active={cities.length === 0} onClick={() => setCities([])}>
-                      All cities
-                    </SitePill>
-                    {cityOptions.map(o => (
-                      <SitePill
-                        key={o.id}
-                        active={cities.includes(o.id)}
-                        count={o.count}
-                        onClick={() => toggle(setCities, o.id)}
-                      >
-                        {o.id}
-                      </SitePill>
-                    ))}
-                  </FilterGroup>
-                )}
-              </div>
-
-              <div className="border-t border-line px-5 py-3 flex items-center justify-between gap-3">
-                <button
-                  onClick={resetFilters}
-                  disabled={activeFilterCount === 0}
-                  className="text-sm font-medium text-muted hover:text-ink disabled:opacity-40 disabled:hover:text-muted transition-colors"
-                >
-                  Reset all
-                </button>
-                <button
-                  onClick={() => setDrawerOpen(false)}
-                  className="rounded-full bg-brand text-white px-5 py-2 text-sm font-semibold hover:bg-brandDark transition-colors"
-                >
-                  Show {filtered.length} result{filtered.length === 1 ? '' : 's'}
-                </button>
-              </div>
-            </aside>
-          </div>
-        </>
+                  {o.id}
+                </SitePill>
+              ))}
+            </FilterGroup>
+          )}
+        </FilterDrawer>
       )}
 
       {visible.length === 0 ? (
@@ -399,41 +319,6 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
         </button>
       )}
     </SectionShell>
-  )
-}
-
-// One filter group in the drawer: a label above its wrapping row of pills.
-function FilterGroup({ label, children }) {
-  return (
-    <div>
-      <div className="mb-2 text-xs font-mono uppercase tracking-wider text-muted">{label}</div>
-      <div className="flex flex-wrap gap-1.5">{children}</div>
-    </div>
-  )
-}
-
-// Plain "site" pill (no icon) — used for Source and "All" buttons
-function SitePill({ children, count, active, onClick, title }) {
-  return (
-    <button
-      onClick={onClick}
-      title={title}
-      className={`
-        inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium
-        border transition-colors whitespace-nowrap
-        ${active
-          ? 'bg-brand text-white border-brand'
-          : 'bg-white text-inkSoft border-line hover:border-brand/40 hover:text-brand'
-        }
-      `}
-    >
-      {children}
-      {count !== undefined && (
-        <span className={`font-mono text-xs ${active ? 'text-white/75' : 'text-subtle'}`}>
-          {count}
-        </span>
-      )}
-    </button>
   )
 }
 

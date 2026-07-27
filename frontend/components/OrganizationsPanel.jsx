@@ -7,34 +7,53 @@ import { useMemo, useState } from 'react'
 import SectionShell from './SectionShell'
 import TagChip from './TagChip'
 import { buildOrgs } from './orgs'
+import { CANONICAL_TAGS } from './tagMeta'
+import FilterDrawer, { FilterGroup, SitePill } from './FilterDrawer'
+
+// City pills: keep the list bounded, most-common first.
+const CITY_MAX_PILLS = 20
 
 export default function OrganizationsPanel({ listings = [], compact = false, searchActive = false, onExpand, onSelectOrg }) {
-  const [cause, setCause] = useState('all')
+  // Multi-select, mirroring the Opportunities panel: empty array = "All".
+  const [causes, setCauses] = useState([])
+  const [cities, setCities] = useState([])
 
   // ── Derive orgs from listings ────────────────────────────────────────────
   const orgs = useMemo(() => buildOrgs(listings), [listings])
 
+  // Cause facet — canonical taxonomy only (see tagMeta), so raw scraped tags
+  // don't leak in. Sorted by how many orgs work in each cause.
   const causeOptions = useMemo(() => {
     const counts = new Map()
-    orgs.forEach(o => o.causes.forEach(t => counts.set(t, (counts.get(t) || 0) + 1)))
-    return [
-      { id: 'all', label: 'All causes', count: orgs.length },
-      ...[...counts.entries()]
-        .sort((a, b) => b[1] - a[1])
-        .slice(0, compact ? 6 : 12)
-        .map(([id, count]) => ({ id, label: id.replace(/_/g, ' '), count }))
-    ]
-  }, [orgs, compact])
+    orgs.forEach(o => o.causes.forEach(t => {
+      if (CANONICAL_TAGS.has(t)) counts.set(t, (counts.get(t) || 0) + 1)
+    }))
+    return [...counts.entries()].sort((a, b) => b[1] - a[1]).map(([id, count]) => ({ id, count }))
+  }, [orgs])
+
+  const cityOptions = useMemo(() => {
+    const counts = new Map()
+    orgs.forEach(o => o.cities.forEach(c => { if (c) counts.set(c, (counts.get(c) || 0) + 1) }))
+    return [...counts.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, CITY_MAX_PILLS)
+      .map(([id, count]) => ({ id, count }))
+  }, [orgs])
 
   const filtered = useMemo(() => {
     let rows = orgs
-    if (cause !== 'all') {
-      rows = rows.filter(o => o.causes.includes(cause))
-    }
-    return rows.sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
-  }, [orgs, cause])
+    if (causes.length) rows = rows.filter(o => o.causes.some(c => causes.includes(c)))
+    if (cities.length) rows = rows.filter(o => o.cities.some(c => cities.includes(c)))
+    return [...rows].sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
+  }, [orgs, causes, cities])
 
   const visible = compact ? filtered.slice(0, 8) : filtered
+
+  function toggle(setter, value) {
+    setter(prev => prev.includes(value) ? prev.filter(v => v !== value) : [...prev, value])
+  }
+  function resetFilters() { setCauses([]); setCities([]) }
+  const activeFilterCount = causes.length + cities.length
 
   return (
     <SectionShell
@@ -45,28 +64,59 @@ export default function OrganizationsPanel({ listings = [], compact = false, sea
       onExpand={onExpand}
     >
       {!compact && (
-        <div className="bg-white border border-line rounded-2xl shadow-card p-4 sm:p-5 mb-5">
-          <FilterRow label="Cause">
-            <Pill active={cause === 'all'} count={causeOptions[0]?.count} onClick={() => setCause('all')}>
+        <FilterDrawer
+          activeCount={activeFilterCount}
+          resultCount={filtered.length}
+          resultNoun="organization"
+          onReset={resetFilters}
+        >
+          <FilterGroup label="Cause">
+            <SitePill active={causes.length === 0} count={orgs.length} onClick={() => setCauses([])}>
               All causes
-            </Pill>
-            {causeOptions.slice(1).map(o => (
+            </SitePill>
+            {causeOptions.map(o => (
               <TagChip
                 key={o.id}
                 id={o.id}
                 count={o.count}
-                active={cause === o.id}
-                onClick={() => setCause(o.id)}
+                active={causes.includes(o.id)}
+                onClick={() => toggle(setCauses, o.id)}
                 variant="filter"
               />
             ))}
-          </FilterRow>
-        </div>
+          </FilterGroup>
+
+          {cityOptions.length > 0 && (
+            <FilterGroup label="City">
+              <SitePill active={cities.length === 0} onClick={() => setCities([])}>
+                All cities
+              </SitePill>
+              {cityOptions.map(o => (
+                <SitePill
+                  key={o.id}
+                  active={cities.includes(o.id)}
+                  count={o.count}
+                  onClick={() => toggle(setCities, o.id)}
+                >
+                  {o.id}
+                </SitePill>
+              ))}
+            </FilterGroup>
+          )}
+        </FilterDrawer>
       )}
 
       {visible.length === 0 ? (
         <div className="bg-white border border-line rounded-2xl py-12 text-center">
           <p className="text-sm text-muted">No organizations match.</p>
+          {activeFilterCount > 0 && (
+            <button
+              onClick={resetFilters}
+              className="mt-2 text-brand text-sm font-semibold hover:text-brandDark"
+            >
+              Reset filters
+            </button>
+          )}
         </div>
       ) : (
         <div className="bg-white border border-line rounded-2xl shadow-card divide-y divide-lineSoft overflow-hidden">
@@ -130,36 +180,3 @@ export function OrgRow({ org, compact, onSelectOrg }) {
   )
 }
 
-function FilterRow({ label, children }) {
-  return (
-    <div className="flex flex-col sm:flex-row sm:items-start gap-2 sm:gap-3">
-      <div className="shrink-0 sm:w-16 pt-0.5 sm:pt-1.5 text-xs font-mono uppercase tracking-wider text-muted">
-        {label}
-      </div>
-      <div className="flex flex-wrap gap-1.5">{children}</div>
-    </div>
-  )
-}
-
-function Pill({ children, count, active, onClick }) {
-  return (
-    <button
-      onClick={onClick}
-      className={`
-        inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium
-        border transition-colors
-        ${active
-          ? 'bg-brand text-white border-brand'
-          : 'bg-white text-inkSoft border-line hover:border-brand/40 hover:text-brand'
-        }
-      `}
-    >
-      <span className="capitalize">{children}</span>
-      {count !== undefined && (
-        <span className={`font-mono text-xs ${active ? 'text-white/80' : 'text-subtle'}`}>
-          {count}
-        </span>
-      )}
-    </button>
-  )
-}
