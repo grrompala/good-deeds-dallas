@@ -21,14 +21,14 @@ export default function FilterDrawer({
 }) {
   const [open, setOpen] = useState(false)
 
-  // Lock body scroll + allow Escape to close while the drawer is open.
+  // Escape closes the drawer. (We intentionally don't lock body scroll: filters
+  // change inside the open drawer and the panels auto-scroll their list to the
+  // top, so the background must stay programmatically scrollable.)
   useEffect(() => {
     if (!open) return
-    const prev = document.body.style.overflow
-    document.body.style.overflow = 'hidden'
     const onKey = e => { if (e.key === 'Escape') setOpen(false) }
     window.addEventListener('keydown', onKey)
-    return () => { document.body.style.overflow = prev; window.removeEventListener('keydown', onKey) }
+    return () => window.removeEventListener('keydown', onKey)
   }, [open])
 
   return (
@@ -85,7 +85,7 @@ export default function FilterDrawer({
             </button>
           </div>
 
-          <div className="flex-1 overflow-y-auto px-5 py-5 space-y-6">
+          <div className="flex-1 overflow-y-auto overscroll-contain px-5 py-5 space-y-6">
             {children}
           </div>
 

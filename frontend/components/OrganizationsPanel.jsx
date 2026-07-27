@@ -3,7 +3,7 @@
 // the same opportunities shown in the Listings panel (see orgs.js). Clicking
 // an org opens the OrgModal summary of all its listings.
 
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import SectionShell from './SectionShell'
 import TagChip from './TagChip'
 import { buildOrgs } from './orgs'
@@ -55,6 +55,15 @@ export default function OrganizationsPanel({ listings = [], compact = false, sea
   function resetFilters() { setCauses([]); setCities([]) }
   const activeFilterCount = causes.length + cities.length
 
+  // Jump back to the top of the list whenever a filter changes (skips first
+  // render so pre-filtered routes don't auto-scroll on load).
+  const topRef = useRef(null)
+  const filtersMounted = useRef(false)
+  useEffect(() => {
+    if (!filtersMounted.current) { filtersMounted.current = true; return }
+    topRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }, [causes, cities])
+
   return (
     <SectionShell
       title="Organizations"
@@ -63,6 +72,9 @@ export default function OrganizationsPanel({ listings = [], compact = false, sea
       compact={compact}
       onExpand={onExpand}
     >
+      {/* Scroll anchor for auto-scroll-to-top on filter change. */}
+      <div ref={topRef} aria-hidden className="h-0" style={{ scrollMarginTop: 'var(--app-header-h, 96px)' }} />
+
       {!compact && (
         <FilterDrawer
           activeCount={activeFilterCount}

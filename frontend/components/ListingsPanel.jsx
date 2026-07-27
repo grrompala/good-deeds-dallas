@@ -90,6 +90,16 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
     setSources([]); setCauses([]); setCities([]); setWhen('all')
   }
 
+  // Jump the list back to the top whenever a filter or the sort changes, so the
+  // user lands on the new top results instead of staying deep in the old list.
+  // (Skips the first render so pre-filtered /volunteer routes don't auto-scroll.)
+  const topRef = useRef(null)
+  const filtersMounted = useRef(false)
+  useEffect(() => {
+    if (!filtersMounted.current) { filtersMounted.current = true; return }
+    topRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }, [sources, causes, cities, when, sort])
+
   // Source filter options + counts
   const sourceOptions = useMemo(() => {
     const counts = new Map()
@@ -195,6 +205,9 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
       compact={compact}
       onExpand={onExpand}
     >
+      {/* Scroll anchor for the auto-scroll-to-top on filter/sort change. */}
+      <div ref={topRef} aria-hidden className="h-0" style={{ scrollMarginTop: 'var(--app-header-h, 96px)' }} />
+
       {!compact && (
         <FilterDrawer
           activeCount={activeFilterCount}
