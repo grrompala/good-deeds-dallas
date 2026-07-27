@@ -27,6 +27,11 @@ export const TAG_META = {
   veterans:        { icon: '🎖️', label: 'Veterans',        bg: 'bg-zinc-50',      text: 'text-zinc-800',      ring: 'ring-zinc-200' },
 }
 
+// The canonical unified taxonomy — the ONLY cause labels the classifier is
+// meant to assign (mirrors TAXONOMY in classify_listings.py). Use this to keep
+// raw scraped `cause_tags` from leaking into cause filters/facets.
+export const CANONICAL_TAGS = new Set(Object.keys(TAG_META))
+
 // Neutral fallback for any tag we don't have metadata for
 const FALLBACK = { icon: '🏷️', label: '', bg: 'bg-slate-50', text: 'text-slate-700', ring: 'ring-slate-200' }
 
