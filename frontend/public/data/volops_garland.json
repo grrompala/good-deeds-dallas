@@ -21,10 +21,10 @@
     "requirements": "Respond",
     "cause_tags": [
       "Teaching/TrainingProgramCity of Garland",
-      "Teaching/Training",
-      "Instagram"
+      "Instagram",
+      "Teaching/Training"
     ],
-    "last_scraped": "2026-07-20T12:01:44.755620+00:00",
+    "last_scraped": "2026-07-27T12:40:29.010547+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -61,7 +61,7 @@
       "Physical Labor",
       "Instagram"
     ],
-    "last_scraped": "2026-07-20T12:01:15.400690+00:00",
+    "last_scraped": "2026-07-27T12:39:59.721036+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -96,13 +96,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
-      "SocialPhysical Labor",
-      "Social",
+      "Instagram",
       "SocialPhysical LaborProgramGarland Public Libraries",
-      "Instagram"
+      "Social",
+      "Physical Labor",
+      "SocialPhysical Labor"
     ],
-    "last_scraped": "2026-07-20T12:01:21.856828+00:00",
+    "last_scraped": "2026-07-27T12:40:06.477286+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -135,11 +135,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Skilled Labor",
       "Skilled LaborProgramGarland Public Libraries",
-      "Instagram"
+      "Instagram",
+      "Skilled Labor"
     ],
-    "last_scraped": "2026-07-20T12:01:20.584622+00:00",
+    "last_scraped": "2026-07-27T12:40:05.008042+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -172,11 +172,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Skilled Labor",
       "Instagram",
+      "Skilled Labor",
       "Skilled LaborProgramCity of Garland"
     ],
-    "last_scraped": "2026-07-20T12:01:25.267134+00:00",
+    "last_scraped": "2026-07-27T12:40:09.202681+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -205,15 +205,65 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
       "SocialProgramCity of Garland",
-      "Instagram"
+      "Instagram",
+      "Social"
     ],
-    "last_scraped": "2026-07-20T12:01:31.696222+00:00",
+    "last_scraped": "2026-07-27T12:40:15.290265+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": "2027-07-30",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-25T20:49:10.681327+00:00"
+    }
+  },
+  {
+    "id": "garland_1264309",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1264309",
+    "org_name": "City of Garland",
+    "opportunity_title": "City of Garland - Office Support Volunteer Pool",
+    "description_long": "Volunteer Garland is seeking community members interested in assisting City of Garland departments with temporary office support projects during regular business hours. These opportunities may include filing, organizing documents, data entry, assembling packets, assisting staff with administrative projects, event preparation, phone support, or other general office tasks. This is an interest sign-up list only . By registering, you are requesting to be contacted when office support opportunities become available. A separate registration may be required for each volunteer assignment. Most projects are short-term opportunities lasting one or two days, though some may develop into ongoing volunteer positions based on department needs and volunteer availability. Volunteers should: Have basic computer knowledge Be comfortable working in an office environment Possess general office or administrative skills Be dependable, professional, and courteous Typical volunteer shifts occur during standard City business hours: Monday through Friday, 8 a.m. to 5 p.m. Volunteer Garland understands that schedules vary. Staff will contact volunteers about opportunities and work around individual availability whenever possible. Please note: Some assignments may require a background check before placement. Certain projects may involve confidential information and require professionalism and discretion. Registering does not guarantee placement but ensures you may be contacted when opportunities arise. Help support your community behind the scenes and make a difference through service to the City of Garland. Additional Information Ages 16+ Background check may be required Flexible scheduling based on project needs Separate registration may be required for each assignment Most opportunities occur during weekday business hours Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
+    "description_short": "Volunteer Garland is seeking community members interested in assisting City of Garland departments with temporary office support projects during regular business hours. These opportunities may include filing, organizing documents, data entry,…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Jul 30, 2027"
+    },
+    "contact": [
+      {
+        "email": "JoDiaz@Garlandtx.gov",
+        "phone": "9722053583",
+        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Administrative/Clerical Support",
+      "Clerical",
+      "Technology Support",
+      "Customer Service/Front Desk",
+      "Instagram",
+      "Public Speaking/Outreach",
+      "Administrative/Clerical SupportClericalCustomer Service/Front DeskData EntryMarketingNonprofit ProfessionalNonprofit/Community OrganizingPublic Speaking/OutreachTechnologyTechnology SupportTranslation/InterpretationProgramCity of Garland",
+      "Administrative/Clerical SupportClericalCustomer Service/Front DeskData EntryMarketingNonprofit ProfessionalNonprofit/Community OrganizingPublic Speaking/OutreachTechnologyTechnology SupportTranslation/Interpretation",
+      "Nonprofit Professional",
+      "Technology",
+      "Translation/Interpretation",
+      "Data Entry",
+      "Nonprofit/Community Organizing",
+      "Marketing"
+    ],
+    "last_scraped": "2026-07-27T12:40:26.204420+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": "2027-07-30",
@@ -242,19 +292,22 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Data Entry",
-      "Customer Service/Front Desk",
-      "ClericalCustomer Service/Front DeskData EntryTechnology Support",
-      "Instagram",
+      "Clerical",
       "Technology Support",
+      "Customer Service/Front Desk",
+      "Instagram",
       "ClericalCustomer Service/Front DeskData EntryTechnology SupportProgramCity of Garland",
-      "Clerical"
+      "Data Entry",
+      "ClericalCustomer Service/Front DeskData EntryTechnology Support"
     ],
-    "last_scraped": "2026-07-20T12:01:46.020917+00:00",
+    "last_scraped": "2026-07-27T12:40:30.145427+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
-    "unified_tags": [],
+    "unified_tags": [
+      "environment",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": "2027-07-30",
@@ -292,142 +345,13 @@
       "Clerical"
     ],
     "last_scraped": "2026-07-20T12:01:47.283009+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
       "ends_on": "2027-07-30",
-      "model": "gpt-4o-mini",
-      "checked_at": "2026-07-25T20:49:10.681327+00:00"
-    }
-  },
-  {
-    "id": "garland_1237789",
-    "source": "volunteergarland",
-    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1237789",
-    "org_name": "Garland Cares Program",
-    "opportunity_title": "Code Cares - Community Chainsaw Response Team",
-    "description_long": "Volunteer Garland is building a Chainsaw Response Team , a group of skilled and safety conscious volunteers who can assist residents with fallen trees or large limbs following storms or unexpected situations. Many of these requests come from older adults, individuals with limited physical capacity, or households facing financial challenges. These are neighbors who may not have the resources or ability to address the issue on their own. Your support can make an immediate and meaningful difference. What This Role Involves Assisting with cutting and removing fallen trees or large limbs Helping make properties safe and accessible again Responding to occasional, short notice requests based on your availability Most projects are short term and are typically completed within a week. Requests are coordinated based on urgency and volunteer availability. Important Notes Volunteers must provide their own equipment, including chainsaws and safety gear Signing up does not create an obligation to respond to every request Participation simply means you are willing to be contacted when a need arises Safety, proper training, and responsible equipment use are expected What Happens After Tree Removal In most cases, a separate volunteer group will assist with debris cleanup and hauling, typically the following Saturday. Chainsaw team members are welcome, but not required, to participate in these follow up efforts. Looking Ahead This initiative has the potential to grow into a broader community resource. Future opportunities may include hosting hands on trainings for residents, supporting storm preparedness efforts, and developing a community based volunteer disaster response team. Who We Are Looking For Individuals with chainsaw experience and proper equipment Volunteers who prioritize safety, service, and respect for others People willing to be part of a flexible, on call support network Join the Team Sign up to be added to our Chainsaw Response contact list and help support residents during times of need, when it matters most.",
-    "description_short": "Volunteer Garland is building a Chainsaw Response Team , a group of skilled and safety conscious volunteers who can assist residents with fallen trees or large limbs following storms or unexpected situations. Many of these requests come from older…",
-    "address": {},
-    "schedule": {
-      "raw": "Calendar Until Mar 31, 2027"
-    },
-    "contact": [
-      {
-        "email": "JoDiaz@Garlandtx.gov",
-        "phone": "9722053583",
-        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
-      }
-    ],
-    "requirements": "Respond",
-    "cause_tags": [
-      "Physical Labor",
-      "Skilled Labor",
-      "Physical LaborSkilled LaborSocialProgramGarland Cares Program",
-      "Social",
-      "Physical LaborSkilled LaborSocial",
-      "Instagram"
-    ],
-    "last_scraped": "2026-07-20T12:01:13.993090+00:00",
-    "status": "active",
-    "city": "Garland",
-    "state": "TX",
-    "unified_tags": [
-      "seniors",
-      "community"
-    ],
-    "expiry": {
-      "kind": "ongoing",
-      "ends_on": "2027-03-31",
-      "model": "gpt-4o-mini",
-      "checked_at": "2026-07-25T20:49:10.681327+00:00"
-    }
-  },
-  {
-    "id": "garland_1237801",
-    "source": "volunteergarland",
-    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1237801",
-    "org_name": "Garland Cares Program",
-    "opportunity_title": "Code Cares - Contractor & Business Partner Network",
-    "description_long": "Opportunity: Code Cares Contractor & Business Partner Network Fence Repair and Tree Trimming Focus Partner with the City of Garland to make a direct, visible impact in our community. Volunteer Garland is expanding its Code Cares initiative by building a network of local businesses and contractors who are willing to assist with two of the most common property needs in Garland: Fence repair and replacement Tree trimming and limb removal These projects often support older residents, individuals with limited physical capacity, or households facing financial hardship . With the right support, these properties can be restored quickly, improving safety and overall neighborhood conditions. What We Are Looking For We are seeking: Fence companies and general contractors Tree service professionals Skilled trades professionals Partners may choose to: Donate full services for select projects Offer discounted services for approved residents Participate in sponsored or shared community projects Join an on-call list for occasional opportunities Participation is flexible and based entirely on your availability. How This Benefits Your Business This is a practical, community-based partnership that offers meaningful visibility and local engagement. As a Code Cares Partner, your business may receive: Recognition on the City of Garland website and Volunteer Garland materials Inclusion in the Volunteer Garland newsletter The opportunity to place a yard sign at completed project sites Invitations to host a booth at major volunteer events , including: Tri-City Cleanup Duck Creek Litter Cleanup Association with a trusted City-led initiative focused on neighborhood improvement This is an opportunity to build your reputation as a business that invests in the community while connecting directly with local residents. How Projects Are Coordinated Volunteer Garland identifies and reviews resident needs Projects are scoped and matched with available partners Businesses are contacted with project details and can choose to participate Volunteer groups often assist with preparation or cleanup, allowing contractors to focus on skilled work Our Goal To build a reliable partnership network that brings together local businesses, volunteers, and the City to: Improve property conditions Support residents facing challenges Strengthen neighborhoods across Garland Get Involved If your business is interested in becoming a Code Cares Partner , sign up to join our network. Together, we can restore properties, support residents, and make a lasting impact in Garland Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
-    "description_short": "Opportunity: Code Cares Contractor & Business Partner Network Fence Repair and Tree Trimming Focus Partner with the City of Garland to make a direct, visible impact in our community. Volunteer Garland is expanding its Code Cares initiative by…",
-    "address": {},
-    "schedule": {
-      "raw": "Calendar Until Jul 30, 2027"
-    },
-    "contact": [
-      {
-        "email": "JoDiaz@Garlandtx.gov",
-        "phone": "9722053583",
-        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
-      }
-    ],
-    "requirements": "Respond",
-    "cause_tags": [
-      "Physical Labor",
-      "Skilled Labor",
-      "Physical LaborSkilled LaborSocialProgramGarland Cares Program",
-      "Social",
-      "Physical LaborSkilled LaborSocial",
-      "Instagram"
-    ],
-    "last_scraped": "2026-07-20T12:01:39.176275+00:00",
-    "status": "active",
-    "city": "Garland",
-    "state": "TX",
-    "unified_tags": [
-      "community"
-    ],
-    "expiry": {
-      "kind": "ongoing",
-      "ends_on": "2027-07-30",
-      "model": "gpt-4o-mini",
-      "checked_at": "2026-07-25T20:49:10.681327+00:00"
-    }
-  },
-  {
-    "id": "garland_1201437",
-    "source": "volunteergarland",
-    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1201437",
-    "org_name": "Garland Cares Program",
-    "opportunity_title": "Code Cares - Lawn Care Volunteers",
-    "description_long": "CODE CARES - Help a Neighbor with Lawn Care We are looking for volunteers to help Garland residents with basic lawn mowing and light yard care. This effort supports residents who may be unable to maintain their yards due to age , disability , or temporary hardship . Volunteers will provide simple lawn care services that help residents stay safe, maintain their homes, and remain in compliance with City codes while showing kindness where it matters most. This project is conducted in partnership with Garland Code Compliance . Project Details Dates Spring and Early Summer 2026 Volunteers may sign up now. Scheduling will be coordinated individually. Time Commitment Flexible Volunteers may help one time or choose to assist again if they wish. There is no requirement to commit to the entire season. Location Various residential locations across Garland Addresses will be shared after sign-up. Project Description Volunteers will help residents by providing light lawn care. This may include mowing lawns, light trimming or edging, bagging or stacking grass clippings, and basic yard cleanup. This project does not include heavy landscaping or construction work. Volunteer Requirements Volunteers must provide their own lawn mower, trimmer, basic yard tools, work gloves, and eye protection. Volunteers are also responsible for their own transportation to and from the service location. Volunteers may not enter the homes or do remodeling work through the program for safety reasons. Please note that the City of Garland does not provide lawn equipment for this project. City Support The City of Garland will provide project coordination and resident matching, instructions and expectations before each assignment. Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
-    "description_short": "CODE CARES - Help a Neighbor with Lawn Care We are looking for volunteers to help Garland residents with basic lawn mowing and light yard care. This effort supports residents who may be unable to maintain their yards due to age , disability , or…",
-    "address": {},
-    "schedule": {
-      "raw": "Calendar Until Jul 31, 2026"
-    },
-    "contact": [
-      {
-        "email": "JoDiaz@Garlandtx.gov",
-        "phone": "9722053583",
-        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
-      }
-    ],
-    "requirements": "Respond",
-    "cause_tags": [
-      "Physical Labor",
-      "Skilled Labor",
-      "Physical LaborSkilled LaborSocialProgramGarland Cares Program",
-      "Social",
-      "Physical LaborSkilled LaborSocial",
-      "Instagram"
-    ],
-    "last_scraped": "2026-07-20T12:01:01.157205+00:00",
-    "status": "active",
-    "city": "Garland",
-    "state": "TX",
-    "unified_tags": [
-      "seniors",
-      "disabilities",
-      "community"
-    ],
-    "expiry": {
-      "kind": "ongoing",
-      "ends_on": "2026-07-31",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:10.681327+00:00"
     }
@@ -453,25 +377,27 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Event Setup/Breakdown",
-      "Basic Hand Tools",
-      "Landscaping/Lawn Care",
-      "Board Service",
-      "Social",
-      "Construction/Building Trades",
       "Administrative/Clerical Support",
-      "Fence Repair/Carpentry",
-      "Gardening/Planting",
-      "Chainsaw Experience",
       "SocialAdministrative/Clerical SupportBasic Hand ToolsBoard ServiceChainsaw ExperienceConstruction/Building TradesEvent Setup/BreakdownFence Repair/CarpentryGardening/PlantingLandscaping/Lawn Care",
       "Instagram",
-      "SocialAdministrative/Clerical SupportBasic Hand ToolsBoard ServiceChainsaw ExperienceConstruction/Building TradesEvent Setup/BreakdownFence Repair/CarpentryGardening/PlantingLandscaping/Lawn CareProgramCity of Garland"
+      "Basic Hand Tools",
+      "Board Service",
+      "Social",
+      "Event Setup/Breakdown",
+      "SocialAdministrative/Clerical SupportBasic Hand ToolsBoard ServiceChainsaw ExperienceConstruction/Building TradesEvent Setup/BreakdownFence Repair/CarpentryGardening/PlantingLandscaping/Lawn CareProgramCity of Garland",
+      "Landscaping/Lawn Care",
+      "Fence Repair/Carpentry",
+      "Gardening/Planting",
+      "Construction/Building Trades",
+      "Chainsaw Experience"
     ],
-    "last_scraped": "2026-07-20T12:01:16.579108+00:00",
+    "last_scraped": "2026-07-27T12:40:00.938486+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
-    "unified_tags": [],
+    "unified_tags": [
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": "2027-03-31",
@@ -500,68 +426,20 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
-      "Skilled Labor",
-      "Physical LaborSkilled LaborSocialProgramCity of Garland",
+      "Instagram",
       "Social",
       "Physical LaborSkilled LaborSocial",
-      "Instagram"
+      "Physical Labor",
+      "Skilled Labor",
+      "Physical LaborSkilled LaborSocialProgramCity of Garland"
     ],
-    "last_scraped": "2026-07-20T12:01:40.429224+00:00",
+    "last_scraped": "2026-07-27T12:40:24.826363+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [
       "community"
     ],
-    "expiry": {
-      "kind": "ongoing",
-      "ends_on": "2027-07-30",
-      "model": "gpt-4o-mini",
-      "checked_at": "2026-07-25T20:49:10.681327+00:00"
-    }
-  },
-  {
-    "id": "garland_1264309",
-    "source": "volunteergarland",
-    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1264309",
-    "org_name": "City of Garland",
-    "opportunity_title": "Community Response Group - Office Support Volunteer Pool",
-    "description_long": "Volunteer Garland is seeking community members interested in assisting City of Garland departments with temporary office support projects during regular business hours. These opportunities may include filing, organizing documents, data entry, assembling packets, assisting staff with administrative projects, event preparation, phone support, or other general office tasks. This is an interest sign-up list only . By registering, you are requesting to be contacted when office support opportunities become available. A separate registration may be required for each volunteer assignment. Most projects are short-term opportunities lasting one or two days, though some may develop into ongoing volunteer positions based on department needs and volunteer availability. Volunteers should: Have basic computer knowledge Be comfortable working in an office environment Possess general office or administrative skills Be dependable, professional, and courteous Typical volunteer shifts occur during standard City business hours: Monday through Friday, 8 a.m. to 5 p.m. Volunteer Garland understands that schedules vary. Staff will contact volunteers about opportunities and work around individual availability whenever possible. Please note: Some assignments may require a background check before placement. Certain projects may involve confidential information and require professionalism and discretion. Registering does not guarantee placement but ensures you may be contacted when opportunities arise. Help support your community behind the scenes and make a difference through service to the City of Garland. Additional Information Ages 16+ Background check may be required Flexible scheduling based on project needs Separate registration may be required for each assignment Most opportunities occur during weekday business hours Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
-    "description_short": "Volunteer Garland is seeking community members interested in assisting City of Garland departments with temporary office support projects during regular business hours. These opportunities may include filing, organizing documents, data entry,…",
-    "address": {},
-    "schedule": {
-      "raw": "Calendar Until Jul 30, 2027"
-    },
-    "contact": [
-      {
-        "email": "JoDiaz@Garlandtx.gov",
-        "phone": "9722053583",
-        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
-      }
-    ],
-    "requirements": "Respond",
-    "cause_tags": [
-      "Translation/Interpretation",
-      "Technology Support",
-      "Data Entry",
-      "Technology",
-      "Customer Service/Front Desk",
-      "Administrative/Clerical Support",
-      "Administrative/Clerical SupportClericalCustomer Service/Front DeskData EntryMarketingNonprofit ProfessionalNonprofit/Community OrganizingPublic Speaking/OutreachTechnologyTechnology SupportTranslation/Interpretation",
-      "Administrative/Clerical SupportClericalCustomer Service/Front DeskData EntryMarketingNonprofit ProfessionalNonprofit/Community OrganizingPublic Speaking/OutreachTechnologyTechnology SupportTranslation/InterpretationProgramCity of Garland",
-      "Nonprofit/Community Organizing",
-      "Public Speaking/Outreach",
-      "Nonprofit Professional",
-      "Instagram",
-      "Clerical",
-      "Marketing"
-    ],
-    "last_scraped": "2026-07-20T12:01:41.831040+00:00",
-    "status": "active",
-    "city": "Garland",
-    "state": "TX",
-    "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
       "ends_on": "2027-07-30",
@@ -594,7 +472,7 @@
       "MarketingProgramCity of Garland",
       "Marketing"
     ],
-    "last_scraped": "2026-07-20T12:01:19.297234+00:00",
+    "last_scraped": "2026-07-27T12:40:03.804130+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -625,10 +503,10 @@
     "requirements": "Respond",
     "cause_tags": [
       "Physical Labor",
-      "Physical LaborProgramCity of Garland",
-      "Instagram"
+      "Instagram",
+      "Physical LaborProgramCity of Garland"
     ],
-    "last_scraped": "2026-07-20T12:01:26.393938+00:00",
+    "last_scraped": "2026-07-27T12:40:10.428946+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -646,31 +524,28 @@
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1151717",
     "org_name": "Community Partners",
     "opportunity_title": "Fostering Hope: Gifts and Care for Children in Foster Care",
-    "description_long": "Give Joy. Give Comfort. Support Foster Kids — All Year Long Volunteer Garland invites you to help brighten the lives of children and teens in foster care (ages 3–18). Many of these youth are navigating difficult transitions — your support can bring comfort, dignity, and hope right when they need it most. UPDATE : 01/05/26 Care Backpacks have been suspended. Residents in December overwhelmed the agency's storage capacity. (Good job, Garland) They are looking for a company that is interested in redirecting their giving to help them with a storage unit. Volunteer Garland will update this listing when the current stock of backpacks is given out to the new intakes, so as to not overwhelm their staff. Priority request: Pampers Swaddlers (Size 2) Diapers (Size 4, any brand) Baby wipes The additional cost of taking in babies for these items keeps potential foster care homes from taking in babies. The agency is asking for these items to help retain and recruit new foster homes. 1. Holiday Gifts & Toys Spread holiday cheer by donating new, unwrapped toys for children and teens. Every gift helps ensure they have something to call their own this season. Requested Holiday Items: Toys for boys and girls (ages 3–12) Legos and creative play sets 2. Year-Round Care Kits Children enter foster care throughout the year — often with little more than the clothes they are wearing. You can help by donating items for care kits that provide essentials and comfort. Requested Care Kit Items: Pampers Swaddlers (Size 2) Diapers (Size 4, any brand) Baby wipes New car seats (unused, in box) Jewelry, perfume, or makeup (for teens) Gift cards (clothing, shoes, personal care) Art and drawing supplies (sketch pads, paints, craft sets) How to Build a Care Backpack Want to make an even bigger impact? Consider putting together a complete backpack for a child or teen in foster care. Suggested contents: A sturdy backpack or tote Age-appropriate hygiene items (toothbrush, toothpaste, comb, lotion, wipes) A small comfort item (stuffed animal, journal, stress ball) Art or creative supplies (coloring book, sketch pad, crayons) A personal note or card of encouragement Optional: gift card ($10–$25) for clothing or a special treat Optional for teens: jewelry, perfume, makeup, or other self-care items Please label each backpack with the intended age group: 3–6, 7–12, or 13–18. Drop-Off Information When: Monday–Friday, 9 AM – 5 PM Where: Parks Operations Center Attention: Volunteer Garland 525 Tower Street, Garland, TX 75040 You may donate items individually or organize a collection drive through your workplace, school, church, or civic group. To coordinate a drop-off, please email volunteer@garlandtx.gov to make sure someone is in the office. The nature of our work requires weekend and evening work, which means we have to balance our weekday office presence. A Year-Round Program The holidays are a special time to give, but this program continues year-round. Each donation helps children and teens entering foster care feel safe, valued, and cared for — not just during the holidays, but every season of the year. Volunteer Hours for Donations We know some students and community members are looking to complete volunteer hours. Donations count! If you bring items for this program, you can still acquire volunteer hours for your contribution. A Heartfelt Thank You Every donation — large or small — has the power to restore hope, dignity, and comfort to a child in foster care. Whether it’s a single toy, a pack of wipes, or a full backpack, your gift matters more than you know. Together, we can remind every child entering foster care that they are seen, valued, and loved. Questions or want to coordinate? Email: Volunteer@Garlandtx.org Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
-    "description_short": "Give Joy. Give Comfort. Support Foster Kids — All Year Long Volunteer Garland invites you to help brighten the lives of children and teens in foster care (ages 3–18). Many of these youth are navigating difficult transitions — your support can bring…",
+    "description_long": "Support Garland Children in Foster Care -All Year Long Support Garland Children in Foster Care Every child deserves to know they are valued, supported, and not alone. Volunteer Garland is proud to partner with Agape Manor Home , a Garland foster care agency, to support local children entering foster care throughout the year. Ways You Can Help Become a Foster Parent Agape Manor Home is always looking for caring individuals and families willing to open their homes to children in need. If you've ever considered becoming a foster parent, now is a great time to learn more. Donate Year Round Essentials Foster families continually need basic necessities, especially for infants and young children. Donations of items such as: Infant formula Diapers and wipes Baby supplies Toiletries New clothing Gift cards for essential purchases help ensure children receive the care they need. Help Us Prepare for Christmas Each holiday season, Volunteer Garland works with the community to help ensure local children in foster care experience the joy of Christmas. If your family, business, church, civic organization, or neighborhood group would like to sponsor a child, host a donation drive, or collect gifts this year, we would love to partner with you. Donation Drop Off Donations may be dropped off at: Volunteer Garland 634 W. Apollo Road Garland, TX 75040 Please contact us before dropping off donations. Our staff is frequently working in the community and may not be in the office. Email: Volunteer@GarlandTX.gov Looking for Other Ways to Serve? Supporting children in foster care is just one of many ways to get involved. Volunteer Garland offers opportunities to serve throughout the City of Garland, including: Environmental cleanups Garland Cares neighborhood projects Library programs Community events Senior services Parks and beautification projects Animal support projects And much more Visit our current volunteer opportunities at VolunteerGarland.org. Don't see an opportunity that fits your interests or your business? Reach out to us. We love building new partnerships and would be happy to brainstorm ways you, your family, church, school, civic group, or business can make a meaningful impact in Garland. Volunteer@GarlandTX.gov",
+    "description_short": "Support Garland Children in Foster Care -All Year Long Support Garland Children in Foster Care Every child deserves to know they are valued, supported, and not alone. Volunteer Garland is proud to partner with Agape Manor Home , a Garland foster…",
     "address": {},
     "schedule": {
       "raw": "Calendar Oct 2, 2025 through Feb 5, 2027 Time 9 am to 4 pm"
     },
     "contact": [
       {
-        "email": "volunteer@garlandtx.gov",
-        "phone": null
-      },
-      {
-        "email": "Volunteer@Garlandtx.org",
-        "phone": null
+        "email": "JoDiaz@Garlandtx.gov",
+        "phone": "9722053583",
+        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
       }
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "SocialNonprofit/Community Organizing",
-      "Social",
-      "Nonprofit/Community Organizing",
       "Instagram",
-      "SocialNonprofit/Community OrganizingProgramCommunity Partners"
+      "SocialNonprofit/Community Organizing",
+      "SocialNonprofit/Community OrganizingProgramCommunity Partners",
+      "Social",
+      "Nonprofit/Community Organizing"
     ],
-    "last_scraped": "2026-07-20T12:00:31.719713+00:00",
+    "last_scraped": "2026-07-27T12:39:31.468696+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -701,14 +576,14 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Event Setup/Breakdown",
       "Customer Service/Front Desk",
       "General Physical Labor",
+      "Instagram",
       "Event Setup/BreakdownCustomer Service/Front DeskGeneral Physical LaborProgramCommunity Partners",
-      "Event Setup/BreakdownCustomer Service/Front DeskGeneral Physical Labor",
-      "Instagram"
+      "Event Setup/Breakdown",
+      "Event Setup/BreakdownCustomer Service/Front DeskGeneral Physical Labor"
     ],
-    "last_scraped": "2026-07-20T12:01:09.861833+00:00",
+    "last_scraped": "2026-07-27T12:39:54.281569+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -746,10 +621,10 @@
     "requirements": "Respond",
     "cause_tags": [
       "Physical Labor",
-      "Physical LaborProgramCity of Garland",
-      "Instagram"
+      "Instagram",
+      "Physical LaborProgramCity of Garland"
     ],
-    "last_scraped": "2026-07-20T12:01:29.050657+00:00",
+    "last_scraped": "2026-07-27T12:40:12.952947+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -776,14 +651,14 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
-      "Technology",
-      "Social",
       "SocialPhysical LaborTechnology",
+      "Instagram",
+      "Technology",
       "SocialPhysical LaborTechnologyProgramCity of Garland",
-      "Instagram"
+      "Social",
+      "Physical Labor"
     ],
-    "last_scraped": "2026-07-20T12:01:30.312750+00:00",
+    "last_scraped": "2026-07-27T12:40:14.124536+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -810,13 +685,13 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "SocialTechnologyProgramCity of Garland",
-      "Technology",
       "SocialTechnology",
+      "Instagram",
+      "Technology",
       "Social",
-      "Instagram"
+      "SocialTechnologyProgramCity of Garland"
     ],
-    "last_scraped": "2026-07-20T12:01:27.721467+00:00",
+    "last_scraped": "2026-07-27T12:40:11.656311+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -824,6 +699,135 @@
     "expiry": {
       "kind": "ongoing",
       "ends_on": "2027-07-30",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-25T20:49:10.681327+00:00"
+    }
+  },
+  {
+    "id": "garland_1237789",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1237789",
+    "org_name": "Garland Cares Program",
+    "opportunity_title": "Garland Cares - Community Chainsaw Response Team",
+    "description_long": "Volunteer Garland is building a Chainsaw Response Team , a group of skilled and safety conscious volunteers who can assist residents with fallen trees or large limbs following storms or unexpected situations. Many of these requests come from older adults, individuals with limited physical capacity, or households facing financial challenges. These are neighbors who may not have the resources or ability to address the issue on their own. Your support can make an immediate and meaningful difference. What This Role Involves Assisting with cutting and removing fallen trees or large limbs Helping make properties safe and accessible again Responding to occasional, short notice requests based on your availability Most projects are short term and are typically completed within a week. Requests are coordinated based on urgency and volunteer availability. Important Notes Volunteers must provide their own equipment, including chainsaws and safety gear Signing up does not create an obligation to respond to every request Participation simply means you are willing to be contacted when a need arises Safety, proper training, and responsible equipment use are expected What Happens After Tree Removal In most cases, a separate volunteer group will assist with debris cleanup and hauling, typically the following Saturday. Chainsaw team members are welcome, but not required, to participate in these follow up efforts. Looking Ahead This initiative has the potential to grow into a broader community resource. Future opportunities may include hosting hands on trainings for residents, supporting storm preparedness efforts, and developing a community based volunteer disaster response team. Who We Are Looking For Individuals with chainsaw experience and proper equipment Volunteers who prioritize safety, service, and respect for others People willing to be part of a flexible, on call support network Join the Team Sign up to be added to our Chainsaw Response contact list and help support residents during times of need, when it matters most.",
+    "description_short": "Volunteer Garland is building a Chainsaw Response Team , a group of skilled and safety conscious volunteers who can assist residents with fallen trees or large limbs following storms or unexpected situations. Many of these requests come from older…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Mar 31, 2027"
+    },
+    "contact": [
+      {
+        "email": "JoDiaz@Garlandtx.gov",
+        "phone": "9722053583",
+        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Instagram",
+      "Physical LaborSkilled LaborSocialProgramGarland Cares Program",
+      "Social",
+      "Physical LaborSkilled LaborSocial",
+      "Physical Labor",
+      "Skilled Labor"
+    ],
+    "last_scraped": "2026-07-27T12:39:58.149404+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "seniors",
+      "community"
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": "2027-03-31",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-25T20:49:10.681327+00:00"
+    }
+  },
+  {
+    "id": "garland_1237801",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1237801",
+    "org_name": "Garland Cares Program",
+    "opportunity_title": "Garland Cares - Contractor & Business Partner Network",
+    "description_long": "Opportunity: Garland Cares Contractor & Business Partner Network Fence Repair and Tree Trimming Focus Partner with the City of Garland to make a direct, visible impact in our community. Volunteer Garland is expanding its Garland Cares initiative by building a network of local businesses and contractors who are willing to assist with two of the most common property needs in Garland: Fence repair and replacement Tree trimming and limb removal These projects often support older residents, individuals with limited physical capacity, or households facing financial hardship . With the right support, these properties can be restored quickly, improving safety and overall neighborhood conditions. What We Are Looking For We are seeking: Fence companies and general contractors Tree service professionals Skilled trades professionals Partners may choose to: Donate full services for select projects Offer discounted services for approved residents Participate in sponsored or shared community projects Join an on-call list for occasional opportunities Participation is flexible and based entirely on your availability. How This Benefits Your Business This is a practical, community-based partnership that offers meaningful visibility and local engagement. As a Garland Cares Partner, your business may receive: Recognition on the City of Garland website and Volunteer Garland materials Inclusion in the Volunteer Garland newsletter The opportunity to place a yard sign at completed project sites Invitations to host a booth at major volunteer events , including: Tri-City Cleanup Duck Creek Litter Cleanup Association with a trusted City-led initiative focused on neighborhood improvement This is an opportunity to build your reputation as a business that invests in the community while connecting directly with local residents. How Projects Are Coordinated Volunteer Garland identifies and reviews resident needs Projects are scoped and matched with available partners Businesses are contacted with project details and can choose to participate Volunteer groups often assist with preparation or cleanup, allowing contractors to focus on skilled work Our Goal To build a reliable partnership network that brings together local businesses, volunteers, and the City to: Improve property conditions Support residents facing challenges Strengthen neighborhoods across Garland Get Involved If your business is interested in becoming a Garland Cares Partner , sign up to join our network. Together, we can restore properties, support residents, and make a lasting impact in Garland Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
+    "description_short": "Opportunity: Garland Cares Contractor & Business Partner Network Fence Repair and Tree Trimming Focus Partner with the City of Garland to make a direct, visible impact in our community. Volunteer Garland is expanding its Garland Cares initiative by…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Jul 30, 2027"
+    },
+    "contact": [
+      {
+        "email": "JoDiaz@Garlandtx.gov",
+        "phone": "9722053583",
+        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Instagram",
+      "Physical LaborSkilled LaborSocialProgramGarland Cares Program",
+      "Social",
+      "Physical LaborSkilled LaborSocial",
+      "Physical Labor",
+      "Skilled Labor"
+    ],
+    "last_scraped": "2026-07-27T12:40:23.620339+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "community"
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": "2027-07-30",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-07-25T20:49:10.681327+00:00"
+    }
+  },
+  {
+    "id": "garland_1201437",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1201437",
+    "org_name": "Garland Cares Program",
+    "opportunity_title": "Garland Cares - Lawn Care Volunteers",
+    "description_long": "CODE CARES - Help a Neighbor with Lawn Care We are looking for volunteers to help Garland residents with basic lawn mowing and light yard care. This effort supports residents who may be unable to maintain their yards due to age , disability , or temporary hardship . Volunteers will provide simple lawn care services that help residents stay safe, maintain their homes, and remain in compliance with City codes while showing kindness where it matters most. This project is conducted in partnership with Garland Code Compliance . Project Details Dates All Year Round Volunteers may sign up now. Scheduling will be coordinated individually. Time Commitment Flexible Volunteers may help one time or choose to assist again if they wish. There is no requirement to commit to the entire season. Location Various residential locations across Garland Addresses will be shared after sign-up. Project Description Volunteers will help residents by providing light lawn care. This may include mowing lawns, light trimming or edging, bagging or stacking grass clippings, and basic yard cleanup. This project does not include heavy landscaping or construction work. Volunteer Requirements Volunteers must provide their own lawn mower, trimmer, basic yard tools, work gloves, and eye protection. Volunteers are also responsible for their own transportation to and from the service location. Volunteers may not enter the homes or do remodeling work through the program for safety reasons. Note: The program will be recieving tools to support the program later in 2026. Volunteers will need to be trained on equipment either on a project or through an in person workshop. City Support The City of Garland will provide project coordination and resident matching, instructions and expectations before each assignment. Volunteer Garland is Growing! Help us build a better volunteer experience by taking a few minutes to update your VolunteerGarland.org profile. Make sure your contact information, interests, skills, and availability are current, and join the programs or departments that interest you. Our team uses your profile to connect you with volunteer opportunities, special events, trainings, and projects, including opportunities that may not be publicly posted. The more complete your profile, the better we can match you with meaningful ways to make a difference in Garland.",
+    "description_short": "CODE CARES - Help a Neighbor with Lawn Care We are looking for volunteers to help Garland residents with basic lawn mowing and light yard care. This effort supports residents who may be unable to maintain their yards due to age , disability , or…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Jul 31, 2026"
+    },
+    "contact": [
+      {
+        "email": "JoDiaz@Garlandtx.gov",
+        "phone": "9722053583",
+        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Instagram",
+      "Physical LaborSkilled LaborSocialProgramGarland Cares Program",
+      "Social",
+      "Physical LaborSkilled LaborSocial",
+      "Physical Labor",
+      "Skilled Labor"
+    ],
+    "last_scraped": "2026-07-27T12:39:45.630414+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "unified_tags": [
+      "seniors",
+      "disabilities",
+      "community"
+    ],
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": "2026-07-31",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:10.681327+00:00"
     }
@@ -849,14 +853,14 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
-      "Skilled Labor",
+      "Instagram",
       "Physical LaborSkilled LaborSocialProgramGarland Cares Program",
       "Social",
       "Physical LaborSkilled LaborSocial",
-      "Instagram"
+      "Physical Labor",
+      "Skilled Labor"
     ],
-    "last_scraped": "2026-07-20T12:01:35.189285+00:00",
+    "last_scraped": "2026-07-27T12:40:19.180232+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -884,13 +888,13 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
-      "Physical LaborSocial",
+      "Instagram",
       "Physical LaborSocialProgramGarland Public Libraries",
       "Social",
-      "Instagram"
+      "Physical Labor",
+      "Physical LaborSocial"
     ],
-    "last_scraped": "2026-07-20T12:00:42.934856+00:00",
+    "last_scraped": "2026-07-27T12:39:35.083419+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -928,7 +932,7 @@
       "Instagram"
     ],
     "last_scraped": "2026-07-20T12:00:35.403726+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [
@@ -1003,11 +1007,11 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
       "SocialProgramGarland Public Libraries",
-      "Instagram"
+      "Instagram",
+      "Social"
     ],
-    "last_scraped": "2026-07-20T12:01:04.226171+00:00",
+    "last_scraped": "2026-07-27T12:39:49.234943+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1044,7 +1048,7 @@
       "Instagram"
     ],
     "last_scraped": "2026-07-20T12:00:50.269370+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [
@@ -1082,13 +1086,13 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
-      "SocialPhysical Labor",
-      "Social",
+      "Instagram",
       "SocialPhysical LaborProgramGarland Public Libraries",
-      "Instagram"
+      "Social",
+      "Physical Labor",
+      "SocialPhysical Labor"
     ],
-    "last_scraped": "2026-07-20T12:00:54.437662+00:00",
+    "last_scraped": "2026-07-27T12:39:46.811505+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1161,13 +1165,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
-      "Physical LaborSocial",
+      "Instagram",
       "Social",
       "Physical LaborSocialProgramCity of Garland",
-      "Instagram"
+      "Physical Labor",
+      "Physical LaborSocial"
     ],
-    "last_scraped": "2026-07-20T12:01:32.791922+00:00",
+    "last_scraped": "2026-07-27T12:40:16.470394+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1203,7 +1207,7 @@
       "Instagram"
     ],
     "last_scraped": "2026-07-20T12:00:33.207271+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [
@@ -1245,14 +1249,14 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
-      "Technology",
-      "SocialPhysical LaborTechnologyProgramCommunity Partners",
-      "Social",
       "SocialPhysical LaborTechnology",
-      "Instagram"
+      "Instagram",
+      "Technology",
+      "Social",
+      "Physical Labor",
+      "SocialPhysical LaborTechnologyProgramCommunity Partners"
     ],
-    "last_scraped": "2026-07-20T12:01:37.889370+00:00",
+    "last_scraped": "2026-07-27T12:40:22.275251+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1282,11 +1286,11 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
       "Physical LaborProgramCommunity Partners",
+      "Physical Labor",
       "Instagram"
     ],
-    "last_scraped": "2026-07-20T12:01:33.958530+00:00",
+    "last_scraped": "2026-07-27T12:40:17.896235+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1322,14 +1326,14 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Nonprofit Professional",
-      "Nonprofit ProfessionalClericalSocialProgramGarland Public Libraries",
-      "Social",
+      "Clerical",
       "Nonprofit ProfessionalClericalSocial",
+      "Nonprofit ProfessionalClericalSocialProgramGarland Public Libraries",
       "Instagram",
-      "Clerical"
+      "Nonprofit Professional",
+      "Social"
     ],
-    "last_scraped": "2026-07-20T12:01:12.558212+00:00",
+    "last_scraped": "2026-07-27T12:39:56.905269+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1366,21 +1370,21 @@
       "Physical LaborProgramGarland Public Libraries",
       "Instagram"
     ],
-    "last_scraped": "2026-07-20T12:01:08.582815+00:00",
+    "last_scraped": "2026-07-27T12:39:53.009396+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ],
     "expiry": {
       "kind": "one_time",
       "ends_on": "2026-09-19",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:10.681327+00:00"
-    },
-    "unified_tags": [
-      "children",
-      "education",
-      "community"
-    ]
+    }
   },
   {
     "id": "garland_1259671",
@@ -1409,7 +1413,7 @@
       "Instagram"
     ],
     "last_scraped": "2026-07-20T12:00:55.655059+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [
@@ -1449,7 +1453,7 @@
       "Physical LaborProgramGarland Public Libraries",
       "Instagram"
     ],
-    "last_scraped": "2026-07-20T12:00:56.895218+00:00",
+    "last_scraped": "2026-07-27T12:39:36.195839+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1490,7 +1494,7 @@
       "Physical LaborProgramGarland Public Libraries",
       "Instagram"
     ],
-    "last_scraped": "2026-07-20T12:00:47.060809+00:00",
+    "last_scraped": "2026-07-27T12:39:40.964482+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1532,7 +1536,7 @@
       "Physical LaborProgramGarland Public Libraries",
       "Instagram"
     ],
-    "last_scraped": "2026-07-20T12:00:51.751294+00:00",
+    "last_scraped": "2026-07-27T12:39:44.359542+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1642,21 +1646,21 @@
       "Physical LaborProgramGarland Public Libraries",
       "Instagram"
     ],
-    "last_scraped": "2026-07-20T12:01:02.948095+00:00",
+    "last_scraped": "2026-07-27T12:39:48.100990+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
+    "unified_tags": [
+      "children",
+      "community",
+      "education"
+    ],
     "expiry": {
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:10.681327+00:00"
-    },
-    "unified_tags": [
-      "children",
-      "community",
-      "education"
-    ]
+    }
   },
   {
     "id": "garland_1286758",
@@ -1684,21 +1688,21 @@
       "Physical LaborProgramGarland Public Libraries",
       "Instagram"
     ],
-    "last_scraped": "2026-07-20T12:01:07.260915+00:00",
+    "last_scraped": "2026-07-27T12:39:51.819045+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
+    "unified_tags": [
+      "children",
+      "community",
+      "education"
+    ],
     "expiry": {
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:10.681327+00:00"
-    },
-    "unified_tags": [
-      "children",
-      "community",
-      "education"
-    ]
+    }
   },
   {
     "id": "garland_1259642",
@@ -1728,7 +1732,7 @@
       "Instagram"
     ],
     "last_scraped": "2026-07-20T12:00:53.173591+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [
@@ -1842,7 +1846,7 @@
       "Physical Labor",
       "Instagram"
     ],
-    "last_scraped": "2026-07-20T12:01:23.796060+00:00",
+    "last_scraped": "2026-07-27T12:40:07.959029+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1872,13 +1876,13 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
-      "SocialPhysical Labor",
-      "Social",
       "Instagram",
-      "SocialPhysical LaborProgramParks and Recreation"
+      "Social",
+      "SocialPhysical LaborProgramParks and Recreation",
+      "Physical Labor",
+      "SocialPhysical Labor"
     ],
-    "last_scraped": "2026-07-20T12:01:17.856109+00:00",
+    "last_scraped": "2026-07-27T12:40:02.288753+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1910,13 +1914,13 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
-      "SocialPhysical Labor",
-      "Social",
       "Instagram",
-      "SocialPhysical LaborProgramParks and Recreation"
+      "Social",
+      "SocialPhysical LaborProgramParks and Recreation",
+      "Physical Labor",
+      "SocialPhysical Labor"
     ],
-    "last_scraped": "2026-07-20T12:00:38.978461+00:00",
+    "last_scraped": "2026-07-27T12:39:33.946763+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1957,13 +1961,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
-      "SocialPhysical Labor",
-      "Social",
       "Instagram",
-      "SocialPhysical LaborProgramParks and Recreation"
+      "Social",
+      "SocialPhysical LaborProgramParks and Recreation",
+      "Physical Labor",
+      "SocialPhysical Labor"
     ],
-    "last_scraped": "2026-07-20T12:00:37.453366+00:00",
+    "last_scraped": "2026-07-27T12:39:32.741662+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2000,11 +2004,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
       "Physical LaborProgramCommunity Partners",
+      "Physical Labor",
       "Instagram"
     ],
-    "last_scraped": "2026-07-20T12:01:05.793196+00:00",
+    "last_scraped": "2026-07-27T12:39:50.517194+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2083,13 +2087,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
-      "Physical LaborSocial",
+      "Instagram",
       "Physical LaborSocialProgramGarland Public Libraries",
       "Social",
-      "Instagram"
+      "Physical Labor",
+      "Physical LaborSocial"
     ],
-    "last_scraped": "2026-07-20T12:00:58.367572+00:00",
+    "last_scraped": "2026-07-27T12:39:39.801302+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2127,13 +2131,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
-      "Physical LaborSocial",
+      "Instagram",
       "Physical LaborSocialProgramGarland Public Libraries",
       "Social",
-      "Instagram"
+      "Physical Labor",
+      "Physical LaborSocial"
     ],
-    "last_scraped": "2026-07-20T12:00:48.452179+00:00",
+    "last_scraped": "2026-07-27T12:39:43.167307+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2155,37 +2159,37 @@
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1282196",
     "org_name": "Parks and Recreation",
     "opportunity_title": "Summer Opps at Park Ops: Supply Inventory",
-    "description_long": "Summer Opps at Park Ops Finding yourself bored this summer? Come hang out with Volunteer Garland and help us get ready for the next volunteer year! We'll be counting litter grabbers, bags, giveaways, and other supplies. As a thank-you, you'll even get to take home some City swag! Wednesday, July 15 10:00 a.m. - 1:00 p.m. We'll be outdoors for part of the opportunity, so dress comfortably. We're looking for just five volunteers , making this a great chance to chat, meet fellow volunteers, and help us get organized for the year ahead. Perfect for school-age students looking to get a head start on service hours before the new school year!",
+    "description_long": "Summer Opps at Park Ops Finding yourself bored this summer? Come hang out with Volunteer Garland and help us get ready for the next volunteer year! We'll be counting litter grabbers, bags, giveaways, and other supplies. As a thank-you, you'll even get to take home some City swag! Wednesday, July 29 10:00 a.m. - 1:00 p.m. We'll be outdoors for part of the opportunity, so dress comfortably. We're looking for just five volunteers , making this a great chance to chat, meet fellow volunteers, and help us get organized for the year ahead. Perfect for school-age students looking to get a head start on service hours before the new school year!",
     "description_short": "Summer Opps at Park Ops Finding yourself bored this summer? Come hang out with Volunteer Garland and help us get ready for the next volunteer year! We'll be counting litter grabbers, bags, giveaways, and other supplies. As a thank-you, you'll even…",
     "address": {},
     "schedule": {
-      "raw": "Calendar Happens On Jul 15, 2026 Time 10 am to 1 pm"
+      "raw": "Calendar Happens On Jul 29, 2026 Time 10 am to 1 pm"
     },
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
       "Instagram",
-      "Physical LaborSocial",
-      "Physical Labor",
       "Social",
-      "Physical LaborSocialProgramParks and Recreation"
+      "Physical Labor",
+      "Physical LaborSocialProgramParks and Recreation",
+      "Physical LaborSocial"
     ],
-    "last_scraped": "2026-07-13T12:19:05.217847+00:00",
-    "status": "inactive",
+    "last_scraped": "2026-07-27T12:39:38.520236+00:00",
+    "status": "active",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [],
-    "expiry": {
-      "kind": "one_time",
-      "ends_on": "2026-07-15",
-      "model": "gpt-4o-mini",
-      "checked_at": "2026-07-17T00:48:50.827899+00:00"
-    },
     "qc": {
       "status": "rejected",
       "category": "expired",
       "reason": "event date passed (2026-07-15)",
       "model": "expiry-rule",
+      "checked_at": "2026-07-17T00:48:50.827899+00:00"
+    },
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-07-15",
+      "model": "gpt-4o-mini",
       "checked_at": "2026-07-17T00:48:50.827899+00:00"
     }
   },
@@ -2210,25 +2214,25 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Basic Hand ToolsChainsaw ExperienceConstruction/Building TradesEducationEvent Setup/BreakdownFence Repair/CarpentryFood ServiceGeneral Physical LaborLandscaping/Lawn CareMedicalPaintingTeaching/TrainingTree Care/Tree TrimmingWorkshop Instructor/TrainerProgramCity of Garland",
-      "Event Setup/Breakdown",
-      "Basic Hand Tools",
-      "Food Service",
-      "Landscaping/Lawn Care",
-      "Workshop Instructor/Trainer",
       "Tree Care/Tree Trimming",
-      "Painting",
       "General Physical Labor",
-      "Medical",
-      "Basic Hand ToolsChainsaw ExperienceConstruction/Building TradesEducationEvent Setup/BreakdownFence Repair/CarpentryFood ServiceGeneral Physical LaborLandscaping/Lawn CareMedicalPaintingTeaching/TrainingTree Care/Tree TrimmingWorkshop Instructor/Trainer",
-      "Construction/Building Trades",
-      "Teaching/Training",
-      "Fence Repair/Carpentry",
-      "Chainsaw Experience",
       "Instagram",
-      "Education"
+      "Basic Hand Tools",
+      "Event Setup/Breakdown",
+      "Painting",
+      "Medical",
+      "Food Service",
+      "Basic Hand ToolsChainsaw ExperienceConstruction/Building TradesEducationEvent Setup/BreakdownFence Repair/CarpentryFood ServiceGeneral Physical LaborLandscaping/Lawn CareMedicalPaintingTeaching/TrainingTree Care/Tree TrimmingWorkshop Instructor/Trainer",
+      "Fence Repair/Carpentry",
+      "Landscaping/Lawn Care",
+      "Basic Hand ToolsChainsaw ExperienceConstruction/Building TradesEducationEvent Setup/BreakdownFence Repair/CarpentryFood ServiceGeneral Physical LaborLandscaping/Lawn CareMedicalPaintingTeaching/TrainingTree Care/Tree TrimmingWorkshop Instructor/TrainerProgramCity of Garland",
+      "Teaching/Training",
+      "Workshop Instructor/Trainer",
+      "Education",
+      "Construction/Building Trades",
+      "Chainsaw Experience"
     ],
-    "last_scraped": "2026-07-20T12:01:43.346730+00:00",
+    "last_scraped": "2026-07-27T12:40:27.623716+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2262,11 +2266,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
       "SocialProgramCity of Garland",
-      "Instagram"
+      "Instagram",
+      "Social"
     ],
-    "last_scraped": "2026-07-20T12:01:36.448178+00:00",
+    "last_scraped": "2026-07-27T12:40:20.498695+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2301,14 +2305,14 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Nonprofit Professional",
-      "Nonprofit ProfessionalClericalSocialProgramGarland Public Libraries",
-      "Social",
+      "Clerical",
       "Nonprofit ProfessionalClericalSocial",
+      "Nonprofit ProfessionalClericalSocialProgramGarland Public Libraries",
       "Instagram",
-      "Clerical"
+      "Nonprofit Professional",
+      "Social"
     ],
-    "last_scraped": "2026-07-20T12:01:11.123999+00:00",
+    "last_scraped": "2026-07-27T12:39:55.606236+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2389,27 +2393,27 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
-      "Physical LaborSocial",
+      "Instagram",
       "Physical LaborSocialProgramGarland Public Libraries",
       "Social",
-      "Instagram"
+      "Physical Labor",
+      "Physical LaborSocial"
     ],
-    "last_scraped": "2026-07-20T12:00:59.607896+00:00",
+    "last_scraped": "2026-07-27T12:39:42.027676+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
+    "unified_tags": [
+      "children",
+      "community",
+      "education"
+    ],
     "expiry": {
       "kind": "unknown",
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:10.681327+00:00"
-    },
-    "unified_tags": [
-      "children",
-      "community",
-      "education"
-    ]
+    }
   },
   {
     "id": "garland_1276891",
@@ -2433,13 +2437,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
-      "Physical LaborSocial",
+      "Instagram",
       "Physical LaborSocialProgramGarland Public Libraries",
       "Social",
-      "Instagram"
+      "Physical Labor",
+      "Physical LaborSocial"
     ],
-    "last_scraped": "2026-07-20T12:00:45.036673+00:00",
+    "last_scraped": "2026-07-27T12:39:37.363378+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",

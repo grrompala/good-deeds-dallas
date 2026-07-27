@@ -2116,7 +2116,11 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-21T04:20:57.870535+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "seniors",
+      "community",
+      "environment"
+    ]
   },
   {
     "id": "cc_young_dallas_1",
@@ -2210,7 +2214,10 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-21T04:20:57.870535+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "seniors",
+      "community"
+    ]
   },
   {
     "id": "cc_young_dallas_4",
@@ -4007,7 +4014,9 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "community"
+    ],
     "expiry": {
       "kind": "unknown",
       "ends_on": null,
@@ -5459,7 +5468,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
     "expiry": {
       "kind": "unknown",
       "ends_on": null,
@@ -21229,7 +21241,11 @@
       "reason": "Concrete role as a crisis line volunteer with specific shift commitment.",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-26T04:31:47.537342+00:00"
-    }
+    },
+    "unified_tags": [
+      "crisis_support",
+      "mental_health"
+    ]
   },
   {
     "id": "tlt_tomorrow_s_leaders_today_inc_0",
