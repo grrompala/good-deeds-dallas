@@ -1,6 +1,7 @@
-// TabBar — sticky section nav. Original single-row layout on all screens
-// (narrow screens scroll horizontally); Smart Search leads the tab order so
-// it's front-and-center — and always visible on phones.
+// TabBar — section nav. Rendered inside the sticky app header (HomeClient), so
+// it no longer sticks on its own. Single-row layout on all screens (narrow
+// screens scroll horizontally); Smart Search leads the tab order so it's
+// front-and-center — and always visible on phones.
 // Also includes the "Home" link on the left so users can always return
 // to the empty default state.
 
@@ -13,7 +14,7 @@ const TABS = [
 
 export default function TabBar({ active, onChange, counts = {}, onHome }) {
   return (
-    <div className="sticky top-0 z-30 bg-canvas/95 backdrop-blur-md border-b border-line">
+    <div className="bg-canvas/95 backdrop-blur-md border-b border-line">
       <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10">
         <nav className="flex items-stretch gap-1 overflow-x-auto no-scrollbar -mx-1 px-1">
           {/* Home button */}

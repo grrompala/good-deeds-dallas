@@ -27,6 +27,9 @@ const PAGE_SIZE = 12
 const CITY_MIN_COUNT = 3
 const CITY_MAX_PILLS = 18
 
+// Cause pills shown before the "show all" toggle reveals the full list.
+const CAUSE_COLLAPSED = 14
+
 // A listing is a dated "event" only if it's a one-time occurrence AND carries a
 // real end date. one_time-without-a-date is a classifier mis-flag (common on
 // sources with no schedule field) — it can't go on a calendar, so it isn't an
@@ -80,6 +83,9 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
   // starts open when a city filter arrives pre-applied.
   const [cityRowOpen, setCityRowOpen] = useState(initialCities.length > 0)
 
+  // Cause pills collapse to the top few until "show all" is clicked.
+  const [causesExpanded, setCausesExpanded] = useState(false)
+
   // Whole-block visibility. null = "auto" (CSS shows it sm+ and hides it on
   // phones, keeping server and client HTML identical); resolved to a real
   // boolean from viewport width after mount, then the toggle owns it.
@@ -108,20 +114,19 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
     ]
   }, [listings])
 
-  // Cause filter options (unified tags only — these come from classify_listings.py)
+  // Cause filter options (unified tags only — these come from classify_listings.py).
+  // Every cause is returned, sorted by frequency; the render collapses the long
+  // tail behind a "Show all" toggle so rarer causes (e.g. disabilities) are still
+  // reachable without narrowing the results first.
   const causeOptions = useMemo(() => {
     const counts = new Map()
     listings.forEach(o => getTags(o).forEach(t => {
       counts.set(t, (counts.get(t) || 0) + 1)
     }))
-    return [
-      { id: 'all', label: 'All causes', count: listings.length },
-      ...[...counts.entries()]
-        .sort((a, b) => b[1] - a[1])
-        .slice(0, compact ? 6 : 14)
-        .map(([id, count]) => ({ id, count })),
-    ]
-  }, [listings, compact])
+    return [...counts.entries()]
+      .sort((a, b) => b[1] - a[1])
+      .map(([id, count]) => ({ id, count }))
+  }, [listings])
 
   // City filter options + counts (normalized; junk city strings never surface)
   const cityOptions = useMemo(() => {
@@ -204,7 +209,10 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
       onExpand={onExpand}
     >
       {!compact && (
-        <>
+        <div
+          className="sticky z-20 bg-canvas pb-3"
+          style={{ top: 'var(--app-header-h, 96px)' }}
+        >
           {/* Filters toggle — the only always-visible filter UI on phones */}
           <button
             onClick={() => setFiltersOpen(prev => (prev === null ? !window.matchMedia('(min-width: 640px)').matches : !prev))}
@@ -212,7 +220,7 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
             aria-expanded={filtersOpen !== false}
           >
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4">
-              <path d="M3 5h18M6 12h12M10 19h4" strokeLinecap="round" />
+              <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3" strokeLinejoin="round" />
             </svg>
             Filters
             {activeFilterCount > 0 && (
@@ -220,7 +228,7 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
             )}
           </button>
 
-          <div className={`${filtersVisibleClass} bg-white border border-line rounded-2xl shadow-card p-4 sm:p-5 mb-5 space-y-4`}>
+          <div className={`${filtersVisibleClass} bg-white border border-line rounded-2xl shadow-card p-4 sm:p-5 space-y-4`}>
             <FilterRow label="Source">
               <SitePill active={sources.length === 0} count={sourceOptions[0]?.count} onClick={() => setSources([])}>
                 All sources
@@ -238,12 +246,12 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
               ))}
             </FilterRow>
 
-            <FilterRow label="When">
+            <FilterRow label="Cadence">
               <SitePill active={when === 'all'} count={whenOptions.all} onClick={() => setWhen('all')}>
-                Anytime
+                Any
               </SitePill>
               <SitePill active={when === 'events'} count={whenOptions.events} onClick={() => setWhen('events')}>
-                Events
+                Event
               </SitePill>
               <SitePill active={when === 'ongoing'} count={whenOptions.ongoing} onClick={() => setWhen('ongoing')}>
                 Ongoing
@@ -251,10 +259,10 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
             </FilterRow>
 
             <FilterRow label="Cause">
-              <SitePill active={causes.length === 0} count={causeOptions[0]?.count} onClick={() => setCauses([])}>
+              <SitePill active={causes.length === 0} count={listings.length} onClick={() => setCauses([])}>
                 All causes
               </SitePill>
-              {causeOptions.slice(1).map(o => (
+              {(causesExpanded ? causeOptions : causeOptions.slice(0, CAUSE_COLLAPSED)).map(o => (
                 <TagChip
                   key={o.id}
                   id={o.id}
@@ -264,6 +272,14 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
                   variant="filter"
                 />
               ))}
+              {causeOptions.length > CAUSE_COLLAPSED && (
+                <button
+                  onClick={() => setCausesExpanded(v => !v)}
+                  className="px-2 py-1.5 text-xs font-medium text-brand hover:text-brandDark transition-colors"
+                >
+                  {causesExpanded ? 'show less ▲' : `show all ${causeOptions.length} ▾`}
+                </button>
+              )}
             </FilterRow>
 
             {/* City row — collapsed by default to keep the block lean */}
@@ -301,27 +317,25 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
               )}
             </FilterRow>
           </div>
-        </>
-      )}
 
-      {/* Sort control — always visible (outside the collapsible filter block),
-          non-compact only. Upcoming needs an end date, so it's most useful with
-          the Events filter on, but it works across any result set. */}
-      {!compact && (
-        <div className="mb-4 flex items-center justify-end gap-2">
-          <span className="text-xs font-mono uppercase tracking-wider text-muted">Sort</span>
-          <div className="inline-flex rounded-full border border-line bg-white p-0.5">
-            {[['recent', 'Recently added'], ['upcoming', 'Upcoming']].map(([id, label]) => (
-              <button
-                key={id}
-                onClick={() => setSort(id)}
-                className={`px-3 py-1 rounded-full text-sm font-medium transition-colors whitespace-nowrap ${
-                  sort === id ? 'bg-brand text-white' : 'text-inkSoft hover:text-brand'
-                }`}
-              >
-                {label}
-              </button>
-            ))}
+          {/* Sort control — kept in the sticky bar so ordering stays reachable
+              too. Upcoming needs an end date, so it's most useful with the Event
+              cadence on, but it works across any result set. */}
+          <div className="mt-3 flex items-center justify-end gap-2">
+            <span className="text-xs font-mono uppercase tracking-wider text-muted">Sort</span>
+            <div className="inline-flex rounded-full border border-line bg-white p-0.5">
+              {[['recent', 'Recently added'], ['upcoming', 'Upcoming']].map(([id, label]) => (
+                <button
+                  key={id}
+                  onClick={() => setSort(id)}
+                  className={`px-3 py-1 rounded-full text-sm font-medium transition-colors whitespace-nowrap ${
+                    sort === id ? 'bg-brand text-white' : 'text-inkSoft hover:text-brand'
+                  }`}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
           </div>
         </div>
       )}

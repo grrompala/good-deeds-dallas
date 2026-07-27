@@ -78,6 +78,29 @@ export default function HomeClient({
   const listingsRef = useRef(null)
   const orgsRef     = useRef(null)
   const chatterRef  = useRef(null)
+  const headerRef   = useRef(null)
+
+  // The whole top (Hero + TabBar) is a single sticky header so search + section
+  // nav stay reachable without scrolling back up. Once scrolled, the Hero
+  // collapses to a slim bar (see Hero `compact`); its live height is published
+  // as a CSS var so the sticky filter bar can pin right beneath it.
+  const [scrolled, setScrolled] = useState(false)
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 72)
+    onScroll()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
+  useEffect(() => {
+    const el = headerRef.current
+    if (!el) return
+    const publish = () =>
+      document.documentElement.style.setProperty('--app-header-h', `${el.offsetHeight}px`)
+    publish()
+    const ro = new ResizeObserver(publish)
+    ro.observe(el)
+    return () => ro.disconnect()
+  }, [])
 
   const router = useRouter()
   const pathname = usePathname()
@@ -204,18 +227,21 @@ export default function HomeClient({
 
   return (
     <>
-      <Hero
-        search={search}
-        setSearch={setSearch}
-        onWordmarkClick={goHome}
-      />
+      <header ref={headerRef} className="sticky top-0 z-40">
+        <Hero
+          search={search}
+          setSearch={setSearch}
+          onWordmarkClick={goHome}
+          compact={scrolled}
+        />
 
-      <TabBar
-        active={showSearch ? 'search' : isStacked ? null : focusedTab}
-        onChange={handleTabChange}
-        onHome={goHome}
-        counts={tabCounts}
-      />
+        <TabBar
+          active={showSearch ? 'search' : isStacked ? null : focusedTab}
+          onChange={handleTabChange}
+          onHome={goHome}
+          counts={tabCounts}
+        />
+      </header>
 
       <main className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10 py-8 lg:py-12">
         {/* The empty state needs no data — render it immediately (it's also
