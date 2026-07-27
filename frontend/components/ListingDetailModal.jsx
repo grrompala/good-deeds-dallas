@@ -15,6 +15,7 @@ import { cleanCity } from '../lib/city'
 import { sourceLabel } from './SourceBox'
 import { cleanOrgName } from './cleanText'
 import { getTags } from './sanitizeTag'
+import { CANONICAL_TAGS } from './tagMeta'
 import { orgKey } from './orgs'
 
 export default function ListingDetailModal({ listing, onClose, onSelectOrg }) {
@@ -24,7 +25,7 @@ export default function ListingDetailModal({ listing, onClose, onSelectOrg }) {
   const orgName = cleanOrgName(o.org_name)
   const key     = orgKey(o.org_name)
   const city    = cleanCity(o.address?.city)
-  const tags    = getTags(o)
+  const tags    = getTags(o).filter(t => CANONICAL_TAGS.has(t))
   const desc    = o.description_long || o.description_short || 'No description available.'
   const email   = o.contact?.[0]?.email || o.contact?.email || null
   const phone   = o.contact?.[0]?.phone || o.contact?.phone || null

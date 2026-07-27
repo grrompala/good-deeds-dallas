@@ -333,7 +333,9 @@ export function ListingRow({ data, compact, onSelectOrg, onSelectListing }) {
   // noisy to trust, so it stays suppressed for that source.
   const city      = source !== 'volunteermckinney' ? cityName(data) : null
   const dateLabel = scheduleDateLabel(data)
-  const cleanTags = getTags(data)
+  // Only canonical taxonomy tags are UI-facing labels (raw scraped cause_tags
+  // like "In-Kind"/"Skilled Labor" are not shown as chips).
+  const cleanTags = getTags(data).filter(t => CANONICAL_TAGS.has(t))
   const orgLabel  = cleanOrgName(org_name)
   const orgK      = orgKey(org_name)
 

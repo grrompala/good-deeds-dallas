@@ -16,6 +16,7 @@ import TagChip from './TagChip'
 import { cityName } from '../lib/city'
 import { sourceLabel } from './SourceBox'
 import { getTags } from './sanitizeTag'
+import { CANONICAL_TAGS } from './tagMeta'
 import { listingsForOrg, summarizeOrg } from './orgs'
 
 export default function OrgModal({ orgKey, listings, onClose, onOpenListing }) {
@@ -82,7 +83,8 @@ export default function OrgModal({ orgKey, listings, onClose, onOpenListing }) {
 // inside a modal, so we avoid stacking a second one).
 function OrgListingItem({ opp, onOpenListing }) {
   const [expanded, setExpanded] = useState(false)
-  const tags = getTags(opp)
+  // Canonical taxonomy tags only — raw scraped cause_tags aren't UI labels.
+  const tags = getTags(opp).filter(t => CANONICAL_TAGS.has(t))
   const long  = opp.description_long || ''
   const short = opp.description_short || ''
   const body  = expanded ? (long || short) : (short || long)

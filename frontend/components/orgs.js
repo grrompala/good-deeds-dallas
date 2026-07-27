@@ -6,6 +6,7 @@
 
 import { cleanOrgName } from './cleanText'
 import { getTags } from './sanitizeTag'
+import { CANONICAL_TAGS } from './tagMeta'
 import { cityName } from '../lib/city'
 
 // Canonical identity for an org. We match case-insensitively so "Wilkinson
@@ -44,7 +45,12 @@ export function summarizeOrg(entries) {
     key:    orgKey(first.org_name),
     name,
     count:  entries.length,
-    causes: [...causeCounts.entries()].sort((a, b) => b[1] - a[1]).map(([t]) => t),
+    // Only canonical taxonomy tags surface as an org's causes — raw scraped
+    // cause_tags (e.g. "In-Kind", "Skilled Labor") aren't UI-facing labels.
+    causes: [...causeCounts.entries()]
+      .filter(([t]) => CANONICAL_TAGS.has(t))
+      .sort((a, b) => b[1] - a[1])
+      .map(([t]) => t),
     cities: [...cities],
     sources: [...sources],
     url,
