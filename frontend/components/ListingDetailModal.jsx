@@ -64,7 +64,7 @@ export default function ListingDetailModal({ listing, onClose, onSelectOrg }) {
               </span>
             )}
             {city && <Meta icon="pin">{city}, TX</Meta>}
-            {o.schedule?.date && <Meta icon="calendar">{o.schedule.date}</Meta>}
+            {o.schedule?.date && o.schedule?.recurring !== true && <Meta icon="calendar">{o.schedule.date}</Meta>}
             {o.schedule?.duration && <Meta icon="clock">{o.schedule.duration}</Meta>}
             {o.volunteers_needed > 0 && <Meta icon="users">{o.volunteers_needed.toLocaleString()} needed</Meta>}
             {o.is_virtual && (

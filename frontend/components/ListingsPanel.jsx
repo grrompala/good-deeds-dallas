@@ -37,30 +37,51 @@ function isEvent(o) {
   return o.expiry?.kind === 'one_time' && !!o.expiry?.ends_on
 }
 
-// Format an ISO date ('YYYY-MM-DD') as 'Jul 20', adding the year only when it
-// isn't the current one. '' on anything unparseable.
-function fmtDate(iso) {
-  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '')
-  if (!m) return ''
-  const d = new Date(+m[1], +m[2] - 1, +m[3])
+// Format a date for a card, adding the year only when it isn't the current one.
+// '' on anything unparseable. `d` is a local Date.
+function fmtDay(d) {
   return d.toLocaleDateString('en-US', {
     month: 'short', day: 'numeric',
     ...(d.getFullYear() !== new Date().getFullYear() ? { year: 'numeric' } : {}),
   })
 }
 
-// The date label for a card. Prefers the parsed, cross-source expiry stamp
-// (populated for every source) over the legacy voly-only schedule.date: a
-// dated event shows its date ('Jul 20'); a bounded/seasonal ongoing program
-// shows when it stops ('Through Jul 24'). null when there's no date to show.
+// Format an ISO date ('YYYY-MM-DD') as 'Jul 20'. '' on anything unparseable.
+function fmtDate(iso) {
+  const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '')
+  if (!m) return ''
+  return fmtDay(new Date(+m[1], +m[2] - 1, +m[3]))
+}
+
+// Like fmtDate but also accepts Voly's human 'Mon DD, YYYY' ('Jul 23, 2026').
+// '' on anything unparseable.
+function fmtLoose(v) {
+  if (typeof v !== 'string' || !v) return ''
+  const iso = fmtDate(v)          // ISO first (avoids Date()'s UTC parsing)
+  if (iso) return iso
+  const d = new Date(v)           // 'Jul 23, 2026' -> local midnight
+  return isNaN(d.getTime()) ? '' : fmtDay(d)
+}
+
+// The date label for a card. Voly carries a concrete date in its own schedule,
+// but only trust it for genuine one-time events: a recurring Voly opp's date is
+// just a rolling next-occurrence that goes stale between weekly scrapes and
+// reads as expired, so we suppress it (the recurring flag is Voly's own signal).
+// Other sources have no schedule.date, so we fall back to the parsed cross-source
+// expiry stamp: a one-time event shows its date, a bounded/seasonal ongoing
+// program shows when it stops ('Through Jul 24'). null when there's no date.
 function scheduleDateLabel(o) {
+  const s = o.schedule || {}
+  if (s.date && s.recurring !== true) {
+    const own = fmtLoose(s.date)
+    if (own) return own
+  }
   const ends = o.expiry?.ends_on
   if (ends) {
     const t = fmtDate(ends)
     if (t) return o.expiry.kind === 'one_time' ? t : `Through ${t}`
   }
-  const s = o.schedule || {}
-  return s.date && !s.recurring ? s.date : null
+  return null
 }
 
 export default function ListingsPanel({ listings, compact = false, initialCauses = [], initialCities = [], initialVisible = PAGE_SIZE, onExpand, onSelectOrg, onSelectListing }) {
@@ -338,8 +359,7 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
 export function ListingRow({ data, compact, onSelectOrg, onSelectListing }) {
   const {
     opportunity_title, org_name, description_short, description_long,
-    schedule, address, volunteers_needed, source_url, is_virtual, source,
-    published,
+    address, volunteers_needed, source_url, is_virtual, source,
   } = data
 
   // Visible city label (was a hover-only pin). McKinney's city field is too
@@ -358,11 +378,6 @@ export function ListingRow({ data, compact, onSelectOrg, onSelectListing }) {
     (description_long && description_long.length > (description_short || '').length + 10) ||
     desc.length > 140
   )
-
-  // Pretty "Posted Mar 14" style for the published date
-  const postedLabel = published
-    ? new Date(published).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })
-    : null
 
   return (
     <div className="group relative p-4 lg:p-5 hover:bg-canvas transition-colors">
@@ -422,8 +437,6 @@ export function ListingRow({ data, compact, onSelectOrg, onSelectListing }) {
 
           <div className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1.5 text-xs text-muted">
             {dateLabel && <Meta icon="calendar">{dateLabel}</Meta>}
-            {postedLabel        && <Meta icon="posted">Posted {postedLabel}</Meta>}
-            {schedule?.duration && <Meta icon="clock">{schedule.duration}</Meta>}
             {volunteers_needed > 0 && <Meta icon="users">{volunteers_needed.toLocaleString()} needed</Meta>}
             {is_virtual && (
               <span className="px-2 py-0.5 rounded-md bg-accentSoft text-accent text-xs font-semibold">Virtual</span>
@@ -441,9 +454,7 @@ export function ListingRow({ data, compact, onSelectOrg, onSelectListing }) {
 function Meta({ icon, children }) {
   const icons = {
     calendar: <><rect x="3" y="4" width="18" height="18" rx="2"/><path d="M16 2v4M8 2v4M3 10h18" strokeLinecap="round"/></>,
-    clock:    <><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2" strokeLinecap="round"/></>,
     users:    <><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></>,
-    posted:   <><circle cx="12" cy="12" r="9"/><path d="M9 12l2 2 4-4" strokeLinecap="round" strokeLinejoin="round"/></>,
   }
   return (
     <span className="inline-flex items-center gap-1 whitespace-nowrap">
