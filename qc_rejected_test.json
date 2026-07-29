@@ -1,0 +1,18 @@
+[
+  {
+    "id": "a1",
+    "org_name": "Past Org",
+    "opportunity_title": "Old Event",
+    "category": "expired",
+    "reason": "event date passed (2020-01-01)",
+    "source_url": null
+  },
+  {
+    "id": "a4",
+    "org_name": "Already Rejected",
+    "opportunity_title": "X",
+    "category": "dupe",
+    "reason": null,
+    "source_url": null
+  }
+]
