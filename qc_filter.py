@@ -25,6 +25,12 @@ It's NON-DESTRUCTIVE and auditable:
 
 The frontend hides records whose qc.status == "rejected".
 
+A third, separate pass — --cross-dedupe — loads every source file together and
+resolves duplicates that span MORE THAN ONE source (e.g. a nonprofit we curate
+directly that's also listed on Idealist), keeping the copy from the
+highest-priority source (SOURCE_PRIORITY below) rather than the most complete
+one. Per-file dedupe_records() only ever sees one source, so it can't do this.
+
 Usage:
     pip install requests openai            # (or anthropic)
     python qc_filter.py                                  # curated, gpt-4o-mini
@@ -32,6 +38,7 @@ Usage:
     python qc_filter.py --file frontend/public/data/volops_voly.json
     python qc_filter.py --recheck                        # re-judge everything
     python qc_filter.py --file frontend/public/data/volops_idealist.json --dedupe-only
+    python qc_filter.py --cross-dedupe                   # resolve cross-source dupes, all files
 """
 
 import os
@@ -383,6 +390,116 @@ def dedupe_records(records, now):
     return rejected
 
 
+# ── Cross-source dedup (rule-based, hierarchy-driven) ────────────────────────
+# The same real-world opportunity sometimes shows up in more than one source
+# (a nonprofit we curate directly that's also listed on Idealist, say). This
+# pass resolves duplicates ACROSS sources by keeping the copy from the
+# highest-priority source rather than the most complete one — GDD Curated is
+# hand-verified, and Idealist/Voly are the least reliable for staleness, so
+# they lose ties even if their copy happens to have more fields filled in.
+
+# Kept in sync with classify_listings.py's LISTING_FILES and the frontend's
+# LISTING_FILES arrays — the full set of per-source data files.
+LISTING_FILES = [
+    Path("frontend/public/data/volops_curated.json"),
+    Path("frontend/public/data/volops_garland.json"),
+    Path("frontend/public/data/volops_mckinney.json"),
+    Path("frontend/public/data/volops_dallasdoinggood.json"),
+    Path("frontend/public/data/volops_voly.json"),
+    Path("frontend/public/data/volops_idealist.json"),
+]
+
+# Lower number = higher priority = wins a cross-source duplicate. A source
+# missing from this map falls back to the lowest priority.
+SOURCE_PRIORITY = {
+    "curated":          0,
+    "volunteergarland": 1,
+    "volunteermckinney": 1,
+    "dallasdoinggood":  1,
+    "idealist":         2,
+    "voly_dallas":      2,
+}
+
+
+def _priority_rank(rec):
+    # Primary: source tier (lower wins). Tiebreak within a tier: completeness.
+    return (SOURCE_PRIORITY.get(rec.get("source"), 3), -_completeness(rec))
+
+
+def write_reject_log(path, records):
+    """(Re)build one file's rejection audit log from its current qc stamps."""
+    reject_log = reject_log_path(path)
+    rejected = [
+        {
+            "id": r.get("id"),
+            "org_name": r.get("org_name"),
+            "opportunity_title": r.get("opportunity_title"),
+            "category": r.get("qc", {}).get("category"),
+            "reason": r.get("qc", {}).get("reason"),
+            "source_url": r.get("source_url"),
+        }
+        for r in records
+        if r.get("qc", {}).get("status") == "rejected"
+    ]
+    json.dump(rejected, open(reject_log, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+    return rejected
+
+
+def cross_source_dedupe():
+    """Load every source file together and resolve duplicates that span more
+    than one source, keeping the copy from the highest-priority source
+    (SOURCE_PRIORITY) rather than the most complete one. Writes back only the
+    files that changed. Returns the count of newly-rejected records."""
+    now = datetime.now(timezone.utc).isoformat()
+
+    by_path = {}
+    for path in LISTING_FILES:
+        if path.exists():
+            by_path[path] = json.load(open(path, encoding="utf-8"))
+
+    groups = {}
+    for path, records in by_path.items():
+        for rec in records:
+            if rec.get("status") == "inactive" or rec.get("qc", {}).get("status") == "rejected":
+                continue
+            groups.setdefault(_dedup_key(rec), []).append((path, rec))
+
+    rejected = 0
+    dirty = set()
+    for group in groups.values():
+        if len(group) < 2:
+            continue
+        if len({rec.get("source") for _, rec in group}) < 2:
+            continue  # same-source dupes are already resolved by dedupe_records()
+
+        signals = {_schedule_signal(rec) for _, rec in group} - {None}
+        if len(signals) > 1:
+            continue  # genuinely different scheduled instances — keep all
+
+        keeper = min(group, key=lambda pr: _priority_rank(pr[1]))[1]
+        for path, rec in group:
+            if rec is keeper:
+                continue
+            rec["qc"] = {
+                "status": "rejected",
+                "category": "duplicate",
+                "reason": (f"cross-source duplicate of {keeper.get('id')} "
+                           f"({keeper.get('source')}) — same org/title/description, "
+                           "no distinguishing schedule"),
+                "model": "cross-source-dedup-rule",
+                "checked_at": now,
+            }
+            rejected += 1
+            dirty.add(path)
+
+    for path in dirty:
+        json.dump(by_path[path], open(path, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+        write_reject_log(path, by_path[path])
+
+    print(f"Cross-source dedup: {rejected} record(s) rejected across {len(dirty)} file(s).")
+    return rejected
+
+
 def parse_json(raw):
     if raw.startswith("```"):
         raw = raw.split("```")[1]
@@ -422,7 +539,15 @@ def main():
                     help="ONLY reject records whose expiry.ends_on has already passed — "
                          "no dedup, no LLM, no API key. For the daily cron that prunes "
                          "past-dated events from the site.")
+    ap.add_argument("--cross-dedupe", action="store_true",
+                    help="ONLY resolve duplicates that span more than one source file, "
+                         "keeping the highest-priority source's copy (SOURCE_PRIORITY). "
+                         "Ignores --file — operates over the full LISTING_FILES set.")
     args = ap.parse_args()
+
+    if args.cross_dedupe:
+        cross_source_dedupe()
+        return
 
     path = Path(args.file)
     records = json.load(open(path, encoding="utf-8"))
@@ -506,25 +631,12 @@ def main():
     json.dump(records, open(path, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
 
     # Rebuild this file's rejection audit log from its full current state.
-    reject_log = reject_log_path(path)
-    rejected = [
-        {
-            "id": r.get("id"),
-            "org_name": r.get("org_name"),
-            "opportunity_title": r.get("opportunity_title"),
-            "category": r.get("qc", {}).get("category"),
-            "reason": r.get("qc", {}).get("reason"),
-            "source_url": r.get("source_url"),
-        }
-        for r in records
-        if r.get("qc", {}).get("status") == "rejected"
-    ]
-    json.dump(rejected, open(reject_log, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
+    rejected = write_reject_log(path, records)
 
     passed = sum(1 for r in records if r.get("qc", {}).get("status") == "passed")
     print(f"\nDone. {rejected_this_run} new rejects this run.")
     print(f"Totals — passed: {passed} · rejected: {len(rejected)} "
-          f"(logged to {reject_log}). Reviewed file: {path}")
+          f"(logged to {reject_log_path(path)}). Reviewed file: {path}")
     print("To correct a call, add its id to qc_overrides.json as "
           '{"<id>": "keep"} or {"<id>": "reject"} and re-run.')
 

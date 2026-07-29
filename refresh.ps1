@@ -53,6 +53,11 @@ Invoke-Step { python qc_filter.py --file frontend/public/data/volops_mckinney.js
 Invoke-Step { python qc_filter.py --file frontend/public/data/volops_voly.json --no-judge }
 Invoke-Step { python qc_filter.py --file frontend/public/data/volops_idealist.json --no-judge }
 Invoke-Step { python qc_filter.py --file frontend/public/data/volops_dallasdoinggood.json --no-judge }
+# Now that each source's own repeats are resolved, resolve duplicates that
+# span MORE THAN ONE source (e.g. a curated org also listed on Idealist) —
+# keeps the highest-priority source's copy (curated > garland/mckinney/ddg >
+# idealist/voly), regardless of which copy has more fields filled in.
+Invoke-Step { python qc_filter.py --cross-dedupe }
 
 Write-Host "`n=== 3/4 Unified tags ===" -ForegroundColor Cyan
 Invoke-Step { python classify_listings.py }
