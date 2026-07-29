@@ -41,6 +41,7 @@ Invoke-Step { python fetch_garland.py }
 Invoke-Step { python fetch_mckinney.py }
 Invoke-Step { python fetch_voly.py }
 Invoke-Step { python fetch_idealist.py }
+Invoke-Step { python fetch_dallasdoinggood.py }
 Invoke-Step { python fetch_reddit.py }
 
 Write-Host "`n=== 2/4 QC filter ===" -ForegroundColor Cyan
@@ -51,6 +52,7 @@ Invoke-Step { python qc_filter.py --file frontend/public/data/volops_garland.jso
 Invoke-Step { python qc_filter.py --file frontend/public/data/volops_mckinney.json --no-judge }
 Invoke-Step { python qc_filter.py --file frontend/public/data/volops_voly.json --no-judge }
 Invoke-Step { python qc_filter.py --file frontend/public/data/volops_idealist.json --no-judge }
+Invoke-Step { python qc_filter.py --file frontend/public/data/volops_dallasdoinggood.json --no-judge }
 
 Write-Host "`n=== 3/4 Unified tags ===" -ForegroundColor Cyan
 Invoke-Step { python classify_listings.py }

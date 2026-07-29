@@ -105,12 +105,13 @@ export default function HomeClient({
   useEffect(() => {
     async function loadData() {
       try {
-        const [garlandRes, mckinneyRes, volyRes, idealistRes, curatedRes, newsRes] = await Promise.all([
+        const [garlandRes, mckinneyRes, volyRes, idealistRes, curatedRes, ddgRes, newsRes] = await Promise.all([
           fetch('/data/volops_garland.json'),
           fetch('/data/volops_mckinney.json'),
           fetch('/data/volops_voly.json'),
           fetch('/data/volops_idealist.json'),
           fetch('/data/volops_curated.json'),
+          fetch('/data/volops_dallasdoinggood.json'),
           fetch('/data/reddit_raw.json'),
         ])
         const garland  = garlandRes.ok  ? await garlandRes.json()  : []
@@ -118,10 +119,11 @@ export default function HomeClient({
         const voly     = volyRes.ok     ? await volyRes.json()     : []
         const idealist = idealistRes.ok ? await idealistRes.json() : []
         const curated  = curatedRes.ok  ? await curatedRes.json()  : []
+        const ddg      = ddgRes.ok      ? await ddgRes.json()      : []
         const newsData = newsRes.ok     ? await newsRes.json()     : []
 
         setOpportunities(
-          [...garland, ...mckinney, ...voly, ...idealist, ...curated]
+          [...garland, ...mckinney, ...voly, ...idealist, ...curated, ...ddg]
             .filter(r => r.status !== 'inactive' && r.qc?.status !== 'rejected' && isTexasListing(r))
         )
         setNews(

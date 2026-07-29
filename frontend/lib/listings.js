@@ -17,6 +17,7 @@ const LISTING_FILES = [
   'public/data/volops_voly.json',
   'public/data/volops_idealist.json',
   'public/data/volops_curated.json',
+  'public/data/volops_dallasdoinggood.json',
 ]
 
 // Minimum listings for a city to get its own page (avoids thin pages).

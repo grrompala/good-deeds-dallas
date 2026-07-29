@@ -41,6 +41,18 @@ const SOURCES = {
     border:      'border-violet-200',
     dot:         'bg-violet-500',
   },
+  dallasdoinggood: {
+    name:        'Dallas Doing Good',
+    fullName:    'Dallas Doing Good',
+    url:         'https://dallasdoinggood.com/volunteer/',
+    domain:      'dallasdoinggood.com',
+    summary:     'A local guide to Dallas nonprofits and their events, with a volunteer calendar of hands-on opportunities — many recurring weekly.',
+    short:       ['Dallas', 'Doing Good'],
+    bg:          'bg-teal-50',
+    text:        'text-teal-700',
+    border:      'border-teal-200',
+    dot:         'bg-teal-500',
+  },
   idealist: {
     name:        'Idealist',
     fullName:    'Idealist',

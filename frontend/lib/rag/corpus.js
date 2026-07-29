@@ -15,6 +15,7 @@ const LISTING_FILES = [
   'public/data/volops_voly.json',
   'public/data/volops_idealist.json',
   'public/data/volops_curated.json',
+  'public/data/volops_dallasdoinggood.json',
 ]
 
 // Mirror of the client-side Texas filter in app/page.js: keep a listing if its

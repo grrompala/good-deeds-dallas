@@ -54,6 +54,7 @@ LISTING_FILES = [
     Path("frontend/public/data/volops_voly.json"),
     Path("frontend/public/data/volops_idealist.json"),
     Path("frontend/public/data/volops_curated.json"),
+    Path("frontend/public/data/volops_dallasdoinggood.json"),
 ]
 
 DELAY = 0.4   # seconds between LLM calls

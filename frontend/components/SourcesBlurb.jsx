@@ -7,7 +7,7 @@ import { sourceInfo } from './SourceBox'
 // Ordered biggest/most-Dallas first; McKinney and Garland follow. GDD Curated
 // is intentionally NOT in this list — it's our own layer, not a pulled source,
 // so it gets its own line below the list.
-const SOURCES = ['voly_dallas', 'idealist', 'volunteermckinney', 'volunteergarland']
+const SOURCES = ['voly_dallas', 'idealist', 'dallasdoinggood', 'volunteermckinney', 'volunteergarland']
 
 export const CONTACT_EMAIL = 'info@good-deeds-dallas.org'
 

@@ -20,7 +20,7 @@ import { cityName } from '../lib/city'
 // Sources that feed this panel — add new ones here and they'll appear as
 // filter pills automatically.
 // Same biggest/most-Dallas-first ordering as the home page sources list.
-const SOURCES = ['voly_dallas', 'idealist', 'volunteermckinney', 'volunteergarland', 'curated']
+const SOURCES = ['voly_dallas', 'idealist', 'dallasdoinggood', 'volunteermckinney', 'volunteergarland', 'curated']
 
 // How many rows to reveal per "page" as the user scrolls (non-compact only).
 const PAGE_SIZE = 12
