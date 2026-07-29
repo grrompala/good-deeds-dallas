@@ -11738,7 +11738,14 @@
       "model": "rule",
       "checked_at": "2026-07-27T13:19:33.219954+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-07-28)",
+      "model": "expiry-rule",
+      "checked_at": "2026-07-29T09:06:40.880178+00:00"
+    }
   },
   {
     "id": "voly_118826",
