@@ -703,6 +703,252 @@
     }
   },
   {
+    "id": "baylor_scott_white_medical_center_irving_irving_1",
+    "source": "curated",
+    "org_id": "baylor_scott_white_medical_center_irving_irving",
+    "org_name": "Baylor Scott & White Medical Center - Irving",
+    "source_url": "https://bsw.vsyslive.com/pages/Irving",
+    "status": "active",
+    "last_scraped": "2026-07-31T05:11:58.631295+00:00",
+    "opportunity_title": "Animal Therapy Volunteer",
+    "description_short": "Escort animal therapy dogs to visit patients.",
+    "description_long": "Escort animal therapy dogs/owners as they make rounds to visit patients, staff and waiting areas. Must love dogs, excellent communication skills and able to walk throughout the hospital.",
+    "schedule": {
+      "raw": "Mondays - Tuesdays, 1-3pm; additional days TBD",
+      "recurring": true,
+      "times_of_day": "1pm - 3pm"
+    },
+    "commitment": "1-2 hours per shift",
+    "location": {
+      "address": null,
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must love dogs, excellent communication skills.",
+    "cause_tags": [
+      "animals",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Start Volunteer Process Here"
+  },
+  {
+    "id": "baylor_scott_white_medical_center_irving_irving_5",
+    "source": "curated",
+    "org_id": "baylor_scott_white_medical_center_irving_irving",
+    "org_name": "Baylor Scott & White Medical Center - Irving",
+    "source_url": "https://bsw.vsyslive.com/pages/Irving",
+    "status": "active",
+    "last_scraped": "2026-07-31T05:11:58.631295+00:00",
+    "opportunity_title": "CHF Clinic Volunteer",
+    "description_short": "Assist in the CHF Clinic with patient escort and comfort items.",
+    "description_long": "Assist with escorting patients to rooms, discharging patients, making copies/assembling packets, and assisting with comfort items in the CHF Clinic.",
+    "schedule": {
+      "raw": "Monday - Friday, 8am - 4pm",
+      "recurring": true,
+      "times_of_day": "8am - 4pm"
+    },
+    "commitment": "Varies",
+    "location": {
+      "address": null,
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "health",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Start Volunteer Process Here"
+  },
+  {
+    "id": "baylor_scott_white_medical_center_irving_irving_3",
+    "source": "curated",
+    "org_id": "baylor_scott_white_medical_center_irving_irving",
+    "org_name": "Baylor Scott & White Medical Center - Irving",
+    "source_url": "https://bsw.vsyslive.com/pages/Irving",
+    "status": "active",
+    "last_scraped": "2026-07-31T05:11:58.631295+00:00",
+    "opportunity_title": "Cancer Center Volunteer",
+    "description_short": "Greet guests and assist in clerical tasks in the Cancer Center.",
+    "description_long": "Greet & welcome guests, assist with clerical work, phone calls in the Cancer Center.",
+    "schedule": {
+      "raw": "Monday - Friday, 8am - 4pm",
+      "recurring": true,
+      "times_of_day": "8am - 4pm"
+    },
+    "commitment": "6-8 hours/week",
+    "location": {
+      "address": null,
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "health",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Start Volunteer Process Here"
+  },
+  {
+    "id": "baylor_scott_white_medical_center_irving_irving_2",
+    "source": "curated",
+    "org_id": "baylor_scott_white_medical_center_irving_irving",
+    "org_name": "Baylor Scott & White Medical Center - Irving",
+    "source_url": "https://bsw.vsyslive.com/pages/Irving",
+    "status": "active",
+    "last_scraped": "2026-07-31T05:11:58.631295+00:00",
+    "opportunity_title": "Clerical Support Volunteer",
+    "description_short": "Assist with clerical tasks in various departments.",
+    "description_long": "Assist with special projects, assemble packets, and perform clerical work in various departments.",
+    "schedule": {
+      "raw": "Varies, Monday - Friday",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "Varies",
+    "location": {
+      "address": null,
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Start Volunteer Process Here"
+  },
+  {
+    "id": "baylor_scott_white_medical_center_irving_irving_4",
+    "source": "curated",
+    "org_id": "baylor_scott_white_medical_center_irving_irving",
+    "org_name": "Baylor Scott & White Medical Center - Irving",
+    "source_url": "https://bsw.vsyslive.com/pages/Irving",
+    "status": "active",
+    "last_scraped": "2026-07-31T05:11:58.631295+00:00",
+    "opportunity_title": "Day Surgery Unit Volunteer",
+    "description_short": "Assist with patient escort and comfort items in Day Surgery.",
+    "description_long": "Assist with escorting patients to rooms, discharging patients, making copies/assembling packets, and assisting with comfort items in the Day Surgery Unit.",
+    "schedule": {
+      "raw": "Monday - Friday, 6am - 4pm",
+      "recurring": true,
+      "times_of_day": "6am - 4pm"
+    },
+    "commitment": "Varies",
+    "location": {
+      "address": null,
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Able to walk/push wheelchair, excellent communication skills.",
+    "cause_tags": [
+      "health",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Start Volunteer Process Here"
+  },
+  {
+    "id": "baylor_scott_white_medical_center_irving_irving_6",
+    "source": "curated",
+    "org_id": "baylor_scott_white_medical_center_irving_irving",
+    "org_name": "Baylor Scott & White Medical Center - Irving",
+    "source_url": "https://bsw.vsyslive.com/pages/Irving",
+    "status": "active",
+    "last_scraped": "2026-07-31T05:11:58.631295+00:00",
+    "opportunity_title": "Emergency Department Volunteer",
+    "description_short": "Assist with patient support in the Emergency Department.",
+    "description_long": "Assist with restocking supplies, providing comfort items to patients/families, changing linens, refreshing waiting areas, and assisting in the triage area in the Emergency Department.",
+    "schedule": {
+      "raw": "Varies, Monday - Friday, times not specified",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "Varies",
+    "location": {
+      "address": null,
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Excellent communication skills, bi-lingual a plus.",
+    "cause_tags": [
+      "health",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Start Volunteer Process Here"
+  },
+  {
+    "id": "baylor_scott_white_medical_center_irving_irving_0",
+    "source": "curated",
+    "org_id": "baylor_scott_white_medical_center_irving_irving",
+    "org_name": "Baylor Scott & White Medical Center - Irving",
+    "source_url": "https://bsw.vsyslive.com/pages/Irving",
+    "status": "active",
+    "last_scraped": "2026-07-31T05:11:58.631295+00:00",
+    "opportunity_title": "Guest Services Volunteer",
+    "description_short": "Greet guests and assist in patient navigation.",
+    "description_long": "Greet guests, assemble packets, escort patients to departments, help maintain front lobby area. Excellent communication skills - bi-lingual a plus, able to work with limited direction, able to walk/push wheelchair.",
+    "schedule": {
+      "raw": "Monday - Friday, 6am - 5pm (4 hour shifts)",
+      "recurring": true,
+      "times_of_day": "6am - 5pm"
+    },
+    "commitment": "4 hours per shift",
+    "location": {
+      "address": null,
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Excellent communication skills, bi-lingual a plus.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Start Volunteer Process Here"
+  },
+  {
+    "id": "baylor_scott_white_medical_center_irving_irving_7",
+    "source": "curated",
+    "org_id": "baylor_scott_white_medical_center_irving_irving",
+    "org_name": "Baylor Scott & White Medical Center - Irving",
+    "source_url": "https://bsw.vsyslive.com/pages/Irving",
+    "status": "active",
+    "last_scraped": "2026-07-31T05:11:58.631295+00:00",
+    "opportunity_title": "Inpatient Units Volunteer",
+    "description_short": "Support patients in various inpatient units.",
+    "description_long": "Assist with restocking supplies, providing comfort items to patients/families, changing linens, refreshing waiting areas, and assisting in the triage area in various inpatient units.",
+    "schedule": {
+      "raw": "Varies, Monday - Friday, times not specified",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "Varies",
+    "location": {
+      "address": null,
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Excellent communication skills, bi-lingual a plus.",
+    "cause_tags": [
+      "health",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Start Volunteer Process Here"
+  },
+  {
     "id": "baylor_scott_white_richardson_0",
     "source": "curated",
     "org_id": "baylor_scott_white_richardson",
