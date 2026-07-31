@@ -65,6 +65,11 @@ Return ONLY JSON, no markdown:
   "confidence": 0.0-1.0,
   "reason": "<one sentence>",
   "evidence_quotes": ["<1-3 short quotes copied verbatim from the page text>"],
+  "volunteer_url": "<copy the exact URL from the [PAGE: <url>] marker of the page
+     that actually LISTS the concrete volunteer opportunities — the page your
+     evidence quotes came from. Choose the page describing specific roles, NOT a
+     generic sign-up / registration form, login, or scheduling app. Must be one
+     of the [PAGE: ...] URLs verbatim. null if rejecting.>",
   "draft_entry": {
      "name": "<official org name>",
      "city": "<DFW city>",
@@ -73,7 +78,7 @@ Return ONLY JSON, no markdown:
      "notes": "<one sentence: what they do + the volunteer role, <200 chars>"
   }
 }
-If decision is "reject", set draft_entry to null.
+If decision is "reject", set draft_entry to null and volunteer_url to null.
 
 ORG NAME GUESS: {name}
 VOLUNTEER PAGE URL: {url}

@@ -65,11 +65,19 @@ def is_blocklisted(domain: str) -> bool:
 
 
 def best_volunteer_url(urls: list[str]) -> str | None:
-    """Of the fetched URLs, the one whose PATH looks most like a volunteer page.
-    Ties resolve to the first (the search-surfaced landing URL), so a page that
-    isn't obviously volunteer-y by path doesn't lose to a random sub-link."""
+    """Of the fetched URLs, the one whose PATH looks most like a volunteer
+    *listing* page. Ties resolve to the first (the search-surfaced landing URL),
+    so a page that isn't obviously volunteer-y by path doesn't lose to a random
+    sub-link. Fallback only — the LLM's own pick is preferred (see graph.py);
+    this just has to not do something dumb when that's unavailable.
+
+    Penalizes action endpoints (sign-up/registration/login/scheduling apps,
+    anything with a query string) so a form like `.../app/VOLUNTEERAPP?reqSite=…`
+    — which literally contains "volunteer" but holds no opportunities — loses to
+    the real content page whose path is just the org/city name."""
     def score(u: str) -> int:
-        path = urlparse(u).path.lower()
+        parsed = urlparse(u)
+        path = parsed.path.lower()
         s = 0
         if "volunteer" in path:
             s += 3
@@ -77,6 +85,11 @@ def best_volunteer_url(urls: list[str]) -> str | None:
             s += 2
         if "opportunit" in path:
             s += 1
+        # Action/form endpoints are sign-ups, not opportunity listings.
+        if parsed.query:
+            s -= 2
+        if re.search(r"/app/|sign.?up|register|/login|/apply|/form", path):
+            s -= 3
         return s
     return max(urls, key=score) if urls else None
 

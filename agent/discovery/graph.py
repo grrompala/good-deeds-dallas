@@ -193,9 +193,17 @@ def investigate_candidate(cand: dict, cfg: config.RunConfig, llm: LLM) -> dict:
                    .replace("{url}", vol_url)
                    .replace("{page_text}", page_text))
     j = parse_json(raw) or {}
+    # Prefer the page the LLM says the opportunities actually live on (it read
+    # every fetched page, tagged by [PAGE: url]) — but only if it echoed back a
+    # real fetched URL, else fall back to the path heuristic. This is what stops
+    # a sign-up form like .../app/VOLUNTEERAPP being stamped as the volunteer_url
+    # while the real listings sit on the landing page.
+    page_urls = {u for u, _ in pages}
+    llm_url = j.get("volunteer_url")
+    chosen_url = llm_url if llm_url in page_urls else vol_url
     return {
         **base,
-        "volunteer_url": vol_url,
+        "volunteer_url": chosen_url,
         "decision": "accept" if str(j.get("decision")).lower() == "accept" else "reject",
         "confidence": float(j.get("confidence") or 0.0),
         "reason": j.get("reason", ""),
