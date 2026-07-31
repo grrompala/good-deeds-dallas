@@ -1835,16 +1835,5 @@
     "fallback_urls": [],
     "notes": "Provides health services; volunteers greet guests, escort patients, and assist with animal therapy.",
     "active": true
-  },
-  {
-    "id": "irving_department_of_arts_and_culture_irving",
-    "name": "Irving Department of Arts and Culture",
-    "city": "Irving",
-    "state": "TX",
-    "cause": ["arts", "community"],
-    "volunteer_url": "https://www.samaritanscout.org/search?location=Irving%2C+Texas",
-    "fallback_urls": [],
-    "notes": "Volunteers serve as gallery docents, providing tours and promoting the arts.",
-    "active": true
   }
 ]
