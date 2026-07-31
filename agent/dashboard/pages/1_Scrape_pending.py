@@ -45,13 +45,17 @@ def _when_label(r: dict) -> str:
 
 
 def _review_row(r: dict) -> dict:
-    addr = r.get("address") or {}
+    # Curated records use "location" (fetch_curated.py backfills city from the
+    # org's own known city in orgs.json when the page didn't state one) — NOT
+    # "address", which is the other fetchers' key. Reading the wrong key here
+    # made city show blank in this grid even when the data had it right.
+    loc = r.get("location") or {}
     return {
         "include": True,
         "id": r.get("id") or "",
         "org": r.get("org_name") or "",
         "title": r.get("opportunity_title") or "",
-        "city": addr.get("city") or r.get("city") or "",
+        "city": loc.get("city") or "",
         "when": _when_label(r),
         "description": r.get("description_short") or r.get("description_long") or "",
     }
@@ -167,8 +171,16 @@ if done:
             )
             rows = edited.to_dict("records")
             included = sum(1 for r in rows if r["include"])
+            excluded_count = len(rows) - included
 
-            if st.button(f"🔀 Open PR ({included} listing(s))", type="primary", disabled=not included):
+            # Deliberately NOT disabled at 0 included: excluding everything is a
+            # valid, meaningful review outcome (e.g. the org's page turned out to
+            # be a misattributed aggregator dump) — the PR still needs to ship so
+            # the ledger stamp merges to main and the org stops showing as
+            # pending / won't be re-scraped by the next weekly refresh.
+            suffix = f", {excluded_count} excluded" if excluded_count else ""
+            label = f"🔀 Open PR ({included} live{suffix})"
+            if st.button(label, type="primary"):
                 try:
                     excluded_ids = [r["id"] for r in rows if not r["include"]]
                     with st.spinner("Branch, commit, push…"):

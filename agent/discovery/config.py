@@ -39,6 +39,10 @@ BLOCKLIST_DOMAINS = {
     "amazon.com", "google.com", "yelp.com", "wikipedia.org",
     "findhelp.org",   # nationwide social-care referral directory (ex-Aunt Bertha)
     "adoptapet.com",  # nationwide pet-adoption listing aggregator
+    "samaritanscout.org",  # volunteer-matching aggregator — a /search?location=
+                           # URL was mistaken for a single org's own volunteer page
+                           # (Irving Department of Arts and Culture), pulling in
+                           # ~20 unrelated orgs' listings under that one name
 }
 
 # Target cities for the search grid. DFW-area towns we want curated coverage in.
