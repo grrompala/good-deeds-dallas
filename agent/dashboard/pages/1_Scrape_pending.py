@@ -137,6 +137,26 @@ if done:
     for e in done["errors"]:
         st.error(e)
 
+    # Per-org yield — so an org that came back with 0 listings is visible rather
+    # than silently absent from the flat review grid below. A 0 here isn't always
+    # "no opportunities": a fetch failure (see errors above) or an
+    # opportunity-rich page truncated by the LLM output cap can also produce it.
+    y = session.curated_yield(done["ids"])
+    st.dataframe(
+        pd.DataFrame([{
+            "org": done["names"].get(oid, oid),
+            "listings": y[oid]["listings"],
+            "excluded": y[oid]["excluded"],
+        } for oid in done["ids"]]),
+        use_container_width=True, hide_index=True,
+    )
+    zero_orgs = [done["names"].get(oid, oid) for oid in done["ids"] if y[oid]["listings"] == 0]
+    if zero_orgs:
+        st.warning("⚠️ 0 listings extracted for: **" + "**, **".join(zero_orgs) + "**. "
+                   "Either the page has no discrete opportunities, the fetch failed "
+                   "(see any errors above), or it's the wrong page for that org. "
+                   "The org is still marked scraped, so it won't be retried automatically.")
+
     pr_done = st.session_state.get("curated_pr_done")
 
     if pr_done and pr_done.get("ids") == done["ids"]:
