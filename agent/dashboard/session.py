@@ -190,6 +190,43 @@ def _compare_url(branch: str, base: str) -> str | None:
     return f"https://github.com/{slug}/compare/{base}...{branch}?expand=1" if slug else None
 
 
+def _ensure_git_identity() -> None:
+    """A fresh cloud container (Streamlit Cloud) has no git user identity at
+    all, which makes `git commit` fail — exit 128, "Please tell me who you
+    are." Set a repo-local (NOT --global) fallback identity for it.
+
+    Gated on GH_PUSH_TOKEN (cloud-only, same signal _use_push_token_if_configured
+    uses): a plain `git config user.name` can come back empty on some local
+    setups too (e.g. identity supplied by a GUI tool at commit time rather than
+    persisted to config), so unconditionally "fixing" it would silently rewrite
+    a real local git identity — this only ever touches the throwaway cloud
+    container, which has no meaningful existing identity to preserve anyway."""
+    if not os.environ.get("GH_PUSH_TOKEN"):
+        return
+    for key, fallback in (("user.name", "Good Deeds Dallas Discovery Agent"),
+                          ("user.email", "discovery-agent@users.noreply.github.com")):
+        existing = subprocess.run(["git", "config", key], cwd=config.REPO_ROOT,
+                                  capture_output=True, text=True)
+        if existing.returncode != 0 or not existing.stdout.strip():
+            subprocess.run(["git", "config", key, fallback],
+                           cwd=config.REPO_ROOT, capture_output=True, text=True)
+
+
+def _ensure_safe_directory() -> None:
+    """Some cloud containers run git as a different user than owns the cloned
+    repo, which git refuses to touch by default ("detected dubious
+    ownership" — also exit 128). Cloud-only (see _ensure_git_identity) since
+    this writes to the GLOBAL gitconfig — never touch that on a real machine."""
+    if not os.environ.get("GH_PUSH_TOKEN"):
+        return
+    repo = str(config.REPO_ROOT)
+    existing = subprocess.run(["git", "config", "--global", "--get-all", "safe.directory"],
+                              capture_output=True, text=True)
+    if repo not in existing.stdout.splitlines():
+        subprocess.run(["git", "config", "--global", "--add", "safe.directory", repo],
+                       capture_output=True, text=True)
+
+
 def _use_push_token_if_configured() -> None:
     """Cloud deployments have no local SSH key, so authenticate the git push
     with a scoped GitHub token instead — only when GH_PUSH_TOKEN is present, so
@@ -221,11 +258,15 @@ def open_pr(cfg: config.RunConfig, drafts: list[dict], verdicts: list[dict]) -> 
     return the compare URL for one-click PR creation. Returns {url, via, branch}.
 
     If GH_PUSH_TOKEN is set (cloud deployment, no local SSH key), the push
-    authenticates via that scoped token instead — see _use_push_token_if_configured."""
+    authenticates via that scoped token instead — see _use_push_token_if_configured.
+    Also defensively ensures a git identity + safe.directory exception exist,
+    since a fresh cloud container has neither (see _ensure_git_identity)."""
     import time
     accepted = [v for v in verdicts if v.get("decision") == "accept" and v.get("draft_entry")]
     branch = f"{cfg.branch_prefix}/{time.strftime('%Y-%m-%d-%H%M')}"
 
+    _ensure_git_identity()
+    _ensure_safe_directory()
     _use_push_token_if_configured()
 
     tools.write_proposal(drafts, tools.load_ledger())
@@ -239,8 +280,12 @@ def open_pr(cfg: config.RunConfig, drafts: list[dict], verdicts: list[dict]) -> 
         return {"url": url, "via": "gh", "branch": branch}
 
     # No gh: push and hand back a compare URL.
-    subprocess.run(["git", "push", "-u", "origin", branch],
-                   cwd=config.REPO_ROOT, check=True, capture_output=True, text=True)
+    try:
+        subprocess.run(["git", "push", "-u", "origin", branch],
+                       cwd=config.REPO_ROOT, check=True, capture_output=True, text=True)
+    except subprocess.CalledProcessError as e:
+        detail = (e.stderr or e.stdout or "").strip()
+        raise RuntimeError(f"git push failed: {detail or e}") from e
     return {"url": _compare_url(branch, cfg.base_branch), "via": "compare", "branch": branch}
 
 

@@ -198,8 +198,16 @@ def fetch_page(url: str) -> dict | None:
 # gracefully when gh isn't installed (leaves a ready-to-push local branch).
 
 def _git(*args) -> str:
-    r = subprocess.run(["git", *args], cwd=config.REPO_ROOT,
-                       check=True, capture_output=True, text=True)
+    try:
+        r = subprocess.run(["git", *args], cwd=config.REPO_ROOT,
+                           check=True, capture_output=True, text=True)
+    except subprocess.CalledProcessError as e:
+        # Plain str(e) on a CalledProcessError only shows the exit code, not
+        # git's actual explanation — surface stderr so failures (e.g. a fresh
+        # cloud container with no git identity configured) are diagnosable
+        # from the dashboard's error message alone, no log access needed.
+        detail = (e.stderr or e.stdout or "").strip()
+        raise RuntimeError(f"git {' '.join(args)} failed: {detail or e}") from e
     return r.stdout.strip()
 
 
