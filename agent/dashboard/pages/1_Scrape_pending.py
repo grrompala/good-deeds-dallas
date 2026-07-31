@@ -20,9 +20,10 @@ import streamlit as st
 # This file is agent/dashboard/pages/<this>.py → repo root is 3 levels up.
 sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
 
-from agent.dashboard import session  # noqa: E402
+from agent.dashboard import auth, session  # noqa: E402
 
 st.set_page_config(page_title="Scrape pending", page_icon="🧭", layout="wide")
+auth.require_password()  # gate + secrets bootstrap — see agent/dashboard/auth.py
 
 
 def _when_label(r: dict) -> str:

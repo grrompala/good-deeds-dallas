@@ -291,7 +291,7 @@ SQLite checkpointer for within-run resume. Models are behind `agent/discovery/ll
 ### Interactive dashboard (the way to run it)
 
 ```powershell
-pip install -r requirements-agent.txt
+pip install -r requirements.txt -r requirements-agent.txt
 streamlit run agent/dashboard/Discover_orgs.py   # needs TAVILY_API_KEY + OPENAI_API_KEY in .env
 ```
 
@@ -302,6 +302,19 @@ before opening a PR (or writing to `orgs.json` locally). Because the review
 happens in the dashboard, the GitHub side is trivial. (A headless CLI,
 `python -m agent.discovery --dry-run`, exists for development; the earlier
 scheduled GitHub Action was retired in favor of this dashboard.)
+
+**Running it from your phone:** the same dashboard is deployable to [Streamlit
+Community Cloud](https://share.streamlit.io) (free) — point it at this repo,
+main file `agent/dashboard/Discover_orgs.py` (which auto-installs from
+`agent/dashboard/requirements.txt`, the deployment-only merge of the two
+requirements files above). It needs four values in that app's Secrets:
+`OPENAI_API_KEY`, `TAVILY_API_KEY`, `DASHBOARD_PASSWORD` (the dashboard's own
+login gate — see `agent/dashboard/auth.py`), and `GH_PUSH_TOKEN` (a
+fine-grained GitHub PAT scoped to just this repo, Contents + Pull requests
+read/write — used only to push the discovery branch; PR creation then falls
+back to a one-tap GitHub compare-URL link since `gh` isn't installed there).
+Local runs are unaffected either way — `GH_PUSH_TOKEN` unset means the normal
+SSH remote is used, exactly as today.
 
 ### How a discovered org reaches the site
 

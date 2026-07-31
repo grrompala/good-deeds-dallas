@@ -5,6 +5,10 @@ the "Scrape pending" page (agent/dashboard/pages/).
     streamlit run agent/dashboard/Discover_orgs.py
 
 Needs TAVILY_API_KEY (search) and OPENAI_API_KEY (investigate) in your env/.env.
+
+Also deployable to Streamlit Community Cloud for phone access — see the
+"Running it from your phone" note in the README's Discovery Agent section.
+`auth.require_password()` below is a no-op locally (DASHBOARD_PASSWORD unset).
 """
 
 from __future__ import annotations
@@ -20,10 +24,11 @@ import streamlit as st
 # import the agent packages (root on sys.path).
 sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
 
-from agent.dashboard import session  # noqa: E402
+from agent.dashboard import auth, session  # noqa: E402
 from agent.discovery import config, tools  # noqa: E402
 
 st.set_page_config(page_title="Discovery Dashboard", page_icon="🔎", layout="wide")
+auth.require_password()  # gate + secrets bootstrap — see agent/dashboard/auth.py
 
 STAGES = ["build", "triage", "verdicts", "drafts"]
 

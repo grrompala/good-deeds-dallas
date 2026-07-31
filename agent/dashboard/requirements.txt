@@ -1,0 +1,15 @@
+# Deployment-only: Streamlit Community Cloud auto-installs from a
+# requirements.txt colocated with the app's main file (this directory). It has
+# no notion of installing from two separate files, so this is the union of the
+# repo root's requirements.txt (openai/requests/bs4/lxml/dotenv) and
+# requirements-agent.txt (langgraph/tavily/streamlit) — kept in sync manually
+# since local dev still installs from those two directly.
+requests
+beautifulsoup4
+lxml
+python-dotenv
+openai
+langgraph
+langgraph-checkpoint-sqlite
+tavily-python
+streamlit

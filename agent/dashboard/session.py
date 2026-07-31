@@ -166,9 +166,8 @@ def rows_to_drafts(rows: list[dict]) -> list[dict]:
 
 # ── finish ───────────────────────────────────────────────────────────────────
 
-def _compare_url(branch: str, base: str) -> str | None:
-    """GitHub compare URL from origin, so the user can open the PR in one click
-    even without the gh CLI installed."""
+def _origin_slug() -> str | None:
+    """'owner/repo' parsed from the origin remote (SSH or HTTPS form)."""
     try:
         url = subprocess.run(["git", "remote", "get-url", "origin"],
                              cwd=config.REPO_ROOT, check=True,
@@ -181,8 +180,29 @@ def _compare_url(branch: str, base: str) -> str | None:
         slug = url.split("github.com/", 1)[1]
     else:
         return None
-    slug = slug.removesuffix(".git")
-    return f"https://github.com/{slug}/compare/{base}...{branch}?expand=1"
+    return slug.removesuffix(".git")
+
+
+def _compare_url(branch: str, base: str) -> str | None:
+    """GitHub compare URL from origin, so the user can open the PR in one click
+    even without the gh CLI installed."""
+    slug = _origin_slug()
+    return f"https://github.com/{slug}/compare/{base}...{branch}?expand=1" if slug else None
+
+
+def _use_push_token_if_configured() -> None:
+    """Cloud deployments have no local SSH key, so authenticate the git push
+    with a scoped GitHub token instead — only when GH_PUSH_TOKEN is present, so
+    local runs (which never set it) keep using the existing SSH remote as-is."""
+    token = os.environ.get("GH_PUSH_TOKEN")
+    slug = _origin_slug()
+    if not token or not slug:
+        return
+    subprocess.run(
+        ["git", "remote", "set-url", "origin",
+         f"https://x-access-token:{token}@github.com/{slug}.git"],
+        cwd=config.REPO_ROOT, check=True, capture_output=True, text=True,
+    )
 
 
 def write_local(drafts: list[dict]) -> str:
@@ -198,10 +218,15 @@ def write_local(drafts: list[dict]) -> str:
 
 def open_pr(cfg: config.RunConfig, drafts: list[dict], verdicts: list[dict]) -> dict:
     """Append + branch + commit + push, then open the PR via gh if present, else
-    return the compare URL for one-click PR creation. Returns {url, via, branch}."""
+    return the compare URL for one-click PR creation. Returns {url, via, branch}.
+
+    If GH_PUSH_TOKEN is set (cloud deployment, no local SSH key), the push
+    authenticates via that scoped token instead — see _use_push_token_if_configured."""
     import time
     accepted = [v for v in verdicts if v.get("decision") == "accept" and v.get("draft_entry")]
     branch = f"{cfg.branch_prefix}/{time.strftime('%Y-%m-%d-%H%M')}"
+
+    _use_push_token_if_configured()
 
     tools.write_proposal(drafts, tools.load_ledger())
     tools.branch_and_commit(branch, f"Discovery (dashboard): {len(drafts)} proposed org(s)")
