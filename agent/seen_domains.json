@@ -9,6 +9,11 @@
     "reason": "The page describes multiple concrete volunteer opportunities in Dallas, TX.",
     "verdict": "accept"
   },
+  "bsw.vsyslive.com": {
+    "date": "2026-07-31",
+    "reason": "The page describes multiple specific volunteer roles at a DFW-area nonprofit hospital.",
+    "verdict": "accept"
+  },
   "caringseniorservice.com": {
     "date": "2026-07-21",
     "reason": "The page describes multiple real volunteer opportunities in the DFW area for seniors.",
@@ -59,6 +64,11 @@
     "reason": "The organization is a DFW-area nonprofit offering specific volunteer roles in tutoring and leadership.",
     "verdict": "accept"
   },
+  "irvingtx.gov": {
+    "date": "2026-07-31",
+    "reason": "The page lacks specific, actionable volunteer roles.",
+    "verdict": "reject"
+  },
   "learntobe.org": {
     "date": "2026-07-21",
     "reason": "The organization does not specifically serve the DFW area.",
@@ -88,6 +98,11 @@
     "date": "2026-07-21",
     "reason": "The page does not describe a specific volunteer opportunity.",
     "verdict": "reject"
+  },
+  "samaritanscout.org": {
+    "date": "2026-07-31",
+    "reason": "The page lists specific volunteer opportunities in Irving, TX, with concrete roles.",
+    "verdict": "accept"
   },
   "sanmarcostx.gov": {
     "date": "2026-07-21",
