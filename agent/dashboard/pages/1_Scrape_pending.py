@@ -3,10 +3,18 @@
     streamlit run agent/dashboard/Discover_orgs.py   → then pick "Scrape pending"
 
 orgs.json is only the input list: an org merged by a discovery PR stays invisible
-on the site until fetch_curated scrapes it into volops_curated.json and QC/tags
-run. This page shows those pending orgs, runs that curated sub-pipeline
-(fetch → QC → tags) on demand, and previews the resulting listings. Smart Search
-embedding is left to the weekly refresh. Thin UI over agent/dashboard/session.py.
+on the site until fetch_curated scrapes it into volops_curated.json. This page
+shows those pending orgs, fetches their listings on demand, lets you review and
+exclude any before shipping, then opens a PR for the raw scrape — mirroring the
+Discover-orgs page's review → PR flow.
+
+Deliberately stops there: QC (dedup/expiry/content-judge), tagging, and Smart
+Search embedding are all left to the next scheduled weekly refresh — both are
+fully incremental (qc_filter.py skips anything already qc-stamped;
+classify_listings.py skips anything already tagged), so whatever ships here
+just gets picked up automatically, same as every other source. The only human
+judgment call this page is for is "does this listing belong on the site at
+all" — everything downstream of that is trusted to the existing pipeline.
 """
 
 from __future__ import annotations
@@ -36,35 +44,37 @@ def _when_label(r: dict) -> str:
     return kind or "—"
 
 
-def _preview_row(r: dict) -> dict:
+def _review_row(r: dict) -> dict:
     addr = r.get("address") or {}
     return {
+        "include": True,
+        "id": r.get("id") or "",
         "org": r.get("org_name") or "",
         "title": r.get("opportunity_title") or "",
         "city": addr.get("city") or r.get("city") or "",
         "when": _when_label(r),
-        "tags": ", ".join(r.get("unified_tags") or r.get("cause_tags") or []),
-        "QC": (r.get("qc") or {}).get("status") or "—",
+        "description": r.get("description_short") or r.get("description_long") or "",
     }
 
 
 st.title("🧭 Scrape pending orgs")
 st.caption("Orgs merged into orgs.json but not yet scraped onto the site. Scraping "
-           "fetches their listings, quality-checks them, and adds tags — making them "
-           "live on the main site. (Smart Search embedding runs in the weekly refresh.)")
+           "fetches their listings so you can review and exclude any before opening "
+           "a PR. QC, tagging, and Smart Search embedding all happen automatically "
+           "in the next scheduled weekly refresh — this page is just for the "
+           "\"does this belong on the site\" call.")
 st.divider()
 
 # ── Completion banner (persists across reruns; celebrates once) ───────────────
 done = st.session_state.get("scrape_done")
 if done:
     n_orgs = len(done["ids"])
-    rej = f", {done['rejected']} rejected by QC" if done["rejected"] else ""
     if done["errors"]:
-        st.warning(f"⚠️ Scrape finished with issues — {done['listings']} listing(s) added "
-                   f"across {n_orgs} org(s){rej}. See errors below.")
+        st.warning(f"⚠️ Scrape finished with issues — {done['listings']} listing(s) fetched "
+                   f"across {n_orgs} org(s). See errors below.")
     else:
-        st.success(f"✅ Scrape complete — {done['listings']} listing(s) added across "
-                   f"{n_orgs} org(s){rej}.")
+        st.success(f"✅ Scrape complete — {done['listings']} listing(s) fetched across "
+                   f"{n_orgs} org(s). Review below, then open a PR.")
     if done.pop("fresh", False):        # animate only on the run right after finishing
         st.toast("Scrape complete", icon="✅")
         if not done["errors"]:
@@ -92,9 +102,9 @@ else:
     )
 
     if st.button(f"⛏️ Scrape {len(pending)} pending org(s)", type="primary"):
+        st.session_state.pop("curated_pr_done", None)  # starting a fresh batch to review
         errors: list[str] = []
-        with st.status("Running curated pipeline…", expanded=True) as status:
-            st.write("**1/3 · Fetching listings**")
+        with st.status("Fetching listings…", expanded=True) as status:
             prog = st.progress(0.0, "Starting…")
 
             def cb(i, total, oid):
@@ -105,66 +115,70 @@ else:
             for r in results:
                 if not r["ok"]:
                     errors.append(f"Fetch failed for {names.get(r['id'], r['id'])}:\n{r['output'][-500:]}")
-
-            st.write("**2/3 · Quality check**")
-            ok_qc, out_qc = session.run_curated_qc()
-            if not ok_qc:
-                errors.append(f"QC failed:\n{out_qc[-500:]}")
-
-            st.write("**3/3 · Tagging**")
-            ok_tags, out_tags = session.run_curated_tags()
-            if not ok_tags:
-                errors.append(f"Tagging failed:\n{out_tags[-500:]}")
-
             status.update(label="Done with issues" if errors else "Done",
                           state="error" if errors else "complete", expanded=False)
 
         y = session.curated_yield(ids)
         st.session_state.scrape_done = {
             "ids": ids,
+            "names": names,
             "listings": sum(v["listings"] for v in y.values()),
-            "rejected": sum(v["rejected"] for v in y.values()),
             "errors": errors,
             "fresh": True,
         }
-        # Rerun so the pending list refreshes and the persistent banner/preview
-        # render from session_state (works the same on success or with errors).
         st.rerun()
 
-# ── Result: errors + per-org yield + a preview of the actual listings ─────────
+# ── Review + Open PR (shown until this batch is PR'd) ─────────────────────────
 if done:
     for e in done["errors"]:
         st.error(e)
 
-    st.divider()
-    st.subheader("Last scrape result")
-    y = session.curated_yield(done["ids"])
-    st.dataframe(
-        pd.DataFrame([{
-            "org id": oid,
-            "listings": y[oid]["listings"],
-            "rejected (QC)": y[oid]["rejected"],
-        } for oid in done["ids"]]),
-        use_container_width=True, hide_index=True,
-    )
+    pr_done = st.session_state.get("curated_pr_done")
 
-    records = session.curated_records(done["ids"])
-    st.markdown(f"**Preview — {len(records)} listing(s)**")
-    if records:
-        st.dataframe(pd.DataFrame([_preview_row(r) for r in records]),
-                     use_container_width=True, hide_index=True)
-        with st.expander("Full descriptions"):
-            for r in records:
-                title = r.get("opportunity_title") or "(untitled)"
-                url = r.get("source_url") or ""
-                st.markdown(f"**{title}** — {r.get('org_name','')}"
-                            + (f"  ·  [source]({url})" if url else ""))
-                desc = r.get("description_long") or r.get("description_short") or "_(no description)_"
-                st.caption(desc)
-                st.divider()
+    if pr_done and pr_done.get("ids") == done["ids"]:
+        # Already shipped this exact batch — show the result, not the review grid.
+        if pr_done.get("via") == "gh":
+            st.success(f"PR opened: {pr_done['url']}")
+        elif pr_done.get("url"):
+            st.success(f"Pushed **{pr_done['branch']}**. Open the PR: {pr_done['url']}")
+        else:
+            st.info(f"Pushed **{pr_done['branch']}** — open a PR on GitHub for it.")
+        if st.button("Start a new batch"):
+            st.session_state.pop("scrape_done", None)
+            st.session_state.pop("curated_pr_done", None)
+            st.rerun()
     else:
-        st.caption("No listings were extracted (the org's page may be prose rather than "
-                   "discrete opportunities — it's still marked scraped so it won't re-run).")
+        st.divider()
+        records = session.curated_records(done["ids"])
+        st.subheader(f"Review — {len(records)} listing(s)")
+        if records:
+            st.caption("Uncheck **include** to drop a listing (marked inactive, never deleted — "
+                       "won't show on the site or get QC'd). Everything else ships as-is; QC, "
+                       "tags, and embedding follow in the next weekly refresh.")
+            df = pd.DataFrame([_review_row(r) for r in records])
+            edited = st.data_editor(
+                df, use_container_width=True, hide_index=True, height=420,
+                column_config={
+                    "include": st.column_config.CheckboxColumn("include", width="small"),
+                    "id": None,  # hidden — needed for exclusion, not for review
+                    "description": st.column_config.TextColumn("description", width="large"),
+                },
+                disabled=["org", "title", "city", "when", "description"],
+            )
+            rows = edited.to_dict("records")
+            included = sum(1 for r in rows if r["include"])
 
-    st.info("Changes are uncommitted in your working tree — review the diff and commit "
-            "to deploy. Smart Search embedding runs in the weekly refresh.")
+            if st.button(f"🔀 Open PR ({included} listing(s))", type="primary", disabled=not included):
+                try:
+                    excluded_ids = [r["id"] for r in rows if not r["include"]]
+                    with st.spinner("Branch, commit, push…"):
+                        session.exclude_curated_records(excluded_ids)
+                        res = session.open_curated_pr(done["ids"], done["names"])
+                    st.session_state.curated_pr_done = {**res, "ids": done["ids"]}
+                    st.rerun()
+                except Exception as e:
+                    st.error(f"PR failed: {e}")
+        else:
+            st.caption("No listings were extracted (the org's page may be prose rather than "
+                       "discrete opportunities — it's still marked scraped so it won't re-run). "
+                       "Nothing to open a PR for.")

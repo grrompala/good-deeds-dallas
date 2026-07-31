@@ -253,6 +253,25 @@ def write_local(drafts: list[dict]) -> str:
     return msg
 
 
+def _push_and_get_pr_info(branch: str, base_branch: str, title: str, body: str) -> dict:
+    """Push `branch`, then open a PR via gh if present, else return a compare
+    URL for one-click PR creation. Returns {url, via, branch}. Shared by
+    open_pr() (discovery proposals) and open_curated_pr() (curated scrapes) —
+    everything past "the branch is committed" is identical for both."""
+    if tools.have_gh():
+        url = tools.push_and_open_pr(branch, base_branch, title, body)
+        return {"url": url, "via": "gh", "branch": branch}
+
+    # No gh: push and hand back a compare URL.
+    try:
+        subprocess.run(["git", "push", "-u", "origin", branch],
+                       cwd=config.REPO_ROOT, check=True, capture_output=True, text=True)
+    except subprocess.CalledProcessError as e:
+        detail = (e.stderr or e.stdout or "").strip()
+        raise RuntimeError(f"git push failed: {detail or e}") from e
+    return {"url": _compare_url(branch, base_branch), "via": "compare", "branch": branch}
+
+
 def open_pr(cfg: config.RunConfig, drafts: list[dict], verdicts: list[dict]) -> dict:
     """Append + branch + commit + push, then open the PR via gh if present, else
     return the compare URL for one-click PR creation. Returns {url, via, branch}.
@@ -272,21 +291,10 @@ def open_pr(cfg: config.RunConfig, drafts: list[dict], verdicts: list[dict]) -> 
     tools.write_proposal(drafts, tools.load_ledger())
     tools.branch_and_commit(branch, f"Discovery (dashboard): {len(drafts)} proposed org(s)")
 
-    if tools.have_gh():
-        url = tools.push_and_open_pr(
-            branch, cfg.base_branch,
-            f"Discovery: {len(drafts)} candidate org(s) for review",
-            report_mod.render_pr_body(accepted))
-        return {"url": url, "via": "gh", "branch": branch}
-
-    # No gh: push and hand back a compare URL.
-    try:
-        subprocess.run(["git", "push", "-u", "origin", branch],
-                       cwd=config.REPO_ROOT, check=True, capture_output=True, text=True)
-    except subprocess.CalledProcessError as e:
-        detail = (e.stderr or e.stdout or "").strip()
-        raise RuntimeError(f"git push failed: {detail or e}") from e
-    return {"url": _compare_url(branch, cfg.base_branch), "via": "compare", "branch": branch}
+    return _push_and_get_pr_info(
+        branch, cfg.base_branch,
+        f"Discovery: {len(drafts)} candidate org(s) for review",
+        report_mod.render_pr_body(accepted))
 
 
 # ── Curated scrape (post-merge: get newly-merged orgs live on the site) ───────
@@ -299,6 +307,7 @@ def open_pr(cfg: config.RunConfig, drafts: list[dict], verdicts: list[dict]) -> 
 # supply the LLM key — the same requirement as the discovery flow.
 
 CURATED_FILE = config.REPO_ROOT / "frontend" / "public" / "data" / "volops_curated.json"
+CURATED_LEDGER_PATH = config.REPO_ROOT / "curated_scraped.json"  # fetch_curated.py's LEDGER_FILE
 
 
 def _fetch_curated_mod():
@@ -360,23 +369,31 @@ def run_curated_tags() -> tuple[bool, str]:
 def curated_records(org_ids: list[str]) -> list[dict]:
     """The actual scraped listings for the given orgs, read fresh from
     volops_curated.json — so the dashboard can preview what was curated without
-    leaving. Ordered by org then title; each dict is the raw record."""
+    leaving. Excludes inactive records (already QC-rejected in a past run, or
+    excluded by a past review — see exclude_curated_records) since those won't
+    show on the site either. Ordered by org then title; each dict is the raw
+    record."""
     ids = set(org_ids)
     try:
         with open(CURATED_FILE, encoding="utf-8") as f:
             records = json.load(f)
     except (OSError, ValueError):
         return []
-    rows = [r for r in records if r.get("org_id") in ids]
+    rows = [r for r in records if r.get("org_id") in ids and r.get("status") != "inactive"]
     rows.sort(key=lambda r: (r.get("org_name") or "", r.get("opportunity_title") or ""))
     return rows
 
 
 def curated_yield(org_ids: list[str]) -> dict[str, dict]:
-    """Post-run summary keyed by org id: how many listings survived QC and how
-    many were rejected, read from the current volops_curated.json. Orgs that
-    yielded nothing simply report zeros."""
-    out = {oid: {"listings": 0, "rejected": 0} for oid in org_ids}
+    """Post-run summary keyed by org id: how many listings are live, how many
+    were rejected by QC, and how many were excluded by human review (dashboard
+    "Scrape pending" — see exclude_curated_records), read from the current
+    volops_curated.json. Orgs that yielded nothing simply report zeros.
+
+    A record can only be "excluded" OR "rejected", never both: qc_filter.py
+    already skips status=="inactive" records entirely (never judges them), so
+    an excluded record can never also carry a QC rejection."""
+    out = {oid: {"listings": 0, "rejected": 0, "excluded": 0} for oid in org_ids}
     ids = set(org_ids)
     try:
         with open(CURATED_FILE, encoding="utf-8") as f:
@@ -387,8 +404,73 @@ def curated_yield(org_ids: list[str]) -> dict[str, dict]:
         oid = r.get("org_id")
         if oid not in ids:
             continue
-        if (r.get("qc") or {}).get("status") == "rejected":
+        if r.get("status") == "inactive":
+            out[oid]["excluded"] += 1
+        elif (r.get("qc") or {}).get("status") == "rejected":
             out[oid]["rejected"] += 1
         else:
             out[oid]["listings"] += 1
     return out
+
+
+def exclude_curated_records(record_ids: list[str]) -> None:
+    """Mark specific scraped listings inactive rather than deleting them — the
+    same convention every fetcher already uses for records that shouldn't show
+    on the site, so nothing is destroyed and qc_filter.py will simply never
+    judge them (it already skips status=="inactive")."""
+    if not record_ids:
+        return
+    ids = set(record_ids)
+    try:
+        with open(CURATED_FILE, encoding="utf-8") as f:
+            records = json.load(f)
+    except (OSError, ValueError):
+        return
+    changed = False
+    for r in records:
+        if r.get("id") in ids and r.get("status") != "inactive":
+            r["status"] = "inactive"
+            changed = True
+    if changed:
+        with open(CURATED_FILE, "w", encoding="utf-8") as f:
+            json.dump(records, f, indent=2, ensure_ascii=False)
+
+
+def _render_curated_pr_body(org_ids: list[str], org_names: dict[str, str]) -> str:
+    y = curated_yield(org_ids)
+    total_live = sum(v["listings"] for v in y.values())
+    lines = ["## Curated scrape", "",
+             f"Scraped {len(org_ids)} org(s), {total_live} listing(s) — "
+             "raw fetch only. QC, tagging, and Smart Search embedding run in "
+             "the next scheduled weekly refresh, same as every other source.",
+             ""]
+    for oid in org_ids:
+        name = org_names.get(oid, oid)
+        note = f", {y[oid]['excluded']} excluded in review" if y[oid]["excluded"] else ""
+        lines.append(f"- **{name}** — {y[oid]['listings']} listing(s){note}")
+    return "\n".join(lines)
+
+
+def open_curated_pr(org_ids: list[str], org_names: dict[str, str],
+                    base_branch: str = "main") -> dict:
+    """Branch + commit + push the curated-scrape output (volops_curated.json +
+    the scrape ledger), then open the PR via gh if present, else return the
+    compare URL for one-click PR creation. Returns {url, via, branch}.
+
+    Call exclude_curated_records() for any deselected listings BEFORE this, so
+    the commit and PR body both reflect the reviewed set. Mirrors open_pr()'s
+    git mechanics (identity/safe-directory/push-token) — see that function."""
+    import time
+
+    _ensure_git_identity()
+    _ensure_safe_directory()
+    _use_push_token_if_configured()
+
+    branch = f"curated-scrape/{time.strftime('%Y-%m-%d-%H%M')}"
+    tools.branch_commit_paths(
+        branch, f"Curated scrape (dashboard): {len(org_ids)} org(s)",
+        [CURATED_FILE, CURATED_LEDGER_PATH])
+
+    return _push_and_get_pr_info(
+        branch, base_branch, f"Curated scrape: {len(org_ids)} org(s)",
+        _render_curated_pr_body(org_ids, org_names))

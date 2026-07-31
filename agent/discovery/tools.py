@@ -272,12 +272,20 @@ def write_proposal(entries: list[dict], ledger: dict) -> list[str]:
     return written
 
 
-def branch_and_commit(branch: str, message: str) -> None:
-    """Create `branch` from current HEAD and commit the proposal files. Never
-    touches main directly — the branch is the only thing that changes."""
+def branch_commit_paths(branch: str, message: str, paths: list) -> None:
+    """Create `branch` from current HEAD and commit the given paths. Never
+    touches main directly — the branch is the only thing that changes. The
+    general-purpose primitive behind branch_and_commit (below) and the
+    dashboard's curated-scrape PR flow (agent/dashboard/session.py)."""
     _git("checkout", "-b", branch)
-    _git("add", str(config.ORGS_PATH), str(config.LEDGER_PATH))
+    _git("add", *[str(p) for p in paths])
     _git("commit", "-m", message)
+
+
+def branch_and_commit(branch: str, message: str) -> None:
+    """Create `branch` from current HEAD and commit the discovery-proposal
+    files (orgs.json + the domain-verdict ledger)."""
+    branch_commit_paths(branch, message, [config.ORGS_PATH, config.LEDGER_PATH])
 
 
 def push_and_open_pr(branch: str, base: str, title: str, pr_body: str) -> str:
