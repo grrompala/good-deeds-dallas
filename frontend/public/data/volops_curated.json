@@ -4946,6 +4946,250 @@
     ]
   },
   {
+    "id": "city_of_frisco_volunteer_program_frisco_4",
+    "source": "curated",
+    "org_id": "city_of_frisco_volunteer_program_frisco",
+    "org_name": "City of Frisco Volunteer Program",
+    "source_url": "https://www.friscotexas.gov/1606/Ongoing-Opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-01T03:03:13.565547+00:00",
+    "opportunity_title": "Frisco Heritage Museum Volunteer",
+    "description_short": "Various volunteer roles available at the Frisco Heritage Museum.",
+    "description_long": "The Frisco Heritage Museum has several ongoing volunteer opportunities such as school tour guides, docents/greeters, staffing for special events and programs, and volunteer program assistants.",
+    "schedule": {
+      "raw": "Ongoing",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Frisco",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community",
+      "education"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact Brandi Norton at 972-292-5663 for more information."
+  },
+  {
+    "id": "city_of_frisco_volunteer_program_frisco_1",
+    "source": "curated",
+    "org_id": "city_of_frisco_volunteer_program_frisco",
+    "org_name": "City of Frisco Volunteer Program",
+    "source_url": "https://www.friscotexas.gov/1606/Ongoing-Opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-01T03:03:13.565547+00:00",
+    "opportunity_title": "Frisco Police Volunteer Association",
+    "description_short": "Support the Frisco Police Department in various capacities.",
+    "description_long": "The Frisco Police Volunteer Association is a dynamic group of volunteers who assist the police department in areas like jail support, records, community service, and special projects after training.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Frisco",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community",
+      "crisis_support"
+    ],
+    "apply_url": "Frisco PVA",
+    "apply_instructions": "Visit Frisco PVA for more information."
+  },
+  {
+    "id": "city_of_frisco_volunteer_program_frisco_7",
+    "source": "curated",
+    "org_id": "city_of_frisco_volunteer_program_frisco",
+    "org_name": "City of Frisco Volunteer Program",
+    "source_url": "https://www.friscotexas.gov/1606/Ongoing-Opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-01T03:03:13.565547+00:00",
+    "opportunity_title": "Grove at Frisco Commons Volunteer",
+    "description_short": "Involve in various activities at the adult activity center.",
+    "description_long": "Volunteers at The Grove at Frisco Commons can assist with daily activities, photography, and join committees.",
+    "schedule": {
+      "raw": "Ongoing",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Frisco",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be at least 18 years old.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Call 972-292-6550 for questions and details."
+  },
+  {
+    "id": "city_of_frisco_volunteer_program_frisco_2",
+    "source": "curated",
+    "org_id": "city_of_frisco_volunteer_program_frisco",
+    "org_name": "City of Frisco Volunteer Program",
+    "source_url": "https://www.friscotexas.gov/1606/Ongoing-Opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-01T03:03:13.565547+00:00",
+    "opportunity_title": "Helping Hands - Weekday Adult Volunteers",
+    "description_short": "Assist with administrative tasks and greet visitors at Frisco Fire Safety Town.",
+    "description_long": "Our staff of safety educators and firefighters is supplemented by our volunteers known as Helping Hands, who help greet visitors and assist with administrative tasks. Minimum commitment is half a day once per week.",
+    "schedule": {
+      "raw": "Weekdays",
+      "recurring": true,
+      "times_of_day": "Various"
+    },
+    "commitment": "minimum half day, once per week",
+    "location": {
+      "address": null,
+      "city": "Frisco",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "health"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact Jennifer Tramel at 972-292-6353 to register."
+  },
+  {
+    "id": "city_of_frisco_volunteer_program_frisco_3",
+    "source": "curated",
+    "org_id": "city_of_frisco_volunteer_program_frisco",
+    "org_name": "City of Frisco Volunteer Program",
+    "source_url": "https://www.friscotexas.gov/1606/Ongoing-Opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-01T03:03:13.565547+00:00",
+    "opportunity_title": "Jr. Helping Hands - Summer Teen Volunteers",
+    "description_short": "Teen volunteers assist with activities at Frisco Fire Safety Town during summer.",
+    "description_long": "During the summer months, we utilize teen volunteers to assist with activities like classroom activities and bike riding. Volunteer training is required, and spots are limited for those aged 15 and up.",
+    "schedule": {
+      "raw": "Summer",
+      "recurring": false,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Frisco",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Minimum age requirement is 15 years old.",
+    "cause_tags": [
+      "children",
+      "education"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact Jennifer Tramel at 972-292-6353 to apply."
+  },
+  {
+    "id": "city_of_frisco_volunteer_program_frisco_5",
+    "source": "curated",
+    "org_id": "city_of_frisco_volunteer_program_frisco",
+    "org_name": "City of Frisco Volunteer Program",
+    "source_url": "https://www.friscotexas.gov/1606/Ongoing-Opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-01T03:03:13.565547+00:00",
+    "opportunity_title": "Library - Adult Services Volunteer",
+    "description_short": "Assist with various tasks in Adult Services at the library.",
+    "description_long": "Adult Services volunteers must be 18 years of age or older and be familiar with library numbering systems. Training will be provided. Flexible shifts are available.",
+    "schedule": {
+      "raw": "Monday to Thursday 9 a.m. to 6 p.m., Friday 9 a.m. to 5 p.m.",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Frisco",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 years of age or older.",
+    "cause_tags": [
+      "education"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the Adult Volunteer Team at 972-292-5669 for more information."
+  },
+  {
+    "id": "city_of_frisco_volunteer_program_frisco_6",
+    "source": "curated",
+    "org_id": "city_of_frisco_volunteer_program_frisco",
+    "org_name": "City of Frisco Volunteer Program",
+    "source_url": "https://www.friscotexas.gov/1606/Ongoing-Opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-01T03:03:13.565547+00:00",
+    "opportunity_title": "Library - VolunTEEN Corps for Teen Volunteering",
+    "description_short": "Teen volunteering program at the Frisco Public Library.",
+    "description_long": "The Frisco Public Library VolunTEEN Corps offers middle and high school students an opportunity for civic involvement at the library, composed of two advisory boards.",
+    "schedule": {
+      "raw": "Ongoing",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Frisco",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Grades 6-12.",
+    "cause_tags": [
+      "education"
+    ],
+    "apply_url": "library’s website",
+    "apply_instructions": "Visit the library’s website for more information."
+  },
+  {
+    "id": "city_of_frisco_volunteer_program_frisco_0",
+    "source": "curated",
+    "org_id": "city_of_frisco_volunteer_program_frisco",
+    "org_name": "City of Frisco Volunteer Program",
+    "source_url": "https://www.friscotexas.gov/1606/Ongoing-Opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-01T03:03:13.565547+00:00",
+    "opportunity_title": "Prairie Restoration Volunteer",
+    "description_short": "Help with prairie restoration and conservation efforts.",
+    "description_long": "The Natural Resources Division has ongoing opportunities aligned to our mission including prairie restoration (i.e., invasive species removal, seed ball making/distribution), garden maintenance, stream bank restoration and more!",
+    "schedule": {
+      "raw": "Ongoing",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Frisco",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "environment"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Email Natural Resources for more information."
+  },
+  {
     "id": "copilot_animal_rescue_denton_3",
     "source": "curated",
     "org_id": "copilot_animal_rescue_denton",
@@ -11051,6 +11295,130 @@
       "model": "rule",
       "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
+  },
+  {
+    "id": "grace_bridge_frisco_0",
+    "source": "curated",
+    "org_id": "grace_bridge_frisco",
+    "org_name": "Grace Bridge",
+    "source_url": "https://gracebridge.us/gbvolunteer",
+    "status": "active",
+    "last_scraped": "2026-08-01T03:02:52.805800+00:00",
+    "opportunity_title": "Celina Food Distribution",
+    "description_short": "Help distribute food to families in need alongside our team.",
+    "description_long": "Help distribute food to families in need while serving alongside our dedicated team.",
+    "schedule": {
+      "raw": "Various dates and times available",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Celina",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "All volunteers must complete a liability waiver before serving.",
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click on the 'Available Service Opportunities' link to see dates and times."
+  },
+  {
+    "id": "grace_bridge_frisco_2",
+    "source": "curated",
+    "org_id": "grace_bridge_frisco",
+    "org_name": "Grace Bridge",
+    "source_url": "https://gracebridge.us/gbvolunteer",
+    "status": "active",
+    "last_scraped": "2026-08-01T03:02:52.805800+00:00",
+    "opportunity_title": "Food Facility Ongoing Weekly Opportunities",
+    "description_short": "Join us for flexible opportunities throughout the week.",
+    "description_long": "Join us throughout the week with flexible opportunities including sorting donations, organizing supplies, and preparing for distributions.",
+    "schedule": {
+      "raw": "Ongoing weekly",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Frisco",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "All volunteers must complete a liability waiver before serving.",
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click on the 'Available Service Opportunities' link to see dates and times."
+  },
+  {
+    "id": "grace_bridge_frisco_1",
+    "source": "curated",
+    "org_id": "grace_bridge_frisco",
+    "org_name": "Grace Bridge",
+    "source_url": "https://gracebridge.us/gbvolunteer",
+    "status": "active",
+    "last_scraped": "2026-08-01T03:02:52.805800+00:00",
+    "opportunity_title": "Prosper Food Distribution",
+    "description_short": "Serve families in Frisco area by helping with food distribution.",
+    "description_long": "Serve families in the greater Frisco area by helping with food distribution and community outreach efforts.",
+    "schedule": {
+      "raw": "Various dates and times available",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Prosper",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "All volunteers must complete a liability waiver before serving.",
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click on the 'Available Service Opportunities' link to see dates and times."
+  },
+  {
+    "id": "grace_bridge_frisco_3",
+    "source": "curated",
+    "org_id": "grace_bridge_frisco",
+    "org_name": "Grace Bridge",
+    "source_url": "https://gracebridge.us/gbvolunteer",
+    "status": "active",
+    "last_scraped": "2026-08-01T03:02:52.805800+00:00",
+    "opportunity_title": "Volunteer at Our Resale Stores",
+    "description_short": "Help sort and manage donated items at resale stores.",
+    "description_long": "Help sort, organize, and price donated items at our nonprofit resale stores, supporting our community programs that serve local families.",
+    "schedule": {
+      "raw": "Various dates and times available",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Frisco",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "All volunteers must complete a liability waiver before serving.",
+    "cause_tags": [
+      "community",
+      "housing"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click on the 'Available Service Opportunities' link to see dates and times."
   },
   {
     "id": "grayson_grand_central_station_2",
