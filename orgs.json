@@ -1835,5 +1835,27 @@
     "fallback_urls": [],
     "notes": "Provides health services; volunteers greet guests, escort patients, and assist with animal therapy.",
     "active": true
+  },
+  {
+    "id": "grace_bridge_frisco",
+    "name": "Grace Bridge",
+    "city": "Frisco",
+    "state": "TX",
+    "cause": ["food_security", "community"],
+    "volunteer_url": "https://gracebridge.us/gbvolunteer",
+    "fallback_urls": [],
+    "notes": "Grace Bridge offers volunteer roles in food distribution and resale stores to support local families.",
+    "active": true
+  },
+  {
+    "id": "city_of_frisco_volunteer_program_frisco",
+    "name": "City of Frisco Volunteer Program",
+    "city": "Frisco",
+    "state": "TX",
+    "cause": ["community", "environment", "civic"],
+    "volunteer_url": "https://www.friscotexas.gov/1606/Ongoing-Opportunities",
+    "fallback_urls": [],
+    "notes": "Offers roles in environmental restoration, police support, and community services.",
+    "active": true
   }
 ]
