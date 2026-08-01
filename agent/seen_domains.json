@@ -4,6 +4,11 @@
     "reason": "The page lacks specific, actionable volunteer roles.",
     "verdict": "reject"
   },
+  "app.betterimpact.com": {
+    "date": "2026-08-01",
+    "reason": "The page describes specific volunteer opportunities in Frisco, TX, such as event support and environmental improvement.",
+    "verdict": "accept"
+  },
   "austinstreet.org": {
     "date": "2026-07-21",
     "reason": "The page describes multiple concrete volunteer opportunities in Dallas, TX.",
@@ -53,6 +58,21 @@
     "date": "2026-07-21",
     "reason": "The page does not indicate a local DFW presence or volunteer opportunities.",
     "verdict": "reject"
+  },
+  "friscoisd.org": {
+    "date": "2026-08-01",
+    "reason": "The page does not describe specific volunteer roles.",
+    "verdict": "reject"
+  },
+  "friscotexas.gov": {
+    "date": "2026-08-01",
+    "reason": "The page describes multiple real volunteer opportunities in Frisco, TX.",
+    "verdict": "accept"
+  },
+  "gracebridge.us": {
+    "date": "2026-08-01",
+    "reason": "The organization is a DFW-area nonprofit offering real volunteer opportunities in food distribution and resale stores.",
+    "verdict": "accept"
   },
   "hhs.texas.gov": {
     "date": "2026-07-21",
@@ -113,6 +133,11 @@
     "date": "2026-07-25",
     "reason": "The page describes a real volunteer opportunity for crisis line volunteers in the DFW area.",
     "verdict": "accept"
+  },
+  "teenlife.com": {
+    "date": "2026-08-01",
+    "reason": "The page lacks specific, concrete volunteer roles and focuses on membership benefits and general volunteering.",
+    "verdict": "reject"
   },
   "thecolonytx.gov": {
     "date": "2026-07-21",
