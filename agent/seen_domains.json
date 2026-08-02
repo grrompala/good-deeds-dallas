@@ -54,6 +54,11 @@
     "reason": "The page does not describe a specific volunteer opportunity.",
     "verdict": "reject"
   },
+  "fccrowlett.org": {
+    "date": "2026-08-02",
+    "reason": "The page lacks specific, concrete volunteer roles and primarily focuses on donations.",
+    "verdict": "reject"
+  },
   "friendsoftcas.com": {
     "date": "2026-07-21",
     "reason": "The page does not indicate a local DFW presence or volunteer opportunities.",
@@ -89,10 +94,20 @@
     "reason": "The page lacks specific, actionable volunteer roles.",
     "verdict": "reject"
   },
+  "justserve.org": {
+    "date": "2026-08-02",
+    "reason": "The page does not provide specific volunteer opportunities or roles.",
+    "verdict": "reject"
+  },
   "learntobe.org": {
     "date": "2026-07-21",
     "reason": "The organization does not specifically serve the DFW area.",
     "verdict": "reject"
+  },
+  "lifemessage.org": {
+    "date": "2026-08-02",
+    "reason": "The page describes specific volunteer roles in the food pantry, thrift store, and donation drop-off area.",
+    "verdict": "accept"
   },
   "minniesfoodpantry.org": {
     "date": "2026-07-21",
@@ -117,6 +132,11 @@
   "police.addisontx.gov": {
     "date": "2026-07-21",
     "reason": "The page does not describe a specific volunteer opportunity.",
+    "verdict": "reject"
+  },
+  "rowlettchamber.com": {
+    "date": "2026-08-02",
+    "reason": "The page does not describe any specific volunteer opportunities.",
     "verdict": "reject"
   },
   "samaritanscout.org": {

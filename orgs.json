@@ -1857,5 +1857,49 @@
     "fallback_urls": [],
     "notes": "Offers roles in environmental restoration, police support, and community services.",
     "active": true
+  },
+  {
+    "id": "metrocrest_services_carrollton",
+    "name": "Metrocrest Services",
+    "city": "Carrollton",
+    "state": "TX",
+    "cause": ["food_security", "community", "seniors"],
+    "volunteer_url": "https://metrocrestservices.org/volunteer-opportunities",
+    "fallback_urls": [],
+    "notes": "Metrocrest Services offers roles in food pantry assistance, homeless outreach, and meal delivery to seniors.",
+    "active": true
+  },
+  {
+    "id": "life_message_rowlett",
+    "name": "Life Message",
+    "city": "Rowlett",
+    "state": "TX",
+    "cause": ["food_security", "community", "veterans"],
+    "volunteer_url": "https://lifemessage.org/volunteer",
+    "fallback_urls": [],
+    "notes": "Life Message provides food assistance and community support; volunteers help in the food pantry and thrift store.",
+    "active": true
+  },
+  {
+    "id": "rowlett_library_rowlett",
+    "name": "Rowlett Library",
+    "city": "Rowlett",
+    "state": "TX",
+    "cause": ["education", "community"],
+    "volunteer_url": "https://www.rowletttx.gov/491/Volunteer-Opportunities",
+    "fallback_urls": [],
+    "notes": "Rowlett Library offers ESL tutoring and program assistance volunteer roles.",
+    "active": true
+  },
+  {
+    "id": "friendship_house_carrollton",
+    "name": "The Friendship House",
+    "city": "Carrollton",
+    "state": "TX",
+    "cause": ["food_security", "community"],
+    "volunteer_url": "https://www.firstfields.org/friendship-house",
+    "fallback_urls": [],
+    "notes": "Provides food and resources; volunteers assist with pantry operations and client intake.",
+    "active": true
   }
 ]
