@@ -23778,6 +23778,13 @@
       "ends_on": "2026-08-01",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:51:42.034094+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-08-01)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-02T08:35:37.295023+00:00"
     }
   },
   {
@@ -24104,7 +24111,14 @@
     },
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-08-01)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-02T08:35:37.295023+00:00"
+    }
   },
   {
     "id": "idealist_636b405252a44f5cbd9a9eb948db0c63",
@@ -27177,6 +27191,13 @@
       "ends_on": "2026-08-01",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:51:42.034094+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-08-01)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-02T08:35:37.295023+00:00"
     }
   },
   {
@@ -34238,6 +34259,13 @@
       "ends_on": "2026-08-01",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:51:42.034094+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-08-01)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-02T08:35:37.295023+00:00"
     }
   },
   {
@@ -36131,6 +36159,13 @@
       "ends_on": "2026-08-01",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:51:42.034094+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-08-01)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-02T08:35:37.295023+00:00"
     }
   },
   {
@@ -40249,6 +40284,13 @@
       "ends_on": "2026-08-01",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:51:42.034094+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-08-01)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-02T08:35:37.295023+00:00"
     }
   },
   {
@@ -42566,6 +42608,13 @@
       "ends_on": "2026-08-01",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:51:42.034094+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-08-01)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-02T08:35:37.295023+00:00"
     }
   },
   {
@@ -42628,6 +42677,13 @@
       "ends_on": "2026-08-01",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:51:42.034094+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-08-01)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-02T08:35:37.295023+00:00"
     }
   },
   {
