@@ -15613,6 +15613,129 @@
     }
   },
   {
+    "id": "life_message_rowlett_2",
+    "source": "curated",
+    "org_id": "life_message_rowlett",
+    "org_name": "Life Message",
+    "source_url": "https://lifemessage.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-02T23:42:59.492997+00:00",
+    "opportunity_title": "Birthday Cake Kits Volunteer",
+    "description_short": "Assemble cake kits for families in need celebrating birthdays.",
+    "description_long": "Create Birthday Cake Kits that include a box cake mix, soda, icing, and other decorations, then drop them off at the food pantry.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "flexible",
+    "location": {
+      "address": null,
+      "city": "Rowlett",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "children",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact Darla King for more information."
+  },
+  {
+    "id": "life_message_rowlett_3",
+    "source": "curated",
+    "org_id": "life_message_rowlett",
+    "org_name": "Life Message",
+    "source_url": "https://lifemessage.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-02T23:42:59.492997+00:00",
+    "opportunity_title": "Food Drive Organizer",
+    "description_short": "Organize a food drive event at your church or business.",
+    "description_long": "Get your church or business involved in a food drive to help pack the pantry with donations.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "varies by organization",
+    "location": {
+      "address": null,
+      "city": "Rowlett",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact Darla King for more details."
+  },
+  {
+    "id": "life_message_rowlett_0",
+    "source": "curated",
+    "org_id": "life_message_rowlett",
+    "org_name": "Life Message",
+    "source_url": "https://lifemessage.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-02T23:42:59.492997+00:00",
+    "opportunity_title": "Food Pantry Volunteer",
+    "description_short": "Help out at the food pantry during business hours.",
+    "description_long": "Volunteering at the Food Pantry involves assisting during normal business hours. You can just show up to help.",
+    "schedule": {
+      "raw": "Monday, Wednesday & Friday 9:00 am – 4:00 pm; Thursday 9:00 am – 1:00 pm",
+      "recurring": true,
+      "times_of_day": "daytime"
+    },
+    "commitment": "as much time as you can give",
+    "location": {
+      "address": null,
+      "city": "Rowlett",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No age limit, but children under 13 must be accompanied by an adult.",
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Just show up during normal business hours."
+  },
+  {
+    "id": "life_message_rowlett_1",
+    "source": "curated",
+    "org_id": "life_message_rowlett",
+    "org_name": "Life Message",
+    "source_url": "https://lifemessage.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-02T23:42:59.492997+00:00",
+    "opportunity_title": "Thrift Store Volunteer",
+    "description_short": "Assist in the thrift store during the week and weekends.",
+    "description_long": "Volunteers are needed in the Thrift Store which operates Monday - Saturday 9:30 am – 6:00 pm and Sunday 11:00 am – 5:00 pm.",
+    "schedule": {
+      "raw": "Monday - Saturday 9:30 am – 6:00 pm; Sunday 11:00 am – 5:00 pm",
+      "recurring": true,
+      "times_of_day": "daytime"
+    },
+    "commitment": "as much time as you can give",
+    "location": {
+      "address": null,
+      "city": "Rowlett",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No age limit, comfortable clothing and closed toe shoes recommended.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Just show up during normal business hours; sign up for weekend hours."
+  },
+  {
     "id": "lifepath_systems_foundation_0",
     "source": "curated",
     "org_id": "lifepath_systems_foundation",
@@ -16195,6 +16318,130 @@
       "model": "rule",
       "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
+  },
+  {
+    "id": "metrocrest_services_carrollton_0",
+    "source": "curated",
+    "org_id": "metrocrest_services_carrollton",
+    "org_name": "Metrocrest Services",
+    "source_url": "https://metrocrestservices.org/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-02T23:42:47.604463+00:00",
+    "opportunity_title": "Food Pantry",
+    "description_short": "Assist clients and stock shelves in the Food Pantry.",
+    "description_long": "Volunteers are needed to help greet clients, stock shelves, and help customers in our Food Pantry. Shifts are 3 hours long. Volunteers must be comfortable standing for extended periods and lifting 15 pounds or more.",
+    "schedule": {
+      "raw": "Monday – Saturday, M–F 8:00 a.m. – 3:30 p.m., Sat 8:30 a.m. – 1:00 p.m.",
+      "recurring": true,
+      "times_of_day": "M-F 8:00 a.m. – 3:30 p.m., Sat 8:30 a.m. – 1:00 p.m."
+    },
+    "commitment": "3 hours/shift",
+    "location": {
+      "address": "1145 N Josey Lane",
+      "city": "Carrollton",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Ages 13 and older (ages 13–15 must be accompanied by a parent or guardian)",
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up for your volunteer shift"
+  },
+  {
+    "id": "metrocrest_services_carrollton_2",
+    "source": "curated",
+    "org_id": "metrocrest_services_carrollton",
+    "org_name": "Metrocrest Services",
+    "source_url": "https://metrocrestservices.org/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-02T23:42:47.604463+00:00",
+    "opportunity_title": "Homeless Outreach",
+    "description_short": "Engage and assist individuals experiencing homelessness.",
+    "description_long": "Homeless outreach volunteers work directly with individuals and families experiencing homelessness by meeting people where they are and developing relationships. Volunteers canvass the Metrocrest Service area in teams of at least two up to three times a week. During that time, they work with agency staff to identify people living outside and connect them with relevant community resources. Prospective volunteers must pass a background check and commit to completing all necessary training.",
+    "schedule": {
+      "raw": "Monday and Wednesday, 9:00 a.m. – 11:00 a.m.",
+      "recurring": true,
+      "times_of_day": "9:00 a.m. – 11:00 a.m."
+    },
+    "commitment": "Variable, up to three times a week",
+    "location": {
+      "address": null,
+      "city": "Carrollton",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Ages 18 and older; must pass a background check and complete necessary training",
+    "cause_tags": [
+      "crisis_support",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Submit your application"
+  },
+  {
+    "id": "metrocrest_services_carrollton_1",
+    "source": "curated",
+    "org_id": "metrocrest_services_carrollton",
+    "org_name": "Metrocrest Services",
+    "source_url": "https://metrocrestservices.org/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-02T23:42:47.604463+00:00",
+    "opportunity_title": "Metrocrest Resale Store",
+    "description_short": "Help with stocking and processing at the resale store.",
+    "description_long": "Volunteers are needed to help stock merchandise, process donations, and help customers in the Metrocrest Resale store. Shifts are 4 hours long. Volunteers must be comfortable standing for extended periods and lifting 15 pounds or more.",
+    "schedule": {
+      "raw": "Monday – Saturday, 9:00 a.m. – 6:00 p.m.",
+      "recurring": true,
+      "times_of_day": "9:00 a.m. – 6:00 p.m."
+    },
+    "commitment": "4 hours/shift",
+    "location": {
+      "address": "2661 Midway Road #207",
+      "city": "Carrollton",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Ages 13 and older (ages 13–15 must be accompanied by a parent or guardian)",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up for your volunteer shift"
+  },
+  {
+    "id": "metrocrest_services_carrollton_3",
+    "source": "curated",
+    "org_id": "metrocrest_services_carrollton",
+    "org_name": "Metrocrest Services",
+    "source_url": "https://metrocrestservices.org/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-02T23:42:47.604463+00:00",
+    "opportunity_title": "Senior Services: Home-delivered meals",
+    "description_short": "Deliver meals and wellness checks to seniors.",
+    "description_long": "Provide hot meals and wellness checks to homebound seniors. Volunteers pick up meals from the Metrocrest Services office and deliver them to clients’ homes using a predesignated route. Volunteers must pass a background check and have a safe, reliable vehicle to use during each shift.",
+    "schedule": {
+      "raw": "Monday – Friday, pick up meals at 11:00 a.m.",
+      "recurring": true,
+      "times_of_day": "11:00 a.m."
+    },
+    "commitment": "Variable, during each shift",
+    "location": {
+      "address": "1145 N Josey Lane",
+      "city": "Carrollton",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Ages 18 and older; must pass a background check and have a safe, reliable vehicle",
+    "cause_tags": [
+      "seniors",
+      "health",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Submit your application"
   },
   {
     "id": "mid_cities_animal_rescue_4",
@@ -19993,6 +20240,37 @@
     }
   },
   {
+    "id": "rowlett_library_rowlett_0",
+    "source": "curated",
+    "org_id": "rowlett_library_rowlett",
+    "org_name": "Rowlett Library",
+    "source_url": "https://www.rowletttx.gov/491/Volunteer-Opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-02T23:43:07.611710+00:00",
+    "opportunity_title": "Library Volunteer",
+    "description_short": "Join the Library as a volunteer for various activities including ESL tutoring.",
+    "description_long": "Are you sixteen or older? Are you looking for a way to give back to your community? Are you interested in tutoring English as a Second Language (ESL)? Then join the Library as a volunteer! Volunteering includes assisting with programs, shelving, and ESL tutoring.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Rowlett",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be sixteen or older.",
+    "cause_tags": [
+      "education",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Submit a completed Volunteer Application and Waiver form online. The Volunteer Coordinator will contact you."
+  },
+  {
     "id": "sharing_life_community_outreach_inc_1",
     "source": "curated",
     "org_id": "sharing_life_community_outreach_inc",
@@ -22555,6 +22833,68 @@
       "model": "rule",
       "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
+  },
+  {
+    "id": "friendship_house_carrollton_0",
+    "source": "curated",
+    "org_id": "friendship_house_carrollton",
+    "org_name": "The Friendship House",
+    "source_url": "https://www.firstfields.org/friendship-house",
+    "status": "active",
+    "last_scraped": "2026-08-02T23:43:16.663604+00:00",
+    "opportunity_title": "Food Donations",
+    "description_short": "Help by donating food items during open hours.",
+    "description_long": "Make food donations during hours of operation or financial donations online at any time.",
+    "schedule": {
+      "raw": "During hours of operation",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": "3733 N. Josey Lane, Suite 103",
+      "city": "Carrollton",
+      "state": "Texas",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Make food donations during hours of operation."
+  },
+  {
+    "id": "friendship_house_carrollton_1",
+    "source": "curated",
+    "org_id": "friendship_house_carrollton",
+    "org_name": "The Friendship House",
+    "source_url": "https://www.firstfields.org/friendship-house",
+    "status": "inactive",
+    "last_scraped": "2026-08-02T23:43:16.663604+00:00",
+    "opportunity_title": "Volunteering Opportunities",
+    "description_short": "Various volunteer roles available at the Friendship House.",
+    "description_long": "Volunteers – Truck drivers, data entry, client intake, food pantry assistance, and shelf-stockers.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": "3733 N. Josey Lane, Suite 103",
+      "city": "Carrollton",
+      "state": "Texas",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact us for more information on volunteering."
   },
   {
     "id": "the_m_i_n_t_foundation_2",
