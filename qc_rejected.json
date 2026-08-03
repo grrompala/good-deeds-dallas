@@ -264,6 +264,14 @@
     "source_url": "https://dallashomelesssolutions.com/get-involved/volunteer/index.html"
   },
   {
+    "id": "city_of_frisco_volunteer_program_frisco_6",
+    "org_name": "City of Frisco Volunteer Program",
+    "opportunity_title": "Library - VolunTEEN Corps for Teen Volunteering",
+    "category": "vague_no_role",
+    "reason": "No specific role or task described for the VolunTEEN Corps.",
+    "source_url": "https://www.friscotexas.gov/1606/Ongoing-Opportunities"
+  },
+  {
     "id": "communities_in_schools_of_dallas_region_dallas_3",
     "org_name": "Communities In Schools of the Dallas Region",
     "opportunity_title": "Custom Volunteer Opportunities",
@@ -880,6 +888,22 @@
     "source_url": "https://www.keeprowlettbeautiful.org/volunteer-opportunities"
   },
   {
+    "id": "life_message_rowlett_2",
+    "org_name": "Life Message",
+    "opportunity_title": "Birthday Cake Kits Volunteer",
+    "category": "donation_or_fundraising",
+    "reason": "Involves assembling kits but requires dropping them off, not a direct volunteer role.",
+    "source_url": "https://lifemessage.org/volunteer"
+  },
+  {
+    "id": "life_message_rowlett_3",
+    "org_name": "Life Message",
+    "opportunity_title": "Food Drive Organizer",
+    "category": "donation_or_fundraising",
+    "reason": "Organizing a food drive is not a direct volunteer role.",
+    "source_url": "https://lifemessage.org/volunteer"
+  },
+  {
     "id": "manna_house_4",
     "org_name": "Manna House",
     "opportunity_title": "Drive Organizer Volunteer",
@@ -1238,6 +1262,14 @@
     "category": "expired",
     "reason": "event date passed (2026-06-06)",
     "source_url": "https://www.texaslandconservancy.org/oak-cliff-nature-preserve"
+  },
+  {
+    "id": "friendship_house_carrollton_0",
+    "org_name": "The Friendship House",
+    "opportunity_title": "Food Donations",
+    "category": "donation_or_fundraising",
+    "reason": "Only involves making food donations, not a direct volunteer role.",
+    "source_url": "https://www.firstfields.org/friendship-house"
   },
   {
     "id": "the_m_i_n_t_foundation_2",

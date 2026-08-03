@@ -394,7 +394,9 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "community"
+    ]
   },
   {
     "id": "arlington_life_shelter_1",
@@ -731,7 +733,25 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Start Volunteer Process Here"
+    "apply_instructions": "Start Volunteer Process Here",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role of escorting therapy dogs to visit patients.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": [
+      "animals",
+      "health",
+      "community"
+    ]
   },
   {
     "id": "baylor_scott_white_medical_center_irving_irving_5",
@@ -762,7 +782,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Start Volunteer Process Here"
+    "apply_instructions": "Start Volunteer Process Here",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assist with patient escort and comfort items in the CHF Clinic.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "baylor_scott_white_medical_center_irving_irving_3",
@@ -793,7 +827,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Start Volunteer Process Here"
+    "apply_instructions": "Start Volunteer Process Here",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Greet guests and assist with clerical work in the Cancer Center.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "baylor_scott_white_medical_center_irving_irving_2",
@@ -823,7 +871,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Start Volunteer Process Here"
+    "apply_instructions": "Start Volunteer Process Here",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assist with clerical tasks in various departments.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "baylor_scott_white_medical_center_irving_irving_4",
@@ -854,7 +916,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Start Volunteer Process Here"
+    "apply_instructions": "Start Volunteer Process Here",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assist with patient escort and comfort items in Day Surgery.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "baylor_scott_white_medical_center_irving_irving_6",
@@ -885,7 +961,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Start Volunteer Process Here"
+    "apply_instructions": "Start Volunteer Process Here",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assist with patient support in the Emergency Department.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "baylor_scott_white_medical_center_irving_irving_0",
@@ -915,7 +1005,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Start Volunteer Process Here"
+    "apply_instructions": "Start Volunteer Process Here",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Greet guests and assist in patient navigation.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "baylor_scott_white_medical_center_irving_irving_7",
@@ -946,7 +1050,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Start Volunteer Process Here"
+    "apply_instructions": "Start Volunteer Process Here",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Support patients in various inpatient units.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "baylor_scott_white_richardson_0",
@@ -4974,7 +5092,21 @@
       "education"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact Brandi Norton at 972-292-5663 for more information."
+    "apply_instructions": "Contact Brandi Norton at 972-292-5663 for more information.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Various volunteer roles available at the Frisco Heritage Museum.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "city_of_frisco_volunteer_program_frisco_1",
@@ -5005,7 +5137,21 @@
       "crisis_support"
     ],
     "apply_url": "Frisco PVA",
-    "apply_instructions": "Visit Frisco PVA for more information."
+    "apply_instructions": "Visit Frisco PVA for more information.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assist the police department in various capacities.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "city_of_frisco_volunteer_program_frisco_7",
@@ -5036,7 +5182,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Call 972-292-6550 for questions and details."
+    "apply_instructions": "Call 972-292-6550 for questions and details.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers assist with activities at the adult activity center.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "city_of_frisco_volunteer_program_frisco_2",
@@ -5066,7 +5226,21 @@
       "health"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact Jennifer Tramel at 972-292-6353 to register."
+    "apply_instructions": "Contact Jennifer Tramel at 972-292-6353 to register.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers assist with administrative tasks and greet visitors.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "city_of_frisco_volunteer_program_frisco_3",
@@ -5097,7 +5271,21 @@
       "education"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact Jennifer Tramel at 972-292-6353 to apply."
+    "apply_instructions": "Contact Jennifer Tramel at 972-292-6353 to apply.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Teen volunteers assist with activities at Frisco Fire Safety Town.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "city_of_frisco_volunteer_program_frisco_5",
@@ -5127,7 +5315,21 @@
       "education"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact the Adult Volunteer Team at 972-292-5669 for more information."
+    "apply_instructions": "Contact the Adult Volunteer Team at 972-292-5669 for more information.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers assist with various tasks in Adult Services at the library.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "city_of_frisco_volunteer_program_frisco_6",
@@ -5157,7 +5359,21 @@
       "education"
     ],
     "apply_url": "library’s website",
-    "apply_instructions": "Visit the library’s website for more information."
+    "apply_instructions": "Visit the library’s website for more information.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "No specific role or task described for the VolunTEEN Corps.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "city_of_frisco_volunteer_program_frisco_0",
@@ -5187,7 +5403,21 @@
       "environment"
     ],
     "apply_url": null,
-    "apply_instructions": "Email Natural Resources for more information."
+    "apply_instructions": "Email Natural Resources for more information.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Help with prairie restoration and conservation efforts.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "copilot_animal_rescue_denton_3",
@@ -10278,7 +10508,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "animals",
+      "community"
+    ],
     "expiry": {
       "kind": "unknown",
       "ends_on": null,
@@ -11325,7 +11558,24 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Click on the 'Available Service Opportunities' link to see dates and times."
+    "apply_instructions": "Click on the 'Available Service Opportunities' link to see dates and times.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Help distribute food to families in need.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "grace_bridge_frisco_2",
@@ -11356,7 +11606,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Click on the 'Available Service Opportunities' link to see dates and times."
+    "apply_instructions": "Click on the 'Available Service Opportunities' link to see dates and times.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Flexible opportunities including sorting donations and organizing supplies.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "grace_bridge_frisco_1",
@@ -11387,7 +11651,24 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Click on the 'Available Service Opportunities' link to see dates and times."
+    "apply_instructions": "Click on the 'Available Service Opportunities' link to see dates and times.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Help with food distribution and community outreach efforts.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "grace_bridge_frisco_3",
@@ -11418,7 +11699,21 @@
       "housing"
     ],
     "apply_url": null,
-    "apply_instructions": "Click on the 'Available Service Opportunities' link to see dates and times."
+    "apply_instructions": "Click on the 'Available Service Opportunities' link to see dates and times.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Help sort and manage donated items at resale stores.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "grayson_grand_central_station_2",
@@ -15641,7 +15936,24 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact Darla King for more information."
+    "apply_instructions": "Contact Darla King for more information.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "donation_or_fundraising",
+      "reason": "Involves assembling kits but requires dropping them off, not a direct volunteer role.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "life_message_rowlett_3",
@@ -15672,7 +15984,24 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact Darla King for more details."
+    "apply_instructions": "Contact Darla King for more details.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "donation_or_fundraising",
+      "reason": "Organizing a food drive is not a direct volunteer role.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "life_message_rowlett_0",
@@ -15703,7 +16032,24 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Just show up during normal business hours."
+    "apply_instructions": "Just show up during normal business hours.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Directly assists at the food pantry during business hours.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "life_message_rowlett_1",
@@ -15733,7 +16079,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Just show up during normal business hours; sign up for weekend hours."
+    "apply_instructions": "Just show up during normal business hours; sign up for weekend hours.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers assist in the thrift store during operational hours.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "lifepath_systems_foundation_0",
@@ -16348,7 +16708,24 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Sign up for your volunteer shift"
+    "apply_instructions": "Sign up for your volunteer shift",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers assist clients and stock shelves in the Food Pantry.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ]
   },
   {
     "id": "metrocrest_services_carrollton_2",
@@ -16379,7 +16756,24 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Submit your application"
+    "apply_instructions": "Submit your application",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Engages and assists individuals experiencing homelessness.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": [
+      "housing",
+      "community"
+    ]
   },
   {
     "id": "metrocrest_services_carrollton_1",
@@ -16409,7 +16803,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Sign up for your volunteer shift"
+    "apply_instructions": "Sign up for your volunteer shift",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers help stock merchandise and process donations.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "metrocrest_services_carrollton_3",
@@ -16441,7 +16849,25 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Submit your application"
+    "apply_instructions": "Submit your application",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Delivers meals and wellness checks to homebound seniors.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": [
+      "seniors",
+      "food_security",
+      "health"
+    ]
   },
   {
     "id": "mid_cities_animal_rescue_4",
@@ -20268,7 +20694,24 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Submit a completed Volunteer Application and Waiver form online. The Volunteer Coordinator will contact you."
+    "apply_instructions": "Submit a completed Volunteer Application and Waiver form online. The Volunteer Coordinator will contact you.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers assist with programs and ESL tutoring at the library.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ]
   },
   {
     "id": "sharing_life_community_outreach_inc_1",
@@ -22863,7 +23306,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Make food donations during hours of operation."
+    "apply_instructions": "Make food donations during hours of operation.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:40.065075+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "donation_or_fundraising",
+      "reason": "Only involves making food donations, not a direct volunteer role.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-03T13:18:39.584325+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "friendship_house_carrollton_1",
@@ -22894,7 +23351,8 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact us for more information on volunteering."
+    "apply_instructions": "Contact us for more information on volunteering.",
+    "unified_tags": []
   },
   {
     "id": "the_m_i_n_t_foundation_2",
@@ -24398,7 +24856,9 @@
     ],
     "apply_url": null,
     "apply_instructions": "Contact us to discuss potential fundraising ideas.",
-    "unified_tags": [],
+    "unified_tags": [
+      "community"
+    ],
     "qc": {
       "status": "rejected",
       "category": "donation_or_fundraising",
