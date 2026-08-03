@@ -11439,7 +11439,14 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-08-02)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-03T10:03:22.954690+00:00"
+    }
   },
   {
     "id": "voly_116429",
