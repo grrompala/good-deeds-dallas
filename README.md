@@ -507,15 +507,3 @@ Edit `TAXONOMY` in `classify_listings.py`, then
 ### "I want to test a different chat LLM"
 Change `RAG_CHAT_MODEL` in `frontend/.env.local`, restart `npm run dev`. No
 re-index needed.
-
----
-
-## Known issues / TODO
-
-* Voly org addresses still parse poorly (multi-line / non-address blocks).
-* City-name casing is inconsistent across sources (some all-caps).
-* ~~Per-IP rate limit is in-memory only~~ — fixed: rate limiting now lives in
-  Supabase (`check_search_quota`), durable across serverless instances.
-* 27 MB-era concern is gone (Supabase), but free Supabase projects pause when idle.
-* Nice-to-haves: GIFs/memes on the empty state; threshold weak Smart Search
-  matches so a "no match" answer shows fewer cards.
