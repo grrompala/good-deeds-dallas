@@ -44,6 +44,11 @@
     "reason": "The page describes specific, actionable volunteer roles in the DFW area.",
     "verdict": "accept"
   },
+  "cwsdallas.org": {
+    "date": "2026-08-04",
+    "reason": "The page describes specific volunteer roles in the DFW area for supporting refugees.",
+    "verdict": "accept"
+  },
   "dallashomelesssolutions.com": {
     "date": "2026-07-21",
     "reason": "The page describes specific volunteer opportunities related to setting up shelters and providing meals during inclement weather, which are actionable roles.",
@@ -109,6 +114,11 @@
     "reason": "The page describes specific volunteer roles in the food pantry, thrift store, and donation drop-off area.",
     "verdict": "accept"
   },
+  "marufdallas.com": {
+    "date": "2026-08-04",
+    "reason": "The page lacks specific, actionable volunteer roles and focuses on subscribing to a contact list.",
+    "verdict": "reject"
+  },
   "minniesfoodpantry.org": {
     "date": "2026-07-21",
     "reason": "landing page fetch failed",
@@ -133,6 +143,16 @@
     "date": "2026-07-21",
     "reason": "The page does not describe a specific volunteer opportunity.",
     "verdict": "reject"
+  },
+  "raicestexas.org": {
+    "date": "2026-08-04",
+    "reason": "The page describes a national volunteer program without specific DFW-area roles.",
+    "verdict": "reject"
+  },
+  "rescue.org": {
+    "date": "2026-08-04",
+    "reason": "The page describes specific, actionable volunteer roles in the DFW area.",
+    "verdict": "accept"
   },
   "rowlettchamber.com": {
     "date": "2026-08-02",

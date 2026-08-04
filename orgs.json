@@ -1901,5 +1901,27 @@
     "fallback_urls": [],
     "notes": "Provides food and resources; volunteers assist with pantry operations and client intake.",
     "active": true
+  },
+  {
+    "id": "international_rescue_committee_dallas",
+    "name": "International Rescue Committee",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["immigration", "housing", "community"],
+    "volunteer_url": "https://www.rescue.org/volunteer-opportunities/dallas-tx",
+    "fallback_urls": [],
+    "notes": "Supports refugees in DFW with roles like apartment setup, admin support, and family mentoring.",
+    "active": true
+  },
+  {
+    "id": "cws_dallas_dallas",
+    "name": "CWS Dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["immigration", "community"],
+    "volunteer_url": "https://cwsdallas.org/get-involved",
+    "fallback_urls": [],
+    "notes": "Supports refugees in Dallas with roles like airport welcome, English practice, and community orientation.",
+    "active": true
   }
 ]
