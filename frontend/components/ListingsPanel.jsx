@@ -7,7 +7,6 @@
 // "Read more" that opens the full description in a modal — no leaving the site.
 
 import { useEffect, useMemo, useRef, useState } from 'react'
-import dynamic from 'next/dynamic'
 import SourceBox, { sourceLabel, sourceInfo } from './SourceBox'
 import SectionShell from './SectionShell'
 import TagChip from './TagChip'
@@ -18,17 +17,6 @@ import LocationPrompt from './LocationPrompt'
 import { cleanOrgName } from './cleanText'
 import { orgKey } from './orgs'
 import { cityName, geoCoords, haversineMiles, cityCentroids } from '../lib/city'
-
-// Leaflet touches `window` at import, so the map is client-only — never
-// server-rendered. A lightweight placeholder holds the space while it loads.
-const OpportunityMap = dynamic(() => import('./OpportunityMap'), {
-  ssr: false,
-  loading: () => (
-    <div className="flex items-center justify-center rounded-2xl border border-line bg-canvas text-sm text-muted" style={{ minHeight: '60vh' }}>
-      Loading map…
-    </div>
-  ),
-})
 
 // Sources that feed this panel — add new ones here and they'll appear as
 // filter pills automatically.
@@ -113,12 +101,9 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
   // | 'nearest' (distance from `origin`; only active once an origin is set).
   const [sort, setSort] = useState('recent')
 
-  // List vs. map view of the same filtered results.
-  const [view, setView] = useState('list')
   // Distance origin: null | { lat, lng, label }. Set via the LocationPrompt
   // (browser geolocation or a city pick) — never auto-requested.
   const [origin, setOrigin] = useState(null)
-  const [mapPromptDismissed, setMapPromptDismissed] = useState(false)
 
   const activeFilterCount = sources.length + causes.length + cities.length + (when !== 'all' ? 1 : 0)
 
@@ -225,10 +210,6 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
     )
   }, [listings, sources, causes, cities, when, sort, origin])
 
-  // How many of the current results actually have a map location (the rest
-  // aren't drawn on the map / sink to the bottom of a distance sort).
-  const locatedCount = useMemo(() => filtered.filter(o => geoCoords(o)).length, [filtered])
-
   // ── Infinite scroll (non-compact) ─────────────────────────────────────────
   // Reveal rows a page at a time; a sentinel near the bottom loads more as
   // it scrolls into view — the pattern common on mobile feeds. The
@@ -277,22 +258,10 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
           resultNoun="result"
           onReset={resetFilters}
           toolbarRight={
-            <div className="flex items-center gap-3 flex-wrap">
+            <div className="flex items-center gap-2">
+              <span className="hidden sm:inline text-xs font-mono uppercase tracking-wider text-muted">Sort</span>
               <div className="inline-flex rounded-full border border-line bg-white p-0.5">
-                {[['list', 'List'], ['map', 'Map']].map(([id, label]) => (
-                  <button
-                    key={id}
-                    onClick={() => setView(id)}
-                    className={`px-3 py-1 rounded-full text-sm font-medium transition-colors whitespace-nowrap ${
-                      view === id ? 'bg-brand text-white' : 'text-inkSoft hover:text-brand'
-                    }`}
-                  >
-                    {label}
-                  </button>
-                ))}
-              </div>
-              <div className="inline-flex rounded-full border border-line bg-white p-0.5">
-                {[['recent', 'Recent'], ['upcoming', 'Upcoming'], ['nearest', 'Nearest']].map(([id, label]) => (
+                {[['recent', 'Recently added'], ['upcoming', 'Upcoming'], ['nearest', 'Nearest']].map(([id, label]) => (
                   <button
                     key={id}
                     onClick={() => setSort(id)}
@@ -366,36 +335,19 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
         </FilterDrawer>
       )}
 
-      {/* Soft location prompt: shown when sorting by distance, or atop the map
-          (until dismissed). Never auto-requests geolocation — the user opts in. */}
-      {!compact && (sort === 'nearest' || (view === 'map' && !mapPromptDismissed)) && (
+      {/* Soft location prompt: shown only when sorting by distance. Never
+          auto-requests geolocation — the user opts in (button or city pick). */}
+      {!compact && sort === 'nearest' && (
         <div className="mb-3">
           <LocationPrompt
             cities={originCities}
             origin={origin}
             onSetOrigin={setOrigin}
-            onDismiss={view === 'map' && sort !== 'nearest' ? () => setMapPromptDismissed(true) : undefined}
           />
         </div>
       )}
 
-      {view === 'map' && !compact ? (
-        <div className="space-y-2">
-          <div className="overflow-hidden rounded-2xl border border-line shadow-card">
-            <OpportunityMap
-              listings={filtered}
-              origin={origin}
-              onSelectListing={onSelectListing}
-            />
-          </div>
-          <p className="text-xs text-muted">
-            Showing {locatedCount.toLocaleString()} of {filtered.length.toLocaleString()} on the map ·
-            locations are approximate (city-level)
-            {filtered.length - locatedCount > 0 &&
-              ` · ${(filtered.length - locatedCount).toLocaleString()} without a mapped location aren’t shown`}.
-          </p>
-        </div>
-      ) : visible.length === 0 ? (
+      {visible.length === 0 ? (
         <div className="bg-white border border-line rounded-2xl py-12 text-center">
           <p className="text-sm text-muted">No matches.</p>
           <button
@@ -444,9 +396,11 @@ export function ListingRow({ data, compact, onSelectOrg, onSelectListing }) {
     address, volunteers_needed, source_url, is_virtual, source,
   } = data
 
-  // Visible city label (was a hover-only pin). McKinney's city field is too
-  // noisy to trust, so it stays suppressed for that source.
-  const city      = source !== 'volunteermckinney' ? cityName(data) : null
+  // Visible city label. cityName() now reads the geocoder's clean, canonical
+  // geo.city first (see lib/city.js), so every source — McKinney included,
+  // whose raw city field used to be too noisy to show — gets a trustworthy
+  // location on the card, including when sorting by distance.
+  const city      = cityName(data)
   const dateLabel = scheduleDateLabel(data)
   // Only canonical taxonomy tags are UI-facing labels (raw scraped cause_tags
   // like "In-Kind"/"Skilled Labor" are not shown as chips).
