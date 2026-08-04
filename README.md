@@ -7,9 +7,7 @@ question: *what's a real place I could go help this week?*
 
 It pulls from half a dozen live sources, cleans and de-duplicates them with
 an LLM quality-control pipeline, tags everything against one consistent
-cause taxonomy, and layers a natural-language Smart Search on top — so
-instead of checking five volunteer portals with five different search boxes,
-there's one place to look.
+cause taxonomy, and layers a natural-language Smart Search on top.
 
 ---
 
