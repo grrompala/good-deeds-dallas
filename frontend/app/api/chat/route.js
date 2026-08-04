@@ -15,9 +15,16 @@
 
 import { createHash } from 'node:crypto'
 import { embed, chat } from '../../../lib/rag/openai'
-import { retrieve, indexSummary } from '../../../lib/rag/store'
+import { hybridRetrieve, indexSummary } from '../../../lib/rag/store'
+import { parseQuery } from '../../../lib/rag/parseQuery'
 import { RAG_CONFIG } from '../../../lib/rag/config'
 import { supa } from '../../../lib/rag/supabase'
+
+// Today's date in Dallas local time ('YYYY-MM-DD') — the anchor for resolving
+// "soon" / "this weekend" / "in July" and for dropping past events.
+function dallasToday() {
+  return new Intl.DateTimeFormat('en-CA', { timeZone: 'America/Chicago' }).format(new Date())
+}
 
 export const runtime = 'nodejs'
 
@@ -137,11 +144,23 @@ export async function POST(request) {
       return Response.json({ error: message }, { status: 429 })
     }
 
-    // 1. Embed the question with the SAME model used for the entries.
-    const queryVector = await embed(query)
+    // 1. In parallel: parse the query into structured filters (city / causes /
+    //    virtual / date window) and embed it. The parse is what gives Smart
+    //    Search a real grasp of place and time — those constraints become SQL
+    //    WHERE clauses instead of fuzzy vector signal. Embedding doesn't depend
+    //    on the parse, so run both at once to hide the extra LLM latency.
+    const today = dallasToday()
+    const [filters, queryVector] = await Promise.all([
+      parseQuery(query, today),
+      embed(query),
+    ])
 
-    // 2. Retrieve the closest LISTINGS (filtered + ranked in Postgres).
-    const hits = await retrieve(queryVector, RETRIEVE_K, 'listing')
+    // 2. Hybrid retrieval (vector + full-text, RRF-fused) over the filtered set,
+    //    with graceful relaxation if the filters are too strict.
+    const { hits } = await hybridRetrieve(queryVector, query, filters, {
+      k: RETRIEVE_K,
+      today,
+    })
     const listingHits = rankedListingHits(hits)
     const context = listingHits
       .map((h, i) => `[${i + 1}] ${h.text}`)
@@ -152,8 +171,15 @@ export async function POST(request) {
     // what tells the user whether any are actually a good fit.
     const system = [
       'You are a helpful assistant for a Dallas-area volunteer website.',
+      `Today is ${today} (America/Chicago).`,
       'Recommend volunteer opportunities using ONLY the LISTINGS provided in',
       'CONTEXT; never invent opportunities.',
+      'CONTEXT is already filtered to the user’s request (place and time',
+      'included), so trust it. A listing with a "When:" line happens on that',
+      'date; one marked "Availability: ongoing" runs on a rolling basis and is',
+      'open on any date the user asked about. If the user asked about timing,',
+      'you may mention a listing’s date, but do not claim a date a listing',
+      'doesn’t state.',
       'Tone: factual and practical. No marketing language, no exclamation',
       'marks, no phrases like "excellent opportunity" or "make a meaningful',
       'difference". Do not open with a disclaimer about match quality either —',
