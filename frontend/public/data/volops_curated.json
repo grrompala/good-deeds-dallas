@@ -2967,6 +2967,127 @@
     "unified_tags": []
   },
   {
+    "id": "cws_dallas_dallas_3",
+    "source": "curated",
+    "org_id": "cws_dallas_dallas",
+    "org_name": "CWS Dallas",
+    "source_url": "https://cwsdallas.org/get-involved",
+    "status": "active",
+    "last_scraped": "2026-08-04T04:13:36.825533+00:00",
+    "opportunity_title": "Advocate for your New Neighbors",
+    "description_short": "Engage in advocacy work for refugees and immigrants.",
+    "description_long": "Church World Service works alongside our supporters to make sure Congress and the White House do what’s right. Without you, real change isn’t possible.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "ongoing",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 or older or accompanied by a parent/guardian if under 18.",
+    "cause_tags": [
+      "community",
+      "crisis_support"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Reach out to CWS Dallas Director, Jenna Nitanga for more information."
+  },
+  {
+    "id": "cws_dallas_dallas_0",
+    "source": "curated",
+    "org_id": "cws_dallas_dallas",
+    "org_name": "CWS Dallas",
+    "source_url": "https://cwsdallas.org/get-involved",
+    "status": "active",
+    "last_scraped": "2026-08-04T04:13:36.825533+00:00",
+    "opportunity_title": "Become a First Friend",
+    "description_short": "Support a new refugee with friendship and community orientation.",
+    "description_long": "Support a new refugee through friendship, English, and community orientation during their first three months in the US.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "3 months",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 or older or accompanied by a parent/guardian if under 18.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Submit a volunteer application form online and complete a background check."
+  },
+  {
+    "id": "cws_dallas_dallas_2",
+    "source": "curated",
+    "org_id": "cws_dallas_dallas",
+    "org_name": "CWS Dallas",
+    "source_url": "https://cwsdallas.org/get-involved",
+    "status": "active",
+    "last_scraped": "2026-08-04T04:13:36.825533+00:00",
+    "opportunity_title": "Welcome Kit Preparation",
+    "description_short": "Assemble welcome kits for arriving refugee families.",
+    "description_long": "Gather your faith group, club, or friends together to purchase and assemble welcome kits for families to receive on their first day in the U.S.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "one-time",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 or older or accompanied by a parent/guardian if under 18.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Submit a volunteer application form online and complete a background check."
+  },
+  {
+    "id": "cws_dallas_dallas_1",
+    "source": "curated",
+    "org_id": "cws_dallas_dallas",
+    "org_name": "CWS Dallas",
+    "source_url": "https://cwsdallas.org/get-involved",
+    "status": "active",
+    "last_scraped": "2026-08-04T04:13:36.825533+00:00",
+    "opportunity_title": "Welcome Team",
+    "description_short": "Help welcome a new refugee family by setting up their home.",
+    "description_long": "Be the first ones to say 'Welcome Home' to a new refugee family by setting up their home, providing groceries and a meal, and meeting them at the airport on their first day in the U.S.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "one-time",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 or older or accompanied by a parent/guardian if under 18.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Submit a volunteer application form online and complete a background check."
+  },
+  {
     "id": "call_a_ride_of_southlake_cars_0",
     "source": "curated",
     "org_id": "call_a_ride_of_southlake_cars",
@@ -14548,6 +14669,128 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:56:46.565342+00:00"
     }
+  },
+  {
+    "id": "international_rescue_committee_dallas_2",
+    "source": "curated",
+    "org_id": "international_rescue_committee_dallas",
+    "org_name": "International Rescue Committee",
+    "source_url": "https://www.rescue.org/volunteer-opportunities/dallas-tx",
+    "status": "active",
+    "last_scraped": "2026-08-04T04:13:21.278505+00:00",
+    "opportunity_title": "Administrative Support Volunteer",
+    "description_short": "Provide essential administrative support for refugee clients.",
+    "description_long": "The Administration Support Volunteer will provide essential administrative assistance to support refugee clients.",
+    "schedule": {
+      "raw": "Ongoing",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "varies",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the IRC to get started."
+  },
+  {
+    "id": "international_rescue_committee_dallas_0",
+    "source": "curated",
+    "org_id": "international_rescue_committee_dallas",
+    "org_name": "International Rescue Committee",
+    "source_url": "https://www.rescue.org/volunteer-opportunities/dallas-tx",
+    "status": "active",
+    "last_scraped": "2026-08-04T04:13:21.278505+00:00",
+    "opportunity_title": "Apartment Setup Volunteer",
+    "description_short": "Help prepare and furnish homes for new refugee families.",
+    "description_long": "The Apartment Setup Volunteer will help the housing team prepare and furnish homes for new refugee families.",
+    "schedule": {
+      "raw": "Ongoing",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "varies",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "housing",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the IRC to get started."
+  },
+  {
+    "id": "international_rescue_committee_dallas_1",
+    "source": "curated",
+    "org_id": "international_rescue_committee_dallas",
+    "org_name": "International Rescue Committee",
+    "source_url": "https://www.rescue.org/volunteer-opportunities/dallas-tx",
+    "status": "active",
+    "last_scraped": "2026-08-04T04:13:21.278505+00:00",
+    "opportunity_title": "Employer Engagement Volunteer",
+    "description_short": "Expand employment opportunities for refugees.",
+    "description_long": "This position will help expand employment opportunities for refugees.",
+    "schedule": {
+      "raw": "Ongoing",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "varies",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community",
+      "employment"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the IRC to get started."
+  },
+  {
+    "id": "international_rescue_committee_dallas_3",
+    "source": "curated",
+    "org_id": "international_rescue_committee_dallas",
+    "org_name": "International Rescue Committee",
+    "source_url": "https://www.rescue.org/volunteer-opportunities/dallas-tx",
+    "status": "active",
+    "last_scraped": "2026-08-04T04:13:21.278505+00:00",
+    "opportunity_title": "Family Mentor Volunteer",
+    "description_short": "Pair with a refugee family for 6 months to help them acclimate.",
+    "description_long": "Be paired with a newly arrived refugee family for 6 months and help them acclimate to the local community through tangible skill-building and visiting local DFW attractions.",
+    "schedule": {
+      "raw": "Ongoing",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "6 months",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the IRC to get started."
   },
   {
     "id": "irving_cares_2",
