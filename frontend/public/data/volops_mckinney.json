@@ -26,7 +26,15 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1232775",
@@ -55,7 +63,15 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1232776",
@@ -84,7 +100,15 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1232779",
@@ -114,7 +138,15 @@
       "food_security",
       "community",
       "animals"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1232780",
@@ -144,7 +176,15 @@
       "food_security",
       "community",
       "animals"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1275363",
@@ -177,6 +217,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -210,6 +258,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -243,6 +299,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -277,6 +341,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -311,6 +383,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -345,6 +425,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -385,6 +473,14 @@
       "ends_on": "2023-08-28",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-27T13:19:25.908801+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -427,7 +523,15 @@
       "arts",
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_279811",
@@ -466,6 +570,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Denton",
+      "state": "TX",
+      "lat": 33.21504,
+      "lng": -97.13304,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -499,6 +611,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -531,6 +651,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -559,7 +687,15 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-08-03T13:19:23.809330+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
+    }
   },
   {
     "id": "mckinney_915618",
@@ -594,6 +730,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -626,6 +770,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -666,6 +818,14 @@
       "ends_on": "2023-07-14",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -703,6 +863,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -740,6 +908,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.full"
     }
   },
   {
@@ -769,6 +945,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -804,6 +988,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -845,6 +1037,14 @@
       "ends_on": "2023-08-29",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-27T13:19:25.908801+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -885,6 +1085,14 @@
       "ends_on": "2023-08-29",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-27T13:19:25.908801+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -920,6 +1128,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Richardson",
+      "state": "TX",
+      "lat": 32.94818,
+      "lng": -96.72972,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -960,6 +1176,14 @@
       "ends_on": "2023-08-29",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-27T13:19:25.908801+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -997,6 +1221,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Denton",
+      "state": "TX",
+      "lat": 33.21504,
+      "lng": -97.13304,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1031,6 +1263,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1062,6 +1302,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -1092,6 +1340,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -1122,6 +1378,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -1157,6 +1421,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Denton",
+      "state": "TX",
+      "lat": 33.21504,
+      "lng": -97.13304,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1191,6 +1463,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1224,6 +1504,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -1257,6 +1545,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1288,6 +1584,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -1323,6 +1627,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -1354,6 +1666,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -1384,6 +1704,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -1418,6 +1746,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1451,6 +1787,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Denton",
+      "state": "TX",
+      "lat": 33.21504,
+      "lng": -97.13304,
+      "precision": "city",
+      "resolved_from": "address.full"
     }
   },
   {
@@ -1487,6 +1831,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1522,6 +1874,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1551,6 +1911,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -1587,6 +1955,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1621,6 +1997,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1651,6 +2035,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -1678,7 +2070,15 @@
     ],
     "last_scraped": "2026-07-03T00:03:00.211091+00:00",
     "status": "inactive",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": "The Colony",
+      "state": "TX",
+      "lat": 33.08901,
+      "lng": -96.88639,
+      "precision": "city",
+      "resolved_from": "address.full"
+    }
   },
   {
     "id": "mckinney_788092",
@@ -1708,6 +2108,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1746,6 +2154,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1778,6 +2194,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1811,6 +2235,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1845,6 +2277,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1879,6 +2319,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1915,6 +2363,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Denton",
+      "state": "TX",
+      "lat": 33.21504,
+      "lng": -97.13304,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1951,6 +2407,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1986,6 +2450,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2019,6 +2491,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2052,6 +2532,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2085,6 +2573,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-27T13:19:25.908801+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2119,6 +2615,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -2159,6 +2663,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2187,7 +2699,15 @@
     "status": "inactive",
     "unified_tags": [
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "Wylie",
+      "state": "TX",
+      "lat": 33.01516,
+      "lng": -96.5388,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_944899",
@@ -2220,6 +2740,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2254,6 +2782,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2289,6 +2825,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2318,6 +2862,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -2349,6 +2901,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -2382,6 +2942,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2415,6 +2983,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2447,6 +3023,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2478,6 +3062,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -2512,6 +3104,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2547,6 +3147,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2582,6 +3190,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2610,7 +3226,15 @@
     ],
     "last_scraped": "2026-05-24T19:33:03.265004+00:00",
     "status": "inactive",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1257227",
@@ -2636,7 +3260,15 @@
     ],
     "last_scraped": "2026-05-24T19:32:59.410814+00:00",
     "status": "inactive",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_903714",
@@ -2670,6 +3302,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -2701,6 +3341,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -2735,6 +3383,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2767,6 +3423,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Lucas",
+      "state": "TX",
+      "lat": 33.08429,
+      "lng": -96.57666,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2807,7 +3471,15 @@
       "children",
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "Prosper",
+      "state": "TX",
+      "lat": 33.23716,
+      "lng": -96.7977,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1254361",
@@ -2844,7 +3516,15 @@
       "food_security",
       "education",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1026198",
@@ -2879,6 +3559,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2912,6 +3600,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -2947,6 +3643,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Denton",
+      "state": "TX",
+      "lat": 33.21504,
+      "lng": -97.13304,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2979,6 +3683,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -3009,6 +3721,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -3039,6 +3759,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -3074,6 +3802,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3115,6 +3851,14 @@
       "ends_on": "2023-12-12",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-17T00:54:47.336452+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3148,6 +3892,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -3182,6 +3934,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3216,6 +3976,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -3249,6 +4017,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3278,7 +4054,15 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1264307",
@@ -3318,7 +4102,15 @@
       "arts",
       "foster_care",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1007593",
@@ -3352,6 +4144,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3388,6 +4188,14 @@
       "ends_on": "2026-09-10",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-27T13:19:25.908801+00:00"
+    },
+    "geo": {
+      "city": "Anna",
+      "state": "TX",
+      "lat": 33.34967,
+      "lng": -96.5547,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3421,6 +4229,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3457,6 +4273,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3490,6 +4314,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Frisco",
+      "state": "TX",
+      "lat": 33.1506,
+      "lng": -96.82382,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3521,6 +4353,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -3552,6 +4392,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -3582,6 +4430,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -3613,6 +4469,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -3644,6 +4508,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -3674,6 +4546,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -3705,6 +4585,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -3739,6 +4627,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3772,6 +4668,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3805,6 +4709,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3836,6 +4748,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -3868,6 +4788,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -3899,6 +4827,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -3932,6 +4868,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3966,6 +4910,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Frisco",
+      "state": "TX",
+      "lat": 33.1506,
+      "lng": -96.82382,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3997,6 +4949,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -4026,7 +4986,15 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1278818",
@@ -4067,6 +5035,14 @@
       "reason": "event date passed (2024-07-16)",
       "model": "expiry-rule",
       "checked_at": "2026-07-17T00:54:47.336452+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -4102,6 +5078,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Wylie",
+      "state": "TX",
+      "lat": 33.01516,
+      "lng": -96.5388,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -4135,6 +5119,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Frisco",
+      "state": "TX",
+      "lat": 33.1506,
+      "lng": -96.82382,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -4166,6 +5158,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Frisco",
+      "state": "TX",
+      "lat": 33.1506,
+      "lng": -96.82382,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -4197,6 +5197,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -4229,6 +5237,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -4263,6 +5279,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -4297,6 +5321,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -4325,6 +5357,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -4359,6 +5399,14 @@
       "ends_on": "2024-03-31",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-17T00:54:47.336452+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -4391,6 +5439,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -4426,6 +5482,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -4460,6 +5524,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -4492,6 +5564,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Frisco",
+      "state": "TX",
+      "lat": 33.1506,
+      "lng": -96.82382,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -4521,6 +5601,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -4555,6 +5643,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -4590,6 +5686,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -4624,6 +5728,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -4656,6 +5768,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -4688,6 +5808,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -4724,6 +5852,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -4754,6 +5890,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -4786,6 +5930,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -4824,6 +5976,14 @@
       "ends_on": "2024-09-11",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-17T00:54:47.336452+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -4859,7 +6019,15 @@
     "unified_tags": [
       "seniors",
       "education"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_861077",
@@ -4894,6 +6062,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -4926,6 +6102,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -4956,6 +6140,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -4991,7 +6183,15 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1132107",
@@ -5027,6 +6227,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -5065,6 +6273,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Denton",
+      "state": "TX",
+      "lat": 33.21504,
+      "lng": -97.13304,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -5098,6 +6314,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -5133,6 +6357,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -5170,7 +6402,15 @@
     "status": "inactive",
     "unified_tags": [
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_240763",
@@ -5203,6 +6443,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -5241,6 +6489,14 @@
       "ends_on": "2025-09-30",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-17T00:54:47.336452+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -5273,6 +6529,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Frisco",
+      "state": "TX",
+      "lat": 33.1506,
+      "lng": -96.82382,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -5306,6 +6570,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -5339,6 +6611,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -5369,6 +6649,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -5400,6 +6688,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -5434,6 +6730,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -5463,6 +6767,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -5494,6 +6806,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -5528,6 +6848,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -5563,6 +6891,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -5589,7 +6925,15 @@
     ],
     "last_scraped": "2026-07-06T13:04:34.919447+00:00",
     "status": "inactive",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1260621",
@@ -5623,6 +6967,14 @@
       "ends_on": "2026-08-30",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -5656,6 +7008,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -5690,7 +7050,15 @@
     "unified_tags": [
       "housing",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_930004",
@@ -5727,6 +7095,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -5761,6 +7137,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -5792,7 +7176,15 @@
     "unified_tags": [
       "children",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_277780",
@@ -5825,6 +7217,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -5856,6 +7256,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -5889,6 +7297,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Farmersville",
+      "state": "TX",
+      "lat": 33.16322,
+      "lng": -96.36035,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -5921,7 +7337,15 @@
       "arts",
       "community",
       "environment"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1289642",
@@ -5957,6 +7381,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-27T13:19:25.908801+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -5990,6 +7422,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -6028,7 +7468,15 @@
     "unified_tags": [
       "arts",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1263758",
@@ -6063,6 +7511,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -6097,6 +7553,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -6128,7 +7592,15 @@
     "unified_tags": [
       "arts",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1277064",
@@ -6155,7 +7627,15 @@
     "unified_tags": [
       "arts",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1266233",
@@ -6194,7 +7674,15 @@
     "unified_tags": [
       "arts",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1266804",
@@ -6227,6 +7715,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -6260,6 +7756,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -6291,6 +7795,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -6324,6 +7836,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -6358,6 +7878,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -6392,6 +7920,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Anna",
+      "state": "TX",
+      "lat": 33.34967,
+      "lng": -96.5547,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -6423,6 +7959,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -6454,6 +7998,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -6488,6 +8040,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -6524,6 +8084,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -6554,6 +8122,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -6588,6 +8164,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Melissa",
+      "state": "TX",
+      "lat": 33.28625,
+      "lng": -96.57224,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -6621,6 +8205,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -6661,6 +8253,14 @@
       "ends_on": "2023-08-07",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-27T13:19:25.908801+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -6698,6 +8298,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Melissa",
+      "state": "TX",
+      "lat": 33.28625,
+      "lng": -96.57224,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -6729,6 +8337,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -6766,7 +8382,15 @@
     "unified_tags": [
       "health",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_280629",
@@ -6798,6 +8422,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -6830,6 +8462,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -6862,6 +8502,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -6896,6 +8544,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -6930,6 +8586,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -6959,6 +8623,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -6989,6 +8661,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -7023,6 +8703,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -7058,6 +8746,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -7090,6 +8786,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -7128,6 +8832,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -7164,6 +8876,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -7197,6 +8917,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -7226,6 +8954,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -7257,6 +8993,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -7284,6 +9028,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -7311,6 +9063,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -7341,6 +9101,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -7376,6 +9144,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -7406,6 +9182,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -7441,6 +9225,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -7470,6 +9262,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -7505,6 +9305,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -7537,6 +9345,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -7571,6 +9387,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -7604,6 +9428,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -7640,6 +9472,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -7674,6 +9514,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -7702,6 +9550,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -7736,6 +9592,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -7772,6 +9636,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -7804,6 +9676,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -7839,6 +9719,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -7876,6 +9764,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Denton",
+      "state": "TX",
+      "lat": 33.21504,
+      "lng": -97.13304,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -7909,6 +9805,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-27T13:19:25.908801+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -7944,6 +9848,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -7971,6 +9883,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -8007,6 +9927,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8037,6 +9965,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -8073,6 +10009,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8108,6 +10052,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8144,6 +10096,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8173,7 +10133,15 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_919073",
@@ -8206,6 +10174,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8236,6 +10212,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -8266,6 +10250,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -8299,6 +10291,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Frisco",
+      "state": "TX",
+      "lat": 33.1506,
+      "lng": -96.82382,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8335,6 +10335,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8368,6 +10376,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8398,6 +10414,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -8433,6 +10457,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8467,6 +10499,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8501,6 +10541,14 @@
       "ends_on": "2026-07-18",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-17T00:54:47.336452+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8531,6 +10579,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -8564,6 +10620,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8599,6 +10663,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Denton",
+      "state": "TX",
+      "lat": 33.21504,
+      "lng": -97.13304,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8635,6 +10707,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8668,6 +10748,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -8703,6 +10791,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8737,6 +10833,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Denton",
+      "state": "TX",
+      "lat": 33.21504,
+      "lng": -97.13304,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8772,6 +10876,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.full"
     }
   },
   {
@@ -8800,6 +10912,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -8830,6 +10950,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -8863,6 +10991,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8896,6 +11032,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -8931,6 +11075,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -8966,6 +11118,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8997,6 +11157,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -9030,6 +11198,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9064,6 +11240,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9099,6 +11283,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Frisco",
+      "state": "TX",
+      "lat": 33.1506,
+      "lng": -96.82382,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9132,6 +11324,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9164,6 +11364,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.full"
     }
   },
   {
@@ -9200,6 +11408,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9234,6 +11450,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Farmersville",
+      "state": "TX",
+      "lat": 33.16322,
+      "lng": -96.36035,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9267,6 +11491,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9301,6 +11533,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9328,6 +11568,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -9362,6 +11610,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9393,6 +11649,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -9427,6 +11691,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Prosper",
+      "state": "TX",
+      "lat": 33.23716,
+      "lng": -96.7977,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9462,6 +11734,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9492,7 +11772,15 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
+    }
   },
   {
     "id": "mckinney_279846",
@@ -9529,6 +11817,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Denton",
+      "state": "TX",
+      "lat": 33.21504,
+      "lng": -97.13304,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9563,6 +11859,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9592,6 +11896,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Frisco",
+      "state": "TX",
+      "lat": 33.1506,
+      "lng": -96.82382,
+      "precision": "city",
+      "resolved_from": "address.full"
     }
   },
   {
@@ -9624,6 +11936,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9654,6 +11974,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-27T13:19:25.908801+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9681,6 +12009,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -9710,7 +12046,15 @@
     ],
     "last_scraped": "2026-05-24T19:35:59.360006+00:00",
     "status": "inactive",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_279851",
@@ -9746,6 +12090,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Denton",
+      "state": "TX",
+      "lat": 33.21504,
+      "lng": -97.13304,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9778,6 +12130,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9808,6 +12168,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Frisco",
+      "state": "TX",
+      "lat": 33.1506,
+      "lng": -96.82382,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9838,6 +12206,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9873,6 +12249,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Frisco",
+      "state": "TX",
+      "lat": 33.1506,
+      "lng": -96.82382,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9909,6 +12293,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Grapevine",
+      "state": "TX",
+      "lat": 32.93374,
+      "lng": -97.07888,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9939,6 +12331,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9969,6 +12369,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9999,6 +12407,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10029,6 +12445,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10059,6 +12483,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10093,6 +12525,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10126,6 +12566,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10156,6 +12604,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10186,6 +12642,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10216,6 +12680,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10246,6 +12718,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10276,6 +12756,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10306,6 +12794,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10337,6 +12833,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -10373,6 +12877,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10403,6 +12915,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -10432,6 +12952,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -10460,6 +12988,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -10491,6 +13027,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -10525,6 +13069,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10563,6 +13115,14 @@
       "ends_on": "2023-08-01",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-17T00:54:47.336452+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10594,6 +13154,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -10624,6 +13192,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -10660,6 +13236,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Melissa",
+      "state": "TX",
+      "lat": 33.28625,
+      "lng": -96.57224,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10690,6 +13274,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -10721,6 +13313,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -10753,6 +13353,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -10782,6 +13390,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -10809,6 +13425,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -10838,6 +13462,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -10869,6 +13501,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -10898,6 +13538,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -10929,6 +13577,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -10957,6 +13613,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -10991,6 +13655,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Farmersville",
+      "state": "TX",
+      "lat": 33.16322,
+      "lng": -96.36035,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11025,6 +13697,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11059,6 +13739,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11094,6 +13782,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Frisco",
+      "state": "TX",
+      "lat": 33.1506,
+      "lng": -96.82382,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11129,6 +13825,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Denton",
+      "state": "TX",
+      "lat": 33.21504,
+      "lng": -97.13304,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11164,6 +13868,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Denton",
+      "state": "TX",
+      "lat": 33.21504,
+      "lng": -97.13304,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11202,6 +13914,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Denton",
+      "state": "TX",
+      "lat": 33.21504,
+      "lng": -97.13304,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11238,6 +13958,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Frisco",
+      "state": "TX",
+      "lat": 33.1506,
+      "lng": -96.82382,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11272,6 +14000,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -11305,6 +14041,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -11337,6 +14081,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -11370,6 +14122,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -11398,6 +14158,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -11431,6 +14199,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11466,6 +14242,14 @@
       "ends_on": "2026-08-30",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11497,7 +14281,15 @@
     ],
     "last_scraped": "2026-05-24T19:33:19.187336+00:00",
     "status": "inactive",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_929827",
@@ -11530,6 +14322,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11561,6 +14361,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -11593,6 +14401,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -11623,6 +14439,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11663,6 +14487,14 @@
       "ends_on": "2023-12-21",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -11696,6 +14528,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11730,6 +14570,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11767,7 +14615,15 @@
       "education",
       "community",
       "arts"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1130594",
@@ -11799,6 +14655,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -11835,6 +14699,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -11871,6 +14743,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11901,6 +14781,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11944,6 +14832,14 @@
       "ends_on": "2018-03-25",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-17T00:54:47.336452+00:00"
+    },
+    "geo": {
+      "city": "Allen",
+      "state": "TX",
+      "lat": 33.10317,
+      "lng": -96.67055,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11975,7 +14871,15 @@
     "unified_tags": [
       "environment",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_279853",
@@ -12012,6 +14916,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Denton",
+      "state": "TX",
+      "lat": 33.21504,
+      "lng": -97.13304,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -12043,6 +14955,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -12075,6 +14995,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -12107,6 +15035,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -12137,6 +15073,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -12172,6 +15116,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -12204,6 +15156,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -12238,6 +15198,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -12272,6 +15240,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -12299,6 +15275,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -12330,6 +15314,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -12364,6 +15356,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -12402,7 +15402,15 @@
       "housing",
       "crisis_support",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1271087",
@@ -12434,6 +15442,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -12466,6 +15482,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -12499,6 +15523,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -12532,6 +15564,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -12565,6 +15605,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -12601,6 +15649,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -12633,6 +15689,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -12668,7 +15732,15 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1255383",
@@ -12707,7 +15779,15 @@
     "status": "inactive",
     "unified_tags": [
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "Wylie",
+      "state": "TX",
+      "lat": 33.01516,
+      "lng": -96.5388,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "mckinney_1122268",
@@ -12740,6 +15820,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -12773,6 +15861,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -12804,6 +15900,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -12840,6 +15944,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -12875,6 +15987,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -12908,6 +16028,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -12942,6 +16070,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -12975,6 +16111,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -13015,6 +16159,14 @@
       "ends_on": "2026-03-14",
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-17T00:54:47.336452+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -13049,6 +16201,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Frisco",
+      "state": "TX",
+      "lat": 33.1506,
+      "lng": -96.82382,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -13080,6 +16240,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -13110,6 +16278,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -13144,6 +16320,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Lucas",
+      "state": "TX",
+      "lat": 33.08429,
+      "lng": -96.57666,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -13178,6 +16362,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Lucas",
+      "state": "TX",
+      "lat": 33.08429,
+      "lng": -96.57666,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -13211,6 +16403,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -13243,6 +16443,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -13273,6 +16481,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -13308,6 +16524,14 @@
       "ends_on": null,
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   }
 ]

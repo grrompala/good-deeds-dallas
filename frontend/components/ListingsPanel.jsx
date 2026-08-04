@@ -13,9 +13,10 @@ import TagChip from './TagChip'
 import { getTags } from './sanitizeTag'
 import { CANONICAL_TAGS } from './tagMeta'
 import FilterDrawer, { FilterGroup, SitePill } from './FilterDrawer'
+import LocationPrompt from './LocationPrompt'
 import { cleanOrgName } from './cleanText'
 import { orgKey } from './orgs'
-import { cityName } from '../lib/city'
+import { cityName, geoCoords, haversineMiles, cityCentroids } from '../lib/city'
 
 // Sources that feed this panel — add new ones here and they'll appear as
 // filter pills automatically.
@@ -96,8 +97,13 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
   // Timing filter (single-select): 'all' | 'events' (one-time, dated) | 'ongoing'
   // (standing roles). Keyed on expiry.kind, the only cross-source timing signal.
   const [when, setWhen] = useState('all')
-  // Result order: 'recent' (most recently added) | 'upcoming' (soonest end date).
+  // Result order: 'recent' (most recently added) | 'upcoming' (soonest end date)
+  // | 'nearest' (distance from `origin`; only active once an origin is set).
   const [sort, setSort] = useState('recent')
+
+  // Distance origin: null | { lat, lng, label }. Set via the LocationPrompt
+  // (browser geolocation or a city pick) — never auto-requested.
+  const [origin, setOrigin] = useState(null)
 
   const activeFilterCount = sources.length + causes.length + cities.length + (when !== 'all' ? 1 : 0)
 
@@ -119,7 +125,7 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
   useEffect(() => {
     if (!filtersMounted.current) { filtersMounted.current = true; return }
     topRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-  }, [sources, causes, cities, when, sort])
+  }, [sources, causes, cities, when, sort, origin])
 
   // Source filter options + counts
   const sourceOptions = useMemo(() => {
@@ -172,6 +178,14 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
     return { all: listings.length, events, ongoing }
   }, [listings])
 
+  // Cities that have coordinates, for the "near which city?" picker. Built from
+  // the listings' own geo (see cityCentroids) so no gazetteer ships to the client.
+  const originCities = useMemo(() => {
+    return [...cityCentroids(listings).entries()]
+      .map(([name, v]) => ({ name, lat: v.lat, lng: v.lng, count: v.count }))
+      .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name))
+  }, [listings])
+
   const filtered = useMemo(() => {
     let rows = listings
     if (sources.length) rows = rows.filter(o => sources.includes(o.source))
@@ -179,14 +193,22 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
     if (cities.length)  rows = rows.filter(o => cities.includes(cityName(o)))
     if (when === 'events')  rows = rows.filter(isEvent)
     else if (when === 'ongoing') rows = rows.filter(o => o.expiry?.kind === 'ongoing')
-    // Order: 'upcoming' = soonest end date first (undated sink to the bottom);
-    // 'recent' = most recently added first.
+    // Order: 'nearest' = closest to origin first, un-located listings last (only
+    // when an origin is set, else falls through to 'recent'); 'upcoming' =
+    // soonest end date first; 'recent' = most recently added first.
+    if (sort === 'nearest' && origin) {
+      const dist = o => {
+        const c = geoCoords(o)
+        return c ? haversineMiles(origin, c) : Infinity
+      }
+      return [...rows].sort((a, b) => dist(a) - dist(b))
+    }
     return [...rows].sort((a, b) =>
       sort === 'upcoming'
         ? (a.expiry?.ends_on || '9999').localeCompare(b.expiry?.ends_on || '9999')
         : (b.last_scraped || '').localeCompare(a.last_scraped || '')
     )
-  }, [listings, sources, causes, cities, when, sort])
+  }, [listings, sources, causes, cities, when, sort, origin])
 
   // ── Infinite scroll (non-compact) ─────────────────────────────────────────
   // Reveal rows a page at a time; a sentinel near the bottom loads more as
@@ -197,7 +219,7 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
   const sentinelRef = useRef(null)
 
   // Reset the window whenever the result set changes (filters/sort).
-  useEffect(() => { setVisibleCount(initialVisible) }, [sources, causes, cities, when, sort, listings, initialVisible])
+  useEffect(() => { setVisibleCount(initialVisible) }, [sources, causes, cities, when, sort, origin, listings, initialVisible])
 
   useEffect(() => {
     if (compact) return
@@ -239,7 +261,7 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
             <div className="flex items-center gap-2">
               <span className="hidden sm:inline text-xs font-mono uppercase tracking-wider text-muted">Sort</span>
               <div className="inline-flex rounded-full border border-line bg-white p-0.5">
-                {[['recent', 'Recently added'], ['upcoming', 'Upcoming']].map(([id, label]) => (
+                {[['recent', 'Recently added'], ['upcoming', 'Upcoming'], ['nearest', 'Nearest']].map(([id, label]) => (
                   <button
                     key={id}
                     onClick={() => setSort(id)}
@@ -313,6 +335,18 @@ export default function ListingsPanel({ listings, compact = false, initialCauses
         </FilterDrawer>
       )}
 
+      {/* Soft location prompt: shown only when sorting by distance. Never
+          auto-requests geolocation — the user opts in (button or city pick). */}
+      {!compact && sort === 'nearest' && (
+        <div className="mb-3">
+          <LocationPrompt
+            cities={originCities}
+            origin={origin}
+            onSetOrigin={setOrigin}
+          />
+        </div>
+      )}
+
       {visible.length === 0 ? (
         <div className="bg-white border border-line rounded-2xl py-12 text-center">
           <p className="text-sm text-muted">No matches.</p>
@@ -362,9 +396,11 @@ export function ListingRow({ data, compact, onSelectOrg, onSelectListing }) {
     address, volunteers_needed, source_url, is_virtual, source,
   } = data
 
-  // Visible city label (was a hover-only pin). McKinney's city field is too
-  // noisy to trust, so it stays suppressed for that source.
-  const city      = source !== 'volunteermckinney' ? cityName(data) : null
+  // Visible city label. cityName() now reads the geocoder's clean, canonical
+  // geo.city first (see lib/city.js), so every source — McKinney included,
+  // whose raw city field used to be too noisy to show — gets a trustworthy
+  // location on the card, including when sorting by distance.
+  const city      = cityName(data)
   const dateLabel = scheduleDateLabel(data)
   // Only canonical taxonomy tags are UI-facing labels (raw scraped cause_tags
   // like "In-Kind"/"Skilled Labor" are not shown as chips).

@@ -37,7 +37,15 @@
       "housing",
       "community",
       "crisis_support"
-    ]
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "dallasdoinggood_boomerjacks-feed-the-city",
@@ -77,7 +85,15 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "Bedford",
+      "state": "TX",
+      "lat": 32.84402,
+      "lng": -97.14307,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "dallasdoinggood_brother-bills-helping-hand-food-pantry",
@@ -117,7 +133,15 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "dallasdoinggood_cedar-ridge-preserve-conservation-in-action-volunteer-work-day",
@@ -158,7 +182,15 @@
       "environment",
       "education",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "dallasdoinggood_feed-the-city-irving-tx-2-2",
@@ -197,7 +229,15 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "dallasdoinggood_food-distribution",
@@ -237,7 +277,15 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "Cedar Hill",
+      "state": "TX",
+      "lat": 32.58881,
+      "lng": -96.95537,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "dallasdoinggood_job-training-for-adults-with-special-needs",
@@ -278,6 +326,14 @@
       "disabilities",
       "education",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   }
 ]
