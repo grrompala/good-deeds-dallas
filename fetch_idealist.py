@@ -17,11 +17,19 @@ Output:
     frontend/public/data/volops_idealist.json
 """
 
+import html
 import json
 import time
 import requests
 from datetime import datetime, timezone
 from pathlib import Path
+
+
+def _unescape(v):
+    """Decode HTML entities in a text field. Idealist's Algolia payload stores
+    text HTML-escaped (e.g. '&amp;' for '&', '&#39;' for an apostrophe), which
+    otherwise renders literally on the site."""
+    return html.unescape(v) if isinstance(v, str) else v
 
 # ── Algolia credentials (public, embedded in Idealist's client JS) ───────────
 ALGOLIA_APP_ID  = "NSV3AUESS7"
@@ -83,18 +91,19 @@ def normalize(hit: dict) -> dict:
     the Algolia side vary; we check several common shapes defensively.
     """
     object_id = hit.get("objectID") or hit.get("id") or hit.get("slug")
-    title     = hit.get("name") or hit.get("title") or "Untitled"
-    desc      = hit.get("description") or hit.get("summary") or ""
+    title     = _unescape(hit.get("name") or hit.get("title") or "Untitled")
+    desc      = _unescape(hit.get("description") or hit.get("summary") or "")
 
     # Organization name (top-level string on Algolia)
     org_name = hit.get("orgName") or hit.get("organization")
     if isinstance(org_name, dict):
         org_name = org_name.get("name")
+    org_name = _unescape(org_name)
 
     # Location — top-level `city`/`state`/`stateStr` fields on Idealist hits
-    city  = hit.get("city")
-    state = hit.get("state") or hit.get("stateStr")
-    full_addr = hit.get("address")
+    city  = _unescape(hit.get("city"))
+    state = _unescape(hit.get("state") or hit.get("stateStr"))
+    full_addr = _unescape(hit.get("address"))
 
     # Cause tags — intentionally not pulled from Idealist. Their native tags
     # are noisy and inconsistent with our taxonomy. `classify_listings.py`
