@@ -1,13 +1,11 @@
 # Good Deeds Dallas
 
-A volunteer-opportunity index for Greater Dallas — built to answer one
-question: *what's a real place I could go help this week?*
+A searchable volunteer-opportunity directory for the Greater Dallas area.
 
 **[good-deeds-dallas.org](https://www.good-deeds-dallas.org)**
 
-It pulls from half a dozen live sources, cleans and de-duplicates them with
-an LLM quality-control pipeline, tags everything against one consistent
-cause taxonomy, and layers a natural-language Smart Search on top.
+We pull opportunities from half a dozen live sources, clean and de-duplicate them, label each against one consistent
+taxonomy, and layer a vector RAG "Smart Search" on top.
 
 ---
 
