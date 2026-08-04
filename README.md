@@ -1,509 +1,118 @@
 # Good Deeds Dallas
 
-A volunteer-opportunity index for Greater Dallas. Python scrapers pull from
-several local sources, an LLM step assigns unified categories, and a Next.js
-frontend serves the result. A **Smart Search** feature adds semantic
-(natural-language) search over the opportunities, backed by embeddings stored
-in Supabase (pgvector).
+A volunteer-opportunity index for Greater Dallas — built to answer one
+question: *what's a real place I could go help this week?*
 
-```
-┌──────────────┐   ┌──────────────────┐   ┌────────────────┐
-│ Python       │   │ JSON files       │   │ Next.js app    │
-│ scrapers     ├──►│ in public/data   ├──►│ (browse + UI)  │
-│ + classifier │   │                  │   │                │
-└──────────────┘   └─────────┬────────┘   └───────┬────────┘
-                             │                     │
-                   ┌─────────▼─────────┐   ┌───────▼────────┐
-                   │ build-rag-index   │   │ /api/chat      │
-                   │ embeds → Supabase ├──►│ retrieve + LLM │
-                   │ (pgvector)        │   │ → Smart Search │
-                   └───────────────────┘   └────────────────┘
-```
+**[good-deeds-dallas.org](https://www.good-deeds-dallas.org)**
 
-Browsing the site is read-only over the JSON files. **Smart Search** is the one
-server-backed feature: it needs the Next.js API routes (so the app is no longer
-a pure static export) plus a Supabase project holding the embeddings.
+It pulls from half a dozen live sources, cleans and de-duplicates them with
+an LLM quality-control pipeline, tags everything against one consistent
+cause taxonomy, and layers a natural-language **Smart Search** on top — so
+instead of checking five volunteer portals with five different search boxes,
+there's one place to look.
 
 ---
 
-## Quick start
+## How it works
 
-```powershell
-# 1. One-time Python setup (scrapers + classifier)
-cd C:\Users\grrom\volunteer_hub
-pip install -r requirements.txt
-echo "OPEN_AI_KEY=sk-..." > .env       # used by fetch_curated + classify_listings
+```mermaid
+flowchart LR
+    subgraph Sources["Volunteer sources"]
+        A["Galaxy Digital<br/>Garland · McKinney"]
+        B["Voly"]
+        C["Idealist"]
+        D["Curated org sites<br/>(LLM-extracted)"]
+        E["Local subreddits"]
+    end
 
-# 2. Scrape (each is independent; re-run whenever)
-python fetch_garland.py        # → frontend/public/data/volops_garland.json
-python fetch_mckinney.py       # → frontend/public/data/volops_mckinney.json
-python fetch_voly.py           # → frontend/public/data/volops_voly.json
-python fetch_idealist.py       # → frontend/public/data/volops_idealist.json
-python fetch_reddit.py         # → frontend/public/data/reddit_raw.json
+    subgraph Pipeline["Weekly automated pipeline"]
+        F["QC filter<br/>dedup · expiry · judge"]
+        G["Unified tagging<br/>(LLM taxonomy)"]
+        H["Embedding index<br/>(pgvector)"]
+    end
 
-# 3. Add unified category tags (idempotent — only touches new records)
-python classify_listings.py
+    subgraph Site["good-deeds-dallas.org"]
+        I["Browse & filter"]
+        J["Smart Search<br/>(grounded RAG)"]
+    end
 
-# 4. Serve the site
-cd frontend
-npm install                    # first time only
-npm run dev                    # http://localhost:3000
+    K["Discovery Agent<br/>LangGraph + human review"]
+
+    A --> F
+    B --> F
+    C --> F
+    D --> F
+    E --> I
+    F --> G
+    G --> I
+    G --> H
+    H --> J
+    K -. proposes new orgs .-> D
+
+    classDef site fill:#4f46e5,stroke:#4f46e5,color:#fff
+    class I,J site
 ```
 
-After the first pass, `.\refresh.ps1` re-runs steps 2–3 (plus QC and the
-Smart Search re-embed) in one command — see [Re-running](#re-running).
+**Aggregation.** Scrapers pull structured listings straight from Galaxy
+Digital sites (Garland, McKinney), Voly, and Idealist, plus an LLM-extraction
+pass over a curated list of nonprofit websites that don't publish a
+structured feed at all. A lightweight Reddit listener adds local chatter for
+context.
 
-That's enough to browse Opportunities / Organizations / Chatter. To also light up
-**Smart Search**, do the [Smart Search setup](#smart-search-rag) below.
+**Quality control.** Every LLM-extracted listing runs through a three-stage
+filter before it's shown: rule-based deduplication (platforms like Idealist
+re-post the same shift many times), automatic expiry (one-time events drop
+off after their date passes), and an LLM judge that screens out anything
+that isn't a real volunteer role — a 5K signup, a donation drive, a paid
+internship slipped in among the real listings. Sources that are already
+staffed volunteer platforms skip the judge; they don't need it.
 
----
+**Unified tagging.** Every source uses its own category labels, so an LLM
+pass assigns one consistent set of cause tags (seniors, food security,
+animals, environment, ...) — the thing that makes filtering actually work
+across sources instead of six incompatible taxonomies.
 
-## Repo layout
-
-```
-volunteer_hub/
-├── README.md                        ← this file
-├── requirements.txt                 ← Python deps for the scrapers/classifier/QC
-├── requirements-agent.txt           ← extra deps for the discovery agent + dashboard
-├── orgs.json                        ← curated nonprofit list — single source of truth (input to fetch_curated)
-├── orgs_rejected.json               ← reviewed-and-declined discovery candidates (never re-proposed)
-├── curated_scraped.json             ← {org_id: last_scraped} ledger so fetch_curated only scrapes new orgs
-├── .env                             ← Python API keys (gitignored)
-├── refresh.ps1                      ← one-command curated → scrape → QC → classify → re-embed
-├── .github/workflows/refresh.yml    ← same pipeline, on a weekly GitHub Actions schedule
-│
-├── fetch_garland.py                 ← Galaxy Digital scraper (volunteergarland.org)
-├── fetch_mckinney.py                ← Galaxy Digital scraper (volunteermckinney.galaxydigital.com)
-├── fetch_voly.py                    ← Voly scraper (dallas.voly.org)
-├── fetch_idealist.py                ← Idealist (Dallas slice via public Algolia search)
-├── fetch_curated.py                 ← LLM-extracts opportunities from org websites (orgs.json)
-├── fetch_reddit.py                  ← volunteer-related posts from local subreddits (search.rss)
-├── classify_listings.py             ← LLM step assigning unified category tags
-├── qc_filter.py                     ← dedup + LLM content QC (see QC filter section)
-│
-├── agent/                           ← Discovery Agent (see Discovery Agent section)
-│   ├── discovery/                   ←   LangGraph agent: graph, tools, prompts, llm, CLI
-│   └── dashboard/                   ←   interactive Streamlit console (app.py + session.py)
-│
-└── frontend/                        ← Next.js 15 / React 18 / Tailwind
-    ├── app/
-    │   ├── layout.js                ← fonts + page shell + site metadata + JSON-LD
-    │   ├── page.js                  ← main page; data load, Texas filter, section routing
-    │   ├── robots.js                ← /robots.txt (allows search + AI crawlers, points at sitemap)
-    │   ├── sitemap.js               ← /sitemap.xml (home + all /volunteer pages)
-    │   ├── volunteer/               ← pre-filtered app routes: /volunteer/[tag] opens
-    │   │                              the normal interactive experience with that cause
-    │   │                              selected; /volunteer/in/[city] opens it searched
-    │   │                              for that city. Listings are server-rendered into
-    │   │                              the HTML (for non-JS crawlers), then the client
-    │   │                              fetch takes over. Rebuilt statically each deploy.
-    │   └── api/chat/route.js        ← Smart Search endpoint (retrieve + LLM)
-    ├── components/
-    │   ├── Hero.jsx                 ← wordmark + tagline + global search bar
-    │   ├── TabBar.jsx               ← Opportunities / Organizations / Chatter / Smart Search nav
-    │   ├── SectionShell.jsx         ← shared panel header (title + count + expand)
-    │   ├── ListingsPanel.jsx        ← Opportunities section (+ exported ListingRow)
-    │   ├── OrganizationsPanel.jsx   ← Organizations section (DERIVED from listings)
-    │   ├── CommunityPanel.jsx       ← Chatter section (Reddit)
-    │   ├── AdvancedSearchPanel.jsx  ← Smart Search UI (chat answer + ranked results)
-    │   ├── SourcesBlurb.jsx         ← per-source descriptions (shown on home)
-    │   ├── OrgModal.jsx             ← all opportunities for one org
-    │   ├── ListingDetailModal.jsx   ← full opportunity description
-    │   ├── Modal.jsx                ← shared modal primitive
-    │   ├── orgs.js                  ← buildOrgs(): derive org records from listings
-    │   ├── SourceBox.jsx            ← colored source tile + sourceInfo()
-    │   └── sanitizeTag.js           ← getTags() helper + raw-tag sanitizer
-    ├── lib/rag/                     ← Smart Search (RAG) internals
-    │   ├── config.js                ← model + dimensions config (env-driven)
-    │   ├── openai.js                ← embed / embedBatch / chat (fetch wrappers)
-    │   ├── corpus.js                ← builds the embed corpus (TX-filtered listings + orgs)
-    │   ├── supabase.js              ← server-side Supabase client (secret key)
-    │   └── store.js                 ← retrieve() via match_opportunities RPC
-    ├── scripts/
-    │   └── build-rag-index.mjs      ← offline indexer: embed corpus → upsert to Supabase
-    ├── supabase/
-    │   └── schema.sql               ← opportunities table + hnsw index + match RPC
-    ├── public/data/                 ← scraper output, served at /data/*.json
-    ├── .env.local.example           ← env template (copy to .env.local)
-    ├── tailwind.config.js           ← palette, fonts, display sizes
-    ├── next.config.js               ← static export disabled (API routes need a server)
-    └── package.json
-```
-
----
-
-## Data sources
-
-Each scraper writes its own JSON file; the frontend loads and merges them.
-Records share a common shape (see [Record schema](#record-schema)) though
-populated fields vary by source.
-
-| Source | Script | Output | Notes |
-|--------|--------|--------|-------|
-| volunteergarland.org | `fetch_garland.py` | `volops_garland.json` | Galaxy Digital. Parses **only the opportunity description + location**, stripping page chrome (see below). |
-| volunteermckinney.galaxydigital | `fetch_mckinney.py` | `volops_mckinney.json` | Same platform/cleanup as Garland. |
-| dallas.voly.org | `fetch_voly.py` | `volops_voly.json` | Voly AJAX search + detail pages. |
-| Idealist (Dallas) | `fetch_idealist.py` | `volops_idealist.json` | Dallas-metro slice via Idealist's public Algolia search. |
-| Curated nonprofits | `fetch_curated.py` | `volops_curated.json` | LLM-extracts from org websites in `orgs.json`. The only source run through `qc_filter.py` — see [QC filter](#qc-filter) below. |
-| Local subreddits | `fetch_reddit.py` | `reddit_raw.json` | r/Dallas, r/Garland, r/plano, r/Richardson, r/DFW, r/askdallas, r/askdfw. Uses Reddit's public `search.rss` feed — the old `.json` endpoints are 403'd and self-serve OAuth app creation is gated behind manual approval, but `search.rss` still works for a plain descriptive User-Agent (just rate-limits hard; the script backs off on 429). Posts not re-seen in 90 days expire, so upstream deletions age out. |
-
-The frontend loads **garland + mckinney + voly + idealist + curated** as
-Opportunities and **reddit** as Chatter. Organizations are *derived* from the
-loaded opportunities (no separate curated source in the UI).
-
-### Galaxy Digital description/location cleanup
-
-Garland and McKinney detail pages wrap the real content in UI chrome (button
-labels, icon captions, schedule widgets). `fetch_garland.py` and
-`fetch_mckinney.py` share a set of cleaners (`clean_description`,
-`clean_location`) that keep only the opportunity body (anchored on the
-"Opportunity Description" heading) and a real street address — dropping calendar
-blocks that aren't addresses. If you re-scrape, output is clean automatically.
-
-### Texas filtering
-
-National sources (Idealist, Voly) occasionally surface out-of-metro listings.
-`frontend/app/page.js` filters them at load (`isTexasListing`): a listing is kept
-if its address shows a DFW/Texas signal, or if it has no parseable location;
-it's dropped only when it names a place with no Texas signal.
-
-### Re-running
-
-Scrapers are **incremental** — they load existing records and only re-fetch
-what changed. Delisted listings are marked `status: "inactive"`, not deleted.
-Recommended cadence: weekly. **After re-scraping, rebuild the Smart Search index**
-(see below) so embeddings reflect the new data. `refresh.ps1` (repo root) runs
-the whole scrape → QC → classify → re-embed sequence in one command — see
-[Common workflows](#common-workflows).
-
-**Automated weekly runs:** `.github/workflows/refresh.yml` runs `refresh.ps1`
-on GitHub's own schedule (Mondays) and commits whatever changed — no local
-machine needed. It runs on `ubuntu-latest` (which ships PowerShell Core, so
-`refresh.ps1` needs no porting) and requires three repo secrets: `OPENAI_API_KEY`,
-`SUPABASE_URL`, `SUPABASE_SECRET_KEY`. Trigger it manually anytime from the
-Actions tab (`workflow_dispatch`). Since it scrapes from GitHub's own runner
-IPs rather than yours, keep an eye on the first few runs — some sites are
-pickier about datacenter traffic than a home connection (see the Reddit
-`search.rss` note above).
-
----
-
-## The unified-tags pipeline
-
-Native category labels vary across sites, so `classify_listings.py` assigns
-**consistent filterable tags** from a fixed taxonomy. It walks every JSON file,
-finds records missing `unified_tags`, and asks an LLM to assign 1–4 tags:
-
-```python
-TAXONOMY = [
-    "seniors", "children", "food_security", "education", "animals",
-    "environment", "housing", "health", "legal", "arts", "community",
-    "crisis_support", "foster_care", "disabilities", "mental_health",
-    "immigration", "civic", "veterans",
-]
-```
-
-**Add a category:** edit `TAXONOMY`, then `python classify_listings.py --reclassify`.
-**Cost:** ~$0.05 for a full first pass on GPT-4o-mini; later runs only hit new
-records. The frontend reads `unified_tags` first via `getTags()`
-(`sanitizeTag.js`), falling back to a heuristic over raw `cause_tags`.
-
----
-
-## QC filter
-
-`qc_filter.py` runs three independent passes, always in this order, and stamps
-each record with a `qc: { status: "passed" | "rejected", category, reason }`
-block. The frontend and the Smart Search corpus both drop `qc.status ==
-"rejected"` records.
-
-**1. Dedup (rule-based, free, no API key).** Idealist in particular re-posts
-the same base opportunity once per shift instance — identical org/title/
-description, only the tags shuffled. Within a file, records are grouped by
-(org, title, description); a group with no distinguishing schedule (an actual
-date, or specific days/times) gets all but the most complete copy rejected as
-`category: "duplicate"`. Runs fresh every time (it's free) regardless of
-existing `qc` stamps.
-
-**2. Expiry check (LLM extraction once, free date compare every run).** Some
-sources leave one-time events listed long after the event date. Each record
-gets a one-time extraction of `expiry: { kind, ends_on }` — rule-based where
-the data is structured (Voly), LLM elsewhere — cached on the record and
-preserved across re-scrapes. Every run then rejects records whose explicit
-end date has passed (`category: "expired"`), compared against the Dallas-local
-date. Conservative on purpose: no explicit end date means never expired, so
-ongoing programs can't be killed by a stale start date.
-
-**3. Content judge (LLM, curated set only).** Garland/McKinney/Voly/Idealist
-come from platforms where every listing is already a real, staffed volunteer
-role, so they're **trusted as-is** for content and skip this pass (they run
-dedup + expiry via `--no-judge`). Curated pulls from arbitrary org websites
-via an LLM extraction step, which occasionally surfaces things that aren't
-real volunteer roles (a 5K someone runs in, a donation drive, a paid
-internship) — this pass judges those.
-
-The LLM passes are incremental (only records without a stamp; `--recheck`
-redoes everything) and correctable: put `{"<id>": "keep" | "reject"}` entries
-in `qc_overrides.json` to override the model, then re-run — overrides always
-win. Rejections are logged per-file for a quick skim (`qc_rejected.json` for
-curated, `qc_rejected_<name>.json` for anything else, so running this against
-a second file can't clobber another file's log).
-
-```powershell
-python qc_filter.py                                            # dedup + expiry + judge (curated)
-python qc_filter.py --recheck                                  # re-judge everything (curated)
-python qc_filter.py --file frontend/public/data/volops_idealist.json --no-judge
-python qc_filter.py --file frontend/public/data/volops_idealist.json --dedupe-only  # no API key needed
-```
+**Smart Search.** A retrieval-augmented search layer: opportunities are
+embedded into Postgres (pgvector, via Supabase), a query gets embedded and
+matched by similarity, and an LLM writes a grounded answer from only the
+retrieved listings — it's not allowed to invent an opportunity that isn't
+actually there.
 
 ---
 
 ## Discovery Agent
 
-The curated org list (`orgs.json`) is grown by a **discovery agent** — a
-[LangGraph](https://langchain-ai.github.io/langgraph/) agent (`agent/discovery/`)
-that hunts for DFW nonprofits we don't cover yet, investigates their websites,
-and proposes new `orgs.json` entries for human review. It automates the
-*research*, not the *judgment* — a human always approves before anything ships.
-
-Pipeline (the same node logic runs headless or from the dashboard, so they can't drift):
+Growing the curated nonprofit list is itself an agent's job. A
+[LangGraph](https://langchain-ai.github.io/langgraph/) pipeline searches for
+DFW nonprofits the index doesn't cover yet, investigates their websites, and
+proposes new entries:
 
 ```
 build queries → search (Tavily) → triage → investigate → select → propose
 ```
 
-- **search** — cause × city queries (e.g. `"food pantry volunteer Plano, Texas"`) via Tavily.
-- **triage** — cheap, no-LLM elimination: drop aggregators (a blocklist), orgs
-  already covered (`orgs.json` / `orgs_rejected.json` / the scraped listings), and
-  domains already judged in a past run.
-- **investigate** — per surviving candidate: fetch the site *and* its top volunteer
-  pages, run a cheap mini-model local-org triage, then a strict full-model judgment
-  (reusing `qc_filter.py`'s definition of a real opportunity) with quoted evidence.
-- **select / propose** — accepts above a confidence threshold become schema-shaped
-  `orgs.json` entries.
-
-**Memory.** Long-term: `orgs_rejected.json` (reviewed-and-declined candidates,
-never re-proposed) and the agent's per-domain verdict ledger
-(`agent/seen_domains.json`) — both consulted by triage. Short-term: a LangGraph
-SQLite checkpointer for within-run resume. Models are behind `agent/discovery/llm.py`
-(OpenAI today; `DISCOVERY_PROVIDER=anthropic` swaps the whole agent to Claude).
-
-### Interactive dashboard (the way to run it)
-
-```powershell
-pip install -r requirements.txt -r requirements-agent.txt
-streamlit run agent/dashboard/Discover_orgs.py   # needs TAVILY_API_KEY + OPENAI_API_KEY in .env
-```
-
-A human-in-the-loop console (`agent/dashboard/`): build a query from cause/city
-presets or freeform text, then step through **search → triage → investigate →
-review**, overriding triage keep/drop and editing the proposed entries in a grid
-before opening a PR (or writing to `orgs.json` locally). Because the review
-happens in the dashboard, the GitHub side is trivial. (A headless CLI,
-`python -m agent.discovery --dry-run`, exists for development; the earlier
-scheduled GitHub Action was retired in favor of this dashboard.)
-
-**Running it from your phone:** the same dashboard is deployable to [Streamlit
-Community Cloud](https://share.streamlit.io) (free) — point it at this repo,
-main file `agent/dashboard/Discover_orgs.py` (which auto-installs from
-`agent/dashboard/requirements.txt`, the deployment-only merge of the two
-requirements files above). It needs four values in that app's Secrets:
-`OPENAI_API_KEY`, `TAVILY_API_KEY`, `DASHBOARD_PASSWORD` (the dashboard's own
-login gate — see `agent/dashboard/auth.py`), and `GH_PUSH_TOKEN` (a
-fine-grained GitHub PAT scoped to just this repo, Contents + Pull requests
-read/write — used only to push the discovery branch; PR creation then falls
-back to a one-tap GitHub compare-URL link since `gh` isn't installed there).
-Local runs are unaffected either way — `GH_PUSH_TOKEN` unset means the normal
-SSH remote is used, exactly as today.
-
-### How a discovered org reaches the site
-
-Merge the PR (or write locally) → the org lands in `orgs.json` → the next weekly
-`refresh.ps1` run picks it up. `fetch_curated.py` is **incremental** via
-`curated_scraped.json` (a `{org_id: last_scraped}` ledger): only orgs not yet
-scraped are extracted (`--force` re-does all, `--org <id>` targets one), and every
-processed org is stamped so zero-yield pages aren't retried each week. From there
-it's the normal QC → classify → embed path — no manual steps.
+It automates the *research*, not the *judgment* — every proposal goes
+through a human-reviewed dashboard (runnable from a phone) before anything
+merges. The LLM layer underneath is provider-agnostic: the same agent runs
+on OpenAI or Claude behind one config flag.
 
 ---
 
-## Smart Search (RAG)
+## Under the hood
 
-Natural-language search over opportunities. Pipeline:
+- **Frontend** — Next.js 15, React 18, Tailwind
+- **Data pipeline** — Python scrapers + LLM classification/QC, run weekly and
+  unattended via GitHub Actions
+- **Agent** — LangGraph, Tavily search, a Streamlit human-review dashboard
+- **Search** — OpenAI embeddings, Supabase/pgvector, grounded LLM answers
+- **Guardrails** — durable per-IP and sitewide rate limiting on Smart Search,
+  hashed IPs, no raw address storage
 
-```
-corpus.js (TX listings + derived orgs)
-   → build-rag-index.mjs: embed each (text-embedding-3-small @ 256 dims)
-   → Supabase: opportunities table (pgvector)
-   → /api/chat: embed query → match_opportunities() top-k → LLM grounded answer
-   → AdvancedSearchPanel: chat answer + ranked opportunity cards
-```
-
-Retrieval order **is** the ranking (cosine similarity, computed in Postgres via
-an HNSW index). The LLM only writes the prose answer; it doesn't pick the cards.
-Smart Search currently surfaces **opportunities only** (orgs are embedded but not
-shown).
-
-### Setup
-
-```powershell
-cd frontend
-npm install @supabase/supabase-js          # one-time
-```
-
-1. **Supabase project** → SQL Editor → paste & run `frontend/supabase/schema.sql`
-   (enable Row Level Security when prompted; the server uses the secret key, which
-   bypasses RLS — leave the table with no policies so the public key is locked out).
-2. **`frontend/.env.local`** (copy from `.env.local.example`, never commit real keys):
-   ```
-   OPENAI_API_KEY=sk-...
-   SUPABASE_URL=https://<project-ref>.supabase.co
-   SUPABASE_SECRET_KEY=sb_secret_...        # the SECRET key, not publishable
-   RAG_EMBED_MODEL=text-embedding-3-small
-   RAG_CHAT_MODEL=gpt-4o-mini
-   RAG_EMBED_DIMS=256                        # must match vector(N) in schema.sql
-   RAG_TOP_K=8
-   ```
-3. **Build the index** (embeds ~2k entries, ~1¢, upserts to Supabase):
-   ```powershell
-   node scripts/build-rag-index.mjs
-   ```
-4. `npm run dev`, open the **Smart Search** tab.
-
-### Swapping models
-
-- **Chat model:** change `RAG_CHAT_MODEL` and restart. **No re-index needed.**
-- **Embedding model or dimensions:** change `RAG_EMBED_MODEL` / `RAG_EMBED_DIMS`,
-  update `vector(N)` in `schema.sql` to match, re-run the schema, then re-run
-  `build-rag-index.mjs` (query and document vectors must come from the same model
-  + dimensions).
-
-### Guardrails
-
-`app/api/chat/route.js` enforces a 300-char query cap plus durable rate
-limiting backed by Supabase (`check_search_quota` in `supabase/schema.sql`):
-a rolling 24-hour window with a per-IP limit (`SEARCH_IP_LIMIT`, default 5)
-and a sitewide limit (`SEARCH_GLOBAL_LIMIT`, default 50) — both env-tunable.
-The check-and-count happens atomically in one Postgres function shared by all
-serverless instances, so it's a real quota, not the old per-instance speed
-bump. IPs are SHA-256-hashed before storage. Note IP-based limiting is still
-inherently fuzzy: users behind one NAT share a bucket, and VPN-hoppers can get
-fresh ones — the global cap is the true cost ceiling.
-
-### Cost / scale notes
-
-text-embedding-3-small at 256 dims keeps the index tiny and recall is plenty at
-this scale (~2k vectors). Supabase's free tier (pgvector included) covers this
-comfortably; free projects pause after ~1 week idle and wake on the next query.
+The whole thing runs unattended between deploys — the pipeline scrapes,
+quality-checks, re-tags, and re-embeds new listings on its own schedule, with
+no manual step required to keep the data current.
 
 ---
 
-## Record schema
-
-```jsonc
-{
-  "id":                "voly_116506",
-  "source":            "voly_dallas",            // volunteergarland / volunteermckinney / idealist / ...
-  "source_url":        "https://...",
-  "org_name":          "SoupMobile, Inc.",
-  "org_url":           "https://...",
-  "opportunity_title": "Feed the Homeless",
-  "description_short": "Feeding the homeless in Dallas, Texas.",
-  "description_long":  "...",
-  "cause_tags":        ["Food/Hunger"],          // raw, source-specific
-  "unified_tags":      ["food_security"],        // LLM-assigned (after classify_listings.py)
-  "is_virtual":        false,
-  "schedule":          { "date": "May 24, 2026", "duration": "2.5 Hours", "raw": "..." },
-  "volunteers_needed": 600,
-  "address":           { "full": "...", "city": "Dallas", "state": "TX", "zip": "75201" },
-  "contact":           { "email": "...", "phone": "...", "info": null },
-  "status":            "active",                 // or "inactive" if delisted upstream
-  "last_scraped":      "2026-05-24T13:36:01+00:00"
-}
-```
-
-Reddit posts (`reddit_raw.json`) have a different shape — see `fetch_reddit.py`.
-They're keyword-scored; the frontend keeps posts with `relevance.total >= 2`.
-
----
-
-## Frontend overview
-
-Single-page Next.js app. Four tabs:
-
-| Tab | Source |
-|-----|--------|
-| **Opportunities** | Garland + McKinney + Voly + Idealist + Curated (concrete volunteer slots) |
-| **Organizations** | Derived from the loaded opportunities (`buildOrgs` in `orgs.js`) |
-| **Chatter** | Reddit posts |
-| **Smart Search** | Semantic search (see above) |
-
-### Behavior
-
-- **Default state:** empty home with hero, search bar, suggestion chips, source
-  descriptions, and a Smart Search callout.
-- **Type in the search bar:** Opportunities / Organizations / Chatter appear
-  stacked, filtered by the query; tabs become smooth-scroll anchors.
-- **Click a tab without searching:** focuses that section full-width.
-- **Smart Search** is its own mode (independent of the keyword search).
-- **Home button** or the **Good Deeds Dallas** wordmark returns to the empty state.
-
-The Opportunities panel filters by **Source** and **Cause** (multi-select);
-ordering is fixed to most-recently-added (the old sort dropdown was removed).
-Org names and "Read more" open modals (`OrgModal` / `ListingDetailModal`)
-without leaving the site.
-
-### Styling
-
-Editable in `tailwind.config.js`: `colors.brand` (indigo accent), `colors.accent`
-(orange highlight), `colors.canvas` / `surface`. Source colors live in
-`SourceBox.jsx`. City names parse unreliably, so the city shows only as a
-hover map pin (`CityBadge.jsx`).
-
----
-
-## Deploying
-
-The app is **not** a pure static export anymore — `output: 'export'` is disabled
-in `next.config.js` because Smart Search needs the `/api/chat` route to run on a
-server. Deploy on Vercel (Next.js runs API routes as serverless functions
-natively). Set the same env vars (`OPENAI_API_KEY`, `SUPABASE_URL`,
-`SUPABASE_SECRET_KEY`, `RAG_*`) in the Vercel project settings. The Smart Search
-index lives in Supabase, so no large file ships with the build.
-
----
-
-## Common workflows
-
-### "I want fresh data"
-```powershell
-.\refresh.ps1
-```
-Runs `fetch_curated.py` + the portal scrapers → `qc_filter.py` (curated only) →
-`classify_listings.py` → `build-rag-index.mjs`, in order — each step only touches
-new/changed records. Pass `-SkipEmbed` to skip the Supabase rebuild. Under the hood:
-```powershell
-python fetch_curated.py                          # curated orgs (incremental via curated_scraped.json)
-python fetch_garland.py; python fetch_mckinney.py; python fetch_voly.py
-python fetch_idealist.py; python fetch_reddit.py
-python qc_filter.py
-python classify_listings.py
-cd frontend; node scripts/build-rag-index.mjs   # refresh Smart Search embeddings
-```
-
-### "I want to add a new scraper source"
-1. Create `fetch_<name>.py`; write to `frontend/public/data/volops_<name>.json`
-   with a unique `source` value.
-2. Add the path to `LISTING_FILES` in `classify_listings.py` **and** in
-   `frontend/lib/rag/corpus.js` (so Smart Search indexes it).
-3. In `frontend/app/page.js`, add a `fetch('/data/volops_<name>.json')` to the
-   `Promise.all` and include it in the `setOpportunities` merge.
-4. Add a source color/label in `frontend/components/SourceBox.jsx`.
-
-### "I want to add a cause-tag category"
-Edit `TAXONOMY` in `classify_listings.py`, then
-`python classify_listings.py --reclassify`. Filter pills update automatically.
-
-### "I want to test a different chat LLM"
-Change `RAG_CHAT_MODEL` in `frontend/.env.local`, restart `npm run dev`. No
-re-index needed.
+*This repo is built around one curated Dallas-area dataset, not set up for
+general self-hosting — it's here to be read, not installed.*
