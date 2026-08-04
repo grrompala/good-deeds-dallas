@@ -9,6 +9,38 @@ import fs from 'node:fs'
 import path from 'node:path'
 import { cityName } from '../city.js'
 
+// ── Structured signal extractors ─────────────────────────────────────────────
+// These pull the fields that Smart Search now filters on (city, causes, virtual,
+// date) out of the messy per-source shapes, so both the embedded text AND the
+// SQL columns are populated from one place.
+
+// A listing is virtual if either the top-level flag or the curated location
+// sub-object says so.
+export function listingIsVirtual(o) {
+  if (o?.is_virtual === true) return true
+  const loc = o?.location
+  return !!(loc && typeof loc === 'object' && loc.virtual === true)
+}
+
+// The date a one-time event actually happens ('YYYY-MM-DD'), or null. We only
+// trust expiry.ends_on for a genuine one_time occurrence — the same signal the
+// frontend card trusts. Recurring/ongoing roles have no fixed date (they're
+// available anytime), so they return null and read as "not date-bound".
+export function listingEventDate(o) {
+  const e = o?.expiry || {}
+  if (e.kind === 'one_time' && /^\d{4}-\d{2}-\d{2}$/.test(e.ends_on || '')) {
+    return e.ends_on
+  }
+  return null
+}
+
+// The unified taxonomy tags (falls back to raw cause_tags only for the chunk
+// text; the causes[] column stores unified tags only, since that's what the
+// query parser emits).
+function listingCauses(o) {
+  return Array.isArray(o?.unified_tags) ? o.unified_tags : []
+}
+
 const LISTING_FILES = [
   'public/data/volops_garland.json',
   'public/data/volops_mckinney.json',
@@ -41,13 +73,28 @@ function readJson(file) {
 }
 
 // ── Chunk builders: the text we actually embed for each entry ────────────────
+// A human-readable "when" line so the timing is present in both the embedding
+// and the answer context (a dated event shows its date; anything not
+// date-bound reads as "Available: ongoing").
+function whenLine(o) {
+  const d = listingEventDate(o)
+  if (d) return `When: ${d} (one-time event)`
+  if (o?.expiry?.kind === 'ongoing') return 'Availability: ongoing'
+  return null
+}
+
 export function chunkListing(o) {
   const tags = (o.unified_tags?.length ? o.unified_tags : o.cause_tags) || []
+  // Prefer the geocoder's clean city (cityName reads geo.city first) over the
+  // raw, often-missing address.city.
+  const city = cityName(o)
   return [
     o.opportunity_title,
     o.org_name && `Organization: ${o.org_name}`,
-    o.address?.city && `Location: ${o.address.city}`,
+    city && `Location: ${city}`,
+    listingIsVirtual(o) && 'Format: virtual / remote',
     tags.length && `Causes: ${tags.join(', ')}`,
+    whenLine(o),
     o.description_long || o.description_short,
   ]
     .filter(Boolean)
@@ -91,7 +138,31 @@ export function deriveOrgs(listings) {
   }))
 }
 
-// Load every source, filter, and return [{ type, item, text }] ready to embed.
+// The structured columns Smart Search filters on, extracted per entry. Kept
+// alongside the embedded text so retrieval can use meaning AND facts. A null
+// event_date means "not date-bound" (ongoing/undated) — those always satisfy a
+// date-window filter; a real date is matched against the window and dropped
+// when it's already past.
+export function listingMeta(o) {
+  return {
+    city: cityName(o) || null,
+    causes: listingCauses(o),
+    is_virtual: listingIsVirtual(o),
+    event_date: listingEventDate(o),        // 'YYYY-MM-DD' | null
+  }
+}
+
+function orgMeta(org) {
+  return {
+    city: org.cities?.[0] || null,
+    causes: org.causes || [],
+    is_virtual: false,
+    event_date: null,
+  }
+}
+
+// Load every source, filter, and return [{ type, item, text, meta }] ready to
+// embed + upsert. `meta` holds the structured columns (see listingMeta).
 export function buildCorpusEntries() {
   const listings = LISTING_FILES.flatMap(f => {
     try {
@@ -103,10 +174,10 @@ export function buildCorpusEntries() {
 
   const entries = []
   for (const o of listings) {
-    entries.push({ type: 'listing', item: o, text: chunkListing(o) })
+    entries.push({ type: 'listing', item: o, text: chunkListing(o), meta: listingMeta(o) })
   }
   for (const org of deriveOrgs(listings)) {
-    entries.push({ type: 'organization', item: org, text: chunkOrg(org) })
+    entries.push({ type: 'organization', item: org, text: chunkOrg(org), meta: orgMeta(org) })
   }
   return entries
 }

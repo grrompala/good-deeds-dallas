@@ -46,6 +46,101 @@ as $$
   limit match_count;
 $$;
 
+-- ── Structured filtering + hybrid (vector + full-text) search ────────────────
+-- Smart Search v2. The query parser (lib/rag/parseQuery.js) turns a natural
+-- question into structured filters (city, causes, virtual, a date window); we
+-- apply those as SQL WHERE clauses so "food pantry in Plano in July" actually
+-- filters instead of hoping the embedding captured "Plano"/"July". Retrieval
+-- then fuses semantic (vector) and lexical (full-text) rankings via Reciprocal
+-- Rank Fusion, so exact tokens (org names, "ESL", ZIPs) aren't washed out by a
+-- 256-dim embedding.
+--
+-- Populated by scripts/build-rag-index.mjs from corpus.js listingMeta(). Run
+-- these ALTERs (they're idempotent) then re-run the indexer.
+
+alter table opportunities add column if not exists city        text;
+alter table opportunities add column if not exists causes      text[];
+alter table opportunities add column if not exists is_virtual  boolean;
+alter table opportunities add column if not exists event_date  date;   -- one-time event date; null = not date-bound
+-- Generated full-text vector over the (already structured) embedded content.
+alter table opportunities add column if not exists content_tsv tsvector
+  generated always as (to_tsvector('english', coalesce(content, ''))) stored;
+
+create index if not exists opportunities_tsv_idx        on opportunities using gin (content_tsv);
+create index if not exists opportunities_causes_idx     on opportunities using gin (causes);
+create index if not exists opportunities_city_idx       on opportunities (lower(city));
+create index if not exists opportunities_event_date_idx on opportunities (event_date);
+
+-- Hybrid retrieval with metadata filtering, in one round trip.
+--   • base   — rows surviving the structured filters
+--   • vec    — base ranked by cosine similarity (semantic)
+--   • fts    — base ranked by full-text relevance (lexical)
+--   • fused  — RRF: score = Σ 1/(rrf_k + rank) across the two lists
+-- Filter semantics: a NULL filter is "no constraint". Rows that aren't
+-- date-bound (event_date is null) always satisfy a date window; a dated row
+-- must fall inside it, and a past one-time event is never returned.
+create or replace function hybrid_search(
+  query_embedding vector(256),
+  query_text      text,
+  filter_type     text    default 'listing',
+  filter_city     text    default null,
+  filter_causes   text[]  default null,
+  filter_virtual  boolean default null,
+  date_start      date    default null,
+  date_end        date    default null,
+  today           date    default null,
+  match_count     int     default 16,
+  pool            int     default 120,
+  rrf_k           int     default 60
+)
+returns table (id text, type text, item jsonb, content text, score float)
+language sql stable
+as $$
+  with base as (
+    select o.id, o.type, o.item, o.content, o.embedding, o.content_tsv
+    from opportunities o
+    where (filter_type    is null or o.type = filter_type)
+      and (filter_city    is null or lower(o.city) = lower(filter_city))
+      and (filter_causes  is null or o.causes && filter_causes)
+      and (filter_virtual is null or o.is_virtual = filter_virtual)
+      and (
+        (date_start is null and date_end is null)
+        or o.event_date is null
+        or (o.event_date >= coalesce(date_start, o.event_date)
+            and o.event_date <= coalesce(date_end, o.event_date))
+      )
+      and (today is null or o.event_date is null or o.event_date >= today)
+  ),
+  vec as (
+    select id, row_number() over (order by embedding <=> query_embedding) as rank
+    from base
+    order by embedding <=> query_embedding
+    limit pool
+  ),
+  fts as (
+    select id, row_number() over (
+             order by ts_rank(content_tsv, websearch_to_tsquery('english', query_text)) desc
+           ) as rank
+    from base
+    where query_text is not null and query_text <> ''
+      and content_tsv @@ websearch_to_tsquery('english', query_text)
+    order by ts_rank(content_tsv, websearch_to_tsquery('english', query_text)) desc
+    limit pool
+  ),
+  fused as (
+    select coalesce(vec.id, fts.id) as id,
+           coalesce(1.0 / (rrf_k + vec.rank), 0.0)
+             + coalesce(1.0 / (rrf_k + fts.rank), 0.0) as score
+    from vec
+    full outer join fts on vec.id = fts.id
+  )
+  select b.id, b.type, b.item, b.content, f.score
+  from fused f
+  join base b on b.id = f.id
+  order by f.score desc
+  limit match_count;
+$$;
+
 -- ── Smart Search rate limiting ───────────────────────────────────────────────
 -- Durable quota store shared across all serverless instances (the in-memory
 -- counter in route.js only limited within one warm instance). One row per

@@ -67,6 +67,12 @@ async function main() {
       item: e.item,
       content: e.text,
       embedding: vectors[j],
+      // Structured columns for filtered/hybrid retrieval (see corpus.listingMeta).
+      city: e.meta?.city ?? null,
+      causes: e.meta?.causes ?? [],
+      is_virtual: e.meta?.is_virtual ?? false,
+      event_date: e.meta?.event_date ?? null,
+      // content_tsv is a generated column — never sent on upsert.
     }))
     const { error } = await client.from('opportunities').upsert(rows)
     if (error) throw new Error(`Upsert failed at batch ${i}: ${error.message}`)
