@@ -41,6 +41,7 @@ agent/checkpoints.sqlite-*
 agent/reports/
 
 # ── Local scratch / temp ─────────────────────────────────────────────────────
+.scratch/
 *.tmp
 *.bak
 # ad-hoc page dumps and reports at repo root (gitignore has no inline comments)

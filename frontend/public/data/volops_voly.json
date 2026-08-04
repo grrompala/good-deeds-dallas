@@ -48,6 +48,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -100,6 +108,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-27T13:19:33.219954+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -145,6 +161,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -187,7 +211,15 @@
     "dress_code": "Black Pants Black Shirt Black Shoes",
     "status": "inactive",
     "last_scraped": "2026-07-03T22:28:45.371853+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_116094",
@@ -230,7 +262,15 @@
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_118372",
@@ -280,6 +320,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -333,6 +381,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Arlington",
+      "state": "TX",
+      "lat": 32.73558,
+      "lng": -97.10712,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -380,6 +436,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -439,6 +503,14 @@
       "reason": "event date passed (2026-08-01)",
       "model": "expiry-rule",
       "checked_at": "2026-08-02T08:35:37.489251+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -486,6 +558,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -538,6 +618,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Arlington",
+      "state": "TX",
+      "lat": 32.73558,
+      "lng": -97.10712,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -590,6 +678,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Arlington",
+      "state": "TX",
+      "lat": 32.73558,
+      "lng": -97.10712,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -641,6 +737,14 @@
       "ends_on": "2026-07-18",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -689,7 +793,15 @@
       "model": "rule",
       "checked_at": "2026-08-03T13:19:27.775498+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "voly_116509",
@@ -729,7 +841,15 @@
     "dress_code": null,
     "status": "inactive",
     "last_scraped": "2026-05-24T14:13:18.650660+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
+    }
   },
   {
     "id": "voly_118577",
@@ -776,6 +896,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -823,6 +951,14 @@
       "ends_on": "2026-07-18",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -871,6 +1007,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -929,6 +1073,14 @@
       "reason": "event date passed (2026-08-01)",
       "model": "expiry-rule",
       "checked_at": "2026-08-02T08:35:37.489251+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -982,6 +1134,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-27T13:19:33.219954+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -1034,6 +1194,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Fort Worth",
+      "state": "TX",
+      "lat": 32.75318,
+      "lng": -97.33275,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1081,6 +1249,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -1129,6 +1305,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Fort Worth",
+      "state": "TX",
+      "lat": 32.75318,
+      "lng": -97.33275,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -1180,6 +1364,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -1231,6 +1423,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Balch Springs",
+      "state": "TX",
+      "lat": 32.72874,
+      "lng": -96.62277,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1282,6 +1482,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Balch Springs",
+      "state": "TX",
+      "lat": 32.72874,
+      "lng": -96.62277,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1333,6 +1541,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -1384,6 +1600,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -1432,6 +1656,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -1477,7 +1709,15 @@
       "children",
       "community",
       "education"
-    ]
+    ],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_118207",
@@ -1523,7 +1763,15 @@
       "education",
       "legal",
       "housing"
-    ]
+    ],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_118717",
@@ -1573,6 +1821,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Parker",
+      "state": "TX",
+      "lat": 33.05557,
+      "lng": -96.62207,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1621,6 +1877,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -1668,6 +1932,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Cedar Hill",
+      "state": "TX",
+      "lat": 32.58881,
+      "lng": -96.95537,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -1720,6 +1992,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -1772,6 +2052,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -1824,6 +2112,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -1871,7 +2167,15 @@
       "model": "rule",
       "checked_at": "2026-08-03T13:19:27.775498+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_111322",
@@ -1924,6 +2228,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Arlington",
+      "state": "TX",
+      "lat": 32.73558,
+      "lng": -97.10712,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -1964,7 +2276,15 @@
     "dress_code": null,
     "status": "inactive",
     "last_scraped": "2026-05-24T14:14:39.489185+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_117848",
@@ -2009,7 +2329,15 @@
       "mental_health",
       "community",
       "crisis_support"
-    ]
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "voly_115248",
@@ -2049,7 +2377,15 @@
     "dress_code": null,
     "status": "inactive",
     "last_scraped": "2026-05-24T14:12:34.372786+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": "Cedar Hill",
+      "state": "TX",
+      "lat": 32.58881,
+      "lng": -96.95537,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "voly_118621",
@@ -2096,6 +2432,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -2146,6 +2490,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -2189,7 +2541,15 @@
     "unified_tags": [
       "health",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "Fort Worth",
+      "state": "TX",
+      "lat": 32.75318,
+      "lng": -97.33275,
+      "precision": "city",
+      "resolved_from": "org_name"
+    }
   },
   {
     "id": "voly_116849",
@@ -2237,7 +2597,15 @@
       "legal",
       "housing",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_115305",
@@ -2289,6 +2657,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -2341,6 +2717,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Fort Worth",
+      "state": "TX",
+      "lat": 32.75318,
+      "lng": -97.33275,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -2391,6 +2775,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-27T13:19:33.219954+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -2444,6 +2836,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Arlington",
+      "state": "TX",
+      "lat": 32.73558,
+      "lng": -97.10712,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -2497,6 +2897,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Arlington",
+      "state": "TX",
+      "lat": 32.73558,
+      "lng": -97.10712,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -2550,6 +2958,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Fort Worth",
+      "state": "TX",
+      "lat": 32.75318,
+      "lng": -97.33275,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -2600,6 +3016,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -2650,6 +3074,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -2701,6 +3133,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -2752,6 +3192,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -2799,6 +3247,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -2849,6 +3305,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Addison",
+      "state": "TX",
+      "lat": 32.96012,
+      "lng": -96.83,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -2896,7 +3360,15 @@
       "model": "rule",
       "checked_at": "2026-08-03T13:19:27.775498+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_116773",
@@ -2948,6 +3420,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -2995,6 +3475,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3047,6 +3535,14 @@
       "ends_on": "2026-08-29",
       "model": "rule",
       "checked_at": "2026-07-27T13:19:33.219954+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -3095,6 +3591,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -3140,7 +3644,15 @@
       "seniors",
       "mental_health",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_113441",
@@ -3191,6 +3703,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3244,6 +3764,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Arlington",
+      "state": "TX",
+      "lat": 32.73558,
+      "lng": -97.10712,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -3291,6 +3819,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Cedar Hill",
+      "state": "TX",
+      "lat": 32.58881,
+      "lng": -96.95537,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3342,6 +3878,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -3390,6 +3934,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3439,6 +3991,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Fort Worth",
+      "state": "TX",
+      "lat": 32.75318,
+      "lng": -97.33275,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -3482,7 +4042,15 @@
     "unified_tags": [
       "education",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_112133",
@@ -3523,7 +4091,15 @@
     "dress_code": null,
     "status": "inactive",
     "last_scraped": "2026-05-24T14:11:15.478910+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
+    }
   },
   {
     "id": "voly_118369",
@@ -3573,6 +4149,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -3624,6 +4208,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -3674,6 +4266,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3715,7 +4315,15 @@
     "dress_code": null,
     "status": "inactive",
     "last_scraped": "2026-05-24T14:12:57.539924+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_115826",
@@ -3756,7 +4364,15 @@
     "dress_code": null,
     "status": "inactive",
     "last_scraped": "2026-05-24T14:12:59.383342+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_117592",
@@ -3806,6 +4422,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -3856,6 +4480,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -3896,7 +4528,15 @@
     "dress_code": null,
     "status": "inactive",
     "last_scraped": "2026-05-24T14:15:35.426148+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_116447",
@@ -3946,6 +4586,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -3997,6 +4645,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -4040,7 +4696,15 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_118579",
@@ -4091,6 +4755,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -4143,6 +4815,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -4195,6 +4875,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -4243,6 +4931,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -4286,7 +4982,15 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
+    }
   },
   {
     "id": "voly_116427",
@@ -4337,6 +5041,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -4388,6 +5100,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -4432,7 +5152,15 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
+    }
   },
   {
     "id": "voly_71157",
@@ -4482,6 +5210,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -4535,6 +5271,14 @@
       "ends_on": "2026-08-08",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -4586,6 +5330,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -4638,6 +5390,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -4682,7 +5442,15 @@
     "unified_tags": [
       "immigration",
       "civic"
-    ]
+    ],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_118559",
@@ -4727,7 +5495,15 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_118380",
@@ -4768,7 +5544,15 @@
     "dress_code": null,
     "status": "inactive",
     "last_scraped": "2026-05-24T14:15:14.861856+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
+    }
   },
   {
     "id": "voly_115304",
@@ -4815,6 +5599,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Cedar Hill",
+      "state": "TX",
+      "lat": 32.58881,
+      "lng": -96.95537,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -4865,6 +5657,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -4912,6 +5712,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -4959,7 +5767,15 @@
       "model": "rule",
       "checked_at": "2026-08-03T13:19:27.775498+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_113143",
@@ -5008,6 +5824,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -5055,6 +5879,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-27T13:19:33.219954+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -5105,6 +5937,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -5156,6 +5996,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -5204,7 +6052,15 @@
       "model": "rule",
       "checked_at": "2026-08-03T13:19:27.775498+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "voly_118487",
@@ -5255,6 +6111,14 @@
       "ends_on": "2026-10-03",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -5306,6 +6170,14 @@
       "ends_on": "2026-09-26",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -5357,6 +6229,14 @@
       "ends_on": "2026-10-17",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -5408,6 +6288,14 @@
       "ends_on": "2026-11-14",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -5459,6 +6347,14 @@
       "ends_on": "2026-11-07",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -5510,6 +6406,14 @@
       "ends_on": "2026-10-24",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -5558,6 +6462,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -5608,6 +6520,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -5656,6 +6576,14 @@
       "ends_on": "2026-07-16",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -5708,6 +6636,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -5756,6 +6692,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -5808,6 +6752,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -5852,7 +6804,15 @@
     "unified_tags": [
       "disabilities",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_118727",
@@ -5902,6 +6862,14 @@
       "ends_on": "2026-11-16",
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -5952,6 +6920,14 @@
       "ends_on": "2026-11-17",
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -6002,6 +6978,14 @@
       "ends_on": "2026-11-19",
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -6052,6 +7036,14 @@
       "ends_on": "2026-11-20",
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -6102,6 +7094,14 @@
       "ends_on": "2026-11-18",
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -6152,6 +7152,14 @@
       "ends_on": "2026-12-07",
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -6202,6 +7210,14 @@
       "ends_on": "2026-12-08",
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -6252,6 +7268,14 @@
       "ends_on": "2026-12-09",
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -6302,6 +7326,14 @@
       "ends_on": "2026-12-10",
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -6352,6 +7384,14 @@
       "ends_on": "2026-12-11",
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -6399,6 +7439,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -6446,6 +7494,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -6493,6 +7549,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -6543,6 +7607,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -6593,6 +7665,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -6640,6 +7720,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -6687,6 +7775,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -6739,6 +7835,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Arlington",
+      "state": "TX",
+      "lat": 32.73558,
+      "lng": -97.10712,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -6785,7 +7889,15 @@
       "education",
       "community",
       "environment"
-    ]
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "voly_118485",
@@ -6826,7 +7938,15 @@
     "dress_code": null,
     "status": "inactive",
     "last_scraped": "2026-07-03T22:28:16.908771+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_113438",
@@ -6877,6 +7997,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -6925,6 +8053,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -6975,6 +8111,14 @@
       "ends_on": "2026-08-08",
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -7019,7 +8163,15 @@
     "last_scraped": "2026-07-06T13:12:11.711900+00:00",
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
+    }
   },
   {
     "id": "voly_118764",
@@ -7069,6 +8221,14 @@
       "ends_on": "2026-08-29",
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -7126,6 +8286,14 @@
       "reason": "event date passed (2026-08-01)",
       "model": "expiry-rule",
       "checked_at": "2026-08-02T08:35:37.489251+00:00"
+    },
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -7178,6 +8346,14 @@
       "ends_on": "2026-08-12",
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -7230,6 +8406,14 @@
       "ends_on": "2026-08-19",
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -7274,7 +8458,15 @@
     "unified_tags": [
       "animals",
       "health"
-    ]
+    ],
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
+    }
   },
   {
     "id": "voly_118652",
@@ -7326,6 +8518,14 @@
       "ends_on": "2026-07-18",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -7383,6 +8583,14 @@
       "reason": "event date passed (2026-07-25)",
       "model": "expiry-rule",
       "checked_at": "2026-07-27T03:44:39.611155+00:00"
+    },
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -7435,6 +8643,14 @@
       "ends_on": "2026-08-22",
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -7491,6 +8707,14 @@
       "reason": "event date passed (2026-07-15)",
       "model": "expiry-rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -7534,7 +8758,15 @@
     "last_scraped": "2026-05-24T14:15:33.609219+00:00",
     "unified_tags": [
       "animals"
-    ]
+    ],
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
+    }
   },
   {
     "id": "voly_118761",
@@ -7586,6 +8818,14 @@
       "ends_on": "2026-08-15",
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -7636,6 +8876,14 @@
       "ends_on": "2026-08-15",
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -7686,6 +8934,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -7738,6 +8994,14 @@
       "reason": "duplicate of voly_113415 — same org/title/description, no distinguishing schedule",
       "model": "dedup-rule",
       "checked_at": "2026-07-27T13:19:32.559567+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -7790,6 +9054,14 @@
       "reason": "duplicate of voly_118511 — same org/title/description, no distinguishing schedule",
       "model": "dedup-rule",
       "checked_at": "2026-08-03T13:19:27.309411+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -7843,6 +9115,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Arlington",
+      "state": "TX",
+      "lat": 32.73558,
+      "lng": -97.10712,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -7895,6 +9175,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Arlington",
+      "state": "TX",
+      "lat": 32.73558,
+      "lng": -97.10712,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -7936,7 +9224,15 @@
     "dress_code": null,
     "status": "inactive",
     "last_scraped": "2026-05-24T14:13:22.167173+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_106849",
@@ -7988,6 +9284,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Frisco",
+      "state": "TX",
+      "lat": 33.1506,
+      "lng": -96.82382,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8040,6 +9344,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -8091,6 +9403,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -8143,6 +9463,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Arlington",
+      "state": "TX",
+      "lat": 32.73558,
+      "lng": -97.10712,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -8193,6 +9521,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -8244,6 +9580,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -8294,6 +9638,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -8345,6 +9697,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -8397,6 +9757,14 @@
       "reason": "duplicate of voly_117107 — same org/title/description, no distinguishing schedule",
       "model": "dedup-rule",
       "checked_at": "2026-08-03T13:19:27.309411+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -8448,6 +9816,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -8500,6 +9876,14 @@
       "reason": "duplicate of voly_117113 — same org/title/description, no distinguishing schedule",
       "model": "dedup-rule",
       "checked_at": "2026-08-03T13:19:27.309411+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -8552,6 +9936,14 @@
       "reason": "duplicate of voly_117113 — same org/title/description, no distinguishing schedule",
       "model": "dedup-rule",
       "checked_at": "2026-08-03T13:19:27.309411+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -8604,6 +9996,14 @@
       "reason": "duplicate of voly_117113 — same org/title/description, no distinguishing schedule",
       "model": "dedup-rule",
       "checked_at": "2026-08-03T13:19:27.309411+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -8656,6 +10056,14 @@
       "reason": "duplicate of voly_117113 — same org/title/description, no distinguishing schedule",
       "model": "dedup-rule",
       "checked_at": "2026-08-03T13:19:27.309411+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -8708,6 +10116,14 @@
       "reason": "duplicate of voly_117107 — same org/title/description, no distinguishing schedule",
       "model": "dedup-rule",
       "checked_at": "2026-08-03T13:19:27.309411+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -8748,7 +10164,15 @@
     "dress_code": null,
     "status": "inactive",
     "last_scraped": "2026-05-24T14:14:18.123078+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
+    }
   },
   {
     "id": "voly_118571",
@@ -8796,6 +10220,14 @@
       "ends_on": "2026-10-10",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -8847,6 +10279,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -8895,7 +10335,15 @@
       "model": "rule",
       "checked_at": "2026-08-03T13:19:27.775498+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_117311",
@@ -8943,6 +10391,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -8990,6 +10446,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -9045,6 +10509,14 @@
       "reason": "event date passed (2026-07-25)",
       "model": "expiry-rule",
       "checked_at": "2026-07-27T03:44:39.611155+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -9095,6 +10567,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -9136,7 +10616,15 @@
     "dress_code": null,
     "status": "inactive",
     "last_scraped": "2026-05-24T14:11:19.057445+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_113845",
@@ -9187,6 +10675,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -9237,6 +10733,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -9288,6 +10792,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -9339,6 +10851,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -9389,6 +10909,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -9439,6 +10967,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -9490,6 +11026,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -9537,6 +11081,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -9581,7 +11133,15 @@
       "community",
       "crisis_support",
       "health"
-    ]
+    ],
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
+    }
   },
   {
     "id": "voly_118580",
@@ -9632,6 +11192,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -9679,6 +11247,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -9726,6 +11302,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -9773,6 +11357,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -9820,6 +11412,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -9867,6 +11467,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -9914,6 +11522,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -9961,6 +11577,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -10011,6 +11635,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -10066,6 +11698,14 @@
       "reason": "event date passed (2026-07-25)",
       "model": "expiry-rule",
       "checked_at": "2026-07-27T03:44:39.611155+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -10113,6 +11753,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -10173,6 +11821,14 @@
       "reason": "event date passed (2026-07-25)",
       "model": "expiry-rule",
       "checked_at": "2026-07-27T03:44:39.611155+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -10224,6 +11880,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -10269,7 +11933,15 @@
       "seniors",
       "community",
       "arts"
-    ]
+    ],
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
+    }
   },
   {
     "id": "voly_118629",
@@ -10320,6 +11992,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -10371,6 +12051,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -10421,6 +12109,14 @@
       "ends_on": "2026-09-12",
       "model": "rule",
       "checked_at": "2026-07-27T13:19:33.219954+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -10471,6 +12167,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -10518,6 +12222,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Cedar Hill",
+      "state": "TX",
+      "lat": 32.58881,
+      "lng": -96.95537,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10565,7 +12277,15 @@
       "model": "rule",
       "checked_at": "2026-08-03T13:19:27.775498+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_117966",
@@ -10615,6 +12335,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -10666,6 +12394,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -10717,6 +12453,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10777,6 +12521,14 @@
       "reason": "event date passed (2026-07-31)",
       "model": "expiry-rule",
       "checked_at": "2026-08-01T08:32:35.700041+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -10823,7 +12575,15 @@
       "education",
       "legal",
       "housing"
-    ]
+    ],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_117283",
@@ -10874,6 +12634,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -10922,6 +12690,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -10969,6 +12745,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -11022,6 +12806,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Fort Worth",
+      "state": "TX",
+      "lat": 32.75318,
+      "lng": -97.33275,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11073,6 +12865,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -11113,7 +12913,15 @@
     "dress_code": null,
     "status": "inactive",
     "last_scraped": "2026-05-24T14:13:50.408544+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_118483",
@@ -11165,6 +12973,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11213,6 +13029,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -11261,6 +13085,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Fort Worth",
+      "state": "TX",
+      "lat": 32.75318,
+      "lng": -97.33275,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -11313,6 +13145,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Fort Worth",
+      "state": "TX",
+      "lat": 32.75318,
+      "lng": -97.33275,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -11365,6 +13205,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Fort Worth",
+      "state": "TX",
+      "lat": 32.75318,
+      "lng": -97.33275,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -11417,6 +13265,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -11467,6 +13323,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Cedar Hill",
+      "state": "TX",
+      "lat": 32.58881,
+      "lng": -96.95537,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -11519,6 +13383,14 @@
       "ends_on": "2026-08-20",
       "model": "rule",
       "checked_at": "2026-07-27T13:19:33.219954+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -11571,6 +13443,14 @@
       "ends_on": "2026-09-24",
       "model": "rule",
       "checked_at": "2026-07-27T13:19:33.219954+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -11623,6 +13503,14 @@
       "ends_on": "2026-09-03",
       "model": "rule",
       "checked_at": "2026-07-27T13:19:33.219954+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -11673,6 +13561,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -11725,6 +13621,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -11784,6 +13688,14 @@
       "ends_on": "2026-08-02",
       "model": "rule",
       "checked_at": "2026-07-27T13:19:33.219954+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -11835,6 +13747,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -11876,7 +13796,15 @@
     "dress_code": null,
     "status": "inactive",
     "last_scraped": "2026-05-24T14:15:20.001682+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
+    }
   },
   {
     "id": "voly_113351",
@@ -11923,6 +13851,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -11975,6 +13911,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -12022,6 +13966,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -12063,7 +14015,15 @@
     "dress_code": null,
     "status": "inactive",
     "last_scraped": "2026-05-24T14:14:30.369062+00:00",
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
+    }
   },
   {
     "id": "voly_118821",
@@ -12118,6 +14078,14 @@
       "reason": "event date passed (2026-07-28)",
       "model": "expiry-rule",
       "checked_at": "2026-07-29T09:06:40.880178+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -12166,6 +14134,14 @@
       "ends_on": "2026-08-25",
       "model": "rule",
       "checked_at": "2026-07-27T13:19:33.219954+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -12218,6 +14194,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -12270,6 +14254,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -12322,6 +14314,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -12374,6 +14374,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -12425,6 +14433,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -12477,6 +14493,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -12529,6 +14553,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -12580,6 +14612,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -12630,6 +14670,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -12681,6 +14729,14 @@
       "ends_on": "2026-11-08",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
     }
   },
   {
@@ -12728,6 +14784,14 @@
       "ends_on": "2026-09-26",
       "model": "rule",
       "checked_at": "2026-07-27T13:19:33.219954+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -12776,6 +14840,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -12828,6 +14900,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Arlington",
+      "state": "TX",
+      "lat": 32.73558,
+      "lng": -97.10712,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -12873,7 +14953,15 @@
     "unified_tags": [
       "animals",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "voly_116905",
@@ -12921,6 +15009,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -12971,6 +15067,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -13018,6 +15122,14 @@
       "ends_on": "2026-08-15",
       "model": "rule",
       "checked_at": "2026-07-27T13:19:33.219954+00:00"
+    },
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org_name"
     }
   },
   {
@@ -13066,7 +15178,15 @@
       "model": "rule",
       "checked_at": "2026-08-03T13:19:27.775498+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_118672",
@@ -13119,6 +15239,14 @@
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -13172,7 +15300,15 @@
       "education",
       "civic",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_118416",
@@ -13217,7 +15353,15 @@
       "children",
       "education",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
   },
   {
     "id": "voly_114960",
@@ -13260,7 +15404,15 @@
     "unified_tags": [
       "food_security",
       "community"
-    ]
+    ],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
   },
   {
     "id": "voly_114961",
@@ -13317,6 +15469,14 @@
       "reason": "event date passed (2026-07-19)",
       "model": "expiry-rule",
       "checked_at": "2026-07-20T12:40:38.501793+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -13367,6 +15527,14 @@
       "ends_on": "2026-08-16",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -13417,6 +15585,14 @@
       "ends_on": "2026-09-20",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -13467,6 +15643,14 @@
       "ends_on": "2026-10-18",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -13517,6 +15701,14 @@
       "ends_on": "2026-11-15",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
@@ -13567,6 +15759,14 @@
       "ends_on": "2026-12-20",
       "model": "rule",
       "checked_at": "2026-07-17T00:49:29.807053+00:00"
+    },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   }
 ]

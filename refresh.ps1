@@ -32,7 +32,7 @@ function Invoke-Step([scriptblock]$Step) {
     }
 }
 
-Write-Host "`n=== 1/4 Scraping sources ===" -ForegroundColor Cyan
+Write-Host "`n=== 1/5 Scraping sources ===" -ForegroundColor Cyan
 # Curated nonprofits first. Incremental via curated_scraped.json: only NEW orgs
 # in orgs.json (e.g. just-merged discovery-agent finds) get scraped; use --force
 # to re-scrape everything.
@@ -44,7 +44,7 @@ Invoke-Step { python fetch_idealist.py }
 Invoke-Step { python fetch_dallasdoinggood.py }
 Invoke-Step { python fetch_reddit.py }
 
-Write-Host "`n=== 2/4 QC filter ===" -ForegroundColor Cyan
+Write-Host "`n=== 2/5 QC filter ===" -ForegroundColor Cyan
 Invoke-Step { python qc_filter.py }   # dedup + expiry + LLM content judge (curated)
 # Scraped portal sources: trusted for content (no judge) but still deduped
 # and checked for passed event dates.
@@ -59,11 +59,16 @@ Invoke-Step { python qc_filter.py --file frontend/public/data/volops_dallasdoing
 # idealist/voly), regardless of which copy has more fields filled in.
 Invoke-Step { python qc_filter.py --cross-dedupe }
 
-Write-Host "`n=== 3/4 Unified tags ===" -ForegroundColor Cyan
+Write-Host "`n=== 3/5 Unified tags ===" -ForegroundColor Cyan
 Invoke-Step { python classify_listings.py }
 
+Write-Host "`n=== 4/5 Geocoding (city-level) ===" -ForegroundColor Cyan
+# Offline + free: resolves each listing to a DFW city centroid from
+# geo_gazetteer.json. Incremental — only stamps records without a `geo` block.
+Invoke-Step { python geocode_listings.py }
+
 if (-not $SkipEmbed) {
-    Write-Host "`n=== 4/4 Rebuilding Smart Search index ===" -ForegroundColor Cyan
+    Write-Host "`n=== 5/5 Rebuilding Smart Search index ===" -ForegroundColor Cyan
     Push-Location frontend
     try {
         Invoke-Step { node scripts/build-rag-index.mjs }
@@ -71,7 +76,7 @@ if (-not $SkipEmbed) {
         Pop-Location
     }
 } else {
-    Write-Host "`n=== 4/4 Skipped Smart Search index rebuild (-SkipEmbed) ===" -ForegroundColor Yellow
+    Write-Host "`n=== 5/5 Skipped Smart Search index rebuild (-SkipEmbed) ===" -ForegroundColor Yellow
 }
 
 Write-Host "`nDone. Data refreshed." -ForegroundColor Green
