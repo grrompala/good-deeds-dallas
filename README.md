@@ -7,7 +7,7 @@ question: *what's a real place I could go help this week?*
 
 It pulls from half a dozen live sources, cleans and de-duplicates them with
 an LLM quality-control pipeline, tags everything against one consistent
-cause taxonomy, and layers a natural-language **Smart Search** on top — so
+cause taxonomy, and layers a natural-language Smart Search on top — so
 instead of checking five volunteer portals with five different search boxes,
 there's one place to look.
 
@@ -92,9 +92,8 @@ build queries → search (Tavily) → triage → investigate → select → prop
 ```
 
 It automates the *research*, not the *judgment* — every proposal goes
-through a human-reviewed dashboard (runnable from a phone) before anything
-merges. The LLM layer underneath is provider-agnostic: the same agent runs
-on OpenAI or Claude behind one config flag.
+through a human-reviewed dashboard before anything
+merges. The LLM layer underneath is provider-agnostic.
 
 ---
 
@@ -108,11 +107,8 @@ on OpenAI or Claude behind one config flag.
 - **Guardrails** — durable per-IP and sitewide rate limiting on Smart Search,
   hashed IPs, no raw address storage
 
-The whole thing runs unattended between deploys — the pipeline scrapes,
+The whole thing runs unattended between deploys — the pipeline finds,
 quality-checks, re-tags, and re-embeds new listings on its own schedule, with
 no manual step required to keep the data current.
 
 ---
-
-*This repo is built around one curated Dallas-area dataset, not set up for
-general self-hosting — it's here to be read, not installed.*
