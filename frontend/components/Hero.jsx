@@ -1,8 +1,10 @@
-// Hero — landing banner: wordmark + tagline + global search. Lives inside the
+// Hero — landing banner: logo wordmark + global search. Lives inside the
 // sticky app header (see HomeClient). One fixed, medium size throughout — it
 // does not grow/shrink on scroll (that caused layout jitter).
 //
-// To change copy: edit the <h1> and <p> below.
+// The title + tagline are baked into /public/logo.png (a transparent wordmark
+// reading "Good Deeds Dallas — Pay it forward in The Big D"). To change the
+// wordmark, swap that image; the footer keeps the text version.
 
 export default function Hero({ search, setSearch, onWordmarkClick }) {
   return (
@@ -18,20 +20,22 @@ export default function Hero({ search, setSearch, onWordmarkClick }) {
 
       <div className="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-10 py-5 sm:py-6 lg:py-7">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 lg:gap-6">
-          {/* Wordmark — clickable to return to home state */}
+          {/* Logo wordmark — clickable to return to home state. The title and
+              tagline live in the image itself (see note at top of file). */}
           <div className="shrink-0 lg:max-w-md">
             <button
               onClick={onWordmarkClick}
-              className="text-left hover:opacity-80 transition-opacity"
-              aria-label="Return to home"
+              className="block text-left hover:opacity-80 transition-opacity"
+              aria-label="Good Deeds Dallas — return to home"
             >
-              <h1 className="font-display font-extrabold text-ink leading-none text-3xl sm:text-4xl">
-                Good Deeds <span className="text-brand">Dallas</span>
-              </h1>
+              <img
+                src="/logo.png"
+                alt="Good Deeds Dallas — Pay it forward in The Big D"
+                width={1600}
+                height={393}
+                className="h-14 sm:h-16 w-auto max-w-full"
+              />
             </button>
-            <p className="mt-2 text-sm sm:text-base text-inkSoft leading-snug font-medium">
-              Pay it forward in The Big D
-            </p>
           </div>
 
           {/* Search bar */}
