@@ -31,8 +31,8 @@ export default function Hero({ search, setSearch, onWordmarkClick }) {
               <img
                 src="/logo.png"
                 alt="Good Deeds Dallas — Pay it forward in The Big D"
-                width={1600}
-                height={393}
+                width={782}
+                height={192}
                 className="h-14 sm:h-16 w-auto max-w-full"
               />
             </button>
