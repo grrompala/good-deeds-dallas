@@ -1,20 +1,20 @@
-// TabBar — section nav. Rendered inside the sticky app header (HomeClient), so
-// it no longer sticks on its own. Single-row layout on all screens (narrow
-// screens scroll horizontally); Smart Search leads the tab order so it's
-// front-and-center — and always visible on phones.
-// Also includes the "Home" link on the left so users can always return
-// to the empty default state.
+// TabBar — section nav. Rendered inside the sticky app header (HomeClient).
+//
+// DESKTOP (lg+): the horizontal row below, exactly as before.
+// MOBILE (<lg): this row is hidden; the same items live in the hamburger
+// dropdown (MobileNav, exported below) so the sticky header stays compact
+// (logo + hamburger, with the search bar underneath).
 
-const TABS = [
+export const TABS = [
   { id: 'search',        label: 'Smart Search' },
   { id: 'listings',      label: 'Opportunities' },
   { id: 'organizations', label: 'Organizations' },
   { id: 'chatter',       label: 'Reddit Threads' },
 ]
 
-export default function TabBar({ active, onChange, counts = {}, onHome }) {
+export default function TabBar({ active, onChange, onHome }) {
   return (
-    <div className="bg-canvas/95 backdrop-blur-md border-b border-line">
+    <div className="hidden lg:block bg-canvas/95 backdrop-blur-md border-b border-line">
       <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10">
         <nav className="flex items-stretch gap-1 overflow-x-auto no-scrollbar -mx-1 px-1">
           {/* Home button */}
@@ -46,11 +46,53 @@ export default function TabBar({ active, onChange, counts = {}, onHome }) {
               `}
             >
               {tab.label}
-              {counts[tab.id] !== undefined && (
-                <span className={`font-mono text-xs ${active === tab.id ? 'text-brand' : 'text-subtle'}`}>
-                  {counts[tab.id]}
-                </span>
-              )}
+            </button>
+          ))}
+        </nav>
+      </div>
+    </div>
+  )
+}
+
+// MobileNav — the hamburger dropdown (phones/tablets, hidden on lg+). Rendered
+// as a fixed layer that starts just below the sticky header (via the
+// --app-header-h CSS var HomeClient publishes), so it drops beneath the
+// logo + search without covering them. Tapping the dimmed backdrop, or any
+// item, closes it (HomeClient wraps the handlers to setMenuOpen(false)).
+export function MobileNav({ open, active, onChange, onHome, onClose }) {
+  if (!open) return null
+  const itemBase =
+    'flex items-center gap-2 w-full px-2 py-3 text-left text-[15px] font-medium border-b border-lineSoft last:border-0 transition-colors'
+  return (
+    <div
+      className="lg:hidden fixed inset-x-0 bottom-0 z-30"
+      style={{ top: 'var(--app-header-h, 120px)' }}
+    >
+      {/* Dimmed backdrop — tap anywhere below the header to close. */}
+      <button
+        aria-label="Close menu"
+        onClick={onClose}
+        className="absolute inset-0 bg-black/20"
+      />
+      <div className="absolute top-0 left-0 right-0 bg-white border-b border-line shadow-lg">
+        <nav className="max-w-6xl mx-auto px-5 py-1 flex flex-col">
+          <button onClick={onHome} className={`${itemBase} text-muted hover:text-ink`}>
+            <span className="inline-flex items-center gap-2">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4">
+                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" strokeLinejoin="round" />
+                <path d="M9 22V12h6v10" strokeLinejoin="round" />
+              </svg>
+              Home
+            </span>
+          </button>
+          {TABS.map(tab => (
+            <button
+              key={tab.id}
+              onClick={() => onChange(tab.id)}
+              aria-current={active === tab.id ? 'page' : undefined}
+              className={`${itemBase} ${active === tab.id ? 'text-brand' : 'text-muted hover:text-ink'}`}
+            >
+              {tab.label}
             </button>
           ))}
         </nav>

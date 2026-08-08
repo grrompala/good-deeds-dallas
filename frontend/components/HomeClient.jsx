@@ -20,7 +20,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
 import Hero                from './Hero'
-import TabBar              from './TabBar'
+import TabBar, { MobileNav } from './TabBar'
 import ListingsPanel       from './ListingsPanel'
 import OrganizationsPanel  from './OrganizationsPanel'
 import CommunityPanel      from './CommunityPanel'
@@ -28,8 +28,7 @@ import OrgModal            from './OrgModal'
 import ListingDetailModal  from './ListingDetailModal'
 import AdvancedSearchPanel from './AdvancedSearchPanel'
 import TagChip             from './TagChip'
-import SourcesBlurb, { CONTACT_EMAIL } from './SourcesBlurb'
-import { buildOrgs }       from './orgs'
+import { CONTACT_EMAIL } from './SourcesBlurb'
 import { parseQuery, matchesQuery } from '../lib/search'
 
 // Some national sources (e.g. Idealist, Voly) occasionally surface a listing
@@ -74,6 +73,8 @@ export default function HomeClient({
   const [focusedTab,    setFocusedTab]    = useState(initialFocusedTab)
   const [selectedOrg,     setSelectedOrg]     = useState(null)
   const [selectedListing, setSelectedListing] = useState(null)
+  // Mobile hamburger menu (the desktop TabBar row is hidden < lg).
+  const [menuOpen, setMenuOpen] = useState(false)
 
   const listingsRef = useRef(null)
   const orgsRef     = useRef(null)
@@ -164,26 +165,12 @@ export default function HomeClient({
     )
   }, [news, terms])
 
-  // Organizations are now DERIVED from the listings themselves (no separate
-  // curated source). Both panels read from the same filtered listings.
-  const orgCount = useMemo(
-    () => buildOrgs(filteredOpps).length,
-    [filteredOpps]
-  )
-
   // Most recent last_scraped across every loaded opportunity — shown in the footer.
   const lastUpdated = useMemo(() => {
     const timestamps = opportunities.map(o => o.last_scraped).filter(Boolean)
     if (!timestamps.length) return null
     return timestamps.reduce((max, t) => (t > max ? t : max))
   }, [opportunities])
-
-  // Tab counts (filtered)
-  const tabCounts = {
-    listings:      filteredOpps.length,
-    organizations: orgCount,
-    chatter:       filteredNews.length,
-  }
 
   // Home button: clear search + tab, scroll to top. From a pre-filtered route
   // (/volunteer/…), navigate back to the real home URL instead.
@@ -227,15 +214,27 @@ export default function HomeClient({
           search={search}
           setSearch={setSearch}
           onWordmarkClick={goHome}
+          onMenuToggle={() => setMenuOpen(o => !o)}
+          menuOpen={menuOpen}
         />
 
         <TabBar
           active={showSearch ? 'search' : isStacked ? null : focusedTab}
           onChange={handleTabChange}
           onHome={goHome}
-          counts={tabCounts}
         />
       </header>
+
+      {/* Mobile-only nav dropdown (the hamburger's contents). Sits just below
+          the sticky header; selecting an item runs the same handlers as the
+          desktop tabs and then closes the menu. */}
+      <MobileNav
+        open={menuOpen}
+        active={showSearch ? 'search' : isStacked ? null : focusedTab}
+        onChange={id => { handleTabChange(id); setMenuOpen(false) }}
+        onHome={() => { goHome(); setMenuOpen(false) }}
+        onClose={() => setMenuOpen(false)}
+      />
 
       <main className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10 py-8 lg:py-12">
         {/* The empty state needs no data — render it immediately (it's also
@@ -385,10 +384,29 @@ const SUGGESTED_TAGS = [
 function EmptyHomeState({ onOpenSearch }) {
   return (
     <div className="py-3 lg:py-5 text-center max-w-2xl mx-auto">
-      <p className="text-base sm:text-lg text-muted leading-relaxed">
-        Type a cause, town, or nonprofit in the search above, or pick
-        a category to start exploring.
-      </p>
+      {/* Intro, center-aligned within the max-w-2xl column (matching the chips
+          below). Both lines lead with an icon so they align: a wave on the
+          greeting, a magnifying glass on the search prompt. */}
+      <div className="space-y-3 text-center text-base sm:text-lg text-inkSoft leading-relaxed">
+        <div className="flex items-start justify-center gap-2.5">
+          <span aria-hidden className="mt-0.5 text-xl leading-none shrink-0">👋</span>
+          <span>
+            Howdy! This is a directory for finding volunteer opportunities
+            across the Dallas-Fort Worth metroplex.
+          </span>
+        </div>
+        <div className="flex items-start justify-center gap-2.5">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden className="mt-1 h-5 w-5 shrink-0 text-brand">
+            <circle cx="11" cy="11" r="7" />
+            <path d="m20 20-3.5-3.5" strokeLinecap="round" />
+          </svg>
+          <span>
+            Type a cause, town, or nonprofit in the search above, or choose
+            a category to start exploring.
+          </span>
+        </div>
+      </div>
+
       <div className="mt-7 flex flex-wrap items-center justify-center gap-2">
         {SUGGESTED_TAGS.map(tagId => (
           <TagChip
@@ -398,11 +416,6 @@ function EmptyHomeState({ onOpenSearch }) {
             href={`/volunteer/${tagId.replace(/_/g, '-')}`}
           />
         ))}
-      </div>
-
-      {/* Where the listings come from */}
-      <div className="mt-10 max-w-2xl mx-auto rounded-2xl border border-line bg-white p-5 sm:p-6">
-        <SourcesBlurb />
       </div>
 
       {/* Smart Search feature callout */}
@@ -420,7 +433,7 @@ function EmptyHomeState({ onOpenSearch }) {
             Smart Search
           </span>
           <span className="block text-sm text-muted">
-            Ask in plain English and get an answer, plus the closest opportunities ranked by match.
+            Describe what you're looking for and get the most relevant opportunities ranked by match quality.
           </span>
         </span>
         <span className="ml-1 text-brand font-semibold group-hover:translate-x-0.5 transition-transform">→</span>
