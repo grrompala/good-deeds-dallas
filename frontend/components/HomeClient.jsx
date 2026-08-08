@@ -28,7 +28,7 @@ import OrgModal            from './OrgModal'
 import ListingDetailModal  from './ListingDetailModal'
 import AdvancedSearchPanel from './AdvancedSearchPanel'
 import TagChip             from './TagChip'
-import SourcesBlurb, { CONTACT_EMAIL } from './SourcesBlurb'
+import { CONTACT_EMAIL } from './SourcesBlurb'
 import { parseQuery, matchesQuery } from '../lib/search'
 
 // Some national sources (e.g. Idealist, Voly) occasionally surface a listing
@@ -381,17 +381,37 @@ const SUGGESTED_TAGS = [
   'community',
 ]
 
+// Small star bullet marker in the brand indigo (the "Dallas" wordmark color).
+function Star() {
+  return (
+    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-brand">
+      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+    </svg>
+  )
+}
+
 function EmptyHomeState({ onOpenSearch }) {
   return (
     <div className="py-3 lg:py-5 text-center max-w-2xl mx-auto">
-      <p className="text-base sm:text-lg text-ink font-medium leading-relaxed">
-        Good Deeds Dallas is a volunteer directory for finding opportunities
-        across the Dallas metro in one place.
-      </p>
-      <p className="mt-3 text-base sm:text-lg text-muted leading-relaxed">
-        Type a cause, town, or nonprofit in the search above, or pick
-        a category to start exploring.
-      </p>
+      {/* Intro, as two left-aligned star bullets (brand indigo — the "Dallas"
+          wordmark color). No bold, no justify, sized to match the body text. */}
+      <ul className="mx-auto max-w-md space-y-2 text-left text-sm text-inkSoft leading-relaxed">
+        <li className="flex items-start gap-2.5">
+          <Star />
+          <span>
+            Good Deeds Dallas is a volunteer directory for finding opportunities
+            across the Dallas metro in one place.
+          </span>
+        </li>
+        <li className="flex items-start gap-2.5">
+          <Star />
+          <span>
+            Type a cause, town, or nonprofit in the search above, or pick
+            a category to start exploring.
+          </span>
+        </li>
+      </ul>
+
       <div className="mt-7 flex flex-wrap items-center justify-center gap-2">
         {SUGGESTED_TAGS.map(tagId => (
           <TagChip
@@ -401,11 +421,6 @@ function EmptyHomeState({ onOpenSearch }) {
             href={`/volunteer/${tagId.replace(/_/g, '-')}`}
           />
         ))}
-      </div>
-
-      {/* Where the listings come from */}
-      <div className="mt-10 max-w-2xl mx-auto rounded-2xl border border-line bg-white p-5 sm:p-6">
-        <SourcesBlurb />
       </div>
 
       {/* Smart Search feature callout */}
