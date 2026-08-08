@@ -29,7 +29,6 @@ import ListingDetailModal  from './ListingDetailModal'
 import AdvancedSearchPanel from './AdvancedSearchPanel'
 import TagChip             from './TagChip'
 import SourcesBlurb, { CONTACT_EMAIL } from './SourcesBlurb'
-import { buildOrgs }       from './orgs'
 import { parseQuery, matchesQuery } from '../lib/search'
 
 // Some national sources (e.g. Idealist, Voly) occasionally surface a listing
@@ -166,26 +165,12 @@ export default function HomeClient({
     )
   }, [news, terms])
 
-  // Organizations are now DERIVED from the listings themselves (no separate
-  // curated source). Both panels read from the same filtered listings.
-  const orgCount = useMemo(
-    () => buildOrgs(filteredOpps).length,
-    [filteredOpps]
-  )
-
   // Most recent last_scraped across every loaded opportunity — shown in the footer.
   const lastUpdated = useMemo(() => {
     const timestamps = opportunities.map(o => o.last_scraped).filter(Boolean)
     if (!timestamps.length) return null
     return timestamps.reduce((max, t) => (t > max ? t : max))
   }, [opportunities])
-
-  // Tab counts (filtered)
-  const tabCounts = {
-    listings:      filteredOpps.length,
-    organizations: orgCount,
-    chatter:       filteredNews.length,
-  }
 
   // Home button: clear search + tab, scroll to top. From a pre-filtered route
   // (/volunteer/…), navigate back to the real home URL instead.
@@ -237,7 +222,6 @@ export default function HomeClient({
           active={showSearch ? 'search' : isStacked ? null : focusedTab}
           onChange={handleTabChange}
           onHome={goHome}
-          counts={tabCounts}
         />
       </header>
 
@@ -247,7 +231,6 @@ export default function HomeClient({
       <MobileNav
         open={menuOpen}
         active={showSearch ? 'search' : isStacked ? null : focusedTab}
-        counts={tabCounts}
         onChange={id => { handleTabChange(id); setMenuOpen(false) }}
         onHome={() => { goHome(); setMenuOpen(false) }}
         onClose={() => setMenuOpen(false)}

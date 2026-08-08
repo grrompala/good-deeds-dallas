@@ -12,7 +12,7 @@ export const TABS = [
   { id: 'chatter',       label: 'Reddit Threads' },
 ]
 
-export default function TabBar({ active, onChange, counts = {}, onHome }) {
+export default function TabBar({ active, onChange, onHome }) {
   return (
     <div className="hidden lg:block bg-canvas/95 backdrop-blur-md border-b border-line">
       <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10">
@@ -46,11 +46,6 @@ export default function TabBar({ active, onChange, counts = {}, onHome }) {
               `}
             >
               {tab.label}
-              {counts[tab.id] !== undefined && (
-                <span className={`font-mono text-xs ${active === tab.id ? 'text-brand' : 'text-subtle'}`}>
-                  {counts[tab.id]}
-                </span>
-              )}
             </button>
           ))}
         </nav>
@@ -64,10 +59,10 @@ export default function TabBar({ active, onChange, counts = {}, onHome }) {
 // --app-header-h CSS var HomeClient publishes), so it drops beneath the
 // logo + search without covering them. Tapping the dimmed backdrop, or any
 // item, closes it (HomeClient wraps the handlers to setMenuOpen(false)).
-export function MobileNav({ open, active, counts = {}, onChange, onHome, onClose }) {
+export function MobileNav({ open, active, onChange, onHome, onClose }) {
   if (!open) return null
   const itemBase =
-    'flex items-center justify-between gap-2 w-full px-2 py-3 text-left text-[15px] font-medium border-b border-lineSoft last:border-0 transition-colors'
+    'flex items-center gap-2 w-full px-2 py-3 text-left text-[15px] font-medium border-b border-lineSoft last:border-0 transition-colors'
   return (
     <div
       className="lg:hidden fixed inset-x-0 bottom-0 z-30"
@@ -79,7 +74,7 @@ export function MobileNav({ open, active, counts = {}, onChange, onHome, onClose
         onClick={onClose}
         className="absolute inset-0 bg-black/20"
       />
-      <div className="absolute top-0 left-0 right-0 bg-canvas/98 backdrop-blur-md border-b border-line shadow-lg">
+      <div className="absolute top-0 left-0 right-0 bg-white border-b border-line shadow-lg">
         <nav className="max-w-6xl mx-auto px-5 py-1 flex flex-col">
           <button onClick={onHome} className={`${itemBase} text-muted hover:text-ink`}>
             <span className="inline-flex items-center gap-2">
@@ -97,12 +92,7 @@ export function MobileNav({ open, active, counts = {}, onChange, onHome, onClose
               aria-current={active === tab.id ? 'page' : undefined}
               className={`${itemBase} ${active === tab.id ? 'text-brand' : 'text-muted hover:text-ink'}`}
             >
-              <span>{tab.label}</span>
-              {counts[tab.id] !== undefined && (
-                <span className={`font-mono text-xs ${active === tab.id ? 'text-brand' : 'text-subtle'}`}>
-                  {counts[tab.id]}
-                </span>
-              )}
+              {tab.label}
             </button>
           ))}
         </nav>
