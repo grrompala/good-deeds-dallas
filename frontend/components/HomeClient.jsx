@@ -384,21 +384,21 @@ const SUGGESTED_TAGS = [
 function EmptyHomeState({ onOpenSearch }) {
   return (
     <div className="py-3 lg:py-5 text-center max-w-2xl mx-auto">
-      {/* Intro. Left-aligned, spans the full max-w-2xl width like the chips
-          below. First line is a plain greeting; the search prompt carries a
+      {/* Intro, center-aligned within the max-w-2xl column (matching the chips
+          below). First line is a plain greeting; the search prompt carries a
           magnifying-glass marker in the brand indigo. */}
-      <div className="space-y-3 text-left text-base sm:text-lg text-inkSoft leading-relaxed">
+      <div className="space-y-3 text-center text-base sm:text-lg text-inkSoft leading-relaxed">
         <p>
-          Howdy! This is a volunteer directory for finding opportunities
-          across the Dallas metro in one place.
+          Howdy! This is a directory for finding volunteer opportunities
+          across the Dallas-Fort Worth metroplex.
         </p>
-        <div className="flex items-start gap-2.5">
+        <div className="flex items-start justify-center gap-2.5">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden className="mt-1 h-5 w-5 shrink-0 text-brand">
             <circle cx="11" cy="11" r="7" />
             <path d="m20 20-3.5-3.5" strokeLinecap="round" />
           </svg>
           <span>
-            Type a cause, town, or nonprofit in the search above, or pick
+            Type a cause, town, or nonprofit in the search above, or choose
             a category to start exploring.
           </span>
         </div>
@@ -430,7 +430,7 @@ function EmptyHomeState({ onOpenSearch }) {
             Smart Search
           </span>
           <span className="block text-sm text-muted">
-            Ask in plain English and get an answer, plus the closest opportunities ranked by match.
+            Describe what you're looking for and get the most relevant opportunities ranked by match quality.
           </span>
         </span>
         <span className="ml-1 text-brand font-semibold group-hover:translate-x-0.5 transition-transform">→</span>
