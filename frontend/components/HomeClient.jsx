@@ -381,36 +381,28 @@ const SUGGESTED_TAGS = [
   'community',
 ]
 
-// Small star bullet marker in the brand indigo (the "Dallas" wordmark color).
-function Star() {
-  return (
-    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden className="mt-0.5 h-4 w-4 shrink-0 text-brand">
-      <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
-    </svg>
-  )
-}
-
 function EmptyHomeState({ onOpenSearch }) {
   return (
     <div className="py-3 lg:py-5 text-center max-w-2xl mx-auto">
-      {/* Intro, as two left-aligned star bullets (brand indigo — the "Dallas"
-          wordmark color). No bold, no justify, sized to match the body text. */}
-      <ul className="mx-auto max-w-md space-y-2 text-left text-sm text-inkSoft leading-relaxed">
-        <li className="flex items-start gap-2.5">
-          <Star />
-          <span>
-            Good Deeds Dallas is a volunteer directory for finding opportunities
-            across the Dallas metro in one place.
-          </span>
-        </li>
-        <li className="flex items-start gap-2.5">
-          <Star />
+      {/* Intro. Left-aligned, spans the full max-w-2xl width like the chips
+          below. First line is a plain greeting; the search prompt carries a
+          magnifying-glass marker in the brand indigo. */}
+      <div className="space-y-3 text-left text-base sm:text-lg text-inkSoft leading-relaxed">
+        <p>
+          Howdy! This is a volunteer directory for finding opportunities
+          across the Dallas metro in one place.
+        </p>
+        <div className="flex items-start gap-2.5">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden className="mt-1 h-5 w-5 shrink-0 text-brand">
+            <circle cx="11" cy="11" r="7" />
+            <path d="m20 20-3.5-3.5" strokeLinecap="round" />
+          </svg>
           <span>
             Type a cause, town, or nonprofit in the search above, or pick
             a category to start exploring.
           </span>
-        </li>
-      </ul>
+        </div>
+      </div>
 
       <div className="mt-7 flex flex-wrap items-center justify-center gap-2">
         {SUGGESTED_TAGS.map(tagId => (
