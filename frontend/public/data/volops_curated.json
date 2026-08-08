@@ -530,6 +530,216 @@
     }
   },
   {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_1",
+    "source": "curated",
+    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
+    "org_name": "Animal Clinic of Grand Prairie",
+    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
+    "opportunity_title": "Administrative Support Volunteer",
+    "description_short": "Help with answering phones, filing, and paperwork.",
+    "description_long": "Volunteers assist with administrative support by answering phones, filing, and assisting with paperwork.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Grand Prairie",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Consider volunteering at a local shelter."
+  },
+  {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_0",
+    "source": "curated",
+    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
+    "org_name": "Animal Clinic of Grand Prairie",
+    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
+    "opportunity_title": "Animal Care Volunteer",
+    "description_short": "Assist with walking dogs, playing with cats, and cleaning enclosures.",
+    "description_long": "Volunteers are the backbone of many organizations, assisting with a wide range of tasks, including animal care like walking dogs, playing with cats, cleaning enclosures, and providing enrichment.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Grand Prairie",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Consider volunteering at a local shelter."
+  },
+  {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_4",
+    "source": "curated",
+    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
+    "org_name": "Animal Clinic of Grand Prairie",
+    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
+    "opportunity_title": "Board Member",
+    "description_short": "Serve on the board and help direct the shelter's future.",
+    "description_long": "Serve on the board, a more advanced way of getting involved by helping direct the shelter and influencing future decisions.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Grand Prairie",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Consider volunteering at a local shelter."
+  },
+  {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_2",
+    "source": "curated",
+    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
+    "org_name": "Animal Clinic of Grand Prairie",
+    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
+    "opportunity_title": "Event Support Volunteer",
+    "description_short": "Join us in helping with adoption events and fundraisers.",
+    "description_long": "Volunteers help with event support, assisting during adoption events, fundraisers, and community outreach.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Grand Prairie",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Consider volunteering at a local shelter."
+  },
+  {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_5",
+    "source": "curated",
+    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
+    "org_name": "Animal Clinic of Grand Prairie",
+    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
+    "opportunity_title": "Foster a Pet",
+    "description_short": "Provide a temporary home for pets in need.",
+    "description_long": "Fostering provides a temporary, loving home for animals who may be too young for adoption or recovering from illness.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Grand Prairie",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Consider volunteering at a local shelter."
+  },
+  {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_3",
+    "source": "curated",
+    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
+    "org_name": "Animal Clinic of Grand Prairie",
+    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
+    "opportunity_title": "Transportation Volunteer",
+    "description_short": "Drive animals to vet appointments or transport partners.",
+    "description_long": "Volunteers assist with transportation by driving animals to vet appointments or transport partners.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Grand Prairie",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Consider volunteering at a local shelter."
+  },
+  {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_6",
+    "source": "curated",
+    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
+    "org_name": "Animal Clinic of Grand Prairie",
+    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
+    "opportunity_title": "Trap-Neuter-Vaccinate-Return Volunteer",
+    "description_short": "Participate in TNVR programs for community cats and dogs.",
+    "description_long": "You can participate in Trap-Neuter-Vaccinate-Return programs for community cats and dogs to manage the stray pet population.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Grand Prairie",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Consider volunteering at a local shelter."
+  },
+  {
     "id": "arlington_life_shelter_2",
     "source": "curated",
     "org_id": "arlington_life_shelter",
@@ -7777,6 +7987,249 @@
       "precision": "city",
       "resolved_from": "location.city"
     }
+  },
+  {
+    "id": "dfw_hindu_temple_vidya_vikas_irving_3",
+    "source": "curated",
+    "org_id": "dfw_hindu_temple_vidya_vikas_irving",
+    "org_name": "DFW Hindu Temple – Vidya Vikas",
+    "source_url": "https://vv.dfwhindutemple.org/volunteersignup",
+    "status": "active",
+    "last_scraped": "2026-08-08T14:04:31.925752+00:00",
+    "opportunity_title": "Administrative Support",
+    "description_short": "Assist the admin team with various tasks.",
+    "description_long": "Parents can help the admin team in various tasks.",
+    "schedule": {
+      "raw": "Sundays",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "Sundays",
+    "location": {
+      "address": "1605 North Britian Rd",
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact via email or phone to volunteer."
+  },
+  {
+    "id": "dfw_hindu_temple_vidya_vikas_irving_2",
+    "source": "curated",
+    "org_id": "dfw_hindu_temple_vidya_vikas_irving",
+    "org_name": "DFW Hindu Temple – Vidya Vikas",
+    "source_url": "https://vv.dfwhindutemple.org/volunteersignup",
+    "status": "active",
+    "last_scraped": "2026-08-08T14:04:31.925752+00:00",
+    "opportunity_title": "Class Monitoring",
+    "description_short": "Monitor hallways and aisles during classes.",
+    "description_long": "Parents can monitor hallways and aisles when classes are in progress.",
+    "schedule": {
+      "raw": "Sundays",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "Sundays",
+    "location": {
+      "address": "1605 North Britian Rd",
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "children",
+      "education"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact via email or phone to volunteer."
+  },
+  {
+    "id": "dfw_hindu_temple_vidya_vikas_irving_1",
+    "source": "curated",
+    "org_id": "dfw_hindu_temple_vidya_vikas_irving",
+    "org_name": "DFW Hindu Temple – Vidya Vikas",
+    "source_url": "https://vv.dfwhindutemple.org/volunteersignup",
+    "status": "active",
+    "last_scraped": "2026-08-08T14:04:31.925752+00:00",
+    "opportunity_title": "Craft Assistance",
+    "description_short": "Help with crafting activities for children.",
+    "description_long": "Parents can help with the crafts for the classes.",
+    "schedule": {
+      "raw": "Sundays",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "Sundays",
+    "location": {
+      "address": "1605 North Britian Rd",
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "children",
+      "education"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact via email or phone to volunteer."
+  },
+  {
+    "id": "dfw_hindu_temple_vidya_vikas_irving_4",
+    "source": "curated",
+    "org_id": "dfw_hindu_temple_vidya_vikas_irving",
+    "org_name": "DFW Hindu Temple – Vidya Vikas",
+    "source_url": "https://vv.dfwhindutemple.org/volunteersignup",
+    "status": "active",
+    "last_scraped": "2026-08-08T14:04:31.925752+00:00",
+    "opportunity_title": "Event Organization",
+    "description_short": "Help organize special events.",
+    "description_long": "Parents can help organizing special events.",
+    "schedule": {
+      "raw": "Varies",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "Varies",
+    "location": {
+      "address": "1605 North Britian Rd",
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact via email or phone to volunteer."
+  },
+  {
+    "id": "dfw_hindu_temple_vidya_vikas_irving_7",
+    "source": "curated",
+    "org_id": "dfw_hindu_temple_vidya_vikas_irving",
+    "org_name": "DFW Hindu Temple – Vidya Vikas",
+    "source_url": "https://vv.dfwhindutemple.org/volunteersignup",
+    "status": "active",
+    "last_scraped": "2026-08-08T14:04:31.925752+00:00",
+    "opportunity_title": "Office Tasks",
+    "description_short": "Assist with various tasks in the office.",
+    "description_long": "Children can help with various tasks in the Vidya Vikas office.",
+    "schedule": {
+      "raw": "Varies",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "Varies",
+    "location": {
+      "address": "1605 North Britian Rd",
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact via email or phone to volunteer."
+  },
+  {
+    "id": "dfw_hindu_temple_vidya_vikas_irving_6",
+    "source": "curated",
+    "org_id": "dfw_hindu_temple_vidya_vikas_irving",
+    "org_name": "DFW Hindu Temple – Vidya Vikas",
+    "source_url": "https://vv.dfwhindutemple.org/volunteersignup",
+    "status": "active",
+    "last_scraped": "2026-08-08T14:04:31.925752+00:00",
+    "opportunity_title": "Poster Making",
+    "description_short": "Create posters for various events.",
+    "description_long": "Children can help making posters for various events.",
+    "schedule": {
+      "raw": "Varies",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "Varies",
+    "location": {
+      "address": "1605 North Britian Rd",
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "children"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact via email or phone to volunteer."
+  },
+  {
+    "id": "dfw_hindu_temple_vidya_vikas_irving_0",
+    "source": "curated",
+    "org_id": "dfw_hindu_temple_vidya_vikas_irving",
+    "org_name": "DFW Hindu Temple – Vidya Vikas",
+    "source_url": "https://vv.dfwhindutemple.org/volunteersignup",
+    "status": "active",
+    "last_scraped": "2026-08-08T14:04:31.925752+00:00",
+    "opportunity_title": "Teaching Volunteers",
+    "description_short": "Teach children good knowledge and values.",
+    "description_long": "Volunteer opportunities for parents include teaching, helping with the crafts for the classes.",
+    "schedule": {
+      "raw": "Sundays",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "Sundays",
+    "location": {
+      "address": "1605 North Britian Rd",
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "children",
+      "education"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact via email or phone to volunteer."
+  },
+  {
+    "id": "dfw_hindu_temple_vidya_vikas_irving_5",
+    "source": "curated",
+    "org_id": "dfw_hindu_temple_vidya_vikas_irving",
+    "org_name": "DFW Hindu Temple – Vidya Vikas",
+    "source_url": "https://vv.dfwhindutemple.org/volunteersignup",
+    "status": "active",
+    "last_scraped": "2026-08-08T14:04:31.925752+00:00",
+    "opportunity_title": "Youth Group Assistance",
+    "description_short": "Support youth group activities.",
+    "description_long": "Children can help with the Youth Group.",
+    "schedule": {
+      "raw": "Varies",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "Varies",
+    "location": {
+      "address": "1605 North Britian Rd",
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "children"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact via email or phone to volunteer."
   },
   {
     "id": "dfw_rescue_me_2",
@@ -24362,6 +24815,98 @@
     }
   },
   {
+    "id": "radha_govind_dham_dallas_dallas_0",
+    "source": "curated",
+    "org_id": "radha_govind_dham_dallas_dallas",
+    "org_name": "Radha Govind Dham Dallas",
+    "source_url": "https://rgddallas.org/become-a-volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T14:04:14.374372+00:00",
+    "opportunity_title": "Event Volunteer",
+    "description_short": "Help plan and execute events and activities.",
+    "description_long": "We need help to plan, coordinate and execute both large celebrations and small festivals, events and daily activities. Join us.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Join us to help plan and coordinate events."
+  },
+  {
+    "id": "radha_govind_dham_dallas_dallas_1",
+    "source": "curated",
+    "org_id": "radha_govind_dham_dallas_dallas",
+    "org_name": "Radha Govind Dham Dallas",
+    "source_url": "https://rgddallas.org/become-a-volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T14:04:14.374372+00:00",
+    "opportunity_title": "Volunteer To Cook",
+    "description_short": "Help prepare meals for events.",
+    "description_long": "Join our Whatsapp group and prepare a dish for any event you want. WE serve lunch at every Sunday satsang at 1pm. We also prepare meals for all our major events.",
+    "schedule": {
+      "raw": "Every Sunday at 1pm for lunch",
+      "recurring": true,
+      "times_of_day": "1pm"
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Join our Whatsapp group to get involved."
+  },
+  {
+    "id": "radha_govind_dham_dallas_dallas_2",
+    "source": "curated",
+    "org_id": "radha_govind_dham_dallas_dallas",
+    "org_name": "Radha Govind Dham Dallas",
+    "source_url": "https://rgddallas.org/become-a-volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T14:04:14.374372+00:00",
+    "opportunity_title": "Youth Volunteer",
+    "description_short": "Volunteer in the Youth Group for ages 9-19.",
+    "description_long": "We have an active Youth Group for kids between ages 9-19 to learn about devotion through service to temple and the community. For more information, email Rupal at rgdyouth@gmail.com.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Ages 9-19.",
+    "cause_tags": [
+      "children",
+      "community"
+    ],
+    "apply_url": "mailto:rgdyouth@gmail.com",
+    "apply_instructions": "Email Rupal for more information."
+  },
+  {
     "id": "richardson_community_band_1",
     "source": "curated",
     "org_id": "richardson_community_band",
@@ -27156,6 +27701,126 @@
     }
   },
   {
+    "id": "sri_ganesha_temple_plano_plano_0",
+    "source": "curated",
+    "org_id": "sri_ganesha_temple_plano_plano",
+    "org_name": "Sri Ganesha Temple Plano",
+    "source_url": "https://sriganeshatempleplano.org/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-08T14:04:52.764955+00:00",
+    "opportunity_title": "Mahaprasadam Team",
+    "description_short": "Assist with preparing and transporting prasadam at the temple.",
+    "description_long": "The temple prepares prasadam every Sunday. The temple needs help preparing prasadam, packaging it into to-go boxes, and transporting it from devotees’ homes to the temple. Sunday efforts begin around 10:00 am and continue until 2:00 pm, depending on the workload. After the 12:00 pm Maha Mangala Arati, Mahaprasadam is served. Additionally, prasadam is prepared for all major festivals and pujas according to the Temple Calendar. All necessary supplies and gloves will be provided to volunteers during these events.",
+    "schedule": {
+      "raw": "Sundays from 10:00 am to 2:00 pm",
+      "recurring": true,
+      "times_of_day": "daytime"
+    },
+    "commitment": "weekly",
+    "location": {
+      "address": null,
+      "city": "Plano",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Join Our WhatsApp Community"
+  },
+  {
+    "id": "sri_ganesha_temple_plano_plano_1",
+    "source": "curated",
+    "org_id": "sri_ganesha_temple_plano_plano",
+    "org_name": "Sri Ganesha Temple Plano",
+    "source_url": "https://sriganeshatempleplano.org/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-08T14:04:52.764955+00:00",
+    "opportunity_title": "Puja Team",
+    "description_short": "Help with decorations and setup for temple events.",
+    "description_long": "The temple needs help with decorations, both inside and outside of the temple (Example: rangoli designs, hanging lights, flowers, curtains, garlands), cleaning and polishing puja items, and setting up and taking down each event.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Plano",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Join Our WhatsApp Community"
+  },
+  {
+    "id": "sri_ganesha_temple_plano_plano_2",
+    "source": "curated",
+    "org_id": "sri_ganesha_temple_plano_plano",
+    "org_name": "Sri Ganesha Temple Plano",
+    "source_url": "https://sriganeshatempleplano.org/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-08T14:04:52.764955+00:00",
+    "opportunity_title": "Temple Maintenance & Cleaning Team",
+    "description_short": "Provide maintenance and cleaning assistance at the temple.",
+    "description_long": "There will be times when the temple needs help with maintenance and cleaning activities. Let us know if you are skilled in any of the key trades (mechanical, electrical, plumbing, landscaping, carpentry etc).",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Plano",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Skilled in mechanical, electrical, plumbing, landscaping, carpentry, etc.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Join Our WhatsApp Community"
+  },
+  {
+    "id": "sri_guruvayurappan_temple_of_dallas_dallas_0",
+    "source": "curated",
+    "org_id": "sri_guruvayurappan_temple_of_dallas_dallas",
+    "org_name": "Sri Guruvayurappan Temple of Dallas",
+    "source_url": "https://info.guruvayurappan.us/g-o-d-volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T14:04:40.547340+00:00",
+    "opportunity_title": "G.O.D Volunteer Program",
+    "description_short": "Join the dedicated volunteer team at Sri Guruvayurappan Temple.",
+    "description_long": "Sri Guruvayurappan Temple of Dallas (G.O.D) is driven by dedicated and trained team of volunteers. The volunteers perform Seva in various areas within the Temple and the Spiritual Hall events. Volunteers are organized into teams (Committees and Sub-Committees) to assist with the different Temple activities, operations, and events.",
+    "schedule": {
+      "raw": "Starting April 1, 2025",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "Varies by committee",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Completion of volunteer form and training program; may vary by committee.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Download, fill, and submit the Volunteer Form at the Temple Front Office."
+  },
+  {
     "id": "joseph_catholic_mobile_pantry_0",
     "source": "curated",
     "org_id": "joseph_catholic_mobile_pantry",
@@ -27862,216 +28527,6 @@
       "precision": "virtual",
       "resolved_from": "location.virtual"
     }
-  },
-  {
-    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_1",
-    "source": "curated",
-    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
-    "org_name": "Animal Clinic of Grand Prairie",
-    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
-    "status": "active",
-    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
-    "opportunity_title": "Administrative Support Volunteer",
-    "description_short": "Help with answering phones, filing, and paperwork.",
-    "description_long": "Volunteers assist with administrative support by answering phones, filing, and assisting with paperwork.",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": null,
-    "location": {
-      "address": null,
-      "city": "Grand Prairie",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": null,
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Consider volunteering at a local shelter."
-  },
-  {
-    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_0",
-    "source": "curated",
-    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
-    "org_name": "Animal Clinic of Grand Prairie",
-    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
-    "status": "active",
-    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
-    "opportunity_title": "Animal Care Volunteer",
-    "description_short": "Assist with walking dogs, playing with cats, and cleaning enclosures.",
-    "description_long": "Volunteers are the backbone of many organizations, assisting with a wide range of tasks, including animal care like walking dogs, playing with cats, cleaning enclosures, and providing enrichment.",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": null,
-    "location": {
-      "address": null,
-      "city": "Grand Prairie",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": null,
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Consider volunteering at a local shelter."
-  },
-  {
-    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_4",
-    "source": "curated",
-    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
-    "org_name": "Animal Clinic of Grand Prairie",
-    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
-    "status": "active",
-    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
-    "opportunity_title": "Board Member",
-    "description_short": "Serve on the board and help direct the shelter's future.",
-    "description_long": "Serve on the board, a more advanced way of getting involved by helping direct the shelter and influencing future decisions.",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": null,
-    "location": {
-      "address": null,
-      "city": "Grand Prairie",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": null,
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Consider volunteering at a local shelter."
-  },
-  {
-    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_2",
-    "source": "curated",
-    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
-    "org_name": "Animal Clinic of Grand Prairie",
-    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
-    "status": "active",
-    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
-    "opportunity_title": "Event Support Volunteer",
-    "description_short": "Join us in helping with adoption events and fundraisers.",
-    "description_long": "Volunteers help with event support, assisting during adoption events, fundraisers, and community outreach.",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": null,
-    "location": {
-      "address": null,
-      "city": "Grand Prairie",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": null,
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Consider volunteering at a local shelter."
-  },
-  {
-    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_5",
-    "source": "curated",
-    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
-    "org_name": "Animal Clinic of Grand Prairie",
-    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
-    "status": "active",
-    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
-    "opportunity_title": "Foster a Pet",
-    "description_short": "Provide a temporary home for pets in need.",
-    "description_long": "Fostering provides a temporary, loving home for animals who may be too young for adoption or recovering from illness.",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": null,
-    "location": {
-      "address": null,
-      "city": "Grand Prairie",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": null,
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Consider volunteering at a local shelter."
-  },
-  {
-    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_3",
-    "source": "curated",
-    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
-    "org_name": "Animal Clinic of Grand Prairie",
-    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
-    "status": "active",
-    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
-    "opportunity_title": "Transportation Volunteer",
-    "description_short": "Drive animals to vet appointments or transport partners.",
-    "description_long": "Volunteers assist with transportation by driving animals to vet appointments or transport partners.",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": null,
-    "location": {
-      "address": null,
-      "city": "Grand Prairie",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": null,
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Consider volunteering at a local shelter."
-  },
-  {
-    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_6",
-    "source": "curated",
-    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
-    "org_name": "Animal Clinic of Grand Prairie",
-    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
-    "status": "active",
-    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
-    "opportunity_title": "Trap-Neuter-Vaccinate-Return Volunteer",
-    "description_short": "Participate in TNVR programs for community cats and dogs.",
-    "description_long": "You can participate in Trap-Neuter-Vaccinate-Return programs for community cats and dogs to manage the stray pet population.",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": null,
-    "location": {
-      "address": null,
-      "city": "Grand Prairie",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": null,
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Consider volunteering at a local shelter."
   },
   {
     "id": "tlt_tomorrow_s_leaders_today_inc_0",
