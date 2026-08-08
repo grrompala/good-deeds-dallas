@@ -384,7 +384,11 @@ const SUGGESTED_TAGS = [
 function EmptyHomeState({ onOpenSearch }) {
   return (
     <div className="py-3 lg:py-5 text-center max-w-2xl mx-auto">
-      <p className="text-base sm:text-lg text-muted leading-relaxed">
+      <p className="text-base sm:text-lg text-ink font-medium leading-relaxed">
+        Good Deeds Dallas is a volunteer directory for finding opportunities
+        across the Dallas metro in one place.
+      </p>
+      <p className="mt-3 text-base sm:text-lg text-muted leading-relaxed">
         Type a cause, town, or nonprofit in the search above, or pick
         a category to start exploring.
       </p>

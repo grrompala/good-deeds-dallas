@@ -35,7 +35,7 @@ export default function FilterDrawer({
     <>
       {/* Toolbar — slim, always-reachable row pinned under the app header. */}
       <div
-        className="sticky z-20 bg-canvas py-2 mb-1 flex items-center justify-between gap-3"
+        className="sticky z-20 bg-canvas py-2 mb-1 flex flex-col items-start gap-2 sm:flex-row sm:items-center sm:justify-between sm:gap-3"
         style={{ top: 'var(--app-header-h, 96px)' }}
       >
         <button
@@ -44,8 +44,9 @@ export default function FilterDrawer({
           aria-haspopup="dialog"
           aria-expanded={open}
         >
+          {/* Funnel (filter) icon */}
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-4 h-4">
-            <path d="M4 7h16M4 12h16M4 17h16" strokeLinecap="round" />
+            <path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z" strokeLinejoin="round" />
           </svg>
           Filters
           {activeCount > 0 && (
