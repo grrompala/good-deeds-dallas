@@ -2011,5 +2011,49 @@
     "fallback_urls": [],
     "notes": "Provides animal care, admin support, and transportation roles for shelter support.",
     "active": true
+  },
+  {
+    "id": "radha_govind_dham_dallas_dallas",
+    "name": "Radha Govind Dham Dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["community"],
+    "volunteer_url": "https://rgddallas.org/become-a-volunteer",
+    "fallback_urls": [],
+    "notes": "Radha Govind Dham Dallas offers volunteer roles in event planning, cooking, and community service.",
+    "active": true
+  },
+  {
+    "id": "dfw_hindu_temple_vidya_vikas_irving",
+    "name": "DFW Hindu Temple – Vidya Vikas",
+    "city": "Irving",
+    "state": "TX",
+    "cause": ["education", "community"],
+    "volunteer_url": "https://vv.dfwhindutemple.org/volunteersignup",
+    "fallback_urls": [],
+    "notes": "Offers teaching, crafts, admin help, and event organization roles for volunteers.",
+    "active": true
+  },
+  {
+    "id": "sri_guruvayurappan_temple_of_dallas_dallas",
+    "name": "Sri Guruvayurappan Temple of Dallas",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["community", "arts", "education"],
+    "volunteer_url": "https://info.guruvayurappan.us/g-o-d-volunteer",
+    "fallback_urls": [],
+    "notes": "Volunteers assist in temple activities, including teaching, maintenance, and event support.",
+    "active": true
+  },
+  {
+    "id": "sri_ganesha_temple_plano_plano",
+    "name": "Sri Ganesha Temple Plano",
+    "city": "Plano",
+    "state": "TX",
+    "cause": ["community"],
+    "volunteer_url": "https://sriganeshatempleplano.org/volunteer-opportunities",
+    "fallback_urls": [],
+    "notes": "Sri Ganesha Temple offers volunteer roles in prasadam preparation, event decoration, and temple maintenance.",
+    "active": true
   }
 ]
