@@ -1923,5 +1923,93 @@
     "fallback_urls": [],
     "notes": "Supports refugees in Dallas with roles like airport welcome, English practice, and community orientation.",
     "active": true
+  },
+  {
+    "id": "5_loaves_sachse",
+    "name": "5 Loaves Ministries",
+    "city": "Sachse",
+    "state": "TX",
+    "cause": ["food_security", "community"],
+    "volunteer_url": "https://5loavesministries.org/volunteer",
+    "fallback_urls": [],
+    "notes": "Operates a food pantry and community garden; volunteers sort donations, pack boxes, and maintain the garden.",
+    "active": true
+  },
+  {
+    "id": "wylie_christian_care_center_wylie",
+    "name": "Wylie Christian Care Center",
+    "city": "Wylie",
+    "state": "TX",
+    "cause": ["food_security", "community"],
+    "volunteer_url": "https://wyliecommunitychristiancare.org",
+    "fallback_urls": [],
+    "notes": "Provides emergency assistance, food, and clothing; volunteers sort food and assist with distributions.",
+    "active": true
+  },
+  {
+    "id": "bridge_dallas",
+    "name": "The Bridge",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["housing", "community", "animals"],
+    "volunteer_url": "https://www.bridgehrc.org/get-involved/volunteer",
+    "fallback_urls": [],
+    "notes": "The Bridge provides services to the homeless; volunteers can help in roles like library supervision, reception, and kennel care.",
+    "active": true
+  },
+  {
+    "id": "sachse_animal_shelter_sachse",
+    "name": "Sachse Animal Shelter",
+    "city": "Sachse",
+    "state": "TX",
+    "cause": ["animals"],
+    "volunteer_url": "https://www.cityofsachse.com/93/Donations-Volunteers",
+    "fallback_urls": [],
+    "notes": "Sachse Animal Shelter needs volunteers for tasks like cleaning, feeding, and walking animals.",
+    "active": true
+  },
+  {
+    "id": "family_promise_of_collin_county_sachse",
+    "name": "Family Promise of Collin County",
+    "city": "Sachse",
+    "state": "TX",
+    "cause": ["housing", "community"],
+    "volunteer_url": "https://www.familypromiseofcollincounty.org/volunteer",
+    "fallback_urls": [],
+    "notes": "Supports families facing homelessness with volunteer roles like meal prep and homework help.",
+    "active": true
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland",
+    "name": "Sachse High School - Garland ISD",
+    "city": "Garland",
+    "state": "TX",
+    "cause": ["education", "community"],
+    "volunteer_url": "https://www.garlandisdschools.net/shs/volunteer",
+    "fallback_urls": [],
+    "notes": "Sachse High School offers roles like tutoring and classroom help for community engagement.",
+    "active": true
+  },
+  {
+    "id": "housing_forward_dallas",
+    "name": "Housing Forward",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["housing", "community"],
+    "volunteer_url": "https://housingforwardntx.org/volunteer",
+    "fallback_urls": [],
+    "notes": "Conducts the Point-in-Time Count to assess homelessness; volunteers help with the census.",
+    "active": true
+  },
+  {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
+    "name": "Support Your Local Shelter | Grand Prairie Vets",
+    "city": "Grand Prairie",
+    "state": "TX",
+    "cause": ["animals"],
+    "volunteer_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
+    "fallback_urls": [],
+    "notes": "Provides animal care, admin support, and transportation roles for shelter support.",
+    "active": true
   }
 ]
