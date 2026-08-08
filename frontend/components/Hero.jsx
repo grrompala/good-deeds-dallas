@@ -6,7 +6,7 @@
 // reading "Good Deeds Dallas — Pay it forward in The Big D"). To change the
 // wordmark, swap that image; the footer keeps the text version.
 
-export default function Hero({ search, setSearch, onWordmarkClick }) {
+export default function Hero({ search, setSearch, onWordmarkClick, onMenuToggle, menuOpen = false }) {
   return (
     <section className="relative overflow-hidden border-b border-line bg-gradient-to-br from-brandSoft via-white to-accentSoft">
       <div
@@ -21,8 +21,10 @@ export default function Hero({ search, setSearch, onWordmarkClick }) {
       <div className="relative max-w-7xl mx-auto px-5 sm:px-6 lg:px-10 py-5 sm:py-6 lg:py-7">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-4 lg:gap-6">
           {/* Logo wordmark — clickable to return to home state. The title and
-              tagline live in the image itself (see note at top of file). */}
-          <div className="shrink-0 lg:max-w-md">
+              tagline live in the image itself (see note at top of file).
+              On mobile it shares this row with the hamburger; on lg+ it's the
+              left half of the header and the hamburger is hidden. */}
+          <div className="flex items-center justify-between gap-3 shrink-0 lg:block lg:max-w-md">
             <button
               onClick={onWordmarkClick}
               className="block text-left hover:opacity-80 transition-opacity"
@@ -35,6 +37,22 @@ export default function Hero({ search, setSearch, onWordmarkClick }) {
                 height={192}
                 className="h-14 sm:h-16 w-auto max-w-full"
               />
+            </button>
+
+            {/* Hamburger — mobile only; toggles the nav dropdown (MobileNav). */}
+            <button
+              onClick={onMenuToggle}
+              aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+              aria-expanded={menuOpen}
+              className="lg:hidden inline-flex items-center justify-center w-11 h-11 rounded-lg text-ink hover:bg-black/5 active:bg-black/10 transition-colors"
+            >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.25" className="w-6 h-6">
+                {menuOpen ? (
+                  <path d="M6 6l12 12M18 6L6 18" strokeLinecap="round" />
+                ) : (
+                  <path d="M4 6h16M4 12h16M4 18h16" strokeLinecap="round" />
+                )}
+              </svg>
             </button>
           </div>
 

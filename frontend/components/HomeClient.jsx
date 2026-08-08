@@ -20,7 +20,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { usePathname, useRouter } from 'next/navigation'
 import Hero                from './Hero'
-import TabBar              from './TabBar'
+import TabBar, { MobileNav } from './TabBar'
 import ListingsPanel       from './ListingsPanel'
 import OrganizationsPanel  from './OrganizationsPanel'
 import CommunityPanel      from './CommunityPanel'
@@ -74,6 +74,8 @@ export default function HomeClient({
   const [focusedTab,    setFocusedTab]    = useState(initialFocusedTab)
   const [selectedOrg,     setSelectedOrg]     = useState(null)
   const [selectedListing, setSelectedListing] = useState(null)
+  // Mobile hamburger menu (the desktop TabBar row is hidden < lg).
+  const [menuOpen, setMenuOpen] = useState(false)
 
   const listingsRef = useRef(null)
   const orgsRef     = useRef(null)
@@ -227,6 +229,8 @@ export default function HomeClient({
           search={search}
           setSearch={setSearch}
           onWordmarkClick={goHome}
+          onMenuToggle={() => setMenuOpen(o => !o)}
+          menuOpen={menuOpen}
         />
 
         <TabBar
@@ -236,6 +240,18 @@ export default function HomeClient({
           counts={tabCounts}
         />
       </header>
+
+      {/* Mobile-only nav dropdown (the hamburger's contents). Sits just below
+          the sticky header; selecting an item runs the same handlers as the
+          desktop tabs and then closes the menu. */}
+      <MobileNav
+        open={menuOpen}
+        active={showSearch ? 'search' : isStacked ? null : focusedTab}
+        counts={tabCounts}
+        onChange={id => { handleTabChange(id); setMenuOpen(false) }}
+        onHome={() => { goHome(); setMenuOpen(false) }}
+        onClose={() => setMenuOpen(false)}
+      />
 
       <main className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10 py-8 lg:py-12">
         {/* The empty state needs no data — render it immediately (it's also
