@@ -385,13 +385,16 @@ function EmptyHomeState({ onOpenSearch }) {
   return (
     <div className="py-3 lg:py-5 text-center max-w-2xl mx-auto">
       {/* Intro, center-aligned within the max-w-2xl column (matching the chips
-          below). First line is a plain greeting; the search prompt carries a
-          magnifying-glass marker in the brand indigo. */}
+          below). Both lines lead with an icon so they align: a wave on the
+          greeting, a magnifying glass on the search prompt. */}
       <div className="space-y-3 text-center text-base sm:text-lg text-inkSoft leading-relaxed">
-        <p>
-          Howdy! This is a directory for finding volunteer opportunities
-          across the Dallas-Fort Worth metroplex.
-        </p>
+        <div className="flex items-start justify-center gap-2.5">
+          <span aria-hidden className="mt-0.5 text-xl leading-none shrink-0">👋</span>
+          <span>
+            Howdy! This is a directory for finding volunteer opportunities
+            across the Dallas-Fort Worth metroplex.
+          </span>
+        </div>
         <div className="flex items-start justify-center gap-2.5">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-hidden className="mt-1 h-5 w-5 shrink-0 text-brand">
             <circle cx="11" cy="11" r="7" />
