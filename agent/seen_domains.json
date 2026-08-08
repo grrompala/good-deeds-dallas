@@ -1,7 +1,22 @@
 {
+  "5loavesministries.org": {
+    "date": "2026-08-08",
+    "reason": "The organization is a DFW-area nonprofit offering specific volunteer roles in a community garden and food pantry.",
+    "verdict": "accept"
+  },
+  "acgpvets.com": {
+    "date": "2026-08-08",
+    "reason": "The page describes specific volunteer roles such as animal care, administrative support, and transportation, which are concrete and actionable.",
+    "verdict": "accept"
+  },
   "addisontx.gov": {
     "date": "2026-07-21",
     "reason": "The page lacks specific, actionable volunteer roles.",
+    "verdict": "reject"
+  },
+  "amli.com": {
+    "date": "2026-08-08",
+    "reason": "The page lists animal shelters but does not provide specific volunteer roles or opportunities.",
     "verdict": "reject"
   },
   "app.betterimpact.com": {
@@ -12,6 +27,21 @@
   "austinstreet.org": {
     "date": "2026-07-21",
     "reason": "The page describes multiple concrete volunteer opportunities in Dallas, TX.",
+    "verdict": "accept"
+  },
+  "beaneighbor.vomo.org": {
+    "date": "2026-08-08",
+    "reason": "The page does not describe any specific volunteer role or opportunity.",
+    "verdict": "reject"
+  },
+  "bestfriends.org": {
+    "date": "2026-08-08",
+    "reason": "The page does not describe a specific volunteer opportunity in the DFW area.",
+    "verdict": "reject"
+  },
+  "bridgehrc.org": {
+    "date": "2026-08-08",
+    "reason": "The page describes specific volunteer roles in Dallas, meeting both criteria.",
     "verdict": "accept"
   },
   "bsw.vsyslive.com": {
@@ -29,9 +59,19 @@
     "reason": "The page describes specific volunteer opportunities in a DFW-area nonprofit.",
     "verdict": "accept"
   },
+  "centraltexasfoodbank.org": {
+    "date": "2026-08-08",
+    "reason": "The organization is based in Central Texas, not specifically DFW, and while it shows volunteer opportunities, it does not qualify as a DFW-area nonprofit.",
+    "verdict": "reject"
+  },
   "cisdallas.org": {
     "date": "2026-07-21",
     "reason": "The organization is a DFW-area nonprofit offering specific volunteer roles in education.",
+    "verdict": "accept"
+  },
+  "cityofsachse.com": {
+    "date": "2026-08-08",
+    "reason": "The page describes specific volunteer roles at the Sachse Animal Shelter.",
     "verdict": "accept"
   },
   "colonytx.com": {
@@ -59,6 +99,16 @@
     "reason": "The page does not describe a specific volunteer opportunity.",
     "verdict": "reject"
   },
+  "familypromiseofcollincounty.org": {
+    "date": "2026-08-08",
+    "reason": "The page describes specific volunteer roles in the DFW area, such as preparing meals and helping with homework.",
+    "verdict": "accept"
+  },
+  "farmersbranchtx.gov": {
+    "date": "2026-08-08",
+    "reason": "The page does not describe any specific volunteer opportunities.",
+    "verdict": "reject"
+  },
   "fccrowlett.org": {
     "date": "2026-08-02",
     "reason": "The page lacks specific, concrete volunteer roles and primarily focuses on donations.",
@@ -79,6 +129,21 @@
     "reason": "The page describes multiple real volunteer opportunities in Frisco, TX.",
     "verdict": "accept"
   },
+  "garlandisdschools.net": {
+    "date": "2026-08-08",
+    "reason": "The page describes specific volunteer roles at Sachse High School in the DFW area.",
+    "verdict": "accept"
+  },
+  "gatewaypeople.com": {
+    "date": "2026-08-08",
+    "reason": "The page lacks specific volunteer roles and focuses on events.",
+    "verdict": "reject"
+  },
+  "gpuc.org": {
+    "date": "2026-08-08",
+    "reason": "The page lacks specific, concrete volunteer roles and only provides a vague 'contact us to volunteer' form.",
+    "verdict": "reject"
+  },
   "gracebridge.us": {
     "date": "2026-08-01",
     "reason": "The organization is a DFW-area nonprofit offering real volunteer opportunities in food distribution and resale stores.",
@@ -87,6 +152,21 @@
   "hhs.texas.gov": {
     "date": "2026-07-21",
     "reason": "The page describes real volunteer opportunities in DFW-area nursing homes and assisted living facilities.",
+    "verdict": "accept"
+  },
+  "homelessshelterdirectory.org": {
+    "date": "2026-08-08",
+    "reason": "The page does not describe specific volunteer opportunities in the DFW area.",
+    "verdict": "reject"
+  },
+  "hopecenterministries.com": {
+    "date": "2026-08-08",
+    "reason": "The page lacks specific, actionable volunteer roles and focuses on donations and events.",
+    "verdict": "reject"
+  },
+  "housingforwardntx.org": {
+    "date": "2026-08-08",
+    "reason": "The page describes a real volunteer opportunity for the Point-in-Time Count in Dallas and Collin counties.",
     "verdict": "accept"
   },
   "intellichoice.org": {
@@ -102,6 +182,11 @@
   "justserve.org": {
     "date": "2026-08-02",
     "reason": "The page does not provide specific volunteer opportunities or roles.",
+    "verdict": "reject"
+  },
+  "learningbridgetx.org": {
+    "date": "2026-08-08",
+    "reason": "The organization is not located in or serving the DFW area.",
     "verdict": "reject"
   },
   "learntobe.org": {
@@ -174,6 +259,21 @@
     "reason": "The page describes a real volunteer opportunity for crisis line volunteers in the DFW area.",
     "verdict": "accept"
   },
+  "schoolhouse.world": {
+    "date": "2026-08-08",
+    "reason": "The organization is not DFW-local; it operates globally and does not have a specific local chapter.",
+    "verdict": "reject"
+  },
+  "schooltutoring.com": {
+    "date": "2026-08-08",
+    "reason": "The page describes paid tutoring services, not a volunteer opportunity.",
+    "verdict": "reject"
+  },
+  "stepuptutoring.org": {
+    "date": "2026-08-08",
+    "reason": "The organization does not specify a DFW-area presence or service.",
+    "verdict": "reject"
+  },
   "teenlife.com": {
     "date": "2026-08-01",
     "reason": "The page lacks specific, concrete volunteer roles and focuses on membership benefits and general volunteering.",
@@ -183,6 +283,11 @@
     "date": "2026-07-21",
     "reason": "The page describes a real volunteer opportunity in The Colony, TX, involving property maintenance assistance.",
     "verdict": "accept"
+  },
+  "thewylieway.com": {
+    "date": "2026-08-08",
+    "reason": "The page lacks specific, actionable volunteer roles and primarily offers vague opportunities.",
+    "verdict": "reject"
   },
   "tiktok.com": {
     "date": "2026-07-21",
@@ -207,6 +312,16 @@
   "wilcotx.gov": {
     "date": "2026-07-21",
     "reason": "The organization is not located in or serving the DFW area.",
+    "verdict": "reject"
+  },
+  "wyliecommunitychristiancare.org": {
+    "date": "2026-08-08",
+    "reason": "The page describes specific volunteer roles such as sorting food and assisting with distributions in the DFW area.",
+    "verdict": "accept"
+  },
+  "wylietexas.gov": {
+    "date": "2026-08-08",
+    "reason": "The page lacks specific, concrete volunteer roles and primarily provides contact information for potential volunteers.",
     "verdict": "reject"
   }
 }
