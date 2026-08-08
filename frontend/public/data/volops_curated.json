@@ -1,5 +1,158 @@
 [
   {
+    "id": "5_loaves_sachse_3",
+    "source": "curated",
+    "org_id": "5_loaves_sachse",
+    "org_name": "5 Loaves Ministries",
+    "source_url": "https://5loavesministries.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:42:09.447837+00:00",
+    "opportunity_title": "Baby Basics and Pet Pantry",
+    "description_short": "Prepare care packages for families with children or pets.",
+    "description_long": "Sort, stock, and prepare care packages for families with children or furry companions.",
+    "schedule": {
+      "raw": "Flexible schedule.",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No special skills required.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the office to get involved."
+  },
+  {
+    "id": "5_loaves_sachse_1",
+    "source": "curated",
+    "org_id": "5_loaves_sachse",
+    "org_name": "5 Loaves Ministries",
+    "source_url": "https://5loavesministries.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:42:09.447837+00:00",
+    "opportunity_title": "Clothing Closet",
+    "description_short": "Assist with sorting donations and packing grocery boxes.",
+    "description_long": "Help sort donations, pack grocery boxes, and assist during distribution hours.",
+    "schedule": {
+      "raw": "Flexible schedule during distribution hours.",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No special skills required.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the office to get involved."
+  },
+  {
+    "id": "5_loaves_sachse_4",
+    "source": "curated",
+    "org_id": "5_loaves_sachse",
+    "org_name": "5 Loaves Ministries",
+    "source_url": "https://5loavesministries.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:42:09.447837+00:00",
+    "opportunity_title": "Community Garden",
+    "description_short": "Grow produce and support local food relief efforts.",
+    "description_long": "Grow fresh produce and cultivate beauty while supporting local food relief efforts.",
+    "schedule": {
+      "raw": "Flexible schedule.",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No special skills required.",
+    "cause_tags": [
+      "food_security",
+      "community",
+      "environment"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the office to get involved."
+  },
+  {
+    "id": "5_loaves_sachse_2",
+    "source": "curated",
+    "org_id": "5_loaves_sachse",
+    "org_name": "5 Loaves Ministries",
+    "source_url": "https://5loavesministries.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:42:09.447837+00:00",
+    "opportunity_title": "Events and Group Opportunities",
+    "description_short": "Join us for special projects and event preparation.",
+    "description_long": "We welcome group volunteers for special projects and event prep.",
+    "schedule": {
+      "raw": "Flexible schedule for groups.",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No special skills required.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the office to schedule your group work day."
+  },
+  {
+    "id": "5_loaves_sachse_0",
+    "source": "curated",
+    "org_id": "5_loaves_sachse",
+    "org_name": "5 Loaves Ministries",
+    "source_url": "https://5loavesministries.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:42:09.447837+00:00",
+    "opportunity_title": "Food Pantry Volunteers",
+    "description_short": "Help sort donations and assist during distribution hours.",
+    "description_long": "Help sort donations, pack grocery boxes, and assist during distribution hours.",
+    "schedule": {
+      "raw": "Flexible schedule during distribution hours.",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No special skills required.",
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the office to get involved."
+  },
+  {
     "id": "aauw_tarrant_county_branch_1",
     "source": "curated",
     "org_id": "aauw_tarrant_county_branch",
@@ -9935,6 +10088,221 @@
     }
   },
   {
+    "id": "family_promise_of_collin_county_sachse_5",
+    "source": "curated",
+    "org_id": "family_promise_of_collin_county_sachse",
+    "org_name": "Family Promise of Collin County",
+    "source_url": "https://www.familypromiseofcollincounty.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:13.598913+00:00",
+    "opportunity_title": "Birthday Parties",
+    "description_short": "Assist in organizing and celebrating birthday parties for families.",
+    "description_long": "Volunteers can help with organizing and hosting birthday parties for children.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Volunteers are required to complete a volunteer application, criminal background check and orientation.",
+    "cause_tags": [
+      "children",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation."
+  },
+  {
+    "id": "family_promise_of_collin_county_sachse_1",
+    "source": "curated",
+    "org_id": "family_promise_of_collin_county_sachse",
+    "org_name": "Family Promise of Collin County",
+    "source_url": "https://www.familypromiseofcollincounty.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:13.598913+00:00",
+    "opportunity_title": "Children's Activities",
+    "description_short": "Engage with children by playing or helping with homework.",
+    "description_long": "Volunteers can play with children or help them with their homework.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Volunteers are required to complete a volunteer application, criminal background check and orientation.",
+    "cause_tags": [
+      "children",
+      "community",
+      "crisis_support"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation."
+  },
+  {
+    "id": "family_promise_of_collin_county_sachse_3",
+    "source": "curated",
+    "org_id": "family_promise_of_collin_county_sachse",
+    "org_name": "Family Promise of Collin County",
+    "source_url": "https://www.familypromiseofcollincounty.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:13.598913+00:00",
+    "opportunity_title": "Fundraising Events",
+    "description_short": "Support fundraising efforts for families in need.",
+    "description_long": "Volunteers are involved in assisting with fundraising events.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Volunteers are required to complete a volunteer application, criminal background check and orientation.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation."
+  },
+  {
+    "id": "family_promise_of_collin_county_sachse_4",
+    "source": "curated",
+    "org_id": "family_promise_of_collin_county_sachse",
+    "org_name": "Family Promise of Collin County",
+    "source_url": "https://www.familypromiseofcollincounty.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:13.598913+00:00",
+    "opportunity_title": "Landscaping and Yard Work",
+    "description_short": "Help with landscaping and yard work for the community.",
+    "description_long": "Volunteers can assist with landscaping and yard work.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Volunteers are required to complete a volunteer application, criminal background check and orientation.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation."
+  },
+  {
+    "id": "family_promise_of_collin_county_sachse_0",
+    "source": "curated",
+    "org_id": "family_promise_of_collin_county_sachse",
+    "org_name": "Family Promise of Collin County",
+    "source_url": "https://www.familypromiseofcollincounty.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:13.598913+00:00",
+    "opportunity_title": "Meal Preparation and Service",
+    "description_short": "Help shop, cook, and serve meals to families in need.",
+    "description_long": "Volunteers can help shop for, cook, and serve meals to families experiencing homelessness.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Volunteers are required to complete a volunteer application, criminal background check and orientation.",
+    "cause_tags": [
+      "community",
+      "crisis_support"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation."
+  },
+  {
+    "id": "family_promise_of_collin_county_sachse_6",
+    "source": "curated",
+    "org_id": "family_promise_of_collin_county_sachse",
+    "org_name": "Family Promise of Collin County",
+    "source_url": "https://www.familypromiseofcollincounty.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:13.598913+00:00",
+    "opportunity_title": "Mechanics Assistance",
+    "description_short": "Help with car repairs for families in need.",
+    "description_long": "Volunteers who are mechanics can assist with car repairs for families.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Volunteers are required to complete a volunteer application, criminal background check and orientation.",
+    "cause_tags": [
+      "community",
+      "crisis_support"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation."
+  },
+  {
+    "id": "family_promise_of_collin_county_sachse_2",
+    "source": "curated",
+    "org_id": "family_promise_of_collin_county_sachse",
+    "org_name": "Family Promise of Collin County",
+    "source_url": "https://www.familypromiseofcollincounty.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:13.598913+00:00",
+    "opportunity_title": "Special Projects",
+    "description_short": "Assist with upkeep of the Day Center and other special projects.",
+    "description_long": "Volunteers can help with special projects like Day Center upkeep, painting, etc.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Volunteers are required to complete a volunteer application, criminal background check and orientation.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation."
+  },
+  {
     "id": "fannin_county_family_crisis_center_3",
     "source": "curated",
     "org_id": "fannin_county_family_crisis_center",
@@ -16597,6 +16965,68 @@
       "precision": "virtual",
       "resolved_from": "location.virtual"
     }
+  },
+  {
+    "id": "housing_forward_dallas_0",
+    "source": "curated",
+    "org_id": "housing_forward_dallas",
+    "org_name": "Housing Forward",
+    "source_url": "https://housingforwardntx.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:49.661094+00:00",
+    "opportunity_title": "2027 Point-in-Time Count",
+    "description_short": "Volunteer for the PIT Count to help assess homelessness in the community.",
+    "description_long": "The 2027 Point-in-Time (PIT) Count will take place on the evening of January 21, 2027. The federally-mandated count will help us understand the extent of homelessness, changing trends, and the measure of our success in Dallas and Collin counties.",
+    "schedule": {
+      "raw": "January 21, 2027, starting at 8:00 pm",
+      "recurring": null,
+      "times_of_day": "evening"
+    },
+    "commitment": "one-time event",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Participants must watch a training video provided by Housing Forward.",
+    "cause_tags": [
+      "housing",
+      "community"
+    ],
+    "apply_url": "https://housingforward.pointintime.info/",
+    "apply_instructions": "Complete the PIT volunteer interest form to receive updates."
+  },
+  {
+    "id": "housing_forward_dallas_1",
+    "source": "curated",
+    "org_id": "housing_forward_dallas",
+    "org_name": "Housing Forward",
+    "source_url": "https://housingforwardntx.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:49.661094+00:00",
+    "opportunity_title": "Care Package Donations",
+    "description_short": "Donate gender-neutral care packages for those experiencing homelessness.",
+    "description_long": "We are in need of gender-neutral care packages for the PIT count. Individuals or organizations are welcome to donate assembled care packages to Housing Forward. We need care packages across Dallas and Collin counties, so you can select a drop-off location that is most convenient for you. All care packages must be dropped off by January 16, 2026.",
+    "schedule": {
+      "raw": "By January 16, 2026",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "one-time",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "housing",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Select a convenient drop-off location for the care packages."
   },
   {
     "id": "icr_discovery_center_0",
@@ -24945,6 +25375,494 @@
     }
   },
   {
+    "id": "sachse_animal_shelter_sachse_0",
+    "source": "curated",
+    "org_id": "sachse_animal_shelter_sachse",
+    "org_name": "Sachse Animal Shelter",
+    "source_url": "https://www.cityofsachse.com/93/Donations-Volunteers",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:42:54.171045+00:00",
+    "opportunity_title": "Animal Shelter Volunteer",
+    "description_short": "Help care for animals and assist with shelter operations.",
+    "description_long": "The animal shelter needs volunteers who are willing to participate in tasks such as Assisting with Laundry, Cleaning and Sanitizing Cages, Feeding, Grooming, Participating in Off-Site Adoptions, Performing Office Work, Sponsoring Animals with Needs, Taking Pictures, Transporting Animals, and Walking and Exercising Animals.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Willingness to assist with various animal care tasks; specific age or background check requirements not mentioned.",
+    "cause_tags": [
+      "animals",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact us at 972.675.9662 or email to express your interest in volunteering."
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_9",
+    "source": "curated",
+    "org_id": "sachse_high_school_garland_isd_garland",
+    "org_name": "Sachse High School - Garland ISD",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:39.954365+00:00",
+    "opportunity_title": "Athletics",
+    "description_short": "Support sports programs through various volunteer roles.",
+    "description_long": "",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must provide a photo ID and complete an online application.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_10",
+    "source": "curated",
+    "org_id": "sachse_high_school_garland_isd_garland",
+    "org_name": "Sachse High School - Garland ISD",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:39.954365+00:00",
+    "opportunity_title": "Booster Clubs",
+    "description_short": "Join a booster club to support specific programs.",
+    "description_long": "",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must provide a photo ID and complete an online application.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_8",
+    "source": "curated",
+    "org_id": "sachse_high_school_garland_isd_garland",
+    "org_name": "Sachse High School - Garland ISD",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:39.954365+00:00",
+    "opportunity_title": "Childcare providers",
+    "description_short": "Provide childcare during events or activities.",
+    "description_long": "",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must provide a photo ID and complete an online application.",
+    "cause_tags": [
+      "children",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_0",
+    "source": "curated",
+    "org_id": "sachse_high_school_garland_isd_garland",
+    "org_name": "Sachse High School - Garland ISD",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:39.954365+00:00",
+    "opportunity_title": "Classroom helper",
+    "description_short": "Assist teachers in the classroom with various tasks.",
+    "description_long": "",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must provide a photo ID and complete an online application.",
+    "cause_tags": [
+      "education",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_14",
+    "source": "curated",
+    "org_id": "sachse_high_school_garland_isd_garland",
+    "org_name": "Sachse High School - Garland ISD",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:39.954365+00:00",
+    "opportunity_title": "Community outreach leaders",
+    "description_short": "Lead outreach initiatives within the community.",
+    "description_long": "",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must provide a photo ID and complete an online application.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_13",
+    "source": "curated",
+    "org_id": "sachse_high_school_garland_isd_garland",
+    "org_name": "Sachse High School - Garland ISD",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:39.954365+00:00",
+    "opportunity_title": "Fundraiser liaisons",
+    "description_short": "Help organize and promote fundraising events.",
+    "description_long": "",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must provide a photo ID and complete an online application.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_11",
+    "source": "curated",
+    "org_id": "sachse_high_school_garland_isd_garland",
+    "org_name": "Sachse High School - Garland ISD",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:39.954365+00:00",
+    "opportunity_title": "Gameday equipment / set up",
+    "description_short": "Assist with setup and breakdown of equipment for game days.",
+    "description_long": "",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must provide a photo ID and complete an online application.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_6",
+    "source": "curated",
+    "org_id": "sachse_high_school_garland_isd_garland",
+    "org_name": "Sachse High School - Garland ISD",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:39.954365+00:00",
+    "opportunity_title": "Guest speakers",
+    "description_short": "Share your expertise with students as a guest speaker.",
+    "description_long": "",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must provide a photo ID and complete an online application.",
+    "cause_tags": [
+      "education",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_7",
+    "source": "curated",
+    "org_id": "sachse_high_school_garland_isd_garland",
+    "org_name": "Sachse High School - Garland ISD",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:39.954365+00:00",
+    "opportunity_title": "Judges/coaches for events",
+    "description_short": "Act as judges or coaches for various school events.",
+    "description_long": "",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must provide a photo ID and complete an online application.",
+    "cause_tags": [
+      "education",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_12",
+    "source": "curated",
+    "org_id": "sachse_high_school_garland_isd_garland",
+    "org_name": "Sachse High School - Garland ISD",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:39.954365+00:00",
+    "opportunity_title": "Meals for student athletes",
+    "description_short": "Provide meals for student athletes on game days.",
+    "description_long": "",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must provide a photo ID and complete an online application.",
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_3",
+    "source": "curated",
+    "org_id": "sachse_high_school_garland_isd_garland",
+    "org_name": "Sachse High School - Garland ISD",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:39.954365+00:00",
+    "opportunity_title": "Media: take photos and videos",
+    "description_short": "Capture moments at school events through photography and videography.",
+    "description_long": "",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must provide a photo ID and complete an online application.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_4",
+    "source": "curated",
+    "org_id": "sachse_high_school_garland_isd_garland",
+    "org_name": "Sachse High School - Garland ISD",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:39.954365+00:00",
+    "opportunity_title": "PTA board or committee member",
+    "description_short": "Join the Parent-Teacher Association and help improve the school.",
+    "description_long": "",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must provide a photo ID and complete an online application.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_5",
+    "source": "curated",
+    "org_id": "sachse_high_school_garland_isd_garland",
+    "org_name": "Sachse High School - Garland ISD",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:39.954365+00:00",
+    "opportunity_title": "Parking lot / traffic control",
+    "description_short": "Help manage traffic and parking during school events.",
+    "description_long": "",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must provide a photo ID and complete an online application.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_1",
+    "source": "curated",
+    "org_id": "sachse_high_school_garland_isd_garland",
+    "org_name": "Sachse High School - Garland ISD",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:39.954365+00:00",
+    "opportunity_title": "Tutoring",
+    "description_short": "Provide academic support to students through tutoring.",
+    "description_long": "",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must provide a photo ID and complete an online application.",
+    "cause_tags": [
+      "education",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_2",
+    "source": "curated",
+    "org_id": "sachse_high_school_garland_isd_garland",
+    "org_name": "Sachse High School - Garland ISD",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:43:39.954365+00:00",
+    "opportunity_title": "Visual and Performing Arts help",
+    "description_short": "Support visual and performing arts programs in the school.",
+    "description_long": "",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Sachse",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must provide a photo ID and complete an online application.",
+    "cause_tags": [
+      "arts",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+  },
+  {
     "id": "save_the_bees_usa_1",
     "source": "curated",
     "org_id": "save_the_bees_usa",
@@ -26946,6 +27864,216 @@
     }
   },
   {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_1",
+    "source": "curated",
+    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
+    "org_name": "Support Your Local Shelter | Grand Prairie Vets",
+    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
+    "opportunity_title": "Administrative Support Volunteer",
+    "description_short": "Help with answering phones, filing, and paperwork.",
+    "description_long": "Volunteers assist with administrative support by answering phones, filing, and assisting with paperwork.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Grand Prairie",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Consider volunteering at a local shelter."
+  },
+  {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_0",
+    "source": "curated",
+    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
+    "org_name": "Support Your Local Shelter | Grand Prairie Vets",
+    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
+    "opportunity_title": "Animal Care Volunteer",
+    "description_short": "Assist with walking dogs, playing with cats, and cleaning enclosures.",
+    "description_long": "Volunteers are the backbone of many organizations, assisting with a wide range of tasks, including animal care like walking dogs, playing with cats, cleaning enclosures, and providing enrichment.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Grand Prairie",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Consider volunteering at a local shelter."
+  },
+  {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_4",
+    "source": "curated",
+    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
+    "org_name": "Support Your Local Shelter | Grand Prairie Vets",
+    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
+    "opportunity_title": "Board Member",
+    "description_short": "Serve on the board and help direct the shelter's future.",
+    "description_long": "Serve on the board, a more advanced way of getting involved by helping direct the shelter and influencing future decisions.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Grand Prairie",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Consider volunteering at a local shelter."
+  },
+  {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_2",
+    "source": "curated",
+    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
+    "org_name": "Support Your Local Shelter | Grand Prairie Vets",
+    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
+    "opportunity_title": "Event Support Volunteer",
+    "description_short": "Join us in helping with adoption events and fundraisers.",
+    "description_long": "Volunteers help with event support, assisting during adoption events, fundraisers, and community outreach.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Grand Prairie",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Consider volunteering at a local shelter."
+  },
+  {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_5",
+    "source": "curated",
+    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
+    "org_name": "Support Your Local Shelter | Grand Prairie Vets",
+    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
+    "opportunity_title": "Foster a Pet",
+    "description_short": "Provide a temporary home for pets in need.",
+    "description_long": "Fostering provides a temporary, loving home for animals who may be too young for adoption or recovering from illness.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Grand Prairie",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Consider volunteering at a local shelter."
+  },
+  {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_3",
+    "source": "curated",
+    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
+    "org_name": "Support Your Local Shelter | Grand Prairie Vets",
+    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
+    "opportunity_title": "Transportation Volunteer",
+    "description_short": "Drive animals to vet appointments or transport partners.",
+    "description_long": "Volunteers assist with transportation by driving animals to vet appointments or transport partners.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Grand Prairie",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Consider volunteering at a local shelter."
+  },
+  {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_6",
+    "source": "curated",
+    "org_id": "support_your_local_shelter_grand_prairie_vets_grand_prairie",
+    "org_name": "Support Your Local Shelter | Grand Prairie Vets",
+    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:44:05.166441+00:00",
+    "opportunity_title": "Trap-Neuter-Vaccinate-Return Volunteer",
+    "description_short": "Participate in TNVR programs for community cats and dogs.",
+    "description_long": "You can participate in Trap-Neuter-Vaccinate-Return programs for community cats and dogs to manage the stray pet population.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Grand Prairie",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Consider volunteering at a local shelter."
+  },
+  {
     "id": "tlt_tomorrow_s_leaders_today_inc_0",
     "source": "curated",
     "org_id": "tlt_tomorrow_s_leaders_today_inc",
@@ -27759,6 +28887,276 @@
       "precision": "city",
       "resolved_from": "location.city"
     }
+  },
+  {
+    "id": "bridge_dallas_3",
+    "source": "curated",
+    "org_id": "bridge_dallas",
+    "org_name": "The Bridge",
+    "source_url": "https://www.bridgehrc.org/get-involved/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:42:45.161043+00:00",
+    "opportunity_title": "Art Class Volunteer",
+    "description_short": "Assist in setting up and supporting guests during art classes.",
+    "description_long": "Assist with set-up and clean-up of the room and art supplies before and after class. Serve coffee and snacks. Help Guests with art projects as needed, and encourage Guests and foster positive relationships.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 years or older.",
+    "cause_tags": [
+      "arts"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the community engagement manager for more information."
+  },
+  {
+    "id": "bridge_dallas_5",
+    "source": "curated",
+    "org_id": "bridge_dallas",
+    "org_name": "The Bridge",
+    "source_url": "https://www.bridgehrc.org/get-involved/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:42:45.161043+00:00",
+    "opportunity_title": "Campus Organization Volunteer",
+    "description_short": "Help maintain the campus and sort donations.",
+    "description_long": "Help keep The Bridge’s campus running smoothly by sorting and organizing donations, cleaning up around campus, and making sure supplies are readily accessible to meet the needs of our Guests.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 years or older.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the community engagement manager for more information."
+  },
+  {
+    "id": "bridge_dallas_7",
+    "source": "curated",
+    "org_id": "bridge_dallas",
+    "org_name": "The Bridge",
+    "source_url": "https://www.bridgehrc.org/get-involved/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:42:45.161043+00:00",
+    "opportunity_title": "Game Day Host",
+    "description_short": "Organize a game day for guests to enjoy.",
+    "description_long": "Host a game day at The Bridge with your group and spend time playing games and encouraging our Guests.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 years or older.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the community engagement manager for more information."
+  },
+  {
+    "id": "bridge_dallas_2",
+    "source": "curated",
+    "org_id": "bridge_dallas",
+    "org_name": "The Bridge",
+    "source_url": "https://www.bridgehrc.org/get-involved/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:42:45.161043+00:00",
+    "opportunity_title": "Karaoke or Bingo Night Volunteer",
+    "description_short": "Host Karaoke or Bingo events for our guests.",
+    "description_long": "Join our Karaoke and BINGO volunteers and host Karaoke or BINGO for our Guests.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 years or older.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the community engagement manager for more information."
+  },
+  {
+    "id": "bridge_dallas_4",
+    "source": "curated",
+    "org_id": "bridge_dallas",
+    "org_name": "The Bridge",
+    "source_url": "https://www.bridgehrc.org/get-involved/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:42:45.161043+00:00",
+    "opportunity_title": "Kennel Volunteer",
+    "description_short": "Care for dogs and maintain the kennel area.",
+    "description_long": "Help monitor the dog’s water supply, keep the kennel clean, take the dogs to play in our on-site dog park, pick up dog waste, and provide companionship for the pups while their owners work on their homeless recovery.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 years or older.",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the community engagement manager for more information."
+  },
+  {
+    "id": "bridge_dallas_0",
+    "source": "curated",
+    "org_id": "bridge_dallas",
+    "org_name": "The Bridge",
+    "source_url": "https://www.bridgehrc.org/get-involved/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:42:45.161043+00:00",
+    "opportunity_title": "Library Volunteer",
+    "description_short": "Help supervise the library and assist guests with book checkouts.",
+    "description_long": "Supervise the library and check out library books & games, as well as monitor computer usage and keep the library organized.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 years or older.",
+    "cause_tags": [
+      "education"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the community engagement manager for more information."
+  },
+  {
+    "id": "bridge_dallas_1",
+    "source": "curated",
+    "org_id": "bridge_dallas",
+    "org_name": "The Bridge",
+    "source_url": "https://www.bridgehrc.org/get-involved/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:42:45.161043+00:00",
+    "opportunity_title": "Reception Desk Volunteer",
+    "description_short": "Engage with guests and assist with inquiries at the reception desk.",
+    "description_long": "Answer phone calls and properly direct inquiries, engage with Guests, answer questions, and hand out supplies including hygiene kits and laundry detergent.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 years or older.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the community engagement manager for more information."
+  },
+  {
+    "id": "bridge_dallas_6",
+    "source": "curated",
+    "org_id": "bridge_dallas",
+    "org_name": "The Bridge",
+    "source_url": "https://www.bridgehrc.org/get-involved/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:42:45.161043+00:00",
+    "opportunity_title": "Treat Social Host",
+    "description_short": "Bring treats and host a social for the guests.",
+    "description_long": "Host a treat social for our Guests at The Bridge! Bring coffee, cookies, popcorn, or other treats to distribute to our Guests and brighten their day.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 years or older.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the community engagement manager for more information."
+  },
+  {
+    "id": "bridge_dallas_8",
+    "source": "curated",
+    "org_id": "bridge_dallas",
+    "org_name": "The Bridge",
+    "source_url": "https://www.bridgehrc.org/get-involved/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:42:45.161043+00:00",
+    "opportunity_title": "Welcome Baskets and Kits Volunteer",
+    "description_short": "Collect items to build welcome kits and baskets for guests.",
+    "description_long": "Collect the items necessary to build Welcome to The Bridge Kits and Welcome Home Baskets for our Guests moving into a home of their own.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 years or older.",
+    "cause_tags": [
+      "housing"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the community engagement manager for more information."
   },
   {
     "id": "friendship_house_carrollton_0",
@@ -32159,6 +33557,37 @@
       "precision": "city",
       "resolved_from": "location.city"
     }
+  },
+  {
+    "id": "wylie_christian_care_center_wylie_0",
+    "source": "curated",
+    "org_id": "wylie_christian_care_center_wylie",
+    "org_name": "Wylie Christian Care Center",
+    "source_url": "https://wyliecommunitychristiancare.org",
+    "status": "active",
+    "last_scraped": "2026-08-08T13:42:17.807930+00:00",
+    "opportunity_title": "General Volunteer",
+    "description_short": "Help sort food, greet families, and assist with distributions.",
+    "description_long": "Volunteer by sorting food, greeting families, assisting with distributions, or helping behind the scenes. There's a role for everyone.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Wylie",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign Up to Volunteer"
   },
   {
     "id": "re_building_together_north_texas_1",
