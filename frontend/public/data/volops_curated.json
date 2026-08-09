@@ -27,7 +27,33 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact the office to get involved."
+    "apply_instructions": "Contact the office to get involved.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role in preparing care packages for families.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "children",
+      "animals",
+      "community"
+    ],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "5_loaves_sachse_1",
@@ -57,7 +83,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact the office to get involved."
+    "apply_instructions": "Contact the office to get involved.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Specific tasks in sorting donations and packing grocery boxes.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "5_loaves_sachse_4",
@@ -89,7 +137,32 @@
       "environment"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact the office to get involved."
+    "apply_instructions": "Contact the office to get involved.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Involves growing produce for local food relief efforts.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "5_loaves_sachse_2",
@@ -119,7 +192,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact the office to schedule your group work day."
+    "apply_instructions": "Contact the office to schedule your group work day.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "Generic invitation for group volunteers without specific tasks.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "5_loaves_sachse_0",
@@ -150,7 +245,32 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact the office to get involved."
+    "apply_instructions": "Contact the office to get involved.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Specific role in sorting donations and assisting during distribution.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "aauw_tarrant_county_branch_1",
@@ -557,7 +677,29 @@
       "animals"
     ],
     "apply_url": null,
-    "apply_instructions": "Consider volunteering at a local shelter."
+    "apply_instructions": "Consider volunteering at a local shelter.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "Generic invitation to volunteer without specific tasks.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Grand Prairie",
+      "state": "TX",
+      "lat": 32.74596,
+      "lng": -96.99778,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_0",
@@ -587,7 +729,31 @@
       "animals"
     ],
     "apply_url": null,
-    "apply_instructions": "Consider volunteering at a local shelter."
+    "apply_instructions": "Consider volunteering at a local shelter.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role in animal care tasks.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ],
+    "geo": {
+      "city": "Grand Prairie",
+      "state": "TX",
+      "lat": 32.74596,
+      "lng": -96.99778,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_4",
@@ -617,7 +783,32 @@
       "animals"
     ],
     "apply_url": null,
-    "apply_instructions": "Consider volunteering at a local shelter."
+    "apply_instructions": "Consider volunteering at a local shelter.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "internship_or_job",
+      "reason": "Board member role implies a governance position, not volunteering.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ],
+    "geo": {
+      "city": "Grand Prairie",
+      "state": "TX",
+      "lat": 32.74596,
+      "lng": -96.99778,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_2",
@@ -647,7 +838,32 @@
       "animals"
     ],
     "apply_url": null,
-    "apply_instructions": "Consider volunteering at a local shelter."
+    "apply_instructions": "Consider volunteering at a local shelter.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "athletic_or_social_event",
+      "reason": "Event support role is tied to adoption events and fundraisers.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ],
+    "geo": {
+      "city": "Grand Prairie",
+      "state": "TX",
+      "lat": 32.74596,
+      "lng": -96.99778,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_5",
@@ -677,7 +893,31 @@
       "animals"
     ],
     "apply_url": null,
-    "apply_instructions": "Consider volunteering at a local shelter."
+    "apply_instructions": "Consider volunteering at a local shelter.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role in providing a temporary home for pets.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ],
+    "geo": {
+      "city": "Grand Prairie",
+      "state": "TX",
+      "lat": 32.74596,
+      "lng": -96.99778,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_3",
@@ -707,7 +947,29 @@
       "animals"
     ],
     "apply_url": null,
-    "apply_instructions": "Consider volunteering at a local shelter."
+    "apply_instructions": "Consider volunteering at a local shelter.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role of driving animals to appointments.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Grand Prairie",
+      "state": "TX",
+      "lat": 32.74596,
+      "lng": -96.99778,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_6",
@@ -737,7 +999,32 @@
       "animals"
     ],
     "apply_url": null,
-    "apply_instructions": "Consider volunteering at a local shelter."
+    "apply_instructions": "Consider volunteering at a local shelter.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Participate in TNVR programs for community cats and dogs.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ],
+    "geo": {
+      "city": "Grand Prairie",
+      "state": "TX",
+      "lat": 32.74596,
+      "lng": -96.99778,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "arlington_life_shelter_2",
@@ -1673,6 +1960,807 @@
       "state": "TX",
       "lat": 32.75318,
       "lng": -97.33275,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_11",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Adoption Support",
+    "description_short": "Assist guests during the DAS adoption process.",
+    "description_long": "Help our team make #DASHappyTails happen by providing Adoption Support! These volunteers help greet DAS guests and answer any questions they might have about the DAS adoption process or the pets in our care so that our staff has more time to counsel and finalize adoptions.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "community",
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assist guests during the DAS adoption process.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_8",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Animal Handler for Medical",
+    "description_short": "Support veterinary staff by helping to manage animals.",
+    "description_long": "These volunteers are the extra set of hands needed in the clinic! They run the animals who need medical exams to and from the clinic and help to keep DAS pets still and calm while they are being examined.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Support veterinary staff by managing animals.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_9",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Animal Marketing",
+    "description_short": "Assist in promoting adoptable pets through marketing.",
+    "description_long": "With so many pets coming into DAS every single day, our marketing staff can always use a little help getting the word out to the public about just how awesome our adoptable pets are! If you have a creative side and a love for your furry friends, these might be the purrrfect volunteer opportunities for you!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "Vague role, no specific task described.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_3",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Cat Socialization",
+    "description_short": "Help socialize cats to improve their adoptability.",
+    "description_long": "Socializing the cats in our care helps them to become more adoptable down the line! If you’re a cat person, this is a great volunteer opportunity to make friends with our felines! Simple acts like playing with and petting our felines can greatly improve their quality of life while they’re at the shelter.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Help socialize cats to improve their adoptability.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_1",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Click-for-Calm",
+    "description_short": "Help calm shelter dogs using positive reinforcement techniques.",
+    "description_long": "Click for Calm volunteers walk through the kennels using positive reinforcement operant conditioning techniques to reinforce calm behavior from the dogs in the kennels. Once a dog has all four paws on the floor, or if the cat comes to the front of the kennel, the volunteer pushes a clicker and gives out a treat. This helps our pets put their best face forward for adopters!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Help calm shelter dogs using positive reinforcement.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_13",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Community Outreach and Education",
+    "description_short": "Spread awareness about DAS and its lifesaving work.",
+    "description_long": "Do you LOVE DAS and want to help us spread the word about the lifesaving work we’re doing? Become a Community Outreach and Education volunteer! These volunteers go with staff to offsite events or other opportunities and help hand out flyers and talk to the public about the amazing work we do, the services we have to offer, and how they can get involved.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Spread awareness about DAS and its work.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_0",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "D90 Dog Runners",
+    "description_short": "Run with high-energy dogs to improve their well-being and chances of adoption.",
+    "description_long": "The D90 Runners are a group of DAS volunteers who provide high-energy dogs with the exercise and stimulation they crave. When high-energy dogs get the exercise they need, they have a higher quality of life, are less susceptible to illness, behave better in their kennels, and have higher chances of adoption. Each participating dog runs one mile, which may seem small to seasoned runners, but it makes a world of difference to a shelter pup. The D90 Runners can run with 1-3 dogs during our group runs which also allows you to customize your workout for the day. After the run, the dogs typically fall asleep quickly with wagging tails and big smiles on their faces.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Volunteers must complete DAS Canine Handler Training before participating.",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Run with high-energy dogs to improve their well-being.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_10",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "D90 Fur-tographers",
+    "description_short": "Capture great images of adoptable pets to aid their adoption.",
+    "description_long": "Does the camera roll on your phone have more photos of your four-legged friends than your two-legged ones? Our Phone Fur-tographers help us update pet photos within just a day or two of their intake. This volunteer opportunity doesn’t require any professional photography experience or equipment—if you know how to take a photo with your phone, you can help us save lives! Our Pro Fur-tographers have a little more photography experience and equipment than our Phone Fur-tographers. If you have a DSLR camera and a love for both professional photography and animals, we want you on our team! These volunteers make our longer residents SHINE by giving them professional photographs that we can use to promote them on our website and social media. We pair our Pro-Furtographers up with Animal Handling Volunteers so that their time spent photographing is efficient and effective!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Capture images of adoptable pets to aid their adoption.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "animals",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_5",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Dog Playgroup Assistant",
+    "description_short": "Help with daily dog playgroups for socialization.",
+    "description_long": "Eligible DAS dogs have the opportunity to participate in daily dog playgroups. Playgroups are not only a great way for us to assess how dogs will behave with other dogs, but they also give shelter pups the outlet and exercise they crave! As a Dog Playgroup Assistant, you’ll help our playgroup staff by shuttling dogs to and from playgroup and get to observe DAS pups have a little fun.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assist with daily dog playgroups for socialization.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_6",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Dog Walking & Socialization",
+    "description_short": "Give love and attention to adoptable dogs by walking them.",
+    "description_long": "We can always use volunteers who are willing to get our dogs out of their kennels and give them a little extra human love! Walking our adoptable dogs or just spending time with them one-on-one in our play yards is a great way to help these pups destress and have a little fun. Plus, our volunteers teach us so much about the personalities of the dogs they spend time with which helps us find the PAWfect match!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Walk and socialize adoptable dogs to help them destress.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_2",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Enrichment",
+    "description_short": "Create fun enrichment items for shelter pets.",
+    "description_long": "Have a knack for crafts? You might enjoy our enrichment shifts. Create a tasty frozen treat, a treat puzzle or snuffle mat, or other enrichment items for our pets and distribute!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "printable_or_athome_activity",
+      "reason": "Creating enrichment items is a DIY activity, not direct volunteering.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_14",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Foster Volunteers",
+    "description_short": "Provide temporary homes for vulnerable animals in shelters.",
+    "description_long": "Many of our volunteers also become foster parents and help to save the lives of the most vulnerable animals in our shelter by providing them a temporary home away from the shelter.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Provide temporary homes for vulnerable animals in shelters.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_4",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Fraidy Cat Team",
+    "description_short": "Assist scared cats to become more social and adoptable.",
+    "description_long": "Our Fraidy Cat Team provides enrichment and introduces our 'Fraidy Cats' to socialization which allows them to come out of their shells and makes them more adoptable.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assist scared cats to become more social and adoptable.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_7",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Medical Team Volunteers",
+    "description_short": "Assist medical staff in caring for animals at DAS.",
+    "description_long": "Be on the front lines of lifesaving at DAS by being a volunteer for our medical team! These volunteers assist our staff in prepping animals and supplies for medical procedures or daily care.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assist medical staff in caring for animals at DAS.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_12",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Offsite Adoption Support",
+    "description_short": "Support adoption events by representing DAS in the community.",
+    "description_long": "DAS often takes our pets offsite for adoption events all over the city of Dallas! Local pet stores, dog-friendly patios, even libraries in Dallas have all hosted these events.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "community",
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Support adoption events by representing DAS in the community.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
       "precision": "city",
       "resolved_from": "location.city"
     }
@@ -3086,7 +4174,29 @@
       "environment"
     ],
     "apply_url": null,
-    "apply_instructions": "register to serve here"
+    "apply_instructions": "register to serve here",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Plant and harvest fruits and vegetables in the market garden.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "brother_bill_s_helping_hand_dallas_4",
@@ -3117,7 +4227,33 @@
       "environment"
     ],
     "apply_url": null,
-    "apply_instructions": "register to serve here"
+    "apply_instructions": "register to serve here",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Help plant and maintain the garden for the food pantry.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community",
+      "education"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "brother_bill_s_helping_hand_dallas_2",
@@ -3148,7 +4284,32 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "register to serve here"
+    "apply_instructions": "register to serve here",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assist with grocery distribution and pantry maintenance.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "brother_bill_s_helping_hand_dallas_3",
@@ -3179,7 +4340,32 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "register to serve here"
+    "apply_instructions": "register to serve here",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers can restock and distribute groceries.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "brother_bill_s_helping_hand_dallas_1",
@@ -3210,7 +4396,32 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Register to serve here"
+    "apply_instructions": "Register to serve here",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers can distribute groceries and restock shelves.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "brother_bill_s_helping_hand_dallas_0",
@@ -3242,7 +4453,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Register to serve here"
+    "apply_instructions": "Register to serve here",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Various volunteer roles including distributing groceries and serving in classrooms.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "camp_summit_inc_0",
@@ -4089,7 +5322,24 @@
       "lng": -96.79686,
       "precision": "city",
       "resolved_from": "location.city"
-    }
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "No specific role or task described.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "immigration",
+      "civic"
+    ]
   },
   {
     "id": "cws_dallas_dallas_0",
@@ -4127,7 +5377,24 @@
       "lng": -96.79686,
       "precision": "city",
       "resolved_from": "location.city"
-    }
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers support refugees through friendship and orientation.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "community",
+      "immigration"
+    ]
   },
   {
     "id": "cws_dallas_dallas_2",
@@ -4165,7 +5432,24 @@
       "lng": -96.79686,
       "precision": "city",
       "resolved_from": "location.city"
-    }
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "donation_or_fundraising",
+      "reason": "Assembling welcome kits involves purchasing items, not direct volunteering.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "immigration",
+      "community"
+    ]
   },
   {
     "id": "cws_dallas_dallas_1",
@@ -4203,7 +5487,25 @@
       "lng": -96.79686,
       "precision": "city",
       "resolved_from": "location.city"
-    }
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers help set up homes for new refugee families.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "immigration",
+      "housing",
+      "community"
+    ]
   },
   {
     "id": "call_a_ride_of_southlake_cars_0",
@@ -8203,7 +9505,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact via email or phone to volunteer."
+    "apply_instructions": "Contact via email or phone to volunteer.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers assist the admin team with various tasks.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Irving",
+      "state": "TX",
+      "lat": 32.82952,
+      "lng": -96.94422,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "dfw_hindu_temple_vidya_vikas_irving_2",
@@ -8234,7 +9558,29 @@
       "education"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact via email or phone to volunteer."
+    "apply_instructions": "Contact via email or phone to volunteer.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers monitor hallways and aisles during classes.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Irving",
+      "state": "TX",
+      "lat": 32.82952,
+      "lng": -96.94422,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "dfw_hindu_temple_vidya_vikas_irving_1",
@@ -8265,7 +9611,33 @@
       "education"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact via email or phone to volunteer."
+    "apply_instructions": "Contact via email or phone to volunteer.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers help with crafting activities for children.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "children",
+      "arts",
+      "community"
+    ],
+    "geo": {
+      "city": "Irving",
+      "state": "TX",
+      "lat": 32.82952,
+      "lng": -96.94422,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "dfw_hindu_temple_vidya_vikas_irving_4",
@@ -8295,7 +9667,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact via email or phone to volunteer."
+    "apply_instructions": "Contact via email or phone to volunteer.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "No specific role or task described.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Irving",
+      "state": "TX",
+      "lat": 32.82952,
+      "lng": -96.94422,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "dfw_hindu_temple_vidya_vikas_irving_7",
@@ -8325,7 +9719,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact via email or phone to volunteer."
+    "apply_instructions": "Contact via email or phone to volunteer.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "No specific role or task described.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Irving",
+      "state": "TX",
+      "lat": 32.82952,
+      "lng": -96.94422,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "dfw_hindu_temple_vidya_vikas_irving_6",
@@ -8355,7 +9771,29 @@
       "children"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact via email or phone to volunteer."
+    "apply_instructions": "Contact via email or phone to volunteer.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "No specific role or task described.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Irving",
+      "state": "TX",
+      "lat": 32.82952,
+      "lng": -96.94422,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "dfw_hindu_temple_vidya_vikas_irving_0",
@@ -8386,7 +9824,33 @@
       "education"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact via email or phone to volunteer."
+    "apply_instructions": "Contact via email or phone to volunteer.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Teaching and helping with crafts are concrete volunteer roles.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ],
+    "geo": {
+      "city": "Irving",
+      "state": "TX",
+      "lat": 32.82952,
+      "lng": -96.94422,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "dfw_hindu_temple_vidya_vikas_irving_5",
@@ -8416,7 +9880,33 @@
       "children"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact via email or phone to volunteer."
+    "apply_instructions": "Contact via email or phone to volunteer.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "No specific role or task described.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ],
+    "geo": {
+      "city": "Irving",
+      "state": "TX",
+      "lat": 32.82952,
+      "lng": -96.94422,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "dfw_rescue_me_2",
@@ -9832,7 +11322,31 @@
       "animals"
     ],
     "apply_url": null,
-    "apply_instructions": "For more information or questions about any adult volunteer opportunity, email Volunteers@DallasZoo.com or call 469.554.7453."
+    "apply_instructions": "For more information or questions about any adult volunteer opportunity, email Volunteers@DallasZoo.com or call 469.554.7453.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assisting with animal diets is a concrete volunteer role.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "dallas_zoo_dallas_1",
@@ -9860,7 +11374,29 @@
     "requirements": "Currently enrolled undergraduate or graduate students.",
     "cause_tags": [],
     "apply_url": null,
-    "apply_instructions": "Apply Now"
+    "apply_instructions": "Apply Now",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "internship_or_job",
+      "reason": "This is an internship program for college students.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "dallas_zoo_dallas_3",
@@ -9891,7 +11427,33 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "For more information or questions about any adult volunteer opportunity, email Volunteers@DallasZoo.com or call 469.554.7453."
+    "apply_instructions": "For more information or questions about any adult volunteer opportunity, email Volunteers@DallasZoo.com or call 469.554.7453.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Educating guests about wildlife is a concrete volunteer role.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "animals",
+      "education",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "dallas_zoo_dallas_6",
@@ -9921,7 +11483,31 @@
       "animals"
     ],
     "apply_url": null,
-    "apply_instructions": "For more information or questions about any adult volunteer opportunity, email Volunteers@DallasZoo.com or call 469.554.7453."
+    "apply_instructions": "For more information or questions about any adult volunteer opportunity, email Volunteers@DallasZoo.com or call 469.554.7453.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assisting zoologists in animal care is a concrete volunteer role.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "dallas_zoo_dallas_5",
@@ -9949,7 +11535,29 @@
     "requirements": null,
     "cause_tags": [],
     "apply_url": null,
-    "apply_instructions": "For more information or questions about any adult volunteer opportunity, email Volunteers@DallasZoo.com or call 469.554.7453."
+    "apply_instructions": "For more information or questions about any adult volunteer opportunity, email Volunteers@DallasZoo.com or call 469.554.7453.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Staffing events at the Zoo is a concrete volunteer role.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "dallas_zoo_dallas_4",
@@ -9977,7 +11585,29 @@
     "requirements": "Individuals with special skills (welders, carpenters, electricians).",
     "cause_tags": [],
     "apply_url": null,
-    "apply_instructions": "For more information or questions about any adult volunteer opportunity, email Volunteers@DallasZoo.com or call 469.554.7453."
+    "apply_instructions": "For more information or questions about any adult volunteer opportunity, email Volunteers@DallasZoo.com or call 469.554.7453.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers assist with unique projects using special skills.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "dallas_zoo_dallas_0",
@@ -10005,7 +11635,29 @@
     "requirements": "Ages 13-17, must complete Zoo Crew Training Program.",
     "cause_tags": [],
     "apply_url": null,
-    "apply_instructions": "Apply Now"
+    "apply_instructions": "Apply Now",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Teens gain hands-on experience in various zoo departments.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "dementia_friendly_fort_worth_0",
@@ -10538,7 +12190,9 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "community"
+    ],
     "geo": {
       "city": "McKinney",
       "state": "TX",
@@ -10959,7 +12613,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation."
+    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers help organize and host birthday parties for children.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "family_promise_of_collin_county_sachse_1",
@@ -10991,7 +12667,33 @@
       "crisis_support"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation."
+    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers engage with children by playing or helping with homework.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "family_promise_of_collin_county_sachse_3",
@@ -11021,7 +12723,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation."
+    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "donation_or_fundraising",
+      "reason": "Involves assisting with fundraising events.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "family_promise_of_collin_county_sachse_4",
@@ -11051,7 +12775,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation."
+    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers assist with landscaping and yard work.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "family_promise_of_collin_county_sachse_0",
@@ -11082,7 +12828,32 @@
       "crisis_support"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation."
+    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers help shop for, cook, and serve meals.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "family_promise_of_collin_county_sachse_6",
@@ -11113,7 +12884,29 @@
       "crisis_support"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation."
+    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers assist with car repairs for families.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "family_promise_of_collin_county_sachse_2",
@@ -11143,7 +12936,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation."
+    "apply_instructions": "Complete a volunteer application, pass a criminal background check, and attend orientation.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers help with upkeep and special projects.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "fannin_county_family_crisis_center_3",
@@ -12599,7 +14414,9 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
@@ -13529,7 +15346,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Schedule can be found on the organization's website."
+    "apply_instructions": "Schedule can be found on the organization's website.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "athletic_or_social_event",
+      "reason": "Involves attending meetings, not volunteering.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "friends_of_oak_cliff_parks_dallas_0",
@@ -13559,7 +15398,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact Ellen Fitzsimmons at efitzsimmons@friendsofoakcliffparks.org"
+    "apply_instructions": "Contact Ellen Fitzsimmons at efitzsimmons@friendsofoakcliffparks.org",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Concrete role in parks for volunteer workdays.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "friends_of_rescue_animals_1",
@@ -17899,7 +19760,32 @@
       "community"
     ],
     "apply_url": "https://housingforward.pointintime.info/",
-    "apply_instructions": "Complete the PIT volunteer interest form to receive updates."
+    "apply_instructions": "Complete the PIT volunteer interest form to receive updates.",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2027-01-21",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteering for the Point-in-Time Count to assess homelessness.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "housing",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "housing_forward_dallas_1",
@@ -17930,7 +19816,32 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Select a convenient drop-off location for the care packages."
+    "apply_instructions": "Select a convenient drop-off location for the care packages.",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-01-16",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-01-16)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "unified_tags": [
+      "housing",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "icr_discovery_center_0",
@@ -18688,7 +20599,21 @@
       "lng": -96.79686,
       "precision": "city",
       "resolved_from": "location.city"
-    }
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Providing essential administrative support for refugee clients.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "international_rescue_committee_dallas_0",
@@ -18727,7 +20652,21 @@
       "lng": -96.79686,
       "precision": "city",
       "resolved_from": "location.city"
-    }
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Helping prepare and furnish homes for new refugee families.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "international_rescue_committee_dallas_1",
@@ -18766,7 +20705,21 @@
       "lng": -96.79686,
       "precision": "city",
       "resolved_from": "location.city"
-    }
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "internship_or_job",
+      "reason": "Role focuses on expanding employment opportunities, not a specific task.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "international_rescue_committee_dallas_3",
@@ -18804,7 +20757,24 @@
       "lng": -96.79686,
       "precision": "city",
       "resolved_from": "location.city"
-    }
+    },
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Mentoring a refugee family to help them acclimate.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "community",
+      "immigration"
+    ]
   },
   {
     "id": "irving_cares_2",
@@ -22210,7 +24180,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Please use the links below to sign up."
+    "apply_instructions": "Please use the links below to sign up.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assisting clients in the clothing closet.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "mission_oak_cliff_dallas_0",
@@ -22241,7 +24233,32 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Please use the links below to sign up."
+    "apply_instructions": "Please use the links below to sign up.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Stocking and assisting clients at the food pantry.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "mission_oak_cliff_dallas_3",
@@ -22271,7 +24288,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Please use the links below to sign up."
+    "apply_instructions": "Please use the links below to sign up.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Helping with organizational tasks for daily client services.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "mission_oak_cliff_dallas_2",
@@ -22303,7 +24342,33 @@
       "health"
     ],
     "apply_url": null,
-    "apply_instructions": "Please use the links below to sign up."
+    "apply_instructions": "Please use the links below to sign up.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Preparing and serving lunch for clients experiencing homelessness.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community",
+      "housing"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "my_possibilities_2",
@@ -23981,7 +26046,29 @@
       "community"
     ],
     "apply_url": "https://www.dallas.gov/OC3VolunteerForm",
-    "apply_instructions": "Please fill out the OC3 Volunteer Form or email andrea.tosten@dallas.gov."
+    "apply_instructions": "Please fill out the OC3 Volunteer Form or email andrea.tosten@dallas.gov.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers needed for events and office support with specific tasks.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "operation_kindness_humane_carrollton_0",
@@ -25447,7 +27534,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Join us to help plan and coordinate events."
+    "apply_instructions": "Join us to help plan and coordinate events.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers needed to plan and execute events with specific roles.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "radha_govind_dham_dallas_dallas_1",
@@ -25478,7 +27587,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Join our Whatsapp group to get involved."
+    "apply_instructions": "Join our Whatsapp group to get involved.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers needed to prepare meals for events.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "radha_govind_dham_dallas_dallas_2",
@@ -25509,7 +27640,29 @@
       "community"
     ],
     "apply_url": "mailto:rgdyouth@gmail.com",
-    "apply_instructions": "Email Rupal for more information."
+    "apply_instructions": "Email Rupal for more information.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Youth group volunteers needed for community service.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "richardson_community_band_1",
@@ -26553,7 +28706,31 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact us at 972.675.9662 or email to express your interest in volunteering."
+    "apply_instructions": "Contact us at 972.675.9662 or email to express your interest in volunteering.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers needed for various animal care tasks.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sachse_high_school_garland_isd_garland_9",
@@ -26583,7 +28760,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "athletic_or_social_event",
+      "reason": "Vague role, no specific volunteer tasks described.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sachse_high_school_garland_isd_garland_10",
@@ -26613,7 +28812,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "No specific volunteer tasks described.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sachse_high_school_garland_isd_garland_8",
@@ -26644,7 +28865,32 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers needed to provide childcare during events.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "children",
+      "community"
+    ],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sachse_high_school_garland_isd_garland_0",
@@ -26675,7 +28921,32 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers needed to assist teachers in the classroom.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sachse_high_school_garland_isd_garland_14",
@@ -26705,7 +28976,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers needed to lead community outreach initiatives.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sachse_high_school_garland_isd_garland_13",
@@ -26735,7 +29028,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "donation_or_fundraising",
+      "reason": "Role involves organizing fundraising events, not direct volunteering.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sachse_high_school_garland_isd_garland_11",
@@ -26765,7 +29080,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assist with setup and breakdown of equipment for game days.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sachse_high_school_garland_isd_garland_6",
@@ -26796,7 +29133,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "Generic role as guest speaker without specific task.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sachse_high_school_garland_isd_garland_7",
@@ -26827,7 +29186,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Act as judges or coaches for various school events.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sachse_high_school_garland_isd_garland_12",
@@ -26858,7 +29239,34 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Provide meals for student athletes on game days.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "children",
+      "food_security",
+      "education",
+      "community"
+    ],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sachse_high_school_garland_isd_garland_3",
@@ -26888,7 +29296,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "Capturing moments is not a direct volunteering task.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sachse_high_school_garland_isd_garland_4",
@@ -26918,7 +29348,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "Joining PTA is vague without specific tasks.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sachse_high_school_garland_isd_garland_5",
@@ -26948,7 +29400,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Help manage traffic and parking during school events.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sachse_high_school_garland_isd_garland_1",
@@ -26979,7 +29453,33 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Provide academic support to students through tutoring.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "education",
+      "children",
+      "community"
+    ],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sachse_high_school_garland_isd_garland_2",
@@ -27010,7 +29510,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online application and upload a copy of your photo ID."
+    "apply_instructions": "Complete an online application and upload a copy of your photo ID.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Support visual and performing arts programs in the school.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Sachse",
+      "state": "TX",
+      "lat": 32.97623,
+      "lng": -96.59527,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "save_the_bees_usa_1",
@@ -28333,7 +30855,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Join Our WhatsApp Community"
+    "apply_instructions": "Join Our WhatsApp Community",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assist with preparing and transporting prasadam at the temple.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sri_ganesha_temple_plano_plano_1",
@@ -28363,7 +30907,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Join Our WhatsApp Community"
+    "apply_instructions": "Join Our WhatsApp Community",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Help with decorations and setup for temple events.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sri_ganesha_temple_plano_plano_2",
@@ -28393,7 +30959,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Join Our WhatsApp Community"
+    "apply_instructions": "Join Our WhatsApp Community",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Provide maintenance and cleaning assistance at the temple.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Plano",
+      "state": "TX",
+      "lat": 33.01368,
+      "lng": -96.69251,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "sri_guruvayurappan_temple_of_dallas_dallas_0",
@@ -28423,7 +31011,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Download, fill, and submit the Volunteer Form at the Temple Front Office."
+    "apply_instructions": "Download, fill, and submit the Volunteer Form at the Temple Front Office.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Join the dedicated volunteer team to assist with temple activities.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "joseph_catholic_mobile_pantry_0",
@@ -29330,7 +31940,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "community",
+      "food_security"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
@@ -29976,7 +32589,32 @@
       "arts"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact the community engagement manager for more information."
+    "apply_instructions": "Contact the community engagement manager for more information.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assist in setting up and supporting guests during art classes.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "arts",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "bridge_dallas_5",
@@ -30006,7 +32644,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact the community engagement manager for more information."
+    "apply_instructions": "Contact the community engagement manager for more information.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Help maintain the campus and sort donations.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "bridge_dallas_7",
@@ -30036,7 +32696,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact the community engagement manager for more information."
+    "apply_instructions": "Contact the community engagement manager for more information.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Organize a game day for guests to enjoy.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "bridge_dallas_2",
@@ -30066,7 +32748,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact the community engagement manager for more information."
+    "apply_instructions": "Contact the community engagement manager for more information.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Host Karaoke or Bingo events for our guests.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "bridge_dallas_4",
@@ -30096,7 +32800,29 @@
       "animals"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact the community engagement manager for more information."
+    "apply_instructions": "Contact the community engagement manager for more information.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Care for dogs and maintain the kennel area.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "bridge_dallas_0",
@@ -30126,7 +32852,29 @@
       "education"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact the community engagement manager for more information."
+    "apply_instructions": "Contact the community engagement manager for more information.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Help supervise the library and assist guests with book checkouts.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "bridge_dallas_1",
@@ -30156,7 +32904,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact the community engagement manager for more information."
+    "apply_instructions": "Contact the community engagement manager for more information.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Reception desk role involves engaging with guests and assisting inquiries.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "bridge_dallas_6",
@@ -30186,7 +32956,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact the community engagement manager for more information."
+    "apply_instructions": "Contact the community engagement manager for more information.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "not_volunteering",
+      "reason": "Hosting a treat social does not involve a concrete volunteer task.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "bridge_dallas_8",
@@ -30216,7 +33008,29 @@
       "housing"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact the community engagement manager for more information."
+    "apply_instructions": "Contact the community engagement manager for more information.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "donation_or_fundraising",
+      "reason": "Collecting items for kits is not a direct volunteer task.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "friendship_house_carrollton_0",
@@ -30261,7 +33075,10 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-08-03T13:18:39.584325+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
     "geo": {
       "city": "Carrollton",
       "state": "TX",
@@ -31704,7 +34521,32 @@
     "requirements": "18+ years old. Walking, standing, bending, and lifting at least 10lbs. throughout shifts.",
     "cause_tags": [],
     "apply_url": null,
-    "apply_instructions": "If you are interested, let us know."
+    "apply_instructions": "If you are interested, let us know.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers help organize and support artists in the Art Studio.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "arts",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "stewpot_dallas_1",
@@ -31734,7 +34576,32 @@
       "food_security"
     ],
     "apply_url": null,
-    "apply_instructions": "Sign up in person."
+    "apply_instructions": "Sign up in person.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assisting in the food pantry includes various actionable roles.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "stewpot_dallas_5",
@@ -31764,7 +34631,33 @@
       "education"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete a background check and Child Safety Video/Quiz before volunteering."
+    "apply_instructions": "Complete a background check and Child Safety Video/Quiz before volunteering.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "internship_or_job",
+      "reason": "Requires being 18+ and completing a background check, indicating a structured role.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "stewpot_dallas_7",
@@ -31792,7 +34685,32 @@
     "requirements": "None. Family Friendly.",
     "cause_tags": [],
     "apply_url": null,
-    "apply_instructions": "Schedule a drop off at The Stewpot."
+    "apply_instructions": "Schedule a drop off at The Stewpot.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "printable_or_athome_activity",
+      "reason": "Making welcome baskets is not a direct volunteer task.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "housing",
+      "community"
+    ],
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
+    }
   },
   {
     "id": "stewpot_dallas_2",
@@ -31822,7 +34740,29 @@
       "food_security"
     ],
     "apply_url": "volunteer.thestewpot.org",
-    "apply_instructions": "Schedule a drop off at The Stewpot."
+    "apply_instructions": "Schedule a drop off at The Stewpot.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "printable_or_athome_activity",
+      "reason": "Creating and dropping off snack bags is not a direct volunteer task.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
+    }
   },
   {
     "id": "stewpot_dallas_4",
@@ -31852,7 +34792,32 @@
       "food_security"
     ],
     "apply_url": null,
-    "apply_instructions": "Sign up for shifts."
+    "apply_instructions": "Sign up for shifts.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Serving meals at the cafe is a concrete volunteer role.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "stewpot_dallas_3",
@@ -31882,7 +34847,29 @@
       "crisis_support"
     ],
     "apply_url": null,
-    "apply_instructions": "Sign up for specific dates."
+    "apply_instructions": "Sign up for specific dates.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers help provide showers and supplies, which is actionable.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "stewpot_dallas_6",
@@ -31912,7 +34899,32 @@
       "education"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete a background check and Child Safety Video/Quiz before volunteering."
+    "apply_instructions": "Complete a background check and Child Safety Video/Quiz before volunteering.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteers assist high school students with homework.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "education",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "the_storehouse_community_center_1",
@@ -33140,7 +36152,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Sign up below."
+    "apply_instructions": "Sign up below.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assist with office tasks and new applications.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org.city"
+    }
   },
   {
     "id": "vickery_meadow_food_pantry_and_clothes_closet_dallas_2",
@@ -33170,7 +36204,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Sign up below."
+    "apply_instructions": "Sign up below.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Greet neighbors and assist with data entry.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org.city"
+    }
   },
   {
     "id": "vickery_meadow_food_pantry_and_clothes_closet_dallas_3",
@@ -33200,7 +36256,29 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Sign up below."
+    "apply_instructions": "Sign up below.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Sort donations and assist neighbors in the Clothes Closet.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org.city"
+    }
   },
   {
     "id": "vickery_meadow_food_pantry_and_clothes_closet_dallas_1",
@@ -33230,7 +36308,32 @@
       "food_security"
     ],
     "apply_url": null,
-    "apply_instructions": "Sign up below."
+    "apply_instructions": "Sign up below.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assist with food distribution and preparation.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org.city"
+    }
   },
   {
     "id": "vickery_meadow_food_pantry_and_clothes_closet_dallas_0",
@@ -33260,7 +36363,32 @@
       "food_security"
     ],
     "apply_url": null,
-    "apply_instructions": "Sign up below."
+    "apply_instructions": "Sign up below.",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2023-10-30",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2023-10-30)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org.city"
+    }
   },
   {
     "id": "vickery_meadow_food_pantry_and_clothes_closet_dallas_4",
@@ -33290,7 +36418,32 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Sign up below."
+    "apply_instructions": "Sign up below.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Help neighbors find assistance referrals.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "org.city"
+    }
   },
   {
     "id": "vickery_meadow_youth_development_foundation_0",
@@ -34038,458 +37191,6 @@
       "precision": "city",
       "resolved_from": "location.city"
     }
-  },
-  {
-    "id": "volunteer_be_dallas_90_dallas_11",
-    "source": "curated",
-    "org_id": "volunteer_be_dallas_90_dallas",
-    "org_name": "Be Dallas 90",
-    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
-    "status": "active",
-    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
-    "opportunity_title": "Adoption Support",
-    "description_short": "Assist guests during the DAS adoption process.",
-    "description_long": "Help our team make #DASHappyTails happen by providing Adoption Support! These volunteers help greet DAS guests and answer any questions they might have about the DAS adoption process or the pets in our care so that our staff has more time to counsel and finalize adoptions.",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": "unknown",
-    "location": {
-      "address": null,
-      "city": "Dallas",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": "none",
-    "cause_tags": [
-      "community",
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Click here to learn more and apply."
-  },
-  {
-    "id": "volunteer_be_dallas_90_dallas_8",
-    "source": "curated",
-    "org_id": "volunteer_be_dallas_90_dallas",
-    "org_name": "Be Dallas 90",
-    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
-    "status": "active",
-    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
-    "opportunity_title": "Animal Handler for Medical",
-    "description_short": "Support veterinary staff by helping to manage animals.",
-    "description_long": "These volunteers are the extra set of hands needed in the clinic! They run the animals who need medical exams to and from the clinic and help to keep DAS pets still and calm while they are being examined.",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": "unknown",
-    "location": {
-      "address": null,
-      "city": "Dallas",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": "none",
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Click here to learn more and apply."
-  },
-  {
-    "id": "volunteer_be_dallas_90_dallas_9",
-    "source": "curated",
-    "org_id": "volunteer_be_dallas_90_dallas",
-    "org_name": "Be Dallas 90",
-    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
-    "status": "active",
-    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
-    "opportunity_title": "Animal Marketing",
-    "description_short": "Assist in promoting adoptable pets through marketing.",
-    "description_long": "With so many pets coming into DAS every single day, our marketing staff can always use a little help getting the word out to the public about just how awesome our adoptable pets are! If you have a creative side and a love for your furry friends, these might be the purrrfect volunteer opportunities for you!",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": "unknown",
-    "location": {
-      "address": null,
-      "city": "Dallas",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": "none",
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Click here to learn more and apply."
-  },
-  {
-    "id": "volunteer_be_dallas_90_dallas_3",
-    "source": "curated",
-    "org_id": "volunteer_be_dallas_90_dallas",
-    "org_name": "Be Dallas 90",
-    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
-    "status": "active",
-    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
-    "opportunity_title": "Cat Socialization",
-    "description_short": "Help socialize cats to improve their adoptability.",
-    "description_long": "Socializing the cats in our care helps them to become more adoptable down the line! If you’re a cat person, this is a great volunteer opportunity to make friends with our felines! Simple acts like playing with and petting our felines can greatly improve their quality of life while they’re at the shelter.",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": "unknown",
-    "location": {
-      "address": null,
-      "city": "Dallas",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": "none",
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Click here to learn more and apply."
-  },
-  {
-    "id": "volunteer_be_dallas_90_dallas_1",
-    "source": "curated",
-    "org_id": "volunteer_be_dallas_90_dallas",
-    "org_name": "Be Dallas 90",
-    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
-    "status": "active",
-    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
-    "opportunity_title": "Click-for-Calm",
-    "description_short": "Help calm shelter dogs using positive reinforcement techniques.",
-    "description_long": "Click for Calm volunteers walk through the kennels using positive reinforcement operant conditioning techniques to reinforce calm behavior from the dogs in the kennels. Once a dog has all four paws on the floor, or if the cat comes to the front of the kennel, the volunteer pushes a clicker and gives out a treat. This helps our pets put their best face forward for adopters!",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": "unknown",
-    "location": {
-      "address": null,
-      "city": "Dallas",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": "none",
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Click here to learn more and apply."
-  },
-  {
-    "id": "volunteer_be_dallas_90_dallas_13",
-    "source": "curated",
-    "org_id": "volunteer_be_dallas_90_dallas",
-    "org_name": "Be Dallas 90",
-    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
-    "status": "active",
-    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
-    "opportunity_title": "Community Outreach and Education",
-    "description_short": "Spread awareness about DAS and its lifesaving work.",
-    "description_long": "Do you LOVE DAS and want to help us spread the word about the lifesaving work we’re doing? Become a Community Outreach and Education volunteer! These volunteers go with staff to offsite events or other opportunities and help hand out flyers and talk to the public about the amazing work we do, the services we have to offer, and how they can get involved.",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": "unknown",
-    "location": {
-      "address": null,
-      "city": "Dallas",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": "none",
-    "cause_tags": [
-      "community"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Click here to learn more and apply."
-  },
-  {
-    "id": "volunteer_be_dallas_90_dallas_0",
-    "source": "curated",
-    "org_id": "volunteer_be_dallas_90_dallas",
-    "org_name": "Be Dallas 90",
-    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
-    "status": "active",
-    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
-    "opportunity_title": "D90 Dog Runners",
-    "description_short": "Run with high-energy dogs to improve their well-being and chances of adoption.",
-    "description_long": "The D90 Runners are a group of DAS volunteers who provide high-energy dogs with the exercise and stimulation they crave. When high-energy dogs get the exercise they need, they have a higher quality of life, are less susceptible to illness, behave better in their kennels, and have higher chances of adoption. Each participating dog runs one mile, which may seem small to seasoned runners, but it makes a world of difference to a shelter pup. The D90 Runners can run with 1-3 dogs during our group runs which also allows you to customize your workout for the day. After the run, the dogs typically fall asleep quickly with wagging tails and big smiles on their faces.",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": "unknown",
-    "location": {
-      "address": null,
-      "city": "Dallas",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": "Volunteers must complete DAS Canine Handler Training before participating.",
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Click here to learn more and apply."
-  },
-  {
-    "id": "volunteer_be_dallas_90_dallas_10",
-    "source": "curated",
-    "org_id": "volunteer_be_dallas_90_dallas",
-    "org_name": "Be Dallas 90",
-    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
-    "status": "active",
-    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
-    "opportunity_title": "D90 Fur-tographers",
-    "description_short": "Capture great images of adoptable pets to aid their adoption.",
-    "description_long": "Does the camera roll on your phone have more photos of your four-legged friends than your two-legged ones? Our Phone Fur-tographers help us update pet photos within just a day or two of their intake. This volunteer opportunity doesn’t require any professional photography experience or equipment—if you know how to take a photo with your phone, you can help us save lives! Our Pro Fur-tographers have a little more photography experience and equipment than our Phone Fur-tographers. If you have a DSLR camera and a love for both professional photography and animals, we want you on our team! These volunteers make our longer residents SHINE by giving them professional photographs that we can use to promote them on our website and social media. We pair our Pro-Furtographers up with Animal Handling Volunteers so that their time spent photographing is efficient and effective!",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": "unknown",
-    "location": {
-      "address": null,
-      "city": "Dallas",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": "none",
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Click here to learn more and apply."
-  },
-  {
-    "id": "volunteer_be_dallas_90_dallas_5",
-    "source": "curated",
-    "org_id": "volunteer_be_dallas_90_dallas",
-    "org_name": "Be Dallas 90",
-    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
-    "status": "active",
-    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
-    "opportunity_title": "Dog Playgroup Assistant",
-    "description_short": "Help with daily dog playgroups for socialization.",
-    "description_long": "Eligible DAS dogs have the opportunity to participate in daily dog playgroups. Playgroups are not only a great way for us to assess how dogs will behave with other dogs, but they also give shelter pups the outlet and exercise they crave! As a Dog Playgroup Assistant, you’ll help our playgroup staff by shuttling dogs to and from playgroup and get to observe DAS pups have a little fun.",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": "unknown",
-    "location": {
-      "address": null,
-      "city": "Dallas",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": "none",
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Click here to learn more and apply."
-  },
-  {
-    "id": "volunteer_be_dallas_90_dallas_6",
-    "source": "curated",
-    "org_id": "volunteer_be_dallas_90_dallas",
-    "org_name": "Be Dallas 90",
-    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
-    "status": "active",
-    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
-    "opportunity_title": "Dog Walking & Socialization",
-    "description_short": "Give love and attention to adoptable dogs by walking them.",
-    "description_long": "We can always use volunteers who are willing to get our dogs out of their kennels and give them a little extra human love! Walking our adoptable dogs or just spending time with them one-on-one in our play yards is a great way to help these pups destress and have a little fun. Plus, our volunteers teach us so much about the personalities of the dogs they spend time with which helps us find the PAWfect match!",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": "unknown",
-    "location": {
-      "address": null,
-      "city": "Dallas",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": "none",
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Click here to learn more and apply."
-  },
-  {
-    "id": "volunteer_be_dallas_90_dallas_2",
-    "source": "curated",
-    "org_id": "volunteer_be_dallas_90_dallas",
-    "org_name": "Be Dallas 90",
-    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
-    "status": "active",
-    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
-    "opportunity_title": "Enrichment",
-    "description_short": "Create fun enrichment items for shelter pets.",
-    "description_long": "Have a knack for crafts? You might enjoy our enrichment shifts. Create a tasty frozen treat, a treat puzzle or snuffle mat, or other enrichment items for our pets and distribute!",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": "unknown",
-    "location": {
-      "address": null,
-      "city": "Dallas",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": "none",
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Click here to learn more and apply."
-  },
-  {
-    "id": "volunteer_be_dallas_90_dallas_14",
-    "source": "curated",
-    "org_id": "volunteer_be_dallas_90_dallas",
-    "org_name": "Be Dallas 90",
-    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
-    "status": "active",
-    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
-    "opportunity_title": "Foster Volunteers",
-    "description_short": "Provide temporary homes for vulnerable animals in shelters.",
-    "description_long": "Many of our volunteers also become foster parents and help to save the lives of the most vulnerable animals in our shelter by providing them a temporary home away from the shelter.",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": "unknown",
-    "location": {
-      "address": null,
-      "city": "Dallas",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": "none",
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Click here to learn more and apply."
-  },
-  {
-    "id": "volunteer_be_dallas_90_dallas_4",
-    "source": "curated",
-    "org_id": "volunteer_be_dallas_90_dallas",
-    "org_name": "Be Dallas 90",
-    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
-    "status": "active",
-    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
-    "opportunity_title": "Fraidy Cat Team",
-    "description_short": "Assist scared cats to become more social and adoptable.",
-    "description_long": "Our Fraidy Cat Team provides enrichment and introduces our 'Fraidy Cats' to socialization which allows them to come out of their shells and makes them more adoptable.",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": "unknown",
-    "location": {
-      "address": null,
-      "city": "Dallas",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": "none",
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Click here to learn more and apply."
-  },
-  {
-    "id": "volunteer_be_dallas_90_dallas_7",
-    "source": "curated",
-    "org_id": "volunteer_be_dallas_90_dallas",
-    "org_name": "Be Dallas 90",
-    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
-    "status": "active",
-    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
-    "opportunity_title": "Medical Team Volunteers",
-    "description_short": "Assist medical staff in caring for animals at DAS.",
-    "description_long": "Be on the front lines of lifesaving at DAS by being a volunteer for our medical team! These volunteers assist our staff in prepping animals and supplies for medical procedures or daily care.",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": "unknown",
-    "location": {
-      "address": null,
-      "city": "Dallas",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": "none",
-    "cause_tags": [
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Click here to learn more and apply."
-  },
-  {
-    "id": "volunteer_be_dallas_90_dallas_12",
-    "source": "curated",
-    "org_id": "volunteer_be_dallas_90_dallas",
-    "org_name": "Be Dallas 90",
-    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
-    "status": "active",
-    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
-    "opportunity_title": "Offsite Adoption Support",
-    "description_short": "Support adoption events by representing DAS in the community.",
-    "description_long": "DAS often takes our pets offsite for adoption events all over the city of Dallas! Local pet stores, dog-friendly patios, even libraries in Dallas have all hosted these events.",
-    "schedule": {
-      "raw": null,
-      "recurring": null,
-      "times_of_day": null
-    },
-    "commitment": "unknown",
-    "location": {
-      "address": null,
-      "city": "Dallas",
-      "state": "TX",
-      "virtual": false
-    },
-    "requirements": "none",
-    "cause_tags": [
-      "community",
-      "animals"
-    ],
-    "apply_url": null,
-    "apply_instructions": "Click here to learn more and apply."
   },
   {
     "id": "weatherford_wags_8",
@@ -35515,7 +38216,32 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Sign Up to Volunteer"
+    "apply_instructions": "Sign Up to Volunteer",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.916428+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Help sort food, greet families, and assist with distributions.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-09T02:32:42.248450+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": "Wylie",
+      "state": "TX",
+      "lat": 33.01516,
+      "lng": -96.5388,
+      "precision": "city",
+      "resolved_from": "location.city"
+    }
   },
   {
     "id": "re_building_together_north_texas_1",

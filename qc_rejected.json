@@ -1,5 +1,13 @@
 [
   {
+    "id": "5_loaves_sachse_2",
+    "org_name": "5 Loaves Ministries",
+    "opportunity_title": "Events and Group Opportunities",
+    "category": "vague_no_role",
+    "reason": "Generic invitation for group volunteers without specific tasks.",
+    "source_url": "https://5loavesministries.org/volunteer"
+  },
+  {
     "id": "aauw_tarrant_county_branch_1",
     "org_name": "AAUW Tarrant County Branch",
     "opportunity_title": "Goodie Bag Donation",
@@ -14,6 +22,30 @@
     "category": "expired",
     "reason": "event date passed (2023-10-27)",
     "source_url": "https://tarrantcounty-tx.aauw.net/volunteer-needs"
+  },
+  {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_1",
+    "org_name": "Animal Clinic of Grand Prairie",
+    "opportunity_title": "Administrative Support Volunteer",
+    "category": "vague_no_role",
+    "reason": "Generic invitation to volunteer without specific tasks.",
+    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter"
+  },
+  {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_4",
+    "org_name": "Animal Clinic of Grand Prairie",
+    "opportunity_title": "Board Member",
+    "category": "internship_or_job",
+    "reason": "Board member role implies a governance position, not volunteering.",
+    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter"
+  },
+  {
+    "id": "support_your_local_shelter_grand_prairie_vets_grand_prairie_2",
+    "org_name": "Animal Clinic of Grand Prairie",
+    "opportunity_title": "Event Support Volunteer",
+    "category": "athletic_or_social_event",
+    "reason": "Event support role is tied to adoption events and fundraisers.",
+    "source_url": "https://acgpvets.com/news/ways-to-support-your-local-animal-shelter"
   },
   {
     "id": "arlington_life_shelter_2",
@@ -54,6 +86,22 @@
     "category": "internship_or_job",
     "reason": "Describes an internship program, not a volunteer role.",
     "source_url": "https://www.arthousedallas.com/getinvolved"
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_9",
+    "org_name": "Be Dallas 90",
+    "opportunity_title": "Animal Marketing",
+    "category": "vague_no_role",
+    "reason": "Vague role, no specific task described.",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities"
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_2",
+    "org_name": "Be Dallas 90",
+    "opportunity_title": "Enrichment",
+    "category": "printable_or_athome_activity",
+    "reason": "Creating enrichment items is a DIY activity, not direct volunteering.",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities"
   },
   {
     "id": "be_an_angel_fund_dallas_fort_worth_0",
@@ -176,6 +224,22 @@
     "source_url": "https://www.ccyoung.org/volunteer"
   },
   {
+    "id": "cws_dallas_dallas_3",
+    "org_name": "CWS Dallas",
+    "opportunity_title": "Advocate for your New Neighbors",
+    "category": "vague_no_role",
+    "reason": "No specific role or task described.",
+    "source_url": "https://cwsdallas.org/get-involved"
+  },
+  {
+    "id": "cws_dallas_dallas_2",
+    "org_name": "CWS Dallas",
+    "opportunity_title": "Welcome Kit Preparation",
+    "category": "donation_or_fundraising",
+    "reason": "Assembling welcome kits involves purchasing items, not direct volunteering.",
+    "source_url": "https://cwsdallas.org/get-involved"
+  },
+  {
     "id": "canine_companions_5",
     "org_name": "Canine Companions",
     "opportunity_title": "Junior Ambassador Committee",
@@ -296,6 +360,38 @@
     "source_url": "http://www.coppellhumanesociety.org/volunteer"
   },
   {
+    "id": "dfw_hindu_temple_vidya_vikas_irving_4",
+    "org_name": "DFW Hindu Temple – Vidya Vikas",
+    "opportunity_title": "Event Organization",
+    "category": "vague_no_role",
+    "reason": "No specific role or task described.",
+    "source_url": "https://vv.dfwhindutemple.org/volunteersignup"
+  },
+  {
+    "id": "dfw_hindu_temple_vidya_vikas_irving_7",
+    "org_name": "DFW Hindu Temple – Vidya Vikas",
+    "opportunity_title": "Office Tasks",
+    "category": "vague_no_role",
+    "reason": "No specific role or task described.",
+    "source_url": "https://vv.dfwhindutemple.org/volunteersignup"
+  },
+  {
+    "id": "dfw_hindu_temple_vidya_vikas_irving_6",
+    "org_name": "DFW Hindu Temple – Vidya Vikas",
+    "opportunity_title": "Poster Making",
+    "category": "vague_no_role",
+    "reason": "No specific role or task described.",
+    "source_url": "https://vv.dfwhindutemple.org/volunteersignup"
+  },
+  {
+    "id": "dfw_hindu_temple_vidya_vikas_irving_5",
+    "org_name": "DFW Hindu Temple – Vidya Vikas",
+    "opportunity_title": "Youth Group Assistance",
+    "category": "vague_no_role",
+    "reason": "No specific role or task described.",
+    "source_url": "https://vv.dfwhindutemple.org/volunteersignup"
+  },
+  {
     "id": "dallas_casa_0",
     "org_name": "Dallas CASA",
     "opportunity_title": "Volunteer Information Session",
@@ -334,6 +430,14 @@
     "category": "printable_or_athome_activity",
     "reason": "Creating a video reel from home is an at-home activity.",
     "source_url": "https://dallasmeditationcenter.com/volunteer-2"
+  },
+  {
+    "id": "dallas_zoo_dallas_1",
+    "org_name": "Dallas Zoo",
+    "opportunity_title": "College Internship Program",
+    "category": "internship_or_job",
+    "reason": "This is an internship program for college students.",
+    "source_url": "https://www.dallaszoo.com/support-the-zoo/volunteer"
   },
   {
     "id": "denton_animal_support_foundation_inc_1",
@@ -422,6 +526,14 @@
     "category": "internship_or_job",
     "reason": "Junior Board membership; leadership role, not volunteering.",
     "source_url": "https://family-compass.org/contact-us"
+  },
+  {
+    "id": "family_promise_of_collin_county_sachse_3",
+    "org_name": "Family Promise of Collin County",
+    "opportunity_title": "Fundraising Events",
+    "category": "donation_or_fundraising",
+    "reason": "Involves assisting with fundraising events.",
+    "source_url": "https://www.familypromiseofcollincounty.org/volunteer"
   },
   {
     "id": "fannin_county_family_crisis_center_3",
@@ -592,6 +704,14 @@
     "source_url": "http://www.northaventrail.org/get-involved"
   },
   {
+    "id": "friends_of_oak_cliff_parks_dallas_1",
+    "org_name": "Friends of Oak Cliff Parks",
+    "opportunity_title": "Dallas Council of Garden Clubs Meetings",
+    "category": "athletic_or_social_event",
+    "reason": "Involves attending meetings, not volunteering.",
+    "source_url": "https://friendsofoakcliffparks.org/events"
+  },
+  {
     "id": "friends_of_the_dallas_public_library_0",
     "org_name": "Friends of the Dallas Public Library",
     "opportunity_title": "Volunteer at your branch Library",
@@ -752,6 +872,14 @@
     "source_url": "http://www.hoperestoredmissions.org"
   },
   {
+    "id": "housing_forward_dallas_1",
+    "org_name": "Housing Forward",
+    "opportunity_title": "Care Package Donations",
+    "category": "expired",
+    "reason": "event date passed (2026-01-16)",
+    "source_url": "https://housingforwardntx.org/volunteer"
+  },
+  {
     "id": "incarnation_place_3",
     "org_name": "Incarnation Place",
     "opportunity_title": "Annual Community Day of Service",
@@ -806,6 +934,14 @@
     "category": "internship_or_job",
     "reason": "Technical role in web maintenance, not direct volunteering.",
     "source_url": "https://www.intellichoice.org/volunteers"
+  },
+  {
+    "id": "international_rescue_committee_dallas_1",
+    "org_name": "International Rescue Committee",
+    "opportunity_title": "Employer Engagement Volunteer",
+    "category": "internship_or_job",
+    "reason": "Role focuses on expanding employment opportunities, not a specific task.",
+    "source_url": "https://www.rescue.org/volunteer-opportunities/dallas-tx"
   },
   {
     "id": "k9_s_for_freedom_independence_0",
@@ -1088,6 +1224,54 @@
     "source_url": "https://sparkdallas.org/volunteer-sign-up"
   },
   {
+    "id": "sachse_high_school_garland_isd_garland_9",
+    "org_name": "Sachse High School - Garland ISD",
+    "opportunity_title": "Athletics",
+    "category": "athletic_or_social_event",
+    "reason": "Vague role, no specific volunteer tasks described.",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer"
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_10",
+    "org_name": "Sachse High School - Garland ISD",
+    "opportunity_title": "Booster Clubs",
+    "category": "vague_no_role",
+    "reason": "No specific volunteer tasks described.",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer"
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_13",
+    "org_name": "Sachse High School - Garland ISD",
+    "opportunity_title": "Fundraiser liaisons",
+    "category": "donation_or_fundraising",
+    "reason": "Role involves organizing fundraising events, not direct volunteering.",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer"
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_6",
+    "org_name": "Sachse High School - Garland ISD",
+    "opportunity_title": "Guest speakers",
+    "category": "vague_no_role",
+    "reason": "Generic role as guest speaker without specific task.",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer"
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_3",
+    "org_name": "Sachse High School - Garland ISD",
+    "opportunity_title": "Media: take photos and videos",
+    "category": "vague_no_role",
+    "reason": "Capturing moments is not a direct volunteering task.",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer"
+  },
+  {
+    "id": "sachse_high_school_garland_isd_garland_4",
+    "org_name": "Sachse High School - Garland ISD",
+    "opportunity_title": "PTA board or committee member",
+    "category": "vague_no_role",
+    "reason": "Joining PTA is vague without specific tasks.",
+    "source_url": "https://www.garlandisdschools.net/shs/volunteer"
+  },
+  {
     "id": "save_the_bees_usa_1",
     "org_name": "Save the Bees USA",
     "opportunity_title": "Adopt A Hive Program",
@@ -1264,6 +1448,22 @@
     "source_url": "https://www.texaslandconservancy.org/oak-cliff-nature-preserve"
   },
   {
+    "id": "bridge_dallas_6",
+    "org_name": "The Bridge",
+    "opportunity_title": "Treat Social Host",
+    "category": "not_volunteering",
+    "reason": "Hosting a treat social does not involve a concrete volunteer task.",
+    "source_url": "https://www.bridgehrc.org/get-involved/volunteer"
+  },
+  {
+    "id": "bridge_dallas_8",
+    "org_name": "The Bridge",
+    "opportunity_title": "Welcome Baskets and Kits Volunteer",
+    "category": "donation_or_fundraising",
+    "reason": "Collecting items for kits is not a direct volunteer task.",
+    "source_url": "https://www.bridgehrc.org/get-involved/volunteer"
+  },
+  {
     "id": "friendship_house_carrollton_0",
     "org_name": "The Friendship House",
     "opportunity_title": "Food Donations",
@@ -1384,6 +1584,30 @@
     "source_url": "https://theseniorsource.org/volunteer/"
   },
   {
+    "id": "stewpot_dallas_5",
+    "org_name": "The Stewpot",
+    "opportunity_title": "Junior Crew (Middle School)",
+    "category": "internship_or_job",
+    "reason": "Requires being 18+ and completing a background check, indicating a structured role.",
+    "source_url": "https://www.thestewpot.org/volunteer"
+  },
+  {
+    "id": "stewpot_dallas_7",
+    "org_name": "The Stewpot",
+    "opportunity_title": "Make Welcome Baskets",
+    "category": "printable_or_athome_activity",
+    "reason": "Making welcome baskets is not a direct volunteer task.",
+    "source_url": "https://www.thestewpot.org/volunteer"
+  },
+  {
+    "id": "stewpot_dallas_2",
+    "org_name": "The Stewpot",
+    "opportunity_title": "Making Snack Bags",
+    "category": "printable_or_athome_activity",
+    "reason": "Creating and dropping off snack bags is not a direct volunteer task.",
+    "source_url": "https://www.thestewpot.org/volunteer"
+  },
+  {
     "id": "warren_center_1",
     "org_name": "The Warren Center",
     "opportunity_title": "Corporate & Civic Groups",
@@ -1462,6 +1686,14 @@
     "category": "athletic_or_social_event",
     "reason": "Competing in a Roll-a-thon is a participatory event.",
     "source_url": "https://undiesforeveryone.org/get-involved"
+  },
+  {
+    "id": "vickery_meadow_food_pantry_and_clothes_closet_dallas_0",
+    "org_name": "Vickery Meadow Food Pantry and Clothes Closet",
+    "opportunity_title": "Food Stocker Volunteer",
+    "category": "expired",
+    "reason": "event date passed (2023-10-30)",
+    "source_url": "https://vickerymeadowna.org/volunteer-opportunities"
   },
   {
     "id": "vickery_meadow_youth_development_foundation_4",
