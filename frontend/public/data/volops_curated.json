@@ -3058,6 +3058,193 @@
     }
   },
   {
+    "id": "brother_bill_s_helping_hand_dallas_5",
+    "source": "curated",
+    "org_id": "brother_bill_s_helping_hand_dallas",
+    "org_name": "Brother Bill's Helping Hand",
+    "source_url": "https://bbhh.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:59.131022+00:00",
+    "opportunity_title": "Helping Hand Market Garden Volunteer",
+    "description_short": "Join us in planting and harvesting in our market garden.",
+    "description_long": "Come volunteer with us and plant fruits and vegetables, maintain our garden beds and trees, and harvest the produce for our many pantries!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": "3106 Herbert St",
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "food_security",
+      "environment"
+    ],
+    "apply_url": null,
+    "apply_instructions": "register to serve here"
+  },
+  {
+    "id": "brother_bill_s_helping_hand_dallas_4",
+    "source": "curated",
+    "org_id": "brother_bill_s_helping_hand_dallas",
+    "org_name": "Brother Bill's Helping Hand",
+    "source_url": "https://bbhh.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:59.131022+00:00",
+    "opportunity_title": "Learning Garden Volunteer",
+    "description_short": "Help plant and maintain the garden for the food pantry.",
+    "description_long": "Come volunteer with us and plant fruits and vegetables, maintain our garden beds and trees, and harvest the produce for our DCW pantry!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": "3131 N. Hampton Rd",
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "food_security",
+      "environment"
+    ],
+    "apply_url": null,
+    "apply_instructions": "register to serve here"
+  },
+  {
+    "id": "brother_bill_s_helping_hand_dallas_2",
+    "source": "curated",
+    "org_id": "brother_bill_s_helping_hand_dallas",
+    "org_name": "Brother Bill's Helping Hand",
+    "source_url": "https://bbhh.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:59.131022+00:00",
+    "opportunity_title": "Resource Center South Volunteer",
+    "description_short": "Assist with grocery distribution and pantry maintenance in South Dallas.",
+    "description_long": "Come volunteer with us and distribute groceries and/or restock shelves at our pantry in partnership with DISD in South Dallas!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": "4401 South Second Ave",
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "register to serve here"
+  },
+  {
+    "id": "brother_bill_s_helping_hand_dallas_3",
+    "source": "curated",
+    "org_id": "brother_bill_s_helping_hand_dallas",
+    "org_name": "Brother Bill's Helping Hand",
+    "source_url": "https://bbhh.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:59.131022+00:00",
+    "opportunity_title": "Resource Center West Volunteer",
+    "description_short": "Volunteer to restock and distribute groceries in West Dallas.",
+    "description_long": "Come volunteer with us and distribute groceries and/or restock shelves at our NEW pantry in partnership with DISD in West Dallas!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": "3131 N. Hampton Rd",
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "register to serve here"
+  },
+  {
+    "id": "brother_bill_s_helping_hand_dallas_1",
+    "source": "curated",
+    "org_id": "brother_bill_s_helping_hand_dallas",
+    "org_name": "Brother Bill's Helping Hand",
+    "source_url": "https://bbhh.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:59.131022+00:00",
+    "opportunity_title": "South Dallas Community Market Volunteer",
+    "description_short": "Help distribute groceries and restock shelves at South Dallas food pantry.",
+    "description_long": "Come volunteer with us and distribute groceries and/or restock shelves at our South Dallas food pantry, partnering with BridgeBuilders!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": "5210 Bexar St. #105",
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Register to serve here"
+  },
+  {
+    "id": "brother_bill_s_helping_hand_dallas_0",
+    "source": "curated",
+    "org_id": "brother_bill_s_helping_hand_dallas",
+    "org_name": "Brother Bill's Helping Hand",
+    "source_url": "https://bbhh.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:59.131022+00:00",
+    "opportunity_title": "West Dallas - Main Campus Volunteer",
+    "description_short": "Volunteer to support various programs at the West Dallas location.",
+    "description_long": "Come volunteer with us in the many programs held at our main West Dallas location, including but not limited to distributing groceries to neighbors and/or restocking shelves in our food pantry, serving in the classroom for our After School children's programming, providing meals for our Pathways women, and much, much more!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": "3906 N Westmoreland Rd",
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "food_security",
+      "children",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Register to serve here"
+  },
+  {
     "id": "camp_summit_inc_0",
     "source": "curated",
     "org_id": "camp_summit_inc",
@@ -9618,6 +9805,209 @@
     }
   },
   {
+    "id": "dallas_zoo_dallas_2",
+    "source": "curated",
+    "org_id": "dallas_zoo_dallas",
+    "org_name": "Dallas Zoo",
+    "source_url": "https://www.dallaszoo.com/support-the-zoo/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:44.867749+00:00",
+    "opportunity_title": "Animal Nutrition Center Volunteers",
+    "description_short": "Assist with preparation of animal diets at the Zoo.",
+    "description_long": "Animal Nutrition Center volunteers assist the Zoo’s nutritionist in the preparation of animal diets. If you’ve always wondered what elephants and chimpanzees eat each day, this is a fascinating opportunity to participate in the behind-the-scenes care and feeding routine of our Zoo animals. Volunteers must commit to one morning shift per week.",
+    "schedule": {
+      "raw": "One morning shift per week",
+      "recurring": true,
+      "times_of_day": "morning"
+    },
+    "commitment": "One morning shift per week",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "For more information or questions about any adult volunteer opportunity, email Volunteers@DallasZoo.com or call 469.554.7453."
+  },
+  {
+    "id": "dallas_zoo_dallas_1",
+    "source": "curated",
+    "org_id": "dallas_zoo_dallas",
+    "org_name": "Dallas Zoo",
+    "source_url": "https://www.dallaszoo.com/support-the-zoo/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:44.867749+00:00",
+    "opportunity_title": "College Internship Program",
+    "description_short": "Internship for college students in various zoo departments.",
+    "description_long": "The Dallas Zoo College Internship Program provides a learning opportunity for currently enrolled undergraduate or graduate students at an accredited college/university in the United States. Interns become actively involved in the Zoo’s animal care departments, conservation/research efforts, operations, and/or administrative positions.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Currently enrolled undergraduate or graduate students.",
+    "cause_tags": [],
+    "apply_url": null,
+    "apply_instructions": "Apply Now"
+  },
+  {
+    "id": "dallas_zoo_dallas_3",
+    "source": "curated",
+    "org_id": "dallas_zoo_dallas",
+    "org_name": "Dallas Zoo",
+    "source_url": "https://www.dallaszoo.com/support-the-zoo/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:44.867749+00:00",
+    "opportunity_title": "Conservation Ambassadors",
+    "description_short": "Educate guests about wildlife conservation and animals.",
+    "description_long": "Conservation Ambassadors are dedicated to educating guests about animals, natural history, wildlife conservation, and new happenings at the Dallas Zoo. They serve as interpretive guides in stations throughout the Zoo and are trained to utilize biofacts, animal observation, interesting facts, and conservation messages to help interpret Zoo animals and exhibits for our guests. This placement is ideal for people who love to learn, have good verbal communication skills, and enjoy interacting with diverse audiences.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "education",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "For more information or questions about any adult volunteer opportunity, email Volunteers@DallasZoo.com or call 469.554.7453."
+  },
+  {
+    "id": "dallas_zoo_dallas_6",
+    "source": "curated",
+    "org_id": "dallas_zoo_dallas",
+    "org_name": "Dallas Zoo",
+    "source_url": "https://www.dallaszoo.com/support-the-zoo/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:44.867749+00:00",
+    "opportunity_title": "Keeper Aide Volunteers",
+    "description_short": "Assist zoologists in the care of various animals.",
+    "description_long": "Keeper Aides work behind the scenes with our zoologists to help care for our diverse collection of birds, mammals, reptiles, and amphibians. This position provides an opportunity to learn from Zoo professionals as you assist with many critical daily tasks that impact an animal’s health and welfare. These positions require the ability to lift up to 50 pounds and to perform physically demanding work in all weather conditions.",
+    "schedule": {
+      "raw": "One morning shift per week, 7 a.m. to noon, on the same day each week for one year.",
+      "recurring": true,
+      "times_of_day": "morning"
+    },
+    "commitment": "One morning shift per week for one year.",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be able to lift up to 50 pounds, perform physically demanding work.",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "For more information or questions about any adult volunteer opportunity, email Volunteers@DallasZoo.com or call 469.554.7453."
+  },
+  {
+    "id": "dallas_zoo_dallas_5",
+    "source": "curated",
+    "org_id": "dallas_zoo_dallas",
+    "org_name": "Dallas Zoo",
+    "source_url": "https://www.dallaszoo.com/support-the-zoo/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:44.867749+00:00",
+    "opportunity_title": "Special Event Volunteers",
+    "description_short": "Staff various events held at the Zoo.",
+    "description_long": "Special event volunteers staff a wide variety of events held at the Zoo throughout the year. They provide hospitality and information, staff games and activities for children and may assist with set-up or preparation work. This position requires flexibility, enthusiasm and a love of people.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [],
+    "apply_url": null,
+    "apply_instructions": "For more information or questions about any adult volunteer opportunity, email Volunteers@DallasZoo.com or call 469.554.7453."
+  },
+  {
+    "id": "dallas_zoo_dallas_4",
+    "source": "curated",
+    "org_id": "dallas_zoo_dallas",
+    "org_name": "Dallas Zoo",
+    "source_url": "https://www.dallaszoo.com/support-the-zoo/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:44.867749+00:00",
+    "opportunity_title": "Special Project Volunteers",
+    "description_short": "Help with unique projects using special skills.",
+    "description_long": "These volunteers assist our organization in many unique ways. Individuals with special skills (welders, carpenters and electricians) are needed for projects throughout the year.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Individuals with special skills (welders, carpenters, electricians).",
+    "cause_tags": [],
+    "apply_url": null,
+    "apply_instructions": "For more information or questions about any adult volunteer opportunity, email Volunteers@DallasZoo.com or call 469.554.7453."
+  },
+  {
+    "id": "dallas_zoo_dallas_0",
+    "source": "curated",
+    "org_id": "dallas_zoo_dallas",
+    "org_name": "Dallas Zoo",
+    "source_url": "https://www.dallaszoo.com/support-the-zoo/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:44.867749+00:00",
+    "opportunity_title": "Youth Volunteers - Zoo Crew",
+    "description_short": "Hands-on experience for teens in various zoo departments.",
+    "description_long": "Zoo Crew is perfect for teens who are interested in a career in the zoo field! You’ll gain hands-on experience and learn about the many different departments at the Dallas Zoo, including guest services, special events, education, animal care, and much more. Interested applicants must complete a Zoo Crew Training Program to be considered.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Ages 13-17, must complete Zoo Crew Training Program.",
+    "cause_tags": [],
+    "apply_url": null,
+    "apply_instructions": "Apply Now"
+  },
+  {
     "id": "dementia_friendly_fort_worth_0",
     "source": "curated",
     "org_id": "dementia_friendly_fort_worth",
@@ -13109,6 +13499,67 @@
       "precision": "city",
       "resolved_from": "location.city"
     }
+  },
+  {
+    "id": "friends_of_oak_cliff_parks_dallas_1",
+    "source": "curated",
+    "org_id": "friends_of_oak_cliff_parks_dallas",
+    "org_name": "Friends of Oak Cliff Parks",
+    "source_url": "https://friendsofoakcliffparks.org/events",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:36:15.549548+00:00",
+    "opportunity_title": "Dallas Council of Garden Clubs Meetings",
+    "description_short": "Attend meetings for Friends of Oak Cliff Parks members.",
+    "description_long": "Members of the Friends of Oak Cliff Parks are invited to attend Dallas Council of Garden Clubs meetings - a schedule can be found here.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "education",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Schedule can be found on the organization's website."
+  },
+  {
+    "id": "friends_of_oak_cliff_parks_dallas_0",
+    "source": "curated",
+    "org_id": "friends_of_oak_cliff_parks_dallas",
+    "org_name": "Friends of Oak Cliff Parks",
+    "source_url": "https://friendsofoakcliffparks.org/events",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:36:15.549548+00:00",
+    "opportunity_title": "Workdays in the Parks",
+    "description_short": "Join us any day in the parks for volunteer workdays.",
+    "description_long": "We would love to have you join us, any day, any park, as often or seldom as works for you. Know you are always welcome - you do not have to commit to being with us every time. We are required by the Dallas Parks Department to have every volunteer who helps in the parks sign a waiver. If rain prevents work at work day start time, the work day is cancelled.",
+    "schedule": {
+      "raw": "Tuesdays and Saturdays, alternate days available upon request",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "as often or seldom as works for you",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must sign a waiver, groups welcome to schedule alternate days.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact Ellen Fitzsimmons at efitzsimmons@friendsofoakcliffparks.org"
   },
   {
     "id": "friends_of_rescue_animals_1",
@@ -21732,6 +22183,129 @@
     }
   },
   {
+    "id": "mission_oak_cliff_dallas_1",
+    "source": "curated",
+    "org_id": "mission_oak_cliff_dallas",
+    "org_name": "Mission Oak Cliff",
+    "source_url": "https://www.missionoakcliff.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:58.531859+00:00",
+    "opportunity_title": "Clothing Closet Volunteers",
+    "description_short": "Assist clients in the clothing closet on Tuesday afternoons.",
+    "description_long": "Assist Mission Oak Cliff clients as they pick out clothes from the clothing closet, Tuesday afternoons. Help keep the clothing closet clean and stocked.",
+    "schedule": {
+      "raw": "Tuesday afternoons",
+      "recurring": true,
+      "times_of_day": "afternoon"
+    },
+    "commitment": "varies by shift",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Please use the links below to sign up."
+  },
+  {
+    "id": "mission_oak_cliff_dallas_0",
+    "source": "curated",
+    "org_id": "mission_oak_cliff_dallas",
+    "org_name": "Mission Oak Cliff",
+    "source_url": "https://www.missionoakcliff.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:58.531859+00:00",
+    "opportunity_title": "Food Pantry Volunteers",
+    "description_short": "Help stock and assist clients at the food pantry.",
+    "description_long": "Help stock the food pantry, Monday - Friday mornings. Assist clients who shop from the pantry, Monday - Thursday afternoons.",
+    "schedule": {
+      "raw": "Monday - Friday mornings for stocking, Monday - Thursday afternoons for assisting clients",
+      "recurring": true,
+      "times_of_day": "morning, afternoon"
+    },
+    "commitment": "varies by shift",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "food_security",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Please use the links below to sign up."
+  },
+  {
+    "id": "mission_oak_cliff_dallas_3",
+    "source": "curated",
+    "org_id": "mission_oak_cliff_dallas",
+    "org_name": "Mission Oak Cliff",
+    "source_url": "https://www.missionoakcliff.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:58.531859+00:00",
+    "opportunity_title": "General Morning Volunteers",
+    "description_short": "Assist with organizational tasks for daily client services.",
+    "description_long": "Help with organizational tasks to help Mission Oak Cliff prepare for our daily client services, Monday - Friday mornings. Task examples: Sort donations; pack hygiene kits; administrative work.",
+    "schedule": {
+      "raw": "Monday - Friday mornings",
+      "recurring": true,
+      "times_of_day": "morning"
+    },
+    "commitment": "varies by shift",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Please use the links below to sign up."
+  },
+  {
+    "id": "mission_oak_cliff_dallas_2",
+    "source": "curated",
+    "org_id": "mission_oak_cliff_dallas",
+    "org_name": "Mission Oak Cliff",
+    "source_url": "https://www.missionoakcliff.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:58.531859+00:00",
+    "opportunity_title": "Volunteer Cook",
+    "description_short": "Prepare and serve lunch for clients experiencing homelessness.",
+    "description_long": "Prepare and serve lunch for Mission Oak Cliff’s clients experiencing homelessness, Monday - Thursday mornings.",
+    "schedule": {
+      "raw": "Monday - Thursday mornings",
+      "recurring": true,
+      "times_of_day": "morning"
+    },
+    "commitment": "varies by shift",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "food_security",
+      "community",
+      "health"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Please use the links below to sign up."
+  },
+  {
     "id": "my_possibilities_2",
     "source": "curated",
     "org_id": "my_possibilities",
@@ -23377,6 +23951,37 @@
       "precision": "city",
       "resolved_from": "location.city"
     }
+  },
+  {
+    "id": "oak_cliff_cultural_center_dallas_0",
+    "source": "curated",
+    "org_id": "oak_cliff_cultural_center_dallas",
+    "org_name": "Oak Cliff Cultural Center",
+    "source_url": "https://occc.dallasculture.org/about/get-involved",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:36:06.387089+00:00",
+    "opportunity_title": "Volunteer at Oak Cliff Cultural Center",
+    "description_short": "Join as a volunteer for special events and office support.",
+    "description_long": "We are always looking for energetic volunteers to represent the OCCC during special events and regular office hours. Volunteers enjoy a wide variety of assignments, ranging from gallery docents to back stage/technical support; administrative assistance, festival work and much more!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "arts",
+      "community"
+    ],
+    "apply_url": "https://www.dallas.gov/OC3VolunteerForm",
+    "apply_instructions": "Please fill out the OC3 Volunteer Form or email andrea.tosten@dallas.gov."
   },
   {
     "id": "operation_kindness_humane_carrollton_0",
@@ -31074,6 +31679,242 @@
     }
   },
   {
+    "id": "stewpot_dallas_0",
+    "source": "curated",
+    "org_id": "stewpot_dallas",
+    "org_name": "The Stewpot",
+    "source_url": "https://www.thestewpot.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:18.158402+00:00",
+    "opportunity_title": "Art Studio Volunteer",
+    "description_short": "Help organize and support artists in the Art Studio.",
+    "description_long": "We are looking for regular volunteers to help in our Art Studio - gathering supplies for artists, cleaning up, etc.",
+    "schedule": {
+      "raw": "Varies",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "Varies",
+    "location": {
+      "address": "1610 S Malcolm X Blvd, Dallas, TX 75226",
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "18+ years old. Walking, standing, bending, and lifting at least 10lbs. throughout shifts.",
+    "cause_tags": [],
+    "apply_url": null,
+    "apply_instructions": "If you are interested, let us know."
+  },
+  {
+    "id": "stewpot_dallas_1",
+    "source": "curated",
+    "org_id": "stewpot_dallas",
+    "org_name": "The Stewpot",
+    "source_url": "https://www.thestewpot.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:18.158402+00:00",
+    "opportunity_title": "Helping in the Food Pantry",
+    "description_short": "Assist with food pantry tasks including greeting and shopping.",
+    "description_long": "Roles include: Greeters, Shopping Assistants, Baggers, Warehouse help, and Shopping Cart Runners.",
+    "schedule": {
+      "raw": "Monday - Friday",
+      "recurring": true,
+      "times_of_day": "Morning Shift: 8:30 - 12 PM; Afternoon Shift: 12:15 - 3:45 PM"
+    },
+    "commitment": "3-hour shifts",
+    "location": {
+      "address": "1610 S Malcolm X Blvd, Dallas, TX 75226",
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "12 years old with a chaperone; 16 years old can volunteer solo. Closed-toed shoes required.",
+    "cause_tags": [
+      "food_security"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up in person."
+  },
+  {
+    "id": "stewpot_dallas_5",
+    "source": "curated",
+    "org_id": "stewpot_dallas",
+    "org_name": "The Stewpot",
+    "source_url": "https://www.thestewpot.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:18.158402+00:00",
+    "opportunity_title": "Junior Crew (Middle School)",
+    "description_short": "Assist middle school students with homework and projects.",
+    "description_long": "Volunteers are needed on Tuesday, Wednesday, and Thursday evenings to help with The Stewpot's Junior Crew (middle school students) as well as assistance with writing, math, and sciences.",
+    "schedule": {
+      "raw": "Wednesdays, 5-9PM",
+      "recurring": true,
+      "times_of_day": "Evening"
+    },
+    "commitment": "Varies based on homework time",
+    "location": {
+      "address": "Cornerstone en Español, 7300 Bruton Rd, Dallas TX 75217",
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 18 years old and older, complete a background check and Child Safety Video/Quiz.",
+    "cause_tags": [
+      "education"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a background check and Child Safety Video/Quiz before volunteering."
+  },
+  {
+    "id": "stewpot_dallas_7",
+    "source": "curated",
+    "org_id": "stewpot_dallas",
+    "org_name": "The Stewpot",
+    "source_url": "https://www.thestewpot.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:18.158402+00:00",
+    "opportunity_title": "Make Welcome Baskets",
+    "description_short": "Create welcome baskets for new housing clients.",
+    "description_long": "To make our clients feel even more at home, we need your help putting together some 'Welcome Home' baskets!",
+    "schedule": {
+      "raw": "Anytime",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "Varies",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": true
+    },
+    "requirements": "None. Family Friendly.",
+    "cause_tags": [],
+    "apply_url": null,
+    "apply_instructions": "Schedule a drop off at The Stewpot."
+  },
+  {
+    "id": "stewpot_dallas_2",
+    "source": "curated",
+    "org_id": "stewpot_dallas",
+    "org_name": "The Stewpot",
+    "source_url": "https://www.thestewpot.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:18.158402+00:00",
+    "opportunity_title": "Making Snack Bags",
+    "description_short": "Create and drop off snack bags for those in need.",
+    "description_long": "Create and drop off snack bags for our neighbors who are hungry. Click here to see what goes into these easy-to-make kits and to register for a drop off.",
+    "schedule": {
+      "raw": "Anytime",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "Varies",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": true
+    },
+    "requirements": "None. Family-friendly.",
+    "cause_tags": [
+      "food_security"
+    ],
+    "apply_url": "volunteer.thestewpot.org",
+    "apply_instructions": "Schedule a drop off at The Stewpot."
+  },
+  {
+    "id": "stewpot_dallas_4",
+    "source": "curated",
+    "org_id": "stewpot_dallas",
+    "org_name": "The Stewpot",
+    "source_url": "https://www.thestewpot.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:18.158402+00:00",
+    "opportunity_title": "Serving Meals at the Second Chance Cafe",
+    "description_short": "Help serve meals at The Bridge Homeless Recovery Center.",
+    "description_long": "Since its inception in 1975 The Stewpot has provided food for those who needed it. What started as bowls of soup in the church basement now includes 3 meals away, every day of the year with our partnership at The Bridge Homeless Recovery Center.",
+    "schedule": {
+      "raw": "Every day",
+      "recurring": true,
+      "times_of_day": "breakfast, lunch, and dinner shifts"
+    },
+    "commitment": "Varies based on shifts",
+    "location": {
+      "address": "Bridge Homeless Recovery Center",
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "18 years and older.",
+    "cause_tags": [
+      "food_security"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up for shifts."
+  },
+  {
+    "id": "stewpot_dallas_3",
+    "source": "curated",
+    "org_id": "stewpot_dallas",
+    "org_name": "The Stewpot",
+    "source_url": "https://www.thestewpot.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:18.158402+00:00",
+    "opportunity_title": "Streetside Showers",
+    "description_short": "Provide showers and supplies for individuals in need.",
+    "description_long": "Every second and fourth Thursday of the month we partner with Streetside Showers to provide showers for our neighbors on the street. Volunteers help check-in clients, get them clothes, and clean shower stalls in between guests.",
+    "schedule": {
+      "raw": "Every 2nd and 4th Thursday of the month",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "One-time commitment per event",
+    "location": {
+      "address": "FPC Dallas south parking lot",
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "18 years and older to volunteer. Outdoors. Wheelchair Accessible.",
+    "cause_tags": [
+      "crisis_support"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up for specific dates."
+  },
+  {
+    "id": "stewpot_dallas_6",
+    "source": "curated",
+    "org_id": "stewpot_dallas",
+    "org_name": "The Stewpot",
+    "source_url": "https://www.thestewpot.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:18.158402+00:00",
+    "opportunity_title": "Venturing Crew (High School)",
+    "description_short": "Support high school students with their studies.",
+    "description_long": "Volunteers are needed on Tuesday, Wednesday, and Thursday evenings to help with The Stewpot's Junior Crew (middle school students) by assisting high school students with homework.",
+    "schedule": {
+      "raw": "Wednesdays, 5-9PM",
+      "recurring": true,
+      "times_of_day": "Evening"
+    },
+    "commitment": "Varies based on homework time",
+    "location": {
+      "address": "Cornerstone en Español, 7300 Bruton Rd, Dallas TX 75217",
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Must be 21 years old and older, complete a background check and Child Safety Video/Quiz.",
+    "cause_tags": [
+      "education"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete a background check and Child Safety Video/Quiz before volunteering."
+  },
+  {
     "id": "the_storehouse_community_center_1",
     "source": "curated",
     "org_id": "the_storehouse_community_center",
@@ -32272,6 +33113,186 @@
     }
   },
   {
+    "id": "vickery_meadow_food_pantry_and_clothes_closet_dallas_5",
+    "source": "curated",
+    "org_id": "vickery_meadow_food_pantry_and_clothes_closet_dallas",
+    "org_name": "Vickery Meadow Food Pantry and Clothes Closet",
+    "source_url": "https://vickerymeadowna.org/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:27.191421+00:00",
+    "opportunity_title": "Administrative Assistant",
+    "description_short": "Assist with office tasks and new applications.",
+    "description_long": "Help with Office Tasks such as Filing, Enter New Neighbor Applications",
+    "schedule": {
+      "raw": "Flexible Days and Hours",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "flexible",
+    "location": {
+      "address": null,
+      "city": "Vickery Meadow",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up below."
+  },
+  {
+    "id": "vickery_meadow_food_pantry_and_clothes_closet_dallas_2",
+    "source": "curated",
+    "org_id": "vickery_meadow_food_pantry_and_clothes_closet_dallas",
+    "org_name": "Vickery Meadow Food Pantry and Clothes Closet",
+    "source_url": "https://vickerymeadowna.org/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:27.191421+00:00",
+    "opportunity_title": "Check-in Volunteer",
+    "description_short": "Greet neighbors and assist with data entry.",
+    "description_long": "Greet Neighbors, Basic Data Entry Skills",
+    "schedule": {
+      "raw": "Wednesday 11:15 AM – 4:15 PM, Thursday 9:30 AM – 1:15 PM, Saturday 8:30 AM – 12:30 PM",
+      "recurring": true,
+      "times_of_day": "day"
+    },
+    "commitment": "weekly",
+    "location": {
+      "address": null,
+      "city": "Vickery Meadow",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Basic Data Entry Skills",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up below."
+  },
+  {
+    "id": "vickery_meadow_food_pantry_and_clothes_closet_dallas_3",
+    "source": "curated",
+    "org_id": "vickery_meadow_food_pantry_and_clothes_closet_dallas",
+    "org_name": "Vickery Meadow Food Pantry and Clothes Closet",
+    "source_url": "https://vickerymeadowna.org/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:27.191421+00:00",
+    "opportunity_title": "Clothing Volunteer",
+    "description_short": "Sort donations and assist neighbors in the Clothes Closet.",
+    "description_long": "Sort Donations, Hygiene and Diaper Prep, Hang Items, Maintain Clothing Racks and Supplies, Help Neighbors Find Clothing",
+    "schedule": {
+      "raw": "Wednesday 1:00 PM – 4:00 PM, Thursday 10:00 AM – 1:00 PM, Saturday 9:00 AM – NOON",
+      "recurring": true,
+      "times_of_day": "day"
+    },
+    "commitment": "weekly",
+    "location": {
+      "address": null,
+      "city": "Vickery Meadow",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up below."
+  },
+  {
+    "id": "vickery_meadow_food_pantry_and_clothes_closet_dallas_1",
+    "source": "curated",
+    "org_id": "vickery_meadow_food_pantry_and_clothes_closet_dallas",
+    "org_name": "Vickery Meadow Food Pantry and Clothes Closet",
+    "source_url": "https://vickerymeadowna.org/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:27.191421+00:00",
+    "opportunity_title": "Food Distribution Volunteer",
+    "description_short": "Assist with food distribution and preparation.",
+    "description_long": "Prep Pantry for Distribution, Sort Produce, Prepare Food Boxes – Requires Lifting, Hand out Boxes, Re-stock Shelves as Needed",
+    "schedule": {
+      "raw": "Wednesday 11:15 AM – 4:15 PM, Thursday 9:30 AM – 1:15 PM, Saturday 8:30 AM – 12:30 PM",
+      "recurring": true,
+      "times_of_day": "day"
+    },
+    "commitment": "weekly",
+    "location": {
+      "address": null,
+      "city": "Vickery Meadow",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Requires Lifting",
+    "cause_tags": [
+      "food_security"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up below."
+  },
+  {
+    "id": "vickery_meadow_food_pantry_and_clothes_closet_dallas_0",
+    "source": "curated",
+    "org_id": "vickery_meadow_food_pantry_and_clothes_closet_dallas",
+    "org_name": "Vickery Meadow Food Pantry and Clothes Closet",
+    "source_url": "https://vickerymeadowna.org/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:27.191421+00:00",
+    "opportunity_title": "Food Stocker Volunteer",
+    "description_short": "Help stock shelves and prepare food boxes.",
+    "description_long": "Stock Shelves – Requires Lifting, Prepare Food Boxes, Sort Produce",
+    "schedule": {
+      "raw": "Monday 8:30 AM - 10:30 AM",
+      "recurring": false,
+      "times_of_day": "morning"
+    },
+    "commitment": "one-time",
+    "location": {
+      "address": null,
+      "city": "Vickery Meadow",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Requires Lifting",
+    "cause_tags": [
+      "food_security"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up below."
+  },
+  {
+    "id": "vickery_meadow_food_pantry_and_clothes_closet_dallas_4",
+    "source": "curated",
+    "org_id": "vickery_meadow_food_pantry_and_clothes_closet_dallas",
+    "org_name": "Vickery Meadow Food Pantry and Clothes Closet",
+    "source_url": "https://vickerymeadowna.org/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:34:27.191421+00:00",
+    "opportunity_title": "Resource Volunteer",
+    "description_short": "Help neighbors find assistance referrals.",
+    "description_long": "Greet Neighbors, Help Neighbors Find the Right Assistance Referral, Help Maintain Referral List",
+    "schedule": {
+      "raw": "Flexible Days and Hours or when the pantry is open.",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "flexible",
+    "location": {
+      "address": null,
+      "city": "Vickery Meadow",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up below."
+  },
+  {
     "id": "vickery_meadow_youth_development_foundation_0",
     "source": "curated",
     "org_id": "vickery_meadow_youth_development_foundation",
@@ -33017,6 +34038,458 @@
       "precision": "city",
       "resolved_from": "location.city"
     }
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_11",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Volunteer - Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Adoption Support",
+    "description_short": "Assist guests during the DAS adoption process.",
+    "description_long": "Help our team make #DASHappyTails happen by providing Adoption Support! These volunteers help greet DAS guests and answer any questions they might have about the DAS adoption process or the pets in our care so that our staff has more time to counsel and finalize adoptions.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "community",
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply."
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_8",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Volunteer - Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Animal Handler for Medical",
+    "description_short": "Support veterinary staff by helping to manage animals.",
+    "description_long": "These volunteers are the extra set of hands needed in the clinic! They run the animals who need medical exams to and from the clinic and help to keep DAS pets still and calm while they are being examined.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply."
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_9",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Volunteer - Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Animal Marketing",
+    "description_short": "Assist in promoting adoptable pets through marketing.",
+    "description_long": "With so many pets coming into DAS every single day, our marketing staff can always use a little help getting the word out to the public about just how awesome our adoptable pets are! If you have a creative side and a love for your furry friends, these might be the purrrfect volunteer opportunities for you!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply."
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_3",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Volunteer - Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Cat Socialization",
+    "description_short": "Help socialize cats to improve their adoptability.",
+    "description_long": "Socializing the cats in our care helps them to become more adoptable down the line! If you’re a cat person, this is a great volunteer opportunity to make friends with our felines! Simple acts like playing with and petting our felines can greatly improve their quality of life while they’re at the shelter.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply."
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_1",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Volunteer - Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Click-for-Calm",
+    "description_short": "Help calm shelter dogs using positive reinforcement techniques.",
+    "description_long": "Click for Calm volunteers walk through the kennels using positive reinforcement operant conditioning techniques to reinforce calm behavior from the dogs in the kennels. Once a dog has all four paws on the floor, or if the cat comes to the front of the kennel, the volunteer pushes a clicker and gives out a treat. This helps our pets put their best face forward for adopters!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply."
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_13",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Volunteer - Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Community Outreach and Education",
+    "description_short": "Spread awareness about DAS and its lifesaving work.",
+    "description_long": "Do you LOVE DAS and want to help us spread the word about the lifesaving work we’re doing? Become a Community Outreach and Education volunteer! These volunteers go with staff to offsite events or other opportunities and help hand out flyers and talk to the public about the amazing work we do, the services we have to offer, and how they can get involved.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply."
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_0",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Volunteer - Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "D90 Dog Runners",
+    "description_short": "Run with high-energy dogs to improve their well-being and chances of adoption.",
+    "description_long": "The D90 Runners are a group of DAS volunteers who provide high-energy dogs with the exercise and stimulation they crave. When high-energy dogs get the exercise they need, they have a higher quality of life, are less susceptible to illness, behave better in their kennels, and have higher chances of adoption. Each participating dog runs one mile, which may seem small to seasoned runners, but it makes a world of difference to a shelter pup. The D90 Runners can run with 1-3 dogs during our group runs which also allows you to customize your workout for the day. After the run, the dogs typically fall asleep quickly with wagging tails and big smiles on their faces.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Volunteers must complete DAS Canine Handler Training before participating.",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply."
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_10",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Volunteer - Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "D90 Fur-tographers",
+    "description_short": "Capture great images of adoptable pets to aid their adoption.",
+    "description_long": "Does the camera roll on your phone have more photos of your four-legged friends than your two-legged ones? Our Phone Fur-tographers help us update pet photos within just a day or two of their intake. This volunteer opportunity doesn’t require any professional photography experience or equipment—if you know how to take a photo with your phone, you can help us save lives! Our Pro Fur-tographers have a little more photography experience and equipment than our Phone Fur-tographers. If you have a DSLR camera and a love for both professional photography and animals, we want you on our team! These volunteers make our longer residents SHINE by giving them professional photographs that we can use to promote them on our website and social media. We pair our Pro-Furtographers up with Animal Handling Volunteers so that their time spent photographing is efficient and effective!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply."
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_5",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Volunteer - Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Dog Playgroup Assistant",
+    "description_short": "Help with daily dog playgroups for socialization.",
+    "description_long": "Eligible DAS dogs have the opportunity to participate in daily dog playgroups. Playgroups are not only a great way for us to assess how dogs will behave with other dogs, but they also give shelter pups the outlet and exercise they crave! As a Dog Playgroup Assistant, you’ll help our playgroup staff by shuttling dogs to and from playgroup and get to observe DAS pups have a little fun.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply."
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_6",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Volunteer - Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Dog Walking & Socialization",
+    "description_short": "Give love and attention to adoptable dogs by walking them.",
+    "description_long": "We can always use volunteers who are willing to get our dogs out of their kennels and give them a little extra human love! Walking our adoptable dogs or just spending time with them one-on-one in our play yards is a great way to help these pups destress and have a little fun. Plus, our volunteers teach us so much about the personalities of the dogs they spend time with which helps us find the PAWfect match!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply."
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_2",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Volunteer - Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Enrichment",
+    "description_short": "Create fun enrichment items for shelter pets.",
+    "description_long": "Have a knack for crafts? You might enjoy our enrichment shifts. Create a tasty frozen treat, a treat puzzle or snuffle mat, or other enrichment items for our pets and distribute!",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply."
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_14",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Volunteer - Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Foster Volunteers",
+    "description_short": "Provide temporary homes for vulnerable animals in shelters.",
+    "description_long": "Many of our volunteers also become foster parents and help to save the lives of the most vulnerable animals in our shelter by providing them a temporary home away from the shelter.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply."
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_4",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Volunteer - Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Fraidy Cat Team",
+    "description_short": "Assist scared cats to become more social and adoptable.",
+    "description_long": "Our Fraidy Cat Team provides enrichment and introduces our 'Fraidy Cats' to socialization which allows them to come out of their shells and makes them more adoptable.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply."
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_7",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Volunteer - Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Medical Team Volunteers",
+    "description_short": "Assist medical staff in caring for animals at DAS.",
+    "description_long": "Be on the front lines of lifesaving at DAS by being a volunteer for our medical team! These volunteers assist our staff in prepping animals and supplies for medical procedures or daily care.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply."
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas_12",
+    "source": "curated",
+    "org_id": "volunteer_be_dallas_90_dallas",
+    "org_name": "Volunteer - Be Dallas 90",
+    "source_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-09T01:35:47.472709+00:00",
+    "opportunity_title": "Offsite Adoption Support",
+    "description_short": "Support adoption events by representing DAS in the community.",
+    "description_long": "DAS often takes our pets offsite for adoption events all over the city of Dallas! Local pet stores, dog-friendly patios, even libraries in Dallas have all hosted these events.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "unknown",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "none",
+    "cause_tags": [
+      "community",
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Click here to learn more and apply."
   },
   {
     "id": "weatherford_wags_8",
