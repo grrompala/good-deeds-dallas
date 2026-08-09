@@ -2055,5 +2055,93 @@
     "fallback_urls": [],
     "notes": "Sri Ganesha Temple offers volunteer roles in prasadam preparation, event decoration, and temple maintenance.",
     "active": true
+  },
+  {
+    "id": "vickery_meadow_food_pantry_and_clothes_closet_dallas",
+    "name": "Vickery Meadow Food Pantry and Clothes Closet",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["food_security", "community"],
+    "volunteer_url": "https://vickerymeadowna.org/volunteer-opportunities",
+    "fallback_urls": [],
+    "notes": "Provides food and clothing to local residents; volunteers stock shelves, distribute food, and sort clothing.",
+    "active": true
+  },
+  {
+    "id": "dallas_zoo_dallas",
+    "name": "Dallas Zoo",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["animals", "education", "community"],
+    "volunteer_url": "https://www.dallaszoo.com/support-the-zoo/volunteer",
+    "fallback_urls": [],
+    "notes": "Dallas Zoo offers roles like Animal Nutrition Center volunteer and Conservation Ambassador.",
+    "active": true
+  },
+  {
+    "id": "brother_bill_s_helping_hand_dallas",
+    "name": "Brother Bill's Helping Hand",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["food_security", "children", "community"],
+    "volunteer_url": "https://bbhh.org/volunteer",
+    "fallback_urls": [],
+    "notes": "Provides food distribution, after-school programs, and community gardening.",
+    "active": true
+  },
+  {
+    "id": "stewpot_dallas",
+    "name": "The Stewpot",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["food_security", "arts", "community"],
+    "volunteer_url": "https://www.thestewpot.org/volunteer",
+    "fallback_urls": [],
+    "notes": "The Stewpot provides food and art services; volunteers assist in the art studio, food pantry, and with meal services.",
+    "active": true
+  },
+  {
+    "id": "volunteer_be_dallas_90_dallas",
+    "name": "Volunteer - Be Dallas 90",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["animals", "community"],
+    "volunteer_url": "https://bedallas90.org/home/volunteer-opportunities",
+    "fallback_urls": [],
+    "notes": "Dallas Animal Services offers roles like dog walking, cat socialization, and dog running to improve animal welfare.",
+    "active": true
+  },
+  {
+    "id": "mission_oak_cliff_dallas",
+    "name": "Mission Oak Cliff",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["food_security", "community"],
+    "volunteer_url": "https://www.missionoakcliff.org/volunteer",
+    "fallback_urls": [],
+    "notes": "Mission Oak Cliff provides food and clothing assistance; volunteers help stock pantry and serve meals.",
+    "active": true
+  },
+  {
+    "id": "oak_cliff_cultural_center_dallas",
+    "name": "Oak Cliff Cultural Center",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["arts", "community"],
+    "volunteer_url": "https://occc.dallasculture.org/about/get-involved",
+    "fallback_urls": [],
+    "notes": "Provides arts and cultural programs; volunteers assist as gallery docents, in technical support, and at festivals.",
+    "active": true
+  },
+  {
+    "id": "friends_of_oak_cliff_parks_dallas",
+    "name": "Friends of Oak Cliff Parks",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["community", "environment"],
+    "volunteer_url": "https://friendsofoakcliffparks.org/events",
+    "fallback_urls": [],
+    "notes": "Maintains Dallas parks; volunteers help with park workdays.",
+    "active": true
   }
 ]
