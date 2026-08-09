@@ -29,10 +29,20 @@
     "reason": "The page describes multiple concrete volunteer opportunities in Dallas, TX.",
     "verdict": "accept"
   },
+  "bbhh.org": {
+    "date": "2026-08-09",
+    "reason": "The organization is a DFW-area nonprofit offering specific volunteer roles.",
+    "verdict": "accept"
+  },
   "beaneighbor.vomo.org": {
     "date": "2026-08-08",
     "reason": "The page does not describe any specific volunteer role or opportunity.",
     "verdict": "reject"
+  },
+  "bedallas90.org": {
+    "date": "2026-08-09",
+    "reason": "The organization is a DFW-area nonprofit offering specific volunteer roles involving time donation.",
+    "verdict": "accept"
   },
   "bestfriends.org": {
     "date": "2026-08-08",
@@ -89,6 +99,11 @@
     "reason": "The page describes specific volunteer roles in the DFW area for supporting refugees.",
     "verdict": "accept"
   },
+  "dallascollege.edu": {
+    "date": "2026-08-09",
+    "reason": "The page lacks specific, actionable volunteer roles and primarily focuses on food assistance and donation options.",
+    "verdict": "reject"
+  },
   "dallashanuman.org": {
     "date": "2026-08-08",
     "reason": "The page does not describe any specific volunteer roles.",
@@ -97,6 +112,11 @@
   "dallashomelesssolutions.com": {
     "date": "2026-07-21",
     "reason": "The page describes specific volunteer opportunities related to setting up shelters and providing meals during inclement weather, which are actionable roles.",
+    "verdict": "accept"
+  },
+  "dallaszoo.com": {
+    "date": "2026-08-09",
+    "reason": "The page describes multiple concrete volunteer opportunities at the Dallas Zoo.",
     "verdict": "accept"
   },
   "developmentservices.addisontx.gov": {
@@ -118,6 +138,11 @@
     "date": "2026-08-02",
     "reason": "The page lacks specific, concrete volunteer roles and primarily focuses on donations.",
     "verdict": "reject"
+  },
+  "friendsofoakcliffparks.org": {
+    "date": "2026-08-09",
+    "reason": "The page describes a real volunteer opportunity involving workdays in Dallas parks.",
+    "verdict": "accept"
   },
   "friendsoftcas.com": {
     "date": "2026-07-21",
@@ -219,6 +244,11 @@
     "reason": "landing page fetch failed",
     "verdict": "reject"
   },
+  "missionoakcliff.org": {
+    "date": "2026-08-09",
+    "reason": "The page describes specific volunteer roles in the DFW area.",
+    "verdict": "accept"
+  },
   "nationalcharityleague.org": {
     "date": "2026-07-21",
     "reason": "The page is focused on employment opportunities, not volunteer roles.",
@@ -227,6 +257,11 @@
   "ntxcfp.org": {
     "date": "2026-07-21",
     "reason": "The page describes specific volunteer roles such as sorting and packing food, assisting clients, and organizing events.",
+    "verdict": "accept"
+  },
+  "occc.dallasculture.org": {
+    "date": "2026-08-09",
+    "reason": "The page describes specific volunteer roles in the DFW area.",
     "verdict": "accept"
   },
   "operationkindness.org": {
@@ -329,6 +364,11 @@
     "reason": "The page describes a real volunteer opportunity in The Colony, TX, involving property maintenance assistance.",
     "verdict": "accept"
   },
+  "thestewpot.org": {
+    "date": "2026-08-09",
+    "reason": "The page provides specific, actionable volunteer opportunities in the DFW area.",
+    "verdict": "accept"
+  },
   "thewylieway.com": {
     "date": "2026-08-08",
     "reason": "The page lacks specific, actionable volunteer roles and primarily offers vague opportunities.",
@@ -348,6 +388,11 @@
     "date": "2026-07-21",
     "reason": "The organization does not have a clear DFW presence or specific volunteer opportunities tied to the DFW area.",
     "verdict": "reject"
+  },
+  "vickerymeadowna.org": {
+    "date": "2026-08-09",
+    "reason": "The organization is a DFW-area nonprofit offering specific volunteer roles.",
+    "verdict": "accept"
   },
   "volunteer.ntfb.org": {
     "date": "2026-07-21",
