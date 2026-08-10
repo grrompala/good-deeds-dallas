@@ -1251,7 +1251,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "education",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
@@ -2488,7 +2491,10 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-08-09T02:32:42.248450+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "animals",
+      "community"
+    ],
     "geo": {
       "city": "Dallas",
       "state": "TX",
@@ -2648,7 +2654,9 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-08-09T02:32:42.248450+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "animals"
+    ],
     "geo": {
       "city": "Dallas",
       "state": "TX",
@@ -8382,7 +8390,10 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-08-03T13:18:39.584325+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "environment",
+      "community"
+    ],
     "geo": {
       "city": "Frisco",
       "state": "TX",
@@ -11649,7 +11660,12 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-08-09T02:32:42.248450+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "children",
+      "animals",
+      "education",
+      "community"
+    ],
     "geo": {
       "city": "Dallas",
       "state": "TX",
@@ -20666,7 +20682,11 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-08-09T02:32:42.248450+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "housing",
+      "community",
+      "immigration"
+    ]
   },
   {
     "id": "international_rescue_committee_dallas_1",
@@ -21741,7 +21761,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "environment",
+      "community"
+    ],
     "expiry": {
       "kind": "unknown",
       "ends_on": null,
@@ -27601,7 +27624,10 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-08-09T02:32:42.248450+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
     "geo": {
       "city": "Dallas",
       "state": "TX",
@@ -27654,7 +27680,11 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-08-09T02:32:42.248450+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ],
     "geo": {
       "city": "Dallas",
       "state": "TX",
@@ -29524,7 +29554,11 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-08-09T02:32:42.248450+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "arts",
+      "education",
+      "community"
+    ],
     "geo": {
       "city": "Sachse",
       "state": "TX",
@@ -32330,7 +32364,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "animals",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
