@@ -1958,6 +1958,13 @@
       "lng": -96.61545,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-08-11)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-12T07:48:23.284213+00:00"
     }
   },
   {
