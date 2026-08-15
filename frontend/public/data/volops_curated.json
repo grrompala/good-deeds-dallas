@@ -1486,6 +1486,67 @@
     }
   },
   {
+    "id": "balch_springs_animal_shelter_balch_springs_0",
+    "source": "curated",
+    "org_id": "balch_springs_animal_shelter_balch_springs",
+    "org_name": "Balch Springs Animal Shelter",
+    "source_url": "http://www.balchspringstx.gov/m/newsflash/Home/Detail/210",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:31:54.924653+00:00",
+    "opportunity_title": "Animal Care Volunteer",
+    "description_short": "Help care for animals through various hands-on activities.",
+    "description_long": "Volunteers work with the animals at the shelter by walking dogs, playing, basic training, bathing, and brushing. Assist in cleaning, organizing, laundry and dishes.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Balch Springs",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Volunteers must be 18 yrs of age, or 17 with parental consent. High school kids can collect volunteer hours.",
+    "cause_tags": [
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Call Kate at the animal shelter 972-913-3006 or email AnimalShelter@BalchSpringsPD.com."
+  },
+  {
+    "id": "balch_springs_animal_shelter_balch_springs_1",
+    "source": "curated",
+    "org_id": "balch_springs_animal_shelter_balch_springs",
+    "org_name": "Balch Springs Animal Shelter",
+    "source_url": "http://www.balchspringstx.gov/m/newsflash/Home/Detail/210",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:31:54.924653+00:00",
+    "opportunity_title": "Tales to Tails",
+    "description_short": "Read to shelter animals as a fun way to engage young readers.",
+    "description_long": "The shelter has a program called Tales to Tails where shelter animals love to be read to. Bring a book to share with the fur babies! Saturdays are reserved for younger citizens.",
+    "schedule": {
+      "raw": "Saturdays",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Balch Springs",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Children must be accompanied by an adult at all times.",
+    "cause_tags": [
+      "children",
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Call Kate at the animal shelter 972-913-3006 for details."
+  },
+  {
     "id": "baylor_scott_white_medical_center_irving_irving_1",
     "source": "curated",
     "org_id": "baylor_scott_white_medical_center_irving_irving",
@@ -8404,6 +8465,68 @@
     }
   },
   {
+    "id": "city_of_mesquite_volunteer_services_mesquite_1",
+    "source": "curated",
+    "org_id": "city_of_mesquite_volunteer_services_mesquite",
+    "org_name": "City of Mesquite Volunteer Services",
+    "source_url": "https://www.cityofmesquite.com/1314/High-School-Age-Volunteer-Opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:32:46.610481+00:00",
+    "opportunity_title": "Library Volunteer",
+    "description_short": "Assist with library tasks and special programs.",
+    "description_long": "For ages 15 and up, perform routine collection maintenance of library materials, including shelving, stamping, or labeling books, or you can assist library staff with special programs and events. Available hours vary.",
+    "schedule": {
+      "raw": "Available hours vary.",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Mesquite",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Ages 15 and up.",
+    "cause_tags": [
+      "education",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the library for more information on volunteering."
+  },
+  {
+    "id": "city_of_mesquite_volunteer_services_mesquite_0",
+    "source": "curated",
+    "org_id": "city_of_mesquite_volunteer_services_mesquite",
+    "org_name": "City of Mesquite Volunteer Services",
+    "source_url": "https://www.cityofmesquite.com/1314/High-School-Age-Volunteer-Opportunities",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:32:46.610481+00:00",
+    "opportunity_title": "Youth Environmental Leaders Program",
+    "description_short": "Join campus beautification and community service projects.",
+    "description_long": "Need service hours for NHS, scouts, student council, or just want to volunteer? Keep Mesquite Beautiful is looking for students who have a commitment to their environment by participating in campus beautification projects, civic events, special events, community clean-ups, and numerous other service related projects by becoming a Youth Environmental Leaders (YEL). Students from all MISD high schools are encouraged to participate.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Mesquite",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Students from all MISD high schools encouraged to participate.",
+    "cause_tags": [
+      "environment",
+      "community"
+    ],
+    "apply_url": "https://keepmesquitebeautiful.org",
+    "apply_instructions": "Sign-up online at Keep Mesquite Beautiful's website."
+  },
+  {
     "id": "copilot_animal_rescue_denton_3",
     "source": "curated",
     "org_id": "copilot_animal_rescue_denton",
@@ -11947,6 +12070,129 @@
       "precision": "city",
       "resolved_from": "location.city"
     }
+  },
+  {
+    "id": "volunteer_dfps_direct_service_dallas_1",
+    "source": "curated",
+    "org_id": "volunteer_dfps_direct_service_dallas",
+    "org_name": "Department of Family and Protective Services",
+    "source_url": "https://www.dfps.texas.gov/Community/Volunteer/Opportunities/direct_service.asp",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:33:26.440974+00:00",
+    "opportunity_title": "Assisting Parents and Vulnerable Adults with Transportation",
+    "description_short": "Help those in need get to important appointments.",
+    "description_long": "Some parents, older adults, and those with disabilities don’t have reliable transportation. You can help parents get to court appointments, parent education classes, counseling sessions, and visits with their children. You can also take adults who are elderly or have disabilities to various appointments. You must have a valid Texas driver’s license, maintain personal liability insurance, have a valid license plate and inspection sticker, and have seat belts in your vehicle.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Valid Texas driver's license, personal liability insurance, safe vehicle requirements.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": null
+  },
+  {
+    "id": "volunteer_dfps_direct_service_dallas_2",
+    "source": "curated",
+    "org_id": "volunteer_dfps_direct_service_dallas",
+    "org_name": "Department of Family and Protective Services",
+    "source_url": "https://www.dfps.texas.gov/Community/Volunteer/Opportunities/direct_service.asp",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:33:26.440974+00:00",
+    "opportunity_title": "Companions",
+    "description_short": "Provide companionship to older adults and individuals with disabilities.",
+    "description_long": "Older adults and people with disabilities are often homebound and live alone. We are looking for volunteers to provide them companionship and lend them a helping hand. You may visit people in their home, in a skilled nursing facility, or in the hospital. This is a great opportunity if you are a retired medical professional, first responder, teacher, or just someone who loves spending time with people.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Empathetic volunteers; background in medical or educational fields is a plus.",
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": null
+  },
+  {
+    "id": "volunteer_dfps_direct_service_dallas_3",
+    "source": "curated",
+    "org_id": "volunteer_dfps_direct_service_dallas",
+    "org_name": "Department of Family and Protective Services",
+    "source_url": "https://www.dfps.texas.gov/Community/Volunteer/Opportunities/direct_service.asp",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:33:26.440974+00:00",
+    "opportunity_title": "Delivering Medications to the Homebound",
+    "description_short": "Help deliver medications to older adults or disabled individuals.",
+    "description_long": "Due to a lack of transportation, older Texans who are homebound often have difficulty picking up their prescriptions, which can cause serious health and medical issues. We need volunteers with reliable transportation to pick up prescribed medications and deliver them to older adults or people with disabilities.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Volunteers must have reliable transportation.",
+    "cause_tags": [
+      "seniors",
+      "health"
+    ],
+    "apply_url": null,
+    "apply_instructions": null
+  },
+  {
+    "id": "volunteer_dfps_direct_service_dallas_0",
+    "source": "curated",
+    "org_id": "volunteer_dfps_direct_service_dallas",
+    "org_name": "Department of Family and Protective Services",
+    "source_url": "https://www.dfps.texas.gov/Community/Volunteer/Opportunities/direct_service.asp",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:33:26.440974+00:00",
+    "opportunity_title": "Sit with Children in the Hospital",
+    "description_short": "Volunteer to comfort and entertain children in hospitals.",
+    "description_long": "We are looking for volunteers who are willing to sit with children while they are in the hospital to keep them company, comfort them, read to them, or help them eat. This is a great opportunity if you are a retired medical professional, first responder, teacher, or just someone who loves nurturing children.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Empathetic, dedicated volunteers; experience in medical or educational fields preferred.",
+    "cause_tags": [
+      "children"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Help make a difference - join our team today!"
   },
   {
     "id": "design_connect_create_0",
@@ -20797,6 +21043,127 @@
     ]
   },
   {
+    "id": "irving_arts_center_irving_1",
+    "source": "curated",
+    "org_id": "irving_arts_center_irving",
+    "org_name": "Irving Arts Center",
+    "source_url": "https://www.irvingartscenter.com/about/get-involved/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:32:11.110063+00:00",
+    "opportunity_title": "5th Annual Volunteer Fair",
+    "description_short": "Connect with local nonprofits and explore volunteer opportunities.",
+    "description_long": "Join us on Saturday, October 5 from 2 to 4PM to connect with local Irving-based nonprofits. Learn about the many great organizations, and the opportunities that they offer for community involvement by attending.",
+    "schedule": {
+      "raw": "October 5, 2024, 2-4 PM",
+      "recurring": false,
+      "times_of_day": null
+    },
+    "commitment": "one-time event",
+    "location": {
+      "address": null,
+      "city": "Irving",
+      "state": "Texas",
+      "virtual": false
+    },
+    "requirements": "No specific requirements mentioned.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Attend the fair to learn more."
+  },
+  {
+    "id": "irving_arts_center_irving_0",
+    "source": "curated",
+    "org_id": "irving_arts_center_irving",
+    "org_name": "Irving Arts Center",
+    "source_url": "https://www.irvingartscenter.com/about/get-involved/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:32:11.110063+00:00",
+    "opportunity_title": "Become an Irving Arts Center Docent",
+    "description_short": "Train to provide educational tours at the Arts Center.",
+    "description_long": "Volunteers can also serve as a gallery docent (no residency requirement). Our docents are trained to provide educational and informative tours of the Arts Center’s exhibitions. Being a docent is a great way to connect with others in the art community while helping to promote the arts and supporting visual artists who exhibit their works in Irving Arts Center’s four gallery spaces.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "varies",
+    "location": {
+      "address": "3333 North MacArthur Blvd",
+      "city": "Irving",
+      "state": "Texas",
+      "virtual": false
+    },
+    "requirements": "No residency requirement; application required.",
+    "cause_tags": [
+      "arts"
+    ],
+    "apply_url": "http://irvingartscenter.com/volunteer-hub",
+    "apply_instructions": "Fill out a volunteer application and email your interest to cperreira@cityofirving.org."
+  },
+  {
+    "id": "irving_arts_center_irving_2",
+    "source": "curated",
+    "org_id": "irving_arts_center_irving",
+    "org_name": "Irving Arts Center",
+    "source_url": "https://www.irvingartscenter.com/about/get-involved/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:32:11.110063+00:00",
+    "opportunity_title": "Grant Panelists Wanted",
+    "description_short": "Volunteer to review community grant applications.",
+    "description_long": "Irving Arts Center seeks Irving residents to serve as 2024-25 Community Grant Review Panelists. Those wishing to be considered may apply directly by completing an online nomination form. The deadline for submission is September 6, 2024.",
+    "schedule": {
+      "raw": null,
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "Two-year term",
+    "location": {
+      "address": null,
+      "city": "Irving",
+      "state": "Texas",
+      "virtual": false
+    },
+    "requirements": "Knowledge of the visual and/or performing arts, residents of Irving.",
+    "cause_tags": [
+      "arts"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online nomination form."
+  },
+  {
+    "id": "irving_arts_center_irving_3",
+    "source": "curated",
+    "org_id": "irving_arts_center_irving",
+    "org_name": "Irving Arts Center",
+    "source_url": "https://www.irvingartscenter.com/about/get-involved/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:32:11.110063+00:00",
+    "opportunity_title": "Teen Ambassador for the Arts",
+    "description_short": "High school students can become leaders in promoting the arts.",
+    "description_long": "This program is for teens that want more responsibility and are willing to devote more time and energy to promote the arts through our programs. Teen Ambassadors will be trained to give tours, both in person and virtually, create videos for the Arts Center, and contribute ideas for programming.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "varies",
+    "location": {
+      "address": null,
+      "city": "Irving",
+      "state": "Texas",
+      "virtual": false
+    },
+    "requirements": "Must be a high school student; application required.",
+    "cause_tags": [
+      "arts",
+      "education"
+    ],
+    "apply_url": "http://irvingartscenter.com/volunteer-hub",
+    "apply_instructions": "Fill out an application available at the volunteer hub."
+  },
+  {
     "id": "irving_cares_2",
     "source": "curated",
     "org_id": "irving_cares",
@@ -22406,6 +22773,96 @@
     }
   },
   {
+    "id": "las_colinas_irving_1",
+    "source": "curated",
+    "org_id": "las_colinas_irving",
+    "org_name": "Las Colinas Association",
+    "source_url": "https://lascolinas.org/home-tour-volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:32:28.981523+00:00",
+    "opportunity_title": "Home Captain Volunteer",
+    "description_short": "Oversee volunteers and coordinate with team leaders.",
+    "description_long": "Home Captain oversees on-site volunteers and coordinates with Village Captains, homeowners, and tour leaders.",
+    "schedule": {
+      "raw": "May 16th and 17th, 2026; specific shifts depend on availability",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "one-time",
+    "location": {
+      "address": null,
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No specific age or background check mentioned.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up to volunteer as a Home Captain."
+  },
+  {
+    "id": "las_colinas_irving_0",
+    "source": "curated",
+    "org_id": "las_colinas_irving",
+    "org_name": "Las Colinas Association",
+    "source_url": "https://lascolinas.org/home-tour-volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:32:28.981523+00:00",
+    "opportunity_title": "Home Tour Volunteer",
+    "description_short": "Join the team supporting the Las Colinas Home Tour.",
+    "description_long": "Be part of the team that makes the Las Colinas Home Tour possible. Volunteers play a vital role in representing the community and the Irving-Las Colinas-based charities supported by the tour. In appreciation for their time, volunteers will receive a tour shirt and tickets to experience the homes before or after their scheduled shift.",
+    "schedule": {
+      "raw": "May 16th and 17th, 2026; morning (10:30 a.m.–1:45 p.m.) and afternoon (1:15–4:30 p.m.) shifts available",
+      "recurring": null,
+      "times_of_day": "morning and afternoon"
+    },
+    "commitment": "one-time",
+    "location": {
+      "address": null,
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No specific age or background check mentioned.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up to volunteer for the Home Tour."
+  },
+  {
+    "id": "las_colinas_irving_2",
+    "source": "curated",
+    "org_id": "las_colinas_irving",
+    "org_name": "Las Colinas Association",
+    "source_url": "https://lascolinas.org/home-tour-volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:32:28.981523+00:00",
+    "opportunity_title": "Room Volunteer",
+    "description_short": "Monitor areas and enforce tour rules.",
+    "description_long": "Room Volunteer monitors assigned areas, enforces tour rules, and helps prevent damage.",
+    "schedule": {
+      "raw": "May 16th and 17th, 2026; specific shifts depend on availability",
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": "one-time",
+    "location": {
+      "address": null,
+      "city": "Irving",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "No specific age or background check mentioned.",
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Sign up to volunteer in a Room role."
+  },
+  {
     "id": "life_message_rowlett_2",
     "source": "curated",
     "org_id": "life_message_rowlett",
@@ -23255,6 +23712,220 @@
       "precision": "city",
       "resolved_from": "location.city"
     }
+  },
+  {
+    "id": "medical_city_dallas_hospital_dallas_1",
+    "source": "curated",
+    "org_id": "medical_city_dallas_hospital_dallas",
+    "org_name": "Medical City Dallas Hospital",
+    "source_url": "https://www.medicalcityhealthcare.com/locations/medical-city-dallas-hospital/about-us/volunteers",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:33:12.922300+00:00",
+    "opportunity_title": "Adult Volunteer Program",
+    "description_short": "Volunteer program for adults aged 18 and older.",
+    "description_long": "We are currently accepting adult applications. All applicants must meet the following requirements in order to be considered for placement: Must be at least 18 years of age at time of application. Commit to consistently complete a minimum of one, 4-hour shift every week (shift times may vary depending on assignment). All adult volunteers are asked to commit to a minimum of one year. Provide copy of complete immunization record and COVID-19 vaccination(s).",
+    "schedule": {
+      "raw": "4-hour shifts every week, varying by assignment",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "4 hours/week for a minimum of one year",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "At least 18 years old, complete immunization record, background check, health screening, NVHO.",
+    "cause_tags": [
+      "health"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online volunteer application."
+  },
+  {
+    "id": "medical_city_dallas_hospital_dallas_4",
+    "source": "curated",
+    "org_id": "medical_city_dallas_hospital_dallas",
+    "org_name": "Medical City Dallas Hospital",
+    "source_url": "https://www.medicalcityhealthcare.com/locations/medical-city-dallas-hospital/about-us/volunteers",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:33:12.922300+00:00",
+    "opportunity_title": "Animal Assisted Pet Therapy Volunteer",
+    "description_short": "Provide pet therapy in hospital patient care areas.",
+    "description_long": "Volunteers serve as customer service agents in the hospital's patient care areas, providing comfort care services and offering animal assisted pet therapy when requested. Participate in scheduled hospital events for patients and staff.",
+    "schedule": {
+      "raw": "Mon/Tue/Wed/Thu/Fri, shift times will vary",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Current pet therapy certification and vaccination records for pet.",
+    "cause_tags": [
+      "health",
+      "animals"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact volunteer services for details."
+  },
+  {
+    "id": "medical_city_dallas_hospital_dallas_5",
+    "source": "curated",
+    "org_id": "medical_city_dallas_hospital_dallas",
+    "org_name": "Medical City Dallas Hospital",
+    "source_url": "https://www.medicalcityhealthcare.com/locations/medical-city-dallas-hospital/about-us/volunteers",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:33:12.922300+00:00",
+    "opportunity_title": "Child Life Volunteer",
+    "description_short": "Support pediatric patients and families in the Child Life department.",
+    "description_long": "Volunteers serve as customer service agents in the hospital's Child Life department, providing comfort care and age-appropriate play and activities for pediatric patients. Help maintain playrooms, restock supplies, and process donations.",
+    "schedule": {
+      "raw": "Mon/Tue/Wed/Thu/Fri, 8:45 am - 12:00 pm or 11:45 am - 4:00 pm",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "4 hours/week",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "children",
+      "health"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact volunteer services to apply."
+  },
+  {
+    "id": "medical_city_dallas_hospital_dallas_6",
+    "source": "curated",
+    "org_id": "medical_city_dallas_hospital_dallas",
+    "org_name": "Medical City Dallas Hospital",
+    "source_url": "https://www.medicalcityhealthcare.com/locations/medical-city-dallas-hospital/about-us/volunteers",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:33:12.922300+00:00",
+    "opportunity_title": "NICU Cuddle Volunteer",
+    "description_short": "Provide comfort care in the NICU.",
+    "description_long": "Volunteers serve as customer service agents in the hospital's Neonatal Intensive Care Units, providing comfort care and cuddling for NICU patients. Help provide breaks for parents and participate in scheduled events.",
+    "schedule": {
+      "raw": "Mon/Tue/Wed/Thu/Fri, 8:45 am - 12:00 pm or 11:45 am - 3:00 pm",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "4 hours/week",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "children",
+      "health"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact volunteer services to apply."
+  },
+  {
+    "id": "medical_city_dallas_hospital_dallas_0",
+    "source": "curated",
+    "org_id": "medical_city_dallas_hospital_dallas",
+    "org_name": "Medical City Dallas Hospital",
+    "source_url": "https://www.medicalcityhealthcare.com/locations/medical-city-dallas-hospital/about-us/volunteers",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:33:12.922300+00:00",
+    "opportunity_title": "Student Volunteer Program",
+    "description_short": "Volunteer opportunity for undergraduate students aged 18 and older.",
+    "description_long": "We are currently accepting student applications. All applicants must meet the following requirements in order to be considered for placement: Must be at least 18 years of age at time of application. Complete an online volunteer application at least 60 days prior to the start of the preferred session. Commit to consistently complete a minimum of one, 4-hour shift every week for the entire session; only 2 absences are allowed for the duration of the session; absences are required to be made up within one week of absence. All student volunteers are asked to commit to one session at a time: Summer Session (2026) May 17, 2026 - August 15, 2026; Fall Session (2026) August 16, 2026 – January 9, 2027; Spring Session (2027) January 10, 2027 – May 15, 2027; Summer Session (2027) May 16, 2027 – August 14, 2027; Fall Session (2027) August 15, 2027 – January 15, 2028.",
+    "schedule": {
+      "raw": "4-hour shifts every week, varying by session dates",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "4 hours/week for the entire session",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "At least 18 years old, complete immunization record, background check, health screening, NVHO.",
+    "cause_tags": [
+      "health"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Complete an online volunteer application at least 60 days prior to start of preferred session."
+  },
+  {
+    "id": "medical_city_dallas_hospital_dallas_3",
+    "source": "curated",
+    "org_id": "medical_city_dallas_hospital_dallas",
+    "org_name": "Medical City Dallas Hospital",
+    "source_url": "https://www.medicalcityhealthcare.com/locations/medical-city-dallas-hospital/about-us/volunteers",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:33:12.922300+00:00",
+    "opportunity_title": "Volunteer Ambassador (Various Departments)",
+    "description_short": "Provide customer service support in different hospital departments.",
+    "description_long": "Volunteers serve as customer service agents in the hospital's lobbies and surgery waiting areas, Emergency Department, Cancer Resource Center, and Surgical Services. Greet and welcome guests, provide directional assistance, offer comfort care services, and assist with daily operations.",
+    "schedule": {
+      "raw": "Mon/Tue/Wed/Thu/Fri, 7:45 am - 12:00 pm or 11:45 am - 4:00 pm",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "4 hours/week",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Customer service skills.",
+    "cause_tags": [
+      "health",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact volunteer services to apply."
+  },
+  {
+    "id": "medical_city_dallas_hospital_dallas_2",
+    "source": "curated",
+    "org_id": "medical_city_dallas_hospital_dallas",
+    "org_name": "Medical City Dallas Hospital",
+    "source_url": "https://www.medicalcityhealthcare.com/locations/medical-city-dallas-hospital/about-us/volunteers",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:33:12.922300+00:00",
+    "opportunity_title": "Volunteer Team Leader (Medical City Hospitals)",
+    "description_short": "Lead volunteer team in hospital lobbies and waiting areas.",
+    "description_long": "Volunteers serve in a leadership role on a specific day and shift of the week in the Hospital Lobbies & Surgery Waiting Areas. Lead shift huddle for his/her team; deploys Volunteer Ambassadors to assigned work stations. Ensure the opening/closing of lobby information desks & surgery waiting areas and supervise the members of his/her team.",
+    "schedule": {
+      "raw": "Mon/Tue/Wed/Thu/Fri, 7:45 am - 12:00 pm or 11:45 am - 4:00 pm",
+      "recurring": true,
+      "times_of_day": null
+    },
+    "commitment": "Varies by assigned shift",
+    "location": {
+      "address": null,
+      "city": "Dallas",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Leadership skills, supervision of volunteers.",
+    "cause_tags": [
+      "health"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact volunteer services to apply."
   },
   {
     "id": "metro_relief_inc_0",
@@ -36162,6 +36833,38 @@
     }
   },
   {
+    "id": "va_north_texas_health_care_fort_worth_0",
+    "source": "curated",
+    "org_id": "va_north_texas_health_care_fort_worth",
+    "org_name": "VA North Texas Health Care",
+    "source_url": "https://www.va.gov/north-texas-health-care/work-with-us/volunteer-or-donate/vtn-vans-transportation-for-veterans",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:32:37.551218+00:00",
+    "opportunity_title": "Volunteer Driver for VTN",
+    "description_short": "Transport veterans to and from medical appointments in Tarrant County.",
+    "description_long": "Volunteer drivers provide transportation service for Veterans who do not have other transportation options for their scheduled medical appointments at the Fort Worth VA Clinic. Each month, between 100 and 500 Veterans receive VTN transportation.",
+    "schedule": {
+      "raw": "Tuesday – Thursday 8:00am-2:00 pm",
+      "recurring": true,
+      "times_of_day": "morning to afternoon"
+    },
+    "commitment": "Flexible schedule based on availability",
+    "location": {
+      "address": null,
+      "city": "Fort Worth",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": "Volunteers must be able to assist ambulatory Veterans and follow VA guidelines.",
+    "cause_tags": [
+      "seniors",
+      "health",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact the center for development and civic engagement office at 817-730-0401 to arrange volunteering."
+  },
+  {
     "id": "vickery_meadow_food_pantry_and_clothes_closet_dallas_5",
     "source": "curated",
     "org_id": "vickery_meadow_food_pantry_and_clothes_closet_dallas",
@@ -37228,6 +37931,157 @@
       "precision": "city",
       "resolved_from": "location.city"
     }
+  },
+  {
+    "id": "disabilities_services_dfw_voa_texas_euless_0",
+    "source": "curated",
+    "org_id": "disabilities_services_dfw_voa_texas_euless",
+    "org_name": "Volunteers of America - Texas",
+    "source_url": "https://www.voatx.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:33:40.027244+00:00",
+    "opportunity_title": "Group Volunteer Opportunities",
+    "description_short": "Engage your team in meaningful community service projects.",
+    "description_long": "Corporate philanthropy is a proven driver in achieving business objectives such as employee engagement and retention. VOA Texas will work with your organization to engage your employees in meaningful work that serves their communities and provides them with a sense of accomplishment and service.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Euless",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [],
+    "apply_url": null,
+    "apply_instructions": "Contact for details on organizing a group volunteer opportunity."
+  },
+  {
+    "id": "disabilities_services_dfw_voa_texas_euless_4",
+    "source": "curated",
+    "org_id": "disabilities_services_dfw_voa_texas_euless",
+    "org_name": "Volunteers of America - Texas",
+    "source_url": "https://www.voatx.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:33:40.027244+00:00",
+    "opportunity_title": "Holiday Season Help",
+    "description_short": "Assist with holiday events and donations for clients.",
+    "description_long": "Donate food or gifts to clients, help set up, clean up, and serve during holiday events, sing carols, make cards, decorate, or assist with gift wrapping.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Euless",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community",
+      "holiday"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact for more information on holiday volunteer opportunities."
+  },
+  {
+    "id": "disabilities_services_dfw_voa_texas_euless_2",
+    "source": "curated",
+    "org_id": "disabilities_services_dfw_voa_texas_euless",
+    "org_name": "Volunteers of America - Texas",
+    "source_url": "https://www.voatx.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:33:40.027244+00:00",
+    "opportunity_title": "Individual Volunteer Opportunities",
+    "description_short": "Work one-on-one with clients or participate in events.",
+    "description_long": "Volunteer at or donate supplies to a Brightening Birthdays celebration, assist an adult with resume or job interview skills, provide support to adults with disabilities at our Life Enrichment Center in Houston, or lend support to women in incarceration who want to rebuild their lives through the Resolana program in Dallas.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Euless",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "seniors",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact for more information or sign up to volunteer."
+  },
+  {
+    "id": "disabilities_services_dfw_voa_texas_euless_3",
+    "source": "curated",
+    "org_id": "disabilities_services_dfw_voa_texas_euless",
+    "org_name": "Volunteers of America - Texas",
+    "source_url": "https://www.voatx.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:33:40.027244+00:00",
+    "opportunity_title": "Organize Drives and Plan Events",
+    "description_short": "Help organize drives and events to support our programs.",
+    "description_long": "Organize a winter coat drive or toiletry drive to benefit one of our programs, plan special events like holiday activities, silent or live auctions, or help with administrative tasks in our offices.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Euless",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact for more details on organizing drives or planning events."
+  },
+  {
+    "id": "disabilities_services_dfw_voa_texas_euless_1",
+    "source": "curated",
+    "org_id": "disabilities_services_dfw_voa_texas_euless",
+    "org_name": "Volunteers of America - Texas",
+    "source_url": "https://www.voatx.org/volunteer",
+    "status": "active",
+    "last_scraped": "2026-08-15T22:33:40.027244+00:00",
+    "opportunity_title": "Skills-Based Volunteer Opportunities",
+    "description_short": "Share your expertise to help clients develop essential skills.",
+    "description_long": "Use your or your company’s expertise to help Volunteers of America Texas achieve its mission through skills-based volunteering. You can impact your community by sharing your knowledge and professional skills with our clients or staff.",
+    "schedule": {
+      "raw": null,
+      "recurring": null,
+      "times_of_day": null
+    },
+    "commitment": null,
+    "location": {
+      "address": null,
+      "city": "Euless",
+      "state": "TX",
+      "virtual": false
+    },
+    "requirements": null,
+    "cause_tags": [
+      "education",
+      "community"
+    ],
+    "apply_url": null,
+    "apply_instructions": "Contact for details on skills-based volunteering."
   },
   {
     "id": "weatherford_wags_8",
