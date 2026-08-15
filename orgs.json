@@ -2143,5 +2143,115 @@
     "fallback_urls": [],
     "notes": "Maintains Dallas parks; volunteers help with park workdays.",
     "active": true
+  },
+  {
+    "id": "balch_springs_animal_shelter_balch_springs",
+    "name": "Balch Springs Animal Shelter",
+    "city": "Balch Springs",
+    "state": "TX",
+    "cause": ["animals"],
+    "volunteer_url": "http://www.balchspringstx.gov/m/newsflash/Home/Detail/210",
+    "fallback_urls": [],
+    "notes": "Volunteers walk dogs, assist with cleaning, and participate in reading programs for shelter animals.",
+    "active": true
+  },
+  {
+    "id": "irving_arts_center_irving",
+    "name": "Irving Arts Center",
+    "city": "Irving",
+    "state": "TX",
+    "cause": ["arts", "community"],
+    "volunteer_url": "https://www.irvingartscenter.com/about/get-involved/volunteer",
+    "fallback_urls": [],
+    "notes": "Irving Arts Center offers volunteer roles as ushers, greeters, and docents to support arts and community events.",
+    "active": true
+  },
+  {
+    "id": "dallas_county_judge_immigration_refugee_resources_dallas",
+    "name": "Dallas County Judge | Immigration & Refugee Resources",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["immigration", "community"],
+    "volunteer_url": "https://www.dallascounty.org/about-us/volunteer/index.php",
+    "fallback_urls": [],
+    "notes": "Offers volunteer roles in mediation, animal response, and disaster support.",
+    "active": true
+  },
+  {
+    "id": "las_colinas_irving",
+    "name": "Las Colinas Association",
+    "city": "Irving",
+    "state": "TX",
+    "cause": ["community"],
+    "volunteer_url": "https://lascolinas.org/home-tour-volunteer",
+    "fallback_urls": [],
+    "notes": "Organizes a home tour event; volunteers serve as Home Captains and Room Volunteers.",
+    "active": true
+  },
+  {
+    "id": "va_north_texas_health_care_fort_worth",
+    "name": "VA North Texas Health Care",
+    "city": "Fort Worth",
+    "state": "TX",
+    "cause": ["veterans", "health"],
+    "volunteer_url": "https://www.va.gov/north-texas-health-care/work-with-us/volunteer-or-donate/vtn-vans-transportation-for-veterans",
+    "fallback_urls": [],
+    "notes": "Provides transportation for veterans to medical appointments; volunteers drive vans.",
+    "active": true
+  },
+  {
+    "id": "city_of_mesquite_volunteer_services_mesquite",
+    "name": "City of Mesquite Volunteer Services",
+    "city": "Mesquite",
+    "state": "TX",
+    "cause": ["community", "environment", "arts"],
+    "volunteer_url": "https://www.cityofmesquite.com/1314/High-School-Age-Volunteer-Opportunities",
+    "fallback_urls": [],
+    "notes": "Offers youth and teen volunteer roles in community clean-ups, library maintenance, and special events.",
+    "active": true
+  },
+  {
+    "id": "mesquite_isd_mesquite",
+    "name": "Mesquite ISD",
+    "city": "Mesquite",
+    "state": "TX",
+    "cause": ["education", "community"],
+    "volunteer_url": "https://www.mesquiteisd.org/volunteer",
+    "fallback_urls": [],
+    "notes": "Mesquite ISD offers volunteer roles as mentors and support for students and staff.",
+    "active": true
+  },
+  {
+    "id": "medical_city_dallas_hospital_dallas",
+    "name": "Medical City Dallas Hospital",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["health"],
+    "volunteer_url": "https://www.medicalcityhealthcare.com/locations/medical-city-dallas-hospital/about-us/volunteers",
+    "fallback_urls": [],
+    "notes": "Provides comfort services and support to patients, families, visitors, and staff through volunteer roles.",
+    "active": true
+  },
+  {
+    "id": "volunteer_dfps_direct_service_dallas",
+    "name": "Department of Family and Protective Services",
+    "city": "Dallas",
+    "state": "TX",
+    "cause": ["children", "seniors", "disabilities"],
+    "volunteer_url": "https://www.dfps.texas.gov/Community/Volunteer/Opportunities/direct_service.asp",
+    "fallback_urls": [],
+    "notes": "DFPS offers roles like hospital sitting for children and transportation assistance for seniors and those with disabilities.",
+    "active": true
+  },
+  {
+    "id": "disabilities_services_dfw_voa_texas_euless",
+    "name": "Volunteers of America - Texas",
+    "city": "Euless",
+    "state": "TX",
+    "cause": ["disabilities", "community"],
+    "volunteer_url": "https://www.voatx.org/volunteer",
+    "fallback_urls": [],
+    "notes": "Supports adults with disabilities and offers volunteer roles like teaching skills and supporting women in incarceration.",
+    "active": true
   }
 ]

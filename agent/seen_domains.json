@@ -29,6 +29,11 @@
     "reason": "The page describes multiple concrete volunteer opportunities in Dallas, TX.",
     "verdict": "accept"
   },
+  "balchspringstx.gov": {
+    "date": "2026-08-15",
+    "reason": "The page describes specific volunteer roles at a DFW-area animal shelter.",
+    "verdict": "accept"
+  },
   "bbhh.org": {
     "date": "2026-08-09",
     "reason": "The organization is a DFW-area nonprofit offering specific volunteer roles.",
@@ -79,6 +84,11 @@
     "reason": "The organization is a DFW-area nonprofit offering specific volunteer roles in education.",
     "verdict": "accept"
   },
+  "cityofmesquite.com": {
+    "date": "2026-08-15",
+    "reason": "The page describes specific volunteer opportunities for youth and teens in Mesquite, TX.",
+    "verdict": "accept"
+  },
   "cityofsachse.com": {
     "date": "2026-08-08",
     "reason": "The page describes specific volunteer roles at the Sachse Animal Shelter.",
@@ -104,6 +114,11 @@
     "reason": "The page lacks specific, actionable volunteer roles and primarily focuses on food assistance and donation options.",
     "verdict": "reject"
   },
+  "dallascounty.org": {
+    "date": "2026-08-15",
+    "reason": "The page lists specific volunteer opportunities in various departments within Dallas County.",
+    "verdict": "accept"
+  },
   "dallashanuman.org": {
     "date": "2026-08-08",
     "reason": "The page does not describe any specific volunteer roles.",
@@ -123,6 +138,11 @@
     "date": "2026-07-21",
     "reason": "The page does not describe a specific volunteer opportunity.",
     "verdict": "reject"
+  },
+  "dfps.texas.gov": {
+    "date": "2026-08-15",
+    "reason": "The page describes specific volunteer roles in the DFW area, such as sitting with children in hospitals and assisting with transportation.",
+    "verdict": "accept"
   },
   "familypromiseofcollincounty.org": {
     "date": "2026-08-08",
@@ -169,6 +189,11 @@
     "reason": "The page lacks specific volunteer roles and focuses on events.",
     "verdict": "reject"
   },
+  "gptx.org": {
+    "date": "2026-08-15",
+    "reason": "The page lacks specific volunteer roles and focuses on general involvement.",
+    "verdict": "reject"
+  },
   "gpuc.org": {
     "date": "2026-08-08",
     "reason": "The page lacks specific, concrete volunteer roles and only provides a vague 'contact us to volunteer' form.",
@@ -178,6 +203,11 @@
     "date": "2026-08-01",
     "reason": "The organization is a DFW-area nonprofit offering real volunteer opportunities in food distribution and resale stores.",
     "verdict": "accept"
+  },
+  "heartlandhumancareservices.org": {
+    "date": "2026-08-15",
+    "reason": "The organization is based in Chicago, not the DFW area.",
+    "verdict": "reject"
   },
   "hhs.texas.gov": {
     "date": "2026-07-21",
@@ -199,6 +229,11 @@
     "reason": "The page describes a real volunteer opportunity for the Point-in-Time Count in Dallas and Collin counties.",
     "verdict": "accept"
   },
+  "immigrationadvocates.org": {
+    "date": "2026-08-15",
+    "reason": "The page does not describe a specific volunteer role, only general information about the organization.",
+    "verdict": "reject"
+  },
   "info.guruvayurappan.us": {
     "date": "2026-08-08",
     "reason": "The page describes specific volunteer roles within the temple's committees and sub-committees.",
@@ -207,6 +242,11 @@
   "intellichoice.org": {
     "date": "2026-07-21",
     "reason": "The organization is a DFW-area nonprofit offering specific volunteer roles in tutoring and leadership.",
+    "verdict": "accept"
+  },
+  "irvingartscenter.com": {
+    "date": "2026-08-15",
+    "reason": "The page describes specific volunteer roles such as usher, greeter, and docent at a DFW-area nonprofit.",
     "verdict": "accept"
   },
   "irvingtx.gov": {
@@ -218,6 +258,11 @@
     "date": "2026-08-02",
     "reason": "The page does not provide specific volunteer opportunities or roles.",
     "verdict": "reject"
+  },
+  "lascolinas.org": {
+    "date": "2026-08-15",
+    "reason": "The page describes specific volunteer roles for a DFW-area event.",
+    "verdict": "accept"
   },
   "learningbridgetx.org": {
     "date": "2026-08-08",
@@ -239,6 +284,21 @@
     "reason": "The page lacks specific, actionable volunteer roles and focuses on subscribing to a contact list.",
     "verdict": "reject"
   },
+  "medicalcityhealthcare.com": {
+    "date": "2026-08-15",
+    "reason": "The page describes specific volunteer roles at a DFW-area hospital.",
+    "verdict": "accept"
+  },
+  "mesquiteisd.org": {
+    "date": "2026-08-15",
+    "reason": "The page describes real volunteer opportunities in Mesquite ISD, a DFW-area school district.",
+    "verdict": "accept"
+  },
+  "mesquitetxrotary.org": {
+    "date": "2026-08-15",
+    "reason": "The page does not describe a specific volunteer role at the Mesquite Animal Shelter.",
+    "verdict": "reject"
+  },
   "minniesfoodpantry.org": {
     "date": "2026-07-21",
     "reason": "landing page fetch failed",
@@ -248,6 +308,11 @@
     "date": "2026-08-09",
     "reason": "The page describes specific volunteer roles in the DFW area.",
     "verdict": "accept"
+  },
+  "moradagrandprairie.seniorlivingnearme.com": {
+    "date": "2026-08-15",
+    "reason": "The page describes general virtual volunteer opportunities without specific roles tied to a DFW-area nonprofit.",
+    "verdict": "reject"
   },
   "nationalcharityleague.org": {
     "date": "2026-07-21",
@@ -354,6 +419,11 @@
     "reason": "The organization does not specify a DFW-area presence or service.",
     "verdict": "reject"
   },
+  "tarrantcountytx.gov": {
+    "date": "2026-08-15",
+    "reason": "No specific volunteer roles are described on the provided pages.",
+    "verdict": "reject"
+  },
   "teenlife.com": {
     "date": "2026-08-01",
     "reason": "The page lacks specific, concrete volunteer roles and focuses on membership benefits and general volunteering.",
@@ -389,9 +459,24 @@
     "reason": "The organization does not have a clear DFW presence or specific volunteer opportunities tied to the DFW area.",
     "verdict": "reject"
   },
+  "va.gov": {
+    "date": "2026-08-15",
+    "reason": "The page describes a real volunteer opportunity for drivers in the DFW area.",
+    "verdict": "accept"
+  },
   "vickerymeadowna.org": {
     "date": "2026-08-09",
     "reason": "The organization is a DFW-area nonprofit offering specific volunteer roles.",
+    "verdict": "accept"
+  },
+  "visitingangels.com": {
+    "date": "2026-08-15",
+    "reason": "The page does not describe any real volunteer opportunities.",
+    "verdict": "reject"
+  },
+  "voatx.org": {
+    "date": "2026-08-15",
+    "reason": "The page describes specific volunteer opportunities in the DFW area, including roles like teaching classes and supporting adults with disabilities.",
     "verdict": "accept"
   },
   "volunteer.ntfb.org": {
