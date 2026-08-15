@@ -1513,7 +1513,23 @@
       "animals"
     ],
     "apply_url": null,
-    "apply_instructions": "Call Kate at the animal shelter 972-913-3006 or email AnimalShelter@BalchSpringsPD.com."
+    "apply_instructions": "Call Kate at the animal shelter 972-913-3006 or email AnimalShelter@BalchSpringsPD.com.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Hands-on animal care tasks like walking dogs and cleaning.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ]
   },
   {
     "id": "balch_springs_animal_shelter_balch_springs_1",
@@ -1544,7 +1560,26 @@
       "animals"
     ],
     "apply_url": null,
-    "apply_instructions": "Call Kate at the animal shelter 972-913-3006 for details."
+    "apply_instructions": "Call Kate at the animal shelter 972-913-3006 for details.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Reading to shelter animals is a concrete volunteer role.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": [
+      "children",
+      "animals",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "baylor_scott_white_medical_center_irving_irving_1",
@@ -8493,7 +8528,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact the library for more information on volunteering."
+    "apply_instructions": "Contact the library for more information on volunteering.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Assisting with library tasks and special programs.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "city_of_mesquite_volunteer_services_mesquite_0",
@@ -8524,7 +8573,24 @@
       "community"
     ],
     "apply_url": "https://keepmesquitebeautiful.org",
-    "apply_instructions": "Sign-up online at Keep Mesquite Beautiful's website."
+    "apply_instructions": "Sign-up online at Keep Mesquite Beautiful's website.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Participating in community service projects and clean-ups.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": [
+      "environment",
+      "community"
+    ]
   },
   {
     "id": "copilot_animal_rescue_denton_3",
@@ -12100,7 +12166,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": null
+    "apply_instructions": null,
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Providing transportation to appointments for those in need.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "volunteer_dfps_direct_service_dallas_2",
@@ -12131,7 +12211,24 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": null
+    "apply_instructions": null,
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Volunteering to provide companionship to older adults.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": [
+      "seniors",
+      "disabilities"
+    ]
   },
   {
     "id": "volunteer_dfps_direct_service_dallas_3",
@@ -12162,7 +12259,25 @@
       "health"
     ],
     "apply_url": null,
-    "apply_instructions": null
+    "apply_instructions": null,
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Delivering medications to homebound individuals.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": [
+      "seniors",
+      "disabilities",
+      "health"
+    ]
   },
   {
     "id": "volunteer_dfps_direct_service_dallas_0",
@@ -12192,7 +12307,25 @@
       "children"
     ],
     "apply_url": null,
-    "apply_instructions": "Help make a difference - join our team today!"
+    "apply_instructions": "Help make a difference - join our team today!",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Sitting with children in hospitals to provide comfort.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": [
+      "children",
+      "health",
+      "community"
+    ]
   },
   {
     "id": "design_connect_create_0",
@@ -21070,7 +21203,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Attend the fair to learn more."
+    "apply_instructions": "Attend the fair to learn more.",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2024-10-05",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2024-10-05)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "irving_arts_center_irving_0",
@@ -21100,7 +21247,25 @@
       "arts"
     ],
     "apply_url": "http://irvingartscenter.com/volunteer-hub",
-    "apply_instructions": "Fill out a volunteer application and email your interest to cperreira@cityofirving.org."
+    "apply_instructions": "Fill out a volunteer application and email your interest to cperreira@cityofirving.org.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Training to provide educational tours at the Arts Center.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": [
+      "education",
+      "arts",
+      "community"
+    ]
   },
   {
     "id": "irving_arts_center_irving_2",
@@ -21130,7 +21295,21 @@
       "arts"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online nomination form."
+    "apply_instructions": "Complete an online nomination form.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "Only seeking panelists without specific tasks described.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "irving_arts_center_irving_3",
@@ -21161,7 +21340,25 @@
       "education"
     ],
     "apply_url": "http://irvingartscenter.com/volunteer-hub",
-    "apply_instructions": "Fill out an application available at the volunteer hub."
+    "apply_instructions": "Fill out an application available at the volunteer hub.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Teens can volunteer to give tours and create videos.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": [
+      "arts",
+      "education",
+      "community"
+    ]
   },
   {
     "id": "irving_cares_2",
@@ -22800,7 +22997,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Sign up to volunteer as a Home Captain."
+    "apply_instructions": "Sign up to volunteer as a Home Captain.",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-05-17",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-05-17)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "las_colinas_irving_0",
@@ -22830,7 +23041,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Sign up to volunteer for the Home Tour."
+    "apply_instructions": "Sign up to volunteer for the Home Tour.",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-05-17",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-05-17)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "las_colinas_irving_2",
@@ -22860,7 +23085,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Sign up to volunteer in a Room role."
+    "apply_instructions": "Sign up to volunteer in a Room role.",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-05-17",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-05-17)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "life_message_rowlett_2",
@@ -23741,7 +23980,21 @@
       "health"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online volunteer application."
+    "apply_instructions": "Complete an online volunteer application.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Adults can volunteer for various roles in the hospital.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "medical_city_dallas_hospital_dallas_4",
@@ -23772,7 +24025,24 @@
       "animals"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact volunteer services for details."
+    "apply_instructions": "Contact volunteer services for details.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Provide pet therapy in hospital patient care areas.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": [
+      "animals",
+      "health"
+    ]
   },
   {
     "id": "medical_city_dallas_hospital_dallas_5",
@@ -23803,7 +24073,24 @@
       "health"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact volunteer services to apply."
+    "apply_instructions": "Contact volunteer services to apply.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Support pediatric patients with comfort care and activities.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": [
+      "children",
+      "health"
+    ]
   },
   {
     "id": "medical_city_dallas_hospital_dallas_6",
@@ -23834,7 +24121,21 @@
       "health"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact volunteer services to apply."
+    "apply_instructions": "Contact volunteer services to apply.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Provide comfort care in the NICU.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "medical_city_dallas_hospital_dallas_0",
@@ -23864,7 +24165,21 @@
       "health"
     ],
     "apply_url": null,
-    "apply_instructions": "Complete an online volunteer application at least 60 days prior to start of preferred session."
+    "apply_instructions": "Complete an online volunteer application at least 60 days prior to start of preferred session.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Undergraduate students can volunteer in various roles.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "medical_city_dallas_hospital_dallas_3",
@@ -23895,7 +24210,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact volunteer services to apply."
+    "apply_instructions": "Contact volunteer services to apply.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Provide customer service support in different hospital departments.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "medical_city_dallas_hospital_dallas_2",
@@ -23925,7 +24254,21 @@
       "health"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact volunteer services to apply."
+    "apply_instructions": "Contact volunteer services to apply.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Lead volunteer team in hospital lobbies and waiting areas.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "metro_relief_inc_0",
@@ -27866,7 +28209,9 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
@@ -36862,7 +37207,23 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact the center for development and civic engagement office at 817-730-0401 to arrange volunteering."
+    "apply_instructions": "Contact the center for development and civic engagement office at 817-730-0401 to arrange volunteering.",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "passed",
+      "category": null,
+      "reason": "Transport veterans to and from medical appointments.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": [
+      "veterans"
+    ]
   },
   {
     "id": "vickery_meadow_food_pantry_and_clothes_closet_dallas_5",
@@ -36958,7 +37319,10 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-08-09T02:32:42.248450+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "community",
+      "food_security"
+    ],
     "geo": {
       "city": "Dallas",
       "state": "TX",
@@ -37958,7 +38322,21 @@
     "requirements": null,
     "cause_tags": [],
     "apply_url": null,
-    "apply_instructions": "Contact for details on organizing a group volunteer opportunity."
+    "apply_instructions": "Contact for details on organizing a group volunteer opportunity.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "Only a generic offer to organize group opportunities.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "disabilities_services_dfw_voa_texas_euless_4",
@@ -37989,7 +38367,21 @@
       "holiday"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact for more information on holiday volunteer opportunities."
+    "apply_instructions": "Contact for more information on holiday volunteer opportunities.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "manual_override",
+      "reason": "manual override",
+      "model": "override",
+      "checked_at": "2026-08-15T22:57:41.736553+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "disabilities_services_dfw_voa_texas_euless_2",
@@ -38020,7 +38412,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact for more information or sign up to volunteer."
+    "apply_instructions": "Contact for more information or sign up to volunteer.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "manual_override",
+      "reason": "manual override",
+      "model": "override",
+      "checked_at": "2026-08-15T22:57:41.736553+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "disabilities_services_dfw_voa_texas_euless_3",
@@ -38050,7 +38456,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact for more details on organizing drives or planning events."
+    "apply_instructions": "Contact for more details on organizing drives or planning events.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "donation_or_fundraising",
+      "reason": "Organizing drives and events focuses on donations, not direct volunteering.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "disabilities_services_dfw_voa_texas_euless_1",
@@ -38081,7 +38501,21 @@
       "community"
     ],
     "apply_url": null,
-    "apply_instructions": "Contact for details on skills-based volunteering."
+    "apply_instructions": "Contact for details on skills-based volunteering.",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:46.930172+00:00"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "vague_no_role",
+      "reason": "Generic call for skills-based volunteering without specific tasks.",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-08-15T22:54:42.242044+00:00"
+    },
+    "unified_tags": []
   },
   {
     "id": "weatherford_wags_8",

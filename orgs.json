@@ -2185,8 +2185,8 @@
     "cause": ["community"],
     "volunteer_url": "https://lascolinas.org/home-tour-volunteer",
     "fallback_urls": [],
-    "notes": "Organizes a home tour event; volunteers serve as Home Captains and Room Volunteers.",
-    "active": true
+    "notes": "Annual Home Tour event only (May 16-17, 2026 has passed); no standing volunteer roles. Deactivated so it isn't re-scraped as ongoing — reactivate when the next year's tour opens.",
+    "active": false
   },
   {
     "id": "va_north_texas_health_care_fort_worth",

@@ -944,6 +944,22 @@
     "source_url": "https://www.rescue.org/volunteer-opportunities/dallas-tx"
   },
   {
+    "id": "irving_arts_center_irving_1",
+    "org_name": "Irving Arts Center",
+    "opportunity_title": "5th Annual Volunteer Fair",
+    "category": "expired",
+    "reason": "event date passed (2024-10-05)",
+    "source_url": "https://www.irvingartscenter.com/about/get-involved/volunteer"
+  },
+  {
+    "id": "irving_arts_center_irving_2",
+    "org_name": "Irving Arts Center",
+    "opportunity_title": "Grant Panelists Wanted",
+    "category": "vague_no_role",
+    "reason": "Only seeking panelists without specific tasks described.",
+    "source_url": "https://www.irvingartscenter.com/about/get-involved/volunteer"
+  },
+  {
     "id": "k9_s_for_freedom_independence_0",
     "org_name": "K9's For Freedom & Independence",
     "opportunity_title": "CIRT K9 Certification Training",
@@ -1022,6 +1038,30 @@
     "category": "vague_no_role",
     "reason": "No specific volunteer tasks, just a conversation starter.",
     "source_url": "https://www.keeprowlettbeautiful.org/volunteer-opportunities"
+  },
+  {
+    "id": "las_colinas_irving_1",
+    "org_name": "Las Colinas Association",
+    "opportunity_title": "Home Captain Volunteer",
+    "category": "expired",
+    "reason": "event date passed (2026-05-17)",
+    "source_url": "https://lascolinas.org/home-tour-volunteer"
+  },
+  {
+    "id": "las_colinas_irving_0",
+    "org_name": "Las Colinas Association",
+    "opportunity_title": "Home Tour Volunteer",
+    "category": "expired",
+    "reason": "event date passed (2026-05-17)",
+    "source_url": "https://lascolinas.org/home-tour-volunteer"
+  },
+  {
+    "id": "las_colinas_irving_2",
+    "org_name": "Las Colinas Association",
+    "opportunity_title": "Room Volunteer",
+    "category": "expired",
+    "reason": "event date passed (2026-05-17)",
+    "source_url": "https://lascolinas.org/home-tour-volunteer"
   },
   {
     "id": "life_message_rowlett_2",
@@ -1718,6 +1758,46 @@
     "category": "donation_or_fundraising",
     "reason": "Opportunity involves donating items, not time.",
     "source_url": "https://vogelalcove.org/get-involved"
+  },
+  {
+    "id": "disabilities_services_dfw_voa_texas_euless_0",
+    "org_name": "Volunteers of America - Texas",
+    "opportunity_title": "Group Volunteer Opportunities",
+    "category": "vague_no_role",
+    "reason": "Only a generic offer to organize group opportunities.",
+    "source_url": "https://www.voatx.org/volunteer"
+  },
+  {
+    "id": "disabilities_services_dfw_voa_texas_euless_4",
+    "org_name": "Volunteers of America - Texas",
+    "opportunity_title": "Holiday Season Help",
+    "category": "manual_override",
+    "reason": "manual override",
+    "source_url": "https://www.voatx.org/volunteer"
+  },
+  {
+    "id": "disabilities_services_dfw_voa_texas_euless_2",
+    "org_name": "Volunteers of America - Texas",
+    "opportunity_title": "Individual Volunteer Opportunities",
+    "category": "manual_override",
+    "reason": "manual override",
+    "source_url": "https://www.voatx.org/volunteer"
+  },
+  {
+    "id": "disabilities_services_dfw_voa_texas_euless_3",
+    "org_name": "Volunteers of America - Texas",
+    "opportunity_title": "Organize Drives and Plan Events",
+    "category": "donation_or_fundraising",
+    "reason": "Organizing drives and events focuses on donations, not direct volunteering.",
+    "source_url": "https://www.voatx.org/volunteer"
+  },
+  {
+    "id": "disabilities_services_dfw_voa_texas_euless_1",
+    "org_name": "Volunteers of America - Texas",
+    "opportunity_title": "Skills-Based Volunteer Opportunities",
+    "category": "vague_no_role",
+    "reason": "Generic call for skills-based volunteering without specific tasks.",
+    "source_url": "https://www.voatx.org/volunteer"
   },
   {
     "id": "weatherford_wags_7",
