@@ -12,7 +12,7 @@ export const TABS = [
   { id: 'chatter',       label: 'Reddit Threads' },
 ]
 
-export default function TabBar({ active, onChange, onHome }) {
+export default function TabBar({ active, counts, onChange, onHome }) {
   return (
     <div className="hidden lg:block bg-canvas/95 backdrop-blur-md border-b border-line">
       <div className="max-w-6xl mx-auto px-5 sm:px-6 lg:px-10">
@@ -32,22 +32,36 @@ export default function TabBar({ active, onChange, onHome }) {
 
           <span className="self-center mx-1 h-5 w-px bg-line" />
 
-          {TABS.map(tab => (
-            <button
-              key={tab.id}
-              onClick={() => onChange(tab.id)}
-              className={`
-                shrink-0 inline-flex items-center gap-2 px-4 py-3 text-sm font-medium
-                border-b-2 transition-colors whitespace-nowrap
-                ${active === tab.id
-                  ? 'border-brand text-ink'
-                  : 'border-transparent text-muted hover:text-ink'
-                }
-              `}
-            >
-              {tab.label}
-            </button>
-          ))}
+          {TABS.map(tab => {
+            const count = counts?.[tab.id]
+            return (
+              <button
+                key={tab.id}
+                onClick={() => onChange(tab.id)}
+                className={`
+                  shrink-0 inline-flex items-center gap-2 px-4 py-3 text-sm font-medium
+                  border-b-2 transition-colors whitespace-nowrap
+                  ${active === tab.id
+                    ? 'border-brand text-ink'
+                    : 'border-transparent text-muted hover:text-ink'
+                  }
+                `}
+              >
+                {tab.label}
+                {typeof count === 'number' && (
+                  <span
+                    className={`
+                      inline-flex items-center justify-center min-w-[1.25rem] px-1.5 py-0.5
+                      rounded-full text-[11px] font-mono leading-none
+                      ${active === tab.id ? 'bg-brand text-white' : 'bg-lineSoft text-muted'}
+                    `}
+                  >
+                    {count}
+                  </span>
+                )}
+              </button>
+            )
+          })}
         </nav>
       </div>
     </div>
@@ -59,7 +73,7 @@ export default function TabBar({ active, onChange, onHome }) {
 // --app-header-h CSS var HomeClient publishes), so it drops beneath the
 // logo + search without covering them. Tapping the dimmed backdrop, or any
 // item, closes it (HomeClient wraps the handlers to setMenuOpen(false)).
-export function MobileNav({ open, active, onChange, onHome, onClose }) {
+export function MobileNav({ open, active, counts, onChange, onHome, onClose }) {
   if (!open) return null
   const itemBase =
     'flex items-center gap-2 w-full px-2 py-3 text-left text-[15px] font-medium border-b border-lineSoft last:border-0 transition-colors'
@@ -85,16 +99,24 @@ export function MobileNav({ open, active, onChange, onHome, onClose }) {
               Home
             </span>
           </button>
-          {TABS.map(tab => (
-            <button
-              key={tab.id}
-              onClick={() => onChange(tab.id)}
-              aria-current={active === tab.id ? 'page' : undefined}
-              className={`${itemBase} ${active === tab.id ? 'text-brand' : 'text-muted hover:text-ink'}`}
-            >
-              {tab.label}
-            </button>
-          ))}
+          {TABS.map(tab => {
+            const count = counts?.[tab.id]
+            return (
+              <button
+                key={tab.id}
+                onClick={() => onChange(tab.id)}
+                aria-current={active === tab.id ? 'page' : undefined}
+                className={`${itemBase} justify-between ${active === tab.id ? 'text-brand' : 'text-muted hover:text-ink'}`}
+              >
+                {tab.label}
+                {typeof count === 'number' && (
+                  <span className="inline-flex items-center justify-center min-w-[1.25rem] px-1.5 py-0.5 rounded-full text-[11px] font-mono leading-none bg-lineSoft text-muted">
+                    {count}
+                  </span>
+                )}
+              </button>
+            )
+          })}
         </nav>
       </div>
     </div>

@@ -30,6 +30,15 @@ import AdvancedSearchPanel from './AdvancedSearchPanel'
 import TagChip             from './TagChip'
 import { CONTACT_EMAIL } from './SourcesBlurb'
 import { parseQuery, matchesQuery } from '../lib/search'
+import { buildOrgs } from './orgs'
+
+// Search placeholder copy — once a tab is focused, search is scoped to that
+// tab's data only (see isStacked below), so the placeholder should say so.
+const SEARCH_PLACEHOLDERS = {
+  listings:      'Search opportunities…',
+  organizations: 'Search organizations…',
+  chatter:       'Search Reddit threads…',
+}
 
 // Some national sources (e.g. Idealist, Voly) occasionally surface a listing
 // from outside the metro. We keep a listing if its address shows any Texas /
@@ -76,9 +85,6 @@ export default function HomeClient({
   // Mobile hamburger menu (the desktop TabBar row is hidden < lg).
   const [menuOpen, setMenuOpen] = useState(false)
 
-  const listingsRef = useRef(null)
-  const orgsRef     = useRef(null)
-  const chatterRef  = useRef(null)
   const headerRef   = useRef(null)
 
   // The whole top (Hero + TabBar) is a single sticky, fixed-size header so
@@ -165,6 +171,15 @@ export default function HomeClient({
     )
   }, [news, terms])
 
+  // Per-tab result counts, shown as badges on the tab bar while a search is
+  // active so it's easy to see (and jump to) whichever section has matches.
+  const orgCount = useMemo(() => buildOrgs(filteredOpps).length, [filteredOpps])
+  const tabCounts = useMemo(() => ({
+    listings: filteredOpps.length,
+    organizations: orgCount,
+    chatter: filteredNews.length,
+  }), [filteredOpps, orgCount, filteredNews])
+
   // Most recent last_scraped across every loaded opportunity — shown in the footer.
   const lastUpdated = useMemo(() => {
     const timestamps = opportunities.map(o => o.last_scraped).filter(Boolean)
@@ -184,27 +199,19 @@ export default function HomeClient({
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
-  // Tab click: Advanced Search is its own mode (it doesn't depend on the
-  // keyword query), so it always focuses. For the other tabs: if search is
-  // active (stacked mode) smooth-scroll to the anchor, otherwise focus the
-  // single section.
+  // Tab click always focuses that single section (scoping any active search
+  // query to just that tab's data — see isStacked below) and scrolls to top.
   function handleTabChange(tabId) {
-    if (tabId === 'search') {
-      setFocusedTab('search')
-      window.scrollTo({ top: 0, behavior: 'smooth' })
-      return
-    }
-    if (q) {
-      const map = { listings: listingsRef, organizations: orgsRef, chatter: chatterRef }
-      map[tabId]?.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
-    } else {
-      setFocusedTab(tabId)
-      window.scrollTo({ top: 0, behavior: 'smooth' })
-    }
+    setFocusedTab(tabId)
+    window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   const showSearch = focusedTab === 'search'
-  const isStacked  = !!q && !showSearch
+  // Stacked (combined, all-sections) search view only applies when no tab has
+  // been picked yet — e.g. searching straight from the home screen. Once a
+  // tab is focused (Opportunities/Organizations/Reddit), search stays scoped
+  // to that tab instead of jumping back out to every section.
+  const isStacked  = !!q && !showSearch && !focusedTab
   const isEmpty    = !q && !focusedTab
 
   return (
@@ -213,13 +220,15 @@ export default function HomeClient({
         <Hero
           search={search}
           setSearch={setSearch}
+          placeholder={SEARCH_PLACEHOLDERS[focusedTab] || 'Search across all sections…'}
           onWordmarkClick={goHome}
           onMenuToggle={() => setMenuOpen(o => !o)}
           menuOpen={menuOpen}
         />
 
         <TabBar
-          active={showSearch ? 'search' : isStacked ? null : focusedTab}
+          active={showSearch ? 'search' : focusedTab}
+          counts={q ? tabCounts : null}
           onChange={handleTabChange}
           onHome={goHome}
         />
@@ -230,7 +239,8 @@ export default function HomeClient({
           desktop tabs and then closes the menu. */}
       <MobileNav
         open={menuOpen}
-        active={showSearch ? 'search' : isStacked ? null : focusedTab}
+        active={showSearch ? 'search' : focusedTab}
+        counts={q ? tabCounts : null}
         onChange={id => { handleTabChange(id); setMenuOpen(false) }}
         onHome={() => { goHome(); setMenuOpen(false) }}
         onClose={() => setMenuOpen(false)}
@@ -264,29 +274,25 @@ export default function HomeClient({
               </div>
             )}
 
-            {/* Stacked when searching */}
+            {/* Stacked when searching with no tab focused yet — combined
+                results across every section. Use a tab above to jump into
+                just that section (search then stays scoped to it). */}
             {isStacked && (
               <div className="space-y-12">
-                <div ref={listingsRef} className="scroll-mt-20">
-                  <ListingsPanel
-                    listings={filteredOpps}
-                    initialCauses={initialCauses}
-                    initialCities={initialCities}
-                    initialVisible={initialVisible}
-                    onSelectOrg={setSelectedOrg}
-                    onSelectListing={setSelectedListing}
-                  />
-                </div>
-                <div ref={orgsRef} className="scroll-mt-20">
-                  <OrganizationsPanel
-                    listings={filteredOpps}
-                    searchActive={!!q}
-                    onSelectOrg={setSelectedOrg}
-                  />
-                </div>
-                <div ref={chatterRef} className="scroll-mt-20">
-                  <CommunityPanel posts={filteredNews} />
-                </div>
+                <ListingsPanel
+                  listings={filteredOpps}
+                  initialCauses={initialCauses}
+                  initialCities={initialCities}
+                  initialVisible={initialVisible}
+                  onSelectOrg={setSelectedOrg}
+                  onSelectListing={setSelectedListing}
+                />
+                <OrganizationsPanel
+                  listings={filteredOpps}
+                  searchActive={!!q}
+                  onSelectOrg={setSelectedOrg}
+                />
+                <CommunityPanel posts={filteredNews} />
               </div>
             )}
 

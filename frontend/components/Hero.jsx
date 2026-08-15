@@ -6,7 +6,7 @@
 // reading "Good Deeds Dallas — Pay it forward in The Big D"). To change the
 // wordmark, swap that image; the footer keeps the text version.
 
-export default function Hero({ search, setSearch, onWordmarkClick, onMenuToggle, menuOpen = false }) {
+export default function Hero({ search, setSearch, placeholder = 'Search across all sections…', onWordmarkClick, onMenuToggle, menuOpen = false }) {
   return (
     <section className="relative overflow-hidden border-b border-line bg-gradient-to-br from-brandSoft via-white to-accentSoft">
       <div
@@ -73,7 +73,7 @@ export default function Hero({ search, setSearch, onWordmarkClick, onMenuToggle,
                 type="search"
                 value={search}
                 onChange={e => setSearch(e.target.value)}
-                placeholder="Search across all sections…"
+                placeholder={placeholder}
                 className="
                   w-full pl-14 pr-5 py-3.5 text-base sm:text-lg
                   bg-white border border-line rounded-2xl shadow-searchbar
