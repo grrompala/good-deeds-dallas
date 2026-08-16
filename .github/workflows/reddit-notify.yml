@@ -1,0 +1,114 @@
+name: Daily Reddit volunteer digest
+
+# Scrapes the local DFW subreddits (fetch_reddit.py, search.rss — no LLM, no
+# API keys), diffs the result against the previously committed snapshot, and
+# opens a GitHub issue listing any posts that are NEW since the last run. You
+# get an email from GitHub because you own the repo. Quiet days open nothing.
+#
+# Reddit rate-limits datacenter IPs harder than home IPs, so a run can come
+# back empty because it was throttled rather than because it was quiet — the
+# digest step detects that (0 raw results) and opens a single health issue
+# instead of silently notifying nothing. The updated snapshot is committed only
+# on days that produced new posts, to keep git history clean.
+
+on:
+  schedule:
+    # 12:30 UTC daily (~7:30am Dallas). Off-the-hour to dodge cron congestion.
+    - cron: '30 12 * * *'
+  workflow_dispatch: {}   # manual trigger from the Actions tab
+
+permissions:
+  contents: write   # commit the refreshed reddit_raw.json snapshot
+  issues: write     # open the digest / health issue
+
+concurrency:
+  group: reddit-notify
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install scrape deps
+        run: pip install requests beautifulsoup4 lxml
+
+      # Snapshot the committed file BEFORE scraping so we can diff new vs old.
+      - name: Snapshot previous results
+        run: cp frontend/public/data/reddit_raw.json /tmp/reddit_baseline.json
+
+      - name: Scrape Reddit (search.rss, no LLM)
+        env:
+          PYTHONIOENCODING: 'utf-8'
+          PYTHONUNBUFFERED: '1'
+        # Don't fail the job if the scrape errors/exits non-zero — the digest
+        # step turns "no results" into a health issue.
+        run: python fetch_reddit.py 2>&1 | tee /tmp/scrape.log || true
+
+      - name: Build digest + health check
+        id: digest
+        if: always()
+        env:
+          PYTHONIOENCODING: 'utf-8'
+        run: |
+          python reddit_digest.py \
+            --baseline /tmp/reddit_baseline.json \
+            --current  frontend/public/data/reddit_raw.json \
+            --log      /tmp/scrape.log \
+            --body-out reddit-issue-body.md
+
+      # Persist the advanced snapshot only when there were new posts and the
+      # scrape was healthy — avoids daily last_scraped churn and avoids baking
+      # in a throttled (partial) result.
+      - name: Commit refreshed snapshot
+        if: steps.digest.outputs.has_new == 'true' && steps.digest.outputs.scrape_ok == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add frontend/public/data/reddit_raw.json
+          if git diff --cached --quiet; then
+            echo "Snapshot unchanged."
+          else
+            git commit -m "Reddit digest: refresh snapshot ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - name: Notify via GitHub issue
+        if: always() && (steps.digest.outputs.has_new == 'true' || steps.digest.outputs.scrape_ok == 'false')
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const hasNew = '${{ steps.digest.outputs.has_new }}' === 'true';
+            const scrapeOk = '${{ steps.digest.outputs.scrape_ok }}' === 'true';
+            const count = '${{ steps.digest.outputs.new_count }}';
+            const today = new Date().toISOString().slice(0, 10);
+            const body = fs.readFileSync('reddit-issue-body.md', 'utf8');
+            const { owner, repo } = context.repo;
+
+            if (!scrapeOk) {
+              const open = await github.rest.issues.listForRepo({
+                owner, repo, state: 'open', labels: 'reddit-scrape-health',
+              });
+              if (open.data.length === 0) {
+                await github.rest.issues.create({
+                  owner, repo,
+                  title: `⚠️ Reddit notify: scrape returned no results (${today})`,
+                  body, labels: ['reddit-scrape-health'],
+                });
+                core.warning('Scrape returned no results — opened a health issue.');
+              } else {
+                core.warning('Scrape empty, but a health issue is already open — not duplicating.');
+              }
+            } else if (hasNew) {
+              await github.rest.issues.create({
+                owner, repo,
+                title: `🙋 ${count} new volunteer post(s) on Reddit — ${today}`,
+                body, labels: ['reddit-digest'],
+              });
+            }
