@@ -206,12 +206,18 @@ export default function HomeClient({
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
-  const showSearch = focusedTab === 'search'
-  // Stacked (combined, all-sections) search view only applies when no tab has
-  // been picked yet — e.g. searching straight from the home screen. Once a
-  // tab is focused (Opportunities/Organizations/Reddit), search stays scoped
-  // to that tab instead of jumping back out to every section.
-  const isStacked  = !!q && !showSearch && !focusedTab
+  // The Smart Search tab hosts the AI query feature, which doesn't depend on
+  // the keyword query — but only while that query is empty. Typing a plain
+  // search while on it (or on the true home screen, before any tab is
+  // picked) should fall back to the combined "search everything" view below,
+  // the same as it does from the home screen.
+  const showSearch = focusedTab === 'search' && !q
+  // Stacked (combined, all-sections) search view applies from the general
+  // tab — the true home screen, or the Smart Search tab once it has a typed
+  // query. Once one of the three data tabs (Opportunities/Organizations/
+  // Reddit) is focused, search stays scoped to that tab instead of jumping
+  // back out to every section.
+  const isStacked  = !!q && (focusedTab === null || focusedTab === 'search')
   const isEmpty    = !q && !focusedTab
 
   return (
