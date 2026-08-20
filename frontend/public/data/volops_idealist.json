@@ -46278,6 +46278,13 @@
       "lng": -96.62277,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-08-19)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-20T07:03:40.376827+00:00"
     }
   },
   {
