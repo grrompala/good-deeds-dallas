@@ -9610,6 +9610,13 @@
       "lng": -96.30868,
       "precision": "city",
       "resolved_from": "org_name"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-08-22)",
+      "model": "expiry-rule",
+      "checked_at": "2026-08-23T06:58:06.715896+00:00"
     }
   },
   {
