@@ -1855,7 +1855,10 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-08-03T13:18:39.584325+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "health",
+      "community"
+    ],
     "geo": {
       "city": "Irving",
       "state": "TX",
@@ -13086,7 +13089,9 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-08-09T02:32:42.248450+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "community"
+    ],
     "geo": {
       "city": "Sachse",
       "state": "TX",
@@ -20908,7 +20913,10 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-21T03:59:17.050665+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "education",
+      "community"
+    ],
     "geo": {
       "city": "Dallas",
       "state": "TX",
@@ -37565,7 +37573,10 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-08-09T02:32:42.248450+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "community",
+      "food_security"
+    ],
     "geo": {
       "city": "Dallas",
       "state": "TX",
@@ -38578,7 +38589,7 @@
       "category": "manual_override",
       "reason": "manual override",
       "model": "override",
-      "checked_at": "2026-08-24T07:17:30.303753+00:00"
+      "checked_at": "2026-08-24T10:44:37.291761+00:00"
     },
     "unified_tags": [],
     "geo": {
@@ -38631,7 +38642,7 @@
       "category": "manual_override",
       "reason": "manual override",
       "model": "override",
-      "checked_at": "2026-08-24T07:17:30.303753+00:00"
+      "checked_at": "2026-08-24T10:44:37.291761+00:00"
     },
     "unified_tags": [],
     "geo": {
