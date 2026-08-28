@@ -14,7 +14,7 @@
       "total": 11
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.131472+00:00"
+    "last_scraped": "2026-08-28T22:49:12.649730+00:00"
   },
   {
     "id": "reddit_1oz7bo9",
@@ -31,7 +31,7 @@
       "total": 11
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.135478+00:00"
+    "last_scraped": "2026-08-28T22:49:12.653447+00:00"
   },
   {
     "id": "reddit_1n69ntv",
@@ -48,7 +48,7 @@
       "total": 11
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.136743+00:00"
+    "last_scraped": "2026-08-28T22:49:12.654600+00:00"
   },
   {
     "id": "reddit_1ltjxz9",
@@ -82,7 +82,7 @@
       "total": 9
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.129358+00:00"
+    "last_scraped": "2026-08-28T22:49:12.647810+00:00"
   },
   {
     "id": "reddit_1u2nek0",
@@ -99,7 +99,7 @@
       "total": 9
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.132693+00:00"
+    "last_scraped": "2026-08-28T22:49:12.650931+00:00"
   },
   {
     "id": "reddit_1p56fre",
@@ -116,7 +116,7 @@
       "total": 9
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.134363+00:00"
+    "last_scraped": "2026-08-28T22:49:12.652443+00:00"
   },
   {
     "id": "reddit_1ow4wsg",
@@ -133,7 +133,7 @@
       "total": 9
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:49:30.360928+00:00"
+    "last_scraped": "2026-08-28T22:52:31.322207+00:00"
   },
   {
     "id": "reddit_1mnzj57",
@@ -238,6 +238,23 @@
     "last_scraped": "2026-07-13T12:44:01.709434+00:00"
   },
   {
+    "id": "reddit_1w0j526",
+    "source": "reddit",
+    "subreddit": "Dallas",
+    "source_url": "https://www.reddit.com/r/Dallas/comments/1w0j526/dfw_events_8292026_8302026/",
+    "title": "DFW Events 8/29/2026 - 8/30/2026",
+    "body": "Hello  r/Dallas ,   Apologies for the hiatus! I was traveling quite a bit and busier than expected this past month. Anyway, I am planning on revamping this list soon and will hopefully make it better thanks to all of your feedback.   These events are hosted at the following site with more upcoming events listed for your reference:  https://dfw.msondo.com/ .   If you would like to receive an email with a list of events happening in DFW, please  click here .   Please also reach out here via a comment if you have an event you would like to list here. I'm happy to help feature events hosted by active members of the sub   Concerts       Date   Event   Venue   City   Start Time   Description         08/27 - 08/29   Live DJ Sets and Happy Hour   Nirvana   Irving   4:00 PM   Global beats meet Indian flavors on Friday nights.       08/28   Cameron Matthew Ray!!   Opening Bell Coffee   Dallas   9:00 PM   Singer-songwriter from Dallas plays folk-acoustic show.       08/28   KEETON COFFMAN!!   Opening Bell Coffee   Dallas   7:00 PM   Acoustic set by Houston-based musician with stories.       08/28   Hulvey   The Bomb Factory   Dallas   7:00 PM   Rising hip-hop artists deliver energetic, inspiring performance.       08/28   Navy Wavy Presents: Veeze - The Worst Tour Ever   House of Blues Dallas   Dallas   7:00 PM   Rising Detroit rapper performs national headlining tour.       08/28   DJ Joshua Pierz   Three Links Deep Ellum   Dallas   10:00 PM   Electronic beats fuel all-night dance party.       08/28   Shuv, Violent Fiasco, Hen & The Cocks   Three Links Deep Ellum   Dallas   8:00 PM   Energetic punk-rock show with Texan opener.       08/28   OFF CAMPUS Night   Trees   Dallas   10:00 PM   High-energy dance party with international DJ sensation.       08/28   The 4411   Club Dada   Dallas   8:00 PM   Austin-based indie rock band performs.       08/28   TUSK: The Classic Tribute to Fleetwood Mac   Longhorn Ballroom   Dallas   8:00 PM   Legendary rock songs honored by American art",
+    "author": "msondo",
+    "created_utc": "2026-08-28T06:53:07+00:00",
+    "relevance": {
+      "volunteer_keyword_hits": 2,
+      "location_keyword_hits": 6,
+      "total": 8
+    },
+    "status": "needs_llm_review",
+    "last_scraped": "2026-08-28T22:49:12.646634+00:00"
+  },
+  {
     "id": "reddit_1v5cvow",
     "source": "reddit",
     "subreddit": "Dallas",
@@ -252,7 +269,7 @@
       "total": 8
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.130299+00:00"
+    "last_scraped": "2026-08-28T22:49:12.648659+00:00"
   },
   {
     "id": "reddit_1qb4jk9",
@@ -269,7 +286,7 @@
       "total": 8
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:49:30.359551+00:00"
+    "last_scraped": "2026-08-28T22:52:31.320961+00:00"
   },
   {
     "id": "reddit_1tli02m",
@@ -320,7 +337,7 @@
       "total": 6
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:41:22.805491+00:00"
+    "last_scraped": "2026-08-28T22:44:23.412735+00:00"
   },
   {
     "id": "reddit_1nli6xw",
@@ -337,7 +354,7 @@
       "total": 6
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:49:30.361588+00:00"
+    "last_scraped": "2026-08-28T22:52:31.322798+00:00"
   },
   {
     "id": "reddit_1mtyb9b",
@@ -371,7 +388,7 @@
       "total": 5
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.128315+00:00"
+    "last_scraped": "2026-08-28T22:49:12.646877+00:00"
   },
   {
     "id": "reddit_1phq394",
@@ -388,7 +405,7 @@
       "total": 5
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:34:23.663210+00:00"
+    "last_scraped": "2026-08-28T22:37:24.701998+00:00"
   },
   {
     "id": "reddit_1op7u7b",
@@ -405,7 +422,7 @@
       "total": 5
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.135547+00:00"
+    "last_scraped": "2026-08-28T22:49:12.653510+00:00"
   },
   {
     "id": "reddit_1o9c6dc",
@@ -422,7 +439,7 @@
       "total": 5
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:54:18.098124+00:00"
+    "last_scraped": "2026-08-28T22:57:18.936911+00:00"
   },
   {
     "id": "reddit_1lu3yf4",
@@ -456,7 +473,7 @@
       "total": 4
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.128436+00:00"
+    "last_scraped": "2026-08-28T22:49:12.646986+00:00"
   },
   {
     "id": "reddit_1uxrzpq",
@@ -473,7 +490,7 @@
       "total": 4
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.130383+00:00"
+    "last_scraped": "2026-08-28T22:49:12.648736+00:00"
   },
   {
     "id": "reddit_1uad5mj",
@@ -490,7 +507,7 @@
       "total": 4
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:42:29.002459+00:00"
+    "last_scraped": "2026-08-28T22:45:29.042738+00:00"
   },
   {
     "id": "reddit_1tkqmrj",
@@ -507,7 +524,7 @@
       "total": 4
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:54:18.098014+00:00"
+    "last_scraped": "2026-08-28T22:57:18.936796+00:00"
   },
   {
     "id": "reddit_1t32c0l",
@@ -524,7 +541,7 @@
       "total": 4
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.132799+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651031+00:00"
   },
   {
     "id": "reddit_1skpnfg",
@@ -541,7 +558,7 @@
       "total": 4
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:50:35.988003+00:00"
+    "last_scraped": "2026-08-28T22:53:36.964403+00:00"
   },
   {
     "id": "reddit_1s1jyd6",
@@ -558,7 +575,7 @@
       "total": 4
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:38:05.776925+00:00"
+    "last_scraped": "2026-08-28T22:41:06.538136+00:00"
   },
   {
     "id": "reddit_1rdlrtn",
@@ -575,7 +592,7 @@
       "total": 4
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:42:29.002581+00:00"
+    "last_scraped": "2026-08-28T22:45:29.042850+00:00"
   },
   {
     "id": "reddit_1r7ttuo",
@@ -592,7 +609,7 @@
       "total": 4
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:38:05.776967+00:00"
+    "last_scraped": "2026-08-28T22:41:06.538175+00:00"
   },
   {
     "id": "reddit_1qrs829",
@@ -609,7 +626,7 @@
       "total": 4
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:50:35.988078+00:00"
+    "last_scraped": "2026-08-28T22:53:36.964454+00:00"
   },
   {
     "id": "reddit_1pcrfpn",
@@ -626,7 +643,7 @@
       "total": 4
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:49:30.359777+00:00"
+    "last_scraped": "2026-08-28T22:52:31.321167+00:00"
   },
   {
     "id": "reddit_1paqph8",
@@ -643,7 +660,7 @@
       "total": 4
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:57:34.830446+00:00"
+    "last_scraped": "2026-08-28T23:00:35.440236+00:00"
   },
   {
     "id": "reddit_1oohdyp",
@@ -660,7 +677,7 @@
       "total": 4
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:38:05.777001+00:00"
+    "last_scraped": "2026-08-28T22:41:06.538207+00:00"
   },
   {
     "id": "reddit_1ofbdrq",
@@ -677,7 +694,7 @@
       "total": 4
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:38:05.777060+00:00"
+    "last_scraped": "2026-08-28T22:41:06.538262+00:00"
   },
   {
     "id": "reddit_1o7bs82",
@@ -694,7 +711,7 @@
       "total": 4
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:30:01.302040+00:00"
+    "last_scraped": "2026-08-28T22:33:02.560599+00:00"
   },
   {
     "id": "reddit_1nffmsc",
@@ -711,7 +728,7 @@
       "total": 4
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:49:30.361971+00:00"
+    "last_scraped": "2026-08-28T22:52:31.323166+00:00"
   },
   {
     "id": "reddit_1my5ol9",
@@ -779,7 +796,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:50:35.987868+00:00"
+    "last_scraped": "2026-08-28T22:53:36.964280+00:00"
   },
   {
     "id": "reddit_1vhxbou",
@@ -796,7 +813,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.128363+00:00"
+    "last_scraped": "2026-08-28T22:49:12.646931+00:00"
   },
   {
     "id": "reddit_1vguful",
@@ -813,7 +830,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:38:05.776698+00:00"
+    "last_scraped": "2026-08-28T22:41:06.537954+00:00"
   },
   {
     "id": "reddit_1v8met6",
@@ -830,7 +847,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:54:18.097955+00:00"
+    "last_scraped": "2026-08-28T22:57:18.936742+00:00"
   },
   {
     "id": "reddit_1v8mdi2",
@@ -847,7 +864,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:42:29.002397+00:00"
+    "last_scraped": "2026-08-28T22:45:29.042693+00:00"
   },
   {
     "id": "reddit_1v8fv52",
@@ -864,7 +881,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.128475+00:00"
+    "last_scraped": "2026-08-28T22:49:12.647026+00:00"
   },
   {
     "id": "reddit_1v74xut",
@@ -881,7 +898,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:38:05.776842+00:00"
+    "last_scraped": "2026-08-28T22:41:06.538060+00:00"
   },
   {
     "id": "reddit_1v04cz8",
@@ -898,7 +915,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.130357+00:00"
+    "last_scraped": "2026-08-28T22:49:12.648711+00:00"
   },
   {
     "id": "reddit_1u15cxc",
@@ -915,7 +932,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.132723+00:00"
+    "last_scraped": "2026-08-28T22:49:12.650962+00:00"
   },
   {
     "id": "reddit_1twaf1s",
@@ -932,7 +949,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:42:29.002495+00:00"
+    "last_scraped": "2026-08-28T22:45:29.042771+00:00"
   },
   {
     "id": "reddit_1t8nvav",
@@ -949,7 +966,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:42:29.002531+00:00"
+    "last_scraped": "2026-08-28T22:45:29.042804+00:00"
   },
   {
     "id": "reddit_1sq8tsb",
@@ -966,7 +983,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:50:35.987959+00:00"
+    "last_scraped": "2026-08-28T22:53:36.964371+00:00"
   },
   {
     "id": "reddit_1s9zhyw",
@@ -983,7 +1000,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:45:05.795541+00:00"
+    "last_scraped": "2026-08-28T22:48:05.648153+00:00"
   },
   {
     "id": "reddit_1s7xsnf",
@@ -1000,7 +1017,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:38:05.776881+00:00"
+    "last_scraped": "2026-08-28T22:41:06.538095+00:00"
   },
   {
     "id": "reddit_1s7erm2",
@@ -1017,7 +1034,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:49:30.358388+00:00"
+    "last_scraped": "2026-08-28T22:52:31.319920+00:00"
   },
   {
     "id": "reddit_1rdlpo3",
@@ -1034,7 +1051,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.132892+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651119+00:00"
   },
   {
     "id": "reddit_1qquipv",
@@ -1051,7 +1068,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.132922+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651148+00:00"
   },
   {
     "id": "reddit_1qkql7i",
@@ -1068,7 +1085,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.133038+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651255+00:00"
   },
   {
     "id": "reddit_1pok3bw",
@@ -1085,7 +1102,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.133154+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651364+00:00"
   },
   {
     "id": "reddit_1pdq6jw",
@@ -1102,7 +1119,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.133251+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651455+00:00"
   },
   {
     "id": "reddit_1p8zfwa",
@@ -1119,7 +1136,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.133264+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651470+00:00"
   },
   {
     "id": "reddit_1omz5i3",
@@ -1136,7 +1153,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.135562+00:00"
+    "last_scraped": "2026-08-28T22:49:12.653524+00:00"
   },
   {
     "id": "reddit_1ny45pe",
@@ -1153,7 +1170,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:38:05.777094+00:00"
+    "last_scraped": "2026-08-28T22:41:06.538298+00:00"
   },
   {
     "id": "reddit_1neejox",
@@ -1170,7 +1187,7 @@
       "total": 3
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:38:05.777122+00:00"
+    "last_scraped": "2026-08-28T22:41:06.538323+00:00"
   },
   {
     "id": "reddit_1me9ay9",
@@ -1190,6 +1207,23 @@
     "last_scraped": "2026-07-27T13:00:30.836995+00:00"
   },
   {
+    "id": "reddit_1w0vzva",
+    "source": "reddit",
+    "subreddit": "Dallas",
+    "source_url": "https://www.reddit.com/r/Dallas/comments/1w0vzva/james_talarico_rally/",
+    "title": "James Talarico rally",
+    "body": "Anyone volunteering tomorrow and driving to Fort Worth from Dallas? I’m a 48 M volunteering and taking transit, but if anyone wants to drive me I can subsidize gas. I’d be leaving from Oak Cliff. They want volunteers to arrive at 2:30pm. Thanks!      submitted by     /u/friskyintellect      [link]   [comments]",
+    "author": "friskyintellect",
+    "created_utc": "2026-08-28T16:52:29+00:00",
+    "relevance": {
+      "volunteer_keyword_hits": 2,
+      "location_keyword_hits": 0,
+      "total": 2
+    },
+    "status": "needs_llm_review",
+    "last_scraped": "2026-08-28T22:49:12.645562+00:00"
+  },
+  {
     "id": "reddit_1vhlf8h",
     "source": "reddit",
     "subreddit": "Dallas",
@@ -1204,7 +1238,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:49:30.358151+00:00"
+    "last_scraped": "2026-08-28T22:52:31.319698+00:00"
   },
   {
     "id": "reddit_1v8yaz4",
@@ -1221,7 +1255,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:34:23.663082+00:00"
+    "last_scraped": "2026-08-28T22:37:24.701717+00:00"
   },
   {
     "id": "reddit_1v7f2i0",
@@ -1238,7 +1272,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:45:05.795339+00:00"
+    "last_scraped": "2026-08-28T22:48:05.647982+00:00"
   },
   {
     "id": "reddit_1u5bo9x",
@@ -1255,7 +1289,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.131672+00:00"
+    "last_scraped": "2026-08-28T22:49:12.649926+00:00"
   },
   {
     "id": "reddit_1tswctq",
@@ -1272,7 +1306,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:54:18.097989+00:00"
+    "last_scraped": "2026-08-28T22:57:18.936773+00:00"
   },
   {
     "id": "reddit_1szfe4m",
@@ -1289,7 +1323,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.132825+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651055+00:00"
   },
   {
     "id": "reddit_1st7hid",
@@ -1306,7 +1340,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:45:05.795380+00:00"
+    "last_scraped": "2026-08-28T22:48:05.648022+00:00"
   },
   {
     "id": "reddit_1sbvcii",
@@ -1323,7 +1357,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:50:35.988025+00:00"
+    "last_scraped": "2026-08-28T22:53:36.964419+00:00"
   },
   {
     "id": "reddit_1ryt87u",
@@ -1340,7 +1374,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:50:35.988059+00:00"
+    "last_scraped": "2026-08-28T22:53:36.964441+00:00"
   },
   {
     "id": "reddit_1ru1gm7",
@@ -1357,7 +1391,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:30:01.301959+00:00"
+    "last_scraped": "2026-08-28T22:33:02.560534+00:00"
   },
   {
     "id": "reddit_1rl5q33",
@@ -1374,7 +1408,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:54:18.098045+00:00"
+    "last_scraped": "2026-08-28T22:57:18.936823+00:00"
   },
   {
     "id": "reddit_1qxtjpe",
@@ -1391,7 +1425,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.132910+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651136+00:00"
   },
   {
     "id": "reddit_1qs21xn",
@@ -1408,7 +1442,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:54:18.098065+00:00"
+    "last_scraped": "2026-08-28T22:57:18.936842+00:00"
   },
   {
     "id": "reddit_1qmx2ds",
@@ -1425,7 +1459,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.133008+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651228+00:00"
   },
   {
     "id": "reddit_1podds0",
@@ -1442,7 +1476,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:54:18.098079+00:00"
+    "last_scraped": "2026-08-28T22:57:18.936854+00:00"
   },
   {
     "id": "reddit_1plf3x8",
@@ -1459,7 +1493,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.133187+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651393+00:00"
   },
   {
     "id": "reddit_1pi75bn",
@@ -1476,7 +1510,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.133226+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651429+00:00"
   },
   {
     "id": "reddit_1pi74ue",
@@ -1493,7 +1527,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:30:01.301994+00:00"
+    "last_scraped": "2026-08-28T22:33:02.560560+00:00"
   },
   {
     "id": "reddit_1p5wkzz",
@@ -1510,7 +1544,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.133278+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651482+00:00"
   },
   {
     "id": "reddit_1p4533f",
@@ -1527,7 +1561,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:42:29.002599+00:00"
+    "last_scraped": "2026-08-28T22:45:29.042876+00:00"
   },
   {
     "id": "reddit_1p03kd0",
@@ -1544,7 +1578,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:38:05.776984+00:00"
+    "last_scraped": "2026-08-28T22:41:06.538191+00:00"
   },
   {
     "id": "reddit_1oy4ksw",
@@ -1561,7 +1595,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.135493+00:00"
+    "last_scraped": "2026-08-28T22:49:12.653463+00:00"
   },
   {
     "id": "reddit_1ougbkm",
@@ -1578,7 +1612,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.135521+00:00"
+    "last_scraped": "2026-08-28T22:49:12.653486+00:00"
   },
   {
     "id": "reddit_1ob9l8i",
@@ -1595,7 +1629,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.135591+00:00"
+    "last_scraped": "2026-08-28T22:49:12.653556+00:00"
   },
   {
     "id": "reddit_1o929c6",
@@ -1612,7 +1646,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.135607+00:00"
+    "last_scraped": "2026-08-28T22:49:12.653572+00:00"
   },
   {
     "id": "reddit_1o3en56",
@@ -1629,7 +1663,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:50:35.988145+00:00"
+    "last_scraped": "2026-08-28T22:53:36.964505+00:00"
   },
   {
     "id": "reddit_1no2vmg",
@@ -1646,7 +1680,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:50:35.988187+00:00"
+    "last_scraped": "2026-08-28T22:53:36.964547+00:00"
   },
   {
     "id": "reddit_1nip2ik",
@@ -1663,7 +1697,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.135655+00:00"
+    "last_scraped": "2026-08-28T22:49:12.653615+00:00"
   },
   {
     "id": "reddit_1n9max8",
@@ -1680,7 +1714,7 @@
       "total": 2
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.135683+00:00"
+    "last_scraped": "2026-08-28T22:49:12.653640+00:00"
   },
   {
     "id": "reddit_1mok5i5",
@@ -1765,7 +1799,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:57:34.830147+00:00"
+    "last_scraped": "2026-08-28T23:00:35.439920+00:00"
   },
   {
     "id": "reddit_1vzmxzx",
@@ -1782,7 +1816,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.128054+00:00"
+    "last_scraped": "2026-08-28T22:49:12.646673+00:00"
   },
   {
     "id": "reddit_1vzg9zv",
@@ -1799,7 +1833,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:54:18.097887+00:00"
+    "last_scraped": "2026-08-28T22:57:18.936680+00:00"
   },
   {
     "id": "reddit_1vrzh5f",
@@ -1850,7 +1884,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.130410+00:00"
+    "last_scraped": "2026-08-28T22:49:12.648762+00:00"
   },
   {
     "id": "reddit_1ugaq1r",
@@ -1867,7 +1901,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.131613+00:00"
+    "last_scraped": "2026-08-28T22:49:12.649860+00:00"
   },
   {
     "id": "reddit_1toqhyv",
@@ -1884,7 +1918,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.132737+00:00"
+    "last_scraped": "2026-08-28T22:49:12.650975+00:00"
   },
   {
     "id": "reddit_1tmcl5j",
@@ -1918,7 +1952,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.132754+00:00"
+    "last_scraped": "2026-08-28T22:49:12.650991+00:00"
   },
   {
     "id": "reddit_1t6wxvd",
@@ -1935,7 +1969,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:42:29.002553+00:00"
+    "last_scraped": "2026-08-28T22:45:29.042824+00:00"
   },
   {
     "id": "reddit_1s4ipyi",
@@ -1952,7 +1986,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:42:29.002572+00:00"
+    "last_scraped": "2026-08-28T22:45:29.042841+00:00"
   },
   {
     "id": "reddit_1s4iooj",
@@ -1969,7 +2003,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:38:05.776901+00:00"
+    "last_scraped": "2026-08-28T22:41:06.538114+00:00"
   },
   {
     "id": "reddit_1s3xqwl",
@@ -1986,7 +2020,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.132858+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651087+00:00"
   },
   {
     "id": "reddit_1rigdmk",
@@ -2003,7 +2037,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.132881+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651108+00:00"
   },
   {
     "id": "reddit_1qe5q4m",
@@ -2020,7 +2054,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.133087+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651300+00:00"
   },
   {
     "id": "reddit_1qcc1q4",
@@ -2037,7 +2071,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.133099+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651312+00:00"
   },
   {
     "id": "reddit_1pnqsnb",
@@ -2054,7 +2088,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.133164+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651373+00:00"
   },
   {
     "id": "reddit_1pk59km",
@@ -2071,7 +2105,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.133218+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651421+00:00"
   },
   {
     "id": "reddit_1phmrt1",
@@ -2088,7 +2122,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.133237+00:00"
+    "last_scraped": "2026-08-28T22:49:12.651439+00:00"
   },
   {
     "id": "reddit_1p00v15",
@@ -2105,7 +2139,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.134388+00:00"
+    "last_scraped": "2026-08-28T22:49:12.652467+00:00"
   },
   {
     "id": "reddit_1on19q5",
@@ -2122,7 +2156,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:38:05.777017+00:00"
+    "last_scraped": "2026-08-28T22:41:06.538222+00:00"
   },
   {
     "id": "reddit_1oig8ij",
@@ -2139,7 +2173,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:49:30.360954+00:00"
+    "last_scraped": "2026-08-28T22:52:31.322232+00:00"
   },
   {
     "id": "reddit_1oiadsa",
@@ -2156,7 +2190,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:46:12.135570+00:00"
+    "last_scraped": "2026-08-28T22:49:12.653536+00:00"
   },
   {
     "id": "reddit_1o94a9e",
@@ -2173,7 +2207,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:38:05.777079+00:00"
+    "last_scraped": "2026-08-28T22:41:06.538280+00:00"
   },
   {
     "id": "reddit_1nsp19d",
@@ -2190,7 +2224,7 @@
       "total": 1
     },
     "status": "needs_llm_review",
-    "last_scraped": "2026-08-27T22:49:30.361153+00:00"
+    "last_scraped": "2026-08-28T22:52:31.322414+00:00"
   },
   {
     "id": "reddit_1mnftm7",
