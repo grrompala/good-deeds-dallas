@@ -11406,7 +11406,10 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "animals",
+      "community"
+    ],
     "expiry": {
       "kind": "unknown",
       "ends_on": null,
@@ -21192,7 +21195,9 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-08-09T02:32:42.248450+00:00"
     },
-    "unified_tags": []
+    "unified_tags": [
+      "civic"
+    ]
   },
   {
     "id": "international_rescue_committee_dallas_3",
@@ -22181,7 +22186,11 @@
       "model": "gpt-4o",
       "checked_at": "2026-06-08T03:13:37.319340+00:00"
     },
-    "unified_tags": [],
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ],
     "geo": {
       "city": "Frisco",
       "state": "TX",
@@ -38589,7 +38598,7 @@
       "category": "manual_override",
       "reason": "manual override",
       "model": "override",
-      "checked_at": "2026-08-31T13:40:07.704233+00:00"
+      "checked_at": "2026-08-31T17:45:41.241554+00:00"
     },
     "unified_tags": [],
     "geo": {
@@ -38642,7 +38651,7 @@
       "category": "manual_override",
       "reason": "manual override",
       "model": "override",
-      "checked_at": "2026-08-31T13:40:07.704233+00:00"
+      "checked_at": "2026-08-31T17:45:41.241554+00:00"
     },
     "unified_tags": [],
     "geo": {

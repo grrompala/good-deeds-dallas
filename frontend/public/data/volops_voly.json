@@ -38,7 +38,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:41.979532+00:00",
+    "last_scraped": "2026-08-31T17:17:19.964680+00:00",
     "unified_tags": [
       "seniors",
       "community"
@@ -97,7 +97,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:26.434434+00:00",
+    "last_scraped": "2026-08-31T17:18:03.474425+00:00",
     "unified_tags": [
       "education",
       "community",
@@ -154,7 +154,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:15.643737+00:00",
+    "last_scraped": "2026-08-31T17:17:53.300458+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -209,7 +209,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:10.336198+00:00",
+    "last_scraped": "2026-08-31T17:17:48.206405+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -266,6 +266,61 @@
     "dress_code": "Black Pants Black Shirt Black Shoes",
     "status": "inactive",
     "last_scraped": "2026-07-03T22:28:45.371853+00:00",
+    "unified_tags": [],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
+  },
+  {
+    "id": "voly_120072",
+    "source": "voly_dallas",
+    "source_url": "https://dallas.voly.org/opportunity/view.html?id=120072",
+    "org_name": "VolunteerNow",
+    "org_url": "https://dallas.voly.org/agencies/profile.html?id=4650",
+    "opportunity_title": "9/11 Day of Service",
+    "description_short": "Join us as we honor the nearly 3,000 lives lost in the terrorist attacks of September 11, 2001, as well as the countless first responders and service members who answered the call. **Sponsored by…",
+    "description_long": "Join us as we honor the nearly 3,000 lives lost in the terrorist attacks of September 11, 2001, as well as the countless first responders and service members who answered the call. **Sponsored by Caterpillar Foundation/powered by Points of Light** Share this volunteer opportunity!",
+    "cause_tags": [
+      "Social Services: Military and Veterans and their Families"
+    ],
+    "is_virtual": false,
+    "schedule": {
+      "date": "Sep 12, 2026",
+      "time": "9:30 AM - 1:00 PM",
+      "duration": "9:30 AM - 1:00 PM",
+      "recurring": false,
+      "raw": "Sep 12, 2026 | 9:30 AM - 1:00 PM | 9:30 AM - 1:00 PM"
+    },
+    "volunteers_needed": null,
+    "address": {
+      "full": null,
+      "city": null,
+      "state": "TX",
+      "postal": null
+    },
+    "contact": {
+      "email": null,
+      "phone": null,
+      "info": null
+    },
+    "requirements": null,
+    "skills": null,
+    "training": null,
+    "what_to_bring": null,
+    "dress_code": null,
+    "status": "active",
+    "last_scraped": "2026-08-31T17:18:31.527551+00:00",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-09-12",
+      "model": "rule",
+      "checked_at": "2026-08-31T17:45:55.028925+00:00"
+    },
     "unified_tags": [],
     "geo": {
       "city": null,
@@ -341,11 +396,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "4 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 4 Hours"
+      "raw": "Aug 31, 2026 | 4 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -365,7 +420,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:53.445910+00:00",
+    "last_scraped": "2026-08-31T17:17:31.410370+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -460,11 +515,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 27, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "5 Hours",
       "recurring": true,
-      "raw": "Aug 27, 2026 | 5 Hours"
+      "raw": "Aug 31, 2026 | 5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -484,7 +539,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:48.332011+00:00",
+    "last_scraped": "2026-08-31T17:17:26.325863+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -582,11 +637,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "1 Hour",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 1 Hour"
+      "raw": "Aug 31, 2026 | 1 Hour"
     },
     "volunteers_needed": null,
     "address": {
@@ -606,7 +661,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:12.261140+00:00",
+    "last_scraped": "2026-08-31T17:17:50.108032+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -721,7 +776,7 @@
     "training": null,
     "what_to_bring": null,
     "dress_code": null,
-    "status": "active",
+    "status": "inactive",
     "last_scraped": "2026-08-24T10:14:49.946219+00:00",
     "unified_tags": [
       "seniors",
@@ -927,11 +982,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 28, 2026",
+      "date": "Sep 04, 2026",
       "time": null,
       "duration": "1 Hour",
       "recurring": true,
-      "raw": "Aug 28, 2026 | 1 Hour"
+      "raw": "Sep 04, 2026 | 1 Hour"
     },
     "volunteers_needed": null,
     "address": {
@@ -951,7 +1006,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:04.991914+00:00",
+    "last_scraped": "2026-08-31T17:17:43.089094+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -1221,15 +1276,15 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 28, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "8 Hours",
       "recurring": true,
-      "raw": "Aug 28, 2026 | 8 Hours"
+      "raw": "Aug 31, 2026 | 8 Hours"
     },
     "volunteers_needed": null,
     "address": {
-      "full": "2026 8 Hours 154 Needed Click Here For Dates Brought To You By Heart to Heart Hospice, Fort Worth Location Fort Worth 6100 Southwest Blvd\n                200 Fort Worth, TX 76109",
+      "full": "2026 8 Hours 149 Needed Click Here For Dates Brought To You By Heart to Heart Hospice, Fort Worth Location Fort Worth 6100 Southwest Blvd\n                200 Fort Worth, TX 76109",
       "city": "Fort Worth Location Fort Worth 6100 Southwest Blvd\n                200 Fort Worth",
       "state": "TX",
       "postal": "76109"
@@ -1245,7 +1300,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:55.111759+00:00",
+    "last_scraped": "2026-08-31T17:16:33.577996+00:00",
     "unified_tags": [
       "health",
       "mental_health",
@@ -1280,11 +1335,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "7 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 7 Hours"
+      "raw": "Aug 31, 2026 | 7 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -1304,7 +1359,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:34.182470+00:00",
+    "last_scraped": "2026-08-31T17:17:12.813117+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -1336,11 +1391,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 25, 2026",
+      "date": "Sep 01, 2026",
       "time": null,
       "duration": "2.5 Hours",
       "recurring": true,
-      "raw": "Aug 25, 2026 | 2.5 Hours"
+      "raw": "Sep 01, 2026 | 2.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -1360,7 +1415,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:56.607360+00:00",
+    "last_scraped": "2026-08-31T17:17:34.806192+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -1392,11 +1447,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Sep 07, 2026",
       "time": null,
       "duration": "5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 5 Hours"
+      "raw": "Sep 07, 2026 | 5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -1416,7 +1471,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:51.514617+00:00",
+    "last_scraped": "2026-08-31T17:17:29.502031+00:00",
     "unified_tags": [
       "education",
       "community"
@@ -1475,7 +1530,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:43.249120+00:00",
+    "last_scraped": "2026-08-31T17:17:21.232336+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -1510,16 +1565,16 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 26, 2026",
+      "date": "Sep 23, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 26, 2026 | 3 Hours"
+      "raw": "Sep 23, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
-      "full": "26, 2026 3 Hours 30 Needed Click Here For Dates Brought To You By Feed the Streetz Outreach Location Son of Man Worship Center 4409 Pioneer Rd Balch Springs, TX 75180",
-      "city": "2026 3 Hours 30 Needed Click Here For Dates Brought To You By Feed the Streetz Outreach Location Son of Man Worship Center 4409 Pioneer Rd Balch Springs",
+      "full": "23, 2026 3 Hours 25 Needed Click Here For Dates Brought To You By Feed the Streetz Outreach Location Son of Man Worship Center 4409 Pioneer Rd Balch Springs, TX 75180",
+      "city": "2026 3 Hours 25 Needed Click Here For Dates Brought To You By Feed the Streetz Outreach Location Son of Man Worship Center 4409 Pioneer Rd Balch Springs",
       "state": "TX",
       "postal": "75180"
     },
@@ -1534,7 +1589,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:43.889473+00:00",
+    "last_scraped": "2026-08-31T17:17:21.869285+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -1593,7 +1648,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:44.520734+00:00",
+    "last_scraped": "2026-08-31T17:17:22.512224+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -1628,11 +1683,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 27, 2026",
+      "date": "Sep 24, 2026",
       "time": null,
       "duration": "2 Hours",
       "recurring": true,
-      "raw": "Aug 27, 2026 | 2 Hours"
+      "raw": "Sep 24, 2026 | 2 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -1652,7 +1707,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:45.154378+00:00",
+    "last_scraped": "2026-08-31T17:17:23.144334+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -1711,7 +1766,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:48.684065+00:00",
+    "last_scraped": "2026-08-31T17:16:28.955174+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -1849,16 +1904,16 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 5 Hours"
+      "raw": "Aug 31, 2026 | 5 Hours"
     },
     "volunteers_needed": null,
     "address": {
-      "full": "24, 2026 5 Hours 76 Needed Click Here For Dates Brought To You By Amazing Grace Food Pantry Location 1711 Parker Road Wylie, TX 75098",
-      "city": "2026 5 Hours 76 Needed Click Here For Dates Brought To You By Amazing Grace Food Pantry Location 1711 Parker Road Wylie",
+      "full": "31, 2026 5 Hours 72 Needed Click Here For Dates Brought To You By Amazing Grace Food Pantry Location 1711 Parker Road Wylie, TX 75098",
+      "city": "2026 5 Hours 72 Needed Click Here For Dates Brought To You By Amazing Grace Food Pantry Location 1711 Parker Road Wylie",
       "state": "TX",
       "postal": "75098"
     },
@@ -1873,7 +1928,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:13.079817+00:00",
+    "last_scraped": "2026-08-31T17:17:50.746562+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -1932,7 +1987,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:08.889459+00:00",
+    "last_scraped": "2026-08-31T17:16:48.820834+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -1963,16 +2018,16 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 28, 2026",
+      "date": "Sep 04, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 28, 2026 | 3 Hours"
+      "raw": "Sep 04, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
-      "full": "28, 2026 3 Hours 85 Needed Click Here For Dates Brought To You By Bridges Can Help Location BRIDGES Family Resource Center 800 W Belt Line Rd Cedar Hill, TX 75104",
-      "city": "2026 3 Hours 85 Needed Click Here For Dates Brought To You By Bridges Can Help Location BRIDGES Family Resource Center 800 W Belt Line Rd Cedar Hill",
+      "full": "04, 2026 3 Hours 80 Needed Click Here For Dates Brought To You By Bridges Can Help Location BRIDGES Family Resource Center 800 W Belt Line Rd Cedar Hill, TX 75104",
+      "city": "2026 3 Hours 80 Needed Click Here For Dates Brought To You By Bridges Can Help Location BRIDGES Family Resource Center 800 W Belt Line Rd Cedar Hill",
       "state": "TX",
       "postal": "75104"
     },
@@ -1987,7 +2042,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:19.480710+00:00",
+    "last_scraped": "2026-08-31T17:16:59.958609+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -2043,7 +2098,7 @@
     "what_to_bring": "Join For Love & Art as an Art Angel and bring the therapeutic power of art to seniors in Collin County. You’ll lead one‑hour, group‑based art experiences in senior communities, using beautiful artwork to spark conversations, memories, and joy.",
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:21.413938+00:00",
+    "last_scraped": "2026-08-31T17:17:01.905844+00:00",
     "unified_tags": [
       "seniors",
       "arts",
@@ -2103,7 +2158,7 @@
     "what_to_bring": "Join For Love & Art as an Art Angel and bring the therapeutic power of art to seniors in Dallas County. You’ll lead one‑hour, group‑based art experiences in senior communities, using beautiful artwork to spark conversations, memories, and joy.",
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:22.047120+00:00",
+    "last_scraped": "2026-08-31T17:17:02.580537+00:00",
     "unified_tags": [
       "seniors",
       "arts",
@@ -2163,7 +2218,7 @@
     "what_to_bring": "Join For Love & Art as an Art Angel and bring the therapeutic power of art to seniors in Tarrant County. You’ll lead one‑hour, group‑based art experiences in senior communities, using beautiful artwork to spark conversations, memories, and joy.",
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:20.766792+00:00",
+    "last_scraped": "2026-08-31T17:17:01.259594+00:00",
     "unified_tags": [
       "seniors",
       "arts",
@@ -2198,11 +2253,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "8 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 8 Hours"
+      "raw": "Aug 31, 2026 | 8 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -2222,7 +2277,7 @@
     "what_to_bring": "Help us transform our new San Antonio office into a welcoming community mental health hub! Volunteer to paint, assemble furniture, decorate, organize, and prepare a space where healing can begin. Flexible shifts available",
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:32.832720+00:00",
+    "last_scraped": "2026-08-31T17:18:08.559785+00:00",
     "unified_tags": [
       "community"
     ],
@@ -2256,11 +2311,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "1.5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 1.5 Hours"
+      "raw": "Aug 31, 2026 | 1.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -2280,7 +2335,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:50.585149+00:00",
+    "last_scraped": "2026-08-31T17:16:30.254459+00:00",
     "unified_tags": [
       "seniors",
       "health",
@@ -2465,11 +2520,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3 - 4 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3 - 4 Hours"
+      "raw": "Aug 31, 2026 | 3 - 4 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -2489,7 +2544,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:07.120197+00:00",
+    "last_scraped": "2026-08-31T17:17:45.012821+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -2521,11 +2576,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "2 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 2 Hours"
+      "raw": "Aug 31, 2026 | 2 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -2545,7 +2600,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:58.940328+00:00",
+    "last_scraped": "2026-08-31T17:16:37.819043+00:00",
     "unified_tags": [
       "animals"
     ],
@@ -2686,11 +2741,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "7.5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 7.5 Hours"
+      "raw": "Aug 31, 2026 | 7.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -2710,7 +2765,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:18.208112+00:00",
+    "last_scraped": "2026-08-31T17:16:58.667884+00:00",
     "unified_tags": [
       "children",
       "education",
@@ -2746,11 +2801,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 25, 2026",
+      "date": "Sep 01, 2026",
       "time": null,
       "duration": "2.5 Hours",
       "recurring": true,
-      "raw": "Aug 25, 2026 | 2.5 Hours"
+      "raw": "Sep 01, 2026 | 2.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -2770,7 +2825,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:55.984263+00:00",
+    "last_scraped": "2026-08-31T17:17:34.168355+00:00",
     "unified_tags": [
       "children",
       "education",
@@ -2805,16 +2860,16 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "4 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 4 Hours"
+      "raw": "Aug 31, 2026 | 4 Hours"
     },
     "volunteers_needed": null,
     "address": {
-      "full": "24, 2026 4 Hours 360 Needed Click Here For Dates Brought To You By Catholic Charities of Dallas Location Christian Benevolent Mobile Pantry 1804 P Avenue\n                Willow Creek Fellowship Church Plano, TX 75704",
-      "city": "2026 4 Hours 360 Needed Click Here For Dates Brought To You By Catholic Charities of Dallas Location Christian Benevolent Mobile Pantry 1804 P Avenue\n                Willow Creek Fellowship Church Plano",
+      "full": "31, 2026 4 Hours 340 Needed Click Here For Dates Brought To You By Catholic Charities of Dallas Location Christian Benevolent Mobile Pantry 1804 P Avenue\n                Willow Creek Fellowship Church Plano, TX 75704",
+      "city": "2026 4 Hours 340 Needed Click Here For Dates Brought To You By Catholic Charities of Dallas Location Christian Benevolent Mobile Pantry 1804 P Avenue\n                Willow Creek Fellowship Church Plano",
       "state": "TX",
       "postal": "75704"
     },
@@ -2829,7 +2884,7 @@
     "what_to_bring": null,
     "dress_code": "Closed‑toe shoes required (no sandals or flip‑flops). Dress in comfortable, casual, weather‑appropriate clothing: Summer: Hat and sunscreen recommended Winter: Hat, coat, and gloves recommended",
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:30.300523+00:00",
+    "last_scraped": "2026-08-31T17:18:06.001567+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -2864,11 +2919,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "1 Hour",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 1 Hour"
+      "raw": "Aug 31, 2026 | 1 Hour"
     },
     "volunteers_needed": null,
     "address": {
@@ -2888,7 +2943,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:53.844598+00:00",
+    "last_scraped": "2026-08-31T17:16:32.922454+00:00",
     "unified_tags": [
       "seniors",
       "health",
@@ -2925,11 +2980,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "1 Hour",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 1 Hour"
+      "raw": "Aug 31, 2026 | 1 Hour"
     },
     "volunteers_needed": null,
     "address": {
@@ -2949,7 +3004,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:53.202343+00:00",
+    "last_scraped": "2026-08-31T17:16:32.277692+00:00",
     "unified_tags": [
       "seniors",
       "health",
@@ -2985,11 +3040,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "7.5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 7.5 Hours"
+      "raw": "Aug 31, 2026 | 7.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -3009,14 +3064,14 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:52.508567+00:00",
+    "last_scraped": "2026-08-31T17:18:27.676195+00:00",
+    "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-08-24T10:44:49.542499+00:00"
     },
-    "unified_tags": [],
     "geo": {
       "city": null,
       "state": "TX",
@@ -3088,6 +3143,64 @@
     }
   },
   {
+    "id": "voly_120383",
+    "source": "voly_dallas",
+    "source_url": "https://dallas.voly.org/opportunity/view.html?id=120383",
+    "org_name": "Hope in Hand Food Pantry",
+    "org_url": "https://dallas.voly.org/agencies/profile.html?id=7491",
+    "opportunity_title": "Come have a good time serving at Hope in Hand Food Pantry",
+    "description_short": "There are multiple positions you can fill. - Sort food - Bag food - Take food to clients - Pray with clients And more. Come be a part of a great team serving Share this volunteer opportunity!",
+    "description_long": "There are multiple positions you can fill. - Sort food - Bag food - Take food to clients - Pray with clients And more. Come be a part of a great team serving Share this volunteer opportunity!",
+    "cause_tags": [
+      "Food/Hunger"
+    ],
+    "is_virtual": false,
+    "schedule": {
+      "date": "Sep 12, 2026",
+      "time": null,
+      "duration": "2.5 Hours",
+      "recurring": true,
+      "raw": "Sep 12, 2026 | 2.5 Hours"
+    },
+    "volunteers_needed": null,
+    "address": {
+      "full": null,
+      "city": null,
+      "state": "TX",
+      "postal": null
+    },
+    "contact": {
+      "email": null,
+      "phone": null,
+      "info": null
+    },
+    "requirements": null,
+    "skills": null,
+    "training": null,
+    "what_to_bring": null,
+    "dress_code": null,
+    "status": "active",
+    "last_scraped": "2026-08-31T17:18:37.896711+00:00",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-31T17:45:55.028925+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
+  },
+  {
     "id": "voly_117477",
     "source": "voly_dallas",
     "source_url": "https://dallas.voly.org/opportunity/view.html?id=117477",
@@ -3124,7 +3237,7 @@
     "training": null,
     "what_to_bring": null,
     "dress_code": null,
-    "status": "active",
+    "status": "inactive",
     "last_scraped": "2026-08-24T10:15:41.330773+00:00",
     "unified_tags": [
       "food_security",
@@ -3159,11 +3272,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 25, 2026",
+      "date": "Sep 01, 2026",
       "time": null,
       "duration": "2.25 Hours",
       "recurring": true,
-      "raw": "Aug 25, 2026 | 2.25 Hours"
+      "raw": "Sep 01, 2026 | 2.25 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -3183,7 +3296,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:40.671846+00:00",
+    "last_scraped": "2026-08-31T17:17:19.327915+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -3240,7 +3353,7 @@
     "training": null,
     "what_to_bring": null,
     "dress_code": null,
-    "status": "active",
+    "status": "inactive",
     "last_scraped": "2026-08-24T10:15:10.877568+00:00",
     "unified_tags": [
       "community",
@@ -3414,7 +3527,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:09.700821+00:00",
+    "last_scraped": "2026-08-31T17:17:47.577879+00:00",
     "unified_tags": [
       "animals",
       "community"
@@ -3448,11 +3561,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "8.5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 8.5 Hours"
+      "raw": "Aug 31, 2026 | 8.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -3472,7 +3585,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:34.759694+00:00",
+    "last_scraped": "2026-08-31T17:18:10.473043+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -3528,7 +3641,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:26.516638+00:00",
+    "last_scraped": "2026-08-31T17:17:05.789870+00:00",
     "unified_tags": [
       "food_security",
       "community",
@@ -3587,7 +3700,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:11.615243+00:00",
+    "last_scraped": "2026-08-31T17:17:49.465473+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -3642,7 +3755,7 @@
     "training": null,
     "what_to_bring": null,
     "dress_code": null,
-    "status": "active",
+    "status": "inactive",
     "last_scraped": "2026-08-24T10:16:27.061372+00:00",
     "unified_tags": [
       "food_security",
@@ -3686,11 +3799,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 28, 2026",
+      "date": "Sep 04, 2026",
       "time": null,
       "duration": "7.5 Hours",
       "recurring": true,
-      "raw": "Aug 28, 2026 | 7.5 Hours"
+      "raw": "Sep 04, 2026 | 7.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -3710,7 +3823,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:46.582371+00:00",
+    "last_scraped": "2026-08-31T17:16:24.844449+00:00",
     "unified_tags": [
       "civic"
     ],
@@ -3797,11 +3910,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "2 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 2 Hours"
+      "raw": "Aug 31, 2026 | 2 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -3821,7 +3934,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:01.652680+00:00",
+    "last_scraped": "2026-08-31T17:16:42.467398+00:00",
     "unified_tags": [
       "community",
       "animals"
@@ -3856,11 +3969,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "1.5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 1.5 Hours"
+      "raw": "Aug 31, 2026 | 1.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -3880,7 +3993,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:52.561566+00:00",
+    "last_scraped": "2026-08-31T17:16:31.634275+00:00",
     "unified_tags": [
       "seniors",
       "health",
@@ -3903,6 +4016,64 @@
     }
   },
   {
+    "id": "voly_120094",
+    "source": "voly_dallas",
+    "source_url": "https://dallas.voly.org/opportunity/view.html?id=120094",
+    "org_name": "Dallas Area Rape Crisis Center",
+    "org_url": "https://dallas.voly.org/agencies/profile.html?id=155",
+    "opportunity_title": "DARCC Fall Volunteer Training",
+    "description_short": "To work directly with survivors of sexual violence and their loved ones, opportunities include assisting with DARCC’s 24/7 Crisis Hotline, providing hospital accompaniment, and by accompanying…",
+    "description_long": "To work directly with survivors of sexual violence and their loved ones, opportunities include assisting with DARCC’s 24/7 Crisis Hotline, providing hospital accompaniment, and by accompanying survivors to legal proceedings and/or accompanying survivors when making a report to law enforcement. Volunteers must pass a background check and complete a 40-hour Office of the Attorney General (OAG) mandated volunteer advocate training. Currently, the training is virtual. After training, volunteers are required to take a minimum of 2 shifts per month. Additionally, the Office of the Attorney General OAG requirements also mandate that all active volunteers receive six hours of continuing education per year. This round of training will start Monday, Oct. 19th - Thursday, Nov.5th. Training will be primarily virtual (via Zoom). During this training period, we will train every Monday, Wednesday, and Thursday evening from 6pm-9:30pm via Zoom. There is one Saturday, Oct. 24th , where will train in person from 10am-2pm. If you are interested in becoming a DARCC volunteer, please email volunteer@dallasrapecrisis.org. Share this volunteer opportunity!",
+    "cause_tags": [
+      "Social Services"
+    ],
+    "is_virtual": true,
+    "schedule": {
+      "date": "Oct 19, 2026",
+      "time": "6:00 PM - 9:30 PM",
+      "duration": "6:00 PM - 9:30 PM",
+      "recurring": false,
+      "raw": "Oct 19, 2026 | 6:00 PM - 9:30 PM | 6:00 PM - 9:30 PM"
+    },
+    "volunteers_needed": null,
+    "address": {
+      "full": null,
+      "city": null,
+      "state": "TX",
+      "postal": null
+    },
+    "contact": {
+      "email": "volunteer@dallasrapecrisis.org",
+      "phone": null,
+      "info": null
+    },
+    "requirements": null,
+    "skills": null,
+    "training": "DARCC will be hosting a volunteer training starting on Oct. 19th - Nov. 5th. This training will be virtual. The training totals 40 hours and once completed, volunteers can work directly with survivors of sexual assault.",
+    "what_to_bring": null,
+    "dress_code": null,
+    "status": "active",
+    "last_scraped": "2026-08-31T17:18:32.162822+00:00",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-10-19",
+      "model": "rule",
+      "checked_at": "2026-08-31T17:45:55.028925+00:00"
+    },
+    "unified_tags": [
+      "crisis_support",
+      "mental_health"
+    ],
+    "geo": {
+      "city": null,
+      "state": "TX",
+      "lat": null,
+      "lng": null,
+      "precision": "virtual",
+      "resolved_from": "location.virtual"
+    }
+  },
+  {
     "id": "voly_118023",
     "source": "voly_dallas",
     "source_url": "https://dallas.voly.org/opportunity/view.html?id=118023",
@@ -3916,16 +4087,16 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "7 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 7 Hours"
+      "raw": "Aug 31, 2026 | 7 Hours"
     },
     "volunteers_needed": null,
     "address": {
-      "full": "24, 2026 7 Hours 94 Needed Click Here For Dates Brought To You By Bridges Can Help Location BRIDGES Family Resource Center 800 W Belt Line Rd Cedar Hill, TX 75104",
-      "city": "2026 7 Hours 94 Needed Click Here For Dates Brought To You By Bridges Can Help Location BRIDGES Family Resource Center 800 W Belt Line Rd Cedar Hill",
+      "full": "31, 2026 7 Hours 89 Needed Click Here For Dates Brought To You By Bridges Can Help Location BRIDGES Family Resource Center 800 W Belt Line Rd Cedar Hill, TX 75104",
+      "city": "2026 7 Hours 89 Needed Click Here For Dates Brought To You By Bridges Can Help Location BRIDGES Family Resource Center 800 W Belt Line Rd Cedar Hill",
       "state": "TX",
       "postal": "75104"
     },
@@ -3940,7 +4111,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:47.070512+00:00",
+    "last_scraped": "2026-08-31T17:17:25.050165+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -3995,7 +4166,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:48.701896+00:00",
+    "last_scraped": "2026-08-31T17:18:23.850327+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -4051,7 +4222,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:37.285047+00:00",
+    "last_scraped": "2026-08-31T17:18:13.009285+00:00",
     "unified_tags": [
       "children",
       "education",
@@ -4087,11 +4258,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "2 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 2 Hours"
+      "raw": "Aug 31, 2026 | 2 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -4111,7 +4282,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:59.581439+00:00",
+    "last_scraped": "2026-08-31T17:16:38.457850+00:00",
     "unified_tags": [
       "animals",
       "community"
@@ -4146,16 +4317,16 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "6 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 6 Hours"
+      "raw": "Aug 31, 2026 | 6 Hours"
     },
     "volunteers_needed": null,
     "address": {
-      "full": "24, 2026 6 Hours 510 Needed Click Here For Dates Brought To You By White Rock Center of Hope Location 10021A Garland Rd Dallas, TX 75218",
-      "city": "2026 6 Hours 510 Needed Click Here For Dates Brought To You By White Rock Center of Hope Location 10021A Garland Rd Dallas",
+      "full": "31, 2026 6 Hours 485 Needed Click Here For Dates Brought To You By White Rock Center of Hope Location 10021A Garland Rd Dallas, TX 75218",
+      "city": "2026 6 Hours 485 Needed Click Here For Dates Brought To You By White Rock Center of Hope Location 10021A Garland Rd Dallas",
       "state": "TX",
       "postal": "75218"
     },
@@ -4170,7 +4341,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:06.310307+00:00",
+    "last_scraped": "2026-08-31T17:16:46.917914+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -4201,11 +4372,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3 Hours"
+      "raw": "Aug 31, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -4225,7 +4396,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:01.770596+00:00",
+    "last_scraped": "2026-08-31T17:17:39.861053+00:00",
     "unified_tags": [
       "community"
     ],
@@ -4362,11 +4533,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3.5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3.5 Hours"
+      "raw": "Aug 31, 2026 | 3.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -4386,7 +4557,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:52.145411+00:00",
+    "last_scraped": "2026-08-31T17:17:30.128289+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -4420,11 +4591,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3 - 5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3 - 5 Hours"
+      "raw": "Aug 31, 2026 | 3 - 5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -4444,7 +4615,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:09.066451+00:00",
+    "last_scraped": "2026-08-31T17:17:46.938325+00:00",
     "unified_tags": [
       "foster_care",
       "education",
@@ -4479,11 +4650,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 30, 2026",
+      "date": "Sep 27, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 30, 2026 | 3 Hours"
+      "raw": "Sep 27, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -4503,7 +4674,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:00.476609+00:00",
+    "last_scraped": "2026-08-31T17:17:38.598239+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -4625,7 +4796,7 @@
     "id": "voly_117592",
     "source": "voly_dallas",
     "source_url": "https://dallas.voly.org/opportunity/view.html?id=117592",
-    "org_name": "Adrians Land Foundation",
+    "org_name": "Adrian Land Foundation",
     "org_url": "https://dallas.voly.org/agencies/profile.html?id=7283",
     "opportunity_title": "FOOD PANTRY",
     "description_short": "Adrian's Land Foundation is dedicated to uplifting the community by providing essential services such as food, clothing, and vital resources. Our mission is to ensure that everyone has access to the…",
@@ -4659,7 +4830,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:42.610720+00:00",
+    "last_scraped": "2026-08-31T17:17:20.597789+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -4693,11 +4864,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3 Hours"
+      "raw": "Aug 31, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -4717,7 +4888,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:23.993598+00:00",
+    "last_scraped": "2026-08-31T17:17:03.211696+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -4823,7 +4994,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:25.259245+00:00",
+    "last_scraped": "2026-08-31T17:17:04.479775+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -4903,6 +5074,65 @@
     }
   },
   {
+    "id": "voly_119918",
+    "source": "voly_dallas",
+    "source_url": "https://dallas.voly.org/opportunity/view.html?id=119918",
+    "org_name": "Human Rights Initiative of North Texas",
+    "org_url": "https://dallas.voly.org/agencies/profile.html?id=4918",
+    "opportunity_title": "Feed Your Neighbors:  Mobile Food Pantry",
+    "description_short": "In North Texas, one in eight people, or 640,000 of our neighbors, face hunger. That figure includes one in five children. In fact, Dallas County has the fourth-highest rate of food-insecure children…",
+    "description_long": "In North Texas, one in eight people, or 640,000 of our neighbors, face hunger. That figure includes one in five children. In fact, Dallas County has the fourth-highest rate of food-insecure children in the nation. That’s why HRI and DARCC partner with Catholic Charities Dallas are partnering to profile over 100 families with free groceries each month. Nobody is turned away! We provide dry goods, canned items, frozen foods and fresh produce, helping ensure that the people in our back yard have the basic nutrition they need to live a healthy, happy life. Event volunteers help sort and bag the food brought to us by the North Texas Area Food Bank and Catholic Charities Dallas, and then hand out food to those who come during the event. We can also use help with processing the simple intake forms for recipients, and having 1-2 bilingual volunteers is a plus, but not required. Volunteers must: Wear the provided gloves while handling any food items; Wear close-toed shoes (no flip-flops or sandals); Avoid wearing any clothing with potentially profane, political or otherwise objectionable information on them; Treat all clients with patience, dignity and respect, regardless of their race, age, ethnicity, religion, orientation, identity, ability or economic status. The event is held outdoors to please consider wearing a hat and supplying sunscreen. Come join us in the fun and fellowship as we celebrate the spirit of service with our community! Share this volunteer opportunity!",
+    "cause_tags": [
+      "Social Services"
+    ],
+    "is_virtual": false,
+    "schedule": {
+      "date": "Sep 16, 2026",
+      "time": null,
+      "duration": "1.5 - 2.5 Hours",
+      "recurring": true,
+      "raw": "Sep 16, 2026 | 1.5 - 2.5 Hours"
+    },
+    "volunteers_needed": null,
+    "address": {
+      "full": null,
+      "city": null,
+      "state": "TX",
+      "postal": null
+    },
+    "contact": {
+      "email": null,
+      "phone": "214-855-0520",
+      "info": null
+    },
+    "requirements": null,
+    "skills": null,
+    "training": null,
+    "what_to_bring": null,
+    "dress_code": null,
+    "status": "active",
+    "last_scraped": "2026-08-31T17:18:30.896598+00:00",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-31T17:45:55.028925+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "children",
+      "community"
+    ],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
+  },
+  {
     "id": "voly_116506",
     "source": "voly_dallas",
     "source_url": "https://dallas.voly.org/opportunity/view.html?id=116506",
@@ -4967,11 +5197,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 30, 2026",
+      "date": "Sep 06, 2026",
       "time": null,
       "duration": "2.5 Hours",
       "recurring": true,
-      "raw": "Aug 30, 2026 | 2.5 Hours"
+      "raw": "Sep 06, 2026 | 2.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -4991,7 +5221,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:05.627829+00:00",
+    "last_scraped": "2026-08-31T17:17:43.721516+00:00",
     "unified_tags": [
       "food_security",
       "community",
@@ -5051,7 +5281,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:07.575430+00:00",
+    "last_scraped": "2026-08-31T17:16:47.556105+00:00",
     "unified_tags": [
       "food_security",
       "community",
@@ -5111,7 +5341,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:22.624196+00:00",
+    "last_scraped": "2026-08-31T17:18:00.258874+00:00",
     "unified_tags": [
       "education",
       "disabilities",
@@ -5147,11 +5377,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "8 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 8 Hours"
+      "raw": "Aug 31, 2026 | 8 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -5171,7 +5401,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:45.785618+00:00",
+    "last_scraped": "2026-08-31T17:17:23.777329+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -5313,16 +5543,16 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "4 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 4 Hours"
+      "raw": "Aug 31, 2026 | 4 Hours"
     },
     "volunteers_needed": null,
     "address": {
-      "full": "1 pm Aug 24, 2026 4 Hours 510 Needed Click Here For Dates Brought To You By White Rock Center of Hope Location 10021A Garland Rd Dallas, TX 75218",
-      "city": "2026 4 Hours 510 Needed Click Here For Dates Brought To You By White Rock Center of Hope Location 10021A Garland Rd Dallas",
+      "full": "1 pm Aug 31, 2026 4 Hours 485 Needed Click Here For Dates Brought To You By White Rock Center of Hope Location 10021A Garland Rd Dallas, TX 75218",
+      "city": "2026 4 Hours 485 Needed Click Here For Dates Brought To You By White Rock Center of Hope Location 10021A Garland Rd Dallas",
       "state": "TX",
       "postal": "75218"
     },
@@ -5337,7 +5567,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:05.554578+00:00",
+    "last_scraped": "2026-08-31T17:16:46.280394+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -5423,16 +5653,16 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "2 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 2 Hours"
+      "raw": "Aug 31, 2026 | 2 Hours"
     },
     "volunteers_needed": null,
     "address": {
-      "full": "24, 2026 2 Hours 285 Needed Click Here For Dates Brought To You By Catholic Charities of Dallas Location Our Lady San Juan de Los Lagos 2601 Singleton Blvd Dallas, TX 75212",
-      "city": "2026 2 Hours 285 Needed Click Here For Dates Brought To You By Catholic Charities of Dallas Location Our Lady San Juan de Los Lagos 2601 Singleton Blvd Dallas",
+      "full": "31, 2026 2 Hours 270 Needed Click Here For Dates Brought To You By Catholic Charities of Dallas Location Our Lady San Juan de Los Lagos 2601 Singleton Blvd Dallas, TX 75212",
+      "city": "2026 2 Hours 270 Needed Click Here For Dates Brought To You By Catholic Charities of Dallas Location Our Lady San Juan de Los Lagos 2601 Singleton Blvd Dallas",
       "state": "TX",
       "postal": "75212"
     },
@@ -5447,7 +5677,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:45.132897+00:00",
+    "last_scraped": "2026-08-31T17:16:23.466256+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -5609,11 +5839,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "9 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 9 Hours"
+      "raw": "Aug 31, 2026 | 9 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -5633,7 +5863,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:57.021373+00:00",
+    "last_scraped": "2026-08-31T17:16:35.729876+00:00",
     "unified_tags": [
       "animals",
       "foster_care",
@@ -5822,16 +6052,16 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 28, 2026",
+      "date": "Sep 04, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 28, 2026 | 3 Hours"
+      "raw": "Sep 04, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
-      "full": "28, 2026 3 Hours 76 Needed Click Here For Dates Brought To You By Bridges Can Help Location Office 306 Hardy Cedar Hill, TX 75104",
-      "city": "2026 3 Hours 76 Needed Click Here For Dates Brought To You By Bridges Can Help Location Office 306 Hardy Cedar Hill",
+      "full": "04, 2026 3 Hours 71 Needed Click Here For Dates Brought To You By Bridges Can Help Location Office 306 Hardy Cedar Hill, TX 75104",
+      "city": "2026 3 Hours 71 Needed Click Here For Dates Brought To You By Bridges Can Help Location Office 306 Hardy Cedar Hill",
       "state": "TX",
       "postal": "75104"
     },
@@ -5846,7 +6076,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:17.572918+00:00",
+    "last_scraped": "2026-08-31T17:16:58.034896+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -5900,7 +6130,7 @@
     "training": null,
     "what_to_bring": null,
     "dress_code": null,
-    "status": "active",
+    "status": "inactive",
     "last_scraped": "2026-08-24T10:15:06.933712+00:00",
     "unified_tags": [
       "food_security",
@@ -5935,11 +6165,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "2.5 - 3.5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 2.5 - 3.5 Hours"
+      "raw": "Aug 31, 2026 | 2.5 - 3.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -5959,7 +6189,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:48.013495+00:00",
+    "last_scraped": "2026-08-31T17:16:28.301523+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -5990,11 +6220,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "6.5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 6.5 Hours"
+      "raw": "Aug 31, 2026 | 6.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -6014,7 +6244,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:33.467092+00:00",
+    "last_scraped": "2026-08-31T17:18:09.191614+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -6102,11 +6332,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 28, 2026",
+      "date": "Sep 04, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 28, 2026 | 3 Hours"
+      "raw": "Sep 04, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -6126,7 +6356,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:32.202507+00:00",
+    "last_scraped": "2026-08-31T17:18:07.910446+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -6157,11 +6387,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3.5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3.5 Hours"
+      "raw": "Aug 31, 2026 | 3.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -6181,14 +6411,14 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:49.977247+00:00",
+    "last_scraped": "2026-08-31T17:18:25.136650+00:00",
+    "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-08-24T10:44:49.542499+00:00"
     },
-    "unified_tags": [],
     "geo": {
       "city": null,
       "state": null,
@@ -6237,7 +6467,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:47.431000+00:00",
+    "last_scraped": "2026-08-31T17:18:22.591004+00:00",
     "unified_tags": [
       "children",
       "community",
@@ -6297,7 +6527,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:48.066454+00:00",
+    "last_scraped": "2026-08-31T17:18:23.227191+00:00",
     "unified_tags": [
       "children",
       "community",
@@ -6357,7 +6587,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:46.803961+00:00",
+    "last_scraped": "2026-08-31T17:18:21.956469+00:00",
     "unified_tags": [
       "children",
       "community",
@@ -6392,11 +6622,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "4.5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 4.5 Hours"
+      "raw": "Aug 31, 2026 | 4.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -6416,7 +6646,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:50.243767+00:00",
+    "last_scraped": "2026-08-31T17:17:28.236178+00:00",
     "unified_tags": [
       "children",
       "community"
@@ -6451,11 +6681,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "13 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 13 Hours"
+      "raw": "Aug 31, 2026 | 13 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -6475,7 +6705,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:50.876650+00:00",
+    "last_scraped": "2026-08-31T17:17:28.883154+00:00",
     "unified_tags": [
       "mental_health",
       "community"
@@ -6535,7 +6765,11 @@
     "dress_code": null,
     "status": "inactive",
     "last_scraped": "2026-08-09T02:05:29.248643+00:00",
-    "unified_tags": [],
+    "unified_tags": [
+      "children",
+      "health",
+      "community"
+    ],
     "expiry": {
       "kind": "one_time",
       "ends_on": "2026-08-08",
@@ -6656,17 +6890,17 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:51.873986+00:00",
+    "last_scraped": "2026-08-31T17:18:27.048135+00:00",
+    "unified_tags": [
+      "mental_health",
+      "community"
+    ],
     "expiry": {
       "kind": "one_time",
       "ends_on": "2026-10-04",
       "model": "rule",
       "checked_at": "2026-08-24T10:44:49.542499+00:00"
     },
-    "unified_tags": [
-      "mental_health",
-      "community"
-    ],
     "geo": {
       "city": null,
       "state": null,
@@ -6715,7 +6949,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:57.881614+00:00",
+    "last_scraped": "2026-08-31T17:17:36.076954+00:00",
     "unified_tags": [
       "mental_health",
       "community"
@@ -6774,7 +7008,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:58.548885+00:00",
+    "last_scraped": "2026-08-31T17:17:36.701033+00:00",
     "unified_tags": [
       "mental_health",
       "community"
@@ -6833,7 +7067,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:59.847634+00:00",
+    "last_scraped": "2026-08-31T17:17:37.968893+00:00",
     "unified_tags": [
       "mental_health",
       "community"
@@ -6892,7 +7126,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:59.186825+00:00",
+    "last_scraped": "2026-08-31T17:17:37.330359+00:00",
     "unified_tags": [
       "mental_health",
       "community"
@@ -7010,17 +7244,17 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:51.246353+00:00",
+    "last_scraped": "2026-08-31T17:18:26.413044+00:00",
+    "unified_tags": [
+      "mental_health",
+      "community"
+    ],
     "expiry": {
       "kind": "one_time",
       "ends_on": "2026-10-25",
       "model": "rule",
       "checked_at": "2026-08-24T10:44:49.542499+00:00"
     },
-    "unified_tags": [
-      "mental_health",
-      "community"
-    ],
     "geo": {
       "city": null,
       "state": null,
@@ -7100,11 +7334,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 27, 2026",
+      "date": "Sep 03, 2026",
       "time": null,
       "duration": "1.5 Hours",
       "recurring": true,
-      "raw": "Aug 27, 2026 | 1.5 Hours"
+      "raw": "Sep 03, 2026 | 1.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -7124,7 +7358,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:25.800425+00:00",
+    "last_scraped": "2026-08-31T17:18:02.832355+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -7239,7 +7473,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:37.920282+00:00",
+    "last_scraped": "2026-08-31T17:18:13.652563+00:00",
     "unified_tags": [
       "children",
       "education",
@@ -7335,11 +7569,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 25, 2026",
+      "date": "Sep 01, 2026",
       "time": "9:30am-12:00pm",
       "duration": "2 - 2.5 Hours",
       "recurring": true,
-      "raw": "Aug 25, 2026 | 9:30am-12:00pm | 2 - 2.5 Hours"
+      "raw": "Sep 01, 2026 | 9:30am-12:00pm | 2 - 2.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -7359,7 +7593,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:24.621288+00:00",
+    "last_scraped": "2026-08-31T17:17:03.838817+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -7414,7 +7648,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:41.092644+00:00",
+    "last_scraped": "2026-08-31T17:18:16.870770+00:00",
     "unified_tags": [
       "children",
       "community"
@@ -7472,7 +7706,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:42.354435+00:00",
+    "last_scraped": "2026-08-31T17:18:18.153258+00:00",
     "unified_tags": [
       "community"
     ],
@@ -7529,7 +7763,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:42.994903+00:00",
+    "last_scraped": "2026-08-31T17:18:18.795434+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -7584,7 +7818,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:39.838276+00:00",
+    "last_scraped": "2026-08-31T17:18:15.586013+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "one_time",
@@ -7639,7 +7873,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:41.730215+00:00",
+    "last_scraped": "2026-08-31T17:18:17.506526+00:00",
     "unified_tags": [
       "children",
       "education",
@@ -7698,7 +7932,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:40.472102+00:00",
+    "last_scraped": "2026-08-31T17:18:16.228109+00:00",
     "unified_tags": [
       "children",
       "community"
@@ -7757,7 +7991,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:39.194726+00:00",
+    "last_scraped": "2026-08-31T17:18:14.949419+00:00",
     "unified_tags": [
       "children",
       "community"
@@ -7792,11 +8026,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 25, 2026",
+      "date": "Sep 01, 2026",
       "time": null,
       "duration": "3.5 Hours",
       "recurring": true,
-      "raw": "Aug 25, 2026 | 3.5 Hours"
+      "raw": "Sep 01, 2026 | 3.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -7816,7 +8050,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:14.976149+00:00",
+    "last_scraped": "2026-08-31T17:16:55.475219+00:00",
     "unified_tags": [
       "animals",
       "children",
@@ -7851,11 +8085,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "12 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 12 Hours"
+      "raw": "Aug 31, 2026 | 12 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -7875,17 +8109,17 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:54.416099+00:00",
+    "last_scraped": "2026-08-31T17:18:29.604252+00:00",
+    "unified_tags": [
+      "community",
+      "children"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-08-24T10:44:49.542499+00:00"
     },
-    "unified_tags": [
-      "community",
-      "children"
-    ],
     "geo": {
       "city": null,
       "state": null,
@@ -7985,7 +8219,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:16.283799+00:00",
+    "last_scraped": "2026-08-31T17:17:53.923071+00:00",
     "unified_tags": [
       "education",
       "community"
@@ -8043,7 +8277,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:16.913438+00:00",
+    "last_scraped": "2026-08-31T17:17:54.549246+00:00",
     "unified_tags": [
       "education",
       "community"
@@ -8101,7 +8335,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:17.547571+00:00",
+    "last_scraped": "2026-08-31T17:17:55.178946+00:00",
     "unified_tags": [
       "education",
       "community"
@@ -8159,7 +8393,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:18.183418+00:00",
+    "last_scraped": "2026-08-31T17:17:55.815161+00:00",
     "unified_tags": [
       "education",
       "community"
@@ -8217,7 +8451,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:18.804009+00:00",
+    "last_scraped": "2026-08-31T17:17:56.446757+00:00",
     "unified_tags": [
       "education",
       "community"
@@ -8275,7 +8509,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:19.448254+00:00",
+    "last_scraped": "2026-08-31T17:17:57.090015+00:00",
     "unified_tags": [
       "education",
       "community"
@@ -8333,7 +8567,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:20.081052+00:00",
+    "last_scraped": "2026-08-31T17:17:57.707845+00:00",
     "unified_tags": [
       "education",
       "community"
@@ -8391,7 +8625,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:20.717807+00:00",
+    "last_scraped": "2026-08-31T17:17:58.338007+00:00",
     "unified_tags": [
       "education",
       "community"
@@ -8449,7 +8683,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:21.352692+00:00",
+    "last_scraped": "2026-08-31T17:17:58.969118+00:00",
     "unified_tags": [
       "education",
       "community"
@@ -8507,7 +8741,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:21.989033+00:00",
+    "last_scraped": "2026-08-31T17:17:59.616866+00:00",
     "unified_tags": [
       "education",
       "community"
@@ -8541,11 +8775,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "4 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 4 Hours"
+      "raw": "Aug 31, 2026 | 4 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -8565,7 +8799,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:55.355116+00:00",
+    "last_scraped": "2026-08-31T17:17:33.540042+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -8596,11 +8830,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3.5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3.5 Hours"
+      "raw": "Aug 31, 2026 | 3.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -8620,7 +8854,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:54.731037+00:00",
+    "last_scraped": "2026-08-31T17:17:32.710302+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -8651,11 +8885,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "4 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 4 Hours"
+      "raw": "Aug 31, 2026 | 4 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -8675,7 +8909,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:54.079021+00:00",
+    "last_scraped": "2026-08-31T17:17:32.080995+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -8706,11 +8940,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 25, 2026",
+      "date": "Sep 01, 2026",
       "time": null,
       "duration": "6 Hours",
       "recurring": true,
-      "raw": "Aug 25, 2026 | 6 Hours"
+      "raw": "Sep 01, 2026 | 6 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -8730,7 +8964,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:23.896117+00:00",
+    "last_scraped": "2026-08-31T17:18:01.543195+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -8765,11 +8999,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 25, 2026",
+      "date": "Sep 01, 2026",
       "time": null,
       "duration": "6 - 9 Hours",
       "recurring": true,
-      "raw": "Aug 25, 2026 | 6 - 9 Hours"
+      "raw": "Sep 01, 2026 | 6 - 9 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -8789,7 +9023,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:49.346231+00:00",
+    "last_scraped": "2026-08-31T17:18:24.494604+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -8820,11 +9054,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 25, 2026",
+      "date": "Sep 01, 2026",
       "time": null,
       "duration": "7 Hours",
       "recurring": true,
-      "raw": "Aug 25, 2026 | 7 Hours"
+      "raw": "Sep 01, 2026 | 7 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -8844,7 +9078,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:23.261531+00:00",
+    "last_scraped": "2026-08-31T17:18:00.905052+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -8933,11 +9167,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 28, 2026",
+      "date": "Sep 04, 2026",
       "time": null,
       "duration": "4 Hours",
       "recurring": true,
-      "raw": "Aug 28, 2026 | 4 Hours"
+      "raw": "Sep 04, 2026 | 4 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -8957,7 +9191,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:10.976302+00:00",
+    "last_scraped": "2026-08-31T17:17:48.834653+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -9152,11 +9386,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "2 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 2 Hours"
+      "raw": "Aug 31, 2026 | 2 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -9176,7 +9410,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:00.220782+00:00",
+    "last_scraped": "2026-08-31T17:16:39.097101+00:00",
     "unified_tags": [
       "animals",
       "community"
@@ -9211,11 +9445,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "2 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 2 Hours"
+      "raw": "Aug 31, 2026 | 2 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -9235,7 +9469,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:25.885699+00:00",
+    "last_scraped": "2026-08-31T17:17:05.131111+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -9267,11 +9501,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "10 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 10 Hours"
+      "raw": "Aug 31, 2026 | 10 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -9291,7 +9525,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:38.562404+00:00",
+    "last_scraped": "2026-08-31T17:18:14.323030+00:00",
     "unified_tags": [
       "animals",
       "community"
@@ -9429,6 +9663,64 @@
     }
   },
   {
+    "id": "voly_120134",
+    "source": "voly_dallas",
+    "source_url": "https://dallas.voly.org/opportunity/view.html?id=120134",
+    "org_name": "Spay Neuter Network Kaufman",
+    "org_url": "https://dallas.voly.org/agencies/profile.html?id=5297",
+    "opportunity_title": "Low-Cost Vaccine Clinic - Dallas Animal Services, Saturday, September 12th, 2026",
+    "description_short": "Volunteers needed to: Assist in the following areas: Unloading supply van, set up clinic, greet and welcome clients, their families and their pets. Pass out forms, clip boards and pens. Assist…",
+    "description_long": "Volunteers needed to: Assist in the following areas: Unloading supply van, set up clinic, greet and welcome clients, their families and their pets. Pass out forms, clip boards and pens. Assist clients with completing forms, answering questions, and maintaining a friendly outgoing demeaner!  Weighing the pets prior to them receiving vaccinations, assisting the vet and the vet technicians during vaccinations. Assist with take down of the clinic and reloading of supply van! Your help during this process is instrumental to the health and well-being of pets and the community. Share this volunteer opportunity!",
+    "cause_tags": [
+      "Animals",
+      "Domestic Animals"
+    ],
+    "is_virtual": false,
+    "schedule": {
+      "date": "Sep 12, 2026",
+      "time": "9:00 AM - 12:00 PM",
+      "duration": "9:00 AM - 12:00 PM",
+      "recurring": false,
+      "raw": "Sep 12, 2026 | 9:00 AM - 12:00 PM | 9:00 AM - 12:00 PM"
+    },
+    "volunteers_needed": null,
+    "address": {
+      "full": null,
+      "city": null,
+      "state": "TX",
+      "postal": null
+    },
+    "contact": {
+      "email": null,
+      "phone": null,
+      "info": null
+    },
+    "requirements": null,
+    "skills": null,
+    "training": null,
+    "what_to_bring": null,
+    "dress_code": null,
+    "status": "active",
+    "last_scraped": "2026-08-31T17:18:33.436478+00:00",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-09-12",
+      "model": "rule",
+      "checked_at": "2026-08-31T17:45:55.028925+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ],
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
+    }
+  },
+  {
     "id": "voly_118764",
     "source": "voly_dallas",
     "source_url": "https://dallas.voly.org/opportunity/view.html?id=118764",
@@ -9466,7 +9758,7 @@
     "training": null,
     "what_to_bring": null,
     "dress_code": null,
-    "status": "active",
+    "status": "inactive",
     "last_scraped": "2026-08-24T10:16:25.167814+00:00",
     "unified_tags": [
       "animals"
@@ -9556,6 +9848,64 @@
       "lng": -96.30868,
       "precision": "city",
       "resolved_from": "org_name"
+    }
+  },
+  {
+    "id": "voly_120141",
+    "source": "voly_dallas",
+    "source_url": "https://dallas.voly.org/opportunity/view.html?id=120141",
+    "org_name": "Spay Neuter Network Kaufman",
+    "org_url": "https://dallas.voly.org/agencies/profile.html?id=5297",
+    "opportunity_title": "Low-Cost Vaccine Clinic - Garland Animal Shelter-Saturday, September 19th, 2026, 9am - 12pm",
+    "description_short": "Volunteers needed to: Assist in the following areas: Unloading supply van, set up clinic, greet and welcome clients, their families and their pets. Pass out forms, clip boards and pens. Assist…",
+    "description_long": "Volunteers needed to: Assist in the following areas: Unloading supply van, set up clinic, greet and welcome clients, their families and their pets. Pass out forms, clip boards and pens. Assist clients with completing forms, answering questions, and maintaining a friendly outgoing demeaner!  Weighing the pets prior to them receiving vaccinations, assisting the vet and the vet technicians during vaccinations. Assist with take down of the clinic and reloading of supply van! Your help during this process is instrumental to the health and well-being of pets and the community. Share this volunteer opportunity!",
+    "cause_tags": [
+      "Animals",
+      "Domestic Animals"
+    ],
+    "is_virtual": false,
+    "schedule": {
+      "date": "Sep 19, 2026",
+      "time": "9:00 AM - 12:00 PM",
+      "duration": "9:00 AM - 12:00 PM",
+      "recurring": false,
+      "raw": "Sep 19, 2026 | 9:00 AM - 12:00 PM | 9:00 AM - 12:00 PM"
+    },
+    "volunteers_needed": null,
+    "address": {
+      "full": "1902 Hwy 66, Garland, TX 75040",
+      "city": "Garland",
+      "state": "TX",
+      "postal": "75040"
+    },
+    "contact": {
+      "email": null,
+      "phone": null,
+      "info": null
+    },
+    "requirements": null,
+    "skills": null,
+    "training": null,
+    "what_to_bring": null,
+    "dress_code": null,
+    "status": "active",
+    "last_scraped": "2026-08-31T17:18:34.712188+00:00",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-09-19",
+      "model": "rule",
+      "checked_at": "2026-08-31T17:45:55.028925+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ],
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -9731,6 +10081,64 @@
     }
   },
   {
+    "id": "voly_120190",
+    "source": "voly_dallas",
+    "source_url": "https://dallas.voly.org/opportunity/view.html?id=120190",
+    "org_name": "Spay Neuter Network Kaufman",
+    "org_url": "https://dallas.voly.org/agencies/profile.html?id=5297",
+    "opportunity_title": "Low-Cost Vaccine Clinic - Seagoville Animal Shelter - Seagoville, TX - Saturday, September 26th, 2026",
+    "description_short": "BE A HERO TO PETS! Volunteers needed to: Assist in the following areas: Unloading supply van, set up clinic, greet and welcome clients, their families and their pets. Pass out forms, clip boards and…",
+    "description_long": "BE A HERO TO PETS! Volunteers needed to: Assist in the following areas: Unloading supply van, set up clinic, greet and welcome clients, their families and their pets. Pass out forms, clip boards and pens. Assist clients with completing forms, answering questions, and maintaining a friendly outgoing demeaner!  Weighing the pets prior to them receiving vaccinations, assisting the vet and the vet technicians during vaccinations. Assist with take down of the clinic and reloading of supply van! Your help during this process is instrumental to the health and well-being of pets and the community. Share this volunteer opportunity!",
+    "cause_tags": [
+      "Animals",
+      "Domestic Animals"
+    ],
+    "is_virtual": false,
+    "schedule": {
+      "date": "Sep 26, 2026",
+      "time": "9:00 AM - 12:00 PM",
+      "duration": "9:00 AM - 12:00 PM",
+      "recurring": false,
+      "raw": "Sep 26, 2026 | 9:00 AM - 12:00 PM | 9:00 AM - 12:00 PM"
+    },
+    "volunteers_needed": null,
+    "address": {
+      "full": null,
+      "city": null,
+      "state": "TX",
+      "postal": null
+    },
+    "contact": {
+      "email": null,
+      "phone": null,
+      "info": null
+    },
+    "requirements": null,
+    "skills": null,
+    "training": null,
+    "what_to_bring": null,
+    "dress_code": null,
+    "status": "active",
+    "last_scraped": "2026-08-31T17:18:35.990106+00:00",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-09-26",
+      "model": "rule",
+      "checked_at": "2026-08-31T17:45:55.028925+00:00"
+    },
+    "unified_tags": [
+      "animals"
+    ],
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
+    }
+  },
+  {
     "id": "voly_118652",
     "source": "voly_dallas",
     "source_url": "https://dallas.voly.org/opportunity/view.html?id=118652",
@@ -9853,6 +10261,66 @@
       "lng": -96.30868,
       "precision": "city",
       "resolved_from": "org_name"
+    }
+  },
+  {
+    "id": "voly_120132",
+    "source": "voly_dallas",
+    "source_url": "https://dallas.voly.org/opportunity/view.html?id=120132",
+    "org_name": "Spay Neuter Network Kaufman",
+    "org_url": "https://dallas.voly.org/agencies/profile.html?id=5297",
+    "opportunity_title": "Low-Cost Vaccine Clinic - West Dallas Multipurpose Center (WDMC) - Saturday, September 5th, 9am - 12p",
+    "description_short": "Volunteers needed to: Assist in the following areas: Unloading supply van, set up clinic, greet and welcome clients, their families and their pets. Pass out forms, clip boards and pens. Assist…",
+    "description_long": "Volunteers needed to: Assist in the following areas: Unloading supply van, set up clinic, greet and welcome clients, their families and their pets. Pass out forms, clip boards and pens. Assist clients with completing forms, answering questions, and maintaining a friendly outgoing demeaner!  Weighing the pets prior to them receiving vaccinations, assisting the vet and the vet technicians during vaccinations. Assist with take down of the clinic and reloading of supply van! Your help during this process is instrumental to the health and well-being of pets and the community. Share this volunteer opportunity!",
+    "cause_tags": [
+      "Animals",
+      "Domestic Animals"
+    ],
+    "is_virtual": false,
+    "schedule": {
+      "date": "Sep 05, 2026",
+      "time": "9:00 AM - 12:00 PM",
+      "duration": "9:00 AM - 12:00 PM",
+      "recurring": false,
+      "raw": "Sep 05, 2026 | 9:00 AM - 12:00 PM | 9:00 AM - 12:00 PM"
+    },
+    "volunteers_needed": null,
+    "address": {
+      "full": "12pm\n2828 Fish Trap Rd., Dallas, TX 75212",
+      "city": "Dallas",
+      "state": "TX",
+      "postal": "75212"
+    },
+    "contact": {
+      "email": null,
+      "phone": null,
+      "info": null
+    },
+    "requirements": null,
+    "skills": null,
+    "training": null,
+    "what_to_bring": null,
+    "dress_code": null,
+    "status": "active",
+    "last_scraped": "2026-08-31T17:18:32.795929+00:00",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-09-05",
+      "model": "rule",
+      "checked_at": "2026-08-31T17:45:55.028925+00:00"
+    },
+    "unified_tags": [
+      "animals",
+      "health",
+      "community"
+    ],
+    "geo": {
+      "city": "Dallas",
+      "state": "TX",
+      "lat": 32.77627,
+      "lng": -96.79686,
+      "precision": "city",
+      "resolved_from": "address.city"
     }
   },
   {
@@ -10170,6 +10638,66 @@
     }
   },
   {
+    "id": "voly_120135",
+    "source": "voly_dallas",
+    "source_url": "https://dallas.voly.org/opportunity/view.html?id=120135",
+    "org_name": "Spay Neuter Network Kaufman",
+    "org_url": "https://dallas.voly.org/agencies/profile.html?id=5297",
+    "opportunity_title": "Low-Cost/Free Vaccine Clinic - Bode Community Center, San Antonio",
+    "description_short": "Volunteers needed to: Assist in the following areas: Unloading supply van, set up clinic, greet and welcome clients, their families and their pets. Pass out forms, clip boards and pens. Assist…",
+    "description_long": "Volunteers needed to: Assist in the following areas: Unloading supply van, set up clinic, greet and welcome clients, their families and their pets. Pass out forms, clip boards and pens. Assist clients with completing forms, answering questions, and maintaining a friendly outgoing demeaner!  Weighing the pets prior to them receiving vaccinations, assisting the vet and the vet technicians during vaccinations. Assist with take down of the clinic and reloading of supply van! Your help during this process is instrumental to the health and well-being of pets and the community. Share this volunteer opportunity!",
+    "cause_tags": [
+      "Animals",
+      "Domestic Animals"
+    ],
+    "is_virtual": false,
+    "schedule": {
+      "date": "Sep 19, 2026",
+      "time": "8:00 AM - 11:00 AM",
+      "duration": "8:00 AM - 11:00 AM",
+      "recurring": false,
+      "raw": "Sep 19, 2026 | 8:00 AM - 11:00 AM | 8:00 AM - 11:00 AM"
+    },
+    "volunteers_needed": null,
+    "address": {
+      "full": null,
+      "city": null,
+      "state": "TX",
+      "postal": null
+    },
+    "contact": {
+      "email": null,
+      "phone": null,
+      "info": null
+    },
+    "requirements": null,
+    "skills": null,
+    "training": null,
+    "what_to_bring": null,
+    "dress_code": null,
+    "status": "active",
+    "last_scraped": "2026-08-31T17:18:34.071025+00:00",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-09-19",
+      "model": "rule",
+      "checked_at": "2026-08-31T17:45:55.028925+00:00"
+    },
+    "unified_tags": [
+      "health",
+      "animals",
+      "community"
+    ],
+    "geo": {
+      "city": "Kaufman",
+      "state": "TX",
+      "lat": 32.58678,
+      "lng": -96.30868,
+      "precision": "city",
+      "resolved_from": "org_name"
+    }
+  },
+  {
     "id": "voly_113415",
     "source": "voly_dallas",
     "source_url": "https://dallas.voly.org/opportunity/view.html?id=113415",
@@ -10242,11 +10770,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": "8:30 am – 2:30 pm",
       "duration": "4 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 8:30 am – 2:30 pm | 4 Hours"
+      "raw": "Aug 31, 2026 | 8:30 am – 2:30 pm | 4 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -10266,7 +10794,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:01.124211+00:00",
+    "last_scraped": "2026-08-31T17:17:39.231792+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -10302,11 +10830,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": "8:30 am – 2:30 pm",
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 8:30 am – 2:30 pm | 3 Hours"
+      "raw": "Aug 31, 2026 | 8:30 am – 2:30 pm | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -10326,7 +10854,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:31.564043+00:00",
+    "last_scraped": "2026-08-31T17:18:07.264927+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -10336,7 +10864,7 @@
       "category": "duplicate",
       "reason": "duplicate of voly_118511 — same org/title/description, no distinguishing schedule",
       "model": "dedup-rule",
-      "checked_at": "2026-08-24T10:44:48.837031+00:00"
+      "checked_at": "2026-08-31T17:45:54.347075+00:00"
     },
     "geo": {
       "city": null,
@@ -10362,11 +10890,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": "8:30 am – 2:30 pm",
       "duration": "4 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 8:30 am – 2:30 pm | 4 Hours"
+      "raw": "Aug 31, 2026 | 8:30 am – 2:30 pm | 4 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -10386,18 +10914,18 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:50.619332+00:00",
+    "last_scraped": "2026-08-31T17:18:25.773713+00:00",
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
     "qc": {
       "status": "rejected",
       "category": "duplicate",
       "reason": "duplicate of voly_118511 — same org/title/description, no distinguishing schedule",
       "model": "dedup-rule",
-      "checked_at": "2026-08-24T10:44:48.837031+00:00"
+      "checked_at": "2026-08-31T17:45:54.347075+00:00"
     },
-    "unified_tags": [
-      "food_security",
-      "community"
-    ],
     "geo": {
       "city": null,
       "state": null,
@@ -10445,7 +10973,7 @@
     "training": null,
     "what_to_bring": null,
     "dress_code": null,
-    "status": "active",
+    "status": "inactive",
     "last_scraped": "2026-08-24T10:14:51.227292+00:00",
     "unified_tags": [
       "seniors",
@@ -10483,11 +11011,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "2 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 2 Hours"
+      "raw": "Aug 31, 2026 | 2 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -10507,7 +11035,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:51.928420+00:00",
+    "last_scraped": "2026-08-31T17:16:30.988220+00:00",
     "unified_tags": [
       "seniors",
       "health",
@@ -10676,7 +11204,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:43.640726+00:00",
+    "last_scraped": "2026-08-31T17:18:19.429935+00:00",
     "unified_tags": [
       "education",
       "community"
@@ -10735,7 +11263,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:55.743913+00:00",
+    "last_scraped": "2026-08-31T17:16:34.210984+00:00",
     "unified_tags": [
       "foster_care",
       "children",
@@ -10853,7 +11381,7 @@
     "training": null,
     "what_to_bring": null,
     "dress_code": null,
-    "status": "active",
+    "status": "inactive",
     "last_scraped": "2026-08-24T10:14:54.473356+00:00",
     "unified_tags": [
       "seniors",
@@ -10889,11 +11417,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 27, 2026",
+      "date": "Sep 03, 2026",
       "time": null,
       "duration": "2.5 Hours",
       "recurring": true,
-      "raw": "Aug 27, 2026 | 2.5 Hours"
+      "raw": "Sep 03, 2026 | 2.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -10913,7 +11441,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:45.810510+00:00",
+    "last_scraped": "2026-08-31T17:16:24.116301+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -10947,11 +11475,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3 - 4 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3 - 4 Hours"
+      "raw": "Aug 31, 2026 | 3 - 4 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -10971,7 +11499,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:08.424008+00:00",
+    "last_scraped": "2026-08-31T17:17:46.301307+00:00",
     "unified_tags": [
       "education",
       "foster_care",
@@ -11006,11 +11534,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "4 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 4 Hours"
+      "raw": "Aug 31, 2026 | 4 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -11030,7 +11558,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:52.812102+00:00",
+    "last_scraped": "2026-08-31T17:17:30.768200+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -11065,16 +11593,16 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 28, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "14 Hours",
       "recurring": true,
-      "raw": "Aug 28, 2026 | 14 Hours"
+      "raw": "Aug 31, 2026 | 14 Hours"
     },
     "volunteers_needed": null,
     "address": {
-      "full": "28, 2026 14 Hours 63 Needed Click Here For Dates Brought To You By Hearts for Homes Location 826 East McKinney Street Denton, TX 76209",
-      "city": "2026 14 Hours 63 Needed Click Here For Dates Brought To You By Hearts for Homes Location 826 East McKinney Street Denton",
+      "full": "31, 2026 14 Hours 61 Needed Click Here For Dates Brought To You By Hearts for Homes Location 826 East McKinney Street Denton, TX 76209",
+      "city": "2026 14 Hours 61 Needed Click Here For Dates Brought To You By Hearts for Homes Location 826 East McKinney Street Denton",
       "state": "TX",
       "postal": "76209"
     },
@@ -11089,7 +11617,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:27.793986+00:00",
+    "last_scraped": "2026-08-31T17:17:06.422405+00:00",
     "unified_tags": [
       "seniors",
       "community"
@@ -11124,11 +11652,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 28, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "14 Hours",
       "recurring": true,
-      "raw": "Aug 28, 2026 | 14 Hours"
+      "raw": "Aug 31, 2026 | 14 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -11148,7 +11676,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:28.424858+00:00",
+    "last_scraped": "2026-08-31T17:17:07.072030+00:00",
     "unified_tags": [
       "seniors",
       "community"
@@ -11158,7 +11686,7 @@
       "category": "duplicate",
       "reason": "duplicate of voly_117107 — same org/title/description, no distinguishing schedule",
       "model": "dedup-rule",
-      "checked_at": "2026-08-24T10:44:48.837031+00:00"
+      "checked_at": "2026-08-31T17:45:54.347075+00:00"
     },
     "geo": {
       "city": null,
@@ -11184,11 +11712,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 28, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "14 Hours",
       "recurring": true,
-      "raw": "Aug 28, 2026 | 14 Hours"
+      "raw": "Aug 31, 2026 | 14 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -11208,7 +11736,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:29.692285+00:00",
+    "last_scraped": "2026-08-31T17:17:08.353328+00:00",
     "unified_tags": [
       "seniors",
       "community"
@@ -11243,11 +11771,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 28, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "14 Hours",
       "recurring": true,
-      "raw": "Aug 28, 2026 | 14 Hours"
+      "raw": "Aug 31, 2026 | 14 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -11267,7 +11795,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:30.340729+00:00",
+    "last_scraped": "2026-08-31T17:17:08.995801+00:00",
     "unified_tags": [
       "seniors",
       "community"
@@ -11277,7 +11805,7 @@
       "category": "duplicate",
       "reason": "duplicate of voly_117113 — same org/title/description, no distinguishing schedule",
       "model": "dedup-rule",
-      "checked_at": "2026-08-24T10:44:48.837031+00:00"
+      "checked_at": "2026-08-31T17:45:54.347075+00:00"
     },
     "geo": {
       "city": null,
@@ -11303,11 +11831,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 28, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "14 Hours",
       "recurring": true,
-      "raw": "Aug 28, 2026 | 14 Hours"
+      "raw": "Aug 31, 2026 | 14 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -11327,7 +11855,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:30.985422+00:00",
+    "last_scraped": "2026-08-31T17:17:09.624155+00:00",
     "unified_tags": [
       "seniors",
       "community"
@@ -11337,7 +11865,7 @@
       "category": "duplicate",
       "reason": "duplicate of voly_117113 — same org/title/description, no distinguishing schedule",
       "model": "dedup-rule",
-      "checked_at": "2026-08-24T10:44:48.837031+00:00"
+      "checked_at": "2026-08-31T17:45:54.347075+00:00"
     },
     "geo": {
       "city": null,
@@ -11363,11 +11891,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 28, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "14 Hours",
       "recurring": true,
-      "raw": "Aug 28, 2026 | 14 Hours"
+      "raw": "Aug 31, 2026 | 14 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -11387,7 +11915,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:31.616126+00:00",
+    "last_scraped": "2026-08-31T17:17:10.256096+00:00",
     "unified_tags": [
       "seniors",
       "community"
@@ -11397,7 +11925,7 @@
       "category": "duplicate",
       "reason": "duplicate of voly_117113 — same org/title/description, no distinguishing schedule",
       "model": "dedup-rule",
-      "checked_at": "2026-08-24T10:44:48.837031+00:00"
+      "checked_at": "2026-08-31T17:45:54.347075+00:00"
     },
     "geo": {
       "city": null,
@@ -11423,11 +11951,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 28, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "14 Hours",
       "recurring": true,
-      "raw": "Aug 28, 2026 | 14 Hours"
+      "raw": "Aug 31, 2026 | 14 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -11447,7 +11975,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:32.250653+00:00",
+    "last_scraped": "2026-08-31T17:17:10.907302+00:00",
     "unified_tags": [
       "seniors",
       "community"
@@ -11457,7 +11985,7 @@
       "category": "duplicate",
       "reason": "duplicate of voly_117113 — same org/title/description, no distinguishing schedule",
       "model": "dedup-rule",
-      "checked_at": "2026-08-24T10:44:48.837031+00:00"
+      "checked_at": "2026-08-31T17:45:54.347075+00:00"
     },
     "geo": {
       "city": null,
@@ -11483,11 +12011,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 28, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "12 Hours",
       "recurring": true,
-      "raw": "Aug 28, 2026 | 12 Hours"
+      "raw": "Aug 31, 2026 | 12 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -11507,7 +12035,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:29.052927+00:00",
+    "last_scraped": "2026-08-31T17:17:07.710216+00:00",
     "unified_tags": [
       "seniors",
       "community"
@@ -11517,7 +12045,7 @@
       "category": "duplicate",
       "reason": "duplicate of voly_117107 — same org/title/description, no distinguishing schedule",
       "model": "dedup-rule",
-      "checked_at": "2026-08-24T10:44:48.837031+00:00"
+      "checked_at": "2026-08-31T17:45:54.347075+00:00"
     },
     "geo": {
       "city": null,
@@ -11615,7 +12143,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:04.348353+00:00",
+    "last_scraped": "2026-08-31T17:17:42.448737+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "one_time",
@@ -11671,7 +12199,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:09.596435+00:00",
+    "last_scraped": "2026-08-31T17:16:49.524624+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -11730,7 +12258,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:36.015616+00:00",
+    "last_scraped": "2026-08-31T17:18:11.747883+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -11762,11 +12290,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "14 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 14 Hours"
+      "raw": "Aug 31, 2026 | 14 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -11786,7 +12314,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:35.593029+00:00",
+    "last_scraped": "2026-08-31T17:17:14.087450+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -11817,11 +12345,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "8 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 8 Hours"
+      "raw": "Aug 31, 2026 | 8 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -11841,7 +12369,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:49.613487+00:00",
+    "last_scraped": "2026-08-31T17:17:27.599902+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -11935,11 +12463,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 5 Hours"
+      "raw": "Aug 31, 2026 | 5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -11959,7 +12487,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:14.360309+00:00",
+    "last_scraped": "2026-08-31T17:17:52.011560+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -12043,11 +12571,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 27, 2026",
+      "date": "Sep 24, 2026",
       "time": null,
       "duration": "3.5 Hours",
       "recurring": true,
-      "raw": "Aug 27, 2026 | 3.5 Hours"
+      "raw": "Sep 24, 2026 | 3.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -12067,7 +12595,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:08.249042+00:00",
+    "last_scraped": "2026-08-31T17:16:48.185238+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -12102,11 +12630,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "2 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 2 Hours"
+      "raw": "Aug 31, 2026 | 2 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -12126,7 +12654,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:58.304734+00:00",
+    "last_scraped": "2026-08-31T17:16:37.015782+00:00",
     "unified_tags": [
       "animals"
     ],
@@ -12160,11 +12688,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "2 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 2 Hours"
+      "raw": "Aug 31, 2026 | 2 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -12184,7 +12712,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:57.663847+00:00",
+    "last_scraped": "2026-08-31T17:16:36.383082+00:00",
     "unified_tags": [
       "animals",
       "community"
@@ -12219,11 +12747,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3 Hours"
+      "raw": "Aug 31, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -12243,7 +12771,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:03.580798+00:00",
+    "last_scraped": "2026-08-31T17:16:44.379144+00:00",
     "unified_tags": [
       "animals",
       "community"
@@ -12278,11 +12806,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3 Hours"
+      "raw": "Aug 31, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -12302,7 +12830,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:02.296283+00:00",
+    "last_scraped": "2026-08-31T17:16:43.101144+00:00",
     "unified_tags": [
       "animals"
     ],
@@ -12336,11 +12864,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3 Hours"
+      "raw": "Aug 31, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -12360,7 +12888,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:02.942786+00:00",
+    "last_scraped": "2026-08-31T17:16:43.733335+00:00",
     "unified_tags": [
       "animals"
     ],
@@ -12394,11 +12922,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3 Hours"
+      "raw": "Aug 31, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -12418,7 +12946,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:04.212941+00:00",
+    "last_scraped": "2026-08-31T17:16:45.007572+00:00",
     "unified_tags": [
       "animals",
       "community"
@@ -12452,11 +12980,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3 Hours"
+      "raw": "Aug 31, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -12476,7 +13004,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:47.695826+00:00",
+    "last_scraped": "2026-08-31T17:17:25.688274+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -12532,14 +13060,14 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:53.778630+00:00",
+    "last_scraped": "2026-08-31T17:18:28.956256+00:00",
+    "unified_tags": [],
     "expiry": {
       "kind": "one_time",
       "ends_on": "2026-10-09",
       "model": "rule",
       "checked_at": "2026-08-24T10:44:49.542499+00:00"
     },
-    "unified_tags": [],
     "geo": {
       "city": null,
       "state": null,
@@ -12615,11 +13143,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "1 Hour",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 1 Hour"
+      "raw": "Aug 31, 2026 | 1 Hour"
     },
     "volunteers_needed": null,
     "address": {
@@ -12639,7 +13167,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:06.272661+00:00",
+    "last_scraped": "2026-08-31T17:17:44.349169+00:00",
     "unified_tags": [
       "health",
       "community",
@@ -12674,11 +13202,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 26, 2026",
+      "date": "Sep 02, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 26, 2026 | 3 Hours"
+      "raw": "Sep 02, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -12698,7 +13226,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:36.219524+00:00",
+    "last_scraped": "2026-08-31T17:17:14.716689+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -12729,11 +13257,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "1 Hour",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 1 Hour"
+      "raw": "Aug 31, 2026 | 1 Hour"
     },
     "volunteers_needed": null,
     "address": {
@@ -12753,7 +13281,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:36.858870+00:00",
+    "last_scraped": "2026-08-31T17:17:15.533617+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -12784,11 +13312,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3 Hours"
+      "raw": "Aug 31, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -12808,7 +13336,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:39.382345+00:00",
+    "last_scraped": "2026-08-31T17:17:18.058909+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -12839,11 +13367,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3 Hours"
+      "raw": "Aug 31, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -12863,7 +13391,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:38.756150+00:00",
+    "last_scraped": "2026-08-31T17:17:17.431816+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -12894,11 +13422,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3 Hours"
+      "raw": "Aug 31, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -12918,7 +13446,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:40.028816+00:00",
+    "last_scraped": "2026-08-31T17:17:18.690568+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -12949,11 +13477,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3 Hours"
+      "raw": "Aug 31, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -12973,7 +13501,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:37.500761+00:00",
+    "last_scraped": "2026-08-31T17:17:16.164256+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -13004,11 +13532,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3 Hours"
+      "raw": "Aug 31, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -13028,7 +13556,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:38.123503+00:00",
+    "last_scraped": "2026-08-31T17:17:16.795503+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -13060,11 +13588,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "2 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 2 Hours"
+      "raw": "Aug 31, 2026 | 2 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -13084,7 +13612,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:00.988364+00:00",
+    "last_scraped": "2026-08-31T17:16:41.823847+00:00",
     "unified_tags": [
       "animals"
     ],
@@ -13180,11 +13708,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "8 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 8 Hours"
+      "raw": "Aug 31, 2026 | 8 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -13204,7 +13732,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:48.960388+00:00",
+    "last_scraped": "2026-08-31T17:17:26.961619+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -13415,11 +13943,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3 - 4 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3 - 4 Hours"
+      "raw": "Aug 31, 2026 | 3 - 4 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -13439,7 +13967,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:07.770989+00:00",
+    "last_scraped": "2026-08-31T17:17:45.665778+00:00",
     "unified_tags": [
       "education",
       "foster_care",
@@ -13557,7 +14085,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:30.934999+00:00",
+    "last_scraped": "2026-08-31T17:18:06.630829+00:00",
     "unified_tags": [
       "community",
       "health"
@@ -13615,7 +14143,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:45.539486+00:00",
+    "last_scraped": "2026-08-31T17:18:20.674702+00:00",
     "unified_tags": [
       "education",
       "community"
@@ -13672,7 +14200,7 @@
     "training": null,
     "what_to_bring": null,
     "dress_code": null,
-    "status": "active",
+    "status": "inactive",
     "last_scraped": "2026-08-24T10:15:10.228607+00:00",
     "unified_tags": [
       "food_security",
@@ -13707,16 +14235,16 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 3 Hours"
+      "raw": "Aug 31, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
-      "full": "24, 2026 3 Hours 506 Needed Click Here For Dates Brought To You By Bridges Can Help Location BRIDGES Family Resource Center 800 W Belt Line Rd Cedar Hill, TX 75104",
-      "city": "2026 3 Hours 506 Needed Click Here For Dates Brought To You By Bridges Can Help Location BRIDGES Family Resource Center 800 W Belt Line Rd Cedar Hill",
+      "full": "31, 2026 3 Hours 474 Needed Click Here For Dates Brought To You By Bridges Can Help Location BRIDGES Family Resource Center 800 W Belt Line Rd Cedar Hill, TX 75104",
+      "city": "2026 3 Hours 474 Needed Click Here For Dates Brought To You By Bridges Can Help Location BRIDGES Family Resource Center 800 W Belt Line Rd Cedar Hill",
       "state": "TX",
       "postal": "75104"
     },
@@ -13731,7 +14259,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:16.930429+00:00",
+    "last_scraped": "2026-08-31T17:16:57.398640+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -13763,16 +14291,16 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 26, 2026",
+      "date": "Sep 02, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 26, 2026 | 3 Hours"
+      "raw": "Sep 02, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
-      "full": "26, 2026 3 Hours 760 Needed Click Here For Dates Brought To You By Feed the Streetz Outreach Location Feed The Streetz Garden 7407 University Hills Blvd Dallas, TX 75241",
-      "city": "2026 3 Hours 760 Needed Click Here For Dates Brought To You By Feed the Streetz Outreach Location Feed The Streetz Garden 7407 University Hills Blvd Dallas",
+      "full": "02, 2026 3 Hours 720 Needed Click Here For Dates Brought To You By Feed the Streetz Outreach Location Feed The Streetz Garden 7407 University Hills Blvd Dallas, TX 75241",
+      "city": "2026 3 Hours 720 Needed Click Here For Dates Brought To You By Feed the Streetz Outreach Location Feed The Streetz Garden 7407 University Hills Blvd Dallas",
       "state": "TX",
       "postal": "75241"
     },
@@ -13787,7 +14315,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:44.272208+00:00",
+    "last_scraped": "2026-08-31T17:18:20.047796+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -13818,11 +14346,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "13.5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 13.5 Hours"
+      "raw": "Aug 31, 2026 | 13.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -13842,7 +14370,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:34.124244+00:00",
+    "last_scraped": "2026-08-31T17:18:09.834824+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -13873,11 +14401,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "14 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 14 Hours"
+      "raw": "Aug 31, 2026 | 14 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -13897,7 +14425,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:46.423735+00:00",
+    "last_scraped": "2026-08-31T17:17:24.412387+00:00",
     "unified_tags": [
       "mental_health",
       "community"
@@ -13956,7 +14484,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:18.843933+00:00",
+    "last_scraped": "2026-08-31T17:16:59.310956+00:00",
     "unified_tags": [
       "animals",
       "community"
@@ -14014,7 +14542,7 @@
     "training": null,
     "what_to_bring": null,
     "dress_code": null,
-    "status": "active",
+    "status": "inactive",
     "last_scraped": "2026-08-24T10:16:55.673378+00:00",
     "expiry": {
       "kind": "ongoing",
@@ -14070,7 +14598,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:24.536125+00:00",
+    "last_scraped": "2026-08-31T17:18:02.199360+00:00",
     "unified_tags": [
       "children",
       "community",
@@ -14228,11 +14756,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "1.5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 1.5 Hours"
+      "raw": "Aug 31, 2026 | 1.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -14252,7 +14780,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:34.945419+00:00",
+    "last_scraped": "2026-08-31T17:17:13.454180+00:00",
     "unified_tags": [
       "education",
       "food_security"
@@ -14287,11 +14815,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "1.5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 1.5 Hours"
+      "raw": "Aug 31, 2026 | 1.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -14311,7 +14839,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:32.896289+00:00",
+    "last_scraped": "2026-08-31T17:17:11.540296+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -14342,11 +14870,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "1.5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 1.5 Hours"
+      "raw": "Aug 31, 2026 | 1.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -14366,7 +14894,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:33.549372+00:00",
+    "last_scraped": "2026-08-31T17:17:12.180101+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -14398,15 +14926,15 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 28, 2026",
+      "date": "Sep 04, 2026",
       "time": null,
       "duration": "8 Hours",
       "recurring": true,
-      "raw": "Aug 28, 2026 | 8 Hours"
+      "raw": "Sep 04, 2026 | 8 Hours"
     },
     "volunteers_needed": null,
     "address": {
-      "full": "2026 8 Hours 95 Needed Click Here For Dates Brought To You By Heart to Heart Hospice, Fort Worth Location Fort Worth 6100 Southwest Blvd\n                200 Fort Worth, TX 76109",
+      "full": "2026 8 Hours 90 Needed Click Here For Dates Brought To You By Heart to Heart Hospice, Fort Worth Location Fort Worth 6100 Southwest Blvd\n                200 Fort Worth, TX 76109",
       "city": "Fort Worth Location Fort Worth 6100 Southwest Blvd\n                200 Fort Worth",
       "state": "TX",
       "postal": "76109"
@@ -14422,7 +14950,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:16.299301+00:00",
+    "last_scraped": "2026-08-31T17:16:56.769187+00:00",
     "unified_tags": [
       "seniors",
       "health",
@@ -14458,11 +14986,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "4 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 4 Hours"
+      "raw": "Aug 31, 2026 | 4 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -14482,7 +15010,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:56.373263+00:00",
+    "last_scraped": "2026-08-31T17:16:34.850069+00:00",
     "unified_tags": [
       "children",
       "community",
@@ -14682,11 +15210,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 25, 2026",
+      "date": "Sep 01, 2026",
       "time": null,
       "duration": "2 Hours",
       "recurring": true,
-      "raw": "Aug 25, 2026 | 2 Hours"
+      "raw": "Sep 01, 2026 | 2 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -14706,7 +15234,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:57.248806+00:00",
+    "last_scraped": "2026-08-31T17:17:35.445491+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -14737,11 +15265,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 26, 2026",
+      "date": "Sep 02, 2026",
       "time": null,
       "duration": "3 Hours",
       "recurring": true,
-      "raw": "Aug 26, 2026 | 3 Hours"
+      "raw": "Sep 02, 2026 | 3 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -14761,7 +15289,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:03.703315+00:00",
+    "last_scraped": "2026-08-31T17:17:41.805562+00:00",
     "unified_tags": [
       "education",
       "children",
@@ -14798,11 +15326,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "2 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 2 Hours"
+      "raw": "Aug 31, 2026 | 2 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -14822,7 +15350,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:02.431238+00:00",
+    "last_scraped": "2026-08-31T17:17:40.528487+00:00",
     "unified_tags": [
       "education",
       "immigration",
@@ -14858,11 +15386,11 @@
     ],
     "is_virtual": true,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "2 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 2 Hours"
+      "raw": "Aug 31, 2026 | 2 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -14882,7 +15410,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:03.070088+00:00",
+    "last_scraped": "2026-08-31T17:17:41.159564+00:00",
     "unified_tags": [
       "education",
       "immigration",
@@ -14917,16 +15445,16 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "7 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 7 Hours"
+      "raw": "Aug 31, 2026 | 7 Hours"
     },
     "volunteers_needed": null,
     "address": {
-      "full": "24, 2026 7 Hours 325 Needed Click Here For Dates Brought To You By Bridges Can Help Location Office 306 Hardy Cedar Hill, TX 75104",
-      "city": "2026 7 Hours 325 Needed Click Here For Dates Brought To You By Bridges Can Help Location Office 306 Hardy Cedar Hill",
+      "full": "31, 2026 7 Hours 305 Needed Click Here For Dates Brought To You By Bridges Can Help Location Office 306 Hardy Cedar Hill, TX 75104",
+      "city": "2026 7 Hours 305 Needed Click Here For Dates Brought To You By Bridges Can Help Location Office 306 Hardy Cedar Hill",
       "state": "TX",
       "postal": "75104"
     },
@@ -14941,7 +15469,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:20.112877+00:00",
+    "last_scraped": "2026-08-31T17:17:00.605837+00:00",
     "unified_tags": [
       "education",
       "community"
@@ -15067,7 +15595,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:28.999081+00:00",
+    "last_scraped": "2026-08-31T17:18:05.370014+00:00",
     "unified_tags": [
       "community",
       "crisis_support",
@@ -15079,6 +15607,66 @@
       "model": "rule",
       "checked_at": "2026-07-27T13:19:33.219954+00:00"
     },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
+  },
+  {
+    "id": "voly_120227",
+    "source": "voly_dallas",
+    "source_url": "https://dallas.voly.org/opportunity/view.html?id=120227",
+    "org_name": "Helping Hands Open Hearts",
+    "org_url": "https://dallas.voly.org/agencies/profile.html?id=6792",
+    "opportunity_title": "Thankful Thursday Service",
+    "description_short": "Thankful Thursday with Helping Hands, Open Hearts! We will visit several outdoor encampments near downtown Dallas to connect with and serve our unhoused neighbors. Here are the event details: 📍…",
+    "description_long": "Thankful Thursday with Helping Hands, Open Hearts! We will visit several outdoor encampments near downtown Dallas to connect with and serve our unhoused neighbors. Here are the event details: 📍 Starting Point: 598 S. Ervay St, Dallas, Texas 75201 ⏰ Start Time: 5:00 PM 👩💼 Lead Contact: Rosalind Bryant, 214-403-3902 After meeting at 598 S. Ervay, we will promptly depart as a group to nearby encampments, so please plan to arrive on time. We will serve meals and other requested items to our unhoused friends. Special Request: If you’re able, we kindly ask volunteers to bring additional cases of water, Gatorade, and or socks. These items are always in high demand and will be a tremendous blessing to our friends in need. Thank you for continuing to show compassion and consistency in your service. Together, we’re making a real impact—one bottle, one smile, and one act of kindness at a time. With gratitude, Helping Hands, Open Hearts (HHOH) Serving with love and purpose Share this volunteer opportunity!",
+    "cause_tags": [
+      "Seasonal Food Insecurity",
+      "Social Services: Homeless"
+    ],
+    "is_virtual": false,
+    "schedule": {
+      "date": "Oct 15, 2026",
+      "time": "5:00 PM - 6:30 PM",
+      "duration": "5:00 PM - 6:30 PM",
+      "recurring": false,
+      "raw": "Oct 15, 2026 | 5:00 PM - 6:30 PM | 5:00 PM - 6:30 PM"
+    },
+    "volunteers_needed": null,
+    "address": {
+      "full": null,
+      "city": null,
+      "state": "TX",
+      "postal": null
+    },
+    "contact": {
+      "email": null,
+      "phone": "214-403-3902",
+      "info": null
+    },
+    "requirements": null,
+    "skills": null,
+    "training": null,
+    "what_to_bring": null,
+    "dress_code": null,
+    "status": "active",
+    "last_scraped": "2026-08-31T17:18:37.272088+00:00",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-10-15",
+      "model": "rule",
+      "checked_at": "2026-08-31T17:45:55.028925+00:00"
+    },
+    "unified_tags": [
+      "community",
+      "housing",
+      "crisis_support"
+    ],
     "geo": {
       "city": null,
       "state": null,
@@ -15127,7 +15715,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:27.696013+00:00",
+    "last_scraped": "2026-08-31T17:18:04.106628+00:00",
     "unified_tags": [
       "food_security",
       "housing",
@@ -15139,6 +15727,66 @@
       "model": "rule",
       "checked_at": "2026-07-27T13:19:33.219954+00:00"
     },
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
+  },
+  {
+    "id": "voly_120226",
+    "source": "voly_dallas",
+    "source_url": "https://dallas.voly.org/opportunity/view.html?id=120226",
+    "org_name": "Helping Hands Open Hearts",
+    "org_url": "https://dallas.voly.org/agencies/profile.html?id=6792",
+    "opportunity_title": "Thankful Thursday Service *EARLY EDITION*",
+    "description_short": "Thank you for volunteering for service to Camp Rhonda and surrounding camps. We will supply food, drinks, and supplies every Thursday. Camp Rhonda is a homeless encampment that was named after one of…",
+    "description_long": "Thank you for volunteering for service to Camp Rhonda and surrounding camps. We will supply food, drinks, and supplies every Thursday. Camp Rhonda is a homeless encampment that was named after one of the residents that lived there. She passed away in 2021. It used to be at a central location, but after sweeps by the City of Dallas, it became scattered to several locations. On Thursdays between we go to the camps and provide lunch, and clothes, shoes, hygiene, sleeping bags, firewood, tents and etc. Location TBA due to reoccurring encampment sweeps, but will start at 598 S. Ervay St, Dallas, Texas 75201. **PLEASE WEAR YOUR HHOH SHIRT, AND IF YOU DON'T HAVE ONE, WEAR PURPLE IF YOU CAN!** Share this volunteer opportunity!",
+    "cause_tags": [
+      "Seasonal Food Insecurity",
+      "Social Services: Homeless"
+    ],
+    "is_virtual": false,
+    "schedule": {
+      "date": "Oct 01, 2026",
+      "time": "12:00 PM - 2:30 PM",
+      "duration": "12:00 PM - 2:30 PM",
+      "recurring": false,
+      "raw": "Oct 01, 2026 | 12:00 PM - 2:30 PM | 12:00 PM - 2:30 PM"
+    },
+    "volunteers_needed": null,
+    "address": {
+      "full": null,
+      "city": null,
+      "state": "TX",
+      "postal": null
+    },
+    "contact": {
+      "email": null,
+      "phone": null,
+      "info": null
+    },
+    "requirements": null,
+    "skills": null,
+    "training": null,
+    "what_to_bring": null,
+    "dress_code": null,
+    "status": "active",
+    "last_scraped": "2026-08-31T17:18:36.630730+00:00",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-10-01",
+      "model": "rule",
+      "checked_at": "2026-08-31T17:45:55.028925+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "housing",
+      "community"
+    ],
     "geo": {
       "city": null,
       "state": null,
@@ -15603,7 +16251,7 @@
     "training": null,
     "what_to_bring": null,
     "dress_code": null,
-    "status": "active",
+    "status": "inactive",
     "last_scraped": "2026-08-24T10:16:44.895345+00:00",
     "unified_tags": [],
     "expiry": {
@@ -15886,7 +16534,7 @@
     "training": null,
     "what_to_bring": null,
     "dress_code": null,
-    "status": "active",
+    "status": "inactive",
     "last_scraped": "2026-08-24T10:16:29.637995+00:00",
     "unified_tags": [],
     "expiry": {
@@ -16009,7 +16657,7 @@
     "training": null,
     "what_to_bring": null,
     "dress_code": null,
-    "status": "active",
+    "status": "inactive",
     "last_scraped": "2026-08-24T10:15:22.702626+00:00",
     "unified_tags": [
       "seniors",
@@ -16069,7 +16717,7 @@
     "training": null,
     "what_to_bring": null,
     "dress_code": null,
-    "status": "active",
+    "status": "inactive",
     "last_scraped": "2026-08-24T10:15:23.362811+00:00",
     "unified_tags": [
       "seniors",
@@ -16113,11 +16761,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "9 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 9 Hours"
+      "raw": "Aug 31, 2026 | 9 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -16137,7 +16785,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:15.641946+00:00",
+    "last_scraped": "2026-08-31T17:16:56.131555+00:00",
     "unified_tags": [
       "housing",
       "crisis_support",
@@ -16173,11 +16821,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "1.5 - 2 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 1.5 - 2 Hours"
+      "raw": "Aug 31, 2026 | 1.5 - 2 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -16197,7 +16845,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:47.231642+00:00",
+    "last_scraped": "2026-08-31T17:16:27.654272+00:00",
     "unified_tags": [
       "education",
       "community"
@@ -16255,18 +16903,18 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:53.143342+00:00",
+    "last_scraped": "2026-08-31T17:18:28.310507+00:00",
+    "unified_tags": [
+      "education",
+      "children",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-08-24T10:44:49.542499+00:00"
     },
-    "unified_tags": [
-      "education",
-      "children",
-      "community"
-    ],
     "geo": {
       "city": null,
       "state": null,
@@ -16375,17 +17023,17 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:55.055228+00:00",
+    "last_scraped": "2026-08-31T17:18:30.242268+00:00",
+    "unified_tags": [
+      "housing",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-08-24T10:44:49.542499+00:00"
     },
-    "unified_tags": [
-      "housing",
-      "community"
-    ],
     "geo": {
       "city": null,
       "state": null,
@@ -16410,11 +17058,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "8 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 8 Hours"
+      "raw": "Aug 31, 2026 | 8 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -16434,7 +17082,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:04.865089+00:00",
+    "last_scraped": "2026-08-31T17:16:45.645898+00:00",
     "unified_tags": [
       "housing",
       "health",
@@ -16469,11 +17117,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 25, 2026",
+      "date": "Sep 01, 2026",
       "time": null,
       "duration": "1.5 Hours",
       "recurring": true,
-      "raw": "Aug 25, 2026 | 1.5 Hours"
+      "raw": "Sep 01, 2026 | 1.5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -16493,7 +17141,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:46.169447+00:00",
+    "last_scraped": "2026-08-31T17:18:21.313410+00:00",
     "unified_tags": [
       "seniors",
       "mental_health",
@@ -16552,7 +17200,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:13.718613+00:00",
+    "last_scraped": "2026-08-31T17:17:51.382637+00:00",
     "unified_tags": [
       "children",
       "community",
@@ -16632,6 +17280,63 @@
     }
   },
   {
+    "id": "voly_120180",
+    "source": "voly_dallas",
+    "source_url": "https://dallas.voly.org/opportunity/view.html?id=120180",
+    "org_name": "We Are One Heart Foundation",
+    "org_url": "https://dallas.voly.org/agencies/profile.html?id=1469",
+    "opportunity_title": "Volunteers Needed for Senior Care Homes",
+    "description_short": "The organization is seeking volunteer assistance and welcomes individuals, families, coworkers, or friends who are interested in contributing their time and skills. Current volunteer opportunities…",
+    "description_long": "The organization is seeking volunteer assistance and welcomes individuals, families, coworkers, or friends who are interested in contributing their time and skills. Current volunteer opportunities include: Activities: Volunteers can help organize and facilitate various activities. Gardening: Assistance is needed with tending to and maintaining gardens. Meal Prep: Volunteers can assist with preparing and serving meals. Cosmetic Services (Hair & Nails): Volunteers with skills in hair care, nail care, or other cosmetic services are welcome to contribute. Music: Volunteers with musical talents can provide entertainment or assist with music-related activities. Location: Denton, TX Those interested in volunteering can sign up and indicate the area(s) in which they would like to help. Volunteers may be required to complete a volunteer information/onboarding form before their service date. Additional information and instructions will be provided after we receive your volunteer registration. The required volunteer commitment is a maximum of 5 hours . Please monitor your registered email inbox, including your spam or junk folder, for a confirmation and additional information once we receive your volunteer registration. Share this volunteer opportunity!",
+    "cause_tags": [
+      "Social Services: Seniors"
+    ],
+    "is_virtual": false,
+    "schedule": {
+      "date": "Aug 31, 2026",
+      "time": null,
+      "duration": "5 Hours",
+      "recurring": true,
+      "raw": "Aug 31, 2026 | 5 Hours"
+    },
+    "volunteers_needed": null,
+    "address": {
+      "full": null,
+      "city": null,
+      "state": "TX",
+      "postal": null
+    },
+    "contact": {
+      "email": null,
+      "phone": null,
+      "info": null
+    },
+    "requirements": null,
+    "skills": null,
+    "training": null,
+    "what_to_bring": null,
+    "dress_code": null,
+    "status": "active",
+    "last_scraped": "2026-08-31T17:18:35.358645+00:00",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "rule",
+      "checked_at": "2026-08-31T17:45:55.028925+00:00"
+    },
+    "unified_tags": [
+      "seniors"
+    ],
+    "geo": {
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
+    }
+  },
+  {
     "id": "voly_113976",
     "source": "voly_dallas",
     "source_url": "https://dallas.voly.org/opportunity/view.html?id=113976",
@@ -16670,7 +17375,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:11.508601+00:00",
+    "last_scraped": "2026-08-31T17:16:50.153201+00:00",
     "unified_tags": [
       "seniors",
       "community"
@@ -16728,7 +17433,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:28.328001+00:00",
+    "last_scraped": "2026-08-31T17:18:04.735225+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "one_time",
@@ -16816,11 +17521,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "2 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 2 Hours"
+      "raw": "Aug 31, 2026 | 2 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -16840,7 +17545,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:14:49.304474+00:00",
+    "last_scraped": "2026-08-31T17:16:29.593569+00:00",
     "unified_tags": [
       "seniors",
       "mental_health",
@@ -16952,7 +17657,7 @@
     "training": null,
     "what_to_bring": null,
     "dress_code": null,
-    "status": "active",
+    "status": "inactive",
     "last_scraped": "2026-08-24T10:15:27.162378+00:00",
     "unified_tags": [],
     "expiry": {
@@ -16984,11 +17689,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 24, 2026",
+      "date": "Aug 31, 2026",
       "time": null,
       "duration": "5 Hours",
       "recurring": true,
-      "raw": "Aug 24, 2026 | 5 Hours"
+      "raw": "Aug 31, 2026 | 5 Hours"
     },
     "volunteers_needed": null,
     "address": {
@@ -17008,7 +17713,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:15.004226+00:00",
+    "last_scraped": "2026-08-31T17:17:52.647529+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -17129,7 +17834,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:35.383528+00:00",
+    "last_scraped": "2026-08-31T17:18:11.099280+00:00",
     "unified_tags": [],
     "expiry": {
       "kind": "ongoing",
@@ -17246,7 +17951,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:16:36.649491+00:00",
+    "last_scraped": "2026-08-31T17:18:12.376550+00:00",
     "unified_tags": [
       "children",
       "education",
@@ -17540,7 +18245,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:12.271121+00:00",
+    "last_scraped": "2026-08-31T17:16:52.900222+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -17598,7 +18303,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:12.894412+00:00",
+    "last_scraped": "2026-08-31T17:16:53.520982+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -17656,7 +18361,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:13.522779+00:00",
+    "last_scraped": "2026-08-31T17:16:54.213406+00:00",
     "unified_tags": [
       "food_security",
       "community"
@@ -17714,7 +18419,7 @@
     "what_to_bring": null,
     "dress_code": null,
     "status": "active",
-    "last_scraped": "2026-08-24T10:15:14.337991+00:00",
+    "last_scraped": "2026-08-31T17:16:54.843123+00:00",
     "unified_tags": [
       "food_security",
       "community"
