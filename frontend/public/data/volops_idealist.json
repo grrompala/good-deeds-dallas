@@ -58770,6 +58770,13 @@
       "lng": -97.33275,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-09-25)",
+      "model": "expiry-rule",
+      "checked_at": "2026-09-26T11:18:39.310399+00:00"
     }
   },
   {
