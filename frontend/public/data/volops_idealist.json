@@ -48681,6 +48681,13 @@
       "lng": -96.99778,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-09-26)",
+      "model": "expiry-rule",
+      "checked_at": "2026-09-27T11:57:18.193146+00:00"
     }
   },
   {
@@ -48721,6 +48728,13 @@
       "lng": -96.99778,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-09-26)",
+      "model": "expiry-rule",
+      "checked_at": "2026-09-27T11:57:18.193146+00:00"
     }
   },
   {
@@ -48762,6 +48776,13 @@
       "lng": -96.99778,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-09-26)",
+      "model": "expiry-rule",
+      "checked_at": "2026-09-27T11:57:18.193146+00:00"
     }
   },
   {
@@ -48803,6 +48824,13 @@
       "lng": -96.99778,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-09-26)",
+      "model": "expiry-rule",
+      "checked_at": "2026-09-27T11:57:18.193146+00:00"
     }
   },
   {
@@ -48845,6 +48873,13 @@
       "lng": -96.99778,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-09-26)",
+      "model": "expiry-rule",
+      "checked_at": "2026-09-27T11:57:18.193146+00:00"
     }
   },
   {
@@ -59646,6 +59681,13 @@
       "lng": -96.54186,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-09-26)",
+      "model": "expiry-rule",
+      "checked_at": "2026-09-27T11:57:18.193146+00:00"
     }
   },
   {
