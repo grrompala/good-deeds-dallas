@@ -206,7 +206,7 @@
     "cause_tags": [
       "Food Prep"
     ],
-    "last_scraped": "2026-09-21T16:01:46.660440+00:00",
+    "last_scraped": "2026-09-28T17:47:12.631177+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -247,7 +247,7 @@
     "cause_tags": [
       "Food Prep"
     ],
-    "last_scraped": "2026-09-21T16:01:53.151612+00:00",
+    "last_scraped": "2026-09-28T17:47:17.556535+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -288,7 +288,7 @@
     "cause_tags": [
       "Food Prep"
     ],
-    "last_scraped": "2026-09-21T16:01:48.180725+00:00",
+    "last_scraped": "2026-09-28T17:47:13.647325+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -329,7 +329,7 @@
     "cause_tags": [
       "Food Prep"
     ],
-    "last_scraped": "2026-09-21T16:01:49.418245+00:00",
+    "last_scraped": "2026-09-28T17:47:14.597801+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -371,7 +371,7 @@
     "cause_tags": [
       "Food Prep"
     ],
-    "last_scraped": "2026-09-21T16:01:50.637214+00:00",
+    "last_scraped": "2026-09-28T17:47:15.594633+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -384,6 +384,213 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:38.869106+00:00"
     },
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
+  },
+  {
+    "id": "mckinney_1319032",
+    "source": "volunteermckinney",
+    "source_url": "https://volunteermckinney.galaxydigital.com/need/detail/?need_id=1319032",
+    "org_name": "McKinney Little Free Pantry",
+    "opportunity_title": "4th QTR 2026 McKinney Little Free Pantry Assistant",
+    "description_long": "Would you like to help out at The Olive Branch? This is our central storehouse and distribution facility. We have multiple tasks at the pantry that have to be worked daily, weekly or occasionally. Daily: Fill milk crates with a variety of food and toiletries to be ready for those volunteers who are servicing the pantries to pick up. Put away donations, check expiration dates, put items on shelves for crate fillers, store like food together by type and date, and generally keep things neat and organized. Sweep, break down boxes, take out trash Weekly: General cleaning - cleaning bathroom, desk area, windows, shelving Repackage individually wrapped food items and toiletry items When needed: Clean crates - milk crates and the large crates used for storage at the warehouse Monday's only - help unload food deliveries from North Texas Food Bank Some of these task may involve lifting boxes and crates that are 25 pounds or more. This is a great opportunity and very important to making sure McKinney Little Free Pantry can help to address food insecurity in our community. This opportunity takes place solely at The Olive Branch. Hours of the Olive Branch is Monday through Friday 9am - 3pm. Start time for this opportunity is flexible. You can volunteer any time between 9am and 3pm while the Olive Branch is open. Olive Branch Location 2000 N McDonald St. Suite 100B McKinney, TX. 75069 McKinney Little Free Pantry serves as a vehicle to share the overwhelming abundance in Collin County with those in need in our community. The pantry wants to provide non perishable food, toiletries and basic life necessities with respect, love and dignity for shoppers and donors alike. This assistance is available 24 hours a day 7 days a week with no rules or regulations as to who receives this assistance. It is the intention that when they receive food for their physical hunger, they receive generous portions of kindness and grace to feed their spiritual and emotional hunger as well.",
+    "description_short": "Would you like to help out at The Olive Branch? This is our central storehouse and distribution facility. We have multiple tasks at the pantry that have to be worked daily, weekly or occasionally. Daily: Fill milk crates with a variety of food and…",
+    "address": {
+      "state": "TX",
+      "full": "2000 N McDonald St Suite 100 McKinney Tx, TX 75069",
+      "zip": "75069",
+      "city": "McKinney"
+    },
+    "schedule": {},
+    "contact": [],
+    "requirements": "Get Connected Icon 16 and older Get Connected Icon Is Family Friendly Get Connected Icon Is Not Wheelchair Accessible",
+    "cause_tags": [
+      "Food Prep"
+    ],
+    "last_scraped": "2026-09-28T17:45:48.429278+00:00",
+    "status": "active",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-09-28T18:22:44.664009+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
+  },
+  {
+    "id": "mckinney_1319036",
+    "source": "volunteermckinney",
+    "source_url": "https://volunteermckinney.galaxydigital.com/need/detail/?need_id=1319036",
+    "org_name": "McKinney Little Free Pantry",
+    "opportunity_title": "4th QTR 2026 Service East Side Pantries (AM Shift) Visit 5 pantries, collecting donations, checking food quality, and stocking needed items",
+    "description_long": "Pick up the crates to fill the pantries during warehouse hours: Monday through Friday 9am to 3pm The warehouse is closed on Saturdays and Sundays Suggested hours to service the pantries: AM - between 7am and noon PM - between 2pm and 7pm OUR MISSION McKinney Little Free Pantry serves as a vehicle to share the overwhelming abundance in Collin County with those in need in our community. The pantry wants to provide non perishable food, toiletries and basic life necessities with respect, love and dignity for shoppers and donors alike. This assistance is available 24 hours a day 7 days a week with no rules or regulations as to who receives this assistance. It is the intention that when they receive food for their physical hunger, they receive generous portions of kindness and grace to feed their spiritual and emotional hunger as well. Would you like to help out in servicing our east side pantries? Many donations are left directly in one of our 10 pantries. This job entails visiting each of 5 pantries on the east side of McKinney and collecting donations, checking food quality, and stocking needed items. This job will take around 2 hours start to finish and can be completed anytime between the hours of 9am and noon for AM service or 3pm and 7pm for PM service. McKinney Little Free Pantry warehouse (Olive Branch) is open Monday through Friday from 9am to 3pm. Crates need to be picked up during these hours, including volunteers servicing the pantries over the weekend. Location for Crate Pick-Up: Olive Branch 2000 N McDonald ST Suite 100B McKinney, TX. 75069 PICKING UP FROM THE OLIVE BRANCH: (5) regular food crates (one for each pantry) (6) loaves of bread (1 for each small pantry and 2 for the large pantry) (7) cartons of eggs (1 for each pantry) Produce as available (distribute to all 5 pantries) PANTRY LOCATIONS: Heard St 513 Heard St Rike St 604 Rike St Holy Family Church 404 Lincoln St 1st Presbyterian 2000 W. White Ave. College St. 404 N. College St. (large pantry)",
+    "description_short": "Pick up the crates to fill the pantries during warehouse hours: Monday through Friday 9am to 3pm The warehouse is closed on Saturdays and Sundays Suggested hours to service the pantries: AM - between 7am and noon PM - between 2pm and 7pm OUR MISSION…",
+    "address": {
+      "state": "TX",
+      "full": "2000 N. McDonald St. Suite 100 McKinney , TX 75069",
+      "zip": "75069",
+      "city": "McKinney"
+    },
+    "schedule": {},
+    "contact": [],
+    "requirements": "Get Connected Icon 16 and older Get Connected Icon Is Family Friendly Get Connected Icon Is Outdoors Inclement Weather Plan: Pantries are serviced in all weather, except when it's too dangerous to drive. Get Connected Icon Is Not Wheelchair Accessible",
+    "cause_tags": [
+      "Food Prep"
+    ],
+    "last_scraped": "2026-09-28T17:45:49.453495+00:00",
+    "status": "active",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-09-28T18:22:44.664009+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
+  },
+  {
+    "id": "mckinney_1319044",
+    "source": "volunteermckinney",
+    "source_url": "https://volunteermckinney.galaxydigital.com/need/detail/?need_id=1319044",
+    "org_name": "McKinney Little Free Pantry",
+    "opportunity_title": "4th QTR 2026 Service East Side Pantries (PM Shift) Visit 5 pantries, collecting donations, checking food quality, and stocking needed items",
+    "description_long": "Pick up the crates to fill the pantries during warehouse hours: Monday through Friday 9am to 3pm The warehouse is closed on Saturdays and Sundays Suggested hours to service the pantries: AM - between 7am and noon PM - between 2pm and 7pm OUR MISSION McKinney Little Free Pantry serves as a vehicle to share the overwhelming abundance in Collin County with those in need in our community. The pantry wants to provide non perishable food, toiletries and basic life necessities with respect, love and dignity for shoppers and donors alike. This assistance is available 24 hours a day 7 days a week with no rules or regulations as to who receives this assistance. It is the intention that when they receive food for their physical hunger, they receive generous portions of kindness and grace to feed their spiritual and emotional hunger as well. Would you like to help out in servicing our east side pantries? Many donations are left directly in one of our 12 pantries. This job entails visiting each of 7 pantries on the east side of McKinney and collecting donations, checking food quality, and stocking needed items. This job will take around 2 hours start to finish and can be completed anytime between the hours of 9am and noon for AM service or 3pm and 7pm for PM service. McKinney Little Free Pantry warehouse (Olive Branch) is open Monday through Friday from 9am to 3pm. Crates need to be picked up during these hours, including volunteers servicing the pantries over the weekend. Location for Crate Pick-Up: Olive Branch 2000 N McDonald ST Suite 100B McKinney, TX. 75069 PICKING UP FROM THE OLIVE BRANCH: (5) regular food crates (one for each pantry) (6) loaves of bread (1 for each small pantry and 2 for the large pantry) (5) cartons of eggs (1 for each pantry) Produce as available (distribute to all 5 pantries) PANTRY LOCATIONS: Heard St 513 Heard St Rike St 604 Rike St Holy Family Church 404 Lincoln St 1st Presbyterian 2000 W. White Ave. College St. 404 N. College St. (large pantry)",
+    "description_short": "Pick up the crates to fill the pantries during warehouse hours: Monday through Friday 9am to 3pm The warehouse is closed on Saturdays and Sundays Suggested hours to service the pantries: AM - between 7am and noon PM - between 2pm and 7pm OUR MISSION…",
+    "address": {
+      "state": "TX",
+      "full": "2000 N. McDonald St. Suite 100 McKinney , TX 75069",
+      "zip": "75069",
+      "city": "McKinney"
+    },
+    "schedule": {},
+    "contact": [],
+    "requirements": "Get Connected Icon 16 and older Get Connected Icon Is Family Friendly Get Connected Icon Is Outdoors Inclement Weather Plan: Pantries are serviced in all weather, except when it's too dangerous to drive. Get Connected Icon Is Not Wheelchair Accessible",
+    "cause_tags": [
+      "Food Prep"
+    ],
+    "last_scraped": "2026-09-28T17:45:50.498380+00:00",
+    "status": "active",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-09-28T18:22:44.664009+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
+  },
+  {
+    "id": "mckinney_1319047",
+    "source": "volunteermckinney",
+    "source_url": "https://volunteermckinney.galaxydigital.com/need/detail/?need_id=1319047",
+    "org_name": "McKinney Little Free Pantry",
+    "opportunity_title": "4th Quarter 2026  Service West Side Pantries (PM Shift) Visit 4 pantries plus a pet pantry, collecting donations, checking food quality, and stocking needed items",
+    "description_long": "Pickup the crates to fill the pantries during warehouse hours: Monday through Friday - 9am to 3pm The warehouse is closed on Saturdays and Sundays Suggested hours to service the pantries: AM - between 7am and noon PM - between 2pm and 7pm OUR MISSION McKinney Little Free Pantry serves as a vehicle to share the overwhelming abundance in Collin County with those in need in our community. The pantry wants to provide non perishable food, toiletries and basic life necessities with respect, love and dignity for shoppers and donors alike. This assistance is available 24 hours a day 7 days a week with no rules or regulations as to who receives this assistance. It is the intention that when they receive food for their physical hunger, they receive generous portions of kindness and grace to feed their spiritual and emotional hunger as well. Would you like to help out in servicing our west side pantries? Many donations are left directly in one of our 12 pantries. This job entails visiting each of 4 food pantries and the pet pantry on the west side of McKinney and collecting donations, checking food quality, and stocking needed items. ​ This job will take around 2 hours start to finish and can be completed anytime between the hours of 9am and noon for AM service or 2pm and 7pm for the PM service. McKinney Little Free Pantry warehouse (Olive Branch) is open Monday through Friday from 9am to 3pm. Crates need to be picked up during these hours, including volunteers servicing the pantries over the weekend. Location for Create Pick-Up: Olive Branch 2000 N McDonald ST Suite 100B McKinney, TX. 75069 PICKING UP FROM THE OLIVE BRANCH: (4) Regular Crates (One for Each Pantry) (2) Large Crates (This Is for Trinity Pantry & St. Andrews Pantry) (2) Toiletry Crates (Trinity & St. Andrew’s Pantries) (5) Loaves of Bread (1 For Blue Ridge, 1 For Ridge Road & St. Andrew’s Pantry And 2 For Trinity) (4) Packages of Eggs (1 For Each Pantry) (4) Bag/Cans of Pet Food (To Be Placed in The Pet Pantry Produce As Available (Distribute to All 4 Pantries) PANTRY LOCATIONS Pet Pantry 1827 W. Louisiana (at the shot spot) Blue Ridge 614 Blue Ridge St Ridge Road 1811 Ridge Road Trinity Presbyterian 5871 Virginia Pkwy St Andrew’s 6400 McKinney Ranch",
+    "description_short": "Pickup the crates to fill the pantries during warehouse hours: Monday through Friday - 9am to 3pm The warehouse is closed on Saturdays and Sundays Suggested hours to service the pantries: AM - between 7am and noon PM - between 2pm and 7pm OUR…",
+    "address": {
+      "state": "TX",
+      "full": "2000 N McDonald St. Suite 100 McKinney, TX 75069",
+      "zip": "75069",
+      "city": "McKinney"
+    },
+    "schedule": {},
+    "contact": [],
+    "requirements": "Get Connected Icon 16 and older Get Connected Icon Is Family Friendly Get Connected Icon Is Outdoors Inclement Weather Plan: We service the pantries in all weather,  except when it's too dangerous to drive.",
+    "cause_tags": [
+      "Food Prep"
+    ],
+    "last_scraped": "2026-09-28T17:45:51.658860+00:00",
+    "status": "active",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-09-28T18:22:44.664009+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "animals",
+      "community"
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
+  },
+  {
+    "id": "mckinney_1319050",
+    "source": "volunteermckinney",
+    "source_url": "https://volunteermckinney.galaxydigital.com/need/detail/?need_id=1319050",
+    "org_name": "McKinney Little Free Pantry",
+    "opportunity_title": "4th Quarter 2026 Service West Side Pantries (AM Shift) Visit 4 pantries plus a pet pantry, collecting donations, checking food quality, and stocking needed items",
+    "description_long": "Pickup the crates to fill the pantries during warehouse hours: Monday through Friday - 9am to 3pm The warehouse is closed on Saturdays and Sundays Suggested hours to service the pantries: AM - between 7am and noon PM - between 2pm and 7pm OUR MISSION McKinney Little Free Pantry serves as a vehicle to share the overwhelming abundance in Collin County with those in need in our community. The pantry wants to provide non perishable food, toiletries and basic life necessities with respect, love and dignity for shoppers and donors alike. This assistance is available 24 hours a day 7 days a week with no rules or regulations as to who receives this assistance. It is the intention that when they receive food for their physical hunger, they receive generous portions of kindness and grace to feed their spiritual and emotional hunger as well. Would you like to help out in servicing our west side pantries? Many donations are left directly in one of our 12 pantries. This job entails visiting each of 4 food pantries and the pet pantry on the west side of McKinney and collecting donations, checking food quality, and stocking needed items. ​ This job will take around 2 hours start to finish and can be completed anytime between the hours of 9am and noon for AM service or 2pm and 7pm for the PM service. McKinney Little Free Pantry warehouse (Olive Branch) is open Monday through Friday from 9am to 3pm. Crates need to be picked up during these hours, including volunteers servicing the pantries over the weekend. Location for Create Pick-Up: Olive Branch 2000 N McDonald ST Suite 100B McKinney, TX. 75069 PICKING UP FROM THE OLIVE BRANCH: (4) Regular Crates (One for Each Pantry) (2) Large Crates (This Is for Trinity Pantry & St. Andrews Pantry) (2) Toiletry Crates (Trinity & St. Andrew’s Pantries) (5) Loaves of Bread (1 For Blue Ridge, 1 For Ridge Road & St. Andrew’s Pantry And 2 For Trinity) (4) Packages of Eggs (1 For Each Pantry) (4) Bag/Cans of Pet Food (To Be Placed in The Pet Pantry Produce As Available (Distribute to All 4 Pantries) PANTRY LOCATIONS Pet Pantry 1827 W. Louisiana (at the shot spot) Blue Ridge 614 Blue Ridge St Ridge Road 1811 Ridge Road Trinity Presbyterian 5871 Virginia Pkwy St Andrew’s 6400 McKinney Ranch",
+    "description_short": "Pickup the crates to fill the pantries during warehouse hours: Monday through Friday - 9am to 3pm The warehouse is closed on Saturdays and Sundays Suggested hours to service the pantries: AM - between 7am and noon PM - between 2pm and 7pm OUR…",
+    "address": {
+      "state": "TX",
+      "full": "2000 N McDonald St. Suite 100 McKinney, TX 75069",
+      "zip": "75069",
+      "city": "McKinney"
+    },
+    "schedule": {},
+    "contact": [],
+    "requirements": "Get Connected Icon 16 and older Get Connected Icon Is Family Friendly Get Connected Icon Is Outdoors Inclement Weather Plan: We service the pantries in all weather,  except when it's too dangerous to drive.",
+    "cause_tags": [
+      "Food Prep"
+    ],
+    "last_scraped": "2026-09-28T17:45:52.666104+00:00",
+    "status": "active",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-09-28T18:22:44.664009+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "animals",
+      "community"
+    ],
     "geo": {
       "city": "McKinney",
       "state": "TX",
@@ -414,7 +621,7 @@
       "Advocacy",
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:06:25.828613+00:00",
+    "last_scraped": "2026-09-28T17:50:59.809271+00:00",
     "status": "active",
     "unified_tags": [
       "animals",
@@ -606,7 +813,7 @@
       "Skilled Labor",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:07:04.177539+00:00",
+    "last_scraped": "2026-09-28T17:51:32.379548+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -649,7 +856,7 @@
       "Clerical",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:05:39.886940+00:00",
+    "last_scraped": "2026-09-28T17:50:26.633912+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -675,8 +882,8 @@
     "source_url": "https://volunteermckinney.galaxydigital.com/need/detail/?need_id=270526",
     "org_name": "The Turning Point",
     "opportunity_title": "Administrative Ambassador",
-    "description_long": "Volunteers needed to assist in administrative duties, such as: putting together our survivor packets. This is a great opportunity for those who want an insiders look in on the non-profit world.",
-    "description_short": "Volunteers needed to assist in administrative duties, such as: putting together our survivor packets. This is a great opportunity for those who want an insiders look in on the non-profit world.",
+    "description_long": "Volunteers needed to assist in administrative duties, such as: putting together our survivor packets. This is a great opportunity for those who want an insiders look in on the non-profit world. The Turning Point recognizes the pervasiveness of trauma and its varied impacts on the lives of sexual assault survivors and others we serve, and integrates this understanding into our services, policies, and practices.",
+    "description_short": "Volunteers needed to assist in administrative duties, such as: putting together our survivor packets. This is a great opportunity for those who want an insiders look in on the non-profit world. The Turning Point recognizes the pervasiveness of…",
     "address": {
       "state": "TX",
       "full": "3325 Silverstone Dr. Plano, TX 75033",
@@ -691,7 +898,7 @@
       "Clerical",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:06:28.078424+00:00",
+    "last_scraped": "2026-09-28T17:45:44.877449+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -729,7 +936,7 @@
       "Clerical",
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:01:05.830073+00:00",
+    "last_scraped": "2026-09-28T17:46:38.598922+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -771,7 +978,7 @@
       "Education",
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:05:30.112150+00:00",
+    "last_scraped": "2026-09-28T17:50:19.115552+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -852,7 +1059,7 @@
     "cause_tags": [
       "One Time"
     ],
-    "last_scraped": "2026-09-21T16:00:05.861604+00:00",
+    "last_scraped": "2026-09-28T17:45:54.707322+00:00",
     "status": "active",
     "unified_tags": [
       "arts",
@@ -903,7 +1110,7 @@
       "Event Support",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:03:06.218354+00:00",
+    "last_scraped": "2026-09-28T17:48:15.930408+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -991,7 +1198,7 @@
       "Outdoor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:02.672574+00:00",
+    "last_scraped": "2026-09-28T17:51:31.415996+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -1030,7 +1237,7 @@
     "cause_tags": [
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:06:43.611326+00:00",
+    "last_scraped": "2026-09-28T17:51:15.781147+00:00",
     "status": "active",
     "unified_tags": [
       "animals"
@@ -1071,7 +1278,7 @@
       "Advocacy",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:04:15.312589+00:00",
+    "last_scraped": "2026-09-28T17:49:15.693661+00:00",
     "status": "active",
     "unified_tags": [
       "seniors",
@@ -1211,7 +1418,7 @@
       "Education",
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:06:34.093371+00:00",
+    "last_scraped": "2026-09-28T17:51:06.276479+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -1303,7 +1510,7 @@
       "In-Kind",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:05.292733+00:00",
+    "last_scraped": "2026-09-28T17:51:33.313735+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -1346,7 +1553,7 @@
     "cause_tags": [
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:01:22.771135+00:00",
+    "last_scraped": "2026-09-28T17:46:51.802425+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -1385,7 +1592,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:00:53.813749+00:00",
+    "last_scraped": "2026-09-28T17:46:30.589719+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -1424,7 +1631,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:00:52.323948+00:00",
+    "last_scraped": "2026-09-28T17:46:29.575113+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -1462,7 +1669,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:00:51.137459+00:00",
+    "last_scraped": "2026-09-28T17:46:28.639800+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -1504,7 +1711,7 @@
       "Education",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:06.419287+00:00",
+    "last_scraped": "2026-09-28T17:51:34.298687+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -1587,7 +1794,7 @@
       "Skilled Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:00:50.046737+00:00",
+    "last_scraped": "2026-09-28T17:46:27.715699+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -1629,7 +1836,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:03:55.070460+00:00",
+    "last_scraped": "2026-09-28T17:48:59.029498+00:00",
     "status": "active",
     "unified_tags": [
       "animals",
@@ -1656,8 +1863,8 @@
     "source_url": "https://volunteermckinney.galaxydigital.com/need/detail/?need_id=67386",
     "org_name": "The Turning Point",
     "opportunity_title": "Be an Advocate for Survivors of Sexual Violence",
-    "description_long": "Summary : Help reduce the trauma a survivor experiences from sexual violence. Provide unbiased emotional support and information to survivors, family members and friends. Help survivors understand their choices and support them in selecting their options. Duties: Crisis Intervention Emotional support Provide resources Take crisis hotline or hospital accompaniment shifts when available Requirements: Ability to empathize and provide non-judgmental support Good listening skills Weekend and evening availability Ability to complete 40 hours of training certified by the Office of the Attorney General Take a minimum of 2 shift per month Must be fully vaccinated against COVID19 Next Training is May 12th - 28th If interested please complete this application, Volunteer Application then we will follow up with an interview and background check.",
-    "description_short": "Summary : Help reduce the trauma a survivor experiences from sexual violence. Provide unbiased emotional support and information to survivors, family members and friends. Help survivors understand their choices and support them in selecting their…",
+    "description_long": "Summary: Help reduce the trauma experienced by survivors of sexual violence. Volunteer Advocates provide compassionate, non-judgmental emotional support, crisis intervention, information, and resources to survivors, their families, and loved ones. Advocates empower survivors by helping them understand their options and supporting them in making informed decisions. Duties Include: Provide crisis intervention and emotional support Offer information, referrals, and community resources Answer crisis hotline calls during assigned shifts Provide hospital accompaniment and support when requested Maintain survivor confidentiality and follow program policies Complete required documentation after volunteer contacts Requirements: Ability to provide empathetic, non-judgmental support Strong listening and communication skills Availability for evening and weekend shifts Ability to complete 40 hours of Office of the Attorney General certified training Commitment to serving a minimum of 2 shifts per month Pass a criminal background check Access to a phone while on shift Must be at least 18 years old Benefits of Volunteering: Make a meaningful difference in the lives of survivors Gain valuable crisis intervention and advocacy skills Receive specialized training in sexual assault response Earn volunteer service hours Join a compassionate team committed to supporting survivors Next Training: November 3, 2026 If interested, please complete our Volunteer Application: https://zfrmz.com/ztKurLX7X2RtNWdvXxzL Applicants will be contacted to schedule an interview and background check.",
+    "description_short": "Summary: Help reduce the trauma experienced by survivors of sexual violence. Volunteer Advocates provide compassionate, non-judgmental emotional support, crisis intervention, information, and resources to survivors, their families, and loved ones.…",
     "address": {
       "state": "TX"
     },
@@ -1668,7 +1875,7 @@
       "Social",
       "Advocacy"
     ],
-    "last_scraped": "2026-09-21T16:02:20.804828+00:00",
+    "last_scraped": "2026-09-28T17:45:45.845644+00:00",
     "status": "active",
     "unified_tags": [
       "crisis_support",
@@ -1709,7 +1916,7 @@
       "Nonprofit Professional",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:05:14.545893+00:00",
+    "last_scraped": "2026-09-28T17:50:06.579594+00:00",
     "status": "active",
     "unified_tags": [
       "seniors",
@@ -1751,7 +1958,7 @@
       "Social",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:04:41.216141+00:00",
+    "last_scraped": "2026-09-28T17:49:38.852105+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -1789,7 +1996,7 @@
       "Board Service",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:04:40.059211+00:00",
+    "last_scraped": "2026-09-28T17:49:37.786024+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -1832,7 +2039,7 @@
       "Social",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:00:15.260046+00:00",
+    "last_scraped": "2026-09-28T17:46:02.820098+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -1874,7 +2081,7 @@
       "Clerical",
       "Medical"
     ],
-    "last_scraped": "2026-09-21T16:02:50.502241+00:00",
+    "last_scraped": "2026-09-28T17:48:03.742074+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -1915,7 +2122,7 @@
       "Event Support",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:07.537975+00:00",
+    "last_scraped": "2026-09-28T17:51:35.235147+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -1958,7 +2165,7 @@
       "In-Kind",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:03:31.861973+00:00",
+    "last_scraped": "2026-09-28T17:48:38.932673+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -2001,7 +2208,7 @@
       "Advocacy",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:04:16.478972+00:00",
+    "last_scraped": "2026-09-28T17:49:16.706101+00:00",
     "status": "active",
     "unified_tags": [
       "seniors",
@@ -2131,7 +2338,7 @@
       "Nonprofit Professional",
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:02:46.985445+00:00",
+    "last_scraped": "2026-09-28T17:48:00.658235+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -2173,7 +2380,7 @@
     "cause_tags": [
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:05:10.126689+00:00",
+    "last_scraped": "2026-09-28T17:50:02.423217+00:00",
     "status": "active",
     "unified_tags": [
       "seniors",
@@ -2213,7 +2420,7 @@
       "Education",
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:02:04.489016+00:00",
+    "last_scraped": "2026-09-28T17:47:26.593909+00:00",
     "status": "active",
     "unified_tags": [
       "environment"
@@ -2290,7 +2497,7 @@
     "cause_tags": [
       "Clerical"
     ],
-    "last_scraped": "2026-09-21T16:05:55.195927+00:00",
+    "last_scraped": "2026-09-28T17:50:35.770984+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -2334,7 +2541,7 @@
       "Physical Labor",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:01:04.679767+00:00",
+    "last_scraped": "2026-09-28T17:46:37.546511+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -2376,7 +2583,7 @@
     "cause_tags": [
       "Medical"
     ],
-    "last_scraped": "2026-09-21T16:03:56.226515+00:00",
+    "last_scraped": "2026-09-28T17:49:00.132199+00:00",
     "status": "active",
     "unified_tags": [
       "animals"
@@ -2416,7 +2623,7 @@
     "cause_tags": [
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:03:57.357510+00:00",
+    "last_scraped": "2026-09-28T17:49:01.288591+00:00",
     "status": "active",
     "unified_tags": [
       "animals",
@@ -2499,7 +2706,7 @@
     "cause_tags": [
       "Food Prep"
     ],
-    "last_scraped": "2026-09-21T16:01:45.103795+00:00",
+    "last_scraped": "2026-09-28T17:47:11.725477+00:00",
     "status": "active",
     "unified_tags": [
       "seniors",
@@ -2587,7 +2794,7 @@
       "Skilled Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:08.663344+00:00",
+    "last_scraped": "2026-09-28T17:51:36.254175+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -2630,7 +2837,7 @@
       "One Time",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:00:55.031578+00:00",
+    "last_scraped": "2026-09-28T17:46:31.555426+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -2673,7 +2880,7 @@
       "Nonprofit Professional",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:01:21.431185+00:00",
+    "last_scraped": "2026-09-28T17:46:50.817606+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -2716,7 +2923,7 @@
       "Advocacy",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:05:45.518823+00:00",
+    "last_scraped": "2026-09-28T17:50:29.731611+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -2755,7 +2962,7 @@
     "cause_tags": [
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:00:31.043394+00:00",
+    "last_scraped": "2026-09-28T17:46:12.275019+00:00",
     "status": "active",
     "unified_tags": [
       "animals",
@@ -2793,7 +3000,7 @@
     "cause_tags": [
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:00:29.898363+00:00",
+    "last_scraped": "2026-09-28T17:46:11.235218+00:00",
     "status": "active",
     "unified_tags": [
       "animals",
@@ -2876,7 +3083,7 @@
       "Event Support",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:02:19.561275+00:00",
+    "last_scraped": "2026-09-28T17:47:38.364466+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -2916,7 +3123,7 @@
     "cause_tags": [
       "Food Prep"
     ],
-    "last_scraped": "2026-09-21T16:01:12.037086+00:00",
+    "last_scraped": "2026-09-28T17:46:43.761276+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -2956,7 +3163,7 @@
       "In-Kind",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:03:28.528608+00:00",
+    "last_scraped": "2026-09-28T17:48:35.338073+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -3005,7 +3212,7 @@
       "Physical Labor",
       "Skilled Labor"
     ],
-    "last_scraped": "2026-09-21T16:04:24.008638+00:00",
+    "last_scraped": "2026-09-28T17:49:23.235087+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -3084,7 +3291,7 @@
       "Education",
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:02:18.252529+00:00",
+    "last_scraped": "2026-09-28T17:47:37.403220+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -3126,7 +3333,7 @@
       "Medical",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:06:01.605282+00:00",
+    "last_scraped": "2026-09-28T17:50:40.846036+00:00",
     "status": "active",
     "unified_tags": [
       "disabilities"
@@ -3169,7 +3376,7 @@
       "Physical Labor",
       "Skilled Labor"
     ],
-    "last_scraped": "2026-09-21T16:01:20.198583+00:00",
+    "last_scraped": "2026-09-28T17:46:49.812656+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -3208,7 +3415,7 @@
       "Education",
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:02:32.121479+00:00",
+    "last_scraped": "2026-09-28T17:47:48.469083+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -3247,7 +3454,7 @@
       "Medical",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:02:14.283426+00:00",
+    "last_scraped": "2026-09-28T17:47:33.965062+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -3329,7 +3536,7 @@
     "cause_tags": [
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:04:26.911036+00:00",
+    "last_scraped": "2026-09-28T17:49:25.597950+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -3370,7 +3577,7 @@
     "cause_tags": [
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:04:49.964733+00:00",
+    "last_scraped": "2026-09-28T17:49:46.110191+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -3408,7 +3615,7 @@
       "Outdoor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:00:48.791792+00:00",
+    "last_scraped": "2026-09-28T17:46:26.709339+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -3449,7 +3656,7 @@
     "cause_tags": [
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:05:08.945104+00:00",
+    "last_scraped": "2026-09-28T17:50:00.773449+00:00",
     "status": "active",
     "unified_tags": [
       "mental_health",
@@ -3493,7 +3700,7 @@
       "Medical",
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:01:25.339242+00:00",
+    "last_scraped": "2026-09-28T17:46:53.955172+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -3536,7 +3743,7 @@
       "Event Support",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:01:56.752077+00:00",
+    "last_scraped": "2026-09-28T17:47:20.484049+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -3652,7 +3859,7 @@
       "In-Kind",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:05:37.040271+00:00",
+    "last_scraped": "2026-09-28T17:50:24.528423+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -3690,7 +3897,7 @@
     "cause_tags": [
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:01:00.899320+00:00",
+    "last_scraped": "2026-09-28T17:46:36.580718+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -3728,7 +3935,7 @@
     "cause_tags": [
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:03:29.636357+00:00",
+    "last_scraped": "2026-09-28T17:48:36.477266+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -3770,7 +3977,7 @@
     "cause_tags": [
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:01:09.592237+00:00",
+    "last_scraped": "2026-09-28T17:46:41.530852+00:00",
     "status": "active",
     "unified_tags": [
       "seniors",
@@ -3812,7 +4019,7 @@
     "cause_tags": [
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:03:41.330211+00:00",
+    "last_scraped": "2026-09-28T17:48:45.167534+00:00",
     "status": "active",
     "unified_tags": [
       "environment"
@@ -3947,7 +4154,7 @@
       "In-Kind",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:04:05.534190+00:00",
+    "last_scraped": "2026-09-28T17:49:07.190405+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -4032,7 +4239,7 @@
     "cause_tags": [
       "Food Prep"
     ],
-    "last_scraped": "2026-09-21T16:07:09.796752+00:00",
+    "last_scraped": "2026-09-28T17:51:37.381702+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -4072,7 +4279,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:05:32.679534+00:00",
+    "last_scraped": "2026-09-28T17:50:21.472701+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -4112,7 +4319,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:02:01.927038+00:00",
+    "last_scraped": "2026-09-28T17:47:24.533738+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -4150,7 +4357,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:02:03.272233+00:00",
+    "last_scraped": "2026-09-28T17:47:25.468774+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -4193,7 +4400,7 @@
       "Advocacy",
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:01:51.827725+00:00",
+    "last_scraped": "2026-09-28T17:47:16.587485+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -4234,7 +4441,7 @@
     "cause_tags": [
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:04:47.627779+00:00",
+    "last_scraped": "2026-09-28T17:49:44.061496+00:00",
     "status": "active",
     "unified_tags": [
       "disabilities",
@@ -4287,7 +4494,7 @@
       "Event Support",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:00:13.963277+00:00",
+    "last_scraped": "2026-09-28T17:46:01.606308+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -4328,7 +4535,7 @@
       "Education",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:06:35.222213+00:00",
+    "last_scraped": "2026-09-28T17:51:07.215831+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -4370,7 +4577,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:05:21.896894+00:00",
+    "last_scraped": "2026-09-28T17:50:12.918090+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -4412,7 +4619,7 @@
       "One Time",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:06:37.541433+00:00",
+    "last_scraped": "2026-09-28T17:51:09.767125+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -4455,7 +4662,7 @@
       "Medical",
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:03:13.177223+00:00",
+    "last_scraped": "2026-09-28T17:48:22.267063+00:00",
     "status": "active",
     "unified_tags": [
       "health"
@@ -4581,7 +4788,7 @@
       "Physical Labor",
       "Skilled Labor"
     ],
-    "last_scraped": "2026-09-21T16:03:20.107167+00:00",
+    "last_scraped": "2026-09-28T17:48:28.123702+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -4673,7 +4880,7 @@
     "cause_tags": [
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:06:12.838953+00:00",
+    "last_scraped": "2026-09-28T17:50:48.960494+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -4716,7 +4923,7 @@
       "Event Support",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:02:16.727399+00:00",
+    "last_scraped": "2026-09-28T17:47:36.393043+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -4761,7 +4968,7 @@
       "One Time",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:06:05.764796+00:00",
+    "last_scraped": "2026-09-28T17:50:42.835203+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -4799,7 +5006,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:04:36.410152+00:00",
+    "last_scraped": "2026-09-28T17:49:34.663823+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -4838,7 +5045,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:02:39.921752+00:00",
+    "last_scraped": "2026-09-28T17:47:54.371134+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -4877,7 +5084,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:02:30.996091+00:00",
+    "last_scraped": "2026-09-28T17:47:47.499404+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -4915,7 +5122,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:04:09.097309+00:00",
+    "last_scraped": "2026-09-28T17:49:10.383122+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -4954,7 +5161,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:05:35.087055+00:00",
+    "last_scraped": "2026-09-28T17:50:23.514300+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -4993,7 +5200,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:05:33.977939+00:00",
+    "last_scraped": "2026-09-28T17:50:22.558368+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -5031,7 +5238,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:04:07.921515+00:00",
+    "last_scraped": "2026-09-28T17:49:09.200943+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -5073,7 +5280,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:04:01.825454+00:00",
+    "last_scraped": "2026-09-28T17:49:04.286686+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -5115,7 +5322,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:05:04.082133+00:00",
+    "last_scraped": "2026-09-28T17:49:56.551967+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -5156,7 +5363,7 @@
     "cause_tags": [
       "Advocacy"
     ],
-    "last_scraped": "2026-09-21T16:04:25.626325+00:00",
+    "last_scraped": "2026-09-28T17:49:24.593884+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -5194,7 +5401,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:02:41.217765+00:00",
+    "last_scraped": "2026-09-28T17:47:55.340370+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -5234,7 +5441,7 @@
       "In-Kind",
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:05:25.086065+00:00",
+    "last_scraped": "2026-09-28T17:50:14.976407+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -5273,7 +5480,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:03:05.072159+00:00",
+    "last_scraped": "2026-09-28T17:48:14.916461+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -5315,7 +5522,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:00:03.075998+00:00",
+    "last_scraped": "2026-09-28T17:45:57.820969+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -5357,7 +5564,7 @@
       "Physical Labor",
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:06:24.506281+00:00",
+    "last_scraped": "2026-09-28T17:50:58.816794+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -5398,7 +5605,7 @@
     "cause_tags": [
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:00:36.425930+00:00",
+    "last_scraped": "2026-09-28T17:46:16.443854+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -5435,7 +5642,7 @@
     "cause_tags": [
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:04:48.810140+00:00",
+    "last_scraped": "2026-09-28T17:49:45.152117+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -5564,7 +5771,7 @@
       "Education",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:04:37.560181+00:00",
+    "last_scraped": "2026-09-28T17:49:35.702966+00:00",
     "status": "active",
     "unified_tags": [
       "animals",
@@ -5606,7 +5813,7 @@
     "cause_tags": [
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:06:45.875623+00:00",
+    "last_scraped": "2026-09-28T17:51:17.848893+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -5648,7 +5855,7 @@
       "Education",
       "Skilled Labor"
     ],
-    "last_scraped": "2026-09-21T16:06:38.733633+00:00",
+    "last_scraped": "2026-09-28T17:51:10.756266+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -5689,7 +5896,7 @@
       "Skilled Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:23.805375+00:00",
+    "last_scraped": "2026-09-28T17:51:48.994657+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -5731,7 +5938,7 @@
       "Skilled Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:00.937528+00:00",
+    "last_scraped": "2026-09-28T17:51:30.419415+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -5775,7 +5982,7 @@
       "Social",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:02:43.530663+00:00",
+    "last_scraped": "2026-09-28T17:47:57.299626+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -5816,7 +6023,7 @@
       "Physical Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:04:57.543587+00:00",
+    "last_scraped": "2026-09-28T17:49:52.375458+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -5855,7 +6062,7 @@
       "Clerical",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:04:11.876441+00:00",
+    "last_scraped": "2026-09-28T17:49:12.342227+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -5893,7 +6100,7 @@
     "cause_tags": [
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:05:42.440736+00:00",
+    "last_scraped": "2026-09-28T17:50:27.696154+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -5942,7 +6149,7 @@
       "Nonprofit Professional",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:31.198924+00:00",
+    "last_scraped": "2026-09-28T17:51:54.789505+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -5983,7 +6190,7 @@
       "In-Kind",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:03:40.026869+00:00",
+    "last_scraped": "2026-09-28T17:48:44.118849+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -6029,7 +6236,7 @@
       "Social",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:07:28.563877+00:00",
+    "last_scraped": "2026-09-28T17:51:52.884994+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -6071,7 +6278,7 @@
       "Education",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:06:41.153839+00:00",
+    "last_scraped": "2026-09-28T17:51:12.778801+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -6110,7 +6317,7 @@
       "Nonprofit Professional",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:04:04.297741+00:00",
+    "last_scraped": "2026-09-28T17:49:06.143839+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -6154,7 +6361,7 @@
       "Social",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:02:52.808399+00:00",
+    "last_scraped": "2026-09-28T17:48:05.810653+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -6196,7 +6403,7 @@
       "Clerical",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:02:59.128706+00:00",
+    "last_scraped": "2026-09-28T17:48:10.748989+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -6239,7 +6446,7 @@
       "Event Support",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:02:54.021402+00:00",
+    "last_scraped": "2026-09-28T17:48:06.784552+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -6281,7 +6488,7 @@
       "Clerical",
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:02:55.149669+00:00",
+    "last_scraped": "2026-09-28T17:48:07.792664+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -6323,7 +6530,7 @@
       "Nonprofit Professional",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:03:00.574481+00:00",
+    "last_scraped": "2026-09-28T17:48:11.719111+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -6364,7 +6571,7 @@
       "Advocacy",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:04:17.747293+00:00",
+    "last_scraped": "2026-09-28T17:49:18.267582+00:00",
     "status": "active",
     "unified_tags": [
       "seniors",
@@ -6404,7 +6611,7 @@
     "cause_tags": [
       "Advocacy"
     ],
-    "last_scraped": "2026-09-21T16:03:38.683307+00:00",
+    "last_scraped": "2026-09-28T17:48:43.135881+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -6444,7 +6651,7 @@
       "Advocacy",
       "One Time"
     ],
-    "last_scraped": "2026-09-21T16:06:36.408598+00:00",
+    "last_scraped": "2026-09-28T17:51:08.360820+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -6483,7 +6690,7 @@
       "Skilled Labor",
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:04:45.130353+00:00",
+    "last_scraped": "2026-09-28T17:49:41.868875+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -6576,7 +6783,7 @@
       "Finance",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:02:57.563791+00:00",
+    "last_scraped": "2026-09-28T17:48:09.803539+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -6616,7 +6823,7 @@
       "Education",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:02:23.782549+00:00",
+    "last_scraped": "2026-09-28T17:47:40.656659+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -6654,7 +6861,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:05:43.813821+00:00",
+    "last_scraped": "2026-09-28T17:50:28.721409+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -6741,7 +6948,7 @@
       "Nonprofit Professional",
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:02:51.646555+00:00",
+    "last_scraped": "2026-09-28T17:48:04.729117+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -6786,7 +6993,7 @@
       "Skilled Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:11.087229+00:00",
+    "last_scraped": "2026-09-28T17:51:38.358834+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -6829,7 +7036,7 @@
       "Nonprofit Professional",
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:06:17.620503+00:00",
+    "last_scraped": "2026-09-28T17:50:52.908045+00:00",
     "status": "active",
     "unified_tags": [
       "animals"
@@ -6870,7 +7077,7 @@
       "Advocacy",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:04:19.207635+00:00",
+    "last_scraped": "2026-09-28T17:49:19.369635+00:00",
     "status": "active",
     "unified_tags": [
       "seniors",
@@ -6960,7 +7167,7 @@
       "Social",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:07:29.779255+00:00",
+    "last_scraped": "2026-09-28T17:51:53.835956+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -7001,7 +7208,7 @@
       "Social",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:00:10.511459+00:00",
+    "last_scraped": "2026-09-28T17:45:58.890575+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -7040,7 +7247,7 @@
       "Event Support",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:03:53.780603+00:00",
+    "last_scraped": "2026-09-28T17:48:58.041110+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -7090,7 +7297,7 @@
       "Physical Labor",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:06:39.979233+00:00",
+    "last_scraped": "2026-09-28T17:51:11.804537+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -7131,7 +7338,7 @@
       "Outdoor",
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:02:15.454318+00:00",
+    "last_scraped": "2026-09-28T17:47:34.949998+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -7171,7 +7378,7 @@
     "cause_tags": [
       "Clerical"
     ],
-    "last_scraped": "2026-09-21T16:06:06.849646+00:00",
+    "last_scraped": "2026-09-28T17:50:43.934639+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -7212,7 +7419,7 @@
       "Social",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:01:54.357604+00:00",
+    "last_scraped": "2026-09-28T17:47:18.466012+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -7251,7 +7458,7 @@
       "Education",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:21.526216+00:00",
+    "last_scraped": "2026-09-28T17:51:47.039579+00:00",
     "status": "active",
     "unified_tags": [
       "disabilities"
@@ -7291,7 +7498,7 @@
       "Clerical",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:05:11.214031+00:00",
+    "last_scraped": "2026-09-28T17:50:03.536497+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -7330,7 +7537,7 @@
     "cause_tags": [
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:03:08.429014+00:00",
+    "last_scraped": "2026-09-28T17:48:18.200008+00:00",
     "status": "active",
     "unified_tags": [
       "crisis_support"
@@ -7367,7 +7574,7 @@
     "cause_tags": [
       "Finance"
     ],
-    "last_scraped": "2026-09-21T16:03:52.618565+00:00",
+    "last_scraped": "2026-09-28T17:48:56.750433+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -7410,7 +7617,7 @@
       "Education",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:06:52.758072+00:00",
+    "last_scraped": "2026-09-28T17:51:23.730545+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -7456,7 +7663,7 @@
       "Social",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:06:55.178928+00:00",
+    "last_scraped": "2026-09-28T17:51:25.645048+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -7583,7 +7790,7 @@
       "One Time",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:00:35.222307+00:00",
+    "last_scraped": "2026-09-28T17:46:15.351244+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -7672,7 +7879,7 @@
       "In-Kind",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:06:00.181833+00:00",
+    "last_scraped": "2026-09-28T17:50:39.834713+00:00",
     "status": "active",
     "unified_tags": [
       "mental_health",
@@ -7759,7 +7966,7 @@
       "Skilled Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:01:08.492056+00:00",
+    "last_scraped": "2026-09-28T17:46:40.559369+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -7800,7 +8007,7 @@
     "cause_tags": [
       "Skilled Labor"
     ],
-    "last_scraped": "2026-09-21T16:02:10.291188+00:00",
+    "last_scraped": "2026-09-28T17:47:30.640474+00:00",
     "status": "active",
     "unified_tags": [
       "seniors",
@@ -7882,7 +8089,7 @@
       "One Time",
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:07:22.673369+00:00",
+    "last_scraped": "2026-09-28T17:51:47.986978+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -7923,7 +8130,7 @@
       "Skilled Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:06:57.468079+00:00",
+    "last_scraped": "2026-09-28T17:51:27.553922+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -7964,7 +8171,7 @@
     "cause_tags": [
       "Medical"
     ],
-    "last_scraped": "2026-09-21T16:04:14.212480+00:00",
+    "last_scraped": "2026-09-28T17:49:14.607167+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -8465,7 +8672,7 @@
       "Physical Labor"
     ],
     "last_scraped": "2026-09-21T16:00:08.065483+00:00",
-    "status": "active",
+    "status": "inactive",
     "expiry": {
       "kind": "one_time",
       "ends_on": "2023-09-23",
@@ -8510,7 +8717,7 @@
     "cause_tags": [
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:03:30.752929+00:00",
+    "last_scraped": "2026-09-28T17:48:37.464411+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -8555,7 +8762,7 @@
       "Nonprofit Professional",
       "Skilled Labor"
     ],
-    "last_scraped": "2026-09-21T16:06:29.157104+00:00",
+    "last_scraped": "2026-09-28T17:51:01.967767+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -8596,7 +8803,7 @@
       "Physical Labor",
       "Court Mandated"
     ],
-    "last_scraped": "2026-09-21T16:03:58.896485+00:00",
+    "last_scraped": "2026-09-28T17:49:02.279559+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -8637,7 +8844,7 @@
     "cause_tags": [
       "Advocacy"
     ],
-    "last_scraped": "2026-09-21T16:04:46.469368+00:00",
+    "last_scraped": "2026-09-28T17:49:43.070817+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -8676,7 +8883,7 @@
     "cause_tags": [
       "One Time"
     ],
-    "last_scraped": "2026-09-21T16:05:27.541878+00:00",
+    "last_scraped": "2026-09-28T17:50:17.046671+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -8715,7 +8922,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:01:19.048863+00:00",
+    "last_scraped": "2026-09-28T17:46:48.797869+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -8757,7 +8964,7 @@
     "cause_tags": [
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:03:24.941341+00:00",
+    "last_scraped": "2026-09-28T17:48:32.389010+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -8802,7 +9009,7 @@
       "Nonprofit Professional",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:02:48.182452+00:00",
+    "last_scraped": "2026-09-28T17:48:01.698437+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -8840,7 +9047,7 @@
     "cause_tags": [
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:06:21.106716+00:00",
+    "last_scraped": "2026-09-28T17:50:55.906884+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -8885,7 +9092,7 @@
       "Nonprofit Professional",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:06:18.770108+00:00",
+    "last_scraped": "2026-09-28T17:50:53.933881+00:00",
     "status": "active",
     "unified_tags": [
       "crisis_support",
@@ -8926,7 +9133,7 @@
       "Medical",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:03:09.693700+00:00",
+    "last_scraped": "2026-09-28T17:48:19.349144+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -9057,7 +9264,7 @@
       "Nonprofit Professional",
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:06:31.705324+00:00",
+    "last_scraped": "2026-09-28T17:51:04.181644+00:00",
     "status": "active",
     "unified_tags": [
       "animals",
@@ -9101,7 +9308,7 @@
       "Medical",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:05:38.350886+00:00",
+    "last_scraped": "2026-09-28T17:50:25.584303+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -9185,7 +9392,7 @@
       "In-Kind",
       "One Time"
     ],
-    "last_scraped": "2026-09-21T16:02:36.245443+00:00",
+    "last_scraped": "2026-09-28T17:47:51.438713+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -9225,7 +9432,7 @@
       "In-Kind",
       "One Time"
     ],
-    "last_scraped": "2026-09-21T16:02:38.809080+00:00",
+    "last_scraped": "2026-09-28T17:47:53.446197+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -9265,7 +9472,7 @@
       "In-Kind",
       "One Time"
     ],
-    "last_scraped": "2026-09-21T16:02:37.562810+00:00",
+    "last_scraped": "2026-09-28T17:47:52.486622+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -9308,7 +9515,7 @@
       "Social",
       "Food Prep"
     ],
-    "last_scraped": "2026-09-21T16:00:21.546769+00:00",
+    "last_scraped": "2026-09-28T17:46:05.944732+00:00",
     "status": "active",
     "unified_tags": [
       "disabilities",
@@ -9388,7 +9595,7 @@
     "cause_tags": [
       "Advocacy"
     ],
-    "last_scraped": "2026-09-21T16:06:26.933107+00:00",
+    "last_scraped": "2026-09-28T17:51:00.895353+00:00",
     "status": "active",
     "unified_tags": [
       "animals"
@@ -9428,7 +9635,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:05:58.871547+00:00",
+    "last_scraped": "2026-09-28T17:50:38.872246+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -9470,7 +9677,7 @@
       "In-Kind",
       "One Time"
     ],
-    "last_scraped": "2026-09-21T16:02:42.416378+00:00",
+    "last_scraped": "2026-09-28T17:47:56.309757+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -9513,7 +9720,7 @@
       "In-Kind",
       "One Time"
     ],
-    "last_scraped": "2026-09-21T16:03:47.682364+00:00",
+    "last_scraped": "2026-09-28T17:48:51.357680+00:00",
     "status": "active",
     "unified_tags": [
       "environment",
@@ -9553,7 +9760,7 @@
       "Event Support",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:06:19.945183+00:00",
+    "last_scraped": "2026-09-28T17:50:54.959987+00:00",
     "status": "active",
     "unified_tags": [
       "crisis_support",
@@ -9599,7 +9806,7 @@
       "Nonprofit Professional",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:05:01.192803+00:00",
+    "last_scraped": "2026-09-28T17:49:55.271575+00:00",
     "status": "active",
     "unified_tags": [
       "seniors",
@@ -9644,7 +9851,7 @@
       "Skilled Labor",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:00:23.268003+00:00",
+    "last_scraped": "2026-09-28T17:46:07.272847+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -9684,7 +9891,7 @@
     "cause_tags": [
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:05:23.402383+00:00",
+    "last_scraped": "2026-09-28T17:50:13.963403+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -9722,7 +9929,7 @@
     "cause_tags": [
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:03:34.246795+00:00",
+    "last_scraped": "2026-09-28T17:48:40.921850+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -9759,7 +9966,7 @@
     "cause_tags": [
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:06:13.995548+00:00",
+    "last_scraped": "2026-09-28T17:50:49.969623+00:00",
     "status": "active",
     "unified_tags": [
       "seniors",
@@ -9798,7 +10005,7 @@
     "cause_tags": [
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:06:16.424527+00:00",
+    "last_scraped": "2026-09-28T17:50:51.915444+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -9836,7 +10043,7 @@
     "cause_tags": [
       "Skilled Labor"
     ],
-    "last_scraped": "2026-09-21T16:06:15.276035+00:00",
+    "last_scraped": "2026-09-28T17:50:50.908578+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -9873,7 +10080,7 @@
     "cause_tags": [
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:03:33.010804+00:00",
+    "last_scraped": "2026-09-28T17:48:39.938133+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -9916,7 +10123,7 @@
       "Education",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:02:56.330252+00:00",
+    "last_scraped": "2026-09-28T17:48:08.815356+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -9954,7 +10161,7 @@
     "cause_tags": [
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:04:35.298328+00:00",
+    "last_scraped": "2026-09-28T17:49:33.471544+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -9997,7 +10204,7 @@
       "Nonprofit Professional",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:01:17.751176+00:00",
+    "last_scraped": "2026-09-28T17:46:47.846578+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -10035,7 +10242,7 @@
     "cause_tags": [
       "Board Service"
     ],
-    "last_scraped": "2026-09-21T16:05:12.278701+00:00",
+    "last_scraped": "2026-09-28T17:50:04.606888+00:00",
     "status": "active",
     "unified_tags": [
       "children"
@@ -10076,7 +10283,7 @@
       "Advocacy",
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:04:43.504738+00:00",
+    "last_scraped": "2026-09-28T17:49:40.900644+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -10116,7 +10323,7 @@
       "Nonprofit Professional",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:04:34.137144+00:00",
+    "last_scraped": "2026-09-28T17:49:32.463603+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -10159,7 +10366,7 @@
       "Food Prep",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:04:56.286888+00:00",
+    "last_scraped": "2026-09-28T17:49:51.337645+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -10243,7 +10450,7 @@
       "Social",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:03:18.913776+00:00",
+    "last_scraped": "2026-09-28T17:48:27.190156+00:00",
     "status": "active",
     "unified_tags": [
       "environment"
@@ -10286,7 +10493,7 @@
       "Event Support",
       "Skilled Labor"
     ],
-    "last_scraped": "2026-09-21T16:03:48.795488+00:00",
+    "last_scraped": "2026-09-28T17:48:52.320587+00:00",
     "status": "active",
     "unified_tags": [
       "environment",
@@ -10327,7 +10534,7 @@
     "cause_tags": [
       "Food Prep"
     ],
-    "last_scraped": "2026-09-21T16:02:49.386981+00:00",
+    "last_scraped": "2026-09-28T17:48:02.720338+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -10367,7 +10574,7 @@
       "Nonprofit Professional",
       "Clerical"
     ],
-    "last_scraped": "2026-09-21T16:03:45.141065+00:00",
+    "last_scraped": "2026-09-28T17:48:48.930887+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -10409,7 +10616,7 @@
       "Advocacy",
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:06:08.085164+00:00",
+    "last_scraped": "2026-09-28T17:50:44.907135+00:00",
     "status": "active",
     "unified_tags": [
       "mental_health",
@@ -10453,7 +10660,7 @@
       "Physical Labor",
       "Skilled Labor"
     ],
-    "last_scraped": "2026-09-21T16:00:00.423771+00:00",
+    "last_scraped": "2026-09-28T17:45:56.826709+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -10491,7 +10698,7 @@
     "cause_tags": [
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:02:28.605090+00:00",
+    "last_scraped": "2026-09-28T17:47:45.511219+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -10535,7 +10742,7 @@
       "Physical Labor",
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:01:43.978122+00:00",
+    "last_scraped": "2026-09-28T17:47:10.536291+00:00",
     "status": "active",
     "unified_tags": [
       "environment",
@@ -10580,7 +10787,7 @@
       "Skilled Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:12.247798+00:00",
+    "last_scraped": "2026-09-28T17:51:39.290170+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -10621,7 +10828,7 @@
       "Event Support",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:01:10.897429+00:00",
+    "last_scraped": "2026-09-28T17:46:42.751025+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -10665,7 +10872,7 @@
       "Event Support",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:06:03.638614+00:00",
+    "last_scraped": "2026-09-28T17:50:41.838409+00:00",
     "status": "active",
     "unified_tags": [
       "mental_health",
@@ -10703,7 +10910,7 @@
     "cause_tags": [
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:03:03.890264+00:00",
+    "last_scraped": "2026-09-28T17:48:13.954619+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -10746,7 +10953,7 @@
       "Medical",
       "Skilled Labor"
     ],
-    "last_scraped": "2026-09-21T16:03:21.281873+00:00",
+    "last_scraped": "2026-09-28T17:48:29.172596+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -10784,7 +10991,7 @@
     "cause_tags": [
       "Board Service"
     ],
-    "last_scraped": "2026-09-21T16:05:13.428197+00:00",
+    "last_scraped": "2026-09-28T17:50:05.564982+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -10874,7 +11081,7 @@
       "Physical Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:03:16.667258+00:00",
+    "last_scraped": "2026-09-28T17:48:25.267595+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -10916,7 +11123,7 @@
       "In-Kind",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:02:26.146073+00:00",
+    "last_scraped": "2026-09-28T17:47:42.673582+00:00",
     "status": "active",
     "unified_tags": [
       "disabilities",
@@ -10995,7 +11202,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:04:29.265323+00:00",
+    "last_scraped": "2026-09-28T17:49:27.955020+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -11033,7 +11240,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:00:47.653472+00:00",
+    "last_scraped": "2026-09-28T17:46:25.584971+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -11071,7 +11278,7 @@
     "cause_tags": [
       "Advocacy"
     ],
-    "last_scraped": "2026-09-21T16:03:36.285647+00:00",
+    "last_scraped": "2026-09-28T17:48:42.145640+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -11112,7 +11319,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:06:23.360797+00:00",
+    "last_scraped": "2026-09-28T17:50:57.896019+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -11159,7 +11366,7 @@
       "Skilled Labor",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:06:53.996043+00:00",
+    "last_scraped": "2026-09-28T17:51:24.650270+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -11203,7 +11410,7 @@
       "Education",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:06:30.302562+00:00",
+    "last_scraped": "2026-09-28T17:51:02.917087+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -11284,7 +11491,7 @@
       "Advocacy",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:04:20.374265+00:00",
+    "last_scraped": "2026-09-28T17:49:20.339652+00:00",
     "status": "active",
     "unified_tags": [
       "seniors",
@@ -11326,7 +11533,7 @@
     "cause_tags": [
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:04:58.878380+00:00",
+    "last_scraped": "2026-09-28T17:49:53.362607+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -11391,6 +11598,48 @@
     }
   },
   {
+    "id": "mckinney_1320499",
+    "source": "volunteermckinney",
+    "source_url": "https://volunteermckinney.galaxydigital.com/need/detail/?need_id=1320499",
+    "org_name": "McKinney Parks Foundation",
+    "opportunity_title": "McKinney Greens Volunteer Opportunity",
+    "description_long": "Where: McKinney Greens Park, 798 Stewart Rd McKinney, TX 75069 When: Saturday, October 17th, 2026, 8am – 11am What we will be doing: We’ll be clearing the trail, and removing litter from the park. What to bring: Print the volunteer waiver and bring it with you. Participants under age 18 need to have a guardian or parent sign the form. We also recommend bringing gloves, sunscreen, and water. What do I wear: Long pants, long sleeves, and closed-toe shoes or boots. Parking: can be found next to the white barn on the gravel parking lot Volunteer workdays are open to all members of the public. Volunteers can earn service hours for their school group, troop, or club. See a member of the McKinney Parks Foundation to have your volunteer forms signed at the end of the event. Please RSVP so we can email you if weather conditions change.",
+    "description_short": "Where: McKinney Greens Park, 798 Stewart Rd McKinney, TX 75069 When: Saturday, October 17th, 2026, 8am – 11am What we will be doing: We’ll be clearing the trail, and removing litter from the park. What to bring: Print the volunteer waiver and bring…",
+    "address": {
+      "state": "TX",
+      "full": "798 Stewart Rd McKinney, TX 75071",
+      "zip": "75071",
+      "city": "McKinney"
+    },
+    "schedule": {},
+    "contact": [],
+    "requirements": "Get Connected Icon Is Family Friendly Get Connected Icon Register by Oct 17, 2026 Get Connected Icon Is Outdoors Inclement Weather Plan: We will email everyone in the event of rain Get Connected Icon Is Not Wheelchair Accessible",
+    "cause_tags": [
+      "Outdoor",
+      "Physical Labor"
+    ],
+    "last_scraped": "2026-09-28T17:45:42.858790+00:00",
+    "status": "active",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-10-17",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-09-28T18:22:44.664009+00:00"
+    },
+    "unified_tags": [
+      "environment",
+      "community"
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
+  },
+  {
     "id": "mckinney_909296",
     "source": "volunteermckinney",
     "source_url": "https://volunteermckinney.galaxydigital.com/need/detail/?need_id=909296",
@@ -11407,7 +11656,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:04:13.018309+00:00",
+    "last_scraped": "2026-09-28T17:49:13.650394+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -11449,7 +11698,7 @@
       "Education",
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:01:26.452480+00:00",
+    "last_scraped": "2026-09-28T17:46:55.044693+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -11490,7 +11739,7 @@
       "Social",
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:07:18.059239+00:00",
+    "last_scraped": "2026-09-28T17:51:44.177885+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -11534,7 +11783,7 @@
       "In-Kind",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:05:06.629519+00:00",
+    "last_scraped": "2026-09-28T17:49:58.736101+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -11575,7 +11824,7 @@
       "Education",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:02:22.610249+00:00",
+    "last_scraped": "2026-09-28T17:47:39.481825+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -11618,7 +11867,7 @@
       "Advocacy",
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:05:31.500573+00:00",
+    "last_scraped": "2026-09-28T17:50:20.104816+00:00",
     "status": "active",
     "unified_tags": [
       "veterans",
@@ -11661,7 +11910,7 @@
       "Social",
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:07:13.426293+00:00",
+    "last_scraped": "2026-09-28T17:51:40.226368+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -11702,7 +11951,7 @@
     "cause_tags": [
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:00:58.442154+00:00",
+    "last_scraped": "2026-09-28T17:46:34.452624+00:00",
     "status": "active",
     "unified_tags": [
       "arts",
@@ -11745,7 +11994,7 @@
       "Food Prep",
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:02:06.924860+00:00",
+    "last_scraped": "2026-09-28T17:47:28.594596+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -11784,7 +12033,7 @@
       "Clerical",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:04:10.591945+00:00",
+    "last_scraped": "2026-09-28T17:49:11.327039+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -11822,7 +12071,7 @@
     "cause_tags": [
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:04:42.282141+00:00",
+    "last_scraped": "2026-09-28T17:49:39.926757+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -11866,7 +12115,7 @@
       "In-Kind",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:00:16.577014+00:00",
+    "last_scraped": "2026-09-28T17:46:03.900838+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -11907,7 +12156,7 @@
     "cause_tags": [
       "Skilled Labor"
     ],
-    "last_scraped": "2026-09-21T16:02:12.894311+00:00",
+    "last_scraped": "2026-09-28T17:47:32.814844+00:00",
     "status": "active",
     "unified_tags": [
       "seniors",
@@ -11947,7 +12196,7 @@
       "In-Kind",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:05:05.516055+00:00",
+    "last_scraped": "2026-09-28T17:49:57.740572+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -11994,7 +12243,7 @@
       "Social",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:03:17.767181+00:00",
+    "last_scraped": "2026-09-28T17:48:26.269350+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -12035,7 +12284,7 @@
       "Physical Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:04:59.984872+00:00",
+    "last_scraped": "2026-09-28T17:49:54.374377+00:00",
     "status": "active",
     "unified_tags": [
       "seniors",
@@ -12074,7 +12323,7 @@
     "cause_tags": [
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:04:03.142774+00:00",
+    "last_scraped": "2026-09-28T17:49:05.216337+00:00",
     "status": "active",
     "unified_tags": [
       "legal",
@@ -12116,7 +12365,7 @@
     "cause_tags": [
       "Medical"
     ],
-    "last_scraped": "2026-09-21T16:04:30.695489+00:00",
+    "last_scraped": "2026-09-28T17:49:28.874861+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -12158,7 +12407,7 @@
       "Medical",
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:03:15.560656+00:00",
+    "last_scraped": "2026-09-28T17:48:24.260373+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -12240,7 +12489,7 @@
       "One Time"
     ],
     "last_scraped": "2026-09-21T16:00:28.333685+00:00",
-    "status": "active",
+    "status": "inactive",
     "unified_tags": [
       "community",
       "veterans"
@@ -12288,7 +12537,7 @@
       "Medical",
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:03:10.842344+00:00",
+    "last_scraped": "2026-09-28T17:48:20.320894+00:00",
     "status": "active",
     "unified_tags": [
       "health"
@@ -12327,7 +12576,7 @@
     "cause_tags": [
       "Medical"
     ],
-    "last_scraped": "2026-09-21T16:05:15.646693+00:00",
+    "last_scraped": "2026-09-28T17:50:07.578265+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -12370,7 +12619,7 @@
       "Physical Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:03:51.285061+00:00",
+    "last_scraped": "2026-09-28T17:48:54.886147+00:00",
     "status": "active",
     "unified_tags": [
       "crisis_support",
@@ -12413,7 +12662,7 @@
       "Outdoor",
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:00:38.835779+00:00",
+    "last_scraped": "2026-09-28T17:46:18.488000+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -12455,7 +12704,7 @@
       "Physical Labor",
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:00:27.096135+00:00",
+    "last_scraped": "2026-09-28T17:46:10.260170+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -12496,7 +12745,7 @@
     "cause_tags": [
       "Advocacy"
     ],
-    "last_scraped": "2026-09-21T16:03:50.134983+00:00",
+    "last_scraped": "2026-09-28T17:48:53.259322+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -12538,7 +12787,7 @@
     "cause_tags": [
       "Advocacy"
     ],
-    "last_scraped": "2026-09-21T16:01:57.869167+00:00",
+    "last_scraped": "2026-09-28T17:47:21.469016+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -12579,7 +12828,7 @@
     "cause_tags": [
       "Advocacy"
     ],
-    "last_scraped": "2026-09-21T16:01:55.514344+00:00",
+    "last_scraped": "2026-09-28T17:47:19.440268+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -12618,7 +12867,7 @@
     "cause_tags": [
       "Medical"
     ],
-    "last_scraped": "2026-09-21T16:07:36.063506+00:00",
+    "last_scraped": "2026-09-28T17:51:58.804529+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -12660,7 +12909,7 @@
       "Advocacy",
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:06:09.224461+00:00",
+    "last_scraped": "2026-09-28T17:50:46.017302+00:00",
     "status": "active",
     "unified_tags": [
       "mental_health",
@@ -12698,7 +12947,7 @@
     "cause_tags": [
       "Skilled Labor"
     ],
-    "last_scraped": "2026-09-21T16:06:48.079316+00:00",
+    "last_scraped": "2026-09-28T17:51:19.855468+00:00",
     "status": "active",
     "unified_tags": [
       "animals",
@@ -12740,7 +12989,7 @@
     "cause_tags": [
       "Medical"
     ],
-    "last_scraped": "2026-09-21T16:04:06.669966+00:00",
+    "last_scraped": "2026-09-28T17:49:08.171297+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -12783,7 +13032,7 @@
       "Advocacy",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:04:21.686348+00:00",
+    "last_scraped": "2026-09-28T17:49:21.275984+00:00",
     "status": "active",
     "unified_tags": [
       "seniors",
@@ -12826,7 +13075,7 @@
       "Physical Labor",
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:00:40.288254+00:00",
+    "last_scraped": "2026-09-28T17:46:19.496639+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -12907,7 +13156,7 @@
       "Outdoor",
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:07:14.542784+00:00",
+    "last_scraped": "2026-09-28T17:51:41.193681+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -12950,7 +13199,7 @@
       "Physical Labor",
       "One Time"
     ],
-    "last_scraped": "2026-09-21T16:03:22.534804+00:00",
+    "last_scraped": "2026-09-28T17:48:30.440189+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -12990,7 +13239,7 @@
     "cause_tags": [
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:06:42.393180+00:00",
+    "last_scraped": "2026-09-28T17:51:13.768744+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -13033,7 +13282,7 @@
       "Clerical",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:03:02.507833+00:00",
+    "last_scraped": "2026-09-28T17:48:12.931834+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -13112,7 +13361,7 @@
     "cause_tags": [
       "Clerical"
     ],
-    "last_scraped": "2026-09-21T16:07:35.002121+00:00",
+    "last_scraped": "2026-09-28T17:51:57.805837+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -13194,7 +13443,7 @@
       "Skilled Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:15.721279+00:00",
+    "last_scraped": "2026-09-28T17:51:42.254390+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -13237,7 +13486,7 @@
       "Court Mandated",
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:03:46.428386+00:00",
+    "last_scraped": "2026-09-28T17:48:50.245880+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -13277,7 +13526,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:06:22.191852+00:00",
+    "last_scraped": "2026-09-28T17:50:56.891215+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -13317,7 +13566,7 @@
     "cause_tags": [
       "Skilled Labor"
     ],
-    "last_scraped": "2026-09-21T16:06:10.409535+00:00",
+    "last_scraped": "2026-09-28T17:50:47.052880+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -13359,7 +13608,7 @@
       "Board Service",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:01:14.771617+00:00",
+    "last_scraped": "2026-09-28T17:46:45.847921+00:00",
     "status": "active",
     "unified_tags": [
       "disabilities",
@@ -13403,7 +13652,7 @@
       "Event Support",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:01:13.256460+00:00",
+    "last_scraped": "2026-09-28T17:46:44.853750+00:00",
     "status": "active",
     "unified_tags": [
       "disabilities",
@@ -13444,7 +13693,7 @@
     "cause_tags": [
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:01:41.538078+00:00",
+    "last_scraped": "2026-09-28T17:47:08.015527+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -13484,7 +13733,7 @@
     "cause_tags": [
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:01:42.739942+00:00",
+    "last_scraped": "2026-09-28T17:47:09.088990+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -13525,7 +13774,7 @@
     "cause_tags": [
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:01:40.315261+00:00",
+    "last_scraped": "2026-09-28T17:47:06.912756+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -13565,7 +13814,7 @@
     "cause_tags": [
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:01:37.717384+00:00",
+    "last_scraped": "2026-09-28T17:47:04.570189+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -13605,7 +13854,7 @@
     "cause_tags": [
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:01:29.095004+00:00",
+    "last_scraped": "2026-09-28T17:46:57.083378+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -13645,7 +13894,7 @@
     "cause_tags": [
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:01:38.910250+00:00",
+    "last_scraped": "2026-09-28T17:47:05.760860+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -13687,7 +13936,7 @@
     "cause_tags": [
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:01:36.454422+00:00",
+    "last_scraped": "2026-09-28T17:47:03.564054+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -13728,7 +13977,7 @@
     "cause_tags": [
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:01:27.851037+00:00",
+    "last_scraped": "2026-09-28T17:46:56.017535+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -13768,7 +14017,7 @@
     "cause_tags": [
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:01:35.171669+00:00",
+    "last_scraped": "2026-09-28T17:47:02.484187+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -13808,7 +14057,7 @@
     "cause_tags": [
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:01:34.014230+00:00",
+    "last_scraped": "2026-09-28T17:47:01.391422+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -13848,7 +14097,7 @@
     "cause_tags": [
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:01:32.801060+00:00",
+    "last_scraped": "2026-09-28T17:47:00.304959+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -13888,7 +14137,7 @@
     "cause_tags": [
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:01:30.289262+00:00",
+    "last_scraped": "2026-09-28T17:46:58.070332+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -13928,7 +14177,7 @@
     "cause_tags": [
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:01:31.541431+00:00",
+    "last_scraped": "2026-09-28T17:46:59.165334+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -13966,7 +14215,7 @@
       "In-Kind",
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:03:27.381586+00:00",
+    "last_scraped": "2026-09-28T17:48:34.366133+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -14008,7 +14257,7 @@
       "Education",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:00:57.297456+00:00",
+    "last_scraped": "2026-09-28T17:46:33.505963+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -14053,7 +14302,7 @@
       "Event Support",
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:00:33.951283+00:00",
+    "last_scraped": "2026-09-28T17:46:14.419612+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -14092,7 +14341,7 @@
     "cause_tags": [
       "Skilled Labor"
     ],
-    "last_scraped": "2026-09-21T16:06:49.211426+00:00",
+    "last_scraped": "2026-09-28T17:51:20.834933+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -14132,7 +14381,7 @@
       "Event Support",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:05:19.627947+00:00",
+    "last_scraped": "2026-09-28T17:50:10.909425+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -14170,7 +14419,7 @@
       "Nonprofit Professional",
       "Clerical"
     ],
-    "last_scraped": "2026-09-21T16:05:54.052438+00:00",
+    "last_scraped": "2026-09-28T17:50:34.789624+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -14208,7 +14457,7 @@
       "Social",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:05:17.251281+00:00",
+    "last_scraped": "2026-09-28T17:50:08.662011+00:00",
     "status": "active",
     "unified_tags": [
       "mental_health",
@@ -14249,7 +14498,7 @@
     "cause_tags": [
       "Skilled Labor"
     ],
-    "last_scraped": "2026-09-21T16:02:11.669507+00:00",
+    "last_scraped": "2026-09-28T17:47:31.673557+00:00",
     "status": "active",
     "unified_tags": [
       "seniors",
@@ -14321,6 +14570,46 @@
     }
   },
   {
+    "id": "mckinney_1318222",
+    "source": "volunteermckinney",
+    "source_url": "https://volunteermckinney.galaxydigital.com/need/detail/?need_id=1318222",
+    "org_name": "Heard-Craig Center for the Arts",
+    "opportunity_title": "Set up chairs for wedding 10/10/2026",
+    "description_long": "Volunteers needed for wedding set of chairs and tables. Come help us get a great start to this wedding DATE: October 10 th Saturday TIME: 9am WHERE: The garden at 205 west Hunt Street Heard Craig Center for the Arts RESPONSIBILTY: Help set up 60 chiars Your help will be greatly apprecciated. Thank you Lynn Mayle Volunteer Coordinator",
+    "description_short": "Volunteers needed for wedding set of chairs and tables. Come help us get a great start to this wedding DATE: October 10 th Saturday TIME: 9am WHERE: The garden at 205 west Hunt Street Heard Craig Center for the Arts RESPONSIBILTY: Help set up 60…",
+    "address": {
+      "state": "TX",
+      "full": "205 west hunt steet McKinney, FL 75069",
+      "zip": "75069"
+    },
+    "schedule": {},
+    "contact": [],
+    "requirements": null,
+    "cause_tags": [
+      "Physical Labor"
+    ],
+    "last_scraped": "2026-09-28T17:45:55.780119+00:00",
+    "status": "active",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-10-10",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-09-28T18:22:44.664009+00:00"
+    },
+    "unified_tags": [
+      "arts",
+      "community"
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.full"
+    }
+  },
+  {
     "id": "mckinney_1130592",
     "source": "volunteermckinney",
     "source_url": "https://volunteermckinney.galaxydigital.com/need/detail/?need_id=1130592",
@@ -14338,7 +14627,7 @@
       "Outdoor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:00:46.548878+00:00",
+    "last_scraped": "2026-09-28T17:46:24.585954+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -14376,7 +14665,7 @@
     "cause_tags": [
       "Advocacy"
     ],
-    "last_scraped": "2026-09-21T16:02:45.830419+00:00",
+    "last_scraped": "2026-09-28T17:47:59.376999+00:00",
     "status": "active",
     "unified_tags": [
       "animals",
@@ -14419,7 +14708,7 @@
       "Nonprofit Professional",
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:06:32.815863+00:00",
+    "last_scraped": "2026-09-28T17:51:05.226630+00:00",
     "status": "active",
     "unified_tags": [
       "animals",
@@ -14461,7 +14750,7 @@
       "In-Kind",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:05:50.599116+00:00",
+    "last_scraped": "2026-09-28T17:50:32.733016+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -14566,7 +14855,7 @@
     "source_url": "https://volunteermckinney.galaxydigital.com/need/detail/?need_id=265463",
     "org_name": "The Turning Point",
     "opportunity_title": "Social Media Ambassadors",
-    "description_long": "Turn Your Scroll Into Support Help The Turning Point reach more people across Collin County - right from your phone. Social Media Ambassadors like, share, and comment on our posts so vital resources reach people who may never find our page on their own. About 15 minutes a week. No meetings. No set schedule. Use the social media platforms you already enjoy and aim for 10 likes, 3 shares, and 3 comments each month. We provide a simple guide, monthly content highlights, and volunteer-hour documentation when needed.",
+    "description_long": "Turn Your Scroll Into Support Help The Turning Point reach more people across Collin County - right from your phone. Social Media Ambassadors like, share, and comment on our posts so vital resources reach people who may never find our page on their own. About 15 minutes a week. No meetings. No set schedule. Use the social media platforms you already enjoy and aim for 10 likes, 3 shares, and 3 comments each month. We provide a simple guide, monthly content highlights, and volunteer-hour documentation when needed. The Turning Point recognizes the pervasiveness of trauma and its varied impacts on the lives of sexual assault survivors and others we serve, and integrates this understanding into our services, policies, and practices.",
     "description_short": "Turn Your Scroll Into Support Help The Turning Point reach more people across Collin County - right from your phone. Social Media Ambassadors like, share, and comment on our posts so vital resources reach people who may never find our page on their…",
     "address": {
       "state": "TX"
@@ -14578,7 +14867,7 @@
       "Advocacy",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:01:02.725790+00:00",
+    "last_scraped": "2026-09-28T17:45:43.887585+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -14617,7 +14906,7 @@
       "Skilled Labor",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:02:27.343371+00:00",
+    "last_scraped": "2026-09-28T17:47:44.555244+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -14655,7 +14944,7 @@
     "cause_tags": [
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:06:11.603950+00:00",
+    "last_scraped": "2026-09-28T17:50:47.994586+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -14694,7 +14983,7 @@
       "Nonprofit Professional",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:02:44.681820+00:00",
+    "last_scraped": "2026-09-28T17:47:58.318706+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -14735,7 +15024,7 @@
       "Nonprofit Professional",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:05:52.616427+00:00",
+    "last_scraped": "2026-09-28T17:50:33.810428+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -14774,7 +15063,7 @@
       "In-Kind",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:05:56.445879+00:00",
+    "last_scraped": "2026-09-28T17:50:36.794751+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -14811,7 +15100,7 @@
     "cause_tags": [
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:02:29.717648+00:00",
+    "last_scraped": "2026-09-28T17:47:46.495728+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -14853,7 +15142,7 @@
     "cause_tags": [
       "Medical"
     ],
-    "last_scraped": "2026-09-21T16:04:28.111890+00:00",
+    "last_scraped": "2026-09-28T17:49:26.975582+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -14895,7 +15184,7 @@
     "cause_tags": [
       "Medical"
     ],
-    "last_scraped": "2026-09-21T16:04:31.833165+00:00",
+    "last_scraped": "2026-09-28T17:49:30.242575+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -14938,7 +15227,7 @@
       "Medical",
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:03:14.373633+00:00",
+    "last_scraped": "2026-09-28T17:48:23.288977+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -14981,7 +15270,7 @@
       "Nonprofit Professional",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:06:59.727165+00:00",
+    "last_scraped": "2026-09-28T17:51:29.433673+00:00",
     "status": "active",
     "unified_tags": [
       "disabilities",
@@ -15024,7 +15313,7 @@
       "Education",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:07:19.214841+00:00",
+    "last_scraped": "2026-09-28T17:51:45.123935+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -15066,7 +15355,7 @@
       "Education",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:06:56.343221+00:00",
+    "last_scraped": "2026-09-28T17:51:26.560648+00:00",
     "status": "active",
     "unified_tags": [
       "disabilities",
@@ -15113,7 +15402,7 @@
       "Skilled Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:32.487237+00:00",
+    "last_scraped": "2026-09-28T17:51:55.724397+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -15157,7 +15446,7 @@
       "Nonprofit Professional",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:33.808764+00:00",
+    "last_scraped": "2026-09-28T17:51:56.814474+00:00",
     "status": "active",
     "unified_tags": [
       "disabilities",
@@ -15200,7 +15489,7 @@
       "Physical Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:27.438474+00:00",
+    "last_scraped": "2026-09-28T17:51:51.895682+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -15241,7 +15530,7 @@
       "Skilled Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:25.105204+00:00",
+    "last_scraped": "2026-09-28T17:51:49.970455+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -15281,7 +15570,7 @@
       "Physical Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:26.278289+00:00",
+    "last_scraped": "2026-09-28T17:51:50.891611+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -15322,7 +15611,7 @@
       "Skilled Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:06:58.633132+00:00",
+    "last_scraped": "2026-09-28T17:51:28.496208+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -15360,7 +15649,7 @@
       "Event Support",
       "Clerical"
     ],
-    "last_scraped": "2026-09-21T16:02:33.441286+00:00",
+    "last_scraped": "2026-09-28T17:47:49.430381+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -15400,7 +15689,7 @@
     "cause_tags": [
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:05:20.742497+00:00",
+    "last_scraped": "2026-09-28T17:50:11.869750+00:00",
     "status": "active",
     "unified_tags": [
       "disabilities",
@@ -15532,7 +15821,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:01:07.238964+00:00",
+    "last_scraped": "2026-09-28T17:46:39.560583+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -15570,7 +15859,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:04:38.897698+00:00",
+    "last_scraped": "2026-09-28T17:49:36.621169+00:00",
     "status": "active",
     "unified_tags": [
       "animals",
@@ -15609,7 +15898,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:00:45.066542+00:00",
+    "last_scraped": "2026-09-28T17:46:23.585628+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -15652,7 +15941,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:05:07.769503+00:00",
+    "last_scraped": "2026-09-28T17:49:59.738213+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -15691,7 +15980,7 @@
       "In-Kind",
       "One Time"
     ],
-    "last_scraped": "2026-09-21T16:03:26.152043+00:00",
+    "last_scraped": "2026-09-28T17:48:33.396898+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -15740,7 +16029,7 @@
     "cause_tags": [
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:05:46.978636+00:00",
+    "last_scraped": "2026-09-28T17:50:30.664893+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -15782,7 +16071,7 @@
       "Social",
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:04:55.108864+00:00",
+    "last_scraped": "2026-09-28T17:49:50.422541+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -15866,7 +16155,7 @@
       "Outdoor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:00:43.944032+00:00",
+    "last_scraped": "2026-09-28T17:46:22.615264+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -15892,7 +16181,7 @@
     "id": "mckinney_1011742",
     "source": "volunteermckinney",
     "source_url": "https://volunteermckinney.galaxydigital.com/need/detail/?need_id=1011742",
-    "org_name": "Chloe and Sam Charities",
+    "org_name": "Chloe and Sam Charity is No longer available",
     "opportunity_title": "Teen Gifting: A Holiday Project for Children's Advocacy Center of Collin County",
     "description_long": "This holiday season, we have started a project, focusing on ages 13-18, for teens just like us through Children's Advocacy Center of Collin County to help support a population who may be experiencing a bit more hardships due to their circumstances. We are asking community members and businesses who may have a little extra room to gift a teenager this year to help us bring a bit more joy and happiness to them this holiday season by donating funds for their favorite gift cards, items found on the center's Amazon wish list or new items that can be brought to our donation drop box at Tye Realty Group located at 209 N Tennessee St. We truly appreciate your support! You can find more about the project and ways to give in the link below. Thank you ❤️ Chloe and Sam https://www.zeffy.com/en-US/donation-form/d2f2724f-e2f0-434d-b125-9e48ff8138c3?fbclid=IwZXh0bgNhZW0CMTEAAR06W_wq98U8xBqct0kQ5QrJdx__3YT-pSjF3ZFrHl4G_6fGQHNsIyxArK4_aem_Y3SL-bko63Sn0LiRkdu3bg",
     "description_short": "This holiday season, we have started a project, focusing on ages 13-18, for teens just like us through Children's Advocacy Center of Collin County to help support a population who may be experiencing a bit more hardships due to their circumstances.…",
@@ -15911,7 +16200,7 @@
       "Social",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:04:33.027462+00:00",
+    "last_scraped": "2026-09-28T17:49:31.507182+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -15955,7 +16244,7 @@
       "Nonprofit Professional",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:01:23.953326+00:00",
+    "last_scraped": "2026-09-28T17:46:53.037581+00:00",
     "status": "active",
     "unified_tags": [
       "arts",
@@ -15996,7 +16285,7 @@
     "cause_tags": [
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:05:26.386815+00:00",
+    "last_scraped": "2026-09-28T17:50:15.950636+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -16039,7 +16328,7 @@
       "One Time",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:06:51.583335+00:00",
+    "last_scraped": "2026-09-28T17:51:22.817775+00:00",
     "status": "active",
     "unified_tags": [
       "arts",
@@ -16107,6 +16396,49 @@
     }
   },
   {
+    "id": "mckinney_1318375",
+    "source": "volunteermckinney",
+    "source_url": "https://volunteermckinney.galaxydigital.com/need/detail/?need_id=1318375",
+    "org_name": "Heard-Craig Center for the Arts",
+    "opportunity_title": "Tulip Bulb Planting in Novemeber at the Heard Craig Center for the Arts",
+    "description_long": "Hi dear Volunteers Needed: multiple volunteers who are flexible between NOV 13th, 14th, and 15th to help beautify our garden Resposilbility is to help plant 2500 tulip bulbs. Coming in a group or in 2s is preferable. One can dig and one can plant and then switch as neded. This is an excellent opportunity for Groups and family members to help in this worth while endeavour. B ut by no means will we turn down a single volunteer away.. Our main day Nov 14th Saturday. Other days is as needed. we are trying to get 25 or more volunteers to help keep The Heard Craig grounds looking inviting to all our guests who visit or stroll around the gardenn, and you can be an integral part. The shift starts at 4 pm but you can discuss with me if that is not suitable on the 13th. The 14 th will start at 0830 and Sunday shift will begin at 2 pm Can you Help! Lynn Mayle Volunteer Coordinator",
+    "description_short": "Hi dear Volunteers Needed: multiple volunteers who are flexible between NOV 13th, 14th, and 15th to help beautify our garden Resposilbility is to help plant 2500 tulip bulbs. Coming in a group or in 2s is preferable. One can dig and one can plant…",
+    "address": {
+      "state": "TX",
+      "full": "205 West Hunt Street McKInney, TX 75069",
+      "zip": "75069",
+      "city": "McKInney"
+    },
+    "schedule": {},
+    "contact": [],
+    "requirements": "Team Size Team Size: 2 - 10 members per team Get Connected Icon Is Family Friendly Get Connected Icon Is Outdoors",
+    "cause_tags": [
+      "Physical Labor",
+      "Outdoor"
+    ],
+    "last_scraped": "2026-09-28T17:45:53.688899+00:00",
+    "status": "active",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-09-28T18:22:44.664009+00:00"
+    },
+    "unified_tags": [
+      "community",
+      "arts",
+      "environment"
+    ],
+    "geo": {
+      "city": "McKinney",
+      "state": "TX",
+      "lat": 33.19765,
+      "lng": -96.61545,
+      "precision": "city",
+      "resolved_from": "address.city"
+    }
+  },
+  {
     "id": "mckinney_279853",
     "source": "volunteermckinney",
     "source_url": "https://volunteermckinney.galaxydigital.com/need/detail/?need_id=279853",
@@ -16129,7 +16461,7 @@
       "Skilled Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:16.942011+00:00",
+    "last_scraped": "2026-09-28T17:51:43.239060+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -16168,7 +16500,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:00:42.674564+00:00",
+    "last_scraped": "2026-09-28T17:46:21.552752+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -16209,7 +16541,7 @@
       "Nonprofit Professional",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:07:20.339807+00:00",
+    "last_scraped": "2026-09-28T17:51:46.066144+00:00",
     "status": "active",
     "unified_tags": [
       "disabilities",
@@ -16253,7 +16585,7 @@
       "Nonprofit Professional"
     ],
     "last_scraped": "2026-09-21T16:00:09.252735+00:00",
-    "status": "active",
+    "status": "inactive",
     "expiry": {
       "kind": "unknown",
       "ends_on": null,
@@ -16292,7 +16624,7 @@
     "cause_tags": [
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:05:49.210521+00:00",
+    "last_scraped": "2026-09-28T17:50:31.749861+00:00",
     "status": "active",
     "unified_tags": [
       "education"
@@ -16329,7 +16661,7 @@
     "cause_tags": [
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:03:07.341860+00:00",
+    "last_scraped": "2026-09-28T17:48:17.032867+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -16372,7 +16704,7 @@
       "Bagging groceries",
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:00:18.500664+00:00",
+    "last_scraped": "2026-09-28T17:45:47.368436+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -16413,7 +16745,7 @@
       "Social",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:04:51.159252+00:00",
+    "last_scraped": "2026-09-28T17:49:47.243407+00:00",
     "status": "active",
     "unified_tags": [
       "education"
@@ -16453,7 +16785,7 @@
       "Social",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:04:52.394058+00:00",
+    "last_scraped": "2026-09-28T17:49:48.245852+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -16495,7 +16827,7 @@
       "Social",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:04:53.958759+00:00",
+    "last_scraped": "2026-09-28T17:49:49.451040+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -16534,7 +16866,7 @@
     "cause_tags": [
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:06:44.739918+00:00",
+    "last_scraped": "2026-09-28T17:51:16.909773+00:00",
     "status": "active",
     "unified_tags": [
       "animals",
@@ -16572,7 +16904,7 @@
     "cause_tags": [
       "Board Service"
     ],
-    "last_scraped": "2026-09-21T16:05:57.671889+00:00",
+    "last_scraped": "2026-09-28T17:50:37.822799+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -16658,7 +16990,7 @@
       "Event Support",
       "Nonprofit Professional"
     ],
-    "last_scraped": "2026-09-21T16:00:56.165320+00:00",
+    "last_scraped": "2026-09-28T17:46:32.499820+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -16777,7 +17109,7 @@
       "Advocacy",
       "Finance"
     ],
-    "last_scraped": "2026-09-21T16:05:28.892074+00:00",
+    "last_scraped": "2026-09-28T17:50:17.997916+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -16819,7 +17151,7 @@
     "cause_tags": [
       "Medical"
     ],
-    "last_scraped": "2026-09-21T16:05:18.456411+00:00",
+    "last_scraped": "2026-09-28T17:50:09.946707+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -16863,7 +17195,7 @@
       "Physical Labor",
       "Skilled Labor"
     ],
-    "last_scraped": "2026-09-21T16:01:16.609075+00:00",
+    "last_scraped": "2026-09-28T17:46:46.909902+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -16902,7 +17234,7 @@
       "Nonprofit Professional",
       "Technology"
     ],
-    "last_scraped": "2026-09-21T16:00:20.405358+00:00",
+    "last_scraped": "2026-09-28T17:46:04.828452+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -16946,7 +17278,7 @@
       "Physical Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:02:08.993076+00:00",
+    "last_scraped": "2026-09-28T17:47:29.559874+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -16985,7 +17317,7 @@
       "Advocacy",
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:00:37.558809+00:00",
+    "last_scraped": "2026-09-28T17:46:17.449884+00:00",
     "status": "active",
     "unified_tags": [
       "food_security",
@@ -17027,7 +17359,7 @@
     "cause_tags": [
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:00:59.649516+00:00",
+    "last_scraped": "2026-09-28T17:46:35.548120+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -17158,7 +17490,7 @@
       "Advocacy",
       "Physical Labor"
     ],
-    "last_scraped": "2026-09-21T16:00:32.269825+00:00",
+    "last_scraped": "2026-09-28T17:46:13.287070+00:00",
     "status": "active",
     "unified_tags": [
       "animals",
@@ -17241,7 +17573,7 @@
       "Outdoor",
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:00:25.899645+00:00",
+    "last_scraped": "2026-09-28T17:46:09.303292+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -17289,7 +17621,7 @@
       "Outdoor",
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:00:24.585292+00:00",
+    "last_scraped": "2026-09-28T17:46:08.291248+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -17333,7 +17665,7 @@
     "cause_tags": [
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:03:23.727670+00:00",
+    "last_scraped": "2026-09-28T17:48:31.397002+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -17377,7 +17709,7 @@
       "Skilled Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:04:00.264487+00:00",
+    "last_scraped": "2026-09-28T17:49:03.272405+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -17503,7 +17835,7 @@
     "cause_tags": [
       "Outdoor"
     ],
-    "last_scraped": "2026-09-21T16:02:05.762674+00:00",
+    "last_scraped": "2026-09-28T17:47:27.586500+00:00",
     "status": "active",
     "unified_tags": [
       "children",
@@ -17544,7 +17876,7 @@
       "Medical",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:06:50.469880+00:00",
+    "last_scraped": "2026-09-28T17:51:21.814655+00:00",
     "status": "active",
     "unified_tags": [
       "health",
@@ -17586,7 +17918,7 @@
     "cause_tags": [
       "Event Support"
     ],
-    "last_scraped": "2026-09-21T16:02:34.755689+00:00",
+    "last_scraped": "2026-09-28T17:47:50.421057+00:00",
     "status": "active",
     "unified_tags": [
       "community",
@@ -17634,7 +17966,7 @@
     "cause_tags": [
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:06:46.997132+00:00",
+    "last_scraped": "2026-09-28T17:51:18.874866+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -17680,7 +18012,7 @@
       "Physical Labor",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:00:12.330720+00:00",
+    "last_scraped": "2026-09-28T17:46:00.467672+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -17717,7 +18049,7 @@
     "cause_tags": [
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:00:41.432064+00:00",
+    "last_scraped": "2026-09-28T17:46:20.503970+00:00",
     "status": "active",
     "unified_tags": [
       "housing",
@@ -17756,7 +18088,7 @@
     "cause_tags": [
       "Finance"
     ],
-    "last_scraped": "2026-09-21T16:02:24.994932+00:00",
+    "last_scraped": "2026-09-28T17:47:41.582387+00:00",
     "status": "active",
     "unified_tags": [
       "disabilities",
@@ -17797,7 +18129,7 @@
     "cause_tags": [
       "Education"
     ],
-    "last_scraped": "2026-09-21T16:03:43.875994+00:00",
+    "last_scraped": "2026-09-28T17:48:47.807366+00:00",
     "status": "active",
     "unified_tags": [
       "education",
@@ -17840,7 +18172,7 @@
       "Outdoor",
       "Medical"
     ],
-    "last_scraped": "2026-09-21T16:03:42.658393+00:00",
+    "last_scraped": "2026-09-28T17:48:46.447673+00:00",
     "status": "active",
     "unified_tags": [
       "animals",
@@ -17882,7 +18214,7 @@
       "Medical",
       "In-Kind"
     ],
-    "last_scraped": "2026-09-21T16:03:12.035818+00:00",
+    "last_scraped": "2026-09-28T17:48:21.270394+00:00",
     "status": "active",
     "unified_tags": [
       "health"
@@ -17922,7 +18254,7 @@
     "cause_tags": [
       "Medical"
     ],
-    "last_scraped": "2026-09-21T16:01:59.012774+00:00",
+    "last_scraped": "2026-09-28T17:47:22.449955+00:00",
     "status": "active",
     "unified_tags": [
       "health"
@@ -17962,7 +18294,7 @@
     "cause_tags": [
       "Skilled Labor"
     ],
-    "last_scraped": "2026-09-21T16:02:00.154433+00:00",
+    "last_scraped": "2026-09-28T17:47:23.545357+00:00",
     "status": "active",
     "unified_tags": [
       "community"
@@ -18003,7 +18335,7 @@
       "Advocacy",
       "Social"
     ],
-    "last_scraped": "2026-09-21T16:04:22.788408+00:00",
+    "last_scraped": "2026-09-28T17:49:22.181557+00:00",
     "status": "active",
     "unified_tags": [
       "seniors",
