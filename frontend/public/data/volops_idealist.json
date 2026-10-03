@@ -60128,6 +60128,13 @@
       "lng": -97.2289,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-10-02)",
+      "model": "expiry-rule",
+      "checked_at": "2026-10-03T11:34:51.223393+00:00"
     }
   },
   {
