@@ -527,6 +527,13 @@
       "lng": -96.79686,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-10-03)",
+      "model": "expiry-rule",
+      "checked_at": "2026-10-04T12:16:16.957089+00:00"
     }
   },
   {
@@ -15761,6 +15768,13 @@
       "lng": null,
       "precision": "virtual",
       "resolved_from": "location.virtual"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-10-03)",
+      "model": "expiry-rule",
+      "checked_at": "2026-10-04T12:16:16.957089+00:00"
     }
   },
   {
