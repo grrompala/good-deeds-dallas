@@ -13707,6 +13707,13 @@
       "lng": null,
       "precision": "unknown",
       "resolved_from": null
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-10-10)",
+      "model": "expiry-rule",
+      "checked_at": "2026-10-11T12:42:34.679102+00:00"
     }
   },
   {
