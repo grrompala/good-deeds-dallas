@@ -134,6 +134,13 @@
       "lng": -96.69251,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-10-17)",
+      "model": "expiry-rule",
+      "checked_at": "2026-10-18T10:58:35.033075+00:00"
     }
   },
   {
@@ -20398,6 +20405,13 @@
       "lng": -96.72972,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-10-17)",
+      "model": "expiry-rule",
+      "checked_at": "2026-10-18T10:58:35.033075+00:00"
     }
   },
   {
@@ -60078,6 +60092,13 @@
       "lng": -96.99778,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-10-17)",
+      "model": "expiry-rule",
+      "checked_at": "2026-10-18T10:58:35.033075+00:00"
     }
   },
   {
@@ -60120,6 +60141,13 @@
       "lng": -96.99778,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-10-17)",
+      "model": "expiry-rule",
+      "checked_at": "2026-10-18T10:58:35.033075+00:00"
     }
   },
   {
@@ -60161,6 +60189,13 @@
       "lng": -96.99778,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-10-17)",
+      "model": "expiry-rule",
+      "checked_at": "2026-10-18T10:58:35.033075+00:00"
     }
   },
   {
@@ -60280,6 +60315,13 @@
       "lng": -96.99778,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-10-17)",
+      "model": "expiry-rule",
+      "checked_at": "2026-10-18T10:58:35.033075+00:00"
     }
   },
   {
@@ -60321,6 +60363,13 @@
       "lng": -96.99778,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-10-17)",
+      "model": "expiry-rule",
+      "checked_at": "2026-10-18T10:58:35.033075+00:00"
     }
   },
   {
@@ -67774,6 +67823,13 @@
       "lng": -97.01557,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-10-17)",
+      "model": "expiry-rule",
+      "checked_at": "2026-10-18T10:58:35.033075+00:00"
     }
   },
   {

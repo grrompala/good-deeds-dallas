@@ -12283,6 +12283,13 @@
       "lng": -96.61545,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-10-17)",
+      "model": "expiry-rule",
+      "checked_at": "2026-10-18T10:58:35.159742+00:00"
     }
   },
   {
