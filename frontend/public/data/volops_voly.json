@@ -4841,6 +4841,13 @@
       "lng": null,
       "precision": "virtual",
       "resolved_from": "location.virtual"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-10-19)",
+      "model": "expiry-rule",
+      "checked_at": "2026-10-20T11:29:08.023169+00:00"
     }
   },
   {
