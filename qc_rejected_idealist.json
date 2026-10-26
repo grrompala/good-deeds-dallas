@@ -436,7 +436,7 @@
     "org_name": "Valor Hospice",
     "opportunity_title": "Arlington Patient Care",
     "category": "duplicate",
-    "reason": "duplicate of idealist_a5ac8594c4e94e958f75bd0e3e725ecb — same org/title/description, no distinguishing schedule",
+    "reason": "duplicate of idealist_d0bfc78c15ad4a19b91ec323c3b368c5 — same org/title/description, no distinguishing schedule",
     "source_url": "https://www.idealist.org/en/volunteer-opportunity/fc9a5d0a7a6848c3ab5b401ec1db8952-arlington-patient-care-valor-hospice-arlington"
   },
   {
@@ -1624,6 +1624,14 @@
     "source_url": "https://www.idealist.org/en/volunteer-opportunity/6e2c849d9c85466dadef811a6c9fe375-food-fight-2026-north-texas-giving-day-event-independence-gardens-dallas"
   },
   {
+    "id": "idealist_d9febdcbdb6b40938349184fe1e6a2f0",
+    "org_name": "Catholic Charities Dallas",
+    "opportunity_title": "Food Pantry Assistant @ Jan Pruitt Pantry",
+    "category": "expired",
+    "reason": "event date passed (2026-10-24)",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/d9febdcbdb6b40938349184fe1e6a2f0-food-pantry-assistant-jan-pruitt-pantry-catholic-charities-dallas-lancaster"
+  },
+  {
     "id": "idealist_24e1c114054042dea1002096cbdf4000",
     "org_name": "Sharing Life Community Outreach",
     "opportunity_title": "Food Pantry Volunteer - Afternoon",
@@ -1707,16 +1715,16 @@
     "id": "idealist_1d4278a158bc4901b078ba8e73417235",
     "org_name": "NorthWest Student Exchange",
     "opportunity_title": "Frisco, TX: Seeking Host Families: Host a Foreign Exchange Student Frisco, TX and surrounding areas!",
-    "category": "expired",
-    "reason": "event date passed (2026-04-23)",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_88662ea9d7394346a1fb50d9b1ace917 — same org/title/description, no distinguishing schedule",
     "source_url": "https://www.idealist.org/en/volunteer-opportunity/1d4278a158bc4901b078ba8e73417235-frisco-tx-seeking-host-families-host-a-foreign-exchange-student-frisco-tx-and-surrounding-areas-northwest-student-exchange-frisco"
   },
   {
     "id": "idealist_c7669378afe34b3fb5f59c9571f741a3",
     "org_name": "NorthWest Student Exchange",
     "opportunity_title": "Frisco, TX: Seeking Host Families: Host a Foreign Exchange Student Frisco, TX and surrounding areas!",
-    "category": "expired",
-    "reason": "event date passed (2026-04-23)",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_88662ea9d7394346a1fb50d9b1ace917 — same org/title/description, no distinguishing schedule",
     "source_url": "https://www.idealist.org/en/volunteer-opportunity/c7669378afe34b3fb5f59c9571f741a3-frisco-tx-seeking-host-families-host-a-foreign-exchange-student-frisco-tx-and-surrounding-areas-northwest-student-exchange-frisco"
   },
   {
@@ -2062,6 +2070,238 @@
     "category": "duplicate",
     "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
     "source_url": "https://www.idealist.org/en/volunteer-opportunity/2e9d191432d0475abe478a89d7bbea78-help-your-students-connect-host-an-international-exchange-student-anb-education-irving"
+  },
+  {
+    "id": "idealist_e1f5e86f28544bb7b99aad469dfd93a9",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/e1f5e86f28544bb7b99aad469dfd93a9-help-your-students-connect-host-an-international-exchange-student-anb-education-farmers-branch"
+  },
+  {
+    "id": "idealist_323cb0be75db44f993843c24c8adbb51",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/323cb0be75db44f993843c24c8adbb51-help-your-students-connect-host-an-international-exchange-student-anb-education-coppell"
+  },
+  {
+    "id": "idealist_823fbd09a25d42e09be36b0668362293",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/823fbd09a25d42e09be36b0668362293-help-your-students-connect-host-an-international-exchange-student-anb-education-duncanville"
+  },
+  {
+    "id": "idealist_056cae2043924e089269e9da0fff5901",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/056cae2043924e089269e9da0fff5901-help-your-students-connect-host-an-international-exchange-student-anb-education-lancaster"
+  },
+  {
+    "id": "idealist_728ecd75c09945809c53f4f91cffd560",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/728ecd75c09945809c53f4f91cffd560-help-your-students-connect-host-an-international-exchange-student-anb-education-cedar-hill"
+  },
+  {
+    "id": "idealist_864de59efbb94bddb48fb80087404073",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/864de59efbb94bddb48fb80087404073-help-your-students-connect-host-an-international-exchange-student-anb-education-desoto"
+  },
+  {
+    "id": "idealist_e0c94ecc24574899b1974b0a300c306a",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/e0c94ecc24574899b1974b0a300c306a-help-your-students-connect-host-an-international-exchange-student-anb-education-euless"
+  },
+  {
+    "id": "idealist_879553cef34d4226a35c8e43e5cc98e9",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/879553cef34d4226a35c8e43e5cc98e9-help-your-students-connect-host-an-international-exchange-student-anb-education-rowlett"
+  },
+  {
+    "id": "idealist_fe91bdfd15ed44bcbc0f1057d274b0e1",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/fe91bdfd15ed44bcbc0f1057d274b0e1-help-your-students-connect-host-an-international-exchange-student-anb-education-richardson"
+  },
+  {
+    "id": "idealist_f5adecf5158c4aa4bd43a09c18389f9f",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/f5adecf5158c4aa4bd43a09c18389f9f-help-your-students-connect-host-an-international-exchange-student-anb-education-carrollton"
+  },
+  {
+    "id": "idealist_7f580698b58647fe83ce51a23b63cda5",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/7f580698b58647fe83ce51a23b63cda5-help-your-students-connect-host-an-international-exchange-student-anb-education-mesquite"
+  },
+  {
+    "id": "idealist_865906e4ef004daf83395454ce2f2dc6",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/865906e4ef004daf83395454ce2f2dc6-help-your-students-connect-host-an-international-exchange-student-anb-education-grand-prairie"
+  },
+  {
+    "id": "idealist_96fcf7f60c7144468f47902c5bf55e96",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/96fcf7f60c7144468f47902c5bf55e96-help-your-students-connect-host-an-international-exchange-student-anb-education-garland"
+  },
+  {
+    "id": "idealist_283a0ccb88d94cfdb6db803dfcbab0ef",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/283a0ccb88d94cfdb6db803dfcbab0ef-help-your-students-connect-host-an-international-exchange-student-anb-education-plano"
+  },
+  {
+    "id": "idealist_2e03a1d395ec44a4a221fdab53c65dab",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/2e03a1d395ec44a4a221fdab53c65dab-help-your-students-connect-host-an-international-exchange-student-anb-education-arlington"
+  },
+  {
+    "id": "idealist_ff98a18363e4491b98441f2749f74177",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/ff98a18363e4491b98441f2749f74177-help-your-students-connect-host-an-international-exchange-student-anb-education-hurst"
+  },
+  {
+    "id": "idealist_52c62cfcf08940a689c28dbda7a1fa26",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/52c62cfcf08940a689c28dbda7a1fa26-help-your-students-connect-host-an-international-exchange-student-anb-education-the-colony"
+  },
+  {
+    "id": "idealist_9c6f8c6e9cd24544b64d8f66db97e79c",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/9c6f8c6e9cd24544b64d8f66db97e79c-help-your-students-connect-host-an-international-exchange-student-anb-education-haltom-city"
+  },
+  {
+    "id": "idealist_4cdcf6697f5c457989f7203a7a402cb5",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/4cdcf6697f5c457989f7203a7a402cb5-help-your-students-connect-host-an-international-exchange-student-anb-education-rockwall"
+  },
+  {
+    "id": "idealist_3bc1320b9afa4f4c90eb4da812979e7f",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/3bc1320b9afa4f4c90eb4da812979e7f-help-your-students-connect-host-an-international-exchange-student-anb-education-keller"
+  },
+  {
+    "id": "idealist_bf5fc3cfd31648059b0d1edebc5ea38b",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/bf5fc3cfd31648059b0d1edebc5ea38b-help-your-students-connect-host-an-international-exchange-student-anb-education-wylie"
+  },
+  {
+    "id": "idealist_a341c0a3ff8841b4973c2cb39ee42693",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/a341c0a3ff8841b4973c2cb39ee42693-help-your-students-connect-host-an-international-exchange-student-anb-education-bedford"
+  },
+  {
+    "id": "idealist_fd39b0f28743447e9b16829005e4c7ac",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/fd39b0f28743447e9b16829005e4c7ac-help-your-students-connect-host-an-international-exchange-student-anb-education-grapevine"
+  },
+  {
+    "id": "idealist_a11040b3fb454ff58a7f765991f1251f",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/a11040b3fb454ff58a7f765991f1251f-help-your-students-connect-host-an-international-exchange-student-anb-education-mansfield"
+  },
+  {
+    "id": "idealist_583842d338174427a96a63ac316cd24f",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/583842d338174427a96a63ac316cd24f-help-your-students-connect-host-an-international-exchange-student-anb-education-north-richland-hills"
+  },
+  {
+    "id": "idealist_bb5cbeee204f4b2fb56e3cf66175b2c9",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/bb5cbeee204f4b2fb56e3cf66175b2c9-help-your-students-connect-host-an-international-exchange-student-anb-education-flower-mound"
+  },
+  {
+    "id": "idealist_d6217fa2ebf14143afed0ef1edc6299e",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/d6217fa2ebf14143afed0ef1edc6299e-help-your-students-connect-host-an-international-exchange-student-anb-education-allen"
+  },
+  {
+    "id": "idealist_68cb7548cd354a5b9aa0645dfb290b45",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/68cb7548cd354a5b9aa0645dfb290b45-help-your-students-connect-host-an-international-exchange-student-anb-education-lewisville"
+  },
+  {
+    "id": "idealist_bfdc52df5c8848e884028941019ea421",
+    "org_name": "AnB Education",
+    "opportunity_title": "Help Your Students Connect: Host an International Exchange Student!",
+    "category": "duplicate",
+    "reason": "duplicate of idealist_f19005eec1764369a1f7bfd4477d9489 — same org/title/description, no distinguishing schedule",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/bfdc52df5c8848e884028941019ea421-help-your-students-connect-host-an-international-exchange-student-anb-education-frisco"
   },
   {
     "id": "idealist_d180bed438894cfbae0e3be582d4df9e",
@@ -2478,6 +2718,14 @@
     "category": "expired",
     "reason": "event date passed (2026-08-20)",
     "source_url": "https://www.idealist.org/en/volunteer-opportunity/e0afe5c26ba1443b9dd198f8abb9c407-jerry-sullivan-moving-forward-scholarship-annual-awards-transition-resource-action-center-dallas"
+  },
+  {
+    "id": "idealist_8429989d06ec4d87a1706cd335048ebc",
+    "org_name": "Catholic Charities Dallas",
+    "opportunity_title": "Joe's Pantry Volunteer Pantry Assistant",
+    "category": "expired",
+    "reason": "event date passed (2026-10-24)",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/8429989d06ec4d87a1706cd335048ebc-joes-pantry-volunteer-pantry-assistant-catholic-charities-dallas-dallas"
   },
   {
     "id": "idealist_724a6759b5584529b96601ff294c5e31",
@@ -3798,6 +4046,14 @@
     "category": "expired",
     "reason": "event date passed (2026-08-01)",
     "source_url": "https://www.idealist.org/en/volunteer-opportunity/03cfccf7927b4ce7909aabd8eef8581f-social-media-graphic-designers-and-influencers-need-for-youth-organization-helping-to-live-omi-national-youth-week-dallas"
+  },
+  {
+    "id": "idealist_f6713739cf4a460bba998fe3d1f5dd33",
+    "org_name": "Menzies Philanthropic Foundation",
+    "opportunity_title": "Software Tester (Unpaid Volunteer Position)",
+    "category": "expired",
+    "reason": "event date passed (2026-10-21)",
+    "source_url": "https://www.idealist.org/en/volunteer-opportunity/f6713739cf4a460bba998fe3d1f5dd33-software-tester-unpaid-volunteer-position-menzies-philanthropic-foundation-little-elm"
   },
   {
     "id": "idealist_157053c0cc9f4924b42af5d3aaf8501a",

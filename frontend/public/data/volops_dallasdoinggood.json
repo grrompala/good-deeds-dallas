@@ -2,7 +2,7 @@
   {
     "id": "dallasdoinggood_body-soul-homeless-program",
     "source": "dallasdoinggood",
-    "source_url": "https://dallasdoinggood.com/event/body-soul-homeless-program/2026-08-01/",
+    "source_url": "https://dallasdoinggood.com/event/body-soul-homeless-program/2026-10-31/",
     "org_name": "Body & Soul Dallas",
     "org_url": "https://www.bodyandsouldallas.org/",
     "opportunity_title": "Body & Soul Homeless Program",
@@ -13,31 +13,31 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 01, 2026",
+      "date": "Oct 31, 2026",
       "time": "7:00 AM - 9:00 AM",
       "duration": null,
       "recurring": true,
-      "raw": "Aug 01, 2026 | Weekly on Sat | 7:00 AM - 9:00 AM"
+      "raw": "Oct 31, 2026 | Weekly on Sat | 7:00 AM - 9:00 AM"
     },
     "address": {
-      "full": "Body & Soul Homeless Program",
+      "full": "Body &amp; Soul Homeless Program",
       "city": "Dallas",
       "state": "TX",
       "zip": "75252"
     },
-    "status": "inactive",
-    "last_scraped": "2026-07-29T02:30:45.563025+00:00",
+    "status": "active",
+    "last_scraped": "2026-10-26T16:23:18.046338+00:00",
+    "unified_tags": [
+      "housing",
+      "community",
+      "crisis_support"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-29T02:36:37.125430+00:00"
     },
-    "unified_tags": [
-      "housing",
-      "community",
-      "crisis_support"
-    ],
     "geo": {
       "city": "Dallas",
       "state": "TX",
@@ -50,7 +50,7 @@
   {
     "id": "dallasdoinggood_boomerjacks-feed-the-city",
     "source": "dallasdoinggood",
-    "source_url": "https://dallasdoinggood.com/event/boomerjacks-feed-the-city/2026-08-08/",
+    "source_url": "https://dallasdoinggood.com/event/boomerjacks-feed-the-city/2026-11-14/",
     "org_name": "BoomerJacks",
     "org_url": "https://www.eventbrite.com/e/feed-the-city-tickets-326219560487?aff=ebdssbdestsearch",
     "opportunity_title": "BoomerJacks – Feed The City",
@@ -62,30 +62,30 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 08, 2026",
+      "date": "Nov 14, 2026",
       "time": "8:30 AM - 10:30 AM",
       "duration": null,
       "recurring": true,
-      "raw": "Aug 08, 2026 | Weekly on Sat | 8:30 AM - 10:30 AM"
+      "raw": "Nov 14, 2026 | Weekly on Sat | 8:30 AM - 10:30 AM"
     },
     "address": {
-      "full": "BoomerJack’s Grill & Bar",
+      "full": "BoomerJack&#8217;s Grill &#038; Bar",
       "city": "Bedford",
       "state": "TX",
       "zip": "76022"
     },
-    "status": "inactive",
-    "last_scraped": "2026-07-29T02:30:45.564141+00:00",
+    "status": "active",
+    "last_scraped": "2026-10-26T16:23:18.046519+00:00",
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-29T02:36:37.125430+00:00"
     },
-    "unified_tags": [
-      "food_security",
-      "community"
-    ],
     "geo": {
       "city": "Bedford",
       "state": "TX",
@@ -98,7 +98,7 @@
   {
     "id": "dallasdoinggood_brother-bills-helping-hand-food-pantry",
     "source": "dallasdoinggood",
-    "source_url": "https://dallasdoinggood.com/event/brother-bills-helping-hand-food-pantry/2026-07-30/",
+    "source_url": "https://dallasdoinggood.com/event/brother-bills-helping-hand-food-pantry/2026-10-29/",
     "org_name": "Brother Bill’s Helping Hand Food Pantry",
     "org_url": "https://fwddfw.vomo.org/opportunity/thursday-in-person-grocery-store",
     "opportunity_title": "Brother Bill’s Helping Hand Food Pantry",
@@ -110,11 +110,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Jul 30, 2026",
+      "date": "Oct 29, 2026",
       "time": "8:30 AM - 12:00 PM",
       "duration": null,
       "recurring": true,
-      "raw": "Jul 30, 2026 | Weekly on Thu | 8:30 AM - 12:00 PM"
+      "raw": "Oct 29, 2026 | Weekly on Thu | 8:30 AM - 12:00 PM"
     },
     "address": {
       "full": "3906 North Westmoreland Road, Dallas, TX, 75212",
@@ -122,18 +122,18 @@
       "state": "TX",
       "zip": "75212"
     },
-    "status": "inactive",
-    "last_scraped": "2026-07-29T02:30:45.559573+00:00",
+    "status": "active",
+    "last_scraped": "2026-10-26T16:23:18.045598+00:00",
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-29T02:36:37.125430+00:00"
     },
-    "unified_tags": [
-      "food_security",
-      "community"
-    ],
     "geo": {
       "city": "Dallas",
       "state": "TX",
@@ -146,7 +146,7 @@
   {
     "id": "dallasdoinggood_cedar-ridge-preserve-conservation-in-action-volunteer-work-day",
     "source": "dallasdoinggood",
-    "source_url": "https://dallasdoinggood.com/event/cedar-ridge-preserve-conservation-in-action-volunteer-work-day/2026-08-15/",
+    "source_url": "https://dallasdoinggood.com/event/cedar-ridge-preserve-conservation-in-action-volunteer-work-day/2026-11-21/",
     "org_name": "Cedar Ridge Preserve",
     "org_url": "https://www.eventbrite.com/e/conservation-in-action-volunteer-work-day-tickets-454907098377?aff=ebdssbdestsearch",
     "opportunity_title": "Cedar Ridge Preserve – Conservation In Action Volunteer Work Day",
@@ -158,44 +158,44 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 15, 2026",
+      "date": "Nov 21, 2026",
       "time": "9:00 AM - 12:00 PM",
       "duration": null,
       "recurring": true,
-      "raw": "Aug 15, 2026 | Weekly on Sat | 9:00 AM - 12:00 PM"
+      "raw": "Nov 21, 2026 | Weekly on Sat | 9:00 AM - 12:00 PM"
     },
     "address": {
       "full": "Cedar Ridge Preserve",
-      "city": "Dallas",
+      "city": null,
       "state": "TX",
-      "zip": "75249"
+      "zip": null
     },
-    "status": "inactive",
-    "last_scraped": "2026-07-29T02:30:45.565023+00:00",
+    "status": "active",
+    "last_scraped": "2026-10-26T16:23:18.046696+00:00",
+    "unified_tags": [
+      "environment",
+      "education",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-29T02:36:37.125430+00:00"
     },
-    "unified_tags": [
-      "environment",
-      "education",
-      "community"
-    ],
     "geo": {
-      "city": "Dallas",
-      "state": "TX",
-      "lat": 32.77627,
-      "lng": -96.79686,
-      "precision": "city",
-      "resolved_from": "address.city"
+      "city": null,
+      "state": null,
+      "lat": null,
+      "lng": null,
+      "precision": "unknown",
+      "resolved_from": null
     }
   },
   {
     "id": "dallasdoinggood_feed-the-city-irving-tx-2-2",
     "source": "dallasdoinggood",
-    "source_url": "https://dallasdoinggood.com/event/feed-the-city-irving-tx-2-2/2026-08-22/",
+    "source_url": "https://dallasdoinggood.com/event/feed-the-city-irving-tx-2-2/2026-11-28/",
     "org_name": "Feed the City",
     "org_url": "https://www.eventbrite.com/e/feed-the-city-irving-tickets-640917109327",
     "opportunity_title": "Feed the City – Irving, TX",
@@ -206,11 +206,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Aug 22, 2026",
+      "date": "Nov 28, 2026",
       "time": "8:00 AM - 10:00 AM",
       "duration": null,
       "recurring": true,
-      "raw": "Aug 22, 2026 | Weekly on Sat | 8:00 AM - 10:00 AM"
+      "raw": "Nov 28, 2026 | Weekly on Sat | 8:00 AM - 10:00 AM"
     },
     "address": {
       "full": null,
@@ -218,18 +218,18 @@
       "state": "TX",
       "zip": null
     },
-    "status": "inactive",
-    "last_scraped": "2026-07-29T02:30:45.566144+00:00",
+    "status": "active",
+    "last_scraped": "2026-10-26T16:23:18.046987+00:00",
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-29T02:36:37.125430+00:00"
     },
-    "unified_tags": [
-      "food_security",
-      "community"
-    ],
     "geo": {
       "city": null,
       "state": null,
@@ -242,7 +242,7 @@
   {
     "id": "dallasdoinggood_food-distribution",
     "source": "dallasdoinggood",
-    "source_url": "https://dallasdoinggood.com/event/food-distribution/2026-07-29/",
+    "source_url": "https://dallasdoinggood.com/event/food-distribution/2026-10-26/",
     "org_name": "Cedar Hill Shares",
     "org_url": "https://cedarhillshares.org/",
     "opportunity_title": "Food Distribution",
@@ -254,11 +254,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Jul 29, 2026",
+      "date": "Oct 26, 2026",
       "time": "10:00 AM - 3:30 PM",
       "duration": null,
       "recurring": true,
-      "raw": "Jul 29, 2026 | Weekly on Mon & Wed | 10:00 AM - 3:30 PM"
+      "raw": "Oct 26, 2026 | Weekly on Mon & Wed | 10:00 AM - 3:30 PM"
     },
     "address": {
       "full": "Cedar Hill Shares Food Pantry",
@@ -266,18 +266,18 @@
       "state": "TX",
       "zip": "75104"
     },
-    "status": "inactive",
-    "last_scraped": "2026-07-29T02:30:45.556887+00:00",
+    "status": "active",
+    "last_scraped": "2026-10-26T16:23:18.043512+00:00",
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-29T02:36:37.125430+00:00"
     },
-    "unified_tags": [
-      "food_security",
-      "community"
-    ],
     "geo": {
       "city": "Cedar Hill",
       "state": "TX",
@@ -290,7 +290,7 @@
   {
     "id": "dallasdoinggood_job-training-for-adults-with-special-needs",
     "source": "dallasdoinggood",
-    "source_url": "https://dallasdoinggood.com/event/job-training-for-adults-with-special-needs/2026-07-28/",
+    "source_url": "https://dallasdoinggood.com/event/job-training-for-adults-with-special-needs/2026-10-27/",
     "org_name": "HUGS Cafe",
     "org_url": "https://hugscafe.org/training-academy/",
     "opportunity_title": "Job Training for Adults with Special Needs",
@@ -302,11 +302,11 @@
     ],
     "is_virtual": false,
     "schedule": {
-      "date": "Jul 28, 2026",
+      "date": "Oct 27, 2026",
       "time": "10:00 AM - 3:00 PM",
       "duration": null,
       "recurring": true,
-      "raw": "Jul 28, 2026 | Weekly on Tue & Thu | 10:00 AM - 3:00 PM"
+      "raw": "Oct 27, 2026 | Weekly on Tue & Thu | 10:00 AM - 3:00 PM"
     },
     "address": {
       "full": "11830 Webb Chapel Rd #1200 Dallas, TX 75234",
@@ -314,19 +314,19 @@
       "state": "TX",
       "zip": "75234"
     },
-    "status": "inactive",
-    "last_scraped": "2026-07-29T02:30:45.551735+00:00",
+    "status": "active",
+    "last_scraped": "2026-10-26T16:23:18.044878+00:00",
+    "unified_tags": [
+      "disabilities",
+      "education",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": null,
       "model": "rule",
       "checked_at": "2026-07-29T02:36:37.125430+00:00"
     },
-    "unified_tags": [
-      "disabilities",
-      "education",
-      "community"
-    ],
     "geo": {
       "city": "Dallas",
       "state": "TX",
