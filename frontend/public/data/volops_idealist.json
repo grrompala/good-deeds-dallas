@@ -65596,6 +65596,13 @@
       "lng": -97.33275,
       "precision": "city",
       "resolved_from": "address.city"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-10-28)",
+      "model": "expiry-rule",
+      "checked_at": "2026-10-29T12:53:33.892073+00:00"
     }
   },
   {
