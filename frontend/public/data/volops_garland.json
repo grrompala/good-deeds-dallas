@@ -4013,6 +4013,13 @@
       "lng": -96.63888,
       "precision": "city",
       "resolved_from": "org_name"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-10-30)",
+      "model": "expiry-rule",
+      "checked_at": "2026-10-31T12:17:32.259760+00:00"
     }
   },
   {
