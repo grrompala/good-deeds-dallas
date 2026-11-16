@@ -20,11 +20,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Teaching/Training",
       "Teaching/TrainingProgramCity of Garland",
+      "Teaching/Training",
       "Instagram"
     ],
-    "last_scraped": "2026-11-02T19:38:01.438199+00:00",
+    "last_scraped": "2026-11-16T19:43:46.841697+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -44,6 +44,56 @@
       "lng": -96.63888,
       "precision": "city",
       "resolved_from": "org_name"
+    }
+  },
+  {
+    "id": "garland_1341923",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1341923",
+    "org_name": "Community Partners",
+    "opportunity_title": "5 Loaves Ministries: Help Families in Need",
+    "description_long": "5 Loaves Ministries: Help Families in Need Organization: 5 Loaves Ministries Location: 4401 Williford Road, Sachse, TX 75048 Opportunity Type: Ongoing Community Service Schedule: Volunteer opportunities and availability are managed directly by 5 Loaves Ministries. About 5 Loaves Ministries 5 Loaves Ministries is a faith-based nonprofit organization serving families and individuals experiencing food insecurity and other challenges in Sachse, Garland, Rowlett, Wylie, Murphy, Richardson, and surrounding communities. Through its food pantry and community support programs, 5 Loaves Ministries helps neighbors meet essential needs while providing opportunities for greater stability and independence. Its services include: Food Pantry: Distributes groceries, fresh produce, and other essential food items to families in need. Baby Basics Bank: Provides diapers, wipes, and other necessities for families with young children. Clothing Closet: Helps individuals and families access clothing through a partnership with the Sachse Lions Club. Pet Pantry: Provides pet food to help families care for their animals. Community Garden: Grows fresh produce with the help of community volunteers. Mustard Seed Project: Offers mentorship and practical support to help individuals and families work toward greater stability. Transition to Life Programs: Provides learning and work experience opportunities for students with special needs. How Volunteers Can Help 5 Loaves Ministries welcomes individuals, families, students, businesses, churches, and community groups interested in serving their neighbors. Depending on the organization's current needs, volunteers may assist with preparing food distributions, organizing donations, stocking shelves, distributing groceries, helping with community garden activities, and supporting other ministry programs. Volunteer assignments, eligibility requirements, and available shifts are coordinated directly by 5 Loaves Ministries. How to Get Involved Learn more about the organization: https://5loavesministries.org/ View volunteer opportunities and register: https://5loavesfoodpantry.galaxydigital.com/ Volunteers should use the 5 Loaves Ministries volunteer platform to create an account, review available opportunities, complete any required forms, and register directly with the organization. Contact Information 5 Loaves Ministries 4401 Williford Road Sachse, TX 75048 Point of Contact: Rebekah Rodgers Email: rebekah@5loavesministries.org Phone: 469-767-8071 Please Note: This opportunity is shared by Volunteer Garland as a community service resource. Volunteer registration, scheduling, supervision, and service hour verification are managed directly by 5 Loaves Ministries.",
+    "description_short": "5 Loaves Ministries: Help Families in Need Organization: 5 Loaves Ministries Location: 4401 Williford Road, Sachse, TX 75048 Opportunity Type: Ongoing Community Service Schedule: Volunteer opportunities and availability are managed directly by 5…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Nov 30, 2027"
+    },
+    "contact": [
+      {
+        "email": "rebekah@5loavesministries.org",
+        "phone": "4697678071",
+        "raw": "Site Supervisor Clipboard 1 Shift Rebekah Rodgers Envelope 1 Shift rebekah@5loavesministries.org Phone Shift 4697678071"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "General Physical LaborAdministrative/Clerical SupportProgramCommunity Partners",
+      "General Physical LaborAdministrative/Clerical Support",
+      "Instagram",
+      "Administrative/Clerical Support",
+      "General Physical Labor"
+    ],
+    "last_scraped": "2026-11-16T19:43:56.555357+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": "2027-11-30",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-11-16T20:20:29.846352+00:00"
+    },
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -67,11 +117,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Instagram",
       "Physical LaborProgramVolunteer Litter Program",
-      "Physical Labor"
+      "Physical Labor",
+      "Instagram"
     ],
-    "last_scraped": "2026-11-02T19:37:40.441392+00:00",
+    "last_scraped": "2026-11-16T19:43:25.030878+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -114,13 +164,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
-      "Physical Labor",
-      "SocialPhysical Labor",
       "SocialPhysical LaborProgramGarland Public Libraries",
-      "Instagram"
+      "SocialPhysical Labor",
+      "Instagram",
+      "Physical Labor",
+      "Social"
     ],
-    "last_scraped": "2026-11-02T19:37:45.165779+00:00",
+    "last_scraped": "2026-11-16T19:43:29.685905+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -164,11 +214,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Instagram",
       "Skilled LaborProgramGarland Public Libraries",
-      "Skilled Labor"
+      "Skilled Labor",
+      "Instagram"
     ],
-    "last_scraped": "2026-11-02T19:37:44.270463+00:00",
+    "last_scraped": "2026-11-16T19:43:28.821473+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -212,11 +262,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Instagram",
+      "Skilled Labor",
       "Skilled LaborProgramCity of Garland",
-      "Skilled Labor"
+      "Instagram"
     ],
-    "last_scraped": "2026-11-02T19:37:47.773017+00:00",
+    "last_scraped": "2026-11-16T19:43:32.308137+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -266,7 +316,7 @@
       "Physical LaborSocial"
     ],
     "last_scraped": "2026-11-02T19:37:33.093176+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [
@@ -367,11 +417,11 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "SocialProgramCity of Garland",
       "Social",
+      "SocialProgramCity of Garland",
       "Instagram"
     ],
-    "last_scraped": "2026-11-02T19:37:52.079762+00:00",
+    "last_scraped": "2026-11-16T19:43:37.062051+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -467,22 +517,22 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Nonprofit Professional",
       "Data Entry",
+      "Translation/Interpretation",
       "Clerical",
-      "Administrative/Clerical SupportClericalCustomer Service/Front DeskData EntryMarketingNonprofit ProfessionalNonprofit/Community OrganizingPublic Speaking/OutreachTechnologyTechnology SupportTranslation/Interpretation",
-      "Marketing",
       "Nonprofit/Community Organizing",
+      "Administrative/Clerical SupportClericalCustomer Service/Front DeskData EntryMarketingNonprofit ProfessionalNonprofit/Community OrganizingPublic Speaking/OutreachTechnologyTechnology SupportTranslation/InterpretationProgramCity of Garland",
+      "Public Speaking/Outreach",
       "Technology",
       "Technology Support",
-      "Translation/Interpretation",
-      "Administrative/Clerical Support",
-      "Administrative/Clerical SupportClericalCustomer Service/Front DeskData EntryMarketingNonprofit ProfessionalNonprofit/Community OrganizingPublic Speaking/OutreachTechnologyTechnology SupportTranslation/InterpretationProgramCity of Garland",
-      "Customer Service/Front Desk",
       "Instagram",
-      "Public Speaking/Outreach"
+      "Customer Service/Front Desk",
+      "Administrative/Clerical Support",
+      "Administrative/Clerical SupportClericalCustomer Service/Front DeskData EntryMarketingNonprofit ProfessionalNonprofit/Community OrganizingPublic Speaking/OutreachTechnologyTechnology SupportTranslation/Interpretation",
+      "Marketing",
+      "Nonprofit Professional"
     ],
-    "last_scraped": "2026-11-02T19:37:59.429477+00:00",
+    "last_scraped": "2026-11-16T19:43:44.913852+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -525,15 +575,15 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
+      "ClericalCustomer Service/Front DeskData EntryTechnology SupportProgramCity of Garland",
       "Data Entry",
       "Clerical",
       "ClericalCustomer Service/Front DeskData EntryTechnology Support",
-      "ClericalCustomer Service/Front DeskData EntryTechnology SupportProgramCity of Garland",
-      "Technology Support",
+      "Instagram",
       "Customer Service/Front Desk",
-      "Instagram"
+      "Technology Support"
     ],
-    "last_scraped": "2026-11-02T19:38:02.804098+00:00",
+    "last_scraped": "2026-11-16T19:43:47.833694+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -608,6 +658,54 @@
     }
   },
   {
+    "id": "garland_1341750",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1341750",
+    "org_name": "Environmental, Beautification, Community Improvement",
+    "opportunity_title": "Clean & Learn: Bonnie View Community Cleanup",
+    "description_long": "Clean & Learn: Bonnie View Community Cleanup Date: Saturday, November 21, 2026 Location: 2410 Village View Parkway Intersection of Bonnie View Drive and Village View Parkway, Garland, TX Time: See registration details Come to Learn. Stay to Serve. Have you ever wondered what goes into maintaining and improving the public spaces we share? Join Volunteer Garland for a special Clean & Learn experience along Bonnie View Drive, where you'll get a firsthand look at how the City of Garland is working to restore and improve public property for the benefit of nearby residents, businesses, and the community. This City-owned property had become overgrown and accumulated litter from surrounding streets and businesses. The City recently contracted crews to clear overgrown vegetation and chip brush, opening up the area and revealing litter and debris that still need to be removed. Now it's our turn to help! What Is Clean & Learn? We'll begin with a brief presentation from representatives of the City's Environmental Compliance team. They'll explain the work involved in identifying, maintaining, and restoring public spaces, the challenges City departments encounter, and how these improvements benefit the surrounding community. You'll have an opportunity to ask questions and learn how local government works to address real-world environmental concerns. Then we'll put that knowledge into action by helping clean the newly cleared area along Bonnie View Drive. What Volunteers Will Do Learn about the City's efforts to maintain and improve public spaces. Help collect litter and remove nonhazardous debris from the wooded area. Work alongside other volunteers to improve the appearance of the property. Make a visible difference for nearby residents and local businesses. No experience is necessary. Volunteer Garland will provide cleanup supplies and instructions. What to Bring Please wear long pants, sturdy closed-toe shoes, and clothing appropriate for outdoor work. Bring a refillable water bottle and work gloves if you have them. Volunteers should not handle sharp objects, unidentified containers, or potentially hazardous materials. Report these items to City staff. Inclement Weather Plan We will work in light rain or drizzle as long as conditions remain safe. Activities will be suspended for thunderstorms, lightning, heavy rain, or other hazardous conditions. Work will not resume until at least 30 minutes after the last thunder or lightning. Registered volunteers will be notified of any cancellation or schedule changes. Why Participate? Clean & Learn is more than a cleanup. It's an opportunity to see how your local government works, understand the challenges involved in maintaining public spaces, and contribute directly to improving Garland. Come with questions. Leave with knowledge, a sense of accomplishment, and a cleaner community!",
+    "description_short": "Clean & Learn: Bonnie View Community Cleanup Date: Saturday, November 21, 2026 Location: 2410 Village View Parkway Intersection of Bonnie View Drive and Village View Parkway, Garland, TX Time: See registration details Come to Learn. Stay to Serve.…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Nov 21, 2026 Time 9 AM - 12 PM"
+    },
+    "contact": [
+      {
+        "email": "JoDiaz@Garlandtx.gov",
+        "phone": "9722053583",
+        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "General Physical LaborProgramEnvironmental, Beautification, Community Improvement",
+      "General Physical Labor",
+      "Instagram"
+    ],
+    "last_scraped": "2026-11-16T19:43:16.568446+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": "2026-11-21",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-11-16T20:20:29.846352+00:00"
+    },
+    "unified_tags": [
+      "environment",
+      "community"
+    ],
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "source.default"
+    }
+  },
+  {
     "id": "garland_1238760",
     "source": "volunteergarland",
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1238760",
@@ -628,21 +726,21 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
+      "SocialAdministrative/Clerical SupportBasic Hand ToolsBoard ServiceChainsaw ExperienceConstruction/Building TradesEvent Setup/BreakdownFence Repair/CarpentryGardening/PlantingLandscaping/Lawn Care",
+      "Gardening/Planting",
+      "Landscaping/Lawn Care",
+      "Fence Repair/Carpentry",
+      "Basic Hand Tools",
+      "Instagram",
+      "Administrative/Clerical Support",
       "Event Setup/Breakdown",
       "Social",
-      "Fence Repair/Carpentry",
-      "Administrative/Clerical Support",
-      "SocialAdministrative/Clerical SupportBasic Hand ToolsBoard ServiceChainsaw ExperienceConstruction/Building TradesEvent Setup/BreakdownFence Repair/CarpentryGardening/PlantingLandscaping/Lawn CareProgramCity of Garland",
-      "Basic Hand Tools",
-      "Board Service",
-      "Chainsaw Experience",
-      "Gardening/Planting",
-      "SocialAdministrative/Clerical SupportBasic Hand ToolsBoard ServiceChainsaw ExperienceConstruction/Building TradesEvent Setup/BreakdownFence Repair/CarpentryGardening/PlantingLandscaping/Lawn Care",
-      "Instagram",
       "Construction/Building Trades",
-      "Landscaping/Lawn Care"
+      "Chainsaw Experience",
+      "Board Service",
+      "SocialAdministrative/Clerical SupportBasic Hand ToolsBoard ServiceChainsaw ExperienceConstruction/Building TradesEvent Setup/BreakdownFence Repair/CarpentryGardening/PlantingLandscaping/Lawn CareProgramCity of Garland"
     ],
-    "last_scraped": "2026-11-02T19:37:41.453545+00:00",
+    "last_scraped": "2026-11-16T19:43:26.061302+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -685,14 +783,14 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
+      "Physical LaborSkilled LaborSocialProgramCity of Garland",
       "Physical LaborSkilled LaborSocial",
-      "Social",
-      "Physical Labor",
-      "Skilled Labor",
       "Instagram",
-      "Physical LaborSkilled LaborSocialProgramCity of Garland"
+      "Skilled Labor",
+      "Physical Labor",
+      "Social"
     ],
-    "last_scraped": "2026-11-02T19:37:58.533922+00:00",
+    "last_scraped": "2026-11-16T19:43:43.987663+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -735,11 +833,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Instagram",
       "MarketingProgramCity of Garland",
-      "Marketing"
+      "Marketing",
+      "Instagram"
     ],
-    "last_scraped": "2026-11-02T19:37:43.432844+00:00",
+    "last_scraped": "2026-11-16T19:43:27.930485+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -809,6 +907,54 @@
       "reason": "event date passed (2026-10-10)",
       "model": "expiry-rule",
       "checked_at": "2026-10-11T12:42:34.336692+00:00"
+    }
+  },
+  {
+    "id": "garland_1341422",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1341422",
+    "org_name": "Environmental, Beautification, Community Improvement",
+    "opportunity_title": "Donation Opportunity: Help Us Turn Everyday Items into Litter Cleanup Supplies!",
+    "description_long": "Donation Opportunity: Help Us Turn Everyday Items into Litter Cleanup Supplies! Volunteer Garland Needs Your Plastic Grocery Bags and Empty Gallon Jugs! Volunteer Garland is collecting plastic grocery bags and empty one-gallon containers to support the City of Garland's litter cleanup program. Instead of throwing these items away, help us give them a second life! Items Needed: Plastic grocery shopping bags Empty one-gallon water jugs Empty one-gallon iced tea jugs Empty one-gallon milk jugs How Will Your Donations Be Used? Our team will transform donated gallon jugs into reusable trash bag dispensers filled with plastic grocery bags. These dispensers will be offered to Garland residents who check out litter cleanup kits to help remove trash from neighborhoods, parks, streets, and public spaces throughout the city. By repurposing everyday household items, we're reducing waste while providing residents with the supplies they need to help keep Garland clean. Donation Guidelines All gallon jugs must be empty, thoroughly rinsed, and clean. Plastic grocery bags should be clean, dry, and free of food or other waste. Donation Drop-Off Location City of Garland Parks and Recreation Administration Office 634 W. Apollo Road Garland, TX 75040 Drop-Off Hours: Monday through Friday, 8 a.m. to 5 p.m. When dropping off your donations, please let the front office staff know that the items are for Volunteer Garland's Litter Cleanup Program. Every Donation Makes a Difference! Whether you have a handful of grocery bags or several empty gallon jugs, your donation will help equip Garland residents to take an active role in keeping our community clean. Thank you for supporting Volunteer Garland and helping us build a cleaner, more beautiful Garland!",
+    "description_short": "Donation Opportunity: Help Us Turn Everyday Items into Litter Cleanup Supplies! Volunteer Garland Needs Your Plastic Grocery Bags and Empty Gallon Jugs! Volunteer Garland is collecting plastic grocery bags and empty one-gallon containers to support…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Nov 30, 2027 Time 8 AM - 5 PM, M-F"
+    },
+    "contact": [
+      {
+        "email": "JoDiaz@Garlandtx.gov",
+        "phone": "9722053583",
+        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "General Physical LaborProgramEnvironmental, Beautification, Community Improvement",
+      "General Physical Labor",
+      "Instagram"
+    ],
+    "last_scraped": "2026-11-16T19:43:55.350479+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": "2027-11-30",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-11-16T20:20:29.846352+00:00"
+    },
+    "unified_tags": [
+      "environment",
+      "community"
+    ],
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -937,11 +1083,11 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Instagram",
       "Physical Labor",
-      "Physical LaborProgramCity of Garland"
+      "Physical LaborProgramCity of Garland",
+      "Instagram"
     ],
-    "last_scraped": "2026-11-02T19:37:48.601370+00:00",
+    "last_scraped": "2026-11-16T19:43:33.137217+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -984,13 +1130,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Nonprofit/Community Organizing",
-      "Social",
       "SocialNonprofit/Community OrganizingProgramCommunity Partners",
+      "Nonprofit/Community Organizing",
       "Instagram",
+      "Social",
       "SocialNonprofit/Community Organizing"
     ],
-    "last_scraped": "2026-11-02T19:38:06.415955+00:00",
+    "last_scraped": "2026-11-16T19:43:51.369625+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1035,13 +1181,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Nonprofit/Community Organizing",
-      "Social",
       "SocialNonprofit/Community OrganizingProgramCommunity Partners",
+      "Nonprofit/Community Organizing",
       "Instagram",
+      "Social",
       "SocialNonprofit/Community Organizing"
     ],
-    "last_scraped": "2026-11-02T19:37:27.713840+00:00",
+    "last_scraped": "2026-11-16T19:43:05.755549+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1524,11 +1670,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Instagram",
       "Physical Labor",
-      "Physical LaborProgramCity of Garland"
+      "Physical LaborProgramCity of Garland",
+      "Instagram"
     ],
-    "last_scraped": "2026-11-02T19:37:50.372670+00:00",
+    "last_scraped": "2026-11-16T19:43:35.056910+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1566,14 +1712,14 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Technology",
+      "SocialPhysical LaborTechnology",
       "SocialPhysical LaborTechnologyProgramCity of Garland",
-      "Social",
-      "Physical Labor",
+      "Technology",
       "Instagram",
-      "SocialPhysical LaborTechnology"
+      "Physical Labor",
+      "Social"
     ],
-    "last_scraped": "2026-11-02T19:37:51.204748+00:00",
+    "last_scraped": "2026-11-16T19:43:36.204474+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1613,11 +1759,11 @@
     "cause_tags": [
       "SocialTechnologyProgramCity of Garland",
       "Technology",
-      "Social",
       "Instagram",
+      "Social",
       "SocialTechnology"
     ],
-    "last_scraped": "2026-11-02T19:37:49.482741+00:00",
+    "last_scraped": "2026-11-16T19:43:34.157930+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1662,13 +1808,13 @@
     "requirements": "Respond",
     "cause_tags": [
       "Physical LaborSkilled LaborSocial",
-      "Social",
-      "Physical Labor",
+      "Instagram",
       "Skilled Labor",
       "Physical LaborSkilled LaborSocialProgramGarland Cares Program",
-      "Instagram"
+      "Physical Labor",
+      "Social"
     ],
-    "last_scraped": "2026-11-02T19:37:39.547139+00:00",
+    "last_scraped": "2026-11-16T19:43:24.043678+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1713,13 +1859,13 @@
     "requirements": "Respond",
     "cause_tags": [
       "Physical LaborSkilled LaborSocial",
-      "Social",
-      "Physical Labor",
+      "Instagram",
       "Skilled Labor",
       "Physical LaborSkilled LaborSocialProgramGarland Cares Program",
-      "Instagram"
+      "Physical Labor",
+      "Social"
     ],
-    "last_scraped": "2026-11-02T19:37:57.683398+00:00",
+    "last_scraped": "2026-11-16T19:43:43.146888+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1880,13 +2026,13 @@
     "requirements": "Respond",
     "cause_tags": [
       "Physical LaborSkilled LaborSocial",
-      "Social",
-      "Physical Labor",
+      "Instagram",
       "Skilled Labor",
       "Physical LaborSkilled LaborSocialProgramGarland Cares Program",
-      "Instagram"
+      "Physical Labor",
+      "Social"
     ],
-    "last_scraped": "2026-11-02T19:37:54.782379+00:00",
+    "last_scraped": "2026-11-16T19:43:39.639607+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1899,6 +2045,57 @@
       "model": "gpt-4o-mini",
       "checked_at": "2026-07-25T20:49:10.681327+00:00"
     },
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "org_name"
+    }
+  },
+  {
+    "id": "garland_1341386",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1341386",
+    "org_name": "Garland Cares Program",
+    "opportunity_title": "Garland Cares: Help a Disabled Veteran Gain Access to His Mailbox",
+    "description_long": "Location: Garland, TX 75043 Date and Time: Flexible, to be determined by the volunteer or group taking on the project Volunteer Opportunity: Skilled Carpentry and Accessibility Improvement Opportunity Description Volunteer Garland is looking for a skilled individual or community group willing to help a disabled veteran regain some independence at his home. This Garland resident uses a wheelchair and currently has difficulty reaching his mailbox. Because of the stairs at his front entrance, he must travel around through the alley just to retrieve his mail. We are hoping to connect him with someone who can help create a safe, accessible route from his home to his mailbox. We are especially interested in hearing from: Church groups with construction or home repair ministries Scout groups with experienced adult leaders and carpentry skills Carpenters, contractors, or experienced handymen Community organizations interested in taking on a meaningful service project What Does the Project Involve? The anticipated work includes constructing a wheelchair-accessible ramp from the home's entrance and potentially creating an accessible walkway to the mailbox. The exact design and scope will need to be determined through a site visit, including any necessary permissions and accessibility or construction requirements. This opportunity requires someone with construction experience who can help evaluate, plan, and lead the project. Scheduling and Commitment We understand that a project like this takes planning, materials, and skilled labor. The individual or group volunteering to lead the project will have the flexibility to determine a reasonable completion schedule based on their availability and the work required. Volunteer Garland can help coordinate additional community volunteers to assist with appropriate portions of the project. Make a Difference Something as simple as checking the mail should not be an obstacle to independence. If you have the skills, experience, or connections to help make this project possible, we would love to hear from you. Interested in helping? Please respond to this opportunity through VolunteerGarland.org so our team can connect with you and discuss the project. Thank you for helping us build a stronger Garland through service, connection, and community pride!",
+    "description_short": "Location: Garland, TX 75043 Date and Time: Flexible, to be determined by the volunteer or group taking on the project Volunteer Opportunity: Skilled Carpentry and Accessibility Improvement Opportunity Description Volunteer Garland is looking for a…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Nov 30, 2027"
+    },
+    "contact": [
+      {
+        "email": "JoDiaz@Garlandtx.gov",
+        "phone": "9722053583",
+        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Construction/Building TradesFence Repair/CarpentryProgramGarland Cares Program",
+      "Construction/Building TradesFence Repair/Carpentry",
+      "Instagram",
+      "Construction/Building Trades",
+      "Fence Repair/Carpentry"
+    ],
+    "last_scraped": "2026-11-16T19:43:54.338260+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": "2027-11-30",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-11-16T20:20:29.846352+00:00"
+    },
+    "unified_tags": [
+      "veterans",
+      "disabilities",
+      "community"
+    ],
     "geo": {
       "city": "Garland",
       "state": "TX",
@@ -1924,13 +2121,13 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
+      "Physical LaborSocial",
+      "Instagram",
       "Physical Labor",
       "Physical LaborSocialProgramGarland Public Libraries",
-      "Instagram",
-      "Physical LaborSocial"
+      "Social"
     ],
-    "last_scraped": "2026-11-02T19:37:31.294066+00:00",
+    "last_scraped": "2026-11-16T19:43:09.092987+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2058,8 +2255,8 @@
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1180040",
     "org_name": "Garland Public Libraries",
     "opportunity_title": "Garland Central Library - Teen Volunteers - NEW Reader Stairs",
-    "description_long": "Central Library is looking for teen volunteers to model proper usage of our new Reader Stairs. To discourage people (especially children) from climbing or jumping on the Reader Stairs, volunteers can find a seat on the stairs while reading a book, working on school assignments, or other quiet activities of your choosing. Snacks and covered drinks are allowed, but meals must be eaten in the upstairs lobby. Here's how it works: Respond to this opportunity one time. This sign-up allows you to volunteer on the Reader Stairs at your own convenience. Sign in at the Children's Desk to get your volunteer lanyard. You must wear your volunteer lanyard at all times when you are signed in. Find an available space on the Reader Stairs. If you see a child climbing or jumping on the stairs, remind them that the Reader Stairs are for sitting. Sign out at the Children's Desk when your shift is done. Volunteers are welcome to sit together on the stairs, as long as they keep their volume at a reasonable level. Music or audio from phones must be played on headphones/earbuds. This volunteer opportunity is for ages 12-18 only during Central Library's operating hours. Volunteers will sign in for their shift downstairs at the Children's Desk. UPDATE: Volunteers must sign out at least 30 minutes before closing. Volunteering on the Reader Stairs is limited to 3 hours per day. ➡️PLEASE NOTE: We do not accept volunteers that are fulfilling court-mandated service hours. Central Library Operating Hours: Monday - Thursday: 9 a.m. - 8 p.m. Friday - Saturday: 10 a.m. - 6 p.m. Sunday: 2 p.m. - 6 p.m.",
-    "description_short": "Central Library is looking for teen volunteers to model proper usage of our new Reader Stairs. To discourage people (especially children) from climbing or jumping on the Reader Stairs, volunteers can find a seat on the stairs while reading a book,…",
+    "description_long": "ATTENTION: Effective immediately, Sundays are no longer available for volunteer hours. Additionally, volunteers must now sign out from their volunteer shift one hour before closing. If the library closes at 8p, you must sign out by 7p; if the library closes at 6p, you must sign out by 5p. We appreciate your time, dedication, and cooperation with these changes. Central Library is looking for teen volunteers to model proper usage of our new Reader Stairs. To discourage people (especially children) from climbing or jumping on the Reader Stairs, volunteers can find a seat on the stairs while reading a book, working on school assignments, or other quiet activities of your choosing. Snacks and covered drinks are allowed, but meals must be eaten in the upstairs lobby. Here's how it works: Respond to this opportunity one time. This sign-up allows you to volunteer on the Reader Stairs at your own convenience. Sign in at the Children's Desk to get your volunteer lanyard. You must wear your volunteer lanyard at all times when you are signed in. Find an available space on the Reader Stairs. If you see a child climbing or jumping on the stairs, remind them that the Reader Stairs are for sitting. Sign out at the Children's Desk when your shift is done. Volunteers are welcome to sit together on the stairs, as long as they keep their volume at a reasonable level. Music or audio from phones must be played on headphones/earbuds. This volunteer opportunity is for ages 12-18 only during Central Library's operating hours. Volunteers will sign in for their shift downstairs at the Children's Desk. UPDATE: Volunteers must sign out at least ONE HOUR before closing. Volunteering on the Reader Stairs is limited to 3 hours per day. ➡️PLEASE NOTE: We do not accept volunteers that are fulfilling court-mandated service hours. Central Library Operating Hours: Monday - Thursday: 9 a.m. - 8 p.m. Friday - Saturday: 10 a.m. - 6 p.m. Sunday: 2 p.m. - 6 p.m.",
+    "description_short": "ATTENTION: Effective immediately, Sundays are no longer available for volunteer hours. Additionally, volunteers must now sign out from their volunteer shift one hour before closing. If the library closes at 8p, you must sign out by 7p; if the…",
     "address": {},
     "schedule": {
       "raw": "Calendar Until Nov 30, 2026"
@@ -2068,10 +2265,10 @@
     "requirements": "Respond",
     "cause_tags": [
       "Social",
-      "Instagram",
-      "SocialProgramGarland Public Libraries"
+      "SocialProgramGarland Public Libraries",
+      "Instagram"
     ],
-    "last_scraped": "2026-11-02T19:37:36.868771+00:00",
+    "last_scraped": "2026-11-16T19:43:17.782867+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2169,14 +2366,14 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Instagram",
-      "SocialPhysical Labor",
-      "Social",
       "SocialPhysical LaborProgramGarland Public Libraries",
-      "Physical Labor"
+      "SocialPhysical Labor",
+      "Instagram",
+      "Physical Labor",
+      "Social"
     ],
-    "last_scraped": "2026-10-26T16:12:56.828587+00:00",
-    "status": "inactive",
+    "last_scraped": "2026-11-16T19:43:12.607804+00:00",
+    "status": "active",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [
@@ -2308,13 +2505,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical LaborSocialProgramCity of Garland",
-      "Social",
-      "Physical Labor",
+      "Physical LaborSocial",
       "Instagram",
-      "Physical LaborSocial"
+      "Physical Labor",
+      "Social",
+      "Physical LaborSocialProgramCity of Garland"
     ],
-    "last_scraped": "2026-11-02T19:37:52.981875+00:00",
+    "last_scraped": "2026-11-16T19:43:37.917110+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2450,14 +2647,14 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Technology",
-      "Social",
-      "Physical Labor",
-      "Instagram",
       "SocialPhysical LaborTechnology",
+      "Technology",
+      "Instagram",
+      "Physical Labor",
+      "Social",
       "SocialPhysical LaborTechnologyProgramCommunity Partners"
     ],
-    "last_scraped": "2026-11-02T19:37:56.800796+00:00",
+    "last_scraped": "2026-11-16T19:43:41.921373+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2501,14 +2698,14 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Technology",
-      "Social",
-      "Physical Labor",
-      "Instagram",
       "SocialPhysical LaborTechnology",
+      "Technology",
+      "Instagram",
+      "Physical Labor",
+      "Social",
       "SocialPhysical LaborTechnologyProgramCommunity Partners"
     ],
-    "last_scraped": "2026-11-02T19:38:05.443496+00:00",
+    "last_scraped": "2026-11-16T19:43:50.548642+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2583,6 +2780,48 @@
       "reason": "event date passed (2026-09-18)",
       "model": "expiry-rule",
       "checked_at": "2026-09-19T10:52:54.144857+00:00"
+    }
+  },
+  {
+    "id": "garland_1342606",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1342606",
+    "org_name": "Community Partners",
+    "opportunity_title": "Help a Children's Emergency Shelter! Donation Drive for Jonathan's Place, Garland",
+    "description_long": "The mission of Jonathan's Place is to provide a safe place, loving homes, and promising futures for abused and neglected children, teens, and young adults. This holiday season, we need your help to collect donations of: Aveeno body wash Toilet paper Secret deodorant Paper towels Olay shampoo and conditioner These are our most needed items. A donation drive is a perfect way to get your school, church, or workplace in the Holiday spirit. Contact: Nina Clark, nclark@kidnet.org, (309) 531-4909",
+    "description_short": "The mission of Jonathan's Place is to provide a safe place, loving homes, and promising futures for abused and neglected children, teens, and young adults. This holiday season, we need your help to collect donations of: Aveeno body wash Toilet paper…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Dec 12, 2026 Time Flexible"
+    },
+    "contact": [],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Nonprofit/Community OrganizingProgramCommunity Partners",
+      "Nonprofit/Community Organizing",
+      "Instagram"
+    ],
+    "last_scraped": "2026-11-16T19:43:22.680201+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": "2026-12-12",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-11-16T20:20:29.846352+00:00"
+    },
+    "unified_tags": [
+      "children",
+      "community"
+    ],
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -2704,12 +2943,12 @@
     "requirements": "Respond",
     "cause_tags": [
       "Nonprofit/Community Organizing",
-      "General Physical Labor",
-      "Nonprofit/Community OrganizingGeneral Physical LaborProgramCommunity Partners",
       "Instagram",
-      "Nonprofit/Community OrganizingGeneral Physical Labor"
+      "Nonprofit/Community OrganizingGeneral Physical LaborProgramCommunity Partners",
+      "Nonprofit/Community OrganizingGeneral Physical Labor",
+      "General Physical Labor"
     ],
-    "last_scraped": "2026-11-02T19:37:37.721925+00:00",
+    "last_scraped": "2026-11-16T19:43:18.617900+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2747,11 +2986,11 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Instagram",
+      "Physical Labor",
       "Physical LaborProgramCommunity Partners",
-      "Physical Labor"
+      "Instagram"
     ],
-    "last_scraped": "2026-11-02T19:37:53.884567+00:00",
+    "last_scraped": "2026-11-16T19:43:38.765200+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2854,7 +3093,7 @@
       "Instagram"
     ],
     "last_scraped": "2026-11-02T19:37:38.600952+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [
@@ -2874,6 +3113,48 @@
       "lng": -96.63888,
       "precision": "city",
       "resolved_from": "org_name"
+    }
+  },
+  {
+    "id": "garland_1342603",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1342603",
+    "org_name": "Community Partners",
+    "opportunity_title": "Master Organizers: We Need You! - Jonathan's Place, Garland",
+    "description_long": "The mission of Jonathan's Place is to provide a safe place, loving homes and promising futures for abused and neglected children, teens, and young adults. We have a donation center that needs some love. The goal would be to put all alike items into the same clear bins, update labels/make new labels for the bins, and general straightening out. Contact Nina before arriving so she can get you on the calendar and expects you. Contact: Nina Clark, nclark@kidnet.org, (309) 531-4909. Come Monday-Thursday between 9AM and 4PM!",
+    "description_short": "The mission of Jonathan's Place is to provide a safe place, loving homes and promising futures for abused and neglected children, teens, and young adults. We have a donation center that needs some love. The goal would be to put all alike items into…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Dec 12, 2026 Time Flexible"
+    },
+    "contact": [],
+    "requirements": "Respond",
+    "cause_tags": [
+      "General Physical Labor",
+      "General Physical LaborProgramCommunity Partners",
+      "Instagram"
+    ],
+    "last_scraped": "2026-11-16T19:43:21.723879+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": "2026-12-12",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-11-16T20:20:29.846352+00:00"
+    },
+    "unified_tags": [
+      "children",
+      "community"
+    ],
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -2897,11 +3178,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical LaborProgramGarland Public Libraries",
       "Physical Labor",
+      "Physical LaborProgramGarland Public Libraries",
       "Instagram"
     ],
-    "last_scraped": "2026-11-02T19:37:35.857266+00:00",
+    "last_scraped": "2026-11-16T19:43:11.745970+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -3544,11 +3825,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical LaborProgramGarland Public Libraries",
       "Physical Labor",
+      "Physical LaborProgramGarland Public Libraries",
       "Instagram"
     ],
-    "last_scraped": "2026-11-02T19:37:32.177330+00:00",
+    "last_scraped": "2026-11-16T19:43:14.483856+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -3757,11 +4038,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Instagram",
+      "Administrative/Clerical SupportProgramCommunity Partners",
       "Administrative/Clerical Support",
-      "Administrative/Clerical SupportProgramCommunity Partners"
+      "Instagram"
     ],
-    "last_scraped": "2026-11-02T19:38:07.298393+00:00",
+    "last_scraped": "2026-11-16T19:43:52.367091+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4057,11 +4338,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Instagram",
       "Physical LaborProgramVolunteer Litter Program",
-      "Physical Labor"
+      "Physical Labor",
+      "Instagram"
     ],
-    "last_scraped": "2026-11-02T19:37:46.870328+00:00",
+    "last_scraped": "2026-11-16T19:43:31.405936+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4099,13 +4380,13 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "SocialPhysical LaborProgramParks and Recreation",
-      "Social",
-      "Physical Labor",
       "SocialPhysical Labor",
-      "Instagram"
+      "Instagram",
+      "SocialPhysical LaborProgramParks and Recreation",
+      "Physical Labor",
+      "Social"
     ],
-    "last_scraped": "2026-11-02T19:37:42.489737+00:00",
+    "last_scraped": "2026-11-16T19:43:27.015278+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4145,13 +4426,13 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "SocialPhysical LaborProgramParks and Recreation",
-      "Social",
-      "Physical Labor",
       "SocialPhysical Labor",
-      "Instagram"
+      "Instagram",
+      "SocialPhysical LaborProgramParks and Recreation",
+      "Physical Labor",
+      "Social"
     ],
-    "last_scraped": "2026-11-02T19:37:30.370727+00:00",
+    "last_scraped": "2026-11-16T19:43:08.155716+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4200,13 +4481,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "SocialPhysical LaborProgramParks and Recreation",
-      "Social",
-      "Physical Labor",
       "SocialPhysical Labor",
-      "Instagram"
+      "Instagram",
+      "SocialPhysical LaborProgramParks and Recreation",
+      "Physical Labor",
+      "Social"
     ],
-    "last_scraped": "2026-11-02T19:37:29.039418+00:00",
+    "last_scraped": "2026-11-16T19:43:07.069561+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4251,15 +4532,15 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
+      "Technology",
+      "Instagram",
       "SocialEducationTeaching/TrainingTechnologyProgramParks and Recreation",
       "SocialEducationTeaching/TrainingTechnology",
-      "Technology",
       "Education",
       "Social",
-      "Teaching/Training",
-      "Instagram"
+      "Teaching/Training"
     ],
-    "last_scraped": "2026-11-02T19:37:46.020571+00:00",
+    "last_scraped": "2026-11-16T19:43:30.560847+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4305,15 +4586,15 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
+      "Technology",
+      "Instagram",
       "SocialEducationTeaching/TrainingTechnologyProgramParks and Recreation",
       "SocialEducationTeaching/TrainingTechnology",
-      "Technology",
       "Education",
       "Social",
-      "Teaching/Training",
-      "Instagram"
+      "Teaching/Training"
     ],
-    "last_scraped": "2026-11-02T19:38:03.709293+00:00",
+    "last_scraped": "2026-11-16T19:43:48.765046+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4360,11 +4641,11 @@
     "cause_tags": [
       "Food Service",
       "SocialFood ServiceProgramParks and Recreation",
-      "Social",
+      "Instagram",
       "SocialFood Service",
-      "Instagram"
+      "Social"
     ],
-    "last_scraped": "2026-11-02T19:38:04.564399+00:00",
+    "last_scraped": "2026-11-16T19:43:49.627190+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4410,11 +4691,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Instagram",
       "General Physical Labor",
-      "General Physical LaborProgramCommunity Partners"
+      "General Physical LaborProgramCommunity Partners",
+      "Instagram"
     ],
-    "last_scraped": "2026-11-02T19:37:34.825996+00:00",
+    "last_scraped": "2026-11-16T19:43:10.006681+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4505,7 +4786,7 @@
       "Physical Labor"
     ],
     "last_scraped": "2026-11-02T19:37:33.980672+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "expiry": {
@@ -4532,6 +4813,52 @@
       "reason": "event date passed (2026-11-14)",
       "model": "expiry-rule",
       "checked_at": "2026-11-15T13:52:03.075870+00:00"
+    }
+  },
+  {
+    "id": "garland_1342841",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1342841",
+    "org_name": "Community Partners",
+    "opportunity_title": "Skatepark Respect: 4th Annual Warm Drive!",
+    "description_long": "4th Annual Warm Drive with Skatepark Respect This December , Skatepark Respect is keeping the giving spirit alive with our 4th Annual Warm Drive — helping spread comfort and care throughout the Garland community! Join us from 9 a.m. to 11 a.m. for a litter cleanup at Jon Comer Skatepark , then stick around or roll through to drop off donations of socks, mittens, beanies, scarves, blankets, and jackets for all ages until 1 p .m. We will also be collecting sanitary items. Not into cleanup duty? No sweat — your donations alone make a big difference! Every item you bring goes toward keeping our neighbors warm this winter and earns you volunteer hours and a chance to win a mystery prize . VOLUNTEERS WILL ALSO BE TREATED TO A HOT COCOA BAR! Come share the stoke, give back, and help fill Garland with warmth and goodwill — one cozy donation at a time. Bundle up, drop in, and do some good — all hands (and gloves) on deck! All donations will be collected in honor of Hope’s Door, GLOWS, and other local organizations working to support families and individuals in need this winter. All donations must be new or in good condition.",
+    "description_short": "4th Annual Warm Drive with Skatepark Respect This December , Skatepark Respect is keeping the giving spirit alive with our 4th Annual Warm Drive — helping spread comfort and care throughout the Garland community! Join us from 9 a.m. to 11 a.m. for a…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Happens On Dec 12, 2026 Time 9 am to 1 pm"
+    },
+    "contact": [
+      {
+        "email": "Volunteer@GarlandTx.org",
+        "phone": "972-205-3583"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Physical Labor",
+      "Physical LaborProgramCommunity Partners",
+      "Instagram"
+    ],
+    "last_scraped": "2026-11-16T19:43:19.604200+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-12-12",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-11-16T20:20:29.846352+00:00"
+    },
+    "unified_tags": [
+      "community"
+    ],
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "source.default"
     }
   },
   {
@@ -4960,6 +5287,103 @@
     }
   },
   {
+    "id": "garland_1341342",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1341342",
+    "org_name": "Garland Cares Program",
+    "opportunity_title": "Tree Limb Removal (12.12.26)",
+    "description_long": "We need 20 volunteers to lend a helping hand! Volunteer Garland is looking for volunteers to help a senior couple with disabilities and a veteran clear tree limbs from their property. A resident will be cutting tree limbs away from the roof and fence line, and our job is simple: gather the cut limbs and drag them to the curb for Sanitation pickup. We're hoping to bring together about 20 volunteers to make quick work of the cleanup. With enough helping hands, we can accomplish a lot in a short amount of time and make a meaningful difference for these neighbors. What volunteers will do: Gather and carry cut tree limbs and branches. Drag larger limbs to the designated curbside pickup area. Help clear debris from the yard and fence line. Work together to leave the property clean and accessible. No special skills or equipment experience is needed! Volunteers will not be responsible for cutting limbs. Please stay clear of active cutting areas and follow all safety instructions. What to bring: Wear sturdy, closed-toe shoes, long pants and work gloves if you have them. Bring drinking water and dress for the weather. This is what Garland Cares is all about: neighbors helping neighbors. A few hours of teamwork can make a tremendous difference for residents who need a little extra help. Sign up and help us make Garland a stronger community, one neighbor at a time!",
+    "description_short": "We need 20 volunteers to lend a helping hand! Volunteer Garland is looking for volunteers to help a senior couple with disabilities and a veteran clear tree limbs from their property. A resident will be cutting tree limbs away from the roof and…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Dec 12, 2026 Time 10 AM - 12 PM"
+    },
+    "contact": [
+      {
+        "email": "JoDiaz@Garlandtx.gov",
+        "phone": "9722053583",
+        "raw": "Site Supervisor Clipboard 1 Shift Josue Diaz Envelope 1 Shift JoDiaz@Garlandtx.gov Phone Shift 9722053583"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "General Physical LaborProgramGarland Cares Program",
+      "General Physical Labor",
+      "Instagram"
+    ],
+    "last_scraped": "2026-11-16T19:43:20.798424+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-12-12",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-11-16T20:20:29.846352+00:00"
+    },
+    "unified_tags": [
+      "seniors",
+      "disabilities",
+      "veterans",
+      "community"
+    ],
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "org_name"
+    }
+  },
+  {
+    "id": "garland_1338115",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1338115",
+    "org_name": "Community Partners",
+    "opportunity_title": "Trusted World",
+    "description_long": "Trusted World Make a difference for families in need without leaving Garland! Volunteer Garland is connecting volunteers with Trusted World , a Garland nonprofit dedicated to \"Helping People Help People.\" Trusted World works with schools, police departments, nonprofits and community organizations across North Texas to provide clothing, food and personal care essentials at no cost. By organizing and distributing these resources, Trusted World helps frontline organizations spend more time serving people who need assistance. How You Can Help Volunteers will assist with a variety of meaningful activities, including: Sorting and organizing donated clothing and shoes Assembling toiletry kits with personal care essentials Packing feminine hygiene kits Preparing food boxes for families in need Writing motivational cards to encourage individuals and families facing difficult circumstances Individual Volunteer Shifts Individual volunteers can register up to 10 individual per shift . Trusted World request you use the group registration link for groups larger than 10. See link below. 10 a.m. to noon Noon to 2 p.m. 2 to 4 p.m. Groups Registrations Group Registrations Trusted World can accommodate organized groups of up to 75 volunteers per shift . Location: Trusted World, Garland, Texas 613 Easy St., Suite B, Garland, Texas",
+    "description_short": "Trusted World Make a difference for families in need without leaving Garland! Volunteer Garland is connecting volunteers with Trusted World , a Garland nonprofit dedicated to \"Helping People Help People.\" Trusted World works with schools, police…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Until Nov 30, 2027 Time 10 a.m. - 4 p.m."
+    },
+    "contact": [
+      {
+        "email": "schaparos@trustedworld.org",
+        "phone": "4698675409",
+        "raw": "Site Supervisor Clipboard 1 Shift Stephanie Chaparos Envelope 1 Shift schaparos@trustedworld.org Phone Shift 4698675409"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Nonprofit/Community OrganizingProgramCommunity Partners",
+      "Nonprofit/Community Organizing",
+      "Instagram"
+    ],
+    "last_scraped": "2026-11-16T19:43:53.327713+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "expiry": {
+      "kind": "ongoing",
+      "ends_on": "2027-11-30",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-11-16T20:20:29.846352+00:00"
+    },
+    "unified_tags": [
+      "community"
+    ],
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "source.default"
+    }
+  },
+  {
     "id": "garland_1264325",
     "source": "volunteergarland",
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1264325",
@@ -4981,24 +5405,24 @@
     "requirements": "Respond",
     "cause_tags": [
       "Food Service",
+      "Landscaping/Lawn Care",
+      "Tree Care/Tree Trimming",
+      "Painting",
+      "Construction/Building Trades",
+      "Teaching/Training",
+      "Basic Hand Tools",
+      "Workshop Instructor/Trainer",
+      "Instagram",
+      "Basic Hand ToolsChainsaw ExperienceConstruction/Building TradesEducationEvent Setup/BreakdownFence Repair/CarpentryFood ServiceGeneral Physical LaborLandscaping/Lawn CareMedicalPaintingTeaching/TrainingTree Care/Tree TrimmingWorkshop Instructor/Trainer",
+      "Medical",
       "Event Setup/Breakdown",
       "Education",
-      "Teaching/Training",
-      "Fence Repair/Carpentry",
-      "Tree Care/Tree Trimming",
-      "Medical",
-      "Basic Hand Tools",
-      "Chainsaw Experience",
-      "Basic Hand ToolsChainsaw ExperienceConstruction/Building TradesEducationEvent Setup/BreakdownFence Repair/CarpentryFood ServiceGeneral Physical LaborLandscaping/Lawn CareMedicalPaintingTeaching/TrainingTree Care/Tree TrimmingWorkshop Instructor/Trainer",
-      "General Physical Labor",
-      "Painting",
-      "Workshop Instructor/Trainer",
       "Basic Hand ToolsChainsaw ExperienceConstruction/Building TradesEducationEvent Setup/BreakdownFence Repair/CarpentryFood ServiceGeneral Physical LaborLandscaping/Lawn CareMedicalPaintingTeaching/TrainingTree Care/Tree TrimmingWorkshop Instructor/TrainerProgramCity of Garland",
-      "Construction/Building Trades",
-      "Landscaping/Lawn Care",
-      "Instagram"
+      "Chainsaw Experience",
+      "Fence Repair/Carpentry",
+      "General Physical Labor"
     ],
-    "last_scraped": "2026-11-02T19:38:00.487860+00:00",
+    "last_scraped": "2026-11-16T19:43:45.883267+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -5040,11 +5464,11 @@
     ],
     "requirements": "Details Get Connected Icon Register by Aug 21, 2026",
     "cause_tags": [
-      "SocialProgramCity of Garland",
       "Social",
+      "SocialProgramCity of Garland",
       "Instagram"
     ],
-    "last_scraped": "2026-11-02T19:37:55.770271+00:00",
+    "last_scraped": "2026-11-16T19:43:40.864444+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -5397,6 +5821,57 @@
     }
   },
   {
+    "id": "garland_1337860",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1337860",
+    "org_name": "Garland Public Libraries",
+    "opportunity_title": "West Garland Library - Teen Volunteer - Beginner Reader Book Club",
+    "description_long": "Teen volunteers will help the Youth Services Librarian run the Beginner Reader Book Club program for families with children ages 6-8 years! Volunteer need to be attentive and engaging to families with duties include, but not limited to: Crowd management Helping families do activities after book reading Set up/Clean up assistance This volunteer opportunity is for: Ages 12 - 17 only. Individual volunteers and NOT for groups. For questions about group volunteering, please contact the Site Supervisor. 2 hour shifts. Longer shifts need to be preapproved by Site Supervisor. Volunteers will sign in for their shift at the Children's Desk. ➡️If you cannot attend your volunteer shift, please cancel it online or call us at 972-205-2586 to let us know. If you have three no-call no-show occurrences with the Garland libraries, we will delete your future shifts and you will no longer be permitted to volunteer at any of the library branches. ➡️PLEASE NOTE: We do not accept volunteers that are fulfilling court-mandated service hours.",
+    "description_short": "Teen volunteers will help the Youth Services Librarian run the Beginner Reader Book Club program for families with children ages 6-8 years! Volunteer need to be attentive and engaging to families with duties include, but not limited to: Crowd…",
+    "address": {},
+    "schedule": {
+      "raw": "Calendar Happens On Nov 19, 2026 Time 5:00 p.m. - 7:00 p.m."
+    },
+    "contact": [
+      {
+        "email": "WestGarlandLibrary@GarlandTx.gov",
+        "phone": "972-205-2586",
+        "raw": "Site Supervisor Clipboard 1 Shift Dorothy Shepherd Envelope 1 Shift WestGarlandLibrary@GarlandTx.gov Phone Shift 972-205-2586"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Physical LaborSocial",
+      "Instagram",
+      "Physical Labor",
+      "Physical LaborSocialProgramGarland Public Libraries",
+      "Social"
+    ],
+    "last_scraped": "2026-11-16T19:43:10.922520+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-11-19",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-11-16T20:20:29.846352+00:00"
+    },
+    "unified_tags": [
+      "children",
+      "education",
+      "community"
+    ],
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "org_name"
+    }
+  },
+  {
     "id": "garland_1322471",
     "source": "volunteergarland",
     "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1322471",
@@ -5659,6 +6134,58 @@
       "reason": "event date passed (2026-09-26)",
       "model": "expiry-rule",
       "checked_at": "2026-09-27T11:57:18.090556+00:00"
+    }
+  },
+  {
+    "id": "garland_1337850",
+    "source": "volunteergarland",
+    "source_url": "https://www.volunteergarland.org/need/detail/?need_id=1337850",
+    "org_name": "Garland Public Libraries",
+    "opportunity_title": "West Garland Library - Teen Volunteer - November",
+    "description_long": "Teens ages 12 - 17 can earn community service hours by volunteering at the West Garland Library! Typical duties include, but not limited to: Prepping crafts for programs Cleaning toys used in storytimes Pulling books Shelf-reading in the Children's section Special projects These volunteer opportunities are for: ages 12 - 17 only. Individual volunteers and NOT for groups. For questions about group volunteering, please contact the Site Supervisor. 2 hour shifts. Longer shifts need to be preapproved by Site Supervisor. ➡️If you cannot attend your volunteer shift, please cancel it online or call us at 972-205-2586 to let us know. If you have three no-call no-show occurrences, we will delete your future shifts and you will no longer be permitted to volunteer at any of the four Garland libraries. ➡️PLEASE NOTE: We do not accept volunteers that are fulfilling court-mandated service hours. ➡️Volunteers will sign in for their shift at the Children's Desk.",
+    "description_short": "Teens ages 12 - 17 can earn community service hours by volunteering at the West Garland Library! Typical duties include, but not limited to: Prepping crafts for programs Cleaning toys used in storytimes Pulling books Shelf-reading in the Children's…",
+    "address": {
+      "full": "3921 W Walnut St Garland, TX 75042",
+      "zip": "75042"
+    },
+    "schedule": {},
+    "contact": [
+      {
+        "email": "WestGarlandLibrary@GarlandTx.gov",
+        "phone": "972-205-2586",
+        "raw": "Site Supervisor Clipboard 1 Shift Dorothy Shepherd Envelope 1 Shift WestGarlandLibrary@GarlandTx.gov Phone Shift 972-205-2586"
+      }
+    ],
+    "requirements": "Respond",
+    "cause_tags": [
+      "Physical LaborSocial",
+      "Instagram",
+      "Physical Labor",
+      "Physical LaborSocialProgramGarland Public Libraries",
+      "Social"
+    ],
+    "last_scraped": "2026-11-16T19:43:15.612616+00:00",
+    "status": "active",
+    "city": "Garland",
+    "state": "TX",
+    "expiry": {
+      "kind": "unknown",
+      "ends_on": null,
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-11-16T20:20:29.846352+00:00"
+    },
+    "unified_tags": [
+      "children",
+      "community",
+      "education"
+    ],
+    "geo": {
+      "city": "Garland",
+      "state": "TX",
+      "lat": 32.91262,
+      "lng": -96.63888,
+      "precision": "city",
+      "resolved_from": "address.full"
     }
   },
   {
