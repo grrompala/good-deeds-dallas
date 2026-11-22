@@ -9900,6 +9900,13 @@
       "lng": null,
       "precision": "unknown",
       "resolved_from": null
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-11-21)",
+      "model": "expiry-rule",
+      "checked_at": "2026-11-22T14:28:55.087899+00:00"
     }
   },
   {
@@ -21634,6 +21641,13 @@
       "lng": -96.79686,
       "precision": "city",
       "resolved_from": "org_name"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-11-21)",
+      "model": "expiry-rule",
+      "checked_at": "2026-11-22T14:28:55.087899+00:00"
     }
   },
   {
