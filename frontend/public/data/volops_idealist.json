@@ -19084,6 +19084,13 @@
       "lng": null,
       "precision": "virtual",
       "resolved_from": "location.virtual"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-11-22)",
+      "model": "expiry-rule",
+      "checked_at": "2026-11-23T17:57:38.657294+00:00"
     }
   },
   {
@@ -60467,6 +60474,13 @@
       "lng": null,
       "precision": "virtual",
       "resolved_from": "location.virtual"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-11-22)",
+      "model": "expiry-rule",
+      "checked_at": "2026-11-23T17:57:38.657294+00:00"
     }
   },
   {
@@ -60585,6 +60599,13 @@
       "lng": null,
       "precision": "virtual",
       "resolved_from": "location.virtual"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-11-22)",
+      "model": "expiry-rule",
+      "checked_at": "2026-11-23T17:57:38.657294+00:00"
     }
   },
   {
@@ -60998,6 +61019,13 @@
       "lng": null,
       "precision": "virtual",
       "resolved_from": "location.virtual"
+    },
+    "qc": {
+      "status": "rejected",
+      "category": "expired",
+      "reason": "event date passed (2026-11-22)",
+      "model": "expiry-rule",
+      "checked_at": "2026-11-23T17:57:38.657294+00:00"
     }
   },
   {
