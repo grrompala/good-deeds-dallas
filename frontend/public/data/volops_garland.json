@@ -21,10 +21,10 @@
     "requirements": "Respond",
     "cause_tags": [
       "Teaching/TrainingProgramCity of Garland",
-      "Teaching/Training",
-      "Instagram"
+      "Instagram",
+      "Teaching/Training"
     ],
-    "last_scraped": "2026-11-16T19:43:46.841697+00:00",
+    "last_scraped": "2026-11-23T21:34:07.793463+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -67,26 +67,26 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "General Physical LaborAdministrative/Clerical SupportProgramCommunity Partners",
       "General Physical LaborAdministrative/Clerical Support",
-      "Instagram",
+      "General Physical LaborAdministrative/Clerical SupportProgramCommunity Partners",
       "Administrative/Clerical Support",
-      "General Physical Labor"
+      "General Physical Labor",
+      "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:56.555357+00:00",
+    "last_scraped": "2026-11-23T21:34:19.623011+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
+    "unified_tags": [
+      "food_security",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": "2027-11-30",
       "model": "gpt-4o-mini",
       "checked_at": "2026-11-16T20:20:29.846352+00:00"
     },
-    "unified_tags": [
-      "food_security",
-      "community"
-    ],
     "geo": {
       "city": "Garland",
       "state": "TX",
@@ -117,11 +117,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical LaborProgramVolunteer Litter Program",
       "Physical Labor",
+      "Physical LaborProgramVolunteer Litter Program",
       "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:25.030878+00:00",
+    "last_scraped": "2026-11-23T21:33:44.456393+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -164,13 +164,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "SocialPhysical LaborProgramGarland Public Libraries",
       "SocialPhysical Labor",
+      "Social",
       "Instagram",
       "Physical Labor",
-      "Social"
+      "SocialPhysical LaborProgramGarland Public Libraries"
     ],
-    "last_scraped": "2026-11-16T19:43:29.685905+00:00",
+    "last_scraped": "2026-11-23T21:33:49.667539+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -215,10 +215,10 @@
     "requirements": "Respond",
     "cause_tags": [
       "Skilled LaborProgramGarland Public Libraries",
-      "Skilled Labor",
-      "Instagram"
+      "Instagram",
+      "Skilled Labor"
     ],
-    "last_scraped": "2026-11-16T19:43:28.821473+00:00",
+    "last_scraped": "2026-11-23T21:33:48.575083+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -263,10 +263,10 @@
     "requirements": "Respond",
     "cause_tags": [
       "Skilled Labor",
-      "Skilled LaborProgramCity of Garland",
-      "Instagram"
+      "Instagram",
+      "Skilled LaborProgramCity of Garland"
     ],
-    "last_scraped": "2026-11-16T19:43:32.308137+00:00",
+    "last_scraped": "2026-11-23T21:33:52.613602+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -417,11 +417,11 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
       "SocialProgramCity of Garland",
+      "Social",
       "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:37.062051+00:00",
+    "last_scraped": "2026-11-23T21:33:57.802766+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -517,22 +517,22 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Data Entry",
-      "Translation/Interpretation",
-      "Clerical",
-      "Nonprofit/Community Organizing",
-      "Administrative/Clerical SupportClericalCustomer Service/Front DeskData EntryMarketingNonprofit ProfessionalNonprofit/Community OrganizingPublic Speaking/OutreachTechnologyTechnology SupportTranslation/InterpretationProgramCity of Garland",
-      "Public Speaking/Outreach",
-      "Technology",
-      "Technology Support",
-      "Instagram",
-      "Customer Service/Front Desk",
-      "Administrative/Clerical Support",
       "Administrative/Clerical SupportClericalCustomer Service/Front DeskData EntryMarketingNonprofit ProfessionalNonprofit/Community OrganizingPublic Speaking/OutreachTechnologyTechnology SupportTranslation/Interpretation",
       "Marketing",
-      "Nonprofit Professional"
+      "Customer Service/Front Desk",
+      "Administrative/Clerical SupportClericalCustomer Service/Front DeskData EntryMarketingNonprofit ProfessionalNonprofit/Community OrganizingPublic Speaking/OutreachTechnologyTechnology SupportTranslation/InterpretationProgramCity of Garland",
+      "Translation/Interpretation",
+      "Nonprofit Professional",
+      "Public Speaking/Outreach",
+      "Data Entry",
+      "Technology Support",
+      "Clerical",
+      "Administrative/Clerical Support",
+      "Instagram",
+      "Technology",
+      "Nonprofit/Community Organizing"
     ],
-    "last_scraped": "2026-11-16T19:43:44.913852+00:00",
+    "last_scraped": "2026-11-23T21:34:05.706156+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -575,15 +575,15 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "ClericalCustomer Service/Front DeskData EntryTechnology SupportProgramCity of Garland",
-      "Data Entry",
-      "Clerical",
-      "ClericalCustomer Service/Front DeskData EntryTechnology Support",
-      "Instagram",
       "Customer Service/Front Desk",
-      "Technology Support"
+      "Data Entry",
+      "Technology Support",
+      "ClericalCustomer Service/Front DeskData EntryTechnology Support",
+      "Clerical",
+      "Instagram",
+      "ClericalCustomer Service/Front DeskData EntryTechnology SupportProgramCity of Garland"
     ],
-    "last_scraped": "2026-11-16T19:43:47.833694+00:00",
+    "last_scraped": "2026-11-23T21:34:08.900273+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -683,7 +683,7 @@
       "Instagram"
     ],
     "last_scraped": "2026-11-16T19:43:16.568446+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "expiry": {
@@ -733,21 +733,21 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "SocialAdministrative/Clerical SupportBasic Hand ToolsBoard ServiceChainsaw ExperienceConstruction/Building TradesEvent Setup/BreakdownFence Repair/CarpentryGardening/PlantingLandscaping/Lawn Care",
+      "SocialAdministrative/Clerical SupportBasic Hand ToolsBoard ServiceChainsaw ExperienceConstruction/Building TradesEvent Setup/BreakdownFence Repair/CarpentryGardening/PlantingLandscaping/Lawn CareProgramCity of Garland",
       "Gardening/Planting",
-      "Landscaping/Lawn Care",
-      "Fence Repair/Carpentry",
-      "Basic Hand Tools",
-      "Instagram",
-      "Administrative/Clerical Support",
-      "Event Setup/Breakdown",
+      "SocialAdministrative/Clerical SupportBasic Hand ToolsBoard ServiceChainsaw ExperienceConstruction/Building TradesEvent Setup/BreakdownFence Repair/CarpentryGardening/PlantingLandscaping/Lawn Care",
       "Social",
-      "Construction/Building Trades",
-      "Chainsaw Experience",
       "Board Service",
-      "SocialAdministrative/Clerical SupportBasic Hand ToolsBoard ServiceChainsaw ExperienceConstruction/Building TradesEvent Setup/BreakdownFence Repair/CarpentryGardening/PlantingLandscaping/Lawn CareProgramCity of Garland"
+      "Basic Hand Tools",
+      "Fence Repair/Carpentry",
+      "Event Setup/Breakdown",
+      "Administrative/Clerical Support",
+      "Chainsaw Experience",
+      "Landscaping/Lawn Care",
+      "Instagram",
+      "Construction/Building Trades"
     ],
-    "last_scraped": "2026-11-16T19:43:26.061302+00:00",
+    "last_scraped": "2026-11-23T21:33:45.462061+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -790,14 +790,14 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical LaborSkilled LaborSocialProgramCity of Garland",
+      "Social",
       "Physical LaborSkilled LaborSocial",
-      "Instagram",
+      "Physical LaborSkilled LaborSocialProgramCity of Garland",
       "Skilled Labor",
-      "Physical Labor",
-      "Social"
+      "Instagram",
+      "Physical Labor"
     ],
-    "last_scraped": "2026-11-16T19:43:43.987663+00:00",
+    "last_scraped": "2026-11-23T21:34:04.681048+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -840,11 +840,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "MarketingProgramCity of Garland",
       "Marketing",
+      "MarketingProgramCity of Garland",
       "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:27.930485+00:00",
+    "last_scraped": "2026-11-23T21:33:47.592366+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -941,20 +941,20 @@
       "General Physical Labor",
       "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:55.350479+00:00",
+    "last_scraped": "2026-11-23T21:34:18.367576+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
+    "unified_tags": [
+      "environment",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": "2027-11-30",
       "model": "gpt-4o-mini",
       "checked_at": "2026-11-16T20:20:29.846352+00:00"
     },
-    "unified_tags": [
-      "environment",
-      "community"
-    ],
     "geo": {
       "city": "Garland",
       "state": "TX",
@@ -1090,11 +1090,11 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
       "Physical LaborProgramCity of Garland",
+      "Physical Labor",
       "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:33.137217+00:00",
+    "last_scraped": "2026-11-23T21:33:53.697459+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1137,13 +1137,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "SocialNonprofit/Community OrganizingProgramCommunity Partners",
-      "Nonprofit/Community Organizing",
-      "Instagram",
+      "SocialNonprofit/Community Organizing",
       "Social",
-      "SocialNonprofit/Community Organizing"
+      "SocialNonprofit/Community OrganizingProgramCommunity Partners",
+      "Instagram",
+      "Nonprofit/Community Organizing"
     ],
-    "last_scraped": "2026-11-16T19:43:51.369625+00:00",
+    "last_scraped": "2026-11-23T21:34:13.943442+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1188,13 +1188,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "SocialNonprofit/Community OrganizingProgramCommunity Partners",
-      "Nonprofit/Community Organizing",
-      "Instagram",
+      "SocialNonprofit/Community Organizing",
       "Social",
-      "SocialNonprofit/Community Organizing"
+      "SocialNonprofit/Community OrganizingProgramCommunity Partners",
+      "Instagram",
+      "Nonprofit/Community Organizing"
     ],
-    "last_scraped": "2026-11-16T19:43:05.755549+00:00",
+    "last_scraped": "2026-11-23T21:33:31.102607+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1677,11 +1677,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
       "Physical LaborProgramCity of Garland",
+      "Physical Labor",
       "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:35.056910+00:00",
+    "last_scraped": "2026-11-23T21:33:55.874669+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1719,14 +1719,14 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "SocialPhysical LaborTechnology",
       "SocialPhysical LaborTechnologyProgramCity of Garland",
-      "Technology",
+      "SocialPhysical LaborTechnology",
+      "Social",
       "Instagram",
       "Physical Labor",
-      "Social"
+      "Technology"
     ],
-    "last_scraped": "2026-11-16T19:43:36.204474+00:00",
+    "last_scraped": "2026-11-23T21:33:56.833480+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1765,12 +1765,12 @@
     "requirements": "Respond",
     "cause_tags": [
       "SocialTechnologyProgramCity of Garland",
-      "Technology",
-      "Instagram",
+      "SocialTechnology",
       "Social",
-      "SocialTechnology"
+      "Instagram",
+      "Technology"
     ],
-    "last_scraped": "2026-11-16T19:43:34.157930+00:00",
+    "last_scraped": "2026-11-23T21:33:54.777103+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1814,14 +1814,14 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
+      "Social",
       "Physical LaborSkilled LaborSocial",
-      "Instagram",
       "Skilled Labor",
-      "Physical LaborSkilled LaborSocialProgramGarland Cares Program",
+      "Instagram",
       "Physical Labor",
-      "Social"
+      "Physical LaborSkilled LaborSocialProgramGarland Cares Program"
     ],
-    "last_scraped": "2026-11-16T19:43:24.043678+00:00",
+    "last_scraped": "2026-11-23T21:33:43.359288+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -1865,14 +1865,14 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
+      "Social",
       "Physical LaborSkilled LaborSocial",
-      "Instagram",
       "Skilled Labor",
-      "Physical LaborSkilled LaborSocialProgramGarland Cares Program",
+      "Instagram",
       "Physical Labor",
-      "Social"
+      "Physical LaborSkilled LaborSocialProgramGarland Cares Program"
     ],
-    "last_scraped": "2026-11-16T19:43:43.146888+00:00",
+    "last_scraped": "2026-11-23T21:34:03.723415+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2032,14 +2032,14 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
+      "Social",
       "Physical LaborSkilled LaborSocial",
-      "Instagram",
       "Skilled Labor",
-      "Physical LaborSkilled LaborSocialProgramGarland Cares Program",
+      "Instagram",
       "Physical Labor",
-      "Social"
+      "Physical LaborSkilled LaborSocialProgramGarland Cares Program"
     ],
-    "last_scraped": "2026-11-16T19:43:39.639607+00:00",
+    "last_scraped": "2026-11-23T21:34:00.664941+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2084,25 +2084,25 @@
     "cause_tags": [
       "Construction/Building TradesFence Repair/CarpentryProgramGarland Cares Program",
       "Construction/Building TradesFence Repair/Carpentry",
+      "Fence Repair/Carpentry",
       "Instagram",
-      "Construction/Building Trades",
-      "Fence Repair/Carpentry"
+      "Construction/Building Trades"
     ],
-    "last_scraped": "2026-11-16T19:43:54.338260+00:00",
+    "last_scraped": "2026-11-23T21:34:17.340501+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
+    "unified_tags": [
+      "veterans",
+      "disabilities",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": "2027-11-30",
       "model": "gpt-4o-mini",
       "checked_at": "2026-11-16T20:20:29.846352+00:00"
     },
-    "unified_tags": [
-      "veterans",
-      "disabilities",
-      "community"
-    ],
     "geo": {
       "city": "Garland",
       "state": "TX",
@@ -2135,7 +2135,7 @@
       "Social"
     ],
     "last_scraped": "2026-11-16T19:43:09.092987+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [
@@ -2271,11 +2271,11 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Social",
       "SocialProgramGarland Public Libraries",
+      "Social",
       "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:17.782867+00:00",
+    "last_scraped": "2026-11-23T21:33:37.264772+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2380,7 +2380,7 @@
       "Social"
     ],
     "last_scraped": "2026-11-16T19:43:12.607804+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [
@@ -2512,13 +2512,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
+      "Physical LaborSocialProgramCity of Garland",
+      "Social",
       "Physical LaborSocial",
       "Instagram",
-      "Physical Labor",
-      "Social",
-      "Physical LaborSocialProgramCity of Garland"
+      "Physical Labor"
     ],
-    "last_scraped": "2026-11-16T19:43:37.917110+00:00",
+    "last_scraped": "2026-11-23T21:33:58.699687+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2654,14 +2654,14 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
+      "SocialPhysical LaborTechnologyProgramCommunity Partners",
       "SocialPhysical LaborTechnology",
-      "Technology",
+      "Social",
       "Instagram",
       "Physical Labor",
-      "Social",
-      "SocialPhysical LaborTechnologyProgramCommunity Partners"
+      "Technology"
     ],
-    "last_scraped": "2026-11-16T19:43:41.921373+00:00",
+    "last_scraped": "2026-11-23T21:34:02.755956+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2705,14 +2705,14 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
+      "SocialPhysical LaborTechnologyProgramCommunity Partners",
       "SocialPhysical LaborTechnology",
-      "Technology",
+      "Social",
       "Instagram",
       "Physical Labor",
-      "Social",
-      "SocialPhysical LaborTechnologyProgramCommunity Partners"
+      "Technology"
     ],
-    "last_scraped": "2026-11-16T19:43:50.548642+00:00",
+    "last_scraped": "2026-11-23T21:34:12.347924+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2808,20 +2808,20 @@
       "Nonprofit/Community Organizing",
       "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:22.680201+00:00",
+    "last_scraped": "2026-11-23T21:33:42.245078+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
+    "unified_tags": [
+      "children",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": "2026-12-12",
       "model": "gpt-4o-mini",
       "checked_at": "2026-11-16T20:20:29.846352+00:00"
     },
-    "unified_tags": [
-      "children",
-      "community"
-    ],
     "geo": {
       "city": "Garland",
       "state": "TX",
@@ -2949,13 +2949,13 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Nonprofit/Community Organizing",
-      "Instagram",
       "Nonprofit/Community OrganizingGeneral Physical LaborProgramCommunity Partners",
       "Nonprofit/Community OrganizingGeneral Physical Labor",
-      "General Physical Labor"
+      "General Physical Labor",
+      "Instagram",
+      "Nonprofit/Community Organizing"
     ],
-    "last_scraped": "2026-11-16T19:43:18.617900+00:00",
+    "last_scraped": "2026-11-23T21:33:38.297462+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -2993,11 +2993,11 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
       "Physical LaborProgramCommunity Partners",
+      "Physical Labor",
       "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:38.765200+00:00",
+    "last_scraped": "2026-11-23T21:33:59.670944+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -3137,24 +3137,24 @@
     "contact": [],
     "requirements": "Respond",
     "cause_tags": [
-      "General Physical Labor",
       "General Physical LaborProgramCommunity Partners",
+      "General Physical Labor",
       "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:21.723879+00:00",
+    "last_scraped": "2026-11-23T21:33:41.211688+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
+    "unified_tags": [
+      "children",
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": "2026-12-12",
       "model": "gpt-4o-mini",
       "checked_at": "2026-11-16T20:20:29.846352+00:00"
     },
-    "unified_tags": [
-      "children",
-      "community"
-    ],
     "geo": {
       "city": "Garland",
       "state": "TX",
@@ -3190,7 +3190,7 @@
       "Instagram"
     ],
     "last_scraped": "2026-11-16T19:43:11.745970+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [
@@ -3843,7 +3843,7 @@
       "Physical LaborProgramGarland Public Libraries",
       "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:14.483856+00:00",
+    "last_scraped": "2026-11-23T21:33:35.898343+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4056,7 +4056,7 @@
       "Administrative/Clerical Support",
       "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:52.367091+00:00",
+    "last_scraped": "2026-11-23T21:34:15.141203+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4352,11 +4352,11 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical LaborProgramVolunteer Litter Program",
       "Physical Labor",
+      "Physical LaborProgramVolunteer Litter Program",
       "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:31.405936+00:00",
+    "last_scraped": "2026-11-23T21:33:51.645509+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4395,12 +4395,12 @@
     "requirements": "Respond",
     "cause_tags": [
       "SocialPhysical Labor",
-      "Instagram",
+      "Social",
       "SocialPhysical LaborProgramParks and Recreation",
-      "Physical Labor",
-      "Social"
+      "Instagram",
+      "Physical Labor"
     ],
-    "last_scraped": "2026-11-16T19:43:27.015278+00:00",
+    "last_scraped": "2026-11-23T21:33:46.568463+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4441,12 +4441,12 @@
     "requirements": "Respond",
     "cause_tags": [
       "SocialPhysical Labor",
-      "Instagram",
+      "Social",
       "SocialPhysical LaborProgramParks and Recreation",
-      "Physical Labor",
-      "Social"
+      "Instagram",
+      "Physical Labor"
     ],
-    "last_scraped": "2026-11-16T19:43:08.155716+00:00",
+    "last_scraped": "2026-11-23T21:33:34.415618+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4496,12 +4496,12 @@
     "requirements": "Respond",
     "cause_tags": [
       "SocialPhysical Labor",
-      "Instagram",
+      "Social",
       "SocialPhysical LaborProgramParks and Recreation",
-      "Physical Labor",
-      "Social"
+      "Instagram",
+      "Physical Labor"
     ],
-    "last_scraped": "2026-11-16T19:43:07.069561+00:00",
+    "last_scraped": "2026-11-23T21:33:33.061556+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4546,15 +4546,15 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Technology",
-      "Instagram",
-      "SocialEducationTeaching/TrainingTechnologyProgramParks and Recreation",
-      "SocialEducationTeaching/TrainingTechnology",
-      "Education",
       "Social",
-      "Teaching/Training"
+      "SocialEducationTeaching/TrainingTechnologyProgramParks and Recreation",
+      "Teaching/Training",
+      "SocialEducationTeaching/TrainingTechnology",
+      "Instagram",
+      "Technology",
+      "Education"
     ],
-    "last_scraped": "2026-11-16T19:43:30.560847+00:00",
+    "last_scraped": "2026-11-23T21:33:50.633371+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4600,15 +4600,15 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Technology",
-      "Instagram",
-      "SocialEducationTeaching/TrainingTechnologyProgramParks and Recreation",
-      "SocialEducationTeaching/TrainingTechnology",
-      "Education",
       "Social",
-      "Teaching/Training"
+      "SocialEducationTeaching/TrainingTechnologyProgramParks and Recreation",
+      "Teaching/Training",
+      "SocialEducationTeaching/TrainingTechnology",
+      "Instagram",
+      "Technology",
+      "Education"
     ],
-    "last_scraped": "2026-11-16T19:43:48.765046+00:00",
+    "last_scraped": "2026-11-23T21:34:10.005714+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4653,13 +4653,13 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Food Service",
       "SocialFood ServiceProgramParks and Recreation",
-      "Instagram",
+      "Social",
+      "Food Service",
       "SocialFood Service",
-      "Social"
+      "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:49.627190+00:00",
+    "last_scraped": "2026-11-23T21:34:11.307556+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -4710,7 +4710,7 @@
       "Instagram"
     ],
     "last_scraped": "2026-11-16T19:43:10.006681+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "unified_tags": [
@@ -4849,23 +4849,23 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Physical Labor",
       "Physical LaborProgramCommunity Partners",
+      "Physical Labor",
       "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:19.604200+00:00",
+    "last_scraped": "2026-11-23T21:33:39.301549+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
+    "unified_tags": [
+      "community"
+    ],
     "expiry": {
       "kind": "one_time",
       "ends_on": "2026-12-12",
       "model": "gpt-4o-mini",
       "checked_at": "2026-11-16T20:20:29.846352+00:00"
     },
-    "unified_tags": [
-      "community"
-    ],
     "geo": {
       "city": "Garland",
       "state": "TX",
@@ -5321,26 +5321,26 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "General Physical LaborProgramGarland Cares Program",
       "General Physical Labor",
+      "General Physical LaborProgramGarland Cares Program",
       "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:20.798424+00:00",
+    "last_scraped": "2026-11-23T21:33:40.225095+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
-    "expiry": {
-      "kind": "one_time",
-      "ends_on": "2026-12-12",
-      "model": "gpt-4o-mini",
-      "checked_at": "2026-11-16T20:20:29.846352+00:00"
-    },
     "unified_tags": [
       "seniors",
       "disabilities",
       "veterans",
       "community"
     ],
+    "expiry": {
+      "kind": "one_time",
+      "ends_on": "2026-12-12",
+      "model": "gpt-4o-mini",
+      "checked_at": "2026-11-16T20:20:29.846352+00:00"
+    },
     "geo": {
       "city": "Garland",
       "state": "TX",
@@ -5375,19 +5375,19 @@
       "Nonprofit/Community Organizing",
       "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:53.327713+00:00",
+    "last_scraped": "2026-11-23T21:34:16.266495+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
+    "unified_tags": [
+      "community"
+    ],
     "expiry": {
       "kind": "ongoing",
       "ends_on": "2027-11-30",
       "model": "gpt-4o-mini",
       "checked_at": "2026-11-16T20:20:29.846352+00:00"
     },
-    "unified_tags": [
-      "community"
-    ],
     "geo": {
       "city": "Garland",
       "state": "TX",
@@ -5418,25 +5418,25 @@
     ],
     "requirements": "Respond",
     "cause_tags": [
-      "Food Service",
-      "Landscaping/Lawn Care",
-      "Tree Care/Tree Trimming",
-      "Painting",
-      "Construction/Building Trades",
-      "Teaching/Training",
-      "Basic Hand Tools",
       "Workshop Instructor/Trainer",
+      "Tree Care/Tree Trimming",
       "Instagram",
-      "Basic Hand ToolsChainsaw ExperienceConstruction/Building TradesEducationEvent Setup/BreakdownFence Repair/CarpentryFood ServiceGeneral Physical LaborLandscaping/Lawn CareMedicalPaintingTeaching/TrainingTree Care/Tree TrimmingWorkshop Instructor/Trainer",
       "Medical",
-      "Event Setup/Breakdown",
-      "Education",
+      "Basic Hand Tools",
+      "Basic Hand ToolsChainsaw ExperienceConstruction/Building TradesEducationEvent Setup/BreakdownFence Repair/CarpentryFood ServiceGeneral Physical LaborLandscaping/Lawn CareMedicalPaintingTeaching/TrainingTree Care/Tree TrimmingWorkshop Instructor/Trainer",
       "Basic Hand ToolsChainsaw ExperienceConstruction/Building TradesEducationEvent Setup/BreakdownFence Repair/CarpentryFood ServiceGeneral Physical LaborLandscaping/Lawn CareMedicalPaintingTeaching/TrainingTree Care/Tree TrimmingWorkshop Instructor/TrainerProgramCity of Garland",
-      "Chainsaw Experience",
       "Fence Repair/Carpentry",
-      "General Physical Labor"
+      "Teaching/Training",
+      "Event Setup/Breakdown",
+      "Painting",
+      "Food Service",
+      "Chainsaw Experience",
+      "General Physical Labor",
+      "Landscaping/Lawn Care",
+      "Education",
+      "Construction/Building Trades"
     ],
-    "last_scraped": "2026-11-16T19:43:45.883267+00:00",
+    "last_scraped": "2026-11-23T21:34:06.735253+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -5478,11 +5478,11 @@
     ],
     "requirements": "Details Get Connected Icon Register by Aug 21, 2026",
     "cause_tags": [
-      "Social",
       "SocialProgramCity of Garland",
+      "Social",
       "Instagram"
     ],
-    "last_scraped": "2026-11-16T19:43:40.864444+00:00",
+    "last_scraped": "2026-11-23T21:34:01.708631+00:00",
     "status": "active",
     "city": "Garland",
     "state": "TX",
@@ -5862,7 +5862,7 @@
       "Social"
     ],
     "last_scraped": "2026-11-16T19:43:10.922520+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "expiry": {
@@ -6186,7 +6186,7 @@
       "Social"
     ],
     "last_scraped": "2026-11-16T19:43:15.612616+00:00",
-    "status": "active",
+    "status": "inactive",
     "city": "Garland",
     "state": "TX",
     "expiry": {
